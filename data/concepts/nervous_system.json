@@ -1,0 +1,76 @@
+{
+  "name": "Nervous System",
+  "type": "BODY_PART",
+  "id": {
+    "group": 23,
+    "item": 1239
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Physiological System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Body Part",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Neurons",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The network of nerve cells and fibers that transmits nerve impulses between parts of the body.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Electrochemical signaling.",
+    "origin": "Biological development."
+  },
+  "instance_layer": [],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "parts": [
+        "Brain",
+        "Spinal cord",
+        "Nerves"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

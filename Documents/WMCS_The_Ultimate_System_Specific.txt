@@ -1,0 +1,2153 @@
+# WMCS: The Ultimate System Specification
+
+## For Vibe Coding & Complete Understanding
+
+---
+
+# PART 1: WHAT IS WMCS?
+
+## 1.1 The One-Sentence Version
+
+```
+WMCS is a knowledge system that stores verified facts in structured "Blocks",
+uses an LLM only as a translator (never as source of truth), can view any
+concept through multiple lenses, finds functional equivalents across domains,
+and improves its reasoning over time — while always being honest about what
+it knows and doesn't know.
+```
+
+## 1.2 The Problem We're Solving
+
+```
+CURRENT LLMs:
+├── Hallucinate confidently (make stuff up)
+├── Can't reliably say "I don't know"
+├── Same question → different answers
+├── No source tracking (where did this come from?)
+├── Can't explain WHY something is true
+├── Can't be surgically edited
+├── Make same reasoning mistakes repeatedly
+├── Can't find cross-domain connections
+└── Only one way to view a concept
+
+WMCS SOLVES ALL OF THIS:
+├── Only asserts what's in verified Blocks
+├── Says "I don't know" when Block doesn't exist
+├── Same Block = same answer always
+├── Every fact traceable to source
+├── Stores mechanisms (WHY, not just WHAT)
+├── Edit one Block without retraining
+├── Learns better reasoning strategies (Reflective Workspace)
+├── Finds equivalents across domains (paw ≈ hand)
+└── Multiple lenses on every concept (structure, function, evolution, etc.)
+```
+
+## 1.3 The Vision
+
+```
+TODAY'S LLM:
+"I'll answer anything, but I might be wrong, and I can't tell you
+ which parts are reliable or where I got this information."
+
+WMCS:
+"I have verified knowledge stored in Blocks. I'll answer from what
+ I know, tell you my confidence, cite my sources, explain WHY
+ through mechanisms, show you multiple perspectives, find connections
+ across domains, and clearly say when I don't know something.
+ I get better over time by learning from my reasoning patterns."
+```
+
+## 1.4 The Long-Term Path
+
+```
+STAGE 1: Start Narrow
+├── Pick ONE domain (e.g., biology, cooking, law)
+├── Build 100-1000 Blocks
+├── Test, refine, prove it works
+└── RESULT: Domain expert system
+
+STAGE 2: Expand Domains
+├── Add more domains
+├── Connect cross-domain Blocks
+├── Improve learning pipeline
+└── RESULT: Multi-domain system
+
+STAGE 3: General Knowledge
+├── Thousands of domains
+├── Millions of Blocks
+├── Automated learning from documents
+└── RESULT: General Knowledge AI
+
+STAGE 4: Self-Sustaining
+├── System identifies its own gaps
+├── Seeks information to fill them
+├── Minimal human oversight
+└── RESULT: Autonomous Knowledge System
+
+THE ARCHITECTURE STAYS THE SAME — ONLY SCALE CHANGES
+```
+
+---
+
+# PART 2: SYSTEM ARCHITECTURE
+
+## 2.1 The Two-Part System
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                              WMCS SYSTEM                                    │
+│                                                                             │
+│   ┌───────────────────────────────────────────────────────────────────────┐ │
+│   │                     SYSTEM B (LLM Layer)                              │ │
+│   │                     Role: TRANSLATOR                                  │ │
+│   │                                                                       │ │
+│   │   • Parse natural language → structured query                         │ │
+│   │   • Disambiguate words → Block IDs                                    │ │
+│   │   • Select reasoning mode and lenses                                  │ │
+│   │   • Extract entities/relations from documents                         │ │
+│   │   • Generate natural language output                                  │ │
+│   │                                                                       │ │
+│   │   NEVER: Make up facts, do math, decide confidence                    │ │
+│   └───────────────────────────────────────────────────────────────────────┘ │
+│                                    │                                        │
+│                                    ▼                                        │
+│   ┌───────────────────────────────────────────────────────────────────────┐ │
+│   │                     SYSTEM A (Cognitive Engine)                       │ │
+│   │                     Role: BRAIN                                       │ │
+│   │                                                                       │ │
+│   │   ┌─────────────┐  ┌─────────────┐  ┌─────────────┐                   │ │
+│   │   │   STORES    │  │  WORKSPACE  │  │  REASONING  │                   │ │
+│   │   │             │  │             │  │   ENGINE    │                   │ │
+│   │   │ • Concept   │─▶│ • Activate  │─▶│             │                   │ │
+│   │   │ • Evidence  │  │ • Connect   │  │ • Multi-Lens│                   │ │
+│   │   │ • Documents │  │ • Extend    │  │ • 5 Modes   │                   │ │
+│   │   │ • Meta      │  │ • Compare   │  │ • Compute   │                   │ │
+│   │   └─────────────┘  └─────────────┘  └──────┬──────┘                   │ │
+│   │                                            │                          │ │
+│   │                                            ▼                          │ │
+│   │                                   ┌─────────────────┐                 │ │
+│   │                                   │ EPISTEMIC GATE  │                 │ │
+│   │                                   │                 │                 │ │
+│   │                                   │ • Validate      │                 │ │
+│   │                                   │ • Confidence    │                 │ │
+│   │                                   │ • Contract      │                 │ │
+│   │                                   └────────┬────────┘                 │ │
+│   │                                            │                          │ │
+│   └────────────────────────────────────────────┼──────────────────────────┘ │
+│                                                │                            │
+│   ┌────────────────────────────────────────────┼──────────────────────────┐ │
+│   │                    REFLECTIVE WORKSPACE (v5.1)                        │ │
+│   │                                            │                          │ │
+│   │   • Log reasoning traces                   │                          │ │
+│   │   • Analyze outcomes                       │                          │ │
+│   │   • Learn strategy lessons (NOT facts)     │                          │ │
+│   │   • HARD WALL: Cannot modify Blocks        │                          │ │
+│   │                                            │                          │ │
+│   └────────────────────────────────────────────┴──────────────────────────┘ │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+## 2.2 The Hybrid Approach (Who Does What)
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   CODE DOES (Deterministic, Exact):                                         │
+│   ════════════════════════════════                                          │
+│   • Store/retrieve Blocks                                                   │
+│   • ALL arithmetic (270 × 0.7 = 189)                                        │
+│   • ALL comparisons (189 > 175)                                             │
+│   • Graph traversal (follow relations)                                      │
+│   • Confidence calculations                                                 │
+│   • Contract generation                                                     │
+│   • Source tracking                                                         │
+│   • Status progression (PROVISIONAL → VERIFIED)                             │
+│   • Boundary enforcement (reflection can't touch Blocks)                    │
+│   • ID assignment (auto-increment)                                          │
+│                                                                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   LLM DOES (Flexible, Constrained):                                         │
+│   ═══════════════════════════════                                           │
+│   • Parse natural language → structured query                               │
+│   • Disambiguate words → correct Block ID                                   │
+│   • Classify concepts to Groups                                             │
+│   • Select reasoning mode                                                   │
+│   • Select relevant lenses                                                  │
+│   • Extract entities from documents                                         │
+│   • Extract relationships from text                                         │
+│   • Generate natural language output (following contract)                   │
+│   • Analyze failure patterns (for reflection)                               │
+│                                                                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   LLM NEVER DOES:                                                           │
+│   ════════════════                                                          │
+│   • Math calculations                                                       │
+│   • Value comparisons                                                       │
+│   • Confidence scores                                                       │
+│   • Deciding what can/cannot be asserted                                    │
+│   • Inventing facts not in Blocks                                           │
+│   • Modifying Blocks directly                                               │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+# PART 3: IDENTITY SYSTEM
+
+## 3.1 The Four Ontological Roots
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                         FOUR ONTOLOGICAL ROOTS                              │
+│                                                                             │
+│   ┌─────────────────────────────────────────────────────────────────────┐   │
+│   │ PHYSICAL (Groups 20-39)                                             │   │
+│   │ "Things that exist independently of human minds"                    │   │
+│   │                                                                     │   │
+│   │ • Matter/Substances (20): water, iron, oxygen                       │   │
+│   │ • Animals (21): cat, dog, elephant                                  │   │
+│   │ • Plants/Biological (22): tree, cell, bacteria                      │   │
+│   │ • Body Parts (23): heart, paw, hand, eye                            │   │
+│   │ • Natural Phenomena (24): rain, earthquake, lightning               │   │
+│   │ • Physical Actions (30): jump, run, fly                             │   │
+│   │ • Processes (31): combustion, photosynthesis, digestion             │   │
+│   │ • Objects/Artifacts (35): table, phone, car                         │   │
+│   │ • Structures (36): house, bridge, tower                             │   │
+│   │ • Locations (37): river, mountain, city                             │   │
+│   │                                                                     │   │
+│   │ Grounding: Physical observation, measurement, scientific method     │   │
+│   └─────────────────────────────────────────────────────────────────────┘   │
+│                                                                             │
+│   ┌─────────────────────────────────────────────────────────────────────┐   │
+│   │ MATHEMATICAL (Groups 40-49)                                         │   │
+│   │ "Things true by definition/proof, independent of physical world"    │   │
+│   │                                                                     │   │
+│   │ • Numbers (40): integers, primes, π                                 │   │
+│   │ • Shapes (41): circle, triangle, sphere                             │   │
+│   │ • Operations (42): addition, integration                            │   │
+│   │ • Structures (43): groups, rings, fields                            │   │
+│   │ • Logic (44): propositions, proofs, theorems                        │   │
+│   │                                                                     │   │
+│   │ Grounding: Axioms, definitions, formal proofs                       │   │
+│   └─────────────────────────────────────────────────────────────────────┘   │
+│                                                                             │
+│   ┌─────────────────────────────────────────────────────────────────────┐   │
+│   │ ABSTRACT (Groups 50-59)                                             │   │
+│   │ "Ideas, patterns, concepts without physical or formal grounding"    │   │
+│   │                                                                     │   │
+│   │ • Abstract Concepts (50): truth, beauty, justice, freedom           │   │
+│   │ • Theoretical (51): consciousness, meaning                          │   │
+│   │ • Patterns (52): recursion, symmetry                                │   │
+│   │ • Fictional (53): unicorn, Harry Potter                             │   │
+│   │ • Functional Roles (55): MANIPULATOR, LOCOMOTOR, SENSOR             │   │
+│   │                                                                     │   │
+│   │ Grounding: Exemplars, contrasts, metaphors, usage patterns          │   │
+│   └─────────────────────────────────────────────────────────────────────┘   │
+│                                                                             │
+│   ┌─────────────────────────────────────────────────────────────────────┐   │
+│   │ SOCIAL (Groups 60-69)                                               │   │
+│   │ "Things that exist because humans collectively agree"               │   │
+│   │                                                                     │   │
+│   │ • Persons (60): Einstein, Shakespeare                               │   │
+│   │ • Institutions (61): bank, government, university                   │   │
+│   │ • Social Constructs (62): money, law, marriage                      │   │
+│   │ • Roles (63): president, teacher, doctor                            │   │
+│   │ • Events (64): French Revolution, World War II                      │   │
+│   │                                                                     │   │
+│   │ Grounding: Collective agreement, rules, conventions, institutions   │   │
+│   └─────────────────────────────────────────────────────────────────────┘   │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+## 3.2 ID Structure
+
+```
+CONCEPT ID = (Group, Item)
+
+Examples:
+├── CAT = (21, 61)           # Group 21 (Animals), Item 61
+├── CAT_PAW = (23, 51)       # Group 23 (Body Parts), Item 51
+├── HUMAN_HAND = (23, 61)    # Group 23 (Body Parts), Item 61
+├── MANIPULATOR = (55, 1)    # Group 55 (Functional Roles), Item 1
+├── JUSTICE = (50, 15)       # Group 50 (Abstract Concepts), Item 15
+└── MONEY = (62, 1)          # Group 62 (Social Constructs), Item 1
+
+WHY THIS MATTERS:
+├── Same ID = same concept always (no drift)
+├── Group tells you ontological type
+├── Can traverse: CAT → has_part → CAT_PAW → is_a → PAW
+└── Stable reference across all documents
+```
+
+## 3.3 NAME_ID Registry (Disambiguation)
+
+```
+PROBLEM: "bank" can mean financial institution OR river edge
+
+SOLUTION: Registry maps (language, word, context) → ID
+
+┌──────────┬──────────┬─────────────┬──────────┬─────────┐
+│ language │ name     │ context     │ id_group │ id_item │
+├──────────┼──────────┼─────────────┼──────────┼─────────┤
+│ en       │ cat      │ animal      │ 21       │ 61      │
+│ en       │ bank     │ financial   │ 61       │ 10      │
+│ en       │ bank     │ river       │ 37       │ 20      │
+│ es       │ gato     │ animal      │ 21       │ 61      │
+│ en       │ paw      │ body_part   │ 23       │ 50      │
+│ en       │ hand     │ body_part   │ 23       │ 60      │
+└──────────┴──────────┴─────────────┴──────────┴─────────┘
+
+LLM disambiguates: "I deposited money at the bank" → financial
+Code looks up: bank + financial → (61, 10)
+```
+
+---
+
+# PART 4: CONCEPT BLOCKS
+
+## 4.1 Block Structure with Multi-Lens Facets
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   CONCEPT BLOCK                                                             │
+│   ═════════════                                                             │
+│                                                                             │
+│   CORE IDENTITY                                                             │
+│   ├── id: ConceptID (Group, Item)                                           │
+│   ├── name: str                                                             │
+│   ├── aliases: list[str]                                                    │
+│   ├── primary_type: PHYSICAL | MATHEMATICAL | ABSTRACT | SOCIAL             │
+│   └── status: PROVISIONAL | SUPPORTED | VERIFIED | ESTABLISHED              │
+│                                                                             │
+│   THREE LAYERS (Depth)                                                      │
+│   ├── SURFACE: Common knowledge (loads instantly)                           │
+│   ├── DEEP: Expert/mechanism knowledge (loads on demand)                    │
+│   └── INSTANCE: Specific individuals (loads when referenced)                │
+│                                                                             │
+│   MULTI-LENS FACETS (Different views of same concept)                       │
+│   ├── STRUCTURE: What it's made of, parts, composition                      │
+│   ├── FUNCTION: What it does, roles it fills, capabilities                  │
+│   ├── EQUIVALENCE: What it's like, counterparts, analogs                    │
+│   ├── HIERARCHY: is_a, has_types, part_of, has_parts                        │
+│   ├── MECHANISM: How it works, cause-effect chains                          │
+│   ├── EVOLUTION: Where it came from, homologs                               │
+│   ├── BEHAVIOR: Actions, patterns, typical uses                             │
+│   ├── SOCIAL: Signals, meanings, cultural role                              │
+│   ├── DEVELOPMENT: How it forms, lifecycle, changes                         │
+│   ├── CONTRAST: What it's NOT, boundaries, differences                      │
+│   └── EXEMPLAR: Examples, typical cases, edge cases                         │
+│                                                                             │
+│   EPISTEMIC METADATA                                                        │
+│   ├── sources: list[Source]                                                 │
+│   ├── confidence: float (0.0 - 1.0)                                         │
+│   └── grounding_stack: list[Grounding]                                      │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+## 4.2 Complete Example: CAT_PAW Block
+
+```python
+CAT_PAW_BLOCK = {
+    
+    # ═══════════════════════════════════════════════════════════════
+    # CORE IDENTITY
+    # ═══════════════════════════════════════════════════════════════
+    
+    "id": (23, 51),
+    "name": "cat paw",
+    "aliases": ["cat's paw", "feline paw"],
+    "primary_type": "PHYSICAL",
+    "status": "VERIFIED",
+    
+    # ═══════════════════════════════════════════════════════════════
+    # THREE LAYERS
+    # ═══════════════════════════════════════════════════════════════
+    
+    "surface": {
+        # Common knowledge - loads instantly
+        "has_pads": True,
+        "has_claws": True,
+        "retractable_claws": True,
+        "count_per_cat": 4,
+        "toes_front": 5,
+        "toes_back": 4
+    },
+    
+    "deep": {
+        # Expert knowledge - loads on demand
+        "claw_composition": "keratin",
+        "pad_function": "shock absorption, silent walking",
+        "nerve_density": "high - sensitive to vibration",
+        "retraction_mechanism": "elastic ligament + muscle control"
+    },
+    
+    "instances": {
+        # Specific individuals
+        "garfield_paw": {"condition": "healthy", "declawed": False},
+        "injured_stray": {"condition": "injured", "missing_toes": 1}
+    },
+    
+    # ═══════════════════════════════════════════════════════════════
+    # MULTI-LENS FACETS
+    # ═══════════════════════════════════════════════════════════════
+    
+    "facets": {
+        
+        "STRUCTURE": {
+            "parts": ["PAD", "CLAW", "TOE", "BONE", "MUSCLE", "TENDON"],
+            "composition": ["keratin", "bone", "soft tissue"],
+            "dimensions": {"length": "3-4cm", "width": "2-3cm"}
+        },
+        
+        "FUNCTION": {
+            "roles": ["MANIPULATOR", "LOCOMOTOR", "WEAPON", "SENSOR"],
+            "capabilities": {
+                "grasp": True,
+                "rotate": False,
+                "fine_manipulation": False,
+                "silent_walk": True,
+                "climb": True,
+                "attack": True,
+                "sense_vibration": True
+            }
+        },
+        
+        "EQUIVALENCE": {
+            "equivalent_to": ["HUMAN_HAND", "DOG_PAW", "BEAR_PAW"],
+            "counterpart_of": "HAND",  # "This is what HAND is for cats"
+            "fills_role": ["MANIPULATOR", "LOCOMOTOR"],
+            "NOT_equivalent_for": ["rotation", "fine_manipulation", "tool_use"]
+        },
+        
+        "HIERARCHY": {
+            "is_a": ["PAW", "BODY_PART", "APPENDAGE"],
+            "has_types": ["FRONT_PAW", "BACK_PAW"],
+            "part_of": ["CAT", "CAT_LEG"],
+            "has_parts": ["CLAW", "PAD", "TOE"]
+        },
+        
+        "MECHANISM": {
+            "claw_retraction": {
+                "chain": ["muscle_relax", "elastic_ligament_pull", "claw_retract"],
+                "type": "CAUSAL_LAW"
+            },
+            "silent_walking": {
+                "chain": ["soft_pad", "absorb_impact", "no_sound"],
+                "type": "CAUSAL_LAW"
+            }
+        },
+        
+        "EVOLUTION": {
+            "evolved_from": "PROTO_CARNIVORE_PAW",
+            "homolog_of": ["HUMAN_HAND", "DOG_PAW", "WHALE_FLIPPER"],
+            "diverged": "65 million years ago",
+            "evolved_for": ["hunting", "climbing", "silent_stalking"]
+        },
+        
+        "BEHAVIOR": {
+            "actions": ["scratch", "knead", "swipe", "grip", "retract", "extend"],
+            "typical_uses": ["walking", "hunting", "climbing", "grooming", "play"]
+        },
+        
+        "SOCIAL": {
+            "signals": {
+                "kneading": "affection/comfort (from nursing behavior)",
+                "scratching_surface": "territory marking",
+                "claws_extended": "threat/defense",
+                "paw_touch": "attention seeking"
+            }
+        },
+        
+        "DEVELOPMENT": {
+            "forms_at": "embryo week 3",
+            "claws_emerge": "birth",
+            "retraction_ability": "week 4",
+            "full_function": "week 8"
+        },
+        
+        "CONTRAST": {
+            "differs_from": {
+                "HUMAN_HAND": ["no opposable thumb", "has claws not nails", 
+                              "walks on it", "less fine motor control"],
+                "DOG_PAW": ["retractable claws (cats) vs fixed (dogs)", 
+                           "more flexible digits"]
+            },
+            "NOT_this": ["hoof", "fin", "wing", "hand"]
+        }
+    },
+    
+    # ═══════════════════════════════════════════════════════════════
+    # EPISTEMIC METADATA
+    # ═══════════════════════════════════════════════════════════════
+    
+    "sources": [
+        {"doc": "Veterinary Anatomy Textbook", "trust": 0.90},
+        {"doc": "Cat Behavior Journal", "trust": 0.85}
+    ],
+    "confidence": 0.87,
+    "grounding_stack": [
+        {"type": "PHYSICAL", "method": "anatomical observation"},
+        {"type": "PHYSICAL", "method": "behavioral study"}
+    ]
+}
+```
+
+## 4.3 Four Block Types
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   PHYSICAL BLOCK (Groups 20-39)                                             │
+│   ═════════════════════════════                                             │
+│   Additional fields:                                                        │
+│   ├── composition: What it's made of                                        │
+│   ├── parts: Structural components                                          │
+│   ├── behaviors: What it can do                                             │
+│   ├── constraints: Physical limitations                                     │
+│   └── mechanisms: How it works (cause-effect)                               │
+│                                                                             │
+│   Grounding: Physical observation, measurement, experiment                  │
+│                                                                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   MATHEMATICAL BLOCK (Groups 40-49)                                         │
+│   ═══════════════════════════════                                           │
+│   Additional fields:                                                        │
+│   ├── definition: Formal definition                                         │
+│   ├── axioms: Foundational assumptions                                      │
+│   ├── properties: Mathematical properties                                   │
+│   ├── theorems: Related proofs                                              │
+│   └── operations: What can be done with it                                  │
+│                                                                             │
+│   Grounding: Axioms, definitions, formal proofs                             │
+│                                                                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   SOCIAL BLOCK (Groups 60-69)                                               │
+│   ═════════════════════════════                                             │
+│   Additional fields:                                                        │
+│   ├── conventions: Collective agreements                                    │
+│   ├── rules: Formal/informal rules                                          │
+│   ├── contexts: Where valid                                                 │
+│   ├── institutions: Supporting structures                                   │
+│   └── history: How it came to be                                            │
+│                                                                             │
+│   Grounding: Collective agreement, legal documents, conventions             │
+│                                                                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   ABSTRACT BLOCK (Groups 50-59)                                             │
+│   ═════════════════════════════                                             │
+│   Additional fields:                                                        │
+│   ├── exemplars: Clear examples                                             │
+│   ├── contrasts: What it's NOT                                              │
+│   ├── metaphors: Conceptual mappings                                        │
+│   ├── debates: Contested aspects                                            │
+│   └── usage_patterns: How the concept is used                               │
+│                                                                             │
+│   Grounding: Examples, contrasts, usage patterns, expert consensus          │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+# PART 5: FUNCTIONAL ROLES & EQUIVALENCE
+
+## 5.1 The Key Insight
+
+```
+A "CAT PAW" and "HUMAN HAND" are:
+├── Structurally DIFFERENT (pads vs fingers, claws vs nails)
+├── Functionally SIMILAR (both grasp, manipulate, interact)
+├── Conceptually EQUIVALENT (both fill the "MANIPULATOR" role)
+
+This allows the system to:
+├── Answer: "What do cats use instead of hands?" → Paws
+├── Answer: "Is a paw like a hand?" → Yes, functionally
+├── Answer: "Can a cat use human tools?" → No, because NOT_equivalent_for rotation
+└── Find connections across ANY domain
+```
+
+## 5.2 Functional Roles
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   FUNCTIONAL ROLES (Group 55: Abstract functional purposes)                 │
+│                                                                             │
+│   MANIPULATOR_ROLE (55, 1)                                                  │
+│   ├── definition: "Body part used to grasp, hold, manipulate objects"       │
+│   ├── function: ["grasp", "hold", "manipulate", "interact"]                 │
+│   ├── filled_by:                                                            │
+│   │     ├── HUMAN → HAND (fingers + thumb)                                  │
+│   │     ├── CAT → PAW (claws + pads)                                        │
+│   │     ├── ELEPHANT → TRUNK (prehensile)                                   │
+│   │     ├── OCTOPUS → TENTACLE (suction cups)                               │
+│   │     └── ROBOT → GRIPPER (mechanical)                                    │
+│   │                                                                         │
+│   LOCOMOTOR_ROLE (55, 2)                                                    │
+│   ├── definition: "Body part used for movement/travel"                      │
+│   ├── filled_by:                                                            │
+│   │     ├── HUMAN → LEG (bipedal walking)                                   │
+│   │     ├── CAT → LEG (quadruped)                                           │
+│   │     ├── FISH → FIN (swimming)                                           │
+│   │     ├── BIRD → WING (flying)                                            │
+│   │     └── SNAKE → BODY (slithering)                                       │
+│   │                                                                         │
+│   SENSOR_VISUAL_ROLE (55, 3)                                                │
+│   ├── definition: "Body part used for seeing"                               │
+│   ├── filled_by:                                                            │
+│   │     ├── HUMAN → EYE (binocular color)                                   │
+│   │     ├── CAT → EYE (night vision)                                        │
+│   │     ├── SPIDER → EYES (8-eye array)                                     │
+│   │     └── BAT → EARS (echolocation - not eyes!)                           │
+│   │                                                                         │
+│   ... more roles ...                                                        │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+## 5.3 Equivalence Relations
+
+```python
+EQUIVALENCE_RELATIONS = {
+    
+    # What role does this part fill?
+    "fills_role": "X fills functional role Y",
+    # cat_paw fills_role MANIPULATOR
+    # human_hand fills_role MANIPULATOR
+    
+    # Direct functional equivalence
+    "equivalent_to": "X is functionally equivalent to Y",
+    # cat_paw equivalent_to human_hand
+    
+    # Context-specific version
+    "counterpart_of": "X is the [context] version of Y",
+    # cat_paw counterpart_of hand ("paw is hand for cats")
+    # fin counterpart_of leg ("fin is leg for fish")
+    
+    # Explicit limitations
+    "NOT_equivalent_for": "X is NOT equivalent to Y for specific tasks",
+    # cat_paw NOT_equivalent_for human_hand FOR ["rotation", "fine_manipulation"]
+    
+    # Same function, different evolutionary origin
+    "analog_of": "X serves same function as Y (different origin)",
+    # bird_wing analog_of insect_wing (both fly, different evolution)
+    
+    # Same origin, different function
+    "homolog_of": "X shares evolutionary origin with Y",
+    # whale_flipper homolog_of human_arm (same bone structure)
+}
+```
+
+## 5.4 How Equivalence Queries Work
+
+```
+QUERY: "What do cats use instead of hands?"
+
+STEP 1: Understand query
+├── Looking for: equivalent of HAND for CAT
+├── Relation needed: fills_role or equivalent_to
+
+STEP 2: Find what role HAND fills
+├── Load HUMAN_HAND Block
+├── Check facets.FUNCTION.roles → [MANIPULATOR]
+
+STEP 3: Find what fills MANIPULATOR for CAT
+├── Query: What fills_role MANIPULATOR AND specific_to CAT?
+├── Result: CAT_PAW
+
+STEP 4: Verify equivalence
+├── CAT_PAW equivalent_to HUMAN_HAND? Yes (for grasping)
+├── CAT_PAW NOT_equivalent_for? ["rotation", "fine_manipulation"]
+
+STEP 5: Generate answer
+"Cats use their paws as the equivalent of human hands. While 
+structurally different (pads and claws vs fingers and nails), 
+both serve as the primary manipulation tool for their species.
+
+Note: Cat paws can't rotate or do fine manipulation like hands can."
+```
+
+---
+
+# PART 6: MULTI-LENS REASONING
+
+## 6.1 The Standard Lenses
+
+```python
+STANDARD_LENSES = {
+    
+    # ═══════════════════════════════════════════════════════════════
+    # PHYSICAL LENSES (What it IS)
+    # ═══════════════════════════════════════════════════════════════
+    
+    "STRUCTURE": {
+        "description": "Physical composition and parts",
+        "questions_it_answers": [
+            "What is it made of?",
+            "What are its parts?",
+            "How big is it?"
+        ]
+    },
+    
+    "MECHANISM": {
+        "description": "How it works causally",
+        "questions_it_answers": [
+            "How does it work?",
+            "What causes what?",
+            "Why does X happen?"
+        ]
+    },
+    
+    # ═══════════════════════════════════════════════════════════════
+    # FUNCTIONAL LENSES (What it DOES)
+    # ═══════════════════════════════════════════════════════════════
+    
+    "FUNCTION": {
+        "description": "Purpose and roles it serves",
+        "questions_it_answers": [
+            "What is it for?",
+            "What can it do?",
+            "What role does it play?"
+        ]
+    },
+    
+    "BEHAVIOR": {
+        "description": "Actions and patterns",
+        "questions_it_answers": [
+            "What does it do?",
+            "How is it used?",
+            "What are typical behaviors?"
+        ]
+    },
+    
+    # ═══════════════════════════════════════════════════════════════
+    # RELATIONAL LENSES (How it CONNECTS)
+    # ═══════════════════════════════════════════════════════════════
+    
+    "EQUIVALENCE": {
+        "description": "Functional equivalents across contexts",
+        "questions_it_answers": [
+            "What is this like?",
+            "What's the X version of this?",
+            "What serves the same purpose?"
+        ]
+    },
+    
+    "HIERARCHY": {
+        "description": "Categorical relationships",
+        "questions_it_answers": [
+            "What type is this?",
+            "What are examples?",
+            "What categories does it belong to?"
+        ]
+    },
+    
+    "CAUSATION": {
+        "description": "Cause and effect relationships",
+        "questions_it_answers": [
+            "What causes this?",
+            "What does this cause?",
+            "What enables/prevents this?"
+        ]
+    },
+    
+    # ═══════════════════════════════════════════════════════════════
+    # TEMPORAL LENSES (How it CHANGES)
+    # ═══════════════════════════════════════════════════════════════
+    
+    "EVOLUTION": {
+        "description": "Evolutionary history and relatives",
+        "questions_it_answers": [
+            "Where did this come from?",
+            "What's it related to evolutionarily?",
+            "How did it develop over time?"
+        ]
+    },
+    
+    "DEVELOPMENT": {
+        "description": "How it forms and changes over time",
+        "questions_it_answers": [
+            "How does it develop?",
+            "What stages does it go through?",
+            "How does it change with age?"
+        ]
+    },
+    
+    # ═══════════════════════════════════════════════════════════════
+    # SOCIAL LENSES (Human context)
+    # ═══════════════════════════════════════════════════════════════
+    
+    "SOCIAL": {
+        "description": "Social meaning and signals",
+        "questions_it_answers": [
+            "What does this mean socially?",
+            "What does this signal?",
+            "How do people interpret this?"
+        ]
+    },
+    
+    # ═══════════════════════════════════════════════════════════════
+    # BOUNDARY LENSES (What it's NOT)
+    # ═══════════════════════════════════════════════════════════════
+    
+    "CONTRAST": {
+        "description": "What it is NOT, boundaries",
+        "questions_it_answers": [
+            "What is this not?",
+            "How is this different from X?",
+            "What are the boundaries?"
+        ]
+    }
+}
+```
+
+## 6.2 Multi-Lens Reasoning Example
+
+```
+QUERY: "Why can't cats open door handles?"
+
+STEP 1: SELECT RELEVANT LENSES
+├── Question involves: capability (can't), mechanism (why)
+├── Selected: [FUNCTION, STRUCTURE, EQUIVALENCE, MECHANISM]
+
+STEP 2: REASON THROUGH EACH LENS
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ LENS: FUNCTION                                                              │
+│ ══════════════                                                              │
+│                                                                             │
+│ DOOR_HANDLE requires: MANIPULATOR with [grip + rotate + pull]               │
+│ CAT_PAW capabilities: {grasp: true, rotate: FALSE, pull: limited}           │
+│                                                                             │
+│ Finding: Functional mismatch — paw can't rotate                             │
+│ Confidence: 0.90                                                            │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ LENS: STRUCTURE                                                             │
+│ ═══════════════                                                             │
+│                                                                             │
+│ DOOR_HANDLE needs: opposable_grip = TRUE                                    │
+│ CAT_PAW has: opposable_grip = FALSE                                         │
+│ HUMAN_HAND has: opposable_grip = TRUE                                       │
+│                                                                             │
+│ Finding: Structural limitation — no opposable thumb                         │
+│ Confidence: 0.95                                                            │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ LENS: EQUIVALENCE                                                           │
+│ ════════════════                                                            │
+│                                                                             │
+│ CAT_PAW equivalent_to HUMAN_HAND? Partially                                 │
+│ CAT_PAW NOT_equivalent_for: ["rotation", "fine_manipulation"]               │
+│                                                                             │
+│ Finding: Equivalence is partial — breaks down for rotation tasks            │
+│ Confidence: 0.85                                                            │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ LENS: MECHANISM                                                             │
+│ ═══════════════                                                             │
+│                                                                             │
+│ Door handle operation requires: grip → rotate → push/pull                   │
+│ Cat paw can do: grip (limited) → rotate (NO) → push/pull (YES)              │
+│ Chain breaks at: rotation step                                              │
+│                                                                             │
+│ Finding: Mechanism breaks down at rotation step                             │
+│ Confidence: 0.90                                                            │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+STEP 3: COMBINE LENS FINDINGS
+
+All lenses agree: The issue is rotation capability
+├── FUNCTION: rotate = FALSE
+├── STRUCTURE: no opposable thumb for grip-and-twist
+├── EQUIVALENCE: NOT_equivalent_for rotation
+└── MECHANISM: chain breaks at rotation step
+
+Combined confidence: 0.90
+
+STEP 4: GENERATE RESPONSE
+
+"Cats can't open most door handles because:
+
+1. Structural: Cat paws lack opposable thumbs needed to grip and turn
+2. Functional: Paws can grasp but can't rotate like hands
+3. Mechanical: The door-opening sequence (grip → rotate → pull) 
+   breaks down at the rotation step
+
+However, cats CAN open:
+• Lever handles (push down — no rotation needed)
+• Push doors (just push)
+• Sliding doors (hook and pull)
+
+This shows that while paws are functionally equivalent to hands 
+for many tasks (grasping, climbing), they're not equivalent for 
+tasks requiring rotation or fine manipulation."
+```
+
+---
+
+# PART 7: REASONING MODES
+
+## 7.1 The Five Reasoning Modes
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   MODE 1: CAUSAL                                                            │
+│   ════════════════                                                          │
+│   For: "Why/how" questions about physical causation                         │
+│                                                                             │
+│   Example: "Why do birds fly?"                                              │
+│   Reasoning: wings → air pressure differential → lift → flight              │
+│   Follows: mechanism chains in Blocks                                       │
+│                                                                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   MODE 2: FORMAL                                                            │
+│   ═══════════════                                                           │
+│   For: Mathematical or logical questions                                    │
+│                                                                             │
+│   Example: "Is 7 a prime number?"                                           │
+│   Reasoning: Check definition → divisible only by 1 and self → YES          │
+│   Follows: definitions, axioms, proofs                                      │
+│                                                                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   MODE 3: CONSTITUTIVE                                                      │
+│   ══════════════════                                                        │
+│   For: Social/institutional questions                                       │
+│                                                                             │
+│   Example: "Is this legal tender?"                                          │
+│   Reasoning: Check conventions → issued by authority → accepted → YES       │
+│   Follows: rules, conventions, collective agreements                        │
+│                                                                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   MODE 4: TELEOLOGICAL                                                      │
+│   ═════════════════════                                                     │
+│   For: Purpose/function questions                                           │
+│                                                                             │
+│   Example: "What is a heart for?"                                           │
+│   Reasoning: function = pumping blood → enables circulation                 │
+│   Follows: purpose, design, function facets                                 │
+│                                                                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   MODE 5: RELATIONAL                                                        │
+│   ════════════════════                                                      │
+│   For: Comparison and relationship questions                                │
+│                                                                             │
+│   Example: "Is X bigger than Y?"                                            │
+│   Reasoning: Load X.size, load Y.size, compare                              │
+│   Follows: relations, comparisons, equivalence                              │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+## 7.2 Mode Selection (LLM Decides)
+
+```python
+MODE_TRIGGERS = {
+    "CAUSAL": ["why does", "how does", "what causes", "what makes"],
+    "FORMAL": ["is it true that", "prove", "calculate", "logically"],
+    "CONSTITUTIVE": ["is this legal", "does this count as", "is this valid"],
+    "TELEOLOGICAL": ["what is X for", "purpose of", "why do we have"],
+    "RELATIONAL": ["compare", "bigger than", "difference between", "similar to"]
+}
+
+# LLM selects mode based on question, Code executes the mode
+```
+
+---
+
+# PART 8: EPISTEMIC SYSTEM
+
+## 8.1 Source Trust Levels
+
+```python
+SOURCE_TRUST = {
+    "PEER_REVIEWED":    0.90,  # Scientific journals
+    "TEXTBOOK":         0.85,  # Academic textbooks
+    "ENCYCLOPEDIA":     0.75,  # Wikipedia, Britannica
+    "OFFICIAL_DOC":     0.80,  # Government, legal documents
+    "NEWS_MAJOR":       0.50,  # Major news outlets
+    "BLOG":             0.30,  # Personal blogs
+    "SOCIAL_MEDIA":     0.10,  # Twitter, Reddit
+    "LLM_GENERATED":    0.00,  # NEVER trust LLM as source
+}
+```
+
+## 8.2 Status Progression
+
+```
+PROVISIONAL ─────────────────────────────────────────────────────┐
+     │                                                           │
+     │ 1 source with trust ≥ 0.5                                 │
+     ▼                                                           │
+SUPPORTED ───────────────────────────────────────────────────────┤
+     │                                                           │
+     │ 2+ independent sources agree                              │ Contradiction
+     ▼                                                           │ found
+VERIFIED ────────────────────────────────────────────────────────┤
+     │                                                           │
+     │ Human expert confirms (for critical domains)              │
+     ▼                                                           ▼
+ESTABLISHED                                                  DISPUTED
+```
+
+## 8.3 Answer Grades & Contracts
+
+```python
+ANSWER_GRADES = {
+    
+    "ANSWER": {
+        "confidence": "≥ 0.90",
+        "hedging": False,
+        "description": "Can give definitive answer"
+    },
+    
+    "BOUNDED": {
+        "confidence": "0.70 - 0.89",
+        "hedging": True,  # "typically", "usually"
+        "description": "Can give answer with light hedging"
+    },
+    
+    "WITH_ASSUMPTIONS": {
+        "confidence": "0.50 - 0.69",
+        "hedging": True,
+        "description": "Can answer if assumptions stated"
+    },
+    
+    "HYPOTHESIS": {
+        "confidence": "0.30 - 0.49",
+        "hedging": True,  # "might", "possibly"
+        "description": "Can only offer possibility"
+    },
+    
+    "CANNOT_CONCLUDE": {
+        "confidence": "< 0.30 or missing Block",
+        "hedging": "N/A",
+        "description": "Cannot answer, say 'I don't know'"
+    }
+}
+
+# CONTRACT EXAMPLE
+contract = {
+    "can_assert": ["Cats typically can jump 5-6x body length"],
+    "cannot_assert": ["Your specific cat will definitely make it"],
+    "assumptions": ["Typical adult cat", "No joint issues"],
+    "hedging_required": True,
+    "confidence": 0.75,
+    "grade": "WITH_ASSUMPTIONS"
+}
+```
+
+## 8.4 Variable Types
+
+```python
+VARIABLE_TYPES = {
+    
+    "CONSTANT": {
+        "description": "Always the same (laws of physics)",
+        "example": "gravity = 9.8 m/s²",
+        "treatment": "Use directly, no assumption needed"
+    },
+    
+    "TYPICAL": {
+        "description": "Category average/default",
+        "example": "cat body_length = 45cm",
+        "treatment": "Use as default, note as assumption"
+    },
+    
+    "BOUNDED": {
+        "description": "Known range",
+        "example": "fridge height = 150-200cm",
+        "treatment": "Use middle or range, note bounds"
+    },
+    
+    "INSTANCE": {
+        "description": "Specific individual's value",
+        "example": "Max (specific cat) weight = 6kg",
+        "treatment": "Use if provided, else fall back to TYPICAL"
+    },
+    
+    "CRITICAL": {
+        "description": "MUST have this value, cannot assume",
+        "example": "patient allergies",
+        "treatment": "If missing, CANNOT_CONCLUDE"
+    }
+}
+```
+
+---
+
+# PART 9: REFLECTIVE WORKSPACE (v5.1)
+
+## 9.1 The Core Concept
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   REFLECTIVE WORKSPACE: Learning HOW to reason, not WHAT is true            │
+│                                                                             │
+│   After each query, the system:                                             │
+│   1. Logs the reasoning trace                                               │
+│   2. Analyzes the outcome                                                   │
+│   3. If there was a failure, determines if it was:                          │
+│      ├── EPISTEMIC (missing knowledge) → Cannot fix with strategy           │
+│      └── PROCEDURAL (wrong approach) → CAN fix with strategy                │
+│   4. If PROCEDURAL, extracts a "meta-lesson" about reasoning                │
+│   5. Stores the lesson for future use                                       │
+│                                                                             │
+│   THE HARD WALL:                                                            │
+│   ════════════════════════════════════════════════════════════════          │
+│   Reflection can ONLY modify the Meta-Reasoning Store (strategy)            │
+│   Reflection can NEVER modify the Concept Store (knowledge)                 │
+│   ════════════════════════════════════════════════════════════════          │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+## 9.2 The 5-Step Reflection Pass
+
+```
+STEP 1: OUTCOME ASSESSMENT
+├── Did user accept the answer?
+├── Was confidence calibrated correctly?
+├── Were assumptions valid?
+└── Result: SUCCESS, PARTIAL_FAILURE, FAILURE
+
+STEP 2: TRACE ANALYSIS
+├── Which Blocks were used?
+├── Which reasoning mode?
+├── How deep did we go?
+├── Which lenses were applied?
+└── What assumptions were made?
+
+STEP 3: FAILURE CLASSIFICATION
+├── EPISTEMIC: Block didn't exist or had wrong info
+│   └── Cannot fix with strategy — need better knowledge
+└── PROCEDURAL: Used wrong approach
+    ├── DEPTH: Reasoning too shallow
+    ├── MODE: Used wrong reasoning mode
+    ├── LENS: Missed relevant lens
+    └── ASSUMPTION: Used bad default
+
+STEP 4: META-LESSON EXTRACTION (Only for PROCEDURAL)
+├── Pattern: "What was observed?"
+├── Recommendation: "What to do differently?"
+├── Anti-pattern: "What to avoid?"
+└── Trigger context: "When does this apply?"
+
+STEP 5: STORE & UPDATE
+├── Add new lesson to Meta-Reasoning Store
+├── Or update evidence on existing lesson
+└── Apply decay to unused lessons
+```
+
+## 9.3 Meta-Lesson Example
+
+```python
+META_LESSON_EXAMPLE = {
+    "id": "ml_001",
+    "created": "2024-01-15",
+    
+    "trigger_context": {
+        "domain": "economics",
+        "question_type": "causal",
+        "complexity": "multi_factor"
+    },
+    
+    "lesson_type": "DEPTH",
+    
+    "content": {
+        "pattern": "Economics queries about causation were answered with single mechanism",
+        "recommendation": "For economics causation questions, always check ALL mechanisms in the Block, not just the first one",
+        "anti_pattern": "Stopping at first mechanism found"
+    },
+    
+    "evidence": {
+        "success_count": 12,
+        "failure_count": 2,
+        "last_success": "2024-01-14"
+    },
+    
+    "confidence": 0.85
+}
+```
+
+## 9.4 What Reflection CAN vs CANNOT Modify
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   REFLECTION CAN MODIFY (Meta-Reasoning Store):                             │
+│   ═════════════════════════════════════════════                             │
+│   • Strategy preferences ("prefer deeper search for X")                     │
+│   • Depth defaults ("economics needs depth ≥ 2")                            │
+│   • Caution flags ("be careful with Y type questions")                      │
+│   • Mode selection hints ("use CAUSAL for Z domain")                        │
+│   • Lens selection hints ("always check EQUIVALENCE for comparison")        │
+│                                                                             │
+│   ════════════════════════════ HARD WALL ════════════════════════════       │
+│                                                                             │
+│   REFLECTION CANNOT MODIFY (Concept Store):                                 │
+│   ═════════════════════════════════════════                                 │
+│   • Block content (facts, properties, values)                               │
+│   • Block confidence scores                                                 │
+│   • Grounding stacks                                                        │
+│   • Gate rules                                                              │
+│   • Source trust levels                                                     │
+│   • Relations between Blocks                                                │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+## 9.5 Drift Mitigation
+
+```
+PROBLEM: Meta-lessons could accumulate and become stale or wrong
+
+SOLUTIONS:
+
+1. DECAY
+   ├── Unused lessons lose confidence over time
+   └── lessons.confidence *= 0.95 each week if not used
+
+2. RE-TESTING
+   ├── Periodically re-verify high-impact lessons
+   └── Run test queries to check if lesson still helps
+
+3. FRESHNESS WEIGHTING
+   ├── Recent evidence weighted more than old evidence
+   └── confidence = weighted_average(recent_heavier)
+
+4. HUMAN REVIEW
+   ├── Flag lessons for review if:
+   │   ├── High impact (affects many queries)
+   │   ├── Low confidence (< 0.5)
+   │   └── Conflicting with other lessons
+   └── Human can approve, modify, or delete
+
+5. MAXIMUM LESSONS
+   ├── Cap total lessons (e.g., 10,000)
+   └── Prune lowest-confidence lessons when full
+```
+
+---
+
+# PART 10: COMPLETE DATA FLOW
+
+## 10.1 Query Flow (User Asks a Question)
+
+```
+USER: "Can my overweight cat jump onto the fridge?"
+                    │
+                    ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  STEP 1: PARSE (LLM)                                            │
+│                                                                 │
+│  Extract:                                                       │
+│  ├── entities: ["cat", "fridge"]                                │
+│  ├── modifiers: ["overweight", "my"]                            │
+│  ├── action: "jump"                                             │
+│  └── question_type: "capability"                                │
+└────────────────────────┬────────────────────────────────────────┘
+                         ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  STEP 2: RESOLVE IDs (LLM + Code)                               │
+│                                                                 │
+│  LLM disambiguates: "cat" = household pet                       │
+│  Code looks up:                                                 │
+│  ├── cat → (21, 61)                                             │
+│  ├── fridge → (35, 80)                                          │
+│  └── jump → (30, 20)                                            │
+│                                                                 │
+│  If ANY not found → "I don't have information about X"          │
+└────────────────────────┬────────────────────────────────────────┘
+                         ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  STEP 3: ACTIVATE BLOCKS (Code)                                 │
+│                                                                 │
+│  Load into Workspace:                                           │
+│  ├── CAT_BLOCK (21, 61)                                         │
+│  ├── FRIDGE_BLOCK (35, 80)                                      │
+│  └── JUMP_BLOCK (30, 20)                                        │
+└────────────────────────┬────────────────────────────────────────┘
+                         ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  STEP 4: SELECT LENSES & MODE (LLM)                             │
+│                                                                 │
+│  Lenses: [FUNCTION, STRUCTURE, MECHANISM]                       │
+│  Mode: CAUSAL (capability question)                             │
+└────────────────────────┬────────────────────────────────────────┘
+                         ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  STEP 5: CHECK META-LESSONS (Code)                              │
+│                                                                 │
+│  Query Meta-Reasoning Store for relevant lessons                │
+│  Apply any strategy adjustments                                 │
+└────────────────────────┬────────────────────────────────────────┘
+                         ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  STEP 6: EXTEND IF NEEDED (Code)                                │
+│                                                                 │
+│  Question needs mechanism → load Deep Layer                     │
+│  Load: CAT_BLOCK.deep, JUMP_BLOCK.deep                          │
+└────────────────────────┬────────────────────────────────────────┘
+                         ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  STEP 7: MULTI-LENS REASONING (Code)                            │
+│                                                                 │
+│  FUNCTION lens:                                                 │
+│  ├── cat.jump_ability = 6× body_length                          │
+│  └── Finding: Cat has jump capability                           │
+│                                                                 │
+│  STRUCTURE lens:                                                │
+│  ├── cat.body_length = 45cm                                     │
+│  ├── fridge.height = 175cm                                      │
+│  └── Finding: Have needed measurements                          │
+│                                                                 │
+│  MECHANISM lens:                                                │
+│  ├── jump: muscle_force → acceleration → height                 │
+│  └── Finding: Mechanism understood                              │
+└────────────────────────┬────────────────────────────────────────┘
+                         ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  STEP 8: COMPUTE (Code — NEVER LLM)                             │
+│                                                                 │
+│  body_length = 45                      # from Block             │
+│  jump_multiplier = 6                   # from Block             │
+│  fridge_height = 175                   # from Block             │
+│  overweight_modifier = 0.7             # standard               │
+│                                                                 │
+│  base_jump = 45 × 6 = 270cm                                     │
+│  actual_jump = 270 × 0.7 = 189cm                                │
+│  can_reach = 189 ≥ 175 = TRUE                                   │
+│  margin = 189 - 175 = 14cm                                      │
+└────────────────────────┬────────────────────────────────────────┘
+                         ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  STEP 9: CLASSIFY VARIABLES (Code)                              │
+│                                                                 │
+│  body_length: TYPICAL (used default, note assumption)           │
+│  jump_multiplier: TYPICAL (used default, note assumption)       │
+│  fridge_height: BOUNDED (used middle of range)                  │
+│  overweight_modifier: TYPICAL (standard estimate)               │
+│                                                                 │
+│  Assumptions: ["Typical adult cat", "Standard fridge",          │
+│                "Overweight ≈ 30% reduction"]                    │
+└────────────────────────┬────────────────────────────────────────┘
+                         ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  STEP 10: EPISTEMIC GATE (Code)                                 │
+│                                                                 │
+│  Check sources:                                                 │
+│  ├── cat.body_length: trust = 0.85 ✓                            │
+│  ├── jump.multiplier: trust = 0.80 ✓                            │
+│  └── fridge.height: trust = 0.90 ✓                              │
+│                                                                 │
+│  Calculate confidence:                                          │
+│  ├── Base: min(0.85, 0.80, 0.90) = 0.80                         │
+│  ├── Assumption penalty: 3 × 0.05 = 0.15                        │
+│  └── Final: 0.80 - 0.15 = 0.65                                  │
+│                                                                 │
+│  Grade: WITH_ASSUMPTIONS                                        │
+└────────────────────────┬────────────────────────────────────────┘
+                         ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  STEP 11: GENERATE CONTRACT (Code)                              │
+│                                                                 │
+│  {                                                              │
+│    "can_assert": ["Probably yes", "typical cat can reach"],     │
+│    "cannot_assert": ["Definitely yes", "your specific cat"],    │
+│    "assumptions": ["Typical adult cat", ...],                   │
+│    "hedging_required": true,                                    │
+│    "confidence": 0.65,                                          │
+│    "grade": "WITH_ASSUMPTIONS"                                  │
+│  }                                                              │
+└────────────────────────┬────────────────────────────────────────┘
+                         ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  STEP 12: GENERATE RESPONSE (LLM — following contract)          │
+│                                                                 │
+│  "Probably yes. A typical cat can jump about 5-6 times its      │
+│   body length (~270cm). Even with weight reducing ability by    │
+│   ~30%, that's still ~189cm, which exceeds a typical fridge     │
+│   height (~175cm).                                              │
+│                                                                 │
+│   Assumptions:                                                  │
+│   • Typical adult cat proportions                               │
+│   • Standard household fridge                                   │
+│   • 'Overweight' means ~30% reduction                           │
+│                                                                 │
+│   Would be more accurate with your cat's actual weight."        │
+└────────────────────────┬────────────────────────────────────────┘
+                         ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  STEP 13: ENFORCE CONTRACT (Code)                               │
+│                                                                 │
+│  Check response:                                                │
+│  ├── Contains hedging ("Probably")? ✓                           │
+│  ├── Contains forbidden phrases? ✗ (none found)                 │
+│  ├── Lists assumptions? ✓                                       │
+│  └── APPROVED                                                   │
+└────────────────────────┬────────────────────────────────────────┘
+                         ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  STEP 14: REFLECTION (Code + LLM)                               │
+│                                                                 │
+│  Log trace:                                                     │
+│  ├── Blocks used: [CAT, FRIDGE, JUMP]                           │
+│  ├── Mode: CAUSAL                                               │
+│  ├── Lenses: [FUNCTION, STRUCTURE, MECHANISM]                   │
+│  ├── Depth: 2 (extended to deep layer)                          │
+│  └── Assumptions: 3                                             │
+│                                                                 │
+│  If user provides feedback later, analyze for meta-lessons      │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+## 10.2 Learning Flow (System Reads a Document)
+
+```
+DOCUMENT: "CRISPR is a gene editing technology that uses Cas9..."
+                    │
+                    ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  STEP 1: PARSE DOCUMENT (Code)                                  │
+│                                                                 │
+│  Extract text, identify structure                               │
+│  Store original in Document Store                               │
+└────────────────────────┬────────────────────────────────────────┘
+                         ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  STEP 2: EXTRACT ENTITIES (LLM)                                 │
+│                                                                 │
+│  Found: ["CRISPR", "gene editing", "technology", "Cas9", "DNA"] │
+└────────────────────────┬────────────────────────────────────────┘
+                         ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  STEP 3: CLASSIFY & ASSIGN IDs (LLM + Code)                     │
+│                                                                 │
+│  For each entity:                                               │
+│  ├── LLM classifies: "CRISPR" = biological process (Group 31)   │
+│  ├── Code checks: Does CRISPR exist? NO                         │
+│  └── Code creates: CRISPR = (31, 200), status = PROVISIONAL     │
+└────────────────────────┬────────────────────────────────────────┘
+                         ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  STEP 4: EXTRACT RELATIONSHIPS (LLM)                            │
+│                                                                 │
+│  Found:                                                         │
+│  ├── CRISPR is_a TECHNOLOGY                                     │
+│  ├── CRISPR uses CAS9                                           │
+│  └── CRISPR acts_on DNA                                         │
+└────────────────────────┬────────────────────────────────────────┘
+                         ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  STEP 5: VALIDATE & STORE (Code)                                │
+│                                                                 │
+│  For each relationship:                                         │
+│  ├── Does target Block exist? If no, create it                  │
+│  ├── Add relation to source Block                               │
+│  └── Link source document                                       │
+└────────────────────────┬────────────────────────────────────────┘
+                         ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  STEP 6: EXTRACT FACETS (LLM)                                   │
+│                                                                 │
+│  Surface:                                                       │
+│  ├── definition: "Gene editing technology"                      │
+│  └── type: "biotechnology tool"                                 │
+│                                                                 │
+│  Deep:                                                          │
+│  ├── mechanism: guide_RNA → target_DNA → Cas9_cuts → edit       │
+│  └── discovered: 2012                                           │
+│                                                                 │
+│  Function:                                                      │
+│  └── roles: [GENE_EDITOR, RESEARCH_TOOL, THERAPY]               │
+└────────────────────────┬────────────────────────────────────────┘
+                         ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  STEP 7: CREATE ID-MAPPED DOCUMENT (Code)                       │
+│                                                                 │
+│  Original: "CRISPR is a gene editing technology that uses Cas9" │
+│  Mapped:   "(31,200) is_a (31,201) (52,1) that uses (22,300)"   │
+│                                                                 │
+│  Store both versions                                            │
+└────────────────────────┬────────────────────────────────────────┘
+                         ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  STEP 8: INTERROGATE GAPS (LLM + Code)                          │
+│                                                                 │
+│  CRISPR Block missing:                                          │
+│  ├── No mechanism details → Ask: "How does CRISPR work?"        │
+│  └── No limitations → Ask: "What are CRISPR's limitations?"     │
+│                                                                 │
+│  Queue questions for future sources                             │
+└────────────────────────┬────────────────────────────────────────┘
+                         ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  STEP 9: UPDATE STATUS (Code)                                   │
+│                                                                 │
+│  CRISPR Block:                                                  │
+│  ├── Has 1 source (this document)                               │
+│  ├── Source trust = 0.85 (textbook)                             │
+│  └── Status: PROVISIONAL → SUPPORTED                            │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+# PART 11: RESPONSE TYPES
+
+## 11.1 All Response Types
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   TYPE 1: DEFINITIVE ANSWER (confidence ≥ 0.9)                              │
+│   ═════════════════════════════════════════════                             │
+│                                                                             │
+│   User: "Can cats fly?"                                                     │
+│   Block: can_fly = false, confidence = 0.95                                 │
+│   Response: "No, cats cannot fly."                                          │
+│                                                                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   TYPE 2: WITH HEDGING (confidence 0.7-0.9)                                 │
+│   ═════════════════════════════════════════                                 │
+│                                                                             │
+│   User: "How high can cats jump?"                                           │
+│   Block: jump = 5-6× body length, confidence = 0.78                         │
+│   Response: "Cats can typically jump about 5-6 times their body length,    │
+│              which is roughly 2.5-3 meters for an average cat."             │
+│                                                                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   TYPE 3: WITH ASSUMPTIONS (confidence 0.5-0.7)                             │
+│   ═════════════════════════════════════════════                             │
+│                                                                             │
+│   User: "Can my overweight cat jump onto the fridge?"                       │
+│   Response: "Probably yes. A typical cat can jump about 5-6× body length.  │
+│              Even with ~30% reduction, that exceeds typical fridge height.  │
+│                                                                             │
+│              Assumptions:                                                   │
+│              • Typical adult cat proportions                                │
+│              • Standard household fridge (~175cm)                           │
+│              • 'Overweight' means ~30% reduction"                           │
+│                                                                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   TYPE 4: HYPOTHESIS (confidence 0.3-0.5)                                   │
+│   ═══════════════════════════════════════                                   │
+│                                                                             │
+│   User: "Would a cat survive a 10-story fall?"                              │
+│   Response: "It's possible but uncertain. Cats have been documented         │
+│              surviving high falls due to their righting reflex and          │
+│              relatively low terminal velocity, but survival depends on      │
+│              many factors and is not guaranteed."                           │
+│                                                                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   TYPE 5: CANNOT CONCLUDE (confidence < 0.3)                                │
+│   ══════════════════════════════════════════                                │
+│                                                                             │
+│   User: "Will my cat like the new food I bought?"                           │
+│   Response: "I don't have enough information to predict whether your        │
+│              specific cat will like a particular food. Cats have           │
+│              individual preferences that vary."                             │
+│                                                                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   TYPE 6: BLOCK NOT FOUND                                                   │
+│   ═══════════════════════                                                   │
+│                                                                             │
+│   User: "Tell me about the Zorblax 5000 spacecraft."                        │
+│   Response: "I don't have any information about the Zorblax 5000            │
+│              spacecraft in my knowledge base."                              │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+# PART 12: COMPLETE BUILD SPECIFICATION
+
+## 12.1 What You Build (Code)
+
+```python
+# ═══════════════════════════════════════════════════════════════
+# CORE DATA STRUCTURES
+# ═══════════════════════════════════════════════════════════════
+
+class ConceptID:
+    group: int              # 20-79
+    item: int               # 1-999999
+
+class ConceptBlock:
+    id: ConceptID
+    name: str
+    aliases: list[str]
+    primary_type: str       # PHYSICAL, MATHEMATICAL, ABSTRACT, SOCIAL
+    status: str             # PROVISIONAL, SUPPORTED, VERIFIED
+    
+    surface: dict           # Common knowledge
+    deep: dict              # Expert knowledge
+    instances: dict         # Specific individuals
+    
+    facets: dict            # Multi-lens views (STRUCTURE, FUNCTION, etc.)
+    
+    sources: list[Source]
+    confidence: float
+    grounding_stack: list[Grounding]
+
+class Relation:
+    type: str               # is_a, has_part, equivalent_to, fills_role, etc.
+    target: ConceptID
+    bidirectional: bool
+    source: Source
+
+class Source:
+    doc_id: str
+    location: str
+    trust_level: float
+    original_text: str
+
+class AnswerContract:
+    can_assert: list[str]
+    cannot_assert: list[str]
+    assumptions: list[str]
+    hedging_required: bool
+    confidence: float
+    grade: str
+
+class MetaLesson:
+    id: str
+    trigger_context: dict
+    lesson_type: str        # STRATEGY, CAUTION, DEPTH, MODE, LENS
+    content: dict           # pattern, recommendation, anti_pattern
+    evidence: dict          # success_count, failure_count
+    confidence: float
+
+# ═══════════════════════════════════════════════════════════════
+# STORES
+# ═══════════════════════════════════════════════════════════════
+
+class NameRegistry:
+    def lookup(word, language, context) -> ConceptID | None
+    def register(word, language, context, id) -> None
+    def get_all_names(id) -> list[str]
+
+class ConceptStore:
+    def get(id: ConceptID) -> ConceptBlock
+    def put(block: ConceptBlock) -> None
+    def exists(id: ConceptID) -> bool
+    def search(query: dict) -> list[ConceptBlock]
+    def next_id(group: int) -> ConceptID
+
+class EvidenceStore:
+    def add(claim: Claim) -> None
+    def get_pending(id: ConceptID) -> list[Claim]
+    def promote(claim_id: str) -> None
+    def reject(claim_id: str) -> None
+
+class DocumentStore:
+    def store_original(doc: Document) -> str
+    def store_mapped(doc_id: str, mapped: str) -> None
+    def get_original(doc_id: str) -> Document
+    def get_mapped(doc_id: str) -> str
+
+class MetaReasoningStore:
+    def get_lessons(context: dict) -> list[MetaLesson]
+    def add_lesson(lesson: MetaLesson) -> None
+    def update_evidence(lesson_id: str, success: bool) -> None
+    def apply_decay() -> None
+    def prune() -> None
+
+class Workspace:
+    active: dict[ConceptID, ConceptBlock]
+    
+    def activate(id: ConceptID) -> ConceptBlock
+    def extend(id: ConceptID) -> None     # Load deep layer
+    def clear() -> None
+
+# ═══════════════════════════════════════════════════════════════
+# CORE LOGIC (Code does ALL of this)
+# ═══════════════════════════════════════════════════════════════
+
+class Computation:
+    """ALL MATH - NEVER LLM"""
+    @staticmethod
+    def add(a, b) -> float
+    @staticmethod
+    def multiply(a, b) -> float
+    @staticmethod
+    def compare(a, b) -> int
+    @staticmethod
+    def in_range(val, min, max) -> bool
+
+class EpistemicGate:
+    def validate(result: ReasoningResult) -> bool
+    def calculate_confidence(sources, assumptions) -> float
+    def generate_contract(result, confidence) -> AnswerContract
+
+class ContractEnforcer:
+    def check(response: str, contract: AnswerContract) -> list[Violation]
+    def fix(response: str, contract: AnswerContract) -> str
+
+class BoundaryEnforcer:
+    """HARD WALL - Reflection cannot touch Blocks"""
+    def check(proposed_update: dict) -> bool
+    def reject_if_invalid(proposed_update: dict) -> None
+
+class ReasoningEngine:
+    def reason(query: StructuredQuery) -> ReasoningResult
+    def select_lenses(query: StructuredQuery) -> list[str]
+    def reason_through_lens(query, lens) -> LensResult
+    def combine_lens_results(results: dict) -> CombinedResult
+    def find_equivalent(part_id, target_species_id) -> ConceptID | None
+
+class ReflectionPass:
+    def analyze(trace: ReasoningTrace, outcome: Outcome) -> ReflectionResult
+    def classify_failure(assessment, analysis) -> FailureType
+    def extract_lesson(failure, analysis) -> MetaLesson | None
+
+# ═══════════════════════════════════════════════════════════════
+# PIPELINES
+# ═══════════════════════════════════════════════════════════════
+
+class QueryPipeline:
+    """User question → Answer"""
+    def run(question: str) -> str
+
+class LearningPipeline:
+    """Document → Blocks"""
+    def run(document: str, source: Source) -> list[ConceptBlock]
+```
+
+## 12.2 What LLM Does (Prompts)
+
+```python
+LLM_PROMPTS = {
+    
+    # Query processing
+    "parse_query": "Extract entities, action, question_type, modifiers...",
+    "disambiguate": "Which meaning of '{word}' in context '{context}'?",
+    "classify_to_group": "Which Group (20-79) for this concept?",
+    "select_reasoning_mode": "Which mode: CAUSAL, FORMAL, CONSTITUTIVE, TELEOLOGICAL, RELATIONAL?",
+    "select_lenses": "Which lenses are relevant for this query?",
+    
+    # Learning
+    "extract_entities": "Find all concepts in this text...",
+    "extract_relationships": "Find relationships between entities...",
+    "extract_mechanism": "Extract cause-effect chain...",
+    "extract_surface": "Extract common knowledge...",
+    "extract_deep": "Extract expert knowledge...",
+    "extract_facets": "Extract multi-lens facets...",
+    
+    # Output
+    "generate_response": "Generate response FOLLOWING this contract...",
+    
+    # Reflection
+    "analyze_failure": "Why did this reasoning fail?",
+    "extract_meta_lesson": "What strategy pattern to learn?"
+}
+```
+
+## 12.3 Database Tables
+
+```sql
+-- Core tables
+blocks (id_group, id_item, name, type, status, surface, deep, facets, confidence)
+relations (from_group, from_item, relation_type, to_group, to_item, source_id)
+name_registry (language, name, context, id_group, id_item)
+sources (id, doc_id, location, trust_level, original_text)
+documents (id, original_text, id_mapped_text, source_type)
+
+-- Functional roles & equivalence
+functional_roles (id_group, id_item, name, definition, function)
+role_fillers (role_group, role_item, species_group, species_item, part_group, part_item, how)
+
+-- Learning & verification
+evidence (id, block_group, block_item, claim_type, claim_content, source_id, status)
+
+-- Reflection
+meta_lessons (id, trigger_context, lesson_type, content, success_count, failure_count, confidence)
+reasoning_traces (id, query, blocks_used, mode, lenses, depth, outcome, timestamp)
+```
+
+---
+
+# PART 13: HOW TO APPROACH BUILDING THIS (VIBE CODING)
+
+## 13.1 The Problem with Current Approach
+
+```
+WHAT'S HAPPENING NOW:
+├── AI creates database, ID system
+├── But doesn't understand the PURPOSE
+├── Doesn't know how to RESPOND to users
+├── Doesn't know how pieces fit together
+└── Building parts without understanding whole
+
+THE FIX:
+├── Give AI the complete vision FIRST
+├── Explain what the system DOES (answer questions from verified knowledge)
+├── Explain the constraints (LLM = translator, Code = brain)
+├── Show example flows (query → answer, document → Blocks)
+└── Build incrementally with tests
+```
+
+## 13.2 The Build Order
+
+```
+PHASE 1: FOUNDATION (Week 1-2)
+══════════════════════════════
+Build:
+├── ConceptID class
+├── NameRegistry (word → ID lookup)
+├── ConceptBlock base class (with facets)
+├── ConceptStore (basic CRUD)
+├── Database tables (blocks, name_registry)
+
+Test:
+├── Can create a Block
+├── Can store and retrieve by ID
+├── Can look up ID from word
+└── "CAT" → (21, 61) → CAT_BLOCK
+
+DON'T BUILD YET:
+├── Full reasoning engine
+├── LLM integration
+├── Reflection system
+
+
+PHASE 2: BLOCK TYPES & RELATIONS (Week 3)
+══════════════════════════════════════════
+Build:
+├── PhysicalBlock, MathematicalBlock, SocialBlock, AbstractBlock
+├── Relation class
+├── Relations table
+├── Facet structure (STRUCTURE, FUNCTION, EQUIVALENCE, etc.)
+
+Test:
+├── Can create typed Blocks
+├── Can add relations (CAT has_part CAT_PAW)
+├── Can follow relations (traverse graph)
+├── Can access facets (CAT.facets["FUNCTION"])
+
+
+PHASE 3: FUNCTIONAL ROLES & EQUIVALENCE (Week 4)
+════════════════════════════════════════════════
+Build:
+├── FunctionalRole Block type
+├── role_fillers table
+├── fills_role, equivalent_to, counterpart_of relations
+├── find_equivalent() function
+
+Test:
+├── Can create MANIPULATOR role
+├── Can link CAT_PAW fills_role MANIPULATOR
+├── Can find: "What fills MANIPULATOR for CAT?" → CAT_PAW
+├── Can find: equivalent of HAND for CAT → CAT_PAW
+
+
+PHASE 4: LLM INTEGRATION (Week 5)
+══════════════════════════════════
+Build:
+├── LLM client wrapper
+├── parse_query prompt
+├── disambiguate prompt
+├── generate_response prompt
+
+Test:
+├── Can parse "Can cats fly?" → {entities: [cat], action: fly, type: capability}
+├── Can disambiguate "bank" in context
+├── Can generate response from structured result
+
+
+PHASE 5: BASIC REASONING (Week 6)
+══════════════════════════════════
+Build:
+├── Workspace class
+├── Computation class (ALL MATH)
+├── Basic ReasoningEngine (single lens first)
+├── select_reasoning_mode prompt
+
+Test:
+├── Can activate Blocks into workspace
+├── Can compute: 45 × 6 = 270
+├── Can compare: 270 > 175
+├── Full query: "Can cats fly?" → "No, cats cannot fly."
+
+
+PHASE 6: EPISTEMIC GATE (Week 7)
+═════════════════════════════════
+Build:
+├── SourceTrust table
+├── calculate_confidence() function
+├── generate_contract() function
+├── ContractEnforcer class
+
+Test:
+├── Can calculate confidence from sources
+├── Can generate contract with can_assert/cannot_assert
+├── Can enforce contract (reject violations)
+├── Response includes hedging when required
+
+
+PHASE 7: MULTI-LENS REASONING (Week 8)
+═══════════════════════════════════════
+Build:
+├── All lens types in facets
+├── select_lenses() function
+├── reason_through_lens() for each lens
+├── combine_lens_results() function
+
+Test:
+├── Can reason through FUNCTION lens
+├── Can reason through EQUIVALENCE lens
+├── Can combine findings from multiple lenses
+├── "Why can't cats open doors?" uses multiple lenses
+
+
+PHASE 8: FULL QUERY PIPELINE (Week 9)
+═══════════════════════════════════════
+Build:
+├── QueryPipeline class (orchestrates everything)
+├── Full end-to-end flow
+├── All response types (definitive, hedged, assumptions, cannot_conclude)
+
+Test:
+├── "Can cats fly?" → "No, cats cannot fly."
+├── "Can my overweight cat jump onto fridge?" → hedged answer with assumptions
+├── "Tell me about Zorblax" → "I don't have information about..."
+├── All response types work correctly
+
+
+PHASE 9: LEARNING PIPELINE (Week 10-11)
+════════════════════════════════════════
+Build:
+├── DocumentStore
+├── EvidenceStore
+├── extract_entities prompt
+├── extract_relationships prompt
+├── extract_facets prompt
+├── LearningPipeline class
+
+Test:
+├── Can read document, extract entities
+├── Can create new Blocks from document
+├── Can extract and store relationships
+├── Can create ID-mapped document
+├── Status progression works (PROVISIONAL → SUPPORTED)
+
+
+PHASE 10: REFLECTION SYSTEM (Week 12+)
+═══════════════════════════════════════
+Build:
+├── MetaReasoningStore
+├── ReasoningTrace logger
+├── ReflectionPass class
+├── BoundaryEnforcer (HARD WALL)
+├── analyze_failure prompt
+├── extract_meta_lesson prompt
+
+Test:
+├── Can log reasoning traces
+├── Can classify failures (EPISTEMIC vs PROCEDURAL)
+├── Can extract meta-lessons
+├── Boundary enforcer rejects Block modifications
+├── Meta-lessons influence future reasoning
+```
+
+## 13.3 What to Tell Your AI Coder
+
+```
+CONTEXT TO PROVIDE:
+
+1. THE VISION
+   "We're building a knowledge system where facts are stored in Blocks,
+    the LLM is only a translator, and the system honestly says 'I don't
+    know' when it doesn't have information."
+
+2. THE CONSTRAINTS
+   "LLM NEVER: does math, decides confidence, makes up facts.
+    Code ALWAYS: does computation, generates contracts, enforces truth."
+
+3. THE CURRENT PHASE
+   "Right now we're building [PHASE X]. The goal of this phase is [Y].
+    We'll add [Z] in a later phase."
+
+4. THE TEST CRITERIA
+   "This phase is complete when we can: [specific test cases]"
+
+5. HOW IT FITS
+   "This component connects to [X] and will be used by [Y] later."
+```
+
+## 13.4 Example Prompt for Your AI Coder
+
+```
+You are building WMCS - a knowledge system that stores verified facts 
+in Blocks and uses an LLM only as a translator.
+
+CURRENT PHASE: Foundation (Phase 1)
+
+GOAL: Create the basic data structures and storage.
+
+WHAT TO BUILD:
+1. ConceptID class - (group, item) tuple for unique concept IDs
+2. ConceptBlock class - stores all knowledge about a concept
+3. NameRegistry - maps words to Block IDs
+4. ConceptStore - stores and retrieves Blocks
+
+KEY RULES:
+- Every concept has a unique (group, item) ID
+- Groups 20-39 = Physical, 40-49 = Mathematical, 50-59 = Abstract, 60-69 = Social
+- Blocks have: surface layer (common knowledge), deep layer (expert knowledge)
+- Blocks have multi-lens facets: STRUCTURE, FUNCTION, EQUIVALENCE, etc.
+
+SUCCESS CRITERIA:
+- Can create: CAT_BLOCK with id=(21, 61)
+- Can store: concept_store.put(CAT_BLOCK)
+- Can retrieve: concept_store.get((21, 61)) returns CAT_BLOCK
+- Can lookup: registry.lookup("cat", "en", "animal") returns (21, 61)
+
+DO NOT BUILD YET:
+- Reasoning engine
+- LLM integration
+- Epistemic gate
+- Reflection system
+
+These come in later phases.
+
+START BUILDING:
+```
+
+## 13.5 Testing Checklist
+
+```
+PHASE 1 TESTS:
+□ Create Block with ID (21, 61)
+□ Store Block in ConceptStore
+□ Retrieve Block by ID
+□ Register word "cat" → (21, 61)
+□ Lookup "cat" returns (21, 61)
+□ Disambiguate: "bank" + "financial" → correct ID
+
+PHASE 3 TESTS:
+□ Create MANIPULATOR role (55, 1)
+□ Link: CAT_PAW fills_role MANIPULATOR
+□ Query: What fills MANIPULATOR for CAT? → CAT_PAW
+□ Query: Equivalent of HAND for CAT? → CAT_PAW
+
+PHASE 6 TESTS:
+□ Confidence calculation works
+□ Contract generated correctly
+□ Hedging added when required
+□ Contract enforcer catches violations
+
+PHASE 8 TESTS:
+□ "Can cats fly?" → "No, cats cannot fly."
+□ "Can my overweight cat jump onto fridge?" → WITH_ASSUMPTIONS response
+□ "Tell me about Zorblax" → "I don't have information..."
+□ All response types work
+
+PHASE 10 TESTS:
+□ Reasoning trace logged
+□ Failure classified correctly
+□ Meta-lesson extracted
+□ HARD WALL rejects Block modifications
+□ Meta-lesson influences future query
+```
+
+---
+
+# PART 14: SUMMARY
+
+## 14.1 What WMCS Is
+
+```
+A General Knowledge AI that:
+├── Stores facts in structured Blocks with stable IDs
+├──Uses LLM as translator only (not source of truth)
+├── Views concepts through multiple lenses (STRUCTURE, FUNCTION, EQUIVALENCE...)
+├── Finds functional equivalents across domains (paw ≈ hand)
+├── Tracks sources and confidence for every fact
+├── Generates contracts specifying what can/cannot be said
+├── Honestly says "I don't know" when appropriate
+├── Learns better reasoning strategies over time (Reflection)
+└── Scales from narrow domain → general knowledge
+```
+
+## 14.2 The Key Innovations
+
+```
+1. BLOCKS WITH STABLE IDs
+   Same concept = same ID = same answer always
+
+2. MULTI-LENS FACETS
+   Same concept viewed through STRUCTURE, FUNCTION, EQUIVALENCE, etc.
+
+3. FUNCTIONAL ROLES & EQUIVALENCE
+   Find that paw ≈ hand because both fill MANIPULATOR role
+
+4. EPISTEMIC DISCIPLINE
+   Every fact has source, confidence, and grounding
+
+5. CONTRACTS
+   LLM can only say what's in can_assert, never what's in cannot_assert
+
+6. REFLECTION
+   Learn HOW to reason better without corrupting WHAT is known
+
+7. HYBRID ARCHITECTURE
+   LLM = flexible translation, Code = deterministic truth
+```
+
+## 14.3 The Build Path
+
+```
+FOUNDATION → BLOCKS → ROLES/EQUIVALENCE → LLM → REASONING → 
+GATE → MULTI-LENS → QUERY PIPELINE → LEARNING → REFLECTION
+```
+
+## 14.4 Final Reminder
+
+```
+THE SYSTEM MUST ALWAYS:
+├── Answer from Blocks (never invent)
+├── Show confidence and sources
+├── Use hedging when uncertain
+├── Say "I don't know" when appropriate
+├── Let Code do all math
+├── Let Code generate contracts
+├── Let Code enforce boundaries
+└── Let LLM translate only
+
+IF IN DOUBT:
+├── Does a Block exist? If no → "I don't have information"
+├── Is confidence high? If no → add hedging
+├── Is this math? If yes → Code does it
+├── Is LLM making facts? If yes → STOP, that's wrong
+```
+
+---
+
+This is the complete specification. Use it to guide your vibe coding, give relevant sections to your AI coder, and build incrementally with tests.

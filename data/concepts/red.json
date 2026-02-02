@@ -1,0 +1,85 @@
+{
+  "id": {
+    "group": 50,
+    "item": 1
+  },
+  "name": "Red",
+  "aliases": [
+    "Scarlet",
+    "Crimson",
+    "Ruby"
+  ],
+  "type": "ABSTRACT_CONCEPT",
+  "surface_layer": {
+    "definition": "The color at the long-wavelength end of the visible spectrum of light, next to orange and opposite violet.",
+    "common_uses": [
+      "Warning signals",
+      "Decoration",
+      "Art"
+    ]
+  },
+  "facets": {
+    "PROPERTY_DATA": {
+      "domain": [
+        "VISUAL_SPECTRUM",
+        "ELECTROMAGNETIC_RADIATION"
+      ],
+      "scale_type": [
+        "CATEGORICAL",
+        "SCALAR (Wavelength 620\u2013750 nm)"
+      ],
+      "typical_applies_to": [
+        "PHYSICAL_OBJECTS",
+        "LIGHT_SOURCES"
+      ],
+      "antonym": [
+        "Green (Complementary)",
+        "Cyan"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "ATTENTION_GRABBER",
+        "WARNING_SIGNAL"
+      ],
+      "capabilities": [
+        "stimulate_retina"
+      ]
+    },
+    "EQUIVALENCE": {
+      "equivalent_to": [
+        "DANGER (Symbolic)",
+        "PASSION (Symbolic)"
+      ]
+    }
+  },
+  "claims": [
+    {
+      "predicate": "functional_roles",
+      "object": "ATTENTION_GRABBER",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_roles",
+      "object": "WARNING_SIGNAL",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_capabilities",
+      "object": "stimulate_retina",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    }
+  ]
+}

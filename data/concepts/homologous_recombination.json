@@ -1,0 +1,87 @@
+{
+  "name": "Homologous Recombination",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "surface_layer": {
+    "definition": "A DNA repair pathway that uses a homologous DNA template to accurately repair broken DNA.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Uses homologous DNA sequence as template for repair.",
+    "origin": "Cellular DNA repair mechanisms"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "REPAIRER"
+      ],
+      "capabilities": [
+        "Accurately repairing double-strand DNA breaks using a template"
+      ]
+    },
+    "EQUIVALENCE": {
+      "fills_role": [
+        "REPAIRER"
+      ]
+    },
+    "ABSTRACT_DATA": {
+      "domain": [
+        "GENETICS",
+        "CELLULAR_BIOLOGY"
+      ],
+      "core_premise": [
+        "A homologous DNA template can be used to accurately repair broken DNA."
+      ],
+      "contrasting_concepts": [
+        "Non-homologous end joining"
+      ]
+    },
+    "PROCESS_DATA": {
+      "agent": [
+        "ENZYME"
+      ],
+      "patient": [
+        "DNA"
+      ],
+      "precondition": [
+        "Double-strand break in DNA, presence of homologous template"
+      ],
+      "effect": [
+        "DNA break repaired accurately"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8187289/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8388126/"
+    ]
+  },
+  "claims": [
+    {
+      "predicate": "functional_roles",
+      "object": "REPAIRER",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_capabilities",
+      "object": "Accurately repairing double-strand DNA breaks using a template",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    }
+  ]
+}

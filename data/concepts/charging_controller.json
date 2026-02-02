@@ -1,0 +1,97 @@
+{
+  "name": "Charging Controller",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Regulator",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "regulating the charging current",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "regulating voltage",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "ensuring that the battery is charged safely",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A charging controller regulates charging current and voltage to ensure safe battery charging.",
+    "common_uses": [
+      "charging batteries"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The charging controller monitors the battery's voltage and current, adjusting the charging process to prevent overcharging or damage.",
+    "origin": "Modern electronics"
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Regulator"
+      ],
+      "capabilities": [
+        "Regulate charging current",
+        "Regulate voltage",
+        "Ensure safe battery charging"
+      ]
+    },
+    "STRUCTURAL": {},
+    "PROPERTY_DATA": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.dnkpower.com/charging-circuitry-for-lithium-ion-batteries-a-comprehensive-review/"
+    ]
+  }
+}

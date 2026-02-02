@@ -1,0 +1,89 @@
+{
+  "name": "Combustion",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Process",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "AFFECTS",
+      "object": "Solid Propellants",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Combustion Mechanisms",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A chemical process that involves rapid reaction between a substance with an oxidant, usually oxygen, to produce heat and light.",
+    "common_uses": [
+      "Power generation",
+      "Heating",
+      "Propulsion"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Involves chemical reactions that release heat and light.",
+    "origin": "Chemical reactions."
+  },
+  "instance_layer": {
+    "examples": [
+      "Burning wood",
+      "Burning fuel in an engine"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Energy Generation",
+        "Propulsion"
+      ],
+      "capabilities": [
+        "Release of heat",
+        "Production of light"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Combustion of Solid Propellants",
+      "Propellant Combustion"
+    ]
+  }
+}

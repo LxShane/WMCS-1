@@ -1,0 +1,92 @@
+{
+  "name": "Piano Action",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1234
+  },
+  "surface_layer": {
+    "definition": "The mechanism of the piano that causes hammers to strike the strings when a key is pressed.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "When a key is pressed, the piano action causes a hammer to strike a string.",
+    "origin": "Piano design"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "MANIPULATOR"
+      ],
+      "capabilities": [
+        "Transmitting force from key press to hammer strike"
+      ]
+    },
+    "EQUIVALENCE": {
+      "fills_role": [
+        "MANIPULATOR"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [
+        "Hammers",
+        "Keys"
+      ],
+      "relations": []
+    },
+    "MECHANISM": [],
+    "PROCESS_DATA": {},
+    "PROPERTY_DATA": {},
+    "ABSTRACT_DATA": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.yamaha.com/en/musical_instrument_guide/piano/mechanism/mechanism003.html"
+    ]
+  },
+  "claims": [
+    {
+      "predicate": "parts",
+      "object": "Hammers",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "parts",
+      "object": "Keys",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_roles",
+      "object": "MANIPULATOR",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_capabilities",
+      "object": "Transmitting force from key press to hammer strike",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    }
+  ]
+}

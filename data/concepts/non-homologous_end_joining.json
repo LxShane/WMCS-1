@@ -1,0 +1,87 @@
+{
+  "name": "Non-homologous end joining",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 6789
+  },
+  "surface_layer": {
+    "definition": "A DNA repair pathway that directly joins broken DNA ends without using a homologous template.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Direct ligation of DNA ends.",
+    "origin": "Cellular DNA repair mechanisms"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "REPAIRER"
+      ],
+      "capabilities": [
+        "Repairing double-strand DNA breaks"
+      ]
+    },
+    "EQUIVALENCE": {
+      "fills_role": [
+        "REPAIRER"
+      ]
+    },
+    "ABSTRACT_DATA": {
+      "domain": [
+        "GENETICS",
+        "CELLULAR_BIOLOGY"
+      ],
+      "core_premise": [
+        "Broken DNA needs to be repaired to maintain genomic integrity."
+      ],
+      "contrasting_concepts": [
+        "Homologous Recombination"
+      ]
+    },
+    "PROCESS_DATA": {
+      "agent": [
+        "ENZYME"
+      ],
+      "patient": [
+        "DNA"
+      ],
+      "precondition": [
+        "Double-strand break in DNA"
+      ],
+      "effect": [
+        "DNA break repaired"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8388126/",
+      "https://www.sciencedirect.com/science/article/pii/S2162253124002312"
+    ]
+  },
+  "claims": [
+    {
+      "predicate": "functional_roles",
+      "object": "REPAIRER",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_capabilities",
+      "object": "Repairing double-strand DNA breaks",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    }
+  ]
+}

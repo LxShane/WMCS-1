@@ -1,0 +1,106 @@
+{
+  "id": {
+    "group": 60,
+    "item": 1
+  },
+  "name": "Eating",
+  "aliases": [
+    "Consumption",
+    "Ingestion",
+    "Feeding"
+  ],
+  "type": "SOCIAL_CONSTRUCT",
+  "surface_layer": {
+    "definition": "The process by which living organisms consume food to obtain energy and building materials."
+  },
+  "facets": {
+    "PROCESS_DATA": {
+      "agent": [
+        "LIVING_SYSTEM"
+      ],
+      "patient": [
+        "FOOD"
+      ],
+      "precondition": [
+        "Agent is ALIVE",
+        "Agent is HUNGRY (usually)",
+        "Food is ACCESSIBLE"
+      ],
+      "effect": [
+        "Agent gains ENERGY",
+        "Agent reduces HUNGER",
+        "Food is DESTROYED/CONSUMED"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "ENERGY_ACQUISITION",
+        "SURVIVAL_MECHANISM"
+      ],
+      "capabilities": [
+        "sustain_life"
+      ]
+    },
+    "MECHANISM": [
+      "Mastication (chewing) breaks down physical structure",
+      "Deglutition (swallowing) moves matter to internal stomach",
+      "Chemical digestion breaks down molecules"
+    ]
+  },
+  "claims": [
+    {
+      "predicate": "functional_roles",
+      "object": "ENERGY_ACQUISITION",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_roles",
+      "object": "SURVIVAL_MECHANISM",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_capabilities",
+      "object": "sustain_life",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "mechanism",
+      "object": "Mastication (chewing) breaks down physical structure",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "mechanism",
+      "object": "Deglutition (swallowing) moves matter to internal stomach",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "mechanism",
+      "object": "Chemical digestion breaks down molecules",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    }
+  ]
+}

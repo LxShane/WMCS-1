@@ -1,0 +1,71 @@
+{
+  "name": "Transportation Technology",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Moving soldiers and weaponry",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Military Technology",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Technology used for moving soldiers and weaponry.",
+    "common_uses": [
+      "Logistics",
+      "Deployment"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Applies engineering to create vehicles and infrastructure for military transport.",
+    "origin": "Evolved from basic forms of transportation like carts and ships."
+  },
+  "instance_layer": [
+    "Trucks",
+    "Ships",
+    "Airplanes"
+  ],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Transportation"
+      ],
+      "capabilities": [
+        "Moving troops",
+        "Moving supplies"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "britannica.com",
+    "citations": [
+      "Definition, History, Advances"
+    ]
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "name": "TP4056 Module",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Charging Module",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Constant-Current/Constant-Voltage Charging",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Protection against Over-Voltage",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Protection against Over-Discharge",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Protection against Over-Current",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Protection against Short Circuit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Safely charging a 3.7V lithium battery",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "5V Power Supply",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A charging module designed to charge lithium batteries with constant current and voltage, while also providing protection features.",
+    "common_uses": [
+      "Charging lithium batteries",
+      "Powering electronic devices"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The TP4056 module regulates the charging process using constant-current and constant-voltage methods, and implements protection circuits to prevent damage to the battery and the module itself.",
+    "origin": "Designed for charging lithium batteries"
+  },
+  "instance_layer": {
+    "examples": [
+      "Using a TP4056 module to charge a 18650 lithium battery from a USB port"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Battery Charger",
+        "Protector"
+      ],
+      "capabilities": [
+        "CC/CV Charging",
+        "Over-Voltage Protection",
+        "Over-Discharge Protection",
+        "Over-Current Protection",
+        "Short Circuit Protection"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Diymore 5PCS TP4056 Type-C USB 5V 1A 18650 Lithium, The TP4056 module is designed to safely charge a 3.7 V ,Type-C Micro USB 5V 3A Boost Converter Step-Up Power",
+    "citations": [
+      "https://www.amazon.com/Lithium-Battery-Charging-Protection-Functions/dp/B07MDPLQ18",
+      "https://www.facebook.com/groups/965016907419369/posts/1962942067626843/",
+      "https://www.aliexpress.com/item/1005007037414233.html"
+    ]
+  }
+}

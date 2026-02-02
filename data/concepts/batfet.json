@@ -1,0 +1,75 @@
+{
+  "name": "BATFET",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "BATFET separates the system voltage and the battery voltage",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "power path generation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "system voltage regulation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A BATFET separates the system voltage and the battery voltage.",
+    "common_uses": [
+      "power path management",
+      "system voltage regulation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "By separating system and battery voltage, it enables power path and regulation.",
+    "origin": "Part of power management circuits like BQ25790, MP2760."
+  },
+  "instance_layer": [
+    "BATFET in BQ25790",
+    "BATFET in MP2760"
+  ],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "FAQ, Application Note",
+    "citations": [
+      "https://e2e.ti.com/support/power-management-group/power-management/f/power-management-forum/1049317/faq-how-does-the-batfet-work-in-the-bq25790-bq25792-bq25798-and-bq25672",
+      "https://www.monolithicpower.com/en/selecting-the-mp2760s-batfet?srsltid=AfmBOopW3X6GOn9Raq33A9e-YSVrfYe9Lk4NzvyNgKukBxR9kFcRkd-I"
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "name": "AC DC Power Charger",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1237
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "convert electrical power",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "regulate electrical power",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "step down high-voltage AC power to lower voltage",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An AC DC power charger converts and regulates electrical power, typically stepping down high-voltage AC to lower voltage DC.",
+    "common_uses": [
+      "Charging devices",
+      "Powering electronic devices"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "AC DC power chargers use transformers and rectifiers to convert AC voltage to DC voltage and regulate the output.",
+    "origin": "Electrical engineering"
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Power Converter",
+        "Regulator"
+      ],
+      "capabilities": [
+        "Convert AC to DC",
+        "Regulate voltage",
+        "Step down voltage"
+      ]
+    },
+    "STRUCTURAL": {},
+    "PROPERTY_DATA": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.phihong.com/ac-dc-power-chargers-and-how-they-work-a-comprehensive-technical-breakdown/"
+    ]
+  }
+}

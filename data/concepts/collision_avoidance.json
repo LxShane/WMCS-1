@@ -1,0 +1,102 @@
+{
+  "name": "Collision Avoidance",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 2345
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Strategy",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Mitigating collision risks in space",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Collision risk assessment",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Mitigation techniques",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Space traffic management",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Actions taken to avoid collisions between objects in space.",
+    "common_uses": [
+      "Protecting satellites",
+      "Ensuring safe space operations"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Involves tracking objects, predicting trajectories, and maneuvering spacecraft.",
+    "origin": "Became crucial with increasing space debris and satellite population."
+  },
+  "instance_layer": {
+    "examples": [
+      "Maneuvering the ISS to avoid debris"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Orbital Debris Mitigation snippet",
+    "citations": [
+      "space-law-institute.org/debris-mitigation"
+    ]
+  }
+}

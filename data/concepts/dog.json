@@ -1,0 +1,93 @@
+{
+  "name": "Dog",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Animal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Animal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Breed",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Descendant of an extinct wolf species shared with the gray wolf, Canis lupus",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": "Domestication"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A domesticated mammal.",
+    "common_uses": [
+      "Companionship",
+      "Service",
+      "Hunting"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Evolved from wolves through domestication.",
+    "origin": "Evolved from an extinct wolf species."
+  },
+  "instance_layer": {
+    "examples": [
+      "Golden Retriever",
+      "German Shepherd"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Multiple Sources",
+    "citations": [
+      "https://www.morrisanimalfoundation.org/article/evolution-of-dogs",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12520860/",
+      "https://en.wikipedia.org/wiki/Domestication_of_the_dog"
+    ]
+  }
+}

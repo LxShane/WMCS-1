@@ -1,0 +1,54 @@
+{
+  "name": "Lungs",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 34,
+    "item": 1007
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Respiratory System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Gas Exchange",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Organs that facilitate gas exchange.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Facilitate gas exchange.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "2.2 Building Blocks of the Animal's Body",
+    "citations": []
+  }
+}

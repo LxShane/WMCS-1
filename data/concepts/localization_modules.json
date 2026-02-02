@@ -1,0 +1,73 @@
+{
+  "name": "Localization Modules",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 21,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "part of integrated framework",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "determining location in autonomous navigation",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Modules that determine the location of an object.",
+    "common_uses": [
+      "Autonomous Navigation",
+      "Robotics",
+      "Mapping"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Uses sensors and algorithms to estimate position.",
+    "origin": "Developed from GPS and other positioning technologies."
+  },
+  "instance_layer": {
+    "examples": [
+      "GPS receivers",
+      "SLAM algorithms"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Localization"
+      ],
+      "capabilities": [
+        "Position estimation",
+        "Mapping"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple",
+    "citations": [
+      "https://www.lmitac.com/articles/autonomous-navigation-movement-without-human-control"
+    ]
+  }
+}

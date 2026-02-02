@@ -1,0 +1,96 @@
+{
+  "name": "Air Density",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 30,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "AFFECTED_BY",
+      "object": "Pressure",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "AFFECTED_BY",
+      "object": "Temperature",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "AFFECTED_BY",
+      "object": "Humidity",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Change in Wingbeat Frequency",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Change in Air Speed",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The mass of air per unit volume.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Affects aerodynamic forces.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "https://journals.biologists.com/jeb/article/212/22/3633/19050/Adjustments-of-wingbeat-frequency-and-air-speed-to",
+    "citations": []
+  }
+}

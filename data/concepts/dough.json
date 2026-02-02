@@ -1,0 +1,74 @@
+{
+  "name": "Dough",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Gluten",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "holding air bubbles",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "making bread",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A mixture of flour and liquid, used for baking.",
+    "common_uses": [
+      "bread",
+      "pastries"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Various chemical and physical processes occur during dough formation and fermentation.",
+    "origin": "Made by mixing flour with water or other liquids."
+  },
+  "instance_layer": {
+    "examples": [
+      "Bread dough",
+      "Pizza dough"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "https://www.kingarthurbaking.com/blog/2021/08/18/a-beginners-guide-to-gluten, https://breadtopia.com/gluten-development-for-artisan-bread/",
+    "citations": []
+  }
+}

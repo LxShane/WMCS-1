@@ -1,0 +1,57 @@
+{
+    "id": {
+        "group": 21,
+        "item": 1
+    },
+    "name": "Cat",
+    "aliases": [
+        "Felis catus",
+        "House cat"
+    ],
+    "type": "LIVING_SYSTEM",
+    "surface_layer": {
+        "definition": "A small domesticated carnivorous mammal with soft fur, a short snout, and retractable claws."
+    },
+    "facets": {
+        "STRUCTURAL": {
+            "visual_features": [
+                "Furry body",
+                "Pointed ears",
+                "Long tail"
+            ],
+            "shape": [
+                "Quadrupedal",
+                "Sinuous"
+            ],
+            "composition": [
+                "Flesh",
+                "Bone",
+                "Fur"
+            ],
+            "has_part": [
+                "→ (23, 1) [Cat Paw]",
+                "→ (23, 2) [Cat Eye]",
+                "→ (23, 3) [Cat Tail]"
+            ]
+        },
+        "FUNCTION": {
+            "roles": [
+                "PREDATOR",
+                "COMPANION",
+                "PEST_CONTROL"
+            ],
+            "capabilities": [
+                "hunt",
+                "purr",
+                "climb"
+            ]
+        },
+        "HIERARCHY": {
+            "is_a": [
+                "MAMMAL",
+                "CARNIVORE",
+                "PET"
+            ]
+        }
+    }
+}

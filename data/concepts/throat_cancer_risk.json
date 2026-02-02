@@ -1,0 +1,45 @@
+{
+  "name": "Throat Cancer Risk",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Health Risk",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The possibility of developing throat cancer.",
+    "common_uses": [
+      "Risk assessment",
+      "Medical research"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Cellular mutations in the throat leading to uncontrolled growth.",
+    "origin": "Various factors including genetics and environmental exposures."
+  },
+  "instance_layer": [
+    "Increased risk due to smoking",
+    "Increased risk due to alcohol consumption"
+  ],
+  "epistemic_metadata": {
+    "source": "User Input",
+    "citations": [
+      "A 2010 study by Dr. Smith"
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "name": "Diaphragm",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 24,
+    "item": 9010
+  },
+  "surface_layer": {
+    "definition": "A large, flat muscle at the bottom of the chest cavity that helps with breathing.",
+    "common_uses": [
+      "Breathing"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Contracts and relaxes to change the volume of the chest cavity, aiding in inhalation and exhalation.",
+    "origin": "Evolved as part of the respiratory system."
+  },
+  "instance_layer": {
+    "examples": [
+      "The diaphragm contracts during inhalation."
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "RESPIRATOR"
+      ],
+      "capabilities": [
+        "Aiding in inhalation",
+        "Aiding in exhalation"
+      ]
+    },
+    "EQUIVALENCE": {
+      "fills_role": [
+        "RESPIRATOR"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Flat",
+        "Muscular"
+      ],
+      "shape": [
+        "Dome-shaped"
+      ],
+      "composition": [
+        "Muscle"
+      ],
+      "parts": [],
+      "relations": [
+        "LOCATED_AT chest cavity"
+      ]
+    },
+    "PROCESS_DATA": {
+      "agent": [
+        "Diaphragm"
+      ],
+      "patient": [
+        "Airflow",
+        "Chest cavity"
+      ],
+      "precondition": [
+        "Neural signals from the brain"
+      ],
+      "effect": [
+        "Change in chest cavity volume",
+        "Airflow"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  },
+  "claims": [
+    {
+      "predicate": "visual_features",
+      "object": "Flat",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "visual_features",
+      "object": "Muscular",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "shape",
+      "object": "Dome-shaped",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "composition",
+      "object": "Muscle",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "relations",
+      "object": "LOCATED_AT chest cavity",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_roles",
+      "object": "RESPIRATOR",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_capabilities",
+      "object": "Aiding in inhalation",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_capabilities",
+      "object": "Aiding in exhalation",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    }
+  ]
+}

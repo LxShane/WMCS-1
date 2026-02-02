@@ -1,0 +1,62 @@
+{
+  "name": "Voltage Regulator",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Device that ensures voltages are within a range",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "DC/DC conversion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A voltage regulator ensures voltages coming from a power supply are within a specified range.",
+    "common_uses": [
+      "DC/DC conversion"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Senses and regulates output voltage directly on the secondary side (in some isolated DC/DC converters)",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": [
+      "LM5001",
+      "LM5022"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://smxpower.com/blogs/power-supply/understanding-voltage-regulation-in-dc-dc-power-converters",
+      "https://www.ti.com/lit/pdf/ssztc93"
+    ]
+  }
+}

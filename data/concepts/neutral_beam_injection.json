@@ -1,0 +1,89 @@
+{
+  "name": "Neutral Beam Injection",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Heating Method",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Bringing plasma to a temperature where fusion can occur",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Powerful beams of energetic neutral deuterium atoms",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Energetic neutral deuterium atoms",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A heating technique using beams of energetic neutral deuterium atoms injected into the plasma.",
+    "common_uses": [
+      "Plasma heating"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Energetic neutral deuterium atoms transfer their kinetic energy to the plasma particles through collisions, increasing the plasma temperature.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": [
+      "ITER Plasma Heating"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.iter.org/machine/supporting-systems/external-heating-systems",
+      "https://www.sciencedirect.com/topics/chemical-engineering/plasma-heating"
+    ]
+  }
+}

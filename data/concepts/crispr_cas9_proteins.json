@@ -1,0 +1,151 @@
+{
+  "name": "CRISPR Cas9 proteins",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1234
+  },
+  "surface_layer": {
+    "definition": "Proteins involved in the CRISPR-Cas9 system.",
+    "common_uses": [
+      "Genome editing"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Uses guide RNA to target specific DNA sequences.",
+    "origin": "Derived from bacterial adaptive immunity."
+  },
+  "instance_layer": {
+    "examples": [
+      "SpCas9",
+      "SaCas9"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "MANIPULATOR"
+      ],
+      "capabilities": [
+        "DNA binding",
+        "DNA cutting"
+      ]
+    },
+    "EQUIVALENCE": {
+      "fills_role": [
+        "MANIPULATOR"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Globular"
+      ],
+      "shape": [
+        "Complex 3D structure"
+      ],
+      "composition": [
+        "Amino acids"
+      ],
+      "parts": [
+        "RNA-binding domain",
+        "DNA-binding domain"
+      ],
+      "relations": []
+    },
+    "MECHANISM": [],
+    "PROCESS_DATA": {
+      "agent": [
+        "CRISPR Cas9 proteins"
+      ],
+      "patient": [
+        "DNA"
+      ],
+      "precondition": [
+        "Presence of target DNA sequence"
+      ],
+      "effect": [
+        "DNA cleavage"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "PMC5627312"
+    ]
+  },
+  "claims": [
+    {
+      "predicate": "visual_features",
+      "object": "Globular",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "shape",
+      "object": "Complex 3D structure",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "composition",
+      "object": "Amino acids",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "parts",
+      "object": "RNA-binding domain",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "parts",
+      "object": "DNA-binding domain",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_roles",
+      "object": "MANIPULATOR",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_capabilities",
+      "object": "DNA binding",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_capabilities",
+      "object": "DNA cutting",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Ohmic Heating",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Heating Method",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Bringing plasma to a temperature where fusion can occur",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Heating",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Electric Current",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Heating Method",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A method of heating plasma using electric current.",
+    "common_uses": [
+      "Plasma heating"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Electric current passes through the plasma, causing resistance and generating heat.",
+    "origin": "Analogous to heating in a toaster."
+  },
+  "instance_layer": {
+    "examples": [
+      "Heating in tokamaks"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.iter.org/machine/supporting-systems/external-heating-systems",
+      "https://www.pppl.gov/news/2024/heating-fusion-why-toast-plasma-when-you-can-microwave-it"
+    ]
+  }
+}

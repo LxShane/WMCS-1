@@ -1,0 +1,85 @@
+{
+  "name": "Charging Technology",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Technology",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Wired Charging",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Wireless Charging",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Methods and systems used to replenish energy in batteries or other energy storage devices.",
+    "common_uses": [
+      "Recharging batteries",
+      "Powering devices"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Various methods including wired conduction and wireless induction are used to transfer energy.",
+    "origin": "Developed alongside battery technology to provide a means of replenishing energy."
+  },
+  "instance_layer": {
+    "examples": [
+      "Charging a smartphone",
+      "Charging an electric vehicle"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Energy Replenishment"
+      ],
+      "capabilities": [
+        "Transferring electrical energy to a battery or device"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.sciencedirect.com/science/article/pii/S2405844024149766"
+    ]
+  }
+}

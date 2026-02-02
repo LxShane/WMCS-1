@@ -1,0 +1,88 @@
+{
+  "name": "Thermal Quench",
+  "type": "SOCIAL_CONSTRUCT",
+  "id": {
+    "group": 64,
+    "item": 9876
+  },
+  "surface_layer": {
+    "definition": "A phase where the core temperature of the plasma collapses rapidly.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Caused by instabilities in the plasma.",
+    "origin": "Occurs during a Tokamak disruption."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "MALFUNCTION"
+      ],
+      "capabilities": [
+        "Causes rapid temperature drop",
+        "Leads to loss of thermal energy"
+      ]
+    },
+    "EQUIVALENCE": {
+      "fills_role": [
+        "MALFUNCTION"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "MECHANISM": [],
+    "PROCESS_DATA": {
+      "agent": [],
+      "patient": [
+        "Plasma"
+      ],
+      "precondition": [],
+      "effect": [
+        "Temperature Collapse"
+      ]
+    },
+    "PROPERTY_DATA": {},
+    "ABSTRACT_DATA": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  },
+  "claims": [
+    {
+      "predicate": "functional_roles",
+      "object": "MALFUNCTION",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_capabilities",
+      "object": "Causes rapid temperature drop",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_capabilities",
+      "object": "Leads to loss of thermal energy",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "name": "Orbit Stabilization",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Technique",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Maintaining desired orbital parameters",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Atmospheric drag compensation",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Gravity gradient stabilization",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Momentum management",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The process of ensuring a satellite remains in its intended orbit.",
+    "common_uses": [
+      "Extending satellite lifespan",
+      "Maintaining accurate data collection"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Involves counteracting orbital perturbations and implementing control systems.",
+    "origin": "Developed as a critical aspect of long-duration space missions."
+  },
+  "instance_layer": {
+    "examples": [
+      "Using thrusters to correct orbital decay"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "LEO Satellite Stabilization snippet",
+    "citations": [
+      "space-engineering-solutions.com/leo-stabilization"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Power Path",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "BATFET",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "system regulation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The power path allows the system to be regulated.",
+    "common_uses": [
+      "system regulation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "BATFET enables power path.",
+    "origin": "Associated with power management in electronic devices."
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "FAQ",
+    "citations": [
+      "https://e2e.ti.com/support/power-management-group/power-management/f/power-management-forum/1049317/faq-how-does-the-batfet-work-in-the-bq25790-bq25792-bq25798-and-bq25672"
+    ]
+  }
+}

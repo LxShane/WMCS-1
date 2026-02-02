@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WMCS Memory Core</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="brand-logo">WMCS</div>
+                <div class="brand-sub">COGNITIVE ENGINE v1.0</div>
+            </div>
+
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search Concepts... [Ctrl+K]">
+            </div>
+
+            <div class="stats-bar" id="stats-bar">
+                <span>Blocks: <b id="stat-count">--</b></span>
+                <span>Groups: <b id="stat-groups">--</b></span>
+            </div>
+
+            <!-- ACTIVITY FEED -->
+            <div class="activity-feed-container">
+                <div class="feed-header">NEURAL ACTIVITY</div>
+                <div id="activity-list" class="activity-list">
+                    <div class="activity-item system">Initializing...</div>
+                </div>
+            </div>
+
+            <div id="concept-list" class="concept-list">
+                <!-- Populated by JS -->
+                <div class="loading">Connect to Neural Link...</div>
+            </div>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main class="main-view">
+            <!-- EMPTY STATE -->
+            <div id="empty-state" class="empty-state">
+                <div class="hex-loader"></div>
+                <h1>AWAITING INPUT</h1>
+                <p>Select a Concept Block to inspect neural pathways.</p>
+            </div>
+
+            <!-- DETAIL VIEW -->
+            <div id="detail-view" class="detail-view hidden">
+                <header class="view-header">
+                    <div class="meta-row">
+                        <span class="badge id-badge" id="view-id">ID: (00, 00)</span>
+                        <span class="badge type-badge" id="view-type">UNKNOWN</span>
+                        <span class="badge status-badge" id="view-status">PROVISIONAL</span>
+                    </div>
+                    <h1 id="view-name">Concept Name</h1>
+
+                    <div class="confidence-wrapper">
+                        <div class="confidence-label">
+                            <span>System Confidence</span>
+                            <span id="view-conf-val">0.0%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="view-conf-bar" style="width: 0%"></div>
+                        </div>
+                    </div>
+                </header>
+
+                <nav class="tabs-nav">
+                    <button class="tab-btn active" onclick="switchTab('surface')">SURFACE LAYER</button>
+                    <button class="tab-btn" onclick="switchTab('deep')">DEEP LAYER</button>
+                    <button class="tab-btn" onclick="switchTab('facets')">FACETS (LENSES)</button>
+                    <button class="tab-btn" onclick="switchTab('relations')">RELATIONS</button>
+                    <button class="tab-btn" onclick="switchTab('raw')">RAW JSON</button>
+                </nav>
+
+                <div class="scroll-content">
+                    <!-- SURFACE TAB -->
+                    <div id="tab-surface" class="tab-pane active">
+                        <div class="card">
+                            <h3>Definition</h3>
+                            <p id="surface-def">No definition available.</p>
+                        </div>
+                        <div class="grid-2">
+                            <div class="card">
+                                <h3>Metadata</h3>
+                                <ul id="surface-meta" class="data-list"></ul>
+                            </div>
+                            <div class="card">
+                                <h3>Aliases</h3>
+                                <div id="surface-aliases" class="tag-cloud"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- DEEP TAB -->
+                    <div id="tab-deep" class="tab-pane">
+                        <div class="card">
+                            <h3>Mechanism</h3>
+                            <p id="deep-mech">No mechanism data.</p>
+                        </div>
+                        <div class="card">
+                            <h3>Expert Data</h3>
+                            <pre id="deep-data" class="code-block"></pre>
+                        </div>
+                    </div>
+
+                    <!-- FACETS TAB -->
+                    <div id="tab-facets" class="tab-pane">
+                        <div id="facets-container" class="facets-grid">
+                            <!-- Injected JS -->
+                        </div>
+                    </div>
+
+                    <!-- RELATIONS TAB -->
+                    <div id="tab-relations" class="tab-pane">
+                        <div class="card">
+                            <h3>Knowledge Graph Connections</h3>
+                            <ul id="relations-list" class="relations-list"></ul>
+                        </div>
+                    </div>
+
+                    <!-- RAW TAB -->
+                    <div id="tab-raw" class="tab-pane">
+                        <pre id="raw-json" class="code-block"></pre>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

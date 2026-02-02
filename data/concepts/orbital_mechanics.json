@@ -1,0 +1,88 @@
+{
+  "name": "Orbital Mechanics",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Principles governing the motion of objects in space",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INCLUDES",
+      "object": "Keplerian elements",
+      "temporal": {
+        "valid_from": "1609",
+        "valid_until": "PRESENT",
+        "event": "Discovery"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INCLUDES",
+      "object": "Perturbations",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INCLUDES",
+      "object": "Orbit determination",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The study of the motion of orbiting bodies.",
+    "common_uses": [
+      "Satellite trajectory planning",
+      "Spacecraft navigation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Governed by laws of physics such as Newton's law of universal gravitation.",
+    "origin": "Rooted in the work of Johannes Kepler and Isaac Newton."
+  },
+  "instance_layer": {
+    "examples": [
+      "Calculating the orbit of the International Space Station"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Spaceflight Dynamics Lab snippet",
+    "citations": [
+      "spacelab.university.edu/orbital-mechanics-stability"
+    ]
+  }
+}

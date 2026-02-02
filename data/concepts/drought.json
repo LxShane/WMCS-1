@@ -1,0 +1,66 @@
+{
+  "name": "Drought",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 25,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "CAUSES",
+      "object": "Resource Scarcity",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Crop Failure",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Environmental Condition",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A prolonged period of abnormally low rainfall, leading to a shortage of water.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Atmospheric conditions preventing precipitation over an extended period.",
+    "origin": "Natural weather patterns or climate change."
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

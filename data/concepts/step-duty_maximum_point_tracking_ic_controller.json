@@ -1,0 +1,82 @@
+{
+  "name": "Step-Duty Maximum Point Tracking IC Controller",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1236
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Controller",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Maximum Point Tracking IC",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "DC to DC boost",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A Step-Duty (SD) Maximum Point Tracking (MPPT) IC controller is used in DC to DC boost converters.",
+    "common_uses": [
+      "DC to DC boost"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The controller adjusts the duty cycle to efficiently boost the DC voltage and track the maximum power point.",
+    "origin": "Electrical engineering"
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Controller",
+        "Maximum Point Tracking IC"
+      ],
+      "capabilities": [
+        "DC to DC boost"
+      ]
+    },
+    "STRUCTURAL": {},
+    "PROPERTY_DATA": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.sciencedirect.com/science/article/pii/S2352484723011113"
+    ]
+  }
+}

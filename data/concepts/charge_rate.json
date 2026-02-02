@@ -1,0 +1,86 @@
+{
+  "name": "Charge Rate",
+  "type": "MATHEMATICAL_OBJECT",
+  "id": {
+    "group": 40,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "0.2C",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Balancing Efficiency",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Balancing Battery Lifespan",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A rate at which a battery is charged, expressed as a fraction or multiple of its capacity (C).",
+    "common_uses": [
+      "Describing charging speeds",
+      "Optimizing battery life"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Determined by the current applied to the battery during charging.",
+    "origin": "Evolved from battery technology to measure charging speeds."
+  },
+  "instance_layer": {
+    "examples": [
+      "0.2C charging rate",
+      "1C charging rate"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Charging Parameter"
+      ],
+      "capabilities": [
+        "Quantifying charging speed",
+        "Influencing battery lifespan"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.large-battery.com/blog/battery-lifespan-charge-discharge-strategies-remote-monitoring/"
+    ]
+  }
+}

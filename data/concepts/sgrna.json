@@ -1,0 +1,95 @@
+{
+  "name": "sgRNA",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 9012
+  },
+  "surface_layer": {
+    "definition": "Single guide RNA, a synthetic RNA molecule that guides the Cas9 nuclease to a specific DNA sequence.",
+    "common_uses": [
+      "Guiding Cas9 to target DNA"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Guides Cas9 to a specific DNA sequence through complementary base pairing.",
+    "origin": "Synthesized in a lab."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "GUIDE"
+      ],
+      "capabilities": [
+        "Targeting Cas9 to specific DNA sequences"
+      ]
+    },
+    "EQUIVALENCE": {
+      "fills_role": [
+        "GUIDE"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [
+        "RNA"
+      ],
+      "parts": [],
+      "relations": []
+    },
+    "MECHANISM": [],
+    "PROCESS_DATA": {
+      "agent": [
+        "sgRNA"
+      ],
+      "patient": [
+        "Cas9"
+      ],
+      "precondition": [],
+      "effect": [
+        "Cas9 targeting to DNA"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.sciencedirect.com/science/article/pii/S2211124717318727",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8652214/",
+      "https://www.tandfonline.com/doi/full/10.1080/19768354.2024.2322054"
+    ]
+  },
+  "claims": [
+    {
+      "predicate": "composition",
+      "object": "RNA",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_roles",
+      "object": "GUIDE",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_capabilities",
+      "object": "Targeting Cas9 to specific DNA sequences",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "name": "Piston",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 4567
+  },
+  "surface_layer": {
+    "definition": "A cylindrical metal part that moves up and down inside the cylinder of an engine.",
+    "common_uses": [
+      "Converting pressure into motion"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The piston moves within the cylinder, driven by pressure from combustion, and transfers that force to the crankshaft.",
+    "origin": "Part of the internal combustion engine design."
+  },
+  "instance_layer": {
+    "examples": [
+      "Piston in a car engine"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "FORCE_TRANSMITTER",
+        "MOTION_CONVERTER"
+      ],
+      "capabilities": [
+        "Reciprocating motion"
+      ]
+    },
+    "EQUIVALENCE": {
+      "fills_role": [
+        "FORCE_TRANSMITTER",
+        "MOTION_CONVERTER"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Cylindrical",
+        "Smooth surface"
+      ],
+      "shape": [
+        "Cylindrical"
+      ],
+      "composition": [
+        "Metal"
+      ],
+      "parts": [],
+      "relations": [
+        "LOCATED_AT: Cylinder"
+      ]
+    },
+    "MECHANISM": [],
+    "PROCESS_DATA": null,
+    "PROPERTY_DATA": null,
+    "ABSTRACT_DATA": null
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  },
+  "claims": [
+    {
+      "predicate": "visual_features",
+      "object": "Cylindrical",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "visual_features",
+      "object": "Smooth surface",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "shape",
+      "object": "Cylindrical",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "composition",
+      "object": "Metal",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "relations",
+      "object": "LOCATED_AT: Cylinder",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_roles",
+      "object": "FORCE_TRANSMITTER",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_roles",
+      "object": "MOTION_CONVERTER",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_capabilities",
+      "object": "Reciprocating motion",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Frequency",
+  "type": "MATHEMATICAL_OBJECT",
+  "id": {
+    "group": 40,
+    "item": 5678
+  },
+  "surface_layer": {
+    "definition": "The number of occurrences of a repeating event per unit of time.",
+    "common_uses": [
+      "Sound characterization",
+      "Signal processing"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Repetition rate.",
+    "origin": "Mathematical measurement."
+  },
+  "instance_layer": {
+    "examples": [
+      "Sound frequency",
+      "Radio frequency"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "MEASUREMENT"
+      ],
+      "capabilities": [
+        "Quantifying repetitions",
+        "Describing wave properties"
+      ]
+    },
+    "EQUIVALENCE": {
+      "fills_role": [
+        "MEASUREMENT"
+      ]
+    },
+    "PROPERTY_DATA": {
+      "domain": [
+        "SOUND",
+        "WAVES"
+      ],
+      "scale_type": [
+        "SCALAR"
+      ],
+      "typical_applies_to": [
+        "Vibrations",
+        "Waves"
+      ],
+      "antonym": [
+        "Period"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Frequency and Pitch - Sound",
+      "Strings, standing waves and harmonics",
+      "String vibration"
+    ]
+  },
+  "claims": [
+    {
+      "predicate": "functional_roles",
+      "object": "MEASUREMENT",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_capabilities",
+      "object": "Quantifying repetitions",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_capabilities",
+      "object": "Describing wave properties",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    }
+  ]
+}

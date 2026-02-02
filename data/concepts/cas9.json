@@ -1,0 +1,108 @@
+{
+  "name": "Cas9",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1234
+  },
+  "surface_layer": {
+    "definition": "Cas9 is a nuclease protein that is part of the CRISPR/Cas system.",
+    "common_uses": [
+      "genome editing"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Cas9 forms a complex with sgRNA and cleaves DNA targets.",
+    "origin": "Part of the CRISPR/Cas system found in bacteria."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "MANIPULATOR"
+      ],
+      "capabilities": [
+        "DNA cleavage",
+        "DNA target recognition"
+      ]
+    },
+    "EQUIVALENCE": {
+      "fills_role": [
+        "MANIPULATOR"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [
+        "Protein"
+      ],
+      "parts": [],
+      "relations": []
+    },
+    "MECHANISM": [],
+    "PROCESS_DATA": {
+      "agent": [
+        "Cas9"
+      ],
+      "patient": [
+        "DNA"
+      ],
+      "precondition": [
+        "Cas9 is in a complex with sgRNA",
+        "DNA targets with imperfect complementarity"
+      ],
+      "effect": [
+        "DNA cleavage"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.sciencedirect.com/science/article/pii/S2211124717318727",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8652214/",
+      "https://www.tandfonline.com/doi/full/10.1080/19768354.2024.2322054"
+    ]
+  },
+  "claims": [
+    {
+      "predicate": "composition",
+      "object": "Protein",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_roles",
+      "object": "MANIPULATOR",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_capabilities",
+      "object": "DNA cleavage",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_capabilities",
+      "object": "DNA target recognition",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    }
+  ]
+}

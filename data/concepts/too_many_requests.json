@@ -1,0 +1,68 @@
+{
+  "name": "Too Many Requests",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 4321
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Error",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "UNKNOWN"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Error",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "UNKNOWN"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Rate limiting",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "UNKNOWN"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An error indicating the server is limiting the client's request rate.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "The server implements a mechanism to prevent abuse by limiting the number of requests from a client within a certain time window.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

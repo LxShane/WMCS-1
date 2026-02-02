@@ -1,0 +1,58 @@
+{
+  "name": "Coffee",
+  "type": "PLANT",
+  "id": {
+    "group": 22,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "PREVENTS",
+      "object": "Liver Cancer",
+      "temporal": {
+        "valid_from": "2020",
+        "valid_until": "PRESENT",
+        "event": "Review by the Health Institute"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PREVENTS",
+      "object": "Throat Cancer",
+      "temporal": {
+        "valid_from": "2020",
+        "valid_until": "PRESENT",
+        "event": "Review by the Health Institute"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A beverage brewed from roasted coffee beans.",
+    "common_uses": [
+      "beverage",
+      "stimulant"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Contains caffeine, a stimulant.",
+    "origin": "Grown in tropical regions."
+  },
+  "instance_layer": [
+    "Arabica coffee",
+    "Robusta coffee"
+  ],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

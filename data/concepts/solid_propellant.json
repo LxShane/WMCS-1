@@ -1,0 +1,74 @@
+{
+  "name": "Solid Propellant",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Propulsion",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A solid material used in rocket engines and other propulsion systems.",
+    "common_uses": [
+      "Rocket propulsion",
+      "Missiles"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Provides thrust through combustion.",
+    "origin": "Chemical manufacturing."
+  },
+  "instance_layer": {
+    "examples": [
+      "Ammonium perchlorate composite propellant (APCP)",
+      "Black powder"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Fuel",
+        "Oxidizer"
+      ],
+      "capabilities": [
+        "Combustion",
+        "Thrust generation"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Solid",
+        "Homogeneous"
+      ],
+      "shape": [
+        "Cylindrical",
+        "Granular"
+      ],
+      "composition": [
+        "Oxidizer",
+        "Fuel",
+        "Binder"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Combustion of Solid Propellants"
+    ]
+  }
+}

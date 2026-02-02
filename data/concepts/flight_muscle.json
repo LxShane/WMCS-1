@@ -1,0 +1,114 @@
+{
+  "name": "Flight Muscle",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 23,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Muscle",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Flight",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Muscle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Flight",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Direct Flight Muscle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Indirect Flight Muscle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Muscle tissue responsible for flight.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Flight Muscle - an overview",
+      "Control of apterous by vestigial drives indirect flight muscle ...",
+      "Flight Muscle Progenitor Populations in Drosophila ..."
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Discharge",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1003
+  },
+  "surface_layer": {
+    "definition": "The process of a battery releasing energy.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Electrochemical reactions at the electrodes generate electrical current.",
+    "origin": "Battery operation"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "PROCESS_DATA": {
+      "agent": [
+        "ELECTROCHEMICAL_CELL"
+      ],
+      "patient": [],
+      "precondition": [
+        "Circuit connected"
+      ],
+      "effect": [
+        "Energy output"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://www.biologic.net/topics/anode-cathode-positive-and-negative-battery-basics/"
+    ]
+  },
+  "claims": []
+}

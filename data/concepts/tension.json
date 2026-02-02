@@ -1,0 +1,90 @@
+{
+  "name": "Tension",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 3456
+  },
+  "surface_layer": {
+    "definition": "The state of being stretched tight.",
+    "common_uses": [
+      "Measuring force",
+      "Adjusting musical instruments"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Force exerted by a stretched object.",
+    "origin": "Application of opposing forces."
+  },
+  "instance_layer": {
+    "examples": [
+      "String tension",
+      "Cable tension"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "FORCE"
+      ],
+      "capabilities": [
+        "Applying force",
+        "Resisting deformation"
+      ]
+    },
+    "EQUIVALENCE": {
+      "fills_role": [
+        "FORCE"
+      ]
+    },
+    "PROPERTY_DATA": {
+      "domain": [
+        "FORCE"
+      ],
+      "scale_type": [
+        "SCALAR"
+      ],
+      "typical_applies_to": [
+        "Stretched objects"
+      ],
+      "antonym": [
+        "Compression"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Strings, standing waves and harmonics"
+    ]
+  },
+  "claims": [
+    {
+      "predicate": "functional_roles",
+      "object": "FORCE",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_capabilities",
+      "object": "Applying force",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_capabilities",
+      "object": "Resisting deformation",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    }
+  ]
+}

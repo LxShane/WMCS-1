@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WMCS v2.0 Cockpit</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #050510;
+            color: #fff;
+            font-family: 'Segoe UI', sans-serif;
+            overflow: hidden;
+        }
+
+        #graph-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: 1;
+        }
+
+        #ui-layer {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: 2;
+            pointer-events: none;
+        }
+
+        /* Left Panel */
+        #chat-panel {
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            bottom: 20px;
+            width: 350px;
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid #333;
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+            display: flex;
+            flex-direction: column;
+            pointer-events: auto;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        #chat-history {
+            flex: 1;
+            overflow-y: auto;
+            padding: 15px;
+            font-size: 14px;
+        }
+
+        .msg-user {
+            color: #00ff88;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .msg-ai {
+            color: #ccc;
+            margin-bottom: 20px;
+            white-space: pre-wrap;
+            line-height: 1.5;
+        }
+
+        #input-area {
+            padding: 15px;
+            border-top: 1px solid #333;
+            display: flex;
+            gap: 10px;
+        }
+
+        input {
+            flex: 1;
+            background: #222;
+            border: 1px solid #444;
+            color: white;
+            padding: 10px;
+            border-radius: 6px;
+            outline: none;
+        }
+
+        input:focus {
+            border-color: #00ff88;
+        }
+
+        button {
+            background: #00ff88;
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background: #00cc6a;
+        }
+
+        /* Stats */
+        #stats {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            text-align: right;
+            pointer-events: auto;
+        }
+
+        .stat-box {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 10px 20px;
+            border-radius: 20px;
+            border: 1px solid #333;
+            display: inline-block;
+        }
+
+        .stat-val {
+            font-size: 24px;
+            font-weight: bold;
+            color: #00ff88;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: #888;
+            text-transform: uppercase;
+        }
+
+        /* Spinner */
+        #loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            color: #00ff88;
+            z-index: 3;
+            display: none;
+        }
+
+        a {
+            color: #00ff88;
+            text-decoration: none;
+        }
+    </style>
+
+    <!-- 3D Graph Lib -->
+    <script src="https://unpkg.com/3d-force-graph"></script>
+</head>
+
+<body>
+
+    <div id="loading">Thinking...</div>
+
+    <div id="graph-container"></div>
+
+    <div id="ui-layer">
+        <div id="chat-panel">
+            <div
+                style="padding: 15px; border-bottom: 1px solid #333; font-weight: bold; color: #00ff88; text-transform: uppercase; letter-spacing: 1px;">
+                WMCS Kernel v2.0
+            </div>
+            <div id="chat-history">
+                <div class="msg-ai">System Online. Connected to ChromaDB.<br>Ready for queries.</div>
+            </div>
+            <div id="controls" style="padding: 15px; border-top: 1px solid #333;">
+                <input type="text" id="queryInput" placeholder="Query the graph..." onkeypress="handleKey(event)"
+                    style="width: calc(100% - 20px); margin-bottom: 10px;">
+                <div style="display: flex; gap: 5px;">
+                    <button id="sendBtn" onclick="sendQuery()" style="flex: 1;">SEND</button>
+                    <button id="verifyBtn" style="background: #ff00ff; width: 80px;">VERIFY</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="stats">
+            <div class="stat-box">
+                <div class="stat-val" id="node-count">0</div>
+                <div class="stat-label">Concepts</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_URL = "http://127.0.0.1:8000";
+        let Graph = null;
+
+        // Init Graph
+        async function initGraph() {
+            try {
+                const res = await fetch(`${API_URL}/graph?limit=1000`);
+                const data = await res.json();
+
+                document.getElementById('node-count').innerText = data.nodes.length;
+
+                const elem = document.getElementById('graph-container');
+                Graph = ForceGraph3D()
+                    (elem)
+                    .graphData(data)
+                    .nodeLabel('name')
+                    .nodeAutoColorBy('group')
+                    .nodeVal('val')
+                    .linkColor(() => '#333')
+                    .linkOpacity(0.3)
+                    .backgroundColor('#050510');
+
+                // Auto orbit
+                // let angle = 0;
+                // setInterval(() => {
+                //   Graph.cameraPosition({
+                //     x: 1000 * Math.sin(angle),
+                //     z: 1000 * Math.cos(angle)
+                //   });
+                //   angle += Math.PI / 300;
+                // }, 50);
+
+            } catch (e) {
+                console.error("API Error", e);
+                addMessage("ai", "Error connecting to API: " + e.message + "\nCheck if server/api.py is running!");
+            }
+        }
+
+        const sendBtn = document.getElementById('sendBtn');
+        const verifyBtn = document.getElementById('verifyBtn');
+        const queryInput = document.getElementById('queryInput');
+
+        let lastQuery = "";
+        let lastResponse = "";
+
+        async function sendQuery() {
+            const text = queryInput.value.trim();
+            if (!text) return;
+
+            lastQuery = text;
+            addMessage("user", text);
+            queryInput.value = '';
+            document.getElementById('loading').style.display = "block";
+
+            try {
+                const res = await fetch(`${API_URL}/query`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ text: text })
+                });
+
+                const data = await res.json();
+
+                if (!res.ok) {
+                    throw new Error(data.detail || res.statusText || "Server Error");
+                }
+
+                if (!data.text) {
+                    // Fallback if structure is wrong
+                    lastResponse = JSON.stringify(data);
+                    addMessage("ai", "Received raw data: " + lastResponse);
+                } else {
+                    lastResponse = data.text;
+                    addMessage("ai", data.text);
+                }
+
+                // HIGHLIGHT LOGIC
+                if (data.visited_nodes && data.visited_nodes.length > 0) {
+                    // 1. Color them
+                    const { nodes } = Graph.graphData();
+
+                    // Reset colors
+                    nodes.forEach(n => {
+                        n.color = n.group === 100 ? "#00ff88" : "#ffffff";
+                        n.val = 1;
+                    });
+
+                    // Highlight visited
+                    let targetNode = null;
+                    data.visited_nodes.forEach(vid => {
+                        const n = nodes.find(x => x.id === vid);
+                        if (n) {
+                            n.color = "#ff00ff"; // Pink Highlight
+                            n.val = 5; // Enlarge
+                            targetNode = n; // Focus on the last one
+                        }
+                    });
+
+                    Graph.graphData({ nodes, links: Graph.graphData().links });
+
+                    // 2. Zoom Camera
+                    if (targetNode) {
+                        // Aim at the node from a distance
+                        const dist = 40;
+                        const snapPos = {
+                            x: targetNode.x,
+                            y: targetNode.y,
+                            z: targetNode.z + dist
+                        };
+                        Graph.cameraPosition(
+                            snapPos, // new position
+                            targetNode, // lookAt ({ x, y, z })
+                            3000  // ms transition duration
+                        );
+                    }
+                }
+
+            } catch (e) {
+                addMessage("ai", "Error: " + e.message);
+            }
+            document.getElementById('loading').style.display = "none";
+        }
+
+        async function verifyAnswer() {
+            if (!lastQuery || !lastResponse) {
+                addMessage("ai", "Nothing to verify yet.");
+                return;
+            }
+            addMessage("user", "Verifying last answer with External AI...");
+            document.getElementById('loading').style.display = "block";
+
+            try {
+                const res = await fetch(`http://127.0.0.1:8000/verify`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ query: lastQuery, response: lastResponse })
+                });
+                const data = await res.json();
+
+                const scoreColor = data.score > 7 ? '#00ff00' : '#ff0000';
+                addMessage("ai", `VERDICT: ${data.status} (Score: ${data.score}/10)`);
+                addMessage("ai", `CRITIQUE: ${data.missing_context}`);
+            } catch (e) {
+                addMessage("ai", `Verification Error: ${e.message}`);
+            }
+            document.getElementById('loading').style.display = "none";
+        }
+
+        sendBtn.addEventListener('click', sendQuery);
+        verifyBtn.addEventListener('click', verifyAnswer);
+        queryInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') sendQuery();
+        });
+
+        function addMessage(role, text) {
+            const div = document.createElement('div');
+            div.className = role === 'user' ? 'msg-user' : 'msg-ai';
+            div.innerText = role === 'user' ? `> ${text}` : text;
+            const history = document.getElementById('chat-history');
+            history.appendChild(div);
+            history.scrollTop = history.scrollHeight;
+        }
+
+        function handleKey(e) {
+            if (e.key === 'Enter') sendQuery();
+        }
+
+        // Boot
+        window.addEventListener('resize', () => {
+            if (Graph) Graph.width(window.innerWidth).height(window.innerHeight);
+        });
+
+        setTimeout(initGraph, 1000); // Give server a second
+    </script>
+</body>
+
+</html>

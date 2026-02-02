@@ -1,0 +1,164 @@
+{
+  "name": "Bottle",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 31,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Container",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Glass",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Polyethylene",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Cap",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Hold Contents",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "PREVENTS",
+      "object": "Leaks",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "PREVENTS",
+      "object": "Contamination",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A container, typically made of glass or plastic, used to hold liquids or other substances.",
+    "common_uses": [
+      "Storing chemicals",
+      "Storing liquids",
+      "Holding substances"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Bottles function as barriers to prevent the contents from escaping or becoming contaminated, often sealed with a cap.",
+    "origin": "Bottles have been used for storage since ancient times, evolving from clay and glass to modern plastics."
+  },
+  "instance_layer": {
+    "examples": [
+      "Glass bottles for laboratory chemicals",
+      "Plastic water bottles"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Clear",
+        "Transparent"
+      ],
+      "shape": [
+        "Cylindrical",
+        "Rectangular"
+      ],
+      "composition": [
+        "Glass",
+        "Plastic",
+        "Polyethylene"
+      ],
+      "parts": [
+        "Body",
+        "Cap"
+      ],
+      "relations": []
+    },
+    "FUNCTION": {
+      "roles": [
+        "Storage Container"
+      ],
+      "capabilities": [
+        "Sealing",
+        "Containment"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "Chemical Storage Solutions: Bottles & Small Containers",
+      "Plastic Bottles and Containers"
+    ]
+  }
+}

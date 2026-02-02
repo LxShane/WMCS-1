@@ -1,0 +1,76 @@
+{
+  "name": "Activation Function",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "surface_layer": {
+    "definition": "A function that introduces non-linearity into a neural network.",
+    "common_uses": [
+      "Enabling neural networks to learn complex patterns",
+      "Improving neural network performance"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Activation functions transform the input signal of a node in a neural network into an output signal.",
+    "origin": "Artificial neural networks"
+  },
+  "instance_layer": {
+    "examples": [
+      "ReLU",
+      "Sigmoid",
+      "Tanh"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "TRANSFORMER"
+      ],
+      "capabilities": [
+        "Introduce non-linearity",
+        "Improve learning",
+        "Improve convergence"
+      ]
+    },
+    "EQUIVALENCE": {
+      "fills_role": [
+        "TRANSFORMER"
+      ]
+    },
+    "ABSTRACT_DATA": {
+      "domain": [
+        "Machine Learning",
+        "Artificial Neural Networks"
+      ],
+      "core_premise": [
+        "Linear models have limited representation power, activation functions add non-linearity to model complex relationships"
+      ],
+      "contrasting_concepts": [
+        "Linear function"
+      ]
+    },
+    "PROCESS_DATA": {
+      "agent": [
+        "NEURAL_NETWORK_NODE"
+      ],
+      "patient": [
+        "INPUT_SIGNAL"
+      ],
+      "precondition": [
+        "Neural Network Node Recieves Input"
+      ],
+      "effect": [
+        "Output signal passed to next layer"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://businessanalyticsinstitute.com/activation-functions-impact-neural-network-performance/",
+      "https://developers.google.com/machine-learning/crash-course/neural-networks/activation-functions"
+    ]
+  }
+}

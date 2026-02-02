@@ -1,0 +1,34 @@
+[
+  {
+    "id": "e75036aa",
+    "type": "CAUTION",
+    "content": "When dealing with concepts like the speed of light, be cautious about applying Newtonian physics. These laws break down at very high speeds and require the application of relativistic physics. Ensure the selected physical laws are appropriate for the specific context and scale of the problem.",
+    "trigger": "Physics, Light, Relativity",
+    "confidence": 0.95,
+    "created_at": "2026-01-31T16:48:01.728838"
+  },
+  {
+    "id": "e9cf2cdd",
+    "type": "CAUTION",
+    "content": "When a user expresses uncertainty ('not sure') about the answer provided by a RAG/Logic pipeline, it indicates a potential failure in the retrieval, reasoning, or presentation of the information. Instead of assuming the answer is correct, the system should implement a verification or clarification step. This could involve cross-referencing with alternative sources, breaking down the answer into simpler components, or explicitly stating the sources used to derive the answer, thus increasing user confidence.",
+    "trigger": "answering factual questions",
+    "confidence": 0.9,
+    "created_at": "2026-02-01T12:09:47.781432"
+  },
+  {
+    "id": "b7e193b4",
+    "type": "CAUTION",
+    "content": "Simply executing a retrieval or logical reasoning pipeline without considering the complexity of the question or the potential for ambiguity can lead to user dissatisfaction. \"Not sure\" may indicate the answer was too technical, incomplete, tangential, or simply confusing. Evaluate the output of the pipeline before presenting it, and consider adding contextualization or simplifying the explanation based on predicted user understanding. Offer follow-up questions to clarify their needs.",
+    "trigger": "Information Retrieval; RAG; Question Answering",
+    "confidence": 0.8,
+    "created_at": "2026-02-01T12:53:22.113979"
+  },
+  {
+    "id": "01df54d4",
+    "type": "STRATEGY",
+    "content": "When faced with a question, especially regarding factual information, the initial step should involve attempting to retrieve the answer from memory or consulting readily available knowledge sources. An empty set of steps indicates a failure to initiate this basic information retrieval process.",
+    "trigger": "knowledge retrieval; question answering; lack of information",
+    "confidence": 1.0,
+    "created_at": "2026-02-01T13:17:01.697154"
+  }
+]

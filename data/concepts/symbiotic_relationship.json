@@ -1,0 +1,131 @@
+{
+  "name": "Symbiotic Relationship",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Biological Interaction",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "any close and long-term biological interaction between two organisms of different species",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INVOLVES",
+      "object": "Symbiont",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INVOLVES",
+      "object": "Host",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAN_CAUSE",
+      "object": "Harm to host",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAN_CAUSE",
+      "object": "Benefit to symbiont",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A close and long-term biological interaction between two organisms of different species.",
+    "common_uses": [
+      "Understanding ecological relationships",
+      "Studying evolutionary processes"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The symbiont lives in or on the host, often benefiting at the host's expense.",
+    "origin": "Evolutionary adaptation between different species."
+  },
+  "instance_layer": {
+    "examples": [
+      "Nitrogen-fixing bacteria in plant roots",
+      "Parasitic worms in animals"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Ecological Interaction"
+      ],
+      "capabilities": [
+        "Nutrient exchange",
+        "Protection",
+        "Disease transmission"
+      ]
+    },
+    "STRUCTURAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7123458/",
+      "https://en.wikipedia.org/wiki/Symbiosis"
+    ]
+  }
+}

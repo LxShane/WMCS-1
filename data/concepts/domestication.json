@@ -1,0 +1,84 @@
+{
+  "name": "Domestication",
+  "type": "SOCIAL_CONSTRUCT",
+  "id": {
+    "group": 60,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Process",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Humans",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Genetic divergence between dogs and wolves",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The process of adapting wild plants and animals for human use.",
+    "common_uses": [
+      "Farming",
+      "Pet ownership"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Selective breeding and training over generations.",
+    "origin": "Early human societies."
+  },
+  "instance_layer": [
+    "Domestication of cattle",
+    "Domestication of wheat"
+  ],
+  "facets": {
+    "PROCESS_DATA": {
+      "roles": [
+        "Modifier"
+      ],
+      "capabilities": [
+        "Altering the genetic makeup of organisms"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Sources",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Domestication_of_the_dog",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12520860/"
+    ]
+  }
+}

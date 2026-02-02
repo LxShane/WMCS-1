@@ -1,0 +1,70 @@
+{
+  "name": "Tokamak Disruption",
+  "type": "SOCIAL_CONSTRUCT",
+  "id": {
+    "group": 64,
+    "item": 1234
+  },
+  "surface_layer": {
+    "definition": "A rapid loss of plasma confinement and thermal energy in a Tokamak reactor.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Magnetohydrodynamic instabilities grow nonlinearly, leading to stochastic magnetic fields, which cause a thermal quench and current quench.",
+    "origin": "Occurs within Tokamak reactors."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "MALFUNCTION"
+      ],
+      "capabilities": [
+        "Causes rapid loss of plasma confinement",
+        "Causes loss of thermal energy",
+        "Induces large voltages",
+        "Causes mechanical stress on the reactor"
+      ]
+    },
+    "EQUIVALENCE": {
+      "fills_role": [
+        "MALFUNCTION"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "MECHANISM": [
+      "MHD instabilities grow nonlinearly",
+      "Nonlinear growth leads to stochastic magnetic fields",
+      "Stochastic magnetic fields cause thermal quench",
+      "Stochastic magnetic fields cause current quench"
+    ],
+    "PROCESS_DATA": {
+      "agent": [],
+      "patient": [
+        "Plasma",
+        "Tokamak Reactor"
+      ],
+      "precondition": [],
+      "effect": [
+        "Loss of Plasma Confinement",
+        "Loss of Thermal Energy",
+        "Induced Voltages",
+        "Mechanical Stress"
+      ]
+    },
+    "PROPERTY_DATA": {},
+    "ABSTRACT_DATA": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

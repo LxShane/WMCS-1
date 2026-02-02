@@ -1,0 +1,150 @@
+{
+  "name": "Boost Converter",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 21,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Power Module",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Boosting Voltage",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Step-Up Power Conversion",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Lithium Battery Charging",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "USB Type-C Port",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Charging Protection",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A boost converter is a power module used to step-up voltage.",
+    "common_uses": [
+      "Charging lithium batteries",
+      "DIY Chargers"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The boost converter uses switching elements and energy storage components to increase voltage.",
+    "origin": "Electronic engineering design."
+  },
+  "instance_layer": {
+    "examples": [
+      "DWEII 10PCS Type-C USB 5V 2A Boost Converter"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Power Conversion",
+        "Voltage Regulation"
+      ],
+      "capabilities": [
+        "Voltage Step-Up",
+        "Battery Charging"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Electronic components",
+        "Circuit board"
+      ],
+      "shape": [
+        "Rectangular"
+      ],
+      "composition": [
+        "Silicon",
+        "Copper",
+        "Plastic"
+      ],
+      "parts": [
+        "Integrated Circuits",
+        "Resistors",
+        "Capacitors",
+        "Inductors"
+      ],
+      "relations": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.amazon.com/DWEII-Converter-Step-Up-Charging-Protection/dp/B09YD5C9QC",
+      "https://www.eitkw.com/product/5v-boost-converter-step-up-power-module-lithium-battery-charging-protection-board/?srsltid=AfmBOoq6NHSiOpTSSeeWP-jBVfdSmzwLjxPpf3807UvMzjCJcLnuA7rg"
+    ]
+  }
+}

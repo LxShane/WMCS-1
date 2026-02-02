@@ -1,0 +1,67 @@
+{
+  "name": "Step Voltage Controller",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Controller",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "DC to DC boost",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A Step Voltage (SV) controller is used in DC to DC boost converters.",
+    "common_uses": [
+      "DC to DC boost"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The controller adjusts the voltage in discrete steps to efficiently boost the DC voltage.",
+    "origin": "Electrical engineering"
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Controller"
+      ],
+      "capabilities": [
+        "DC to DC boost"
+      ]
+    },
+    "STRUCTURAL": {},
+    "PROPERTY_DATA": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.sciencedirect.com/science/article/pii/S2352484723011113"
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "name": "CRISPR Cas9 proteins",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1234
+  },
+  "surface_layer": {
+    "definition": "Proteins involved in the CRISPR-Cas9 system.",
+    "common_uses": [
+      "Genome editing"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Uses guide RNA to target specific DNA sequences.",
+    "origin": "Derived from bacterial adaptive immunity."
+  },
+  "instance_layer": {
+    "examples": [
+      "SpCas9",
+      "SaCas9"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "MANIPULATOR"
+      ],
+      "capabilities": [
+        "DNA binding",
+        "DNA cutting"
+      ]
+    },
+    "EQUIVALENCE": {
+      "fills_role": [
+        "MANIPULATOR"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Globular"
+      ],
+      "shape": [
+        "Complex 3D structure"
+      ],
+      "composition": [
+        "Amino acids"
+      ],
+      "parts": [
+        "RNA-binding domain",
+        "DNA-binding domain"
+      ],
+      "relations": []
+    },
+    "MECHANISM": [],
+    "PROCESS_DATA": {
+      "agent": [
+        "CRISPR Cas9 proteins"
+      ],
+      "patient": [
+        "DNA"
+      ],
+      "precondition": [
+        "Presence of target DNA sequence"
+      ],
+      "effect": [
+        "DNA cleavage"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "PMC5627312"
+    ]
+  }
+}

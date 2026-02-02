@@ -1,0 +1,71 @@
+{
+  "name": "Neuron",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "biological cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "mathematical unit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "sending signals",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A neuron is a fundamental unit in a neural network, either biological or mathematical, that sends signals.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Neurons communicate via electrical and chemical signals.",
+    "origin": "Biological systems and mathematical models"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Neural network",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Neural_network",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2930149/"
+    ]
+  }
+}

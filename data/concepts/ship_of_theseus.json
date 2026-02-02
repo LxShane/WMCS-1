@@ -1,0 +1,110 @@
+{
+  "name": "Ship of Theseus",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "MADE_OF",
+      "object": "Oak Wood planks",
+      "temporal": {
+        "valid_from": "500 BC",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Ship",
+      "temporal": {
+        "valid_from": "500 BC",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Wood",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "2000",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "HISTORICAL",
+        "source_type": "UNKNOWN"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Wooden part",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "2000",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "HISTORICAL",
+        "source_type": "UNKNOWN"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Aluminum",
+      "temporal": {
+        "valid_from": "2000",
+        "valid_until": "PRESENT",
+        "event": "Replacement of parts"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "UNKNOWN"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Preservation",
+      "temporal": {
+        "valid_from": "2000",
+        "valid_until": "PRESENT",
+        "event": "Replacement of parts"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "UNKNOWN"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A ship whose wooden parts were gradually replaced.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Successive replacement of all components results in a new object.",
+    "origin": "Ancient Greek philosophical thought experiment"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

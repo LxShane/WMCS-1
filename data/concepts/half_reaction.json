@@ -1,0 +1,57 @@
+{
+  "name": "Half Reaction",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "surface_layer": {
+    "definition": "A half reaction is either the oxidation or reduction reaction component of a redox reaction.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Considers the change in oxidation state.",
+    "origin": "Component of a redox reaction"
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "REPRESENTATION"
+      ],
+      "capabilities": []
+    },
+    "EQUIVALENCE": {
+      "fills_role": [
+        "REPRESENTATION"
+      ]
+    },
+    "ABSTRACT_DATA": {
+      "domain": [
+        "CHEMISTRY"
+      ],
+      "core_premise": [
+        "Redox reactions can be separated into oxidation and reduction components."
+      ],
+      "contrasting_concepts": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Supplemental_Modules_(Analytical_Chemistry)/Electrochemistry/Redox_Chemistry/Half-Reactions",
+      "https://en.wikipedia.org/wiki/Half-reaction"
+    ]
+  },
+  "claims": [
+    {
+      "predicate": "functional_roles",
+      "object": "REPRESENTATION",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    }
+  ]
+}

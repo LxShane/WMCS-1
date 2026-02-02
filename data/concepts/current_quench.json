@@ -1,0 +1,88 @@
+{
+  "name": "Current Quench",
+  "type": "SOCIAL_CONSTRUCT",
+  "id": {
+    "group": 64,
+    "item": 5678
+  },
+  "surface_layer": {
+    "definition": "A rapid decrease in the plasma current.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Caused by instabilities in the plasma.",
+    "origin": "Occurs during a Tokamak disruption."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "MALFUNCTION"
+      ],
+      "capabilities": [
+        "Causes a rapid drop in plasma current",
+        "Induces large voltages"
+      ]
+    },
+    "EQUIVALENCE": {
+      "fills_role": [
+        "MALFUNCTION"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "MECHANISM": [],
+    "PROCESS_DATA": {
+      "agent": [],
+      "patient": [
+        "Plasma"
+      ],
+      "precondition": [],
+      "effect": [
+        "Decrease in Plasma Current"
+      ]
+    },
+    "PROPERTY_DATA": {},
+    "ABSTRACT_DATA": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  },
+  "claims": [
+    {
+      "predicate": "functional_roles",
+      "object": "MALFUNCTION",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_capabilities",
+      "object": "Causes a rapid drop in plasma current",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    },
+    {
+      "predicate": "functional_capabilities",
+      "object": "Induces large voltages",
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "MIGRATE_LEGACY"
+      }
+    }
+  ]
+}

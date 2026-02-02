@@ -1,0 +1,116 @@
+{
+  "name": "Bird Wing",
+  "type": "BODY_PART",
+  "id": {
+    "group": 25,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Wing",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Wing Shape",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Producing Lift",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Active Morphing",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The wing of a bird, used for flight.",
+    "common_uses": [
+      "Flight",
+      "Gliding"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Aerodynamic forces acting on the wing generate lift and thrust.",
+    "origin": "Evolutionary adaptation for flight."
+  },
+  "instance_layer": {
+    "examples": [
+      "Eagle wing",
+      "Sparrow wing"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Feathered",
+        "Aerodynamic"
+      ],
+      "shape": [
+        "Curved",
+        "Elongated"
+      ],
+      "parts": [
+        "Feathers",
+        "Bones"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Flight"
+      ],
+      "capabilities": [
+        "Generating lift",
+        "Generating thrust"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://www.sciencelearn.org.nz/resources/303-how-birds-fly, https://www.schlitzaudubon.org/2022/09/19/the-physics-of-flight/, https://sites.nd.edu/biomechanics-in-the-wild/2021/06/01/staying-airborne-how-bird-wings-are-built-for-aerodynamic-and-efficient-flight/",
+    "citations": [
+      "How birds fly",
+      "The Physics of Flight",
+      "How bird wings are built for aerodynamic and efficient flight"
+    ]
+  }
+}
