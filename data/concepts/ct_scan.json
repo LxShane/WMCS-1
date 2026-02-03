@@ -1,0 +1,97 @@
+{
+  "name": "CT scan",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 29,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "medical imaging technique",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "obtain detailed internal images",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "computed tomography scan",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "computed axial tomography scan",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "HISTORICAL",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A computed tomography scan is a medical imaging technique used to obtain detailed internal images.",
+    "common_uses": [
+      "medical diagnosis"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Uses X-rays to create cross-sectional images of the body.",
+    "origin": "Developed in the 1970s."
+  },
+  "instance_layer": {
+    "examples": [
+      "CT scan of the abdomen to detect appendicitis."
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Imaging"
+      ],
+      "capabilities": [
+        "Internal visualization"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "CT scan - Wikipedia"
+    ]
+  }
+}

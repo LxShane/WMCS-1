@@ -1,0 +1,66 @@
+{
+  "name": "Circuit Breaker",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 21,
+    "item": 6006
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Electrical Device",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Substation Protection",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Substation Maintenance",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An automatically operated electrical switch designed to protect an electrical circuit from damage caused by excess current from an overload or short circuit.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Detects fault current and interrupts the circuit",
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Electro-genesis",
+    "citations": []
+  }
+}

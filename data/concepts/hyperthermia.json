@@ -1,0 +1,54 @@
+{
+  "name": "Hyperthermia",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 3456
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "condition when the body is unable to maintain a normal temperature and it increases significantly above normal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "uncompensable heat stress",
+      "temporal": {
+        "valid_from": "2022",
+        "valid_until": "PRESENT",
+        "event": "Experiment"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A condition where body temperature increases significantly above normal.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Failure of thermoregulatory mechanisms to dissipate heat effectively.",
+    "origin": "Result of various factors like infection, heatstroke, etc."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "https://en.wikipedia.org/wiki/Thermoregulation",
+    "citations": []
+  }
+}

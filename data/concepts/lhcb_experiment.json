@@ -1,9 +1,9 @@
 {
   "name": "LHCb experiment",
-  "type": "INANIMATE_OBJECT",
+  "type": "SOCIAL_CONSTRUCT",
   "id": {
-    "group": 30,
-    "item": 1001
+    "group": 60,
+    "item": 1002
   },
   "claims": [
     {
@@ -187,10 +187,38 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Experiment",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "LHC",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The LHCb experiment is a particle physics detector collecting data at the Large Hadron Collider at CERN.",
+    "definition": "An experiment at the LHC.",
     "common_uses": []
   },
   "deep_layer": {
@@ -200,9 +228,25 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Located at Point 8 on the LHC ring, near Ferney-Voltaire, France.",
+      "connected_to": [
+        "LHC ring",
+        "VELO (Vertex Locator)",
+        "RICH detectors",
+        "Tracking System",
+        "Calorimeters",
+        "Muon System",
+        "Data Acquisition System",
+        "Trigger System"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "LHCb experiment - Wikipedia",
+    "source": "https://link.aps.org/doi/10.1103/PhysRevAccelBeams.27.111001, https://link.springer.com/article/10.1140/epjh/s13129-021-00002-z",
     "citations": []
-  }
+  },
+  "autocorrected": true
 }

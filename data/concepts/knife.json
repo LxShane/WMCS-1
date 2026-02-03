@@ -1,0 +1,103 @@
+{
+  "name": "Knife",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 31,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Tool",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Cutting",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Blade",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A tool with a sharpened edge used for cutting.",
+    "common_uses": [
+      "Cutting food",
+      "Cutting materials"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Applies focused force to separate materials.",
+    "origin": "Evolved from sharpened stones."
+  },
+  "instance_layer": [
+    "Chef's knife",
+    "Pocket knife"
+  ],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Sharp",
+        "Metallic",
+        "Shiny"
+      ],
+      "shape": [
+        "Elongated",
+        "Flat",
+        "Tapered"
+      ],
+      "composition": [
+        "Steel"
+      ],
+      "parts": [
+        "Blade",
+        "Handle"
+      ],
+      "relations": []
+    },
+    "FUNCTION": {
+      "roles": [
+        "Cutter"
+      ],
+      "capabilities": [
+        "Slicing",
+        "Chopping",
+        "Paring"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Provided Text",
+    "citations": []
+  }
+}

@@ -2,8 +2,8 @@
   "name": "Ascending Tracts",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1111
+    "group": 22,
+    "item": 1003
   },
   "claims": [
     {
@@ -61,22 +61,78 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Neural Pathways",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Transmitting Sensory Information",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Peripheral Nerves",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Transmitting Sensory Information to the Cerebral Cortex",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Ascending tracts are pathways that transmit sensory information to the brain.",
+    "definition": "Neural pathways that transmit sensory information from peripheral nerves to the cerebral cortex.",
     "common_uses": []
   },
   "deep_layer": {
     "mechanism": null,
     "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": {},
   "facets": {},
   "epistemic_metadata": {
-    "source": "The Ascending Tracts - DCML - Anterolateral - TeachMeAnatomy",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "TeachMeAnatomy"
+    ]
   }
 }

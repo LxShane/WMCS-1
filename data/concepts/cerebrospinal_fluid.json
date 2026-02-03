@@ -1,9 +1,9 @@
 {
   "name": "Cerebrospinal Fluid",
-  "type": "LIVING_SYSTEM",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 9012
+    "group": 31,
+    "item": 1239
   },
   "claims": [
     {
@@ -61,6 +61,20 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Brain and Spinal Cord",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
@@ -68,16 +82,16 @@
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Produced by the choroid plexus in the ventricles of the brain.",
-    "origin": "Filtration of blood plasma."
+    "mechanism": "Protection and waste removal.",
+    "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
+    "SPATIAL": {
+      "location": "Brain and Spinal Cord",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Meninges"
     },
     "STRUCTURAL": {
       "visual_features": [
@@ -85,26 +99,15 @@
         "Colorless"
       ],
       "shape": [
-        "Fluid"
+        "Liquid"
       ],
-      "composition": [
-        "Water",
-        "Electrolytes",
-        "Glucose",
-        "Proteins"
-      ],
+      "composition": [],
       "parts": [],
       "relations": []
-    },
-    "SPATIAL": {
-      "location": "Subarachnoid space",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": "Brain ventricles, spinal cord"
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Cerebellum: Afferent and efferent connections | Kenhub",
     "citations": []
   }
 }

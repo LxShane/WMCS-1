@@ -1,0 +1,79 @@
+{
+  "name": "Neurotoxins",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 31,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "CAUSES",
+      "object": "botulism",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "tetanus",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "targets of neuronal SNAREs",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Toxins that affect the nervous system.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Disrupt neuronal function.",
+    "origin": "Produced by certain bacteria"
+  },
+  "instance_layer": [],
+  "facets": {
+    "SPATIAL": {
+      "location": "Extracellular space, Synaptic cleft, Intracellular space (neurons/glia)",
+      "connected_to": [
+        "Neurons",
+        "Glial cells",
+        "Synapses",
+        "Neuromuscular junctions",
+        "Blood-brain barrier"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "SNARE protein - https://en.wikipedia.org/wiki/SNARE_protein",
+    "citations": []
+  },
+  "autocorrected": true
+}

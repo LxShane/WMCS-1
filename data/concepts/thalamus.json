@@ -2,8 +2,8 @@
   "name": "Thalamus",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 22,
-    "item": 4567
+    "group": 24,
+    "item": 1001
   },
   "claims": [
     {
@@ -243,24 +243,57 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "ventrolateral part",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Thalamic Site",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The thalamus is a mostly gray matter structure in the diencephalon in the brain that plays many essential roles and is involved in several neural functions.",
+    "definition": "A brain structure involved in sensory and motor signal relay and regulation of consciousness and alertness.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "It is composed of various nuclei that each serve a unique role , ranging from relaying sensory and motor signals to regulating consciousness and alertness.",
-    "origin": null
+    "mechanism": "Relays sensory information to the cerebral cortex.",
+    "origin": "Develops from the diencephalon."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "In the forebrain, part of the diencephalon",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Brain"
+    }
+  },
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": [
-      "Thalamus - an overview | ScienceDirect Topics"
-    ]
+    "citations": []
   }
 }

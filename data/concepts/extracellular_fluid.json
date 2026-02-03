@@ -1,9 +1,9 @@
 {
-  "name": "Extracellular fluid",
-  "type": "PHYSICAL",
+  "name": "Extracellular Fluid",
+  "type": "LIVING_SYSTEM",
   "id": {
     "group": 20,
-    "item": 1003
+    "item": 1234
   },
   "claims": [
     {
@@ -19,14 +19,84 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Fluid outside cells in a multicellular organism",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Arterial Blood Plasma",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Interstitial Fluid",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Lymph",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Homeostatic Regulation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Fluid located outside of cells.",
+    "definition": "Fluid outside cells in a multicellular organism.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "It provides a medium for nutrient and waste transport.",
+    "mechanism": null,
     "origin": null
   },
   "instance_layer": {
@@ -34,9 +104,7 @@
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "Glia - Wikipedia"
-    ]
+    "source": "Extracellular fluid - Wikipedia",
+    "citations": []
   }
 }

@@ -2,8 +2,8 @@
   "name": "Ground Plane",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 30,
-    "item": 7890
+    "group": 28,
+    "item": 1234
   },
   "claims": [
     {
@@ -215,60 +215,148 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "sheet of copper",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "layer of the PCB",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Large area of metal on a PCB connected to a power supply potential or common connection.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Low-impedance path",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Reduce noise in circuit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Trace",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "PCB",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A conductive layer in a PCB that serves as a common return path for current and a reference potential.",
+    "definition": "A large area of metal on a PCB used to provide a common potential and reduce noise.",
     "common_uses": [
-      "Providing a stable voltage reference",
-      "Reducing noise and interference"
+      "Reducing noise in circuits",
+      "Providing a low-impedance path for signals"
     ]
   },
   "deep_layer": {
-    "mechanism": "Provides a low-impedance path for current return, minimizing voltage drops and ground loops.",
-    "origin": "Developed to improve signal integrity and reduce noise in electronic circuits."
+    "mechanism": "By providing a low-impedance path, the ground plane minimizes voltage differences and reduces noise.",
+    "origin": "Developed to provide a stable and low-noise reference for electronic circuits."
   },
   "instance_layer": {
     "examples": [
-      "Solid copper layer in a multi-layer PCB"
+      "Ground plane in a computer motherboard",
+      "Ground plane in a radio transmitter"
     ]
   },
   "facets": {
     "STRUCTURAL": {
       "visual_features": [
-        "Copper colored",
-        "Flat"
+        "Metallic",
+        "Planar"
       ],
       "shape": [
-        "Rectangular",
-        "Variable sizes"
+        "Flat",
+        "Rectangular"
       ],
       "composition": [
         "Copper"
-      ]
-    },
-    "SPATIAL": {
-      "location": "Inferior",
-      "connected_to": [
-        "Foundation",
-        "Base Structure"
       ],
-      "coordinates": []
-    },
-    "FUNCTION": {
-      "roles": [
-        "Voltage Reference",
-        "Noise Reduction"
+      "parts": [
+        "Trace"
       ],
-      "capabilities": [
-        "Providing stable voltage",
-        "Reducing interference"
-      ]
+      "relations": []
     }
   },
   "epistemic_metadata": {
-    "source": "EMC/EMI Shielding Explained - Harwin",
-    "citations": []
-  },
-  "autocorrected": true
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Ground_plane",
+      "https://www.advancedpcb.com/en-us/resources/blog/the-importance-of-power-and-ground-planes-in-pcb-design/",
+      "https://www.sciencedirect.com/topics/engineering/ground-plane"
+    ]
+  }
 }

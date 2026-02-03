@@ -2,8 +2,8 @@
   "name": "Ribosome",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1002
+    "group": 20,
+    "item": 1007
   },
   "claims": [
     {
@@ -50,19 +50,30 @@
     }
   ],
   "surface_layer": {
-    "definition": "A complex molecular machine that translates RNA to proteins.",
+    "definition": "A cell structure that makes protein.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Reads mRNA and synthesizes polypeptide chains.",
-    "origin": "Present in all living cells."
+    "mechanism": null,
+    "origin": null
   },
-  "instance_layer": {
-    "examples": []
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": []
+    },
+    "SPATIAL": {}
   },
-  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
+    "source": "Protein Sorting and Transport - The Endoplasmic Reticulum, Golgi Apparatus, and Lysosomes",
+    "citations": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK9897/"
+    ]
   }
 }

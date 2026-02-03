@@ -1,0 +1,51 @@
+{
+  "name": "TCP",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1010
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "critical data transmission",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "TCP is used for critical data (like database connections).",
+    "common_uses": [
+      "critical data transmission"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "TCP ensures reliable data transmission through error checking and retransmission.",
+    "origin": "Developed to provide reliable data transfer over networks."
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Network Protocol"
+      ],
+      "capabilities": [
+        "reliable data transfer"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://serveravatar.com/networking-basics-guide/"
+    ]
+  }
+}

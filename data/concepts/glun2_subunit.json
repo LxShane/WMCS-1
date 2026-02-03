@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 30,
-    "item": 1001
+    "item": 1234
   },
   "claims": [
     {
@@ -117,31 +117,150 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "NMDA Receptor Subunit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Regulation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "NMDAR subunit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Amino terminal domain (ATD)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Ligand binding domain (LBD)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Transmembrane region",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Re-entrant loop",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Carboxy terminal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A subunit of the NMDA glutamate receptor that influences its function.",
+    "definition": "A subunit of the NMDA receptor.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The GluN2 subunit assembles within the receptor and determines single-channel characteristics. Also, GluN2 subunits confer NMDARs with distinct ion channel properties and intracellular trafficking pathways.",
-    "origin": "Part of the NMDA glutamate receptor complex."
+    "mechanism": "Forms part of the NMDA receptor and contributes to its function.",
+    "origin": "Encoded by genes in the cell's DNA."
   },
   "instance_layer": {
-    "examples": [
-      "GluN2A",
-      "GluN2B",
-      "GluN2C",
-      "GluN2D"
-    ]
+    "examples": []
   },
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Synaptic membrane, postsynaptic density",
+      "connected_to": [
+        "GluN1 subunit",
+        "GluN2A subunit",
+        "GluN2B subunit",
+        "PSD-95",
+        "CaMKII",
+        "Other postsynaptic proteins"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://onlinelibrary.wiley.com/doi/full/10.1111/jnc.14970",
-      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7967294/",
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3778433/"
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7351600/"
     ]
-  }
+  },
+  "autocorrected": true
 }

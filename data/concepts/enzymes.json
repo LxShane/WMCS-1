@@ -2,8 +2,8 @@
   "name": "Enzymes",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1002
+    "group": 22,
+    "item": 1012
   },
   "claims": [
     {
@@ -33,35 +33,42 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "PERFORMS_FUNCTION",
+      "object": "as homo-oligomers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Biological molecules (proteins) that significantly speed up the rate of virtually all of the chemical reactions that take place within cells.",
+    "definition": "Enzymes are proteins that catalyze biological reactions.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Enzymes act as catalysts and are crucial in driving metabolic reactions.",
-    "origin": "Encoded by genes"
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Catalyst"
-      ],
-      "capabilities": [
-        "Speeding up chemical reactions"
-      ]
-    }
+    "FUNCTION": {},
+    "STRUCTURAL": {},
+    "SPATIAL": {}
   },
   "epistemic_metadata": {
-    "source": "Metabolism - Wikipedia, Metabolism - Wikiwand",
+    "source": "Set Automatically",
     "citations": [
-      "https://en.wikipedia.org/wiki/Metabolism",
-      "https://www.wikiwand.com/en/articles/Metabolism",
-      "https://www.wikiwand.com/en/articles/Metabolized"
+      "Protein\u2013protein interaction - Wikipedia"
     ]
   }
 }

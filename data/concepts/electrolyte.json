@@ -2,8 +2,8 @@
   "name": "Electrolyte",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 22,
-    "item": 7890
+    "group": 20,
+    "item": 5432
   },
   "claims": [
     {
@@ -65,35 +65,66 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "ions",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Filling lithium-ion batteries",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Wetting lithium-ion batteries",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A substance that produces an electrically conducting solution when dissolved in a polar solvent, such as water.",
+    "definition": "A substance that conducts electricity by ionic conduction.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Provides ions for charge transport in electrochemical reactions.",
+    "mechanism": null,
     "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "SPATIAL": {
-      "location": "Throughout bodily fluids (e.g., intracellular fluid, extracellular fluid, blood plasma)",
-      "connected_to": [
-        "Cell membranes (due to ion channels and pumps)",
-        "Water molecules (through solvation)",
-        "Proteins (via ionic interactions)"
-      ],
-      "coordinates": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "Electrode-Electrolyte Interface - an overview | ScienceDirect ..."
+      "https://www.nature.com/articles/s41524-018-0064-0"
     ]
-  },
-  "autocorrected": true
+  }
 }

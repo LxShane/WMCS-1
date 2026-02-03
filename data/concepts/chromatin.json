@@ -1,9 +1,9 @@
 {
-  "name": "chromatin",
+  "name": "Chromatin",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 22,
-    "item": 1005
+    "group": 30,
+    "item": 1004
   },
   "claims": [
     {
@@ -47,15 +47,43 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Structure composed of DNA and proteins",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Nucleosome",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The complex of DNA and proteins forming chromosomes within the nucleus of eukaryotic cells.",
+    "definition": "A structure composed of DNA and proteins, primarily histones.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Provides a mechanism for compacting DNA and regulating gene expression.",
-    "origin": "Formed through the interaction of DNA with histone and non-histone proteins."
+    "mechanism": "DNA is packaged into nucleosomes, which are then further organized into chromatin.",
+    "origin": "Eukaryotic cells"
   },
   "instance_layer": {
     "examples": []
@@ -64,7 +92,8 @@
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://www.cell.com/current-biology/fulltext/S0960-9822(18)31652-X"
+      "https://link.springer.com/chapter/10.1007/978-1-4614-8624-4_1",
+      "https://www.sciencedirect.com/science/article/pii/S0022283620305866"
     ]
   }
 }

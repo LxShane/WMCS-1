@@ -1,60 +1,142 @@
 {
-  "name": "AMPA receptor",
+  "name": "AMPA Receptor",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 7890
+    "group": 21,
+    "item": 1234
   },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Ionotropic Glutamate Receptor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Sodium Ion Channel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Fast Excitatory Neurotransmission",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Central Nervous System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Mediates Fast Excitatory Neurotransmission",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Facilitating Rapid Neuronal Communication",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "GluA2 LBD",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Glutamate Receptor Ion Channel Domain",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "A type of glutamate receptor involved in synaptic transmission.",
+    "definition": "The AMPA receptor is an ionotropic glutamate receptor that mediates fast excitatory neurotransmission in the central nervous system.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Mediates fast excitatory synaptic transmission.",
-    "origin": "Located on postsynaptic neurons."
+    "mechanism": "Activation by glutamate facilitates rapid neuronal communication.",
+    "origin": "Named after its ability to be activated by AMPA."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "EQUIVALENCE": {
-      "fills_role": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "MECHANISM": [],
-    "PROCESS_DATA": {
-      "agent": [],
-      "patient": [],
-      "precondition": [],
-      "effect": []
-    },
-    "PROPERTY_DATA": {
-      "domain": [],
-      "scale_type": [],
-      "typical_applies_to": [],
-      "antonym": []
-    },
-    "ABSTRACT_DATA": {
-      "domain": [],
-      "core_premise": [],
-      "contrasting_concepts": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "Cellular-and-molecular-mechanisms-of-presynaptic- ..."
+      "https://en.wikipedia.org/wiki/AMPA_receptor",
+      "https://en.wikipedia.org/wiki/AMPA",
+      "https://grokipedia.com/page/AMPA_receptor"
     ]
-  },
-  "claims": []
+  }
 }

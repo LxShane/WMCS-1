@@ -2,8 +2,8 @@
   "name": "Integrin",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 30,
-    "item": 1004
+    "group": 21,
+    "item": 9012
   },
   "claims": [
     {
@@ -901,22 +901,78 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Cell Adhesion Receptor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Transmembrane Receptor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "SERVES_AS",
+      "object": "Extracellular Matrix-Cytoskeletal Linker",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Transduce",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Integrins are cell adhesion receptors involved in cell-cell and cell-matrix interactions, transmitting bidirectional signals that regulate cell behavior.",
+    "definition": "Cell adhesion transmembrane receptors that serve as extracellular matrix (ECM)-cytoskeletal linkers and transduce signals.",
     "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": "Integrins bind to extracellular matrix components and other cells, transmitting signals that influence cell proliferation, differentiation, and survival.",
-    "origin": null
+  "deep_layer": {},
+  "instance_layer": {},
+  "facets": {
+    "STRUCTURAL": {},
+    "SPATIAL": {}
   },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {},
   "epistemic_metadata": {
-    "source": "https://www.sciencedirect.com/science/article/pii/S0021925818362616",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "Targeting integrin pathways: mechanisms and advances in therapy"
+    ]
   }
 }

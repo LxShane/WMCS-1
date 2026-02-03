@@ -19,35 +19,54 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Process of acquiring data",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The process of sampling signals that measure real world physical conditions and converting the resulting samples into digital numeric values that can be manipulated by a computer.",
+    "definition": "The process of sampling signals that measure real-world physical conditions and converting the resulting samples into digital numeric values that can be manipulated by a computer.",
     "common_uses": [
-      "Scientific research",
-      "Industrial automation"
+      "Measuring physical conditions",
+      "Converting signals to digital values"
     ]
   },
   "deep_layer": {
-    "mechanism": "Sensors measure physical phenomena, which are then converted into electrical signals. These signals are then digitized and processed by a computer.",
-    "origin": "Evolved from early forms of data logging."
+    "mechanism": "Sensors convert physical phenomena into electrical signals. Signal conditioning improves the signal. An ADC converts the signal to digital data. The data is then processed by a computer.",
+    "origin": "Evolved with the development of digital computers and sensors."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Temperature monitoring in a chemical plant",
+      "Vibration analysis of a machine",
+      "Medical diagnostics using sensors"
+    ]
   },
   "facets": {
     "FUNCTION": {
       "roles": [
-        "Data Collection"
+        "Measurement",
+        "Conversion"
       ],
       "capabilities": [
-        "Signal digitization",
-        "Data processing"
+        "Signal acquisition",
+        "Data conversion"
       ]
     }
   },
   "epistemic_metadata": {
-    "source": "Various",
+    "source": "DigiKey, Tek.com, Cambridge",
     "citations": []
   }
 }

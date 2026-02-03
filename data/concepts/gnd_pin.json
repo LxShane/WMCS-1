@@ -1,0 +1,68 @@
+{
+  "name": "GND Pin",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1007
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Ground Pin",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "USB Type-A Connector",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A ground pin in a USB connector.",
+    "common_uses": [
+      "Providing a ground connection"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic"
+      ],
+      "composition": [
+        "Metal"
+      ]
+    },
+    "SPATIAL": {
+      "location": "On the device or circuit board",
+      "connected_to": [
+        "Ground plane",
+        "Power supply (negative terminal)",
+        "Chassis ground",
+        "Other ground pins"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Web Sources"
+  },
+  "autocorrected": true
+}

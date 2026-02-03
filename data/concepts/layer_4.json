@@ -2,8 +2,8 @@
   "name": "Layer 4",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 1005
+    "group": 23,
+    "item": 1002
   },
   "claims": [
     {
@@ -33,10 +33,80 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Cortical Layer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Principal Cortical Input Layer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Receiving the majority of afferent connections",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Determining an area's function",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RECEIVES",
+      "object": "Majority of synaptic inputs from other cortical neurons",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A specific layer within the cerebral cortex.",
+    "definition": "A specific cortical layer, known as the principal cortical input layer.",
     "common_uses": []
   },
   "deep_layer": {
@@ -46,9 +116,22 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "STRUCTURAL": {},
+    "SPATIAL": {
+      "location": "Deep cortical layer, situated between layer 3 and layer 5",
+      "connected_to": [
+        "Layer 3",
+        "Layer 5",
+        "Other cortical areas via axonal projections",
+        "Thalamus via thalamocortical projections"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "ScienceDirect Topics, PMC, Cambridge",
     "citations": []
-  }
+  },
+  "autocorrected": true
 }

@@ -2,8 +2,8 @@
   "name": "Pia Mater",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1006
+    "group": 33,
+    "item": 1004
   },
   "claims": [
     {
@@ -89,28 +89,94 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "meninges",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "thin sheet of connective tissue",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INTERFACES_WITH",
+      "object": "glial limitans superficialis",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The innermost meningeal membrane.",
+    "definition": "The pia mater is one of the three meninges.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Provides further protection to the central nervous system.",
-    "origin": "Meningeal membrane."
+    "mechanism": "Interfaces with the glial limitans superficialis.",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Interface"
+      ],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Thin"
+      ],
+      "shape": [
+        "Sheet"
+      ],
+      "composition": [
+        "Connective tissue"
+      ],
+      "parts": [],
+      "relations": []
+    },
     "SPATIAL": {
-      "contained_in": "Cranial Cavity"
+      "location": null,
+      "coordinates": [],
+      "connected_to": [
+        "glial limitans superficialis"
+      ],
+      "contained_in": "Meninges"
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://en.wikipedia.org/wiki/Dura_mater"
+      "https://en.wikipedia.org/wiki/Meninges"
     ]
   }
 }

@@ -1,0 +1,73 @@
+{
+  "name": "Solder Joint",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Board level",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Underfill",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A metallic bond formed by soldering.",
+    "common_uses": [
+      "Attaching electronic components to a circuit board"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Molten solder wets the surfaces and cools to form a metallic bond.",
+    "origin": "Created through the soldering process."
+  },
+  "instance_layer": {
+    "examples": [
+      "Solder joints on a PCB"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Shiny",
+        "Small"
+      ],
+      "shape": [
+        "Rounded"
+      ],
+      "composition": [
+        "Solder"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "onsemi PDF",
+    "citations": [
+      "Soldering and Mounting Techniques Reference Manual - onsemi"
+    ]
+  }
+}

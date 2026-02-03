@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 2345
+    "item": 1237
   },
   "claims": [
     {
@@ -61,29 +61,78 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Plasma Confinement",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Fusion Reactor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Fusion",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "The use of magnetic fields to confine a plasma.",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A method of plasma confinement that uses magnetic fields.",
-    "common_uses": [
-      "Fusion energy research"
-    ]
+    "definition": "The process of using magnetic fields to contain and isolate a plasma.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Magnetic fields exert forces on charged particles in the plasma, confining them to a specific region.",
-    "origin": "Developed for fusion energy research."
+    "mechanism": "Magnetic fields exert a force on charged particles, causing them to follow spiral paths along the field lines. This prevents the particles from escaping the plasma volume.",
+    "origin": null
   },
   "instance_layer": {
-    "examples": [
-      "Tokamak reactors"
-    ]
+    "examples": []
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "www.sciencedirect.com/topics/engineering/plasma-confinement",
-      "www.pppl.gov/research/plasma-confinement-heating"
-    ]
+    "source": "Magnetic confinement | ALCEN for fusion",
+    "citations": []
   }
 }

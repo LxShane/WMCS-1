@@ -2,8 +2,8 @@
   "name": "Cylinder",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 23,
-    "item": 1002
+    "group": 20,
+    "item": 7890
   },
   "claims": [
     {
@@ -33,35 +33,82 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Piston",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Part",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Engine block",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A cylinder is a hollow object that contains a piston.",
+    "definition": "A hollow cylindrical space inside the engine block where the piston moves.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Provides a constrained space for a piston to move within.",
-    "origin": "Engineered as part of machines utilizing pressurized fluids or gases."
+    "mechanism": "Provides a sealed space for combustion and piston movement.",
+    "origin": "Mechanical engineering design."
   },
   "instance_layer": {
-    "examples": [
-      "Cylinder in a car engine"
-    ]
+    "examples": []
   },
   "facets": {
     "STRUCTURAL": {
       "visual_features": [],
       "shape": [],
       "composition": [],
-      "parts": []
+      "parts": [],
+      "relations": []
     },
-    "SPATIAL": {},
-    "FUNCTION": {}
+    "SPATIAL": {
+      "location": "Within the engine block",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Engine block"
+    },
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://en.wikipedia.org/wiki/Piston"
-    ]
+    "source": "What Are The Parts of Cylinder Block? \u2013 MyMROmarts",
+    "citations": []
   }
 }

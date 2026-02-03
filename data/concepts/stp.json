@@ -1,9 +1,9 @@
 {
   "name": "STP",
-  "type": "INANIMATE_OBJECT",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 30,
-    "item": 1007
+    "group": 50,
+    "item": 4567
   },
   "claims": [
     {
@@ -19,22 +19,107 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Single-cell partition method for subcellular spatially-resolved transcriptomics data",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": "Discovery"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Integrating subcellular SRT data",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": "Discovery"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "h5ad file of spatial transcriptomics data",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Pre-aligned nuclei-stained image",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Signaling Transfer Point",
-    "common_uses": []
+    "definition": "A method for single-cell partition that integrates subcellular SRT data.",
+    "common_uses": [
+      "Analyzing spatial transcriptomics data",
+      "Identifying cell boundaries"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Uses spatial transcriptomics data to partition single cells.",
+    "origin": "Developed for improved analysis of SRT data."
   },
-  "instance_layer": [],
-  "facets": {},
-  "epistemic_metadata": {
-    "source": "System Overview - Tekelec Signaling Products - Oracle Help Center",
-    "citations": [
-      "Chapter 2"
+  "instance_layer": {
+    "examples": [
+      "Use in analyzing spatial gene expression in specific tissue types."
     ]
-  }
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Data Analysis Tool"
+      ],
+      "capabilities": [
+        "Cell boundary detection",
+        "Spatial data integration"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Throughout the body, particularly concentrated in blood vessel walls and sites of injury or inflammation.",
+      "connected_to": [
+        "Blood vessel endothelium",
+        "Platelets",
+        "Smooth muscle cells",
+        "Immune cells"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.nature.com/articles/s41467-025-59782-3",
+      "https://github.com/leihouyeung/STP/blob/main/Readme.md"
+    ]
+  },
+  "autocorrected": true
 }

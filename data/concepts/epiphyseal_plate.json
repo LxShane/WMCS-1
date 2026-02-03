@@ -1,0 +1,94 @@
+{
+  "name": "Epiphyseal Plate",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Synchondrosis",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Between diaphysis and epiphysis of long bone",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Hyaline Cartilage",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Bone lengthening",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A hyaline cartilage plate in the metaphysis at each end of a long bone.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Allows for bone growth in length. Cartilage grows and is replaced by bone.",
+    "origin": "Develops during bone growth."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "SPATIAL": {
+      "location": "Between the epiphysis and diaphysis of long bones",
+      "connected_to": [
+        "Diaphysis",
+        "Epiphysis"
+      ],
+      "contained_in": "Long Bone"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://courses.lumenlearning.com/suny-dutchess-anatomy-physiology/chapter/cartilaginous-joints/",
+      "https://open.oregonstate.education/anatomy2e/chapter/cartilaginous-joints/"
+    ]
+  }
+}

@@ -1,9 +1,9 @@
 {
-  "name": "Protein-ligand binding",
+  "name": "Protein-Ligand Binding",
   "type": "SOCIAL_CONSTRUCT",
   "id": {
     "group": 60,
-    "item": 1002
+    "item": 1235
   },
   "claims": [
     {
@@ -47,22 +47,71 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "ligand",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "protein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "a change of conformational isomerism of the target protein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The interaction between a protein and a ligand, where the ligand usually produces a signal by binding to a site on a target protein.",
+    "definition": "The interaction between a ligand and a protein.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The binding typically results in a change of conformational isomerism (conformation) of the target protein.",
-    "origin": "Fundamental biochemical process."
+    "mechanism": "A ligand binds to a specific site on a target protein, often resulting in a conformational change of the protein.",
+    "origin": null
   },
-  "instance_layer": [],
-  "facets": {},
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "PROCESS_DATA": {
+      "roles": [],
+      "capabilities": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "Binding affinity",
+    "source": "Binding affinities",
     "citations": [
-      "https://en.wikipedia.org/wiki/Binding_affinity"
+      "https://en.wikipedia.org/wiki/Binding_affinities"
     ]
   }
 }

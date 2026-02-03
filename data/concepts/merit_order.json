@@ -1,0 +1,70 @@
+{
+  "name": "Merit Order",
+  "type": "SOCIAL_CONSTRUCT",
+  "id": {
+    "group": 60,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A way of ranking available sources of energy based on ascending order of price and sometimes pollution.",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Dispatching power generation",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A ranking system for energy sources.",
+    "common_uses": [
+      "Economic dispatch",
+      "Power grid management"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Ranking sources by marginal cost and bringing them online sequentially.",
+    "origin": "Economic optimization in power grids"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Ranking",
+        "Prioritization"
+      ],
+      "capabilities": [
+        "Energy source ordering",
+        "Price based selection"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Merit_order"
+    ]
+  }
+}

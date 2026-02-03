@@ -1,0 +1,122 @@
+{
+  "name": "Cardiopulmonary System",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 23,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Cardiovascular System",
+      "temporal": {
+        "valid_from": "2026",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Pulmonary System",
+      "temporal": {
+        "valid_from": "2026",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Vital Body System",
+      "temporal": {
+        "valid_from": "2026",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Maintaining Body's Homeostasis",
+      "temporal": {
+        "valid_from": "2026",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Supporting Overall Health",
+      "temporal": {
+        "valid_from": "2026",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The cardiopulmonary system combines the cardiovascular and pulmonary systems.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "The cardiopulmonary system maintains the body's homeostasis.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": [
+        "Maintain Homeostasis",
+        "Support Health"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [
+        "Cardiovascular System",
+        "Pulmonary System"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Body"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Cardiopulmonary Anatomy and Physiology: An Overview (2026)"
+    ]
+  }
+}

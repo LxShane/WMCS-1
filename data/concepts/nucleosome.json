@@ -2,8 +2,8 @@
   "name": "Nucleosome",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1009
+    "group": 30,
+    "item": 1002
   },
   "claims": [
     {
@@ -47,28 +47,81 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Fundamental unit of chromatin",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Nucleosome core",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Linker histone",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Segment of linker DNA",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A basic unit of DNA packaging in eukaryotes, consisting of a segment of DNA wound around a histone protein core.",
+    "definition": "The fundamental unit of chromatin.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "DNA wraps around histone proteins to compact the DNA.",
-    "origin": null
+    "mechanism": "DNA is wrapped around a histone octamer.",
+    "origin": "Eukaryotic cells"
   },
-  "instance_layer": [],
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": []
-    },
-    "SPATIAL": {}
+  "instance_layer": {
+    "examples": []
   },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6457944/",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://link.springer.com/chapter/10.1007/978-1-4614-8624-4_1",
+      "https://www.sciencedirect.com/science/article/pii/S0022283620305866"
+    ]
   }
 }

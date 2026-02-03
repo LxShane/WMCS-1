@@ -2,8 +2,8 @@
   "name": "Peritoneum",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 23,
-    "item": 1001
+    "group": 31,
+    "item": 1002
   },
   "claims": [
     {
@@ -173,10 +173,38 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Anterior Side",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Posterior Side",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The peritoneum is the serous membrane forming the lining of the abdominal cavity or coelom.",
+    "definition": "A membrane lining the abdominal cavity.",
     "common_uses": []
   },
   "deep_layer": {
@@ -188,18 +216,16 @@
   },
   "facets": {
     "SPATIAL": {
-      "location": "abdominal cavity and coelom",
+      "location": "Lines the abdominal cavity",
       "coordinates": [],
       "connected_to": [],
-      "contained_in": null
+      "contained_in": "Abdomen"
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://en.wikipedia.org/wiki/Peritoneum",
-      "https://en.wikipedia.org/wiki/Serous_membrane",
-      "https://grokipedia.com/page/Peritoneum"
+      "https://en.wikipedia.org/wiki/Retroperitoneal_space"
     ]
   }
 }

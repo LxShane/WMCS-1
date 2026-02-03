@@ -1,0 +1,43 @@
+{
+  "name": "Web server",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1236
+  },
+  "claims": [
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Instructing the OS to listen on a specific port",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A software application that uses HTTP (or HTTPS) to serve files to users, in response to their requests.",
+    "common_uses": [
+      "Hosting websites",
+      "Serving web applications"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Listens for client requests on a specific port, retrieves the requested file, and sends it to the client.",
+    "origin": "Developed to serve web pages to users."
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "network programming - Understanding TCP/Ip layering through",
+    "citations": [
+      "https://stackoverflow.com/questions/42456116/understanding-tcp-ip-layering-through-internet-flow"
+    ]
+  }
+}

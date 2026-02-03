@@ -1,9 +1,9 @@
 {
-  "name": "Strain gauge",
+  "name": "Strain Gauge",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 6789
+    "group": 30,
+    "item": 7890
   },
   "claims": [
     {
@@ -33,10 +33,122 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "device used to measure strain on an object",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "measuring device",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INVENTED_BY",
+      "object": "Edward E. Simmons",
+      "temporal": {
+        "valid_from": "1938",
+        "valid_until": null,
+        "event": "Invention"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INVENTED_BY",
+      "object": "Arthur C. Ruge",
+      "temporal": {
+        "valid_from": "1938",
+        "valid_until": null,
+        "event": "Invention"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "insulating flexible backing",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "metallic foil pattern",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "electrical measurement device",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "measure electrical resistance",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A strain gauge is a device used to measure strain on an object.",
+    "definition": "A sensor that measures strain on an object.",
     "common_uses": []
   },
   "deep_layer": {
@@ -48,12 +160,8 @@
   },
   "facets": {
     "FUNCTION": {
-      "roles": [
-        "Sensor"
-      ],
-      "capabilities": [
-        "Measuring strain"
-      ]
+      "roles": [],
+      "capabilities": []
     },
     "STRUCTURAL": {
       "visual_features": [],
@@ -72,8 +180,7 @@
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://en.wikipedia.org/wiki/Strain_gauge",
-      "https://www.baumer.com/int/en/service-support/function-principle/function-of-strain-sensors/a/function-strain-sensors"
+      "https://www.hbkworld.com/en/knowledge/resource-center/articles/strain-measurement-basics/strain-gauge-fundamentals/wheatstone-bridge-circuit"
     ]
   }
 }

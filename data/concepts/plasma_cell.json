@@ -2,8 +2,8 @@
   "name": "Plasma Cell",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1234
+    "group": 22,
+    "item": 1002
   },
   "claims": [
     {
@@ -327,33 +327,84 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Secreting Antibodies",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONTRIBUTES_TO",
+      "object": "Humoral Immunity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Lymph Node",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A type of immune cell that secretes antibodies.",
+    "definition": "A fully differentiated B cell that produces and secretes antibodies.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Differentiates from B cells in response to antigen stimulation and produces large quantities of antibodies.",
-    "origin": "Develops from B cells in lymphoid tissues."
+    "mechanism": "Antibody secretion neutralizes pathogens.",
+    "origin": "Differentiates from B cells."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
     "SPATIAL": {
-      "location": "Bone marrow, Lymph nodes, Spleen, Mucosa-associated lymphoid tissue (MALT), Sites of chronic inflammation",
+      "location": null,
+      "coordinates": [],
       "connected_to": [],
-      "coordinates": []
+      "contained_in": null
+    },
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
     }
   },
   "epistemic_metadata": {
-    "source": "Ingestion Engine",
+    "source": "See Sources",
     "citations": [
-      "https://www.sciencedirect.com/science/article/pii/S0952791524000323",
-      "https://www.nature.com/articles/nri1203",
-      "https://pubmed.ncbi.nlm.nih.gov/14523388/"
+      "https://anatomynote.com/lymph-node-sectional-anatomy-and-flow/"
     ]
-  },
-  "autocorrected": true
+  }
 }

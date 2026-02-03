@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 30,
-    "item": 1234
+    "item": 1001
   },
   "claims": [
     {
@@ -131,46 +131,96 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Exhaust plasma",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "in-vessel component",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Heavily engineered plasma-facing components designed to handle intense plasma-wall interactions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Handle intense plasma-wall interactions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Plasma-facing component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A component of fusion reactors designed to handle extreme heat loads and enhance plasma stability.",
-    "common_uses": [
-      "fusion reactors"
-    ]
+    "definition": "Heavily engineered plasma-facing components designed to handle intense plasma-wall interactions.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Divertors function by...",
-    "origin": "Divertor origin..."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": [
       "ITER divertor"
     ]
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Heat sink",
-        "Plasma stabilizer"
-      ],
-      "capabilities": [
-        "Handle extreme heat loads",
-        "Enhance plasma stability"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Divertor - Wikipedia",
     "citations": [
-      "www.fusionenergy.org/divertor-advancements"
+      "Page 1"
     ]
   }
 }

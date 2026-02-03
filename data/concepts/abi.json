@@ -1,0 +1,65 @@
+{
+  "name": "ABI",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Application Binary Interface",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "binary based",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An ABI (Application Binary Interface) is binary based interface.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "ABIs define how compiled programs interact at the binary level.",
+    "origin": "Evolved with the need for executable programs to communicate."
+  },
+  "instance_layer": {
+    "examples": [
+      "Linux Standard Base"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Interface"
+      ],
+      "capabilities": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/API"
+    ]
+  }
+}

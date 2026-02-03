@@ -1,0 +1,88 @@
+{
+  "name": "interfaces",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "DETERMINES",
+      "object": "the communication's dependability",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "DETERMINES",
+      "object": "the communication's quality",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "controlling the flow of information",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A point where two systems, subjects, organizations, etc. meet and interact.",
+    "common_uses": [
+      "Data transfer",
+      "System integration"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Allows separate systems to communicate by defining protocols.",
+    "origin": "System design."
+  },
+  "instance_layer": {
+    "examples": [
+      "USB port",
+      "API endpoint"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Communication",
+        "Data transfer"
+      ],
+      "capabilities": [
+        "Establishing connection",
+        "Data exchange",
+        "Standardized protocol"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://www.monolithicpower.com/en/learning/mpscholar/automotive-electronics/automotive-sensing-and-actuators/integration-and-interfacing?srsltid=AfmBOorr1LSuyFAhx9G7hC2Eb3Bm838b1BEnUPRptBJxpr9SdJf32iZX",
+    "citations": [
+      "Integration and Interfacing of Sensors and Actuators"
+    ]
+  }
+}

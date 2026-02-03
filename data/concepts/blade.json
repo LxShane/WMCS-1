@@ -1,0 +1,114 @@
+{
+  "name": "Blade",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 31,
+    "item": 2345
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Part",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Steel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Blade edge",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Cutting",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The cutting part of a knife.",
+    "common_uses": [
+      "Slicing",
+      "Chopping"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Applies concentrated force to separate material.",
+    "origin": "Shaped and sharpened metal."
+  },
+  "instance_layer": [
+    "Serrated blade",
+    "Straight blade"
+  ],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Sharp",
+        "Thin",
+        "Metallic"
+      ],
+      "shape": [
+        "Flat",
+        "Tapered"
+      ],
+      "composition": [
+        "Steel"
+      ],
+      "parts": [
+        "Blade edge"
+      ],
+      "relations": []
+    },
+    "FUNCTION": {
+      "roles": [
+        "Cutter"
+      ],
+      "capabilities": [
+        "Slicing",
+        "Chopping"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Provided Text",
+    "citations": []
+  }
+}

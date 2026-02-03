@@ -2,8 +2,8 @@
   "name": "Mesentery",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 23,
-    "item": 1001
+    "group": 31,
+    "item": 1003
   },
   "claims": [
     {
@@ -145,45 +145,45 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "suspending organs in the abdominal cavity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The mesentery is an organ that attaches the intestines to the posterior abdominal wall, consisting of a double fold of the peritoneum.",
+    "definition": "A fold of the peritoneum that attaches the stomach, small intestine, pancreas, spleen, and other organs to the posterior wall of the abdomen.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The mesentery provides a pathway for blood vessels, lymphatics, and nerves to reach the intestines, and it also stores fat.",
-    "origin": "Derived from the duodenojejunal flexure and extending to the distal mesorectal layer."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
     "SPATIAL": {
-      "location": "Posterior abdominal wall",
+      "location": "In the abdominal cavity",
       "coordinates": [],
-      "connected_to": [
-        "Intestines"
-      ],
-      "contained_in": "Abdominal cavity"
+      "connected_to": [],
+      "contained_in": "Abdomen"
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://en.wikipedia.org/wiki/Mesentery",
-      "https://www.kenhub.com/en/library/anatomy/mesentery"
+      "https://en.wikipedia.org/wiki/Retroperitoneal_space"
     ]
   }
 }

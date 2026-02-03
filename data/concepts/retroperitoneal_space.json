@@ -1,9 +1,9 @@
 {
   "name": "Retroperitoneal Space",
-  "type": "PHYSICAL",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 24,
-    "item": 1004
+    "group": 29,
+    "item": 1001
   },
   "claims": [
     {
@@ -19,10 +19,122 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "anatomical space behind the peritoneum",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "behind the peritoneum",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "posterior to the peritoneal cavity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "behind the parietal peritoneum",
+      "temporal": {
+        "valid_from": "2014",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "in front of the transversalis fascia",
+      "temporal": {
+        "valid_from": "2014",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Perirenal Space",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Anterior Pararenal Space",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Posterior Pararenal Space",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The space in the abdominal cavity located behind the intraperitoneal space.",
+    "definition": "The retroperitoneal space is the anatomical space behind the peritoneum.",
     "common_uses": []
   },
   "deep_layer": {
@@ -34,16 +146,18 @@
   },
   "facets": {
     "SPATIAL": {
-      "location": "behind intraperitoneal space",
+      "location": "Posterior to the peritoneal cavity",
       "coordinates": [],
       "connected_to": [],
-      "contained_in": "abdominal cavity"
+      "contained_in": "Abdomen"
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://en.wikipedia.org/wiki/Peritoneum"
+      "https://en.wikipedia.org/wiki/Retroperitoneal_space",
+      "https://grokipedia.com/page/Retroperitoneal_space",
+      "https://www.sciencedirect.com/science/article/pii/S221156841400206X"
     ]
   }
 }

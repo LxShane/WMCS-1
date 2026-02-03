@@ -2,8 +2,8 @@
   "name": "Arachnoid Mater",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1005
+    "group": 33,
+    "item": 1003
   },
   "claims": [
     {
@@ -89,28 +89,88 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "meninges",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PRODUCES",
+      "object": "prostaglandin D2 synthase",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PROVIDES",
+      "object": "restrictive permeability barrier between the cerebrospinal fluid in the subarachnoid space and the circulation of blood in the dura",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "One of the meninges located beneath the dura mater.",
+    "definition": "The arachnoid mater is one of the three meninges.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Provides further protection to the central nervous system.",
-    "origin": "Meningeal membrane."
+    "mechanism": "Provides a restrictive permeability barrier.",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Barrier"
+      ],
+      "capabilities": [
+        "Fluid regulation"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
     "SPATIAL": {
-      "contained_in": "Cranial Cavity"
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Meninges"
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://en.wikipedia.org/wiki/Dura_mater"
+      "https://en.wikipedia.org/wiki/Meninges"
     ]
   }
 }

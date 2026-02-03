@@ -1,0 +1,40 @@
+{
+  "name": "Open Host Controller Interface",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1236
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Method defines the register-level interface that enables the USB controller to communicate with the host computer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A register-level interface for USB controllers to communicate with the host computer.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "OHCI provides a standard way for the host computer to control the USB controller.",
+    "origin": "Developed as a standard interface for USB controllers."
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.sciencedirect.com/topics/engineering/universal-serial-bus-device"
+    ]
+  }
+}

@@ -2,8 +2,8 @@
   "name": "Spinotectal Tract",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1234
+    "group": 22,
+    "item": 1001
   },
   "claims": [
     {
@@ -285,36 +285,174 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Ascending Tract",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Spinal Cord",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Spinomesencephalic Tract",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Spino-quadrigeminal System of Mott",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PART_OF",
+      "object": "Anterolateral System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PROJECTS_TO",
+      "object": "Midbrain",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INVOLVED_IN",
+      "object": "Processing of Pain",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INVOLVED_IN",
+      "object": "Visceral Sensations",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CARRIES",
+      "object": "Pain Sensation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The spinotectal tract is an ascending tract in the spinal cord that projects to the midbrain and is involved in processing pain and visceral sensations.",
+    "definition": "The spinotectal tract is an ascending tract in the spinal cord that projects to the midbrain and is involved in the processing of pain and visceral sensations.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "First-order neurons synapse with second-order neurons and axons decussate.",
-    "origin": null
+    "mechanism": "The spinotectal tract carries pain sensation from nociceptors to the spinal cord, ultimately projecting to the midbrain for further processing.",
+    "origin": "Evolves as part of the somatosensory system to process and react to harmful stimuli."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "STRUCTURAL": {},
-    "SPATIAL": {
-      "location": "Lateral aspect of the spinal cord, ascends in the anterolateral system",
-      "connected_to": [
-        "Spinal cord (primarily dorsal horn), Tectum (superior colliculus)"
+    "FUNCTION": {
+      "roles": [
+        "Sensory Transmission"
       ],
-      "coordinates": []
+      "capabilities": [
+        "Transmitting pain signals to the brain"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Spinal Cord",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Multiple Web Sources",
     "citations": [
       "https://en.wikipedia.org/wiki/Spinotectal_tract",
-      "https://en.wikipedia.org/wiki/Spinoreticular_tract",
-      "https://en.wikipedia.org/wiki/Spinothalamic_tract"
+      "https://en.wikipedia.org/wiki/Spinothalamic_tract",
+      "https://loonylabs.org/2020/03/01/spinotectal-tract/"
     ]
-  },
-  "autocorrected": true
+  }
 }

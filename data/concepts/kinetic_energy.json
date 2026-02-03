@@ -1,9 +1,9 @@
 {
-  "name": "Kinetic energy",
+  "name": "Kinetic Energy",
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1237
+    "item": 1245
   },
   "claims": [
     {
@@ -19,15 +19,85 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "the energy whose indicator is speed",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "mass",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEPENDS_ON",
+      "object": "speed",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Energy of motion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Form of energy",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Energy that a body possesses by virtue of being in motion.",
+    "definition": "Energy that a body possesses due to its motion.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": "Physics"
+    "mechanism": "Energy associated with movement.",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
@@ -52,7 +122,7 @@
     }
   },
   "epistemic_metadata": {
-    "source": "Electron ionization - Wikipedia",
+    "source": "Thermodynamics Fundamentals for Energy Conversion ...",
     "citations": []
   }
 }

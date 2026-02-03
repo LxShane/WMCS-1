@@ -2,8 +2,8 @@
   "name": "Dura Mater",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1001
+    "group": 33,
+    "item": 1002
   },
   "claims": [
     {
@@ -299,62 +299,89 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "meninges",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "SURROUNDS",
+      "object": "arachnoid mater",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "SUPPORTS",
+      "object": "dural sinuses",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The Dura Mater is the outermost of the three meningeal membranes that protect the central nervous system.",
+    "definition": "The dura mater is one of the three meninges.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The Dura Mater provides a physical barrier and supports the venous sinuses for blood drainage.",
-    "origin": "Derived from neural crest cells and paraxial mesoderm."
+    "mechanism": "Supports dural sinuses which carry blood from the brain to the heart.",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
     "FUNCTION": {
-      "roles": [
-        "Protective membrane"
-      ],
+      "roles": [],
       "capabilities": [
-        "Protection",
-        "Structural Support",
-        "Blood Drainage"
+        "Support",
+        "Blood transport"
       ]
     },
     "STRUCTURAL": {
-      "visual_features": [
-        "Thick",
-        "Fibrous"
-      ],
-      "shape": [
-        "Membrane",
-        "Layered"
-      ],
-      "composition": [
-        "Fibrous tissue"
-      ],
-      "parts": [
-        "Periosteal Layer",
-        "Meningeal Layer"
-      ],
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
       "relations": []
     },
     "SPATIAL": {
-      "location": "Outermost meningeal layer",
+      "location": null,
       "coordinates": [],
       "connected_to": [
-        "Neurocranium"
+        "arachnoid mater"
       ],
-      "contained_in": "Cranial cavity"
+      "contained_in": "Meninges"
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://en.wikipedia.org/wiki/Dura_mater",
-      "https://www.sciencedirect.com/science/article/pii/B9780128042809000020"
+      "https://en.wikipedia.org/wiki/Meninges"
     ]
   }
 }

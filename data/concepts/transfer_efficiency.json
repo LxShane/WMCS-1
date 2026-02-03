@@ -1,0 +1,100 @@
+{
+  "name": "Transfer Efficiency",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A measure of how effectively material is moved from a source to a target.",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Accuracy of laboratory measurements",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Maintenance costs",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Inferior quality result",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A measure of how effectively material is moved from a source to a target.",
+    "common_uses": [
+      "Powder Coating",
+      "Chemical Transfer"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The ratio of material deposited on a target to the total material used.",
+    "origin": "Industrial processes requiring material transfer."
+  },
+  "instance_layer": {
+    "examples": [
+      "Transfer efficiency in powder coating processes"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Performance Metric"
+      ],
+      "capabilities": [
+        "Quantifies material usage"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Automated Extraction",
+    "citations": [
+      "PowderCoatingOnline.com",
+      "Big Chemical Encyclopedia",
+      "diversysph.com"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "USB protocol",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "common interface that is used to allow communication between different peripheral devices like mice, digital cameras, printers, keyboards, media devices, scanners, flash drives & external hard drives as well as a host controller like a smartphone or PC",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Data packets",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "USB host",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A common interface used to allow communication between different peripheral devices and a host controller.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Utilizes differential pair signals (D+ and D- lines) at 3.3V for data transmission to minimize electromagnetic interference.",
+    "origin": "Part of the broader USB standard developed by Ajay V. Bhatt from Intel in 1996."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Communication Protocol"
+      ],
+      "capabilities": [
+        "Enabling communication between devices",
+        "Data transfer"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Web Sources",
+    "citations": [
+      "USB Protocol : Architecture, Working Specifications ... How USB Works: Introduction (Part 1) - CircuitBread"
+    ]
+  }
+}

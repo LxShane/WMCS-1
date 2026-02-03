@@ -1,0 +1,73 @@
+{
+  "name": "Electrical Power System",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Supply electrical power to plant's auxiliary systems",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Components",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A system designed to supply electrical power.",
+    "common_uses": [
+      "Powering auxiliary systems",
+      "Providing power in nuclear power plants"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Power is distributed from on-site and off-site power supplies to various components.",
+    "origin": "Designed based on power requirements and safety standards."
+  },
+  "instance_layer": {
+    "examples": [
+      "Electrical power system in a nuclear power plant"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "PDF Design of electrical power systems for nuclear power plants",
+    "citations": []
+  }
+}

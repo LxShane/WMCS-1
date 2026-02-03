@@ -1,9 +1,9 @@
 {
   "name": "Voltage",
-  "type": "PHYSICAL",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 20,
-    "item": 1001
+    "group": 50,
+    "item": 1009
   },
   "claims": [
     {
@@ -145,31 +145,45 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "The electric potential difference between two points.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The electrical potential difference between two points.",
+    "definition": "A measure of electrical potential difference.",
     "common_uses": [
-      "Powering devices",
-      "Measuring energy"
+      "Powering circuits",
+      "Transmitting signals"
     ]
   },
   "deep_layer": {
-    "mechanism": "Voltage is created by the separation of electric charges.",
-    "origin": "Arises from the distribution of electric charge."
+    "mechanism": "Related to the flow of electric charge.",
+    "origin": "Fundamental concept in electromagnetism."
   },
   "instance_layer": {
     "examples": [
-      "Voltage of a battery",
-      "Voltage of a power outlet"
+      "Household voltage",
+      "Battery voltage"
     ]
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Ingestion Engine",
+    "source": "Standard and Common Voltage Levels in the US and CA - NEC, Voltage Classifications Explained: What They Mean and Why They Matter",
     "citations": [
-      "US8306771B2",
-      "US20100010769A1"
+      "https://www.electricaltechnology.org/2023/03/standard-voltage-levels-in-us.html",
+      "https://missioncriticalengineers.com/voltage-classifications/"
     ]
   }
 }

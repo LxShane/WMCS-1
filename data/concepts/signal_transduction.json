@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1001
+    "item": 1234
   },
   "claims": [
     {
@@ -61,26 +61,82 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Biological Process",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Extracellular Matrix (ECM)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Process of converting extracellular signals into intracellular signals",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The process by which a chemical or physical signal is transmitted through a cell as a series of molecular events.",
+    "definition": "Process by which a cell converts one kind of signal or stimulus into another.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Signals move through the cell by passing from protein to protein, each protein modifying the next in some way.",
+    "mechanism": "Extracellular signal binds receptor, activating intracellular enzymes and cascades.",
     "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
   "epistemic_metadata": {
-    "source": "Signal transduction - Wikipedia, The Inside Story of Cell Communication - University of Utah, Signal Transduction Pathway - Definition, Types, Functions, Examples",
-    "citations": [
-      "Signal transduction - Wikipedia",
-      "The Inside Story of Cell Communication - University of Utah",
-      "Signal Transduction Pathway - Definition, Types, Functions, Examples"
-    ]
+    "source": "Signal transduction - Wikipedia, Cell signaling - Wikipedia, Signal transduction - Knowledge @ AMBOSS",
+    "citations": []
   }
 }

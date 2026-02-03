@@ -1,9 +1,9 @@
 {
-  "name": "Glycan",
+  "name": "glycan",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1001
+    "group": 30,
+    "item": 3456
   },
   "claims": [
     {
@@ -103,30 +103,46 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "polysaccharide",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Complex carbohydrate structures involved in various biological processes.",
-    "common_uses": [
-      "Cell signaling",
-      "Cell recognition",
-      "Cell adhesion"
-    ]
+    "definition": "A polysaccharide or oligosaccharide.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Glycans are synthesized through glycosylation, a process involving glycosyltransferases and glycosidases.",
-    "origin": "Synthesized within cells and attached to proteins and lipids."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Structural component",
+        "Energy storage"
+      ],
+      "capabilities": []
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
   "epistemic_metadata": {
-    "source": "Manual",
-    "citations": [
-      "Exploring glycans as vital biological macromolecules: A comprehensive ...",
-      "Modeling Glycan Processing Reveals Golgi-Enzyme Homeostasis upon ...",
-      "Glycosylation in Cellular Mechanisms of Health and Disease: Cell"
-    ]
+    "source": "Set Automatically",
+    "citations": []
   }
 }

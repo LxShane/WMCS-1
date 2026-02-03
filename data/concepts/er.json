@@ -1,0 +1,59 @@
+{
+  "name": "ER",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 21,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Cell Organelle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The endoplasmic reticulum (ER) is a network of membranes found inside a cell.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "The ER synthesizes and transports proteins and lipids.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Protein synthesis",
+        "Lipid synthesis",
+        "Transport"
+      ],
+      "capabilities": []
+    },
+    "SPATIAL": {
+      "location": "Cytoplasm",
+      "coordinates": [],
+      "connected_to": [
+        "Golgi Apparatus"
+      ],
+      "contained_in": "Cell"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK26941/"
+    ]
+  }
+}

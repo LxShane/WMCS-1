@@ -1,0 +1,100 @@
+{
+  "name": "Analog-to-Digital Converter",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Device that converts analog signals to digital signals",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Internal circuit",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Capacitive element",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Switch",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A device that converts a continuous analog signal to a discrete digital signal.",
+    "common_uses": [
+      "Signal processing",
+      "Data acquisition"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The converter samples the analog signal and quantizes it into a digital representation.",
+    "origin": "Developed for use in digital systems requiring analog input."
+  },
+  "instance_layer": {
+    "examples": [
+      "Audio recording equipment",
+      "Image sensors"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Signal Converter"
+      ],
+      "capabilities": [
+        "Analog to Digital conversion"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "WO2014207870A1, US20150171878A1",
+    "citations": [
+      "Abstract",
+      "Introduction"
+    ]
+  }
+}

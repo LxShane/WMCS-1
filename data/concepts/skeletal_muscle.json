@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 21,
-    "item": 1234
+    "item": 1004
   },
   "claims": [
     {
@@ -159,10 +159,38 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Biological motor",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Motion generation",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A type of muscle connected to the skeleton to form part of the mechanical system that moves the limbs and other parts of the body.",
+    "definition": "A type of muscle that is attached to the skeleton and responsible for voluntary movement.",
     "common_uses": []
   },
   "deep_layer": {
@@ -174,7 +202,9 @@
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Multiple Web Sources",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "onlinelibrary.wiley.com"
+    ]
   }
 }

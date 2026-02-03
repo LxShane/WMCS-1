@@ -1,0 +1,103 @@
+{
+  "name": "Permeability",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Measure of the ability of a porous material to allow fluids to pass through it",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "Flow in porous medium",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "Hydrodynamics of inextensible membrane",
+      "temporal": {
+        "valid_from": "2021",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "AFFECTS",
+      "object": "Hydrothermal circulation",
+      "temporal": {
+        "valid_from": "2018",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A measure of how easily a fluid can flow through a porous material.",
+    "common_uses": [
+      "Characterizing subsurface flow",
+      "Designing filters",
+      "Analyzing oil recovery"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Darcy's Law describes the relationship between permeability, pressure gradient, and flow rate.",
+    "origin": "Derived from experimental observations of fluid flow through sand."
+  },
+  "instance_layer": {
+    "examples": [
+      "Permeability of sandstone",
+      "Permeability of shale"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Fluid Transport"
+      ],
+      "capabilities": [
+        "Allow fluid flow",
+        "Restrict fluid flow"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "ScienceDirect Topics - Flow in Porous Medium",
+      "PhysRevFluids.6.073601",
+      "2017GC007152"
+    ]
+  }
+}

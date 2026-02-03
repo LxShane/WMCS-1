@@ -1,9 +1,9 @@
 {
   "name": "Neurotransmitter",
-  "type": "LIVING_SYSTEM",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 20,
-    "item": 1234
+    "group": 50,
+    "item": 1002
   },
   "claims": [
     {
@@ -369,22 +369,38 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Chemical messenger",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Chemicals that help neurons communicate and regulate functions from mood to muscle movement.",
+    "definition": "A chemical substance that is released at the end of a nerve fiber by the arrival of a nerve impulse and, by diffusing across the synapse or junction, effects the transfer of the impulse to another nerve fiber, a muscle fiber, or some other structure.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Neurotransmitters bind to receptors on target cells, triggering changes in the cell's activity.",
-    "origin": "Synthesized in neurons and released into the synapse."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Neurotransmitter - Wikipedia, Neurotransmitters: Types, Function and Examples, Neurotransmitters: Types, functions and disorders | Kenhub",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9865788/"
+    ]
   }
 }

@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1234
+    "item": 1003
   },
   "claims": [
     {
@@ -89,40 +89,60 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Ability to conduct electrical current",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Electrical conductivity is the measure of a material's ability to conduct electric current.",
+    "definition": "A measure of a material's ability to conduct electric current.",
     "common_uses": [
-      "Electronics",
-      "Power Transmission"
+      "Designing electrical circuits",
+      "Fabricating electronic devices"
     ]
   },
   "deep_layer": {
-    "mechanism": "Free electrons or other charge carriers move within a material's lattice when a voltage is applied.",
-    "origin": "Material properties"
+    "mechanism": "Movement of electrons through the material's atomic structure.",
+    "origin": "Material's electronic band structure and impurity levels."
   },
   "instance_layer": {
     "examples": [
-      "Copper wire",
-      "Aluminum foil"
+      "Conductivity of copper",
+      "Conductivity of silicon"
     ]
   },
   "facets": {
-    "ABSTRACT_DATA": {
-      "domain": "Physics",
-      "related_concepts": [
-        "Electrical Resistivity",
-        "Electric Current"
-      ]
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
-    "source": "Multiple",
-    "citations": [
-      "Electrical resistivity and conductivity - Wikipedia",
-      "Electrical Conductivity - an overview | ScienceDirect Topics",
-      "Understanding and Calculating Electrical Conductivity - Sensorex"
-    ]
+    "source": "See sources",
+    "citations": []
   }
 }

@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 21,
-    "item": 1004
+    "item": 1003
   },
   "claims": [
     {
@@ -75,15 +75,43 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Venous Sinus",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Draining blood from the cerebral veins into the internal jugular veins",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Spaces between the dural layers that allow blood to drain from the brain.",
+    "definition": "Venous sinuses that drain blood from the cerebral veins.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Venous blood collects in these sinuses and drains away from the brain.",
-    "origin": "Formed by separation of dural layers."
+    "mechanism": "Act as channels for blood flow.",
+    "origin": "Biological structure."
   },
   "instance_layer": {
     "examples": []
@@ -91,38 +119,31 @@
   "facets": {
     "FUNCTION": {
       "roles": [
-        "Blood Drainage"
+        "Drainage"
       ],
       "capabilities": [
-        "Venous drainage"
+        "Collect blood from cerebral veins",
+        "Transport blood to internal jugular veins"
       ]
     },
     "STRUCTURAL": {
       "visual_features": [],
-      "shape": [
-        "Sinus"
-      ],
-      "composition": [
-        "Blood",
-        "Dura Mater"
-      ],
+      "shape": [],
+      "composition": [],
       "parts": [],
       "relations": []
     },
     "SPATIAL": {
-      "location": "Between dural layers",
+      "location": "Brain",
       "coordinates": [],
-      "connected_to": [
-        "Brain",
-        "Dural Layers"
-      ],
-      "contained_in": "Cranial cavity"
+      "connected_to": [],
+      "contained_in": "Dura mater"
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Ingestion Engine",
     "citations": [
-      "https://en.wikipedia.org/wiki/Dura_mater"
+      "Venous Drainage of the CNS - Cerebrum - TeachMeAnatomy"
     ]
   }
 }

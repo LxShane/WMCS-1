@@ -1,9 +1,9 @@
 {
   "name": "Glycosylation",
-  "type": "LIVING_SYSTEM",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 21,
-    "item": 1003
+    "group": 50,
+    "item": 1237
   },
   "claims": [
     {
@@ -103,24 +103,63 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Post-translational modification",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Golgi Apparatus",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The enzymatic process that produces glycans.",
+    "definition": "Glycosylation is the process of adding a carbohydrate to a molecule.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Glycosyltransferases and glycosidases catalyze the addition and removal of sugar moieties to proteins and lipids.",
-    "origin": "Occurs within the cell."
+    "mechanism": "Enzymes catalyze the attachment of glycans to proteins or lipids.",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Protein modification",
+        "Lipid modification"
+      ],
+      "capabilities": []
+    },
+    "ABSTRACT_DATA": {
+      "domain": "Biochemistry"
+    }
+  },
   "epistemic_metadata": {
-    "source": "Manual",
+    "source": "Ingestion Engine",
     "citations": [
-      "Glycosylation in Cellular Mechanisms of Health and Disease: Cell"
+      "https://onlinelibrary.wiley.com/doi/10.1111/tra.12931"
     ]
   }
 }

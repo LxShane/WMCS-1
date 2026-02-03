@@ -2,8 +2,8 @@
   "name": "Desmosomes",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1004
+    "group": 20,
+    "item": 5678
   },
   "claims": [
     {
@@ -19,44 +19,33 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "junction",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A type of cell-cell junction primarily involved in adhesion.",
+    "definition": "Desmosomes are a type of junction.",
     "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": null,
-    "origin": null
-  },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Adhesion"
-      ],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "Between cells",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": "Epithelium"
-    }
-  },
+  "deep_layer": {},
+  "instance_layer": {},
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Manual",
+    "source": "Set Automatically",
     "citations": [
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5773398/"
+      "https://www.sciencedirect.com/science/article/pii/S0092867403001089"
     ]
   }
 }

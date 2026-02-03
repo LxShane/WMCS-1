@@ -1,0 +1,70 @@
+{
+  "name": "Lower Control Arm",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "vehicle frame",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "lower ball joint",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A suspension component that connects the vehicle frame to the lower ball joint.",
+    "common_uses": [
+      "connecting vehicle frame to ball joint",
+      "controlling suspension movement"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Allows the suspension to move up and down while maintaining wheel alignment.",
+    "origin": "Manufactured from metal, typically steel, and designed to withstand suspension forces."
+  },
+  "instance_layer": {
+    "examples": [
+      "A-arm suspension systems",
+      "Wishbone suspension systems"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": []
+    },
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "PDF Chapter 14 Automotive Chassis and Body",
+    "citations": [
+      "https://media.defense.gov/2014/Jun/20/2002655912/-1/-1/1/140620-N-ZZ182-6554.pdf"
+    ]
+  }
+}

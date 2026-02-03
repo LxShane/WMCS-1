@@ -1,0 +1,101 @@
+{
+  "name": "Blade edge",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 31,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Part",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Cutting surface",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Roughness",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The sharpened part of the blade that directly contacts the material being cut.",
+    "common_uses": [
+      "Initiating and propagating cuts."
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Concentrates force at a point to initiate material separation.",
+    "origin": "Achieved by sharpening the blade material."
+  },
+  "instance_layer": [
+    "Microscopic imperfections",
+    "Serrated edges"
+  ],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Extremely Sharp",
+        "Fine",
+        "Polished or Rough"
+      ],
+      "shape": [
+        "V-shaped",
+        "Beveled",
+        "Microscopically Irregular"
+      ],
+      "composition": [
+        "Same as Blade Material (Steel)"
+      ],
+      "parts": [
+        "Microscopic cutting points"
+      ],
+      "relations": []
+    },
+    "FUNCTION": {
+      "roles": [
+        "Initiator of Cut",
+        "Force Concentrator"
+      ],
+      "capabilities": [
+        "Penetration",
+        "Material Separation"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Provided Text",
+    "citations": []
+  }
+}

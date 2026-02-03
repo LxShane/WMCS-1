@@ -1,9 +1,9 @@
 {
   "name": "Connection",
-  "type": "INANIMATE_OBJECT",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 30,
-    "item": 1111
+    "group": 50,
+    "item": 5678
   },
   "claims": [
     {
@@ -89,30 +89,50 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Approval",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Documentation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A component that joins separate parts of a structure.",
+    "definition": "A link or relationship between systems or networks.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Transfers forces between structural elements.",
-    "origin": "Engineering design."
+    "mechanism": null,
+    "origin": null
   },
-  "instance_layer": [],
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    }
+  "instance_layer": {
+    "examples": []
   },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Manual",
-    "citations": [
-      "The Ultimate Guide to Connections in Structures"
-    ]
+    "source": "https://nist800171compliance.com/verify-and-control-limit-connections-to-and-use-of-external-systems/",
+    "citations": []
   }
 }

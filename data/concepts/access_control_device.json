@@ -1,0 +1,82 @@
+{
+  "name": "Access Control Device",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "allowing personnel access to a site",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "authenticating identity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A device used to control entry to a physical or digital location.",
+    "common_uses": [
+      "Securing buildings",
+      "Controlling access to computer systems"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Validates credentials against a database or other authentication system. Activates a locking mechanism.",
+    "origin": "Early forms were mechanical locks. Modern versions use electronic systems."
+  },
+  "instance_layer": [],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Keypad",
+        "Card reader",
+        "Biometric scanner"
+      ],
+      "shape": [
+        "Box-like",
+        "Wall-mounted"
+      ],
+      "composition": [
+        "Plastic",
+        "Metal",
+        "Electronics"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Security Guard",
+        "Gatekeeper"
+      ],
+      "capabilities": [
+        "Verify identity",
+        "Grant or deny access"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "US20170046890A1 - Physical access management using a domain",
+    "citations": []
+  }
+}

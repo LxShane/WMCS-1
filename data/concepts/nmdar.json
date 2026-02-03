@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 30,
-    "item": 1234
+    "item": 1239
   },
   "claims": [
     {
@@ -285,15 +285,43 @@
         "status": "HYPOTHETICAL",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "key molecular player that coordinates synaptic activity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "key molecular player that coordinates cell-wide events that require gene transcription",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A type of receptor in the body.",
+    "definition": "N-methyl-D-aspartate receptor.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Unknown",
-    "origin": "Biological"
+    "mechanism": "Mediates excitatory neurotransmission in the brain.",
+    "origin": "Formed by the assembly of multiple subunits."
   },
   "instance_layer": {
     "examples": []
@@ -302,9 +330,7 @@
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "NMDA Receptors in Health and Disease - IntechOpen",
-      "NMDA Receptors in Neurodevelopmental Disorders",
-      "The GluN2A Subunit of the NMDA Receptor Modulates the ... - bioRxiv"
+      "https://www.sciencedirect.com/science/article/pii/S0028390821001052"
     ]
   }
 }

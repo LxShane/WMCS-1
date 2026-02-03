@@ -2,8 +2,8 @@
   "name": "Local Interstellar Cloud",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 30,
-    "item": 2346
+    "group": 31,
+    "item": 8765
   },
   "claims": [
     {
@@ -47,10 +47,52 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Interstellar Cloud",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Local Interstellar Medium",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Outer Layer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "An interstellar cloud roughly 30 light-years across.",
+    "definition": "A partially ionized cloud in the local interstellar medium.",
     "common_uses": []
   },
   "deep_layer": {
@@ -61,24 +103,19 @@
     "examples": []
   },
   "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
     "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+      "location": "Surrounding the Solar System",
+      "connected_to": [
+        "Heliosphere",
+        "Local Bubble",
+        "G Cloud"
+      ],
+      "coordinates": []
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": [
-      "https://en.wikipedia.org/wiki/Local_Interstellar_Cloud"
-    ]
-  }
+    "citations": []
+  },
+  "autocorrected": true
 }

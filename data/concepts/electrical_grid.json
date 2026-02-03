@@ -2,8 +2,8 @@
   "name": "Electrical Grid",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 23,
-    "item": 1001
+    "group": 29,
+    "item": 1234
   },
   "claims": [
     {
@@ -103,63 +103,78 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "An interconnected network for electricity delivery from producers to consumers",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Power Stations",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Electrical Substations",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Electric Power Transmission",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A networked system for transmitting electrical energy from generation sites to consumers.",
-    "common_uses": [
-      "Powering homes",
-      "Powering businesses",
-      "Powering industries"
-    ]
+    "definition": "An interconnected network for electricity delivery.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Power is generated, transmitted through high-voltage lines, stepped down at substations, and distributed to consumers.",
-    "origin": "Evolved from early local power generation and distribution systems."
+    "mechanism": "Transports electricity from generation to consumers.",
+    "origin": null
   },
   "instance_layer": {
-    "examples": [
-      "The North American Electric Reliability Corporation (NERC) oversees grid reliability in North America."
-    ]
+    "examples": []
   },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [
-        "Overhead power lines",
-        "Underground cables",
-        "Substations with transformers"
-      ],
-      "shape": [
-        "Network of interconnected lines"
-      ],
-      "composition": [
-        "Aluminum conductors",
-        "Steel towers",
-        "Copper wiring"
-      ],
-      "parts": [
-        "Generators",
-        "Transformers",
-        "Transmission lines",
-        "Substations",
-        "Distribution lines"
-      ]
-    },
-    "FUNCTION": {
-      "roles": [
-        "Power Delivery"
-      ],
-      "capabilities": [
-        "Transmit power",
-        "Distribute power",
-        "Regulate voltage"
-      ]
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "Electrical grid - Wikipedia"
-    ]
+    "source": "Electrical grid - Wikipedia",
+    "citations": []
   }
 }

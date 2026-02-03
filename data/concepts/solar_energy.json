@@ -3,21 +3,62 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1236
+    "item": 1009
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Renewable Energy",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Primary Energy Source",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "Energy derived from the sun.",
-    "common_uses": []
+    "definition": "Energy harnessed from the sun.",
+    "common_uses": [
+      "Electricity generation",
+      "Heating"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Energy from photons emitted by the sun.",
-    "origin": "The sun."
+    "mechanism": "Solar panels convert sunlight into electricity, or solar thermal collectors use sunlight for heating.",
+    "origin": "Electromagnetic radiation from the sun."
   },
-  "instance_layer": [],
-  "facets": {},
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "ABSTRACT_DATA": {
+      "domain": "Energy",
+      "classification": "Energy Source"
+    }
+  },
   "epistemic_metadata": {
-    "source": "https://interestingengineering.com/lists/novel-renewable-technologies-that-could-power-the-future",
-    "citations": []
+    "source": "Ingestion Engine",
+    "citations": [
+      "Primary Energy Source - an overview | ScienceDirect Topics"
+    ]
   }
 }

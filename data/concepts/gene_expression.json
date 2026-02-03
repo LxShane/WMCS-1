@@ -1,9 +1,9 @@
 {
   "name": "Gene Expression",
-  "type": "LIVING_SYSTEM",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 38,
-    "item": 1122
+    "group": 50,
+    "item": 1237
   },
   "claims": [
     {
@@ -19,20 +19,44 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Process by which information from a gene is used in the synthesis of a functional gene product",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
     "definition": "The process by which information from a gene is used in the synthesis of a functional gene product.",
-    "common_uses": []
+    "common_uses": [
+      "Cellular differentiation",
+      "Response to environment"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Includes transcription, RNA splicing, translation, and post-translational modification of a protein.",
-    "origin": null
+    "mechanism": "Involves transcription and translation.",
+    "origin": "Occurs in all living organisms."
   },
-  "instance_layer": [],
-  "facets": {},
+  "instance_layer": {
+    "examples": [
+      "Production of insulin in pancreatic cells"
+    ]
+  },
   "epistemic_metadata": {
-    "source": "https://www.nature.com/articles/nrg3207",
-    "citations": []
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://www.nature.com/articles/s44324-024-00047-w",
+      "https://www.sciencedirect.com/science/article/pii/S1096717624000247",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11369697/"
+    ]
   }
 }

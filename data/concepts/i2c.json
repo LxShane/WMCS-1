@@ -1,0 +1,58 @@
+{
+  "name": "I2C",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "communication protocol",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "bus system",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A communication protocol and bus system.",
+    "common_uses": [
+      "microfluidic control",
+      "sensor platform"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Serial communication with addressing.",
+    "origin": "Electronics Industry"
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Multiple Web Sources",
+    "citations": [
+      "https://www.sciencedirect.com/science/article/am/pii/S2468067221000584",
+      "https://itp.nyu.edu/physcomp/category/components/"
+    ]
+  }
+}

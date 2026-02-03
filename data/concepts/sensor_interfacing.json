@@ -1,0 +1,79 @@
+{
+  "name": "Sensor Interfacing",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 8901
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "The process of connecting sensors to microcontrollers or other processing systems",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "USER"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Sensor data",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "USER",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The process of connecting sensors to microcontrollers or other processing systems to use sensor data.",
+    "common_uses": [
+      "Acquiring sensor data",
+      "Processing sensor data",
+      "Responding to sensor data"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Involves using hardware and software to manage sensor communication with microcontrollers.",
+    "origin": "Evolved with the increasing complexity of sensor networks and use of microcontrollers."
+  },
+  "instance_layer": {
+    "examples": [
+      "Interfacing a temperature sensor with an Arduino",
+      "Interfacing an accelerometer with a Raspberry Pi"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "System Integrator",
+        "Data Receiver"
+      ],
+      "capabilities": [
+        "Connect sensor to a microcontroller",
+        "Enable real-time interaction with data"
+      ]
+    },
+    "ABSTRACT_DATA": {
+      "domain": "Engineering",
+      "related_concepts": [
+        "Electronics",
+        "Embedded Systems"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

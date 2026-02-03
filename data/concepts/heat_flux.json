@@ -1,44 +1,40 @@
 {
-  "name": "heat flux",
-  "type": "PHYSICAL",
+  "name": "Heat Flux",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 20,
-    "item": 1245
+    "group": 50,
+    "item": 2468
   },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Flux",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
     "definition": "The rate of heat energy transfer through a given surface.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "",
-    "origin": ""
+    "mechanism": "Heat transfer.",
+    "origin": "Thermodynamics."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "EQUIVALENCE": {
-      "fills_role": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "MECHANISM": [],
-    "PROCESS_DATA": null,
-    "PROPERTY_DATA": null,
-    "ABSTRACT_DATA": null
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "https://pubs.aip.org/aip/pop/article-pdf/2/6/2417/19321133/2417_1_online.pdf",
     "citations": []
-  },
-  "claims": []
+  }
 }

@@ -1,0 +1,115 @@
+{
+  "name": "Step-down transformer",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 22,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "decreasing the voltage",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "increasing the current",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Distribution Substation",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A transformer that decreases voltage.",
+    "common_uses": [
+      "Lowering voltage for distribution to customers."
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Works based on electromagnetic induction and turns ratio.",
+    "origin": "Part of electrical engineering development"
+  },
+  "instance_layer": {
+    "examples": [
+      "A transformer stepping down 13kV to 240V."
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Voltage reduction"
+      ],
+      "capabilities": [
+        "Lowering high voltage to usable levels"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "metallic",
+        "large",
+        "complex"
+      ],
+      "shape": [
+        "Rectangular or cylindrical.",
+        "Radiators for cooling"
+      ],
+      "composition": [
+        "Steel",
+        "Copper",
+        "Oil"
+      ],
+      "parts": [
+        "Core",
+        "Windings"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Inside a substation",
+      "coordinates": [],
+      "connected_to": [
+        "Transmission lines",
+        "Distribution lines"
+      ],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Manual",
+    "citations": [
+      "https://www.energy.gov/sites/default/files/2023-11/FINAL_CESER+Electricity+Grid+Backgrounder_508.pdf",
+      "https://getintoenergy.org/wp-content/uploads/dlm_uploads/2023/10/GuidedNotes_C.10.1_Instructor.pdf",
+      "https://studyelectrical.com/2019/04/electrical-substation-equipment-types-components-functions.html"
+    ]
+  }
+}

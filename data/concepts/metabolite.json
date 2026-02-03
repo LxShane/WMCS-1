@@ -1,0 +1,49 @@
+{
+  "name": "Metabolite",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Small molecule",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A small molecule involved in metabolism.",
+    "common_uses": [
+      "Energy production",
+      "Building blocks for macromolecules"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Participates in enzymatic reactions.",
+    "origin": "Synthesized or derived from diet."
+  },
+  "instance_layer": {
+    "examples": [
+      "Glucose",
+      "Amino Acid"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://www.nature.com/articles/s44324-024-00047-w",
+      "https://www.sciencedirect.com/science/article/pii/S1096717624000247",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11369697/"
+    ]
+  }
+}

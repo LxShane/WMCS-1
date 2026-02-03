@@ -1,0 +1,71 @@
+{
+  "name": "Power Delivery",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 2222
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "supplying power to devices",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "USB",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The process of supplying electrical power to a device.",
+    "common_uses": [
+      "Charging a phone via USB",
+      "Powering a USB fan"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Involves transferring electrical energy from a source to a device.",
+    "origin": "A fundamental process for operating electronic devices."
+  },
+  "instance_layer": {
+    "examples": [
+      "Powering an external hard drive with a USB cable",
+      "Charging a smartwatch with a USB charger"
+    ]
+  },
+  "facets": {
+    "ABSTRACT_DATA": {
+      "domain": "Electrical Engineering",
+      "properties": [
+        "Efficient",
+        "Safe"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Web Sources",
+    "citations": [
+      "https://www.nextpcb.com/blog/usb-pinout",
+      "https://www.electronicshub.org/usb-pinout/"
+    ]
+  }
+}

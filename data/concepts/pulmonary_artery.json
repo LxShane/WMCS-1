@@ -1,0 +1,73 @@
+{
+  "name": "Pulmonary Artery",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 31,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "PERFORMS",
+      "object": "carry deoxygenated blood to the lungs",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An artery that carries deoxygenated blood from the heart to the lungs.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Deoxygenated blood is pumped from the right ventricle to the lungs via the pulmonary artery.",
+    "origin": "Develops during embryonic development."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Blood transporter"
+      ],
+      "capabilities": [
+        "Carries deoxygenated blood"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [
+        "Tubelike"
+      ],
+      "composition": [
+        "Elastic tissue",
+        "Muscle"
+      ],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Between the heart and the lungs",
+      "coordinates": [],
+      "connected_to": [
+        "Heart",
+        "Lungs"
+      ],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.kenhub.com/en/library/anatomy/major-arteries-veins-and-nerves-of-the-body",
+      "https://www.ncbi.nlm.nih.gov/books/NBK547743/"
+    ]
+  }
+}

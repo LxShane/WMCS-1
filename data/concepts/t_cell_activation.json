@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 21,
-    "item": 1004
+    "item": 7890
   },
   "claims": [
     {
@@ -89,22 +89,66 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "structured engagement of antigen-presenting cells",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Initiation of T cell response",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "T cell expansion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The activation of T cells is a complex process that requires signals from the T cell receptor (TCR) and integrins.",
+    "definition": "The process by which a T cell becomes functional and able to respond to an antigen.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "T cell activation involves a cascade of signaling events leading to cytokine production and effector function.",
-    "origin": "Occurs in response to antigen presentation."
+    "mechanism": "Involves a series of intracellular signaling events.",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "[PDF] Synaptic Interactions in Germinal Centers - Frontiers",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "PMC5801066"
+    ]
   }
 }

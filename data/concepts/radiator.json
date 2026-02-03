@@ -1,0 +1,175 @@
+{
+  "name": "Radiator",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Heat exchanger",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Cooling internal combustion engines",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Automobiles",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Piston-engined aircraft",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Railway locomotives",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REMOVES",
+      "object": "Heat",
+      "temporal": {
+        "valid_from": "2024",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Tubes",
+      "temporal": {
+        "valid_from": "2024",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A radiator is a heat exchanger used for cooling internal combustion engines.",
+    "common_uses": [
+      "Cooling car engines",
+      "Cooling aircraft engines",
+      "Cooling locomotive engines"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Hot coolant flows through the radiator's tubes, and heat is removed.",
+    "origin": "Engine cooling systems"
+  },
+  "instance_layer": {
+    "examples": [
+      "Radiator in a Toyota Camry",
+      "Radiator in a Cessna 172",
+      "Radiator in a GE Evolution Series locomotive"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Heat Dissipater"
+      ],
+      "capabilities": [
+        "Cooling",
+        "Heat exchange"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic",
+        "Finned"
+      ],
+      "shape": [
+        "Rectangular",
+        "Box-shaped"
+      ],
+      "composition": [
+        "Metal",
+        "Aluminum",
+        "Copper"
+      ],
+      "parts": [
+        "Tubes",
+        "Fins",
+        "Core"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Front of engine",
+      "coordinates": [],
+      "connected_to": [
+        "Engine",
+        "Coolant hoses"
+      ],
+      "contained_in": "Engine compartment"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Radiator (engine cooling) - Wikipedia, What is Car Engine Cooling and How Does it Work? - ACKO Drive",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Radiator_(engine_cooling)",
+      "https://ackodrive.com/car-guide/what-is-car-engine-cooling-how-does-it-work/"
+    ]
+  }
+}

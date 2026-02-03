@@ -1,9 +1,9 @@
 {
   "name": "Database",
-  "type": "INANIMATE_OBJECT",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 30,
-    "item": 1003
+    "group": 50,
+    "item": 1006
   },
   "claims": [
     {
@@ -19,20 +19,52 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Component of IT infrastructure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A structured set of data held in a computer, especially one that is accessible in various ways.",
+    "definition": "A component of IT infrastructure that is a database.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Uses data structures and algorithms to store and retrieve information.",
-    "origin": null
+    "mechanism": "Stores structured data.",
+    "origin": "Evolved with the need to store and manage large amounts of data."
   },
   "instance_layer": [],
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Abstract; conceptual space",
+      "connected_to": [],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "US20230273288A1",
+    "source": "https://www.scalecomputing.com/resources/it-infrastructure-components",
     "citations": []
-  }
+  },
+  "autocorrected": true
 }

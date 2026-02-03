@@ -2,26 +2,38 @@
   "name": "Leukocyte",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1236
+    "group": 24,
+    "item": 1237
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "White blood cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
     "definition": "A type of white blood cell.",
     "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": null,
-    "origin": null
-  },
+  "deep_layer": {},
   "instance_layer": {
     "examples": []
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "A guide to chemokines and their receptors - PMC",
     "citations": [
-      "11.11A: MHC Polymorphism and Antigen Binding - Biology LibreTexts"
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6120486/"
     ]
   }
 }

@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 4567
+    "item": 1004
   },
   "claims": [
     {
@@ -75,30 +75,48 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "breakdown of rocks into smaller fragments due to exposure to environmental factors",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Weathering is the disintegration and decomposition of rocks and minerals at the Earth's surface through chemical and physical processes.",
-    "common_uses": [
-      "soil formation",
-      "rock erosion",
-      "mineral decomposition"
-    ]
+    "definition": "The breakdown of rocks into smaller fragments due to exposure to environmental factors such as temperature, humidity, and wind."
   },
   "deep_layer": {
-    "mechanism": "Chemical weathering involves the alteration of rock minerals through reactions with water, acids, and gases. Physical weathering breaks down rocks into smaller pieces without changing their chemical composition.",
-    "origin": "Weathering is a natural process that has been occurring since the Earth's surface formed."
+    "mechanism": "Exposure to environmental factors breaks down rocks.",
+    "origin": "Natural process of rock decomposition"
   },
   "instance_layer": {
-    "examples": [
-      "Freeze-thaw weathering in mountainous regions",
-      "Chemical weathering of limestone by acid rain",
-      "Exfoliation of granite rocks"
-    ]
+    "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Geomorphic Process"
+      ],
+      "capabilities": [
+        "breaking down rocks"
+      ]
+    }
+  },
   "epistemic_metadata": {
-    "source": "Wikipedia",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.britannica.com/science/geomorphology",
+      "https://www.nextias.com/blog/geomorphic-processes/",
+      "https://sustainability-directory.com/fundamentals/geomorphological-processes-fundamentals/"
+    ]
   }
 }

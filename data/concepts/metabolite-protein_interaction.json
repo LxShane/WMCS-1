@@ -1,0 +1,101 @@
+{
+  "name": "Metabolite-Protein Interaction",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Interaction between a metabolite and a protein",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Regulation of protein activity",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Affecting diverse cellular processes",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Regulation of gene expression",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An interaction between a metabolite and a protein.",
+    "common_uses": [
+      "Understanding gene regulation",
+      "Predicting protein activity"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Metabolites interact with proteins through covalent or non-covalent bonds, affecting protein structure and function.",
+    "origin": "Naturally occurring in biological systems"
+  },
+  "instance_layer": {
+    "examples": [
+      "Interaction of a metabolite with a transcription factor to regulate gene expression."
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Regulator"
+      ],
+      "capabilities": [
+        "Modulating protein activity",
+        "Influencing gene expression"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://www.nature.com/articles/s44324-024-00047-w",
+      "https://www.sciencedirect.com/science/article/pii/S1096717624000247",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11369697/"
+    ]
+  }
+}

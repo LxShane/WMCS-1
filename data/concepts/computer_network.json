@@ -2,7 +2,7 @@
   "name": "Computer Network",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 23,
+    "group": 20,
     "item": 1234
   },
   "claims": [
@@ -61,44 +61,101 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "group of communicating computers and peripherals",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "backbone of the modern digital landscape",
+      "temporal": {
+        "valid_from": "2024",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "enabling seamless communication",
+      "temporal": {
+        "valid_from": "2024",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "data exchange",
+      "temporal": {
+        "valid_from": "2024",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "resource sharing",
+      "temporal": {
+        "valid_from": "2024",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A group of interconnected computers that can exchange data and resources.",
+    "definition": "A group of communicating computers and peripherals known as hosts.",
     "common_uses": [
-      "Data exchange",
-      "Resource sharing"
+      "communication",
+      "data exchange",
+      "resource sharing"
     ]
   },
   "deep_layer": {
-    "mechanism": "Computers connect via network interfaces and protocols to transmit data packets.",
-    "origin": "Evolved from early telecommunications and computer technologies."
+    "mechanism": "Computers and peripherals connect and exchange information.",
+    "origin": "Evolved from early telecommunications and computer science."
   },
-  "instance_layer": [
-    "The Internet",
-    "Local Area Network (LAN)"
-  ],
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [
-        "Cables",
-        "Routers",
-        "Servers"
-      ],
-      "shape": [
-        "Varied, depending on the physical components"
-      ],
-      "composition": [
-        "Electronic components",
-        "Wiring"
-      ]
-    }
+  "instance_layer": {
+    "examples": [
+      "The Internet"
+    ]
   },
+  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "Overview on Intrusion Detection Systems for Computers Networking ... - MDPI",
-      "Network Intrusion Detection - an overview | ScienceDirect Topics"
+      "Computer network - Wikipedia",
+      "Computer Networks: The Backbone of Modern Connectivity - LinkedIn"
     ]
   }
 }

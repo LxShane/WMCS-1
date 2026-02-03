@@ -2,8 +2,8 @@
   "name": "Cytoplasm",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1007
+    "group": 31,
+    "item": 1011
   },
   "claims": [
     {
@@ -36,7 +36,7 @@
     }
   ],
   "surface_layer": {
-    "definition": "The cytoplasm is the material or protoplasm within a living cell, excluding the cell nucleus.",
+    "definition": "The material or protoplasm within a living cell, excluding the nucleus.",
     "common_uses": []
   },
   "deep_layer": {
@@ -46,22 +46,11 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {},
-    "STRUCTURAL": {},
-    "SPATIAL": {
-      "location": "Intracellular, surrounding the nucleus",
-      "connected_to": [
-        "Cell Membrane",
-        "Nucleus",
-        "Organelles"
-      ],
-      "coordinates": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
-  },
-  "autocorrected": true
+    "source": "Dataset - COMPARTMENTS Text-mining Protein Localization",
+    "citations": [
+      "https://maayanlab.cloud/Harmonizome/dataset/COMPARTMENTS+Text-mining+Protein+Localization+Evidence+Scores+2025"
+    ]
+  }
 }

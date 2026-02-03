@@ -1,0 +1,74 @@
+{
+  "name": "Hydrothermal Circulation",
+  "type": "PHYSICAL_PROCESS",
+  "id": {
+    "group": 60,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Mid-ocean ridges",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "AFFECTED_BY",
+      "object": "Permeability of oceanic crust",
+      "temporal": {
+        "valid_from": "2018",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The circulation of water driven by heat from the Earth's interior.",
+    "common_uses": [
+      "Geothermal energy",
+      "Mineral deposit formation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Heat from magma drives convection of water through porous rocks.",
+    "origin": "Occurs in areas of high geothermal gradient."
+  },
+  "instance_layer": {
+    "examples": [
+      "Black smokers",
+      "Geothermal vents"
+    ]
+  },
+  "facets": {
+    "PROCESS_DATA": {
+      "roles": [
+        "Heat Transfer",
+        "Fluid Transport"
+      ],
+      "capabilities": [
+        "Transfer heat",
+        "Transport fluids",
+        "Alter rock chemistry"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "2017GC007152"
+    ]
+  }
+}

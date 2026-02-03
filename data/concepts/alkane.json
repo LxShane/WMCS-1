@@ -1,0 +1,79 @@
+{
+  "name": "Alkane",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 20,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Fluid component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Long chains of CH2-elements",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A saturated hydrocarbon.",
+    "common_uses": [
+      "Fuel",
+      "Solvent"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Carbon and hydrogen atoms linked by single bonds.",
+    "origin": "Petroleum refining."
+  },
+  "instance_layer": {
+    "examples": [
+      "Methane",
+      "Ethane",
+      "Propane",
+      "Butane"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Colorless",
+        "Odorless"
+      ],
+      "shape": [
+        "Linear",
+        "Branched"
+      ],
+      "composition": [
+        "Carbon atoms",
+        "Hydrogen atoms"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Viscosity models for mixtures - Wikipedia"
+    ]
+  }
+}

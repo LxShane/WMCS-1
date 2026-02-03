@@ -2,8 +2,8 @@
   "name": "Valvetrain",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 1234
+    "group": 30,
+    "item": 1001
   },
   "claims": [
     {
@@ -89,41 +89,109 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "mechanical system that controls the operation of the intake and exhaust valves in an internal combustion engine",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "controls the operation of the intake valves",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "controls the operation of the exhaust valves",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "system of parts",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "opens the intake and exhaust valves",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "closes the intake and exhaust valves",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
     "definition": "A valvetrain is a mechanical system that controls the operation of the intake and exhaust valves in an internal combustion engine.",
-    "common_uses": [
-      "controlling the valves in an internal combustion engine"
-    ]
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The valvetrain controls the timing and duration of valve opening and closing, which regulates the flow of air and fuel into the cylinders and the expulsion of exhaust gases.",
-    "origin": "Designed for internal combustion engines."
+    "mechanism": "The valve train opens and closes valves to allow fuel and air in and push exhaust gases out.",
+    "origin": "ORIGIN"
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Valve Controller"
-      ],
-      "capabilities": [
-        "Opening valves",
-        "Closing valves",
-        "Timing valve operation"
-      ]
-    },
-    "STRUCTURAL": {},
-    "SPATIAL": {}
-  },
+  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "Valvetrain - Wikipedia",
-      "Valve timing mechanism (valvetrain and timing drive) - YouTube",
-      "What Is A ValveTrain? Its Parts, Diagram, & How it Works"
+      "Page 1",
+      "Section 2.3"
     ]
   }
 }

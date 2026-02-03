@@ -2,8 +2,8 @@
   "name": "Intake Manifold",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 1234
+    "group": 30,
+    "item": 4567
   },
   "claims": [
     {
@@ -61,43 +61,47 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Finite element structural simulation",
+      "temporal": {
+        "valid_from": "2017",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A manifold that delivers air to the engine cylinders.",
-    "common_uses": [
-      "Automotive",
-      "Engine tuning"
-    ]
+    "definition": "A component whose design and development time can be aligned using finite element structural simulation.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The intake manifold distributes the air/fuel mixture to each cylinder.",
-    "origin": "Engine design"
+    "mechanism": "Integration with the cylinder head to improve powertrain.",
+    "origin": "Engine part"
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
     "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
       "composition": [],
-      "parts": [],
-      "relations": []
+      "parts": []
     },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
     }
   },
   "epistemic_metadata": {
-    "source": "Extracted from web pages",
+    "source": "Set Automatically",
     "citations": [
-      "https://www.theengineerspost.com/intake-and-exhaust-manifold/",
-      "https://web1.eng.famu.fsu.edu/~shih/propulsion/student+presentation+EML+4421/manifold+tuning.pdf",
-      "https://carvibehub.com/exhaust-manifold-vs-intake-manifold/"
+      "https://www.sae.org/publications/technical-papers/content/2017-01-1723/"
     ]
   }
 }

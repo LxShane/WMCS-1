@@ -1,9 +1,9 @@
 {
-  "name": "Network Topology",
+  "name": "Network topology",
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 4567
+    "item": 1234
   },
   "claims": [
     {
@@ -19,26 +19,145 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "The structure of a network and how network components are connected",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Physical or logical layout of devices and connections in a computer network",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Links to other devices in the network",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Graphically mapping of links between devices",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Geometric shape",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Describe the physical topology",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Starting point for providing network services",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Giving a perfect picture of the network",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The arrangement of the elements (links, nodes, etc.) of a communication network.",
-    "common_uses": []
+    "definition": "A network topology describes the arrangement of links and nodes in a communication network.",
+    "common_uses": [
+      "Network design",
+      "Troubleshooting",
+      "Network documentation"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Describes how data is transferred across a network.",
-    "origin": "Derived from network design principles to optimize communication."
+    "mechanism": "Network topology describes the physical and logical arrangement of network elements, which impacts network performance and management.",
+    "origin": "Emerged with the development of computer networks."
   },
   "instance_layer": {
     "examples": [
+      "Bus topology",
       "Star topology",
-      "Mesh topology"
+      "Ring topology"
     ]
   },
   "epistemic_metadata": {
-    "source": "Quizlet",
+    "source": "Multiple sources",
     "citations": [
-      "Module 30 Explaining Wireless Fundamentals - Quizlet"
+      "Network topology - Wikipedia",
+      "Network topology - Wikiwand",
+      "How to make a network topology diagram or map"
     ]
   }
 }

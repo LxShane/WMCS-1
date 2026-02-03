@@ -2,24 +2,40 @@
   "name": "Allantois",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 1239
+    "group": 21,
+    "item": 1007
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Membrane",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "A sac-like structure involved in early fluid management and waste storage during embryonic development.",
+    "definition": "A membrane that is part of the amniotic sac.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Involved in early fluid management and waste storage.",
-    "origin": "Develops from extra-embryonic membranes."
+    "mechanism": null,
+    "origin": "Develops during fetal development."
   },
-  "instance_layer": {
-    "examples": []
+  "instance_layer": [],
+  "facets": {
+    "STRUCTURAL": {},
+    "SPATIAL": {}
   },
-  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "https://en.wikipedia.org/wiki/Amniotic_sac",
     "citations": []
   }
 }

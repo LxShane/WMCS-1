@@ -2,8 +2,8 @@
   "name": "Immune Cells",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 7890
+    "group": 20,
+    "item": 1003
   },
   "claims": [
     {
@@ -19,10 +19,24 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Contributing to Tumor Progression",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Immune cells are cells that protect the body from harmful substances, germs, and cell changes.",
+    "definition": "Cells of the immune system.",
     "common_uses": []
   },
   "deep_layer": {
@@ -32,19 +46,12 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Ingestion Engine",
     "citations": [
-      "https://www.nature.com/articles/s41419-024-06697-4"
+      "https://www.sciencedirect.com/science/article/pii/S2211124725002037",
+      "https://www.cell.com/cancer-cell/fulltext/S1535-6108(23)00044-2"
     ]
   }
 }

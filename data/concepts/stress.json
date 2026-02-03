@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 9012
+    "item": 1001
   },
   "claims": [
     {
@@ -19,40 +19,87 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Force per unit area within a material",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Physical quantity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Bending stress",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Vertical shear stress",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Internal forces that neighboring particles of a continuous material exert on each other.",
-    "common_uses": []
+    "definition": "Stress is the force per unit area within a material that arises from externally applied forces.",
+    "common_uses": [
+      "Analyzing material behavior",
+      "Predicting structural performance"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Response of a material to external forces, leading to internal forces within the material.",
-    "origin": "Arises from the application of loads and the material's resistance to deformation."
+    "mechanism": "Stress develops in a material when it is subjected to external loads or forces, causing internal forces and deformations.",
+    "origin": "Stress arises from the intermolecular forces within a material resisting the external forces acting on it."
   },
   "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
+    "examples": [
+      "Stress in a bridge due to traffic",
+      "Stress in an airplane wing during flight"
+    ]
   },
   "epistemic_metadata": {
-    "source": "Strength of materials - Wikipedia",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.pearsonhighered.com/assets/samplechapter/0/1/3/4/0134441184.pdf",
+      "https://www.xometry.com/resources/materials/stress/",
+      "https://journals.sagepub.com/doi/10.1177/15280837241228268"
+    ]
   }
 }

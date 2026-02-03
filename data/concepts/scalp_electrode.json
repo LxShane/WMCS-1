@@ -1,0 +1,99 @@
+{
+  "name": "Scalp Electrode",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 22,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Electrode",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Scalp",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Electroencephalographic (EEG) recordings",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An electrode placed on the scalp for electroencephalographic recordings.",
+    "common_uses": [
+      "EEG recordings",
+      "Brain activity measurement"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Detects electrical activity in the brain via the scalp.",
+    "origin": "Developed for non-invasive brain activity measurement."
+  },
+  "instance_layer": {
+    "examples": [
+      "19 scalp electrodes used for EEG"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "On the scalp",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Scalp"
+    },
+    "FUNCTION": {
+      "roles": [
+        "Sensor"
+      ],
+      "capabilities": [
+        "Detect electrical activity"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "ResearchGate, ScienceDirect, medRxiv",
+    "citations": [
+      "Diagram showing the placement of the 19 scalp electrodes used for the present_fig1_295672882",
+      "Localization of deep brain activity with scalp and subdural EEG",
+      "Are we really targeting and stimulating DLPFC by placing tES electrodes"
+    ]
+  }
+}

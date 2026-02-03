@@ -1,5 +1,5 @@
 {
-  "name": "ATP hydrolysis",
+  "name": "ATP Hydrolysis",
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
@@ -187,46 +187,150 @@
         "status": "HYPOTHETICAL",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Force generation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Movement",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Myosin II",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Release of inorganic phosphate",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Release of ADP",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Dynamic conformational changes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Myosin",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DRIVES",
+      "object": "Actin-myosin interaction",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "ATP hydrolysis is the catabolic reaction process by which chemical energy that has been stored in the high-energy phosphoanhydride bonds in adenosine triphosphate (ATP) is released after splitting these bonds.",
-    "common_uses": [
-      "muscle contraction",
-      "electrochemical gradients",
-      "biosynthesis"
-    ]
+    "definition": "The process of breaking down ATP into ADP and inorganic phosphate, releasing energy.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The process involves breaking phosphoanhydride bonds in ATP via the addition of water, releasing energy and producing ADP and inorganic phosphate. The exergonic nature is due to stabilization of the inorganic phosphate and relief of electrostatic repulsion.",
-    "origin": "Occurs within living systems and is fundamental to energy transfer in cells."
+    "mechanism": "The cleavage of the phosphoanhydride bond in ATP releases energy that can be used to drive cellular processes.",
+    "origin": null
   },
   "instance_layer": {
-    "examples": [
-      "Muscle contraction",
-      "Active transport across cell membranes"
-    ]
+    "examples": []
   },
   "facets": {
     "FUNCTION": {
-      "roles": [
-        "Energy Release"
-      ],
-      "capabilities": [
-        "Hydrolyzing ATP",
-        "Releasing energy",
-        "Producing ADP and Pi"
-      ]
+      "roles": [],
+      "capabilities": []
     },
-    "STRUCTURAL": {},
-    "SPATIAL": {}
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Multiple",
     "citations": [
-      "https://en.wikipedia.org/wiki/ATP_hydrolysis",
-      "https://en.wikipedia.org/wiki/Hydrolysis",
-      "https://grokipedia.com/page/ATP_hydrolysis"
+      "https://www.sciencedirect.com/science/article/pii/S0301462208002822",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5334417/",
+      "https://courses.lumenlearning.com/wm-biology2/chapter/atp-and-muscle-contraction/"
     ]
   }
 }

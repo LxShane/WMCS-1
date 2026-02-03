@@ -1,0 +1,116 @@
+{
+  "name": "CPU Cache",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 22,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Hardware Cache",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Reduce average cost (time or energy) to access data from main memory",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Central Processing Unit (CPU)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Smaller, faster memory, located closer to a processor core, which stores copies of the data from frequently used main memory locations, avoiding the need to always refer to main memory",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A CPU cache is a hardware cache used by the central processing unit to reduce the average cost to access data from main memory.",
+    "common_uses": [
+      "speeding up data access",
+      "reducing energy consumption"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Stores copies of frequently used data, allowing the CPU to retrieve data more quickly than accessing main memory.",
+    "origin": "Evolved from the need to bridge the speed gap between CPU and main memory."
+  },
+  "instance_layer": {
+    "examples": [
+      "L1 cache",
+      "L2 cache",
+      "L3 cache"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Electronic",
+        "Integrated circuit"
+      ],
+      "shape": [
+        "Planar",
+        "Rectangular"
+      ],
+      "composition": [
+        "Semiconductors",
+        "Metals"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Integrated within the CPU package, close to the processor core",
+      "connected_to": [
+        "Processor Core",
+        "Main Memory"
+      ],
+      "contained_in": "CPU"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "CPU cache - Wikipedia, Anatomy of a CPU. The Core of Digital Evolution: Inside a ... - Medium, Understanding CPU Cache Organization and Structure",
+    "citations": [
+      "https://en.wikipedia.org/wiki/CPU_cache",
+      "https://medium.com/@razvanbadescu/anatomy-of-a-cpu-bc02cd950cca",
+      "https://dev.to/sachin_tolay_052a7e539e57/understanding-cpu-cache-organization-and-structure-4o1o"
+    ]
+  }
+}

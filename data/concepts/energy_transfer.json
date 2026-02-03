@@ -3,27 +3,76 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1007
+    "item": 4567
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "the change of energy from one form to another",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PRECEDES",
+      "object": "Dynamics",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "The process of moving energy from one place to another.",
-    "common_uses": []
+    "definition": "The process of energy changing from one form to another.",
+    "common_uses": [
+      "Understanding physical systems",
+      "Analyzing dynamic processes"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Governed by the laws of thermodynamics, particularly the first law.",
+    "origin": "Fundamental aspect of physical phenomena."
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": [
+      "Potential energy converting to kinetic energy when a block slides down a slope",
+      "Kinetic energy of wind propelling a sailboat"
+    ]
+  },
   "facets": {
-    "FUNCTION": {},
-    "STRUCTURAL": {},
-    "SPATIAL": {}
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
   },
   "epistemic_metadata": {
-    "source": "User Query",
-    "citations": [
-      "https://promik.com/automotive-interfaces-overview"
-    ]
+    "source": "Set Automatically",
+    "citations": []
   }
 }

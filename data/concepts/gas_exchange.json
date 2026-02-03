@@ -1,0 +1,76 @@
+{
+  "name": "Gas Exchange",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 23,
+    "item": 1006
+  },
+  "claims": [
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Alveolus",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Capillary",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Gas exchange is the process of moving oxygen and carbon dioxide between the body and the environment.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Oxygen diffuses from the alveoli into the blood, and carbon dioxide diffuses from the blood into the alveoli.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Lungs"
+    },
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": [
+        "Gas Exchange"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "3.3 Circulatory and Respiratory Systems \u2013 Human Biology"
+    ]
+  }
+}

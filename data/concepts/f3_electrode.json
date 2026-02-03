@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 30,
-    "item": 1616
+    "item": 1001
   },
   "claims": [
     {
@@ -19,24 +19,106 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Electrode",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "F3 Location",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "FILLS_ROLE",
+      "object": "Cathode",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "EEG",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Electrode located at a specific position on the scalp according to the 10-20 system",
-    "common_uses": []
+    "definition": "An electrode placed at the F3 location on the scalp, often used as a cathode in EEG montages.",
+    "common_uses": [
+      "EEG recording",
+      "Brain stimulation"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Conducts electrical signals to or from the scalp.",
+    "origin": "Manufactured device placed according to the 10-20 EEG system."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Electrode"
+      ],
+      "capabilities": [
+        "Conducting electrical signals"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "F3 Location",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Scalp"
+    }
+  },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Multiple Web Sources",
     "citations": [
-      "Wikipedia"
+      "https://www.researchgate.net/figure/A-The-F3-F4-electrode-montage-with-the-F3-electrode-as-the-cathode-blue-and-the-F4_fig1_346163460",
+      "https://www.learningeeg.com/montages-and-technical-components"
     ]
   }
 }

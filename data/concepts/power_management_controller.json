@@ -1,0 +1,71 @@
+{
+  "name": "Power Management Controller",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1007
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "DC microgrid power management",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "ABBR_FOR",
+      "object": "PMC",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "AI-ANN based controller",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A device that manages the flow of power in a system.",
+    "common_uses": [
+      "Controlling power in a DC microgrid"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "A PMC uses sensors and algorithms to optimize power flow and maintain stability.",
+    "origin": "PMCs have become essential for managing complex power systems."
+  },
+  "instance_layer": {
+    "examples": [
+      "A PMC used in a solar power system"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Development of artificial Intelligence-Based adaptive vehicle to grid ...",
+    "citations": []
+  }
+}

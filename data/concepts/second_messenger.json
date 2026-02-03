@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1234
+    "item": 1236
   },
   "claims": [
     {
@@ -425,14 +425,56 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Substances that enter the cytoplasm and act within the cell to trigger a response",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Acting as chemical relays from the plasma membrane to the cytoplasm",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Carrying out intracellular signal transduction",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Second messengers are intracellular signaling molecules released by the cell in response to exposure to extracellular signaling molecules\u2014the first messengers.",
+    "definition": "Intracellular signaling molecule in signal transduction.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Second messengers trigger physiological changes at cellular level.  They can be synthesized and activated by enzymes, or by opening of ion channels. These small molecules bind and activate protein kinases, ion channels, and other proteins, thus continuing the signaling cascade.",
+    "mechanism": "Acts as a relay to trigger a response within the cell.",
     "origin": null
   },
   "instance_layer": {
@@ -440,24 +482,25 @@
   },
   "facets": {
     "FUNCTION": {
-      "roles": [
-        "Signaling"
-      ],
-      "capabilities": [
-        "Triggering physiological changes",
-        "Activating protein kinases",
-        "Activating ion channels"
-      ]
+      "roles": [],
+      "capabilities": []
     },
-    "STRUCTURAL": {},
-    "SPATIAL": {}
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://en.wikipedia.org/wiki/Second_messengers",
-      "https://en.wikipedia.org/wiki/Second_messenger_system",
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4968160/"
-    ]
+    "source": "Signal transduction - Wikipedia",
+    "citations": []
   }
 }

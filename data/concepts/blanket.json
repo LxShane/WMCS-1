@@ -2,8 +2,8 @@
   "name": "Blanket",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 30,
-    "item": 4321
+    "group": 25,
+    "item": 5678
   },
   "claims": [
     {
@@ -47,20 +47,47 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Tritium-related functional properties",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "in-vessel component",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A component in a fusion reactor designed to absorb neutrons and breed tritium.",
-    "common_uses": [
-      "Neutron absorption",
-      "Tritium breeding"
-    ]
+    "definition": "An in-vessel component of the ITER tokamak.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Neutrons from the fusion reaction interact with lithium in the blanket to produce tritium.",
-    "origin": "Developed as a necessary component for deuterium-tritium fusion reactors."
+    "mechanism": null,
+    "origin": null
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {
     "STRUCTURAL": {
       "visual_features": [],
@@ -70,21 +97,14 @@
       "relations": []
     },
     "SPATIAL": {
-      "location": "Superior, External",
-      "connected_to": [
-        "Bed",
-        "Body",
-        "Floor",
-        "Furniture"
-      ],
-      "coordinates": []
+      "location": "Inside vacuum vessel",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Vacuum Vessel"
     }
   },
   "epistemic_metadata": {
-    "source": "Energy.gov",
-    "citations": [
-      "Energy.gov \u203a science \u203a fusion \u203a blanket-divertor-challenges"
-    ]
-  },
-  "autocorrected": true
+    "source": "Vacuum Vessel",
+    "citations": []
+  }
 }

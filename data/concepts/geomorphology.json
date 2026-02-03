@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1234
+    "item": 1001
   },
   "claims": [
     {
@@ -75,30 +75,81 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "study of landforms, their origin, development, and classification",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "branch of Earth science",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "understanding environment",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Geomorphology is the study of the form or shape of the Earth's surface and the processes that create and modify it.",
+    "definition": "The study of the Earth's physical features and landforms.",
     "common_uses": [
       "understanding landscape evolution",
-      "hazard assessment",
-      "resource management"
+      "understanding geological features"
     ]
   },
   "deep_layer": {
-    "mechanism": "Geomorphological processes involve the movement of mass, sediment, and water across the Earth's surface, shaped by tectonic, geological, climatic, and ecological factors.",
-    "origin": "The study of geomorphology emerged as a distinct field within geology and geography."
+    "mechanism": "Examines processes that shape the Earth's surface.",
+    "origin": "Study of landforms and their evolution"
   },
   "instance_layer": {
-    "examples": [
-      "Analysis of river channel morphology",
-      "Study of glacial landforms",
-      "Assessment of coastal erosion"
-    ]
+    "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Scientifc Study"
+      ],
+      "capabilities": [
+        "analyzing landforms",
+        "Understanding landscape evolution"
+      ]
+    }
+  },
   "epistemic_metadata": {
-    "source": "Britannica",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.britannica.com/science/geomorphology",
+      "https://www.nextias.com/blog/geomorphic-processes/",
+      "https://sustainability-directory.com/fundamentals/geomorphological-processes-fundamentals/"
+    ]
   }
 }

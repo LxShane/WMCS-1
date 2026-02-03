@@ -2,8 +2,8 @@
   "name": "Diaphysis",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1313
+    "group": 31,
+    "item": 1003
   },
   "claims": [
     {
@@ -19,10 +19,24 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Part of a long bone",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The shaft or central part of a long bone.",
+    "definition": "The main or midsection (shaft) of a long bone.",
     "common_uses": []
   },
   "deep_layer": {
@@ -33,12 +47,25 @@
     "examples": []
   },
   "facets": {
-    "FUNCTION": {},
-    "STRUCTURAL": {},
-    "SPATIAL": {}
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": []
+    },
+    "SPATIAL": {
+      "location": "Middle part of a long bone",
+      "connected_to": [
+        "Proximal epiphysis",
+        "Distal epiphysis",
+        "Metaphysis"
+      ],
+      "coordinates": []
+    }
   },
   "epistemic_metadata": {
-    "source": "Britannica",
+    "source": "https://www.britannica.com/science/bone-anatomy/Vascular-supply-and-circulation",
     "citations": []
-  }
+  },
+  "autocorrected": true
 }

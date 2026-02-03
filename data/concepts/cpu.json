@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 20,
-    "item": 1238
+    "item": 1002
   },
   "claims": [
     {
@@ -201,20 +201,74 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Data processing",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Quick data access from memory hierarchy",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A central processing unit.",
-    "common_uses": []
+    "definition": "Central Processing Unit, the main processor of a computer.",
+    "common_uses": [
+      "Executing instructions",
+      "Performing calculations",
+      "Controlling other components"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Processes instructions and data to control the functions of a computer.",
-    "origin": null
+    "mechanism": "Fetches, decodes, and executes instructions.",
+    "origin": "Computer architecture"
   },
-  "instance_layer": [],
-  "facets": {},
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": []
+    },
+    "SPATIAL": {
+      "location": "Located within the motherboard, often near the center.",
+      "connected_to": [
+        "Motherboard",
+        "CPU cooler (heatsink/fan or liquid cooler)",
+        "Power supply (via motherboard)",
+        "RAM (via memory controller)"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "livewiredev.com",
-    "citations": []
-  }
+    "source": "Memory Organisation in Computer Architecture - GeeksforGeeks",
+    "citations": [
+      "https://www.geeksforgeeks.org/computer-organization-architecture/memory-organisation-in-computer-architecture/"
+    ]
+  },
+  "autocorrected": true
 }

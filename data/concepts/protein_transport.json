@@ -1,0 +1,54 @@
+{
+  "name": "Protein Transport",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Vesicle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Golgi complex",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The movement of proteins from one location to another within a cell.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Proteins are packaged into vesicles, which then move to their destination.",
+    "origin": "Cellular processes requiring protein localization."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "https://elifesciences.org/articles/02009",
+    "citations": []
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "name": "EHCI (Extended Host Controller Interface)",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Host Controller Interface",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": "Creation of USB 2.0"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "High-Speed USB transactions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "OHCI or UHCI sister controller",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "delegating Low-Speed and Full-Speed transactions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A host controller interface created for USB 2.0, used for High-Speed transactions.",
+    "common_uses": [
+      "High-speed USB transactions"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The EHCI controller handles High-Speed transactions and delegates Low-Speed and Full-Speed transactions to other controllers.",
+    "origin": "Created for USB 2.0 after a request for a single host controller specification."
+  },
+  "instance_layer": {
+    "examples": [
+      "EHCI controller in a USB 2.0 system"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "High-Speed USB Controller"
+      ],
+      "capabilities": [
+        "Handles High-Speed transactions",
+        "Delegates Low-Speed transactions",
+        "Delegates Full-Speed transactions"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Abstract, no physical form"
+      ],
+      "shape": [
+        "Abstract"
+      ],
+      "composition": [
+        "Software",
+        "Hardware registers"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "infineon.com",
+    "citations": [
+      "AN57294 USB 101 An Introduction to Universal Serial Bus 2.0"
+    ]
+  }
+}

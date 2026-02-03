@@ -1,0 +1,57 @@
+{
+  "name": "ECU Suspension",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1006
+  },
+  "claims": [
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "adversaries",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "compromised Engine Control Unit",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The act of disabling or taking control of an Engine Control Unit by malicious actors.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Adversaries exploit vulnerabilities in diagnostic commands or hardware to suspend the ECU's function.",
+    "origin": "Result of security research into vehicle electronic systems."
+  },
+  "instance_layer": [],
+  "facets": {
+    "ABSTRACT_DATA": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "ArXiv Paper"
+    ]
+  }
+}

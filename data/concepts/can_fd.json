@@ -1,9 +1,9 @@
 {
   "name": "CAN FD",
-  "type": "INANIMATE_OBJECT",
+  "type": "SOCIAL_CONSTRUCT",
   "id": {
-    "group": 30,
-    "item": 1012
+    "group": 60,
+    "item": 7890
   },
   "claims": [
     {
@@ -33,26 +33,82 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "CAN with Flexible Data rate",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "physical layer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Increased data rate in the data phase",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A type of CAN interface.",
+    "definition": "CAN with Flexible Data rate.",
     "common_uses": []
   },
   "deep_layer": {
     "mechanism": null,
     "origin": null
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {
     "FUNCTION": {},
     "STRUCTURAL": {},
-    "SPATIAL": {}
+    "SPATIAL": {
+      "location": "Within the CAN bus network",
+      "connected_to": [
+        "Microcontrollers",
+        "Transceivers",
+        "ECUs (Engine Control Units)",
+        "Sensors",
+        "Actuators"
+      ],
+      "coordinates": []
+    }
   },
   "epistemic_metadata": {
-    "source": "User Query",
+    "source": "Set Automatically",
     "citations": [
-      "https://promik.com/automotive-interfaces-overview"
+      "CAN FD Protocol Tutorial - Kvaser - Advanced CAN Solutions",
+      "The Physical Layer in the CAN FD world - can-cia.org"
     ]
-  }
+  },
+  "autocorrected": true
 }

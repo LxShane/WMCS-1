@@ -3,44 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 30,
-    "item": 1002
-  },
-  "surface_layer": {
-    "definition": "The negative electrode in a battery.",
-    "common_uses": []
-  },
-  "deep_layer": {},
-  "instance_layer": {},
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "ELECTRODE"
-      ],
-      "capabilities": []
-    },
-    "EQUIVALENCE": {
-      "fills_role": [
-        "ELECTRODE"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "MECHANISM": [],
-    "PROCESS_DATA": {},
-    "PROPERTY_DATA": {},
-    "ABSTRACT_DATA": {}
-  },
-  "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "Battery Talk Talk",
-      "BU-306"
-    ]
+    "item": 1007
   },
   "claims": [
     {
@@ -51,6 +14,82 @@
         "status": "SETTLED",
         "source_type": "MIGRATE_LEGACY"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Electrode",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Positive Electrode",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Electrode",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
-  ]
+  ],
+  "surface_layer": {
+    "definition": "The positive electrode in an electrical circuit.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Attracts negative charge.",
+    "origin": "Physics"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Web Sources",
+    "citations": []
+  }
 }

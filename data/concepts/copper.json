@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 20,
-    "item": 9012
+    "item": 1235
   },
   "claims": [
     {
@@ -47,26 +47,130 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Metal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PROPERTY",
+      "object": "High conductivity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PROPERTY",
+      "object": "Good ductility",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PROPERTY",
+      "object": "Strength",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Electrical Conductor",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A reddish-brown metal known for its high electrical conductivity.",
+    "definition": "A metallic element used as an electrical conductor.",
     "common_uses": [
-      "Electrical wiring",
-      "Pipes",
-      "RF Shielding"
+      "electrical wiring",
+      "electronics"
     ]
   },
   "deep_layer": {
-    "mechanism": "Its high electrical conductivity allows it to effectively absorb electromagnetic radiation.",
-    "origin": "Naturally occurring metal."
+    "mechanism": "Copper's atomic structure allows for free movement of electrons.",
+    "origin": "Mined from the earth."
   },
-  "instance_layer": [],
-  "facets": {},
+  "instance_layer": {
+    "examples": [
+      "Copper wire in household wiring"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Electrical Conductor"
+      ],
+      "capabilities": [
+        "Conducting electricity"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Reddish-brown",
+        "Metallic"
+      ],
+      "shape": [
+        "Wire",
+        "Sheet",
+        "Bar"
+      ],
+      "composition": [
+        "Copper"
+      ],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "In electrical wiring and circuits",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Electrical cables, devices"
+    }
+  },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "https://electricalacademia.com/basic-electrical/conductors-insulators-semiconductors-theory-examples/",
     "citations": [
-      "https://en.wikipedia.org/wiki/Electromagnetic_shielding"
+      "Various sections"
     ]
   }
 }

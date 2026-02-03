@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1234
+    "item": 1235
   },
   "claims": [
     {
@@ -19,32 +19,42 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "memory space",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A series of actions or steps taken to achieve a particular end.",
-    "common_uses": []
+    "definition": "A process is an instance of a computer program that is being executed.",
+    "common_uses": [
+      "Running applications",
+      "Performing tasks"
+    ]
   },
   "deep_layer": {
-    "mechanism": "A transformation from an initial state to a final state through a sequence of actions.",
-    "origin": null
+    "mechanism": "A process manages its own memory space and resources while executing instructions.",
+    "origin": "A process is created when a program is loaded into memory and begins execution."
   },
-  "instance_layer": [],
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    }
+  "instance_layer": {
+    "examples": [
+      "Web browser",
+      "Text editor"
+    ]
   },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Multiple Web Sources",
     "citations": []
   }
 }

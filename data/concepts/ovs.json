@@ -1,0 +1,63 @@
+{
+  "name": "OVS",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Open vSwitch",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "open source SDN project",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "OVS (Open vSwitch) is an open source SDN project.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "OVS is used to implement virtual switching in SDN environments.",
+    "origin": "Created to provide a standard virtual switch for SDN deployments."
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Virtual Switch"
+      ],
+      "capabilities": [
+        "SDN switching"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://quizlet.com/607082231/sdn-and-apis-flash-cards/"
+    ]
+  }
+}

@@ -2,7 +2,7 @@
   "name": "Cylinder Head",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 21,
+    "group": 30,
     "item": 1234
   },
   "claims": [
@@ -33,30 +33,122 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Part of engine",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Critical systems",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": "PRESENT",
+        "event": "Modern engines"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "INTEGRATES",
+      "object": "Multiple critical systems",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": "PRESENT",
+        "event": "Modern engines"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Downsizing and light weighting of powertrain",
+      "temporal": {
+        "valid_from": "2017",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Monobloc form",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Integral part of the cylinder",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Part of the engine; can be designed in different layouts.",
+    "definition": "A cylinder head is a component of an engine that integrates multiple critical systems.",
     "common_uses": [
-      "In internal combustion engines",
-      "Manufacturing families of engines"
+      "Powertrain downsizing",
+      "Light weighting"
     ]
   },
   "deep_layer": {
-    "mechanism": "Layout can be modified without needing new cylinder head designs.",
-    "origin": "Engine design and manufacturing"
+    "mechanism": "Finite element structural simulation is used to align the project time plan, considering structural loads like interferences, bolt pre-loads, temperatures, and peak firing pressure.",
+    "origin": "Part of engines"
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "STRUCTURAL": {},
-    "SPATIAL": {}
+    "STRUCTURAL": {
+      "composition": [],
+      "parts": []
+    },
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    }
   },
   "epistemic_metadata": {
-    "source": "Cylinder head - Wikipedia",
+    "source": "Set Automatically",
     "citations": [
-      "Wikipedia"
+      "https://en.wikipedia.org/wiki/Cylinder_head",
+      "https://www.volgenpower.com/what-is-a-cylinder-head/",
+      "https://www.sae.org/publications/technical-papers/content/2017-01-1723/"
     ]
   }
 }

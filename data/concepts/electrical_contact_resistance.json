@@ -1,0 +1,59 @@
+{
+  "name": "Electrical Contact Resistance",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Barometer for service life and reliability of electrical connectors",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "AFFECTED_BY",
+      "object": "Mechanical vibration stress",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A measure of the resistance to electrical current flow at the point of contact between two conductors.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Contact resistance arises from constriction resistance and film resistance.",
+    "origin": "Related to the physics of electrical conduction."
+  },
+  "instance_layer": {
+    "examples": [
+      "Resistance in a switch contact",
+      "Resistance in a relay contact"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://ieeexplore.ieee.org/abstract/document/8801871"
+    ]
+  }
+}

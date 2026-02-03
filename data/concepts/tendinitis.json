@@ -1,0 +1,52 @@
+{
+  "name": "Tendinitis",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1098
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Inflammation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Tendons",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Inflammation of a tendon.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Caused by repetitive stress or overuse of the tendon.",
+    "origin": "Physical injury or overuse."
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Muscle Attachment: Anatomy & Definition | StudySmarter",
+    "citations": []
+  }
+}

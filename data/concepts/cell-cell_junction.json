@@ -2,7 +2,7 @@
   "name": "Cell-Cell Junction",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
+    "group": 22,
     "item": 1001
   },
   "claims": [
@@ -173,56 +173,181 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Cell Structure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "linking cells to each other in tissues",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "regulating tissue homeostasis",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "tissue barrier function",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "cell proliferation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "migration",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "tissue abnormalities",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "playing important roles in cell adhesion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "playing important roles in cell communication",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "major determinant of tissue mechanics",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Specialized structure that provides contact between cells.",
-    "common_uses": [
-      "Cell adhesion",
-      "Cell signaling"
-    ]
+    "definition": "Cell-cell junctions are structures that connect cells to each other within tissues.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Cell\u2013cell junctions organize structural and signaling networks. They are specialized sites for cell adhesion and are enriched in cell adhesion molecules , scaffolding proteins, and signaling molecules.",
-    "origin": "Formed by transmembrane proteins"
+    "mechanism": "Cell-cell junctions facilitate signaling pathways that regulate various cellular processes.",
+    "origin": "Formed through the interaction of transmembrane proteins on adjacent cells."
   },
   "instance_layer": {
-    "examples": [
-      "Tight junction",
-      "Adherens junction",
-      "Desmosomes"
-    ]
+    "examples": []
   },
   "facets": {
     "FUNCTION": {
       "roles": [
-        "Adhesion",
-        "Communication"
+        "Cell adhesion",
+        "Cell communication",
+        "Tissue integrity"
       ],
       "capabilities": [
-        "Relaying extracellular stimuli to the nucleus"
+        "Linking cells",
+        "Regulating homeostasis",
+        "Signaling"
       ]
     },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "Between cells",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": "Tissue"
-    }
+    "STRUCTURAL": {},
+    "SPATIAL": {}
   },
   "epistemic_metadata": {
-    "source": "Manual",
+    "source": "User Query",
     "citations": [
       "https://pmc.ncbi.nlm.nih.gov/articles/PMC5773398/",
       "https://www.nature.com/scitable/topicpage/cell-adhesion-and-cell-communication-14050486/",
-      "https://www.sciencedirect.com/topics/neuroscience/intercellular-junctions"
+      "https://www.cell.com/developmental-cell/fulltext/S1534-5807(20)31024-8"
     ]
   }
 }

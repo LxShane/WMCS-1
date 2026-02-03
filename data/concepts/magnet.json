@@ -2,8 +2,8 @@
   "name": "Magnet",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 32,
-    "item": 2004
+    "group": 22,
+    "item": 4001
   },
   "claims": [
     {
@@ -33,30 +33,64 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "position-sensing applications",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "geometry",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "linear motor transport systems",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A device that produces a magnetic field.",
+    "definition": "A material or object that produces a magnetic field.",
     "common_uses": [
-      "Generating strong magnetic fields in MRI"
+      "position sensing",
+      "linear motor transport"
     ]
   },
-  "deep_layer": {
-    "mechanism": "Using superconducting wires to generate a strong static magnetic field.",
-    "origin": "Engineering design for MRI machines"
-  },
-  "instance_layer": [],
-  "facets": {
-    "STRUCTURAL": {
-      "composition": [
-        "Superconducting wire"
-      ]
-    }
-  },
+  "deep_layer": {},
+  "instance_layer": {},
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "PDF Magnet Selection for Linear Position Applications (Rev. B)",
     "citations": [
-      "Experience of how to build an MRI machine from scratch"
+      "https://www.ti.com/lit/an/slya059a/slya059a.pdf"
     ]
   }
 }

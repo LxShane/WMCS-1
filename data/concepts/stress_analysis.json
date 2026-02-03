@@ -1,5 +1,5 @@
 {
-  "name": "Stress analysis",
+  "name": "Stress Analysis",
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
@@ -75,19 +75,57 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Understanding the behavior and performance of materials",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Understanding the behavior and performance of structures under various loading conditions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A branch of applied physics that covers the determination of the internal distribution of internal forces in solid objects.",
-    "common_uses": []
+    "definition": "Stress analysis is the process of determining the stresses and strains in a material or structure subjected to external loads.",
+    "common_uses": [
+      "Designing safe and reliable structures",
+      "Evaluating the performance of materials"
+    ]
   },
-  "deep_layer": {},
-  "instance_layer": {},
-  "facets": {},
+  "deep_layer": {
+    "mechanism": "Stress analysis involves applying principles of mechanics and materials science to calculate the distribution of stresses within a structure.",
+    "origin": "Stress analysis has its roots in the development of solid mechanics and the need to understand the behavior of materials under load."
+  },
+  "instance_layer": {
+    "examples": [
+      "Finite element analysis of a bridge",
+      "Experimental stress analysis using strain gauges"
+    ]
+  },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://en.wikipedia.org/wiki/Stress_(mechanics)"
+      "https://www.xometry.com/resources/materials/stress/"
     ]
   }
 }

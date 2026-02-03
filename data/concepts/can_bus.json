@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 20,
-    "item": 8734
+    "item": 1236
   },
   "claims": [
     {
@@ -131,56 +131,54 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "communication protocol",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "bus system",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A controller area network (CAN) is a vehicle bus standard designed to enable efficient communication primarily between electronic control units (ECUs).",
+    "definition": "A communication protocol and bus system.",
     "common_uses": [
-      "Automotive systems",
-      "Industrial systems",
-      "3D printing"
+      "microfluidic control",
+      "sensor platform"
     ]
   },
   "deep_layer": {
-    "mechanism": "The CAN bus protocol enables devices to communicate without a host computer, using a broadcast-based system where all nodes can hear all messages and decide whether to receive or ignore them.",
-    "origin": "Developed by Robert Bosch GmbH in the 1980s."
+    "mechanism": "Controller Area Network.",
+    "origin": "Robert Bosch GmbH"
   },
-  "instance_layer": {
-    "examples": [
-      "CAN bus in a car enabling communication between brakes and engine."
-    ]
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Communication System"
-      ],
-      "capabilities": [
-        "Real-time data exchange",
-        "Error detection and correction",
-        "Data prioritization"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "Within vehicles and machines",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
+  "instance_layer": [],
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Multiple Web Sources",
     "citations": [
-      "https://en.wikipedia.org/wiki/CAN_bus",
-      "https://grokipedia.com/page/CAN_bus",
-      "https://www.csselectronics.com/pages/can-bus-simple-intro-tutorial"
+      "https://www.sciencedirect.com/science/article/am/pii/S2468067221000584",
+      "https://itp.nyu.edu/physcomp/category/components/"
     ]
   }
 }

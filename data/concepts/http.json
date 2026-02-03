@@ -1,0 +1,57 @@
+{
+  "name": "HTTP",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1238
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Hypertext Transfer Protocol",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Web server to listen on port 80",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The Hypertext Transfer Protocol, used for transmitting web pages.",
+    "common_uses": [
+      "Web browsing",
+      "Data transfer"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Defines how messages are formatted and transmitted between a client and a server.",
+    "origin": "Developed to facilitate the exchange of hypertext documents."
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "network programming - Understanding TCP/Ip layering through",
+    "citations": [
+      "https://stackoverflow.com/questions/42456116/understanding-tcp-ip-layering-through-internet-flow"
+    ]
+  }
+}

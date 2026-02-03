@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1001
+    "item": 1006
   },
   "claims": [
     {
@@ -159,30 +159,36 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "the Cauchy traction vector T defined as the traction force F between adjacent parts of the material across an imaginary separating surface S, divided by the area of S",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The internal distribution of internal forces in solid objects.",
-    "common_uses": [
-      "Engineering design",
-      "Structural analysis"
-    ]
+    "definition": "A measure of the internal forces acting within a deformable body.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Stress arises from external loads acting on a deformable body.",
-    "origin": "External forces or loads applied to a deformable body."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
-    "examples": [
-      "Stress in a bridge under load",
-      "Stress in a bone due to muscle force"
-    ]
+    "examples": []
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://en.wikipedia.org/wiki/Stress_(mechanics)"
-    ]
+    "source": "https://en.wikipedia.org/wiki/Stress_(mechanics)",
+    "citations": []
   }
 }

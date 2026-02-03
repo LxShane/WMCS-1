@@ -1,0 +1,46 @@
+{
+  "name": "h5ad file",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Storing spatial transcriptomics data",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A file format for storing annotated data matrices.",
+    "common_uses": [
+      "Storing single-cell data",
+      "Storing spatial transcriptomics data"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Stores data in a hierarchical structure.",
+    "origin": "Designed for efficient storage of large datasets."
+  },
+  "instance_layer": {
+    "examples": [
+      "Example.h5ad"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://github.com/leihouyeung/STP/blob/main/Readme.md"
+    ]
+  }
+}

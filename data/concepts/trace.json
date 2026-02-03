@@ -1,0 +1,118 @@
+{
+  "name": "Trace",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 28,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Thin conductor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Connecting split ground planes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PROPERTY",
+      "object": "Low impedance",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Conductive material",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Ground plane",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "WEB",
+        "source_type": "SETTLED"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A thin conductive path used to connect split ground planes.",
+    "common_uses": [
+      "Connecting analog and digital sections",
+      "Connecting inputs and outputs of amplifiers"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Allows separation of sections while maintaining a close potential.",
+    "origin": "Used to isolate different parts of a circuit."
+  },
+  "instance_layer": {
+    "examples": [
+      "Trace connecting analog and digital ground planes."
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Thin",
+        "Metallic"
+      ],
+      "shape": [
+        "Linear"
+      ],
+      "composition": [
+        "Copper"
+      ],
+      "parts": [],
+      "relations": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Ground_plane"
+    ]
+  }
+}

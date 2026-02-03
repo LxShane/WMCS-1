@@ -1,0 +1,79 @@
+{
+  "name": "USB 2.0 Controller",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 2345
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PROPERTY",
+      "object": "maximum signaling rate of 480 Mbit/s (60 MB/s)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "southbridge",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Hardware component managing USB 2.0 communications.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Manages data transfer rates and communication protocols for USB 2.0 devices.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    },
+    "FUNCTION": {
+      "roles": [
+        "Data Controller"
+      ],
+      "capabilities": [
+        "Managing USB Communications",
+        "Transfer Data"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "USB communications - Wikipedia"
+    ]
+  }
+}

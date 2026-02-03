@@ -2,8 +2,8 @@
   "name": "TCR",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 22,
-    "item": 1005
+    "group": 21,
+    "item": 1240
   },
   "claims": [
     {
@@ -61,22 +61,36 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "T cell receptor",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "T cell receptor.",
+    "definition": "A molecule found on the surface of T cells, responsible for recognizing antigens bound to major histocompatibility complex (MHC) molecules.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Binds to antigens and activates T cells.",
+    "mechanism": null,
     "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
+    "source": "Ingestion Engine",
+    "citations": [
+      "Immunological synapse: structures, molecular mechanisms and ..."
+    ]
   }
 }

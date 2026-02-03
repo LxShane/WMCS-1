@@ -1,45 +1,75 @@
 {
   "name": "Actomyosin",
-  "type": "INANIMATE_OBJECT",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 22,
-    "item": 3456
+    "group": 21,
+    "item": 9123
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Complex formed by a myosin and an F-actin",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "ATP",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "A complex of actin and myosin.",
+    "definition": "A protein complex formed by the binding of actin and myosin, essential for muscle contraction.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Responsible for muscle contraction.",
-    "origin": "Biological origin."
+    "mechanism": "The interaction between actin and myosin, driven by ATP hydrolysis, results in the sliding of filaments and muscle contraction.",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
     "FUNCTION": {
-      "roles": [],
-      "capabilities": []
+      "roles": [
+        "Contractile protein"
+      ],
+      "capabilities": [
+        "Muscle contraction"
+      ]
     },
     "STRUCTURAL": {
       "visual_features": [],
       "shape": [],
       "composition": [],
-      "parts": [],
+      "parts": [
+        "Actin",
+        "Myosin"
+      ],
       "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
     }
   },
   "epistemic_metadata": {
-    "source": "Exploring the Neighborhood: Cell",
+    "source": "Multiple",
     "citations": [
-      "https://www.cell.com/fulltext/S0092-8674(02)00831-0"
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5334417/"
     ]
   }
 }

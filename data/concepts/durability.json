@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1005
+    "item": 1002
   },
   "claims": [
     {
@@ -19,32 +19,60 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "property",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "appropriately securing and routing wires",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The ability to last a long time and withstand wear and tear.",
-    "common_uses": [
-      "Assessing the durability of materials",
-      "Designing durable products"
-    ]
+    "definition": "The ability to withstand wear, pressure, or damage.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "A measure of a material's resistance to various forms of degradation over time.",
-    "origin": "Rooted in material science and engineering principles."
+    "mechanism": "The inherent physical characteristics of the material and construction that allow it to resist degradation under stress.",
+    "origin": "Result of material science and engineering."
   },
   "instance_layer": {
     "examples": [
-      "The durability of steel in construction",
-      "The durability of polymers in packaging"
+      "Durability of steel",
+      "Durability of a wire harness"
     ]
   },
   "facets": {
-    "PROPERTY_DATA": {}
+    "PROPERTY_DATA": {
+      "domain": "Physical Objects",
+      "antonym": "Fragility"
+    }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Multiple Web Sources",
     "citations": [
-      "Module 12 - Mounting Structures for PV Systems"
+      "harnessworks.com/a-comprehensive-guide-to-wire-harness-assembly/"
     ]
   }
 }

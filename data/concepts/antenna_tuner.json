@@ -1,0 +1,86 @@
+{
+  "name": "Antenna Tuner",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Device",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Matching radio and antenna",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Spot along the feedline",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A device used to match a radio and antenna.",
+    "common_uses": [
+      "Radio communication",
+      "Antenna impedance matching"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The tuner adjusts impedance to optimize power transfer between the radio and antenna.",
+    "origin": "Developed for radio communication systems."
+  },
+  "instance_layer": {
+    "examples": [
+      "Manual antenna tuner",
+      "Automatic antenna tuner"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Impedance matching"
+      ],
+      "capabilities": [
+        "Adjust impedance",
+        "Optimize power transfer"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Antenna tuner - Wikipedia",
+    "citations": [
+      "Wikipedia"
+    ]
+  }
+}

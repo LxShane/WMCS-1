@@ -1,0 +1,58 @@
+{
+  "name": "Location",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 39,
+    "item": 9123
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Place",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A place or position.",
+    "common_uses": [
+      "Describing where something is",
+      "Identifying spatial relationships"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Locations are defined by their coordinates in a spatial reference system.",
+    "origin": "Fundamental concept in geography and spatial science."
+  },
+  "facets": {
+    "SPATIAL": {
+      "location": "Relative position (e.g. Above, Below)",
+      "coordinates": [
+        "Abstract XYZ or Region Vector"
+      ]
+    }
+  },
+  "instance_layer": {
+    "examples": [
+      "A specific address",
+      "A geographic region",
+      "A point on a map"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Stack Overflow",
+    "citations": [
+      "https://stackoverflow.com/questions/60278573/spatial-autocorrelation-analysis-withe-several-observations-per-location-in-r",
+      "https://stackoverflow.com/questions/15711013/spatial-autocorrelation-analysis-in-r",
+      "https://stackoverflow.com/questions/21039681/spatial-autocorrelation-analysis-global-morans-i-in-r"
+    ]
+  }
+}

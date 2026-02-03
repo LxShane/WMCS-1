@@ -1,9 +1,9 @@
 {
-  "name": "Faraday Cage",
+  "name": "Faraday cage",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 5678
+    "group": 24,
+    "item": 1001
   },
   "claims": [
     {
@@ -33,29 +33,248 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "enclosure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "block some electromagnetic fields",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "conductive material",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "continuous covering of conductive material",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "mesh of conductive materials",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "enclosure used to block some electromagnetic fields",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "NAMED_AFTER",
+      "object": "Michael Faraday",
+      "temporal": {
+        "valid_from": 1836,
+        "valid_until": "PRESENT",
+        "event": "Construction of first Faraday cage"
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "protect sensitive electronic equipment from external radio frequency interference",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "protect people and equipment against electric currents",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PREVENTS",
+      "object": "electric current from passing through the interior",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PREVENTS",
+      "object": "stable or slowly varying magnetic fields",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "shield the interior from external electromagnetic radiation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "reduce noise",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A conductive enclosure designed to block electrostatic fields.",
+    "definition": "A Faraday cage is an enclosure used to block some electromagnetic fields.",
     "common_uses": [
-      "Protecting electronic equipment from electrostatic discharge"
+      "protect sensitive electronic equipment",
+      "protect people and equipment against electric currents",
+      "reduce noise"
     ]
   },
   "deep_layer": {
-    "mechanism": "Works by distributing electric charge around the exterior of the cage, preventing it from penetrating inside.",
-    "origin": "Named after Michael Faraday, who invented it in 1836."
+    "mechanism": "An external electrical field will cause the electric charges within the cage's conducting material to be distributed in a way that cancels out the field's effect inside the cage.",
+    "origin": "First constructed in 1836 by Michael Faraday."
   },
   "instance_layer": {
     "examples": [
-      "Microwave oven",
-      "Elevator"
+      "Screened rooms used for computer forensic test procedures"
     ]
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Shield"
+      ],
+      "capabilities": [
+        "Blocking electromagnetic fields",
+        "Reducing noise",
+        "Protecting against lightning strikes"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic",
+        "Enclosure"
+      ],
+      "shape": [
+        "Cage",
+        "Shield"
+      ],
+      "composition": [
+        "Conductive material"
+      ],
+      "parts": [
+        "Mesh",
+        "Continuous covering"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Enclosing a space",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://en.wikipedia.org/wiki/Electromagnetic_shielding"
+      "https://en.wikipedia.org/wiki/Faraday_cage",
+      "https://www.gamry.com/application-notes/instrumentation/faraday-cage/"
     ]
   }
 }

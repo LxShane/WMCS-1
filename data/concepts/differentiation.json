@@ -1,9 +1,9 @@
 {
   "name": "Differentiation",
-  "type": "LIVING_SYSTEM",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 20,
-    "item": 1239
+    "group": 50,
+    "item": 1006
   },
   "claims": [
     {
@@ -131,22 +131,34 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "cellular processes",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The process by which cells become specialized.",
+    "definition": "The process by which cells become specialized in structure and function.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
+    "mechanism": "Involves changes in gene expression and protein synthesis.",
     "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
-    "source": "Creative BioMart",
+    "source": "https://www.nature.com/articles/s41392-023-01705-z",
     "citations": []
   }
 }

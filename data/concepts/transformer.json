@@ -2,8 +2,8 @@
   "name": "Transformer",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 9012
+    "group": 21,
+    "item": 5005
   },
   "claims": [
     {
@@ -33,20 +33,76 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "adjust voltage",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Electrical Device",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Substation Protection",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Substation Maintenance",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A device used to lower or raise voltage in an electrical circuit.",
+    "definition": "A device that transfers electrical energy from one circuit to another through electromagnetic induction.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Uses electromagnetic induction to transfer energy between circuits.",
+    "mechanism": "Electromagnetic Induction",
     "origin": null
   },
   "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
-    "source": "Electric power distribution - Wikipedia",
+    "source": "Electro-genesis",
     "citations": []
   }
 }

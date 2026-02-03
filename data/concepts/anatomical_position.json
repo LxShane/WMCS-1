@@ -1,9 +1,9 @@
 {
-  "name": "Anatomical Position",
+  "name": "anatomical position",
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1003
+    "item": 1238
   },
   "claims": [
     {
@@ -33,34 +33,48 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "identify key body structures",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "describe the human body using directional and regional terms",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A standardized reference posture for describing anatomical locations and relationships.",
-    "common_uses": [
-      "Anatomical descriptions",
-      "Medical illustration"
-    ]
+    "definition": "A reference position in anatomy.",
+    "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": "Provides a consistent frame of reference.",
-    "origin": "Established by convention."
-  },
-  "instance_layer": [],
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Reference"
-      ],
-      "capabilities": [
-        "Provides standard position for describing body"
-      ]
-    },
-    "STRUCTURAL": {},
-    "SPATIAL": {}
-  },
+  "deep_layer": {},
+  "instance_layer": {},
+  "facets": {},
   "epistemic_metadata": {
-    "source": "https://en.wikipedia.org/wiki/Ipsilaterally",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "1.4 Anatomical Terminology - Anatomy & Physiology 2e",
+      "1.6 Anatomical Terminology - Anatomy and Physiology 2e - OpenStax"
+    ]
   }
 }

@@ -1,9 +1,9 @@
 {
   "name": "Homeostasis",
-  "type": "LIVING_SYSTEM",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 20,
-    "item": 1001
+    "group": 50,
+    "item": 9012
   },
   "claims": [
     {
@@ -243,26 +243,59 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Maintaining stable internal conditions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "state of dynamic stability in an organism's internal conditions, maintained far from thermal equilibrium with its environment",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Homeostasis is the state of steady internal physical and chemical conditions maintained by living organisms.",
+    "definition": "A state of dynamic stability in an organism's internal conditions.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Homeostasis is brought about by a natural resistance to change when already in optimal conditions, and equilibrium is maintained by many regulatory mechanisms.",
-    "origin": null
+    "mechanism": "Involves various feedback mechanisms to maintain internal stability.",
+    "origin": "Fundamental biological process."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Maintaining Internal Stability"
+      ],
+      "capabilities": [
+        "Regulating internal conditions"
+      ]
+    }
+  },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://en.wikipedia.org/wiki/Homeostasis",
-      "https://grokipedia.com/page/Homeostasis",
-      "https://www.britannica.com/science/homeostasis"
-    ]
+    "source": "https://en.wikipedia.org/wiki/Thermoregulation",
+    "citations": []
   }
 }

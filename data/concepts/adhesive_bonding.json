@@ -1,9 +1,9 @@
 {
   "name": "Adhesive Bonding",
-  "type": "ABSTRACT_CONCEPT",
+  "type": "SOCIAL_CONSTRUCT",
   "id": {
-    "group": 50,
-    "item": 5678
+    "group": 60,
+    "item": 1005
   },
   "claims": [
     {
@@ -61,22 +61,59 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Joining Process",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Bonding using adhesive materials.",
-    "common_uses": []
+    "definition": "A process that uses adhesives to join materials.",
+    "common_uses": [
+      "Manufacturing",
+      "Construction"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Adhesive material creates a bond between two surfaces.",
-    "origin": "Industrial and scientific applications."
+    "mechanism": "Adhesive bonding relies on chemical adhesion between the adhesive and the materials being joined.",
+    "origin": "Ancient technique, but modern adhesives developed in the 20th century."
   },
-  "instance_layer": {
-    "examples": []
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Joining"
+      ],
+      "capabilities": [
+        "Adhering"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
   },
-  "facets": {},
   "epistemic_metadata": {
-    "source": "Introduction\u2014Interfaces in Adhesion and Adhesive Bonding",
+    "source": "1 INTRODUCTION TO INTEGRAL MECHANICAL ATTACHMENT",
     "citations": []
   }
 }

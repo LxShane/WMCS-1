@@ -2,8 +2,8 @@
   "name": "Lymph",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 33,
-    "item": 7890
+    "group": 30,
+    "item": 5678
   },
   "claims": [
     {
@@ -159,49 +159,153 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Extracellular Fluid",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INTERACTS_WITH",
+      "object": "Arterial Blood Plasma",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INTERACTS_WITH",
+      "object": "Interstitial Fluid",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Fluid from tissues to be recirculated.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "ORIGIN",
+      "object": "Interstitial Fluid",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Lymphocytes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Returning fluid from tissues",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Fluid in your body that is filtered by lymph nodes.",
-    "common_uses": []
+    "definition": "Fluid that returns from the tissues to the venous system.",
+    "common_uses": [
+      "Fluid recirculation"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Carries immune cells and waste products.",
-    "origin": null
+    "mechanism": "Fluid returns to the circulatory system through lymphatic vessels.",
+    "origin": "Interstitial fluid."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Fluid Returner"
+      ],
+      "capabilities": [
+        "Returning fluid to circulation"
+      ]
+    },
     "STRUCTURAL": {
-      "visual_features": [],
+      "visual_features": [
+        "Clear",
+        "Watery"
+      ],
       "shape": [],
-      "composition": [],
+      "composition": [
+        "Water",
+        "Proteins",
+        "Cells"
+      ],
       "parts": [],
       "relations": []
     },
     "SPATIAL": {
-      "location": "Throughout the body, within lymphatic vessels and tissues; concentrated in lymph nodes located along lymphatic vessels.",
-      "connected_to": [
-        "Lymphatic vessels",
-        "Lymph nodes",
-        "Tissues",
-        "Bloodstream (via lymphatic ducts)"
-      ],
-      "coordinates": []
-    },
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
+      "location": "Within lymphatic vessels and tissues",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://my.clevelandclinic.org/health/body/23131-lymph-nodes",
-      "https://teachmeanatomy.info/the-basics/systems/lymphatic/",
-      "https://www.ncbi.nlm.nih.gov/books/NBK557717/"
+      "Lymph - Wikipedia"
     ]
-  },
-  "autocorrected": true
+  }
 }

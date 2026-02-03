@@ -1,9 +1,9 @@
 {
   "name": "Fracture",
-  "type": "ABSTRACT_CONCEPT",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 50,
-    "item": 7788
+    "group": 22,
+    "item": 1003
   },
   "claims": [
     {
@@ -19,29 +19,37 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Bone Injury",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The separation of a solid into two or more parts.",
+    "definition": "A break in bone.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Crack propagation under stress.",
-    "origin": "Material defects and stress concentration."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": [],
   "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "material_properties": {}
-    }
+    "STRUCTURAL": {},
+    "SPATIAL": {}
   },
   "epistemic_metadata": {
-    "source": "1.2: Atomistics of Elasticity - Engineering LibreTexts",
-    "citations": [
-      "1.02:_Atomistics_of_Elasticity"
-    ]
+    "source": "Set Automatically",
+    "citations": []
   }
 }

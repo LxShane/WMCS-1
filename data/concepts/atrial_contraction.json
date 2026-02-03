@@ -1,0 +1,45 @@
+{
+  "name": "Atrial Contraction",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 21,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "CAUSES",
+      "object": "Pumping blood into ventricles",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The contraction of the atria to push blood into the ventricles.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Muscle fibers shortening due to signals from depolarization",
+    "origin": "Caused by atrial depolarization"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/P_wave_(electrocardiography)"
+    ]
+  }
+}

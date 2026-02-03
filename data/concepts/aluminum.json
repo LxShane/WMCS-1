@@ -2,8 +2,8 @@
   "name": "Aluminum",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 30,
-    "item": 1235
+    "group": 20,
+    "item": 1236
   },
   "claims": [
     {
@@ -19,29 +19,74 @@
         "status": "SETTLED",
         "source_type": "UNKNOWN"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Electrical Conductor",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A silvery-white, lightweight metal.",
+    "definition": "A metallic element used as an electrical conductor.",
     "common_uses": [
-      "Construction",
-      "Transportation",
-      "Packaging"
+      "electrical wiring",
+      "power transmission"
     ]
   },
   "deep_layer": {
-    "mechanism": "Aluminum forms a protective oxide layer preventing corrosion.",
-    "origin": "Discovered in the 19th century."
+    "mechanism": "Aluminum's atomic structure allows for free movement of electrons.",
+    "origin": "Mined from the earth."
   },
   "instance_layer": {
     "examples": [
-      "Aluminum foil",
-      "Aluminum cans"
+      "Aluminum power lines"
     ]
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Electrical Conductor"
+      ],
+      "capabilities": [
+        "Conducting electricity"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Silvery-white",
+        "Metallic"
+      ],
+      "shape": [
+        "Wire",
+        "Sheet",
+        "Bar"
+      ],
+      "composition": [
+        "Aluminum"
+      ],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "In electrical wiring and power lines",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Electrical cables, devices"
+    }
+  },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
+    "source": "https://electricalacademia.com/basic-electrical/conductors-insulators-semiconductors-theory-examples/",
+    "citations": [
+      "Various sections"
+    ]
   }
 }

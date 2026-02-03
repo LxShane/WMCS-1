@@ -1,0 +1,75 @@
+{
+  "name": "Pulsed FM system",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 21,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "spread spectrum system",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "RF carrier",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "RF carrier modulated with a fixed period and fixed duty cycle sequence",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A type of spread spectrum system in which a RF carrier is modulated with a fixed period and fixed duty cycle sequence.",
+    "common_uses": [
+      "Signal transmission",
+      "Secure communication"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Pulsed FM systems encode information by varying the frequency of the carrier signal in discrete pulses.",
+    "origin": "Developed for spread spectrum applications to improve security and resistance to interference."
+  },
+  "instance_layer": {
+    "examples": [
+      "Military communication systems"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "eCFR",
+    "citations": [
+      "47 CFR Part 2"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Thermoconforming organism",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "organism that adopts the surrounding temperature as its own body temperature",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PREVENTS",
+      "object": "internal thermoregulation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An organism that adopts the surrounding temperature as its own body temperature.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Lacks internal mechanisms to regulate body temperature independently of the environment.",
+    "origin": "Evolutionary adaptation to specific environments."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "https://en.wikipedia.org/wiki/Thermoregulation",
+    "citations": []
+  }
+}

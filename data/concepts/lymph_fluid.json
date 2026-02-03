@@ -1,0 +1,74 @@
+{
+  "name": "Lymph Fluid",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 22,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "CONTAINS",
+      "object": "Antibodies",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PASSES_THROUGH",
+      "object": "Lymph Node",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The fluid that circulates through the lymphatic system.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Transports immune cells and proteins throughout the body.",
+    "origin": "Derived from interstitial fluid."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    },
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "See Sources",
+    "citations": [
+      "https://anatomynote.com/lymph-node-sectional-anatomy-and-flow/"
+    ]
+  }
+}

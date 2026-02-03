@@ -2,8 +2,8 @@
   "name": "Femoral Artery",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 32,
-    "item": 1004
+    "group": 21,
+    "item": 1001
   },
   "claims": [
     {
@@ -19,22 +19,102 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Artery",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Lower Limb",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Arterial supply to the lower limb",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Femoral Triangle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "An artery.",
+    "definition": "The femoral artery is a major artery in the lower limb, responsible for the majority of the arterial supply to the lower limb.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Carries oxygenated blood from the heart to the lower limb.",
+    "origin": "Part of the circulatory system."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    },
+    "FUNCTION": {
+      "roles": [
+        "Blood Supplier"
+      ],
+      "capabilities": [
+        "Oxygen transport"
+      ]
+    }
+  },
   "epistemic_metadata": {
-    "source": "Abdominal Wall, Umbilicus, Peritoneum, Mesenteries, Omentum,",
-    "citations": []
+    "source": "Ingestion Engine",
+    "citations": [
+      "Femoral artery - Wikipedia",
+      "The Femoral Triangle - Borders - Contents - TeachMeAnatomy"
+    ]
   }
 }

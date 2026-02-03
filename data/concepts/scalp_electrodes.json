@@ -1,0 +1,71 @@
+{
+  "name": "Scalp Electrodes",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Scalp",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "EEG",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Electrodes placed on the scalp to record electrical activity of the brain.",
+    "common_uses": [
+      "Electroencephalography (EEG)"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Detect voltage fluctuations resulting from ionic current flows within the neurons of the brain.",
+    "origin": "Developed to non-invasively measure brain activity."
+  },
+  "instance_layer": {
+    "examples": [
+      "Silver chloride electrodes placed on the scalp."
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Small",
+        "Metallic"
+      ]
+    },
+    "SPATIAL": {
+      "location": "On the scalp"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/10-20_system_(EEG)",
+      "https://en.wikipedia.org/wiki/Electroencephalography"
+    ]
+  }
+}

@@ -2,8 +2,8 @@
   "name": "Via",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 25,
-    "item": 1239
+    "group": 30,
+    "item": 1122
   },
   "claims": [
     {
@@ -33,34 +33,42 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Impedance discontinuity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
     "definition": "An electrical connection between layers in a printed circuit board (PCB).",
-    "common_uses": [
-      "Connecting traces on different layers"
-    ]
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Provides a path for current to flow between layers.",
+    "mechanism": null,
     "origin": null
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {
-    "STRUCTURAL": {
-      "visual_features": [
-        "Small hole",
-        "Plated with metal"
-      ],
-      "shape": [
-        "Cylindrical"
-      ]
-    }
+    "FUNCTION": {},
+    "STRUCTURAL": {},
+    "SPATIAL": {}
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "IEEE Explore",
     "citations": [
-      "https://hilelectronic.com/capacitor-esr-and-esl/"
+      "https://ieeexplore.ieee.org/document/10909837/"
     ]
   }
 }

@@ -1,9 +1,9 @@
 {
   "name": "Efferent Fibers",
-  "type": "LIVING_SYSTEM",
+  "type": "BODY_PART",
   "id": {
-    "group": 21,
-    "item": 1002
+    "group": 24,
+    "item": 1241
   },
   "claims": [
     {
@@ -33,19 +33,48 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Nerve Fibers",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Carrying Signals Away from the Cerebellum",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Nerve fibers that transmit signals away from the central nervous system to visceral organs.",
+    "definition": "Nerve fibers that carry signals away from the cerebellum.",
     "common_uses": []
   },
-  "deep_layer": {},
-  "instance_layer": {},
+  "deep_layer": {
+    "mechanism": "Transmission of nerve impulses.",
+    "origin": null
+  },
+  "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "NCBI Bookshelf"
-    ]
+    "source": "Chapter 25: Cerebellum and Fourth Ventricle",
+    "citations": []
   }
 }

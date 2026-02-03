@@ -2,8 +2,8 @@
   "name": "Blood Vessels",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 32,
-    "item": 7890
+    "group": 21,
+    "item": 1010
   },
   "claims": [
     {
@@ -103,38 +103,51 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Periosteal Fracture Callus",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Vessels",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Blood vessels are a network of tubes that carry blood throughout the body.",
+    "definition": "A tubular structure carrying blood through the tissues and organs.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Blood vessels constrict and dilate to regulate blood flow.",
-    "origin": "Evolved from simple diffusion channels."
+    "mechanism": null,
+    "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
+    "STRUCTURAL": {},
+    "SPATIAL": {}
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": [
-      "Structure and Function of the Cardiovascular and Lymphatic Systems"
-    ]
+    "citations": []
   }
 }

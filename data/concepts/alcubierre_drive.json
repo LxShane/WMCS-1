@@ -1,9 +1,9 @@
 {
-  "name": "Alcubierre drive",
+  "name": "Alcubierre Drive",
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 20,
-    "item": 1234
+    "item": 3456
   },
   "claims": [
     {
@@ -159,34 +159,63 @@
         "status": "HYPOTHETICAL",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "FTL travel",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "HYPOTHETICAL",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A speculative warp drive idea to achieve apparent faster-than-light travel by contracting space.",
-    "common_uses": []
+    "definition": "A theoretical warp drive concept.",
+    "common_uses": [
+      "Faster-than-light travel"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Warping Spacetime.",
+    "origin": "Theoretical Physics"
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Used in theoretical space travel"
+    ]
   },
   "facets": {
     "FUNCTION": {
-      "roles": [],
-      "capabilities": []
+      "roles": [
+        "FTL travel"
+      ],
+      "capabilities": [
+        "Warping Spacetime"
+      ]
     },
     "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
+      "visual_features": [
+        "Warped Space",
+        "Theoretical"
+      ],
+      "shape": [
+        "Space distortion"
+      ],
       "composition": [],
       "parts": [],
       "relations": []
     }
   },
   "epistemic_metadata": {
-    "source": "https://en.wikipedia.org/wiki/Alcubierre_drive",
-    "citations": []
+    "source": "Web source",
+    "citations": [
+      "TV tropes"
+    ]
   }
 }

@@ -1,8 +1,8 @@
 {
   "name": "Adverse Pressure Gradient",
-  "type": "PHYSICAL",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 30,
+    "group": 50,
     "item": 1236
   },
   "claims": [
@@ -33,24 +33,45 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Boundary layer flow can travel further",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A pressure gradient in which the static pressure increases in the direction of the flow.",
+    "definition": "A pressure gradient where the pressure increases in the direction of the flow.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The increasing static pressure opposes the flow, potentially leading to boundary layer separation and turbulence.",
-    "origin": null
+    "mechanism": "Slows down the fluid and can lead to flow separation.",
+    "origin": "Occurs when a fluid flows against an increasing pressure."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Along a surface in a fluid flow, downstream of a minimum pressure point.",
+      "connected_to": [],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "9.9. Boundary Layer Separation - Purdue University",
     "citations": [
-      "https://en.wikipedia.org/wiki/Adverse_pressure_gradient"
+      "https://engineering.purdue.edu/~wassgren/teaching/ME30800/NotesAndReading/BoundaryLayer_PressureGradientEffects_Reading.pdf"
     ]
-  }
+  },
+  "autocorrected": true
 }

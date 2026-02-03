@@ -1,0 +1,56 @@
+{
+  "name": "Common Carotid Artery",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 24,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Artery",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "GIVES_RISE_TO",
+      "object": "internal carotid artery",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A major artery in the neck that supplies blood to the brain, neck, and face.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Transports oxygenated blood to the head and neck.",
+    "origin": "Develops during embryogenesis."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Circle of Willis - Wikipedia",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Circle_of_willis"
+    ]
+  }
+}

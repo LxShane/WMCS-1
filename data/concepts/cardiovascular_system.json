@@ -2,8 +2,8 @@
   "name": "Cardiovascular System",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 30,
-    "item": 1234
+    "group": 23,
+    "item": 1003
   },
   "claims": [
     {
@@ -117,24 +117,104 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Heart",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Blood Vessels",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Maintaining Body's Homeostasis",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Supporting Overall Health",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The cardiovascular system is a complex system of vessels and a pump (the heart) that delivers and removes substances from the body.",
+    "definition": "The cardiovascular system includes the heart and blood vessels.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The heart pumps blood through blood vessels, enabling the delivery and removal of substances.",
-    "origin": "Evolved to facilitate transport of nutrients and waste."
+    "mechanism": "The cardiovascular system maintains the body's homeostasis.",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": [
+        "Maintain Homeostasis",
+        "Support Health"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [
+        "Heart",
+        "Blood Vessels"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Body"
+    }
+  },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "Structure and Function of the Cardiovascular and Lymphatic Systems"
+      "Cardiopulmonary Anatomy and Physiology: An Overview (2026)"
     ]
   }
 }

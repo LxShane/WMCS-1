@@ -1,0 +1,91 @@
+{
+  "name": "TMS320F28004x",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Microcontroller Unit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Control Peripherals",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "32-bit floating-point microcontroller",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A powerful 32-bit floating-point microcontroller unit that lets designers incorporate crucial control peripherals.",
+    "common_uses": [
+      "Real-time control applications"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Processes data and controls peripherals based on programmed instructions.",
+    "origin": "Texas Instruments"
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Controller"
+      ],
+      "capabilities": [
+        "Real-time control",
+        "Data processing"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Small form factor"
+      ],
+      "shape": [
+        "Rectangular"
+      ],
+      "composition": [
+        "Semiconductor materials"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "TMS320F28004x Real-Time Microcontrollers datasheet",
+    "citations": [
+      "Rev. G"
+    ]
+  }
+}

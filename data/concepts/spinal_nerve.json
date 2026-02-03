@@ -1,9 +1,9 @@
 {
   "name": "Spinal Nerve",
-  "type": "LIVING_SYSTEM",
+  "type": "BODY_PART",
   "id": {
-    "group": 21,
-    "item": 1314
+    "group": 22,
+    "item": 5432
   },
   "claims": [
     {
@@ -19,17 +19,33 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Spinal Cord",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A nerve emerging from the spinal cord.",
+    "definition": "Nerves that emerge from the spinal cord.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Transmit sensory and motor information.",
+    "origin": "Biological development"
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {
     "FUNCTION": {
       "roles": [],
@@ -43,10 +59,10 @@
       "relations": []
     },
     "SPATIAL": {
-      "location": null,
+      "location": "Vertebral column",
       "coordinates": [],
       "connected_to": [],
-      "contained_in": null
+      "contained_in": []
     }
   },
   "epistemic_metadata": {

@@ -1,0 +1,86 @@
+{
+  "name": "Tap",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Access points along the primary or secondary windings",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Modifying connection points on the winding of the transformer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Allowing incremental adjustments to the input voltage rating",
+      "temporal": {
+        "valid_from": "2023",
+        "valid_until": "PRESENT",
+        "event": "Publication of Maddox article"
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Access points on transformer windings.",
+    "common_uses": [
+      "Adjusting voltage",
+      "Changing the number of turns in the circuit"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Taps allow modification of the connection points on the transformer winding.",
+    "origin": "Transformer design"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Connection Point"
+      ],
+      "capabilities": [
+        "Voltage adjustment"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Tap_changer",
+      "https://www.monolithicpower.com/en/learning/mpscholar/ac-power/transformers/transformer-taps-and-tap-changers",
+      "https://www.maddox.com/resources/articles/transformer-tap-changers-and-voltage-adjustment-taps"
+    ]
+  }
+}

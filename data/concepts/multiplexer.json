@@ -1,0 +1,204 @@
+{
+  "name": "Multiplexer",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "device that selects between several analog or digital input signals and forwards the selected input to a single output line",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Data Selector",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Input Signals",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Output Line",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Select Lines",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "allowing several input signals to share one device or resource",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "implement Boolean functions of multiple variables",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "multiple-input, single-output switch",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PROPERTY",
+      "object": "combinational circuit",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A multiplexer is a device that selects one of several analog or digital input signals and forwards the selected input to a single output line.",
+    "common_uses": [
+      "Data selection",
+      "Sharing resources between multiple input signals",
+      "Implementing Boolean functions"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The selection of the input signal is controlled by select lines which determine which input is connected to the output.",
+    "origin": "Electronics"
+  },
+  "instance_layer": {
+    "examples": [
+      "Analog-to-digital converter",
+      "Communications transmission medium"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Signal Selector",
+        "Resource Sharer"
+      ],
+      "capabilities": [
+        "Selecting one of several inputs",
+        "Forwarding the selected input to a single output"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Usually black in color",
+        "Multiple input pins",
+        "Single output pin"
+      ],
+      "shape": [
+        "Rectangular",
+        "Isosceles trapezoid schematic symbol"
+      ],
+      "composition": [
+        "Semiconductors",
+        "Electronic components"
+      ],
+      "parts": [
+        "Input lines",
+        "Output line",
+        "Select lines"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Within electronic circuits",
+      "coordinates": [],
+      "connected_to": [
+        "Input signal sources",
+        "Output signal destinations"
+      ],
+      "contained_in": "Circuit boards, electronic devices"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Multiplexer",
+      "https://grokipedia.com/page/Multiplexer",
+      "https://www.geeksforgeeks.org/digital-logic/multiplexers-in-digital-logic/"
+    ]
+  }
+}

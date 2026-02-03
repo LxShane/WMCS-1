@@ -2,8 +2,8 @@
   "name": "Adhesive",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 9012
+    "group": 30,
+    "item": 3456
   },
   "claims": [
     {
@@ -103,31 +103,36 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Creep",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
     "definition": "A substance used for sticking objects or materials together.",
-    "common_uses": [
-      "Bonding materials",
-      "Sealing gaps"
-    ]
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Creates a strong bond between surfaces through chemical or physical interactions.",
-    "origin": "Synthesized from various materials."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Strength in Adhesion: A Multi-Mechanics Review Covering ...",
+    "source": "[PDF] Advances in the Experimentation and Numerical Modeling of Material ...",
     "citations": []
   }
 }

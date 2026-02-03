@@ -1,0 +1,58 @@
+{
+  "name": "RF Transceiver System",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Subscriber unit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "PATENT"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A radio frequency transceiver system.",
+    "common_uses": [
+      "Communication",
+      "Data transfer"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The transceiver transmits and receives RF signals.",
+    "origin": "Engineering Design"
+  },
+  "instance_layer": {
+    "examples": [
+      "Mobile phone transceiver",
+      "Wireless router transceiver"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "RF Communication"
+      ],
+      "capabilities": [
+        "Transmit RF signals",
+        "Receive RF signals"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "US5737687A - Self-attenuating RF transceiver system using",
+    "citations": [
+      "US5737687A"
+    ]
+  }
+}

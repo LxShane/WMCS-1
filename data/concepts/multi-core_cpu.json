@@ -1,0 +1,77 @@
+{
+  "name": "Multi-core CPU",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 22,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Intel's QuickPath Interconnect (QPI)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "AMD's Infinity Fabric",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A CPU with multiple processor cores.",
+    "common_uses": [
+      "Parallel processing",
+      "Improving performance"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Multiple cores allow for simultaneous execution of multiple tasks.",
+    "origin": "Developed to increase processing power beyond the limitations of single-core designs."
+  },
+  "instance_layer": {
+    "examples": [
+      "Intel Core i7",
+      "AMD Ryzen"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Electronic",
+        "Integrated circuit"
+      ],
+      "shape": [
+        "Planar",
+        "Rectangular"
+      ],
+      "composition": [
+        "Semiconductors",
+        "Metals"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Anatomy of a CPU. The Core of Digital Evolution: Inside a ... - Medium",
+    "citations": [
+      "https://medium.com/@razvanbadescu/anatomy-of-a-cpu-bc02cd950cca"
+    ]
+  }
+}

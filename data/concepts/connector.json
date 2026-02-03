@@ -2,8 +2,8 @@
   "name": "Connector",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 30,
-    "item": 1245
+    "group": 20,
+    "item": 7890
   },
   "claims": [
     {
@@ -75,18 +75,86 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A plug or receptacle that can be easily joined to or separated from its mate",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Joining conductors",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Conductor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A device for connecting electrical circuits.",
-    "common_uses": []
+    "definition": "A device for joining electrical circuits.",
+    "common_uses": [
+      "Connecting electronic components"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Provides electrical continuity between circuits.",
+    "origin": "Manufactured for electrical connections."
+  },
+  "instance_layer": {
+    "examples": [
+      "USB connector",
+      "BNC connector"
+    ]
   },
   "facets": {
-    "STRUCTURAL": {},
-    "FUNCTION": {}
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic",
+        "Plastic"
+      ],
+      "shape": [
+        "Rectangular",
+        "Cylindrical"
+      ],
+      "composition": [
+        "Metal",
+        "Plastic"
+      ]
+    }
   },
   "epistemic_metadata": {
-    "source": "Hybrid Power and Signal Connector Products",
-    "citations": []
+    "source": "ScienceDirect Topics",
+    "citations": [
+      "Running Wire - an overview | ScienceDirect Topics"
+    ]
   }
 }

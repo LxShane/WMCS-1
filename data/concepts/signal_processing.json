@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1234
+    "item": 8765
   },
   "claims": [
     {
@@ -47,31 +47,57 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Techniques for manipulating signals",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Signal processing makes the processing and transmission of data more efficient.",
+    "definition": "The manipulation of signals to extract useful information or improve signal quality.",
     "common_uses": [
-      "Communications",
-      "Searching for life beyond Earth"
+      "Audio processing",
+      "Image processing",
+      "Telecommunications"
     ]
   },
   "deep_layer": {
-    "mechanism": "Signal processing manipulates signals to extract information, enhance quality, or prepare them for transmission.",
-    "origin": "Evolved from mathematics and engineering."
+    "mechanism": "Transforms signals using mathematical and statistical algorithms.",
+    "origin": "Evolved from analog circuit design and later incorporated digital techniques."
   },
   "instance_layer": {
     "examples": [
-      "Satellite Communication",
-      "Video Processing",
-      "Radio Communication",
-      "Wireless Communication"
+      "Noise cancellation in headphones",
+      "Image enhancement in medical imaging"
     ]
   },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Data manipulation",
+        "Information extraction"
+      ],
+      "capabilities": [
+        "Filtering",
+        "Transformation",
+        "Compression"
+      ]
+    }
+  },
   "epistemic_metadata": {
-    "source": "Signal Processing 101 | IEEE Signal Processing Society",
+    "source": "Signal processing - Wikipedia",
     "citations": [
-      "https://signalprocessingsociety.org/our-story/signal-processing-101"
+      ""
     ]
   }
 }

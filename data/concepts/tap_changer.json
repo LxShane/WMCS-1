@@ -1,0 +1,100 @@
+{
+  "name": "Tap Changer",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Mechanism",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Selecting variable turn ratios in distinct steps",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Taps",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Transformers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A mechanism in transformers that allows for variable turn ratios to be selected in distinct steps.",
+    "common_uses": [
+      "Adjusting transformer voltage ratio",
+      "Maintaining correct secondary voltage"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "By connecting to a number of access points, known as taps along either the primary or secondary windings, the turn ratio can be adjusted.",
+    "origin": "Part of Transformer design"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Voltage Regulator"
+      ],
+      "capabilities": [
+        "Adjusting voltage ratio"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Tap_changer",
+      "https://www.monolithicpower.com/en/learning/mpscholar/ac-power/transformers/transformer-taps-and-tap-changers",
+      "https://www.maddox.com/resources/articles/transformer-tap-changers-and-voltage-adjustment-taps"
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "name": "Transmission Switching Substation",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 22,
+    "item": 1007
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "interconnect transmission networks",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A substation that interconnects transmission networks.",
+    "common_uses": [
+      "Interconnecting transmission networks"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Switches connect/disconnect different parts of the network.",
+    "origin": "Part of electrical engineering development"
+  },
+  "instance_layer": {
+    "examples": [
+      "Located at the intersection of major transmission lines."
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Network Interconnection"
+      ],
+      "capabilities": [
+        "Connecting transmission networks"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "metallic",
+        "large",
+        "complex"
+      ],
+      "shape": [
+        "Rectangular arrangement of equipment",
+        "Enclosed by fencing"
+      ],
+      "composition": [
+        "Steel",
+        "Copper",
+        "Insulating materials"
+      ],
+      "parts": [
+        "Circuit breakers",
+        "Switches",
+        "Busbars"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Between power generation and consumption points",
+      "coordinates": [],
+      "connected_to": [
+        "Transmission lines"
+      ],
+      "contained_in": "Outdoor fenced area"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Manual",
+    "citations": [
+      "https://www.energy.gov/sites/default/files/2023-11/FINAL_CESER+Electricity+Grid+Backgrounder_508.pdf",
+      "https://getintoenergy.org/wp-content/uploads/dlm_uploads/2023/10/GuidedNotes_C.10.1_Instructor.pdf",
+      "https://studyelectrical.com/2019/04/electrical-substation-equipment-types-components-functions.html"
+    ]
+  }
+}

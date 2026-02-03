@@ -1,9 +1,9 @@
 {
   "name": "Port",
-  "type": "INANIMATE_OBJECT",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 30,
-    "item": 8765
+    "group": 50,
+    "item": 1237
   },
   "claims": [
     {
@@ -33,28 +33,53 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Endpoint of communication",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Client connections",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A physical interface on a computer where external devices can be connected.",
+    "definition": "A communication endpoint in a computer network.",
     "common_uses": [
-      "Connecting peripherals",
-      "Data transfer"
+      "Network communication",
+      "Data transmission"
     ]
   },
   "deep_layer": {
-    "mechanism": "Ports provide a physical and electrical connection point for external devices to communicate with the computer.",
-    "origin": "Developed alongside early computer architectures."
+    "mechanism": "Allows different applications on a single computer to communicate with different services on the network.",
+    "origin": "Developed to allow multiplexing of network services."
   },
-  "instance_layer": {
-    "examples": [
-      "USB port",
-      "Ethernet port"
-    ]
-  },
+  "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
-    "source": "https://www.computerhope.com/issues/ch001379.htm",
-    "citations": []
+    "source": "network programming - Understanding TCP/Ip layering through",
+    "citations": [
+      "https://stackoverflow.com/questions/42456116/understanding-tcp-ip-layering-through-internet-flow"
+    ]
   }
 }

@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 30,
-    "item": 1002
+    "item": 1234
   },
   "claims": [
     {
@@ -117,19 +117,66 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Radiating electromagnetic waves",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Radiation Pattern",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Radiating",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A device that transmits or receives radio waves.",
-    "common_uses": []
+    "definition": "A device used to transmit or receive radio waves.",
+    "common_uses": [
+      "Wireless communication",
+      "Broadcasting",
+      "Radar"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Converts electrical signals into radio waves and vice versa.",
-    "origin": null
+    "mechanism": "Antennas work by converting electrical signals into radio waves, and vice versa.",
+    "origin": "Developed in the late 19th century."
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [
+    "Dipole antenna",
+    "Yagi-Uda antenna"
+  ],
   "facets": {
     "STRUCTURAL": {
       "visual_features": [],
@@ -137,20 +184,10 @@
       "composition": [],
       "parts": [],
       "relations": []
-    },
-    "SPATIAL": {
-      "location": "Anterior, Dorsal (in insects), Superior (in some vertebrates)",
-      "connected_to": [
-        "Head",
-        "Sensory neurons",
-        "Muscles (in some insects)"
-      ],
-      "coordinates": []
     }
   },
   "epistemic_metadata": {
-    "source": "Antenna (radio) - Wikipedia",
+    "source": "IEEE Recommended Practice for Antenna Measurements",
     "citations": []
-  },
-  "autocorrected": true
+  }
 }

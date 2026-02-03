@@ -1,9 +1,9 @@
 {
-  "name": "Dorsal root ganglion",
+  "name": "Dorsal Root Ganglion",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1003
+    "group": 22,
+    "item": 1002
   },
   "claims": [
     {
@@ -89,24 +89,36 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Afferent Nerve Fiber",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": null,
+    "definition": "A cluster of nerve cell bodies in a dorsal root of a spinal nerve.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Contains the cell bodies of sensory neurons that carry information from the periphery to the spinal cord.",
+    "origin": "Derived from the neural crest during embryonic development."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://www.imaios.com/en/e-anatomy/anatomical-structures/spinotectal-tract-1553807224"
-    ]
+    "source": "https://en.wikipedia.org/wiki/Afferent_nerve_fiber",
+    "citations": []
   }
 }

@@ -2,8 +2,8 @@
   "name": "Engine block",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 21,
-    "item": 1234
+    "group": 20,
+    "item": 4567
   },
   "claims": [
     {
@@ -117,15 +117,99 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Structure",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONTAINS",
+      "object": "Cylinders",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONTAINS",
+      "object": "Components",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Crankcase",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Cylinder head",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Oil pan",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The engine block is the structure that supports engine components.",
+    "definition": "The main structure of an internal combustion engine containing the cylinders.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Provides the main structural integrity for the engine.",
-    "origin": null
+    "mechanism": "Provides the foundational structure for the engine components.",
+    "origin": "Mechanical engineering design."
   },
   "instance_layer": {
     "examples": []
@@ -139,28 +223,18 @@
       "relations": []
     },
     "SPATIAL": {
-      "location": "Central; Inferior to cylinder head; Superior to oil pan",
-      "connected_to": [
-        "Cylinder head",
-        "Oil pan",
-        "Crankshaft",
-        "Pistons",
-        "Connecting rods",
-        "Intake manifold",
-        "Exhaust manifold",
-        "Transmission",
-        "Engine mounts"
-      ],
-      "coordinates": []
+      "location": "Central to engine assembly",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Engine compartment"
+    },
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "Engine block - Wikipedia",
-      "Remanufactured Engines | Crankshaft | Cylinder Heads",
-      "Cylinder block | Tractor & Construction Plant Wiki | Fandom"
-    ]
-  },
-  "autocorrected": true
+    "source": "Engine block - Wikipedia",
+    "citations": []
+  }
 }

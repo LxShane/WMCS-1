@@ -2,8 +2,8 @@
   "name": "Mitochondrion",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 1003
+    "group": 21,
+    "item": 1001
   },
   "claims": [
     {
@@ -117,26 +117,111 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Cellular component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Generating cellular energy",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INVOLVED_IN",
+      "object": "Signaling",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INVOLVED_IN",
+      "object": "Cellular differentiation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INVOLVED_IN",
+      "object": "Cell death",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Maintaining cellular processes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A mitochondrion is a membrane-bound cell organelle that generates most of the chemical energy needed to power the cell's biochemical reactions.",
+    "definition": "A mitochondrion is a cellular organelle responsible for energy production and other cellular processes.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Mitochondria use the electron transport chain to create a proton gradient, which drives ATP synthesis.",
+    "mechanism": "Mitochondria generate ATP through oxidative phosphorylation.",
     "origin": "Evolved from endosymbiotic bacteria."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
   "epistemic_metadata": {
-    "source": "Multiple Web Sources",
+    "source": "Set Automatically",
     "citations": [
-      "https://en.wikipedia.org/wiki/Electron_transport_chain",
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6559295/",
-      "https://chem.libretexts.org/Courses/Saint_Francis_University/Chem_114:_Human_Chemistry_II_(Muino)/20:_The_Generation_of_Biochemical_Energy/20.09:_The_Electron-Transport_Chain_and_ATP_Production"
+      "Mitochondrion - Wikipedia"
     ]
   }
 }

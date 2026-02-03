@@ -1,9 +1,9 @@
 {
   "name": "Red Nucleus",
-  "type": "BODY_PART",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 24,
-    "item": 1003
+    "group": 33,
+    "item": 1009
   },
   "claims": [
     {
@@ -33,26 +33,34 @@
         "status": "HYPOTHETICAL",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Neurons",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A structure in the brainstem involved in motor coordination.",
+    "definition": "A nucleus in the midbrain involved in motor coordination.",
     "common_uses": []
   },
   "deep_layer": {
     "mechanism": null,
     "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "SPATIAL": {}
-  },
+  "instance_layer": [],
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Red nucleus - Wikipedia",
-    "citations": [
-      "https://en.wikipedia.org/wiki/Red_nucleus"
-    ]
+    "source": "Red Nucleus Neurons Actively Contribute to the Acquisition of",
+    "citations": []
   }
 }

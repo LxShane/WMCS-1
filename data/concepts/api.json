@@ -1,0 +1,100 @@
+{
+  "name": "API",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Application Programming Interface",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "source code based",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Remote API",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "manipulate remote resources through protocols",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An API (Application Programming Interface) is source code based interface.",
+    "common_uses": [
+      "manipulating remote resources"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "APIs allow developers to interact with software components or systems, often remotely.",
+    "origin": "Evolved with the need for modular and interoperable software systems."
+  },
+  "instance_layer": {
+    "examples": [
+      "Java Database Connectivity API",
+      "Java remote method invocation API"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Interface"
+      ],
+      "capabilities": [
+        "remote resource manipulation"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/API",
+      "https://quizlet.com/607082231/sdn-and-apis-flash-cards/",
+      "https://serveravatar.com/networking-basics-guide/"
+    ]
+  }
+}

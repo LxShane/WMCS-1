@@ -1,0 +1,74 @@
+{
+  "name": "Antigen Presenting Cell",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 22,
+    "item": 1006
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Lymph Node",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "APC",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Cells that display antigen complexed with major histocompatibility complex (MHC) molecules on their surface",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Present antigens to T cells to initiate an adaptive immune response.",
+    "origin": "Originate from monocytes or B cells."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    },
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "See Sources",
+    "citations": [
+      "https://www.kenhub.com/en/library/anatomy/histology-of-lymph-nodes"
+    ]
+  }
+}

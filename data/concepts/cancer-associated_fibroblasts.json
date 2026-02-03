@@ -2,8 +2,8 @@
   "name": "Cancer-Associated Fibroblasts",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 22,
-    "item": 1005
+    "group": 20,
+    "item": 1002
   },
   "claims": [
     {
@@ -47,10 +47,38 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Fibroblast",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Contributing to Tumor Progression",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Stromal cells present in the TME that interact with tumour cells.",
+    "definition": "Fibroblasts associated with cancer.",
     "common_uses": []
   },
   "deep_layer": {
@@ -62,7 +90,10 @@
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Tumour Microenvironment (TME) as a Target for Future Therapies",
-    "citations": []
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://www.sciencedirect.com/science/article/pii/S2211124725002037",
+      "https://www.cell.com/cancer-cell/fulltext/S1535-6108(23)00044-2"
+    ]
   }
 }

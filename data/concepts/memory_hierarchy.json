@@ -1,0 +1,103 @@
+{
+  "name": "Memory Hierarchy",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Ensures quick access to data by the CPU",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Long-term data storage using larger, slower devices",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Effective memory management",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Primary level",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Secondary level",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A system to manage computer memory for efficient data access.",
+    "common_uses": [
+      "Data storage",
+      "CPU data access",
+      "Memory management"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Organizes memory into different levels based on speed and size.",
+    "origin": "Computer architecture design"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "epistemic_metadata": {
+    "source": "Memory Organisation in Computer Architecture - GeeksforGeeks, Chapter 5 Memory Hierarchy, 7-1 Chapter 7- Memory System Design Chapter 7- Memory System ...",
+    "citations": [
+      "https://www.geeksforgeeks.org/computer-organization-architecture/memory-organisation-in-computer-architecture/",
+      "http://eceweb.ucsd.edu/~gert/ece30/CN5.pdf",
+      "https://people.computing.clemson.edu/~mark/330/chap7.pdf"
+    ]
+  }
+}

@@ -1,9 +1,9 @@
 {
   "name": "Afferent Fibers",
-  "type": "LIVING_SYSTEM",
+  "type": "BODY_PART",
   "id": {
     "group": 24,
-    "item": 1003
+    "item": 1240
   },
   "claims": [
     {
@@ -75,22 +75,48 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Nerve Fibers",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Carrying Signals to the Cerebellum",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Nerve fibers that transmit sensory information from the periphery to the central nervous system.",
+    "definition": "Nerve fibers that carry signals towards the cerebellum.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
+    "mechanism": "Transmission of nerve impulses.",
     "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
-    "source": "The Sensory Hand",
+    "source": "Chapter 25: Cerebellum and Fourth Ventricle",
     "citations": []
   }
 }

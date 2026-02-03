@@ -2,8 +2,8 @@
   "name": "Cancer Cells",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 30,
-    "item": 1236
+    "group": 20,
+    "item": 1005
   },
   "claims": [
     {
@@ -33,25 +33,63 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Growth",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Proliferation",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Cells that divide uncontrollably and can invade other tissues.",
-    "common_uses": []
+    "definition": "Cells that grow uncontrollably and can invade other parts of the body."
   },
   "deep_layer": {
-    "mechanism": "Result from accumulated genetic mutations.",
-    "origin": "Mutation of normal cells."
+    "mechanism": "Arise from mutations that disrupt normal cell cycle control.",
+    "origin": "Genetic mutations"
   },
-  "instance_layer": {
-    "examples": []
+  "instance_layer": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Varies depending on the tissue of origin; can be localized or metastatic, spreading to distant sites.",
+      "connected_to": [
+        "Extracellular matrix",
+        "Adjacent cancer cells",
+        "Blood vessels (during angiogenesis)",
+        "Lymphatic vessels (during metastasis)",
+        "Surrounding normal cells",
+        "Basement membrane"
+      ],
+      "coordinates": []
+    }
   },
-  "facets": {},
   "epistemic_metadata": {
-    "source": "Ingestion Engine",
+    "source": "Turmeric: The Healing Power of Nature\u2019s Golden Spice - SoonRS",
     "citations": [
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12840987/",
-      "https://www.preprints.org/manuscript/202512.0263/v1"
+      "Turmeric"
     ]
-  }
+  },
+  "autocorrected": true
 }

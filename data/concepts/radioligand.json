@@ -1,0 +1,103 @@
+{
+  "name": "Radioligand",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "radioisotope labeled compound",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "tracers in PET studies",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "in vitro binding studies",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PROPERTY",
+      "object": "Radiolabeled",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A ligand that is radiolabeled.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Radiolabel allows for detection and quantification.",
+    "origin": "Chemical synthesis."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "composition": [
+        "Radioactive isotope"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Extracellular; Intracellular; Membrane-bound",
+      "connected_to": [
+        "Receptor",
+        "Enzyme",
+        "Transporter",
+        "Ion channel",
+        "Target protein"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Radioligand Receptor Binding - an overview | ScienceDirect Topics",
+      "Concepts for design and analysis of receptor radiopharmaceuticals"
+    ]
+  },
+  "autocorrected": true
+}

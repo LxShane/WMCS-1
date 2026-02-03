@@ -1,0 +1,75 @@
+{
+  "name": "Voltage Level",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Voltage",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Level",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The magnitude of electrical potential between two points.",
+    "common_uses": [
+      "Powering electronic devices",
+      "Signal transmission"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Determined by the amount of electrical charge and the distance between the points.",
+    "origin": "Fundamental concept in electrical engineering."
+  },
+  "instance_layer": {
+    "examples": [
+      "5V voltage level",
+      "12V voltage level"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Energy Provider",
+        "Signal Carrier"
+      ],
+      "capabilities": [
+        "Powering devices",
+        "Transmitting data"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Voltage level shift, Standard and Common Voltage Levels in the US and CA - NEC, Voltage Classifications Explained: What They Mean and Why They Matter",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Voltage_level_shift",
+      "https://www.electricaltechnology.org/2023/03/standard-voltage-levels-in-us.html",
+      "https://missioncriticalengineers.com/voltage-classifications/"
+    ]
+  }
+}

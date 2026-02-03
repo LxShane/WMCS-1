@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 21,
-    "item": 1122
+    "item": 1234
   },
   "claims": [
     {
@@ -175,15 +175,71 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Receptor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "T cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Binding to antigen",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "T cell activation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A protein complex found on the surface of T cells that is responsible for recognizing antigens bound to major histocompatibility complex (MHC) molecules.",
+    "definition": "A receptor on T cells that binds to antigens.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Binds to antigen-MHC complexes and initiates T cell signaling.",
-    "origin": "Expressed on the surface of T cells."
+    "mechanism": "Binding triggers downstream signaling cascades.",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
@@ -192,7 +248,9 @@
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6314495/"
+      "PMC5801066",
+      "s41392-021-00823-w",
+      "S0065277608000011"
     ]
   }
 }

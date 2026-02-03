@@ -1,9 +1,9 @@
 {
   "name": "Spinal Cord",
-  "type": "LIVING_SYSTEM",
+  "type": "BODY_PART",
   "id": {
-    "group": 21,
-    "item": 1001
+    "group": 23,
+    "item": 4321
   },
   "claims": [
     {
@@ -369,36 +369,31 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Transmitting signals between the brain and the rest of the body",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The spinal cord is a long, cylindrical structure that connects the brain to the rest of the body.",
+    "definition": "A crucial relay, transmitting signals between the brain and the rest of the body.",
     "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": "The spinal cord transmits nerve signals between the brain and the body.",
-    "origin": "Develops from the neural tube during embryonic development."
-  },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [
-        "Cylindrical"
-      ],
-      "shape": [
-        "Cylinder"
-      ]
-    },
-    "SPATIAL": {
-      "contained_in": "Vertebral Canal"
-    }
-  },
+  "deep_layer": {},
+  "instance_layer": {},
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://www.ncbi.nlm.nih.gov/sites/books/NBK545206/"
-    ]
+    "source": "https://biologyinsights.com/what-is-neuromuscular-control-and-why-is-it-important/",
+    "citations": []
   }
 }

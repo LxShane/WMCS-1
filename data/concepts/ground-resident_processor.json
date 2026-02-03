@@ -1,0 +1,96 @@
+{
+  "name": "ground-resident processor",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 7891
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "channel management",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "segments and/or reassembles messages for transfer",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "specific to a particular air-ground Data Link",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A processor located on the ground, specific to an air-ground data link, that provides channel management, and segments and/or reassembles messages for transfer.",
+    "common_uses": [
+      "Channel management",
+      "Message processing"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Handles the processing of data transmitted between aircraft and ground stations.",
+    "origin": "Developed to manage data links between aircraft and the ground."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Data Processor",
+        "Channel Manager"
+      ],
+      "capabilities": [
+        "Message segmentation",
+        "Message reassembly",
+        "Channel management"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Ground station",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

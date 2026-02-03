@@ -1,9 +1,9 @@
 {
-  "name": "Lithium-ion Battery",
+  "name": "Lithium-ion battery",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 4567
+    "group": 31,
+    "item": 1001
   },
   "claims": [
     {
@@ -443,45 +443,112 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Rechargeable battery",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Electrolyte",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Electrical energy storage",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Clean energy storage system",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Enhance energy density",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A type of rechargeable battery that uses lithium ions as the charge carrier.",
+    "definition": "A type of rechargeable battery using lithium ions as the primary electrochemical component.",
     "common_uses": [
-      "Electronics",
-      "Electric Vehicles"
+      "Portable electronics",
+      "Electric vehicles",
+      "Energy storage"
     ]
   },
   "deep_layer": {
-    "mechanism": "Lithium ions move between the anode and cathode through an electrolyte to generate electricity.",
-    "origin": "Developed in the late 20th century."
+    "mechanism": "Lithium ions move from the negative electrode to the positive electrode during discharge and back when charging.",
+    "origin": "First developed in the 1970s, commercialized in the 1990s."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Tesla car battery",
+      "iPhone battery"
+    ]
   },
   "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
     "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    },
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
+      "location": "Contained within a device casing, often near the power input/output circuitry",
+      "connected_to": [
+        "Power terminals",
+        "Circuit board",
+        "Device casing",
+        "Temperature sensor (optional)",
+        "Battery Management System (BMS)"
+      ],
+      "coordinates": []
     }
   },
   "epistemic_metadata": {
-    "source": "Ingestion Engine",
-    "citations": [
-      "https://www.sciencedirect.com/science/article/pii/S2405829717300685"
-    ]
-  }
+    "source": "Multiple Academic Sources",
+    "citations": []
+  },
+  "autocorrected": true
 }

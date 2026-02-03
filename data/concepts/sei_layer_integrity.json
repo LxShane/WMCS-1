@@ -1,0 +1,52 @@
+{
+  "name": "SEI Layer Integrity",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 20,
+    "item": 2345
+  },
+  "claims": [
+    {
+      "predicate": "AFFECTED_BY",
+      "object": "Stresses",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "PLAYS_ROLE_IN",
+      "object": "Triggering side reactions",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The stability and robustness of the Solid Electrolyte Interphase layer.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Mechanical stress affects structure and composition",
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "sustainability-directory.com",
+    "citations": []
+  }
+}

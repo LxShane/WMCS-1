@@ -1,9 +1,9 @@
 {
   "name": "Proprioception",
-  "type": "LIVING_SYSTEM",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 20,
-    "item": 1007
+    "group": 50,
+    "item": 1234
   },
   "claims": [
     {
@@ -201,17 +201,31 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Essential part of motor control",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The sense of the position of one's body in space.",
+    "definition": "An essential part of motor control.",
     "common_uses": []
   },
   "deep_layer": {},
   "instance_layer": {},
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7769215/",
     "citations": []
   }
 }

@@ -1,0 +1,61 @@
+{
+  "name": "Pin",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "terminals",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "carrying a specific type of electrical signal",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A pin is a terminal on a connector.",
+    "common_uses": [
+      "carrying electrical signals"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Pins facilitate the flow of electricity between components.",
+    "origin": "Integral part of electrical connectors."
+  },
+  "instance_layer": {
+    "examples": [
+      "A pin on a DVI connector"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://resources.altium.com/p/how-design-connector-pinout-your-pcb",
+      "https://www.pcb-hero.com/blogs/lickys-column/the-process-of-designing-connector-pins-for-your-pcb",
+      "https://www.raypcb.com/design-a-connector-pinout/"
+    ]
+  }
+}

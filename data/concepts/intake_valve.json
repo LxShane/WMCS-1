@@ -2,8 +2,8 @@
   "name": "Intake Valve",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 1235
+    "group": 30,
+    "item": 1234
   },
   "claims": [
     {
@@ -33,6 +33,62 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "control the flow of air/fuel mixture",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "valve spring",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CONTROLS",
+      "object": "Flow of air/fuel mixture",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Combustion chamber",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
@@ -40,8 +96,8 @@
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Opens and closes to allow air and fuel mixture into the cylinder.",
-    "origin": "Part of the internal combustion engine."
+    "mechanism": "Opens and closes to allow air/fuel mixture to enter the combustion chamber.",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
@@ -49,20 +105,28 @@
   "facets": {
     "FUNCTION": {
       "roles": [
-        "Air Intake Controller"
+        "Regulator"
       ],
       "capabilities": [
-        "Opening",
-        "Closing"
+        "Controls flow of air/fuel"
       ]
     },
-    "STRUCTURAL": {},
-    "SPATIAL": {}
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "Valvetrain - Wikipedia"
-    ]
+    "source": "Valvetrain - Wikipedia",
+    "citations": []
   }
 }

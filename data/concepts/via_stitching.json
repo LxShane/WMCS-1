@@ -1,0 +1,104 @@
+{
+  "name": "Via Stitching",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 28,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Technique that utilizes vias to tie together copper planes on different layers of a PCB.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Maintaining short, low-impedance current return paths",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Creating areas with low electromagnetic noise",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "PCB",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "WEB",
+        "source_type": "SETTLED"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A technique using vias to connect copper planes on different PCB layers.",
+    "common_uses": [
+      "Maintaining low impedance",
+      "Reducing electromagnetic noise"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "By connecting planes, it provides a continuous return path for current and reduces noise.",
+    "origin": "Used in RF designs and other high-frequency applications."
+  },
+  "instance_layer": {
+    "examples": [
+      "Stitching vias in a multilayer PCB for RF applications"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Vertical",
+        "Cylindrical"
+      ],
+      "shape": [
+        "Cylindrical"
+      ],
+      "composition": [
+        "Copper"
+      ],
+      "parts": [],
+      "relations": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.advancedpcb.com/en-us/resources/blog/the-importance-of-power-and-ground-planes-in-pcb-design/"
+    ]
+  }
+}

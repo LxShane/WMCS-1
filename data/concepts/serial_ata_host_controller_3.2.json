@@ -1,0 +1,72 @@
+{
+  "name": "Serial ATA Host controller 3.2",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 21,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "supports data transfer rates of up to 6 Gb/s on all ports",
+      "temporal": {
+        "valid_from": "2022",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Integrated controller",
+      "temporal": {
+        "valid_from": "2022",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A host controller for Serial ATA.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Controls data transfer for Serial ATA devices.",
+    "origin": "Part of the Intel 500 Series Chipset Family Platform Controller Hub."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "[PDF] Intel\u00ae 500 Series Chipset Family Platform Controller Hub",
+    "citations": []
+  }
+}

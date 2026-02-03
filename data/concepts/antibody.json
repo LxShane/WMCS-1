@@ -2,8 +2,8 @@
   "name": "Antibody",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1234
+    "group": 22,
+    "item": 1003
   },
   "claims": [
     {
@@ -201,57 +201,70 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "PRODUCED_BY",
+      "object": "Plasma Cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Humoral Immunity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A protein that binds specifically to an antigen.",
-    "common_uses": [
-      "Research",
-      "Therapeutics",
-      "Diagnostics"
-    ]
+    "definition": "A protein produced by plasma cells that binds to specific antigens.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Antibodies bind to antigens through noncovalent interactions between antibody variable regions and antigen epitopes.",
-    "origin": "Produced by the immune system in response to an antigen."
+    "mechanism": "Neutralizes pathogens by binding to their antigens.",
+    "origin": "Produced by plasma cells in response to antigen stimulation."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Binding"
-      ],
-      "capabilities": [
-        "Recognizing and binding to specific antigens"
-      ]
-    },
     "STRUCTURAL": {
-      "visual_features": [
-        "Globular protein"
-      ],
-      "shape": [
-        "Y-shaped"
-      ],
-      "composition": [
-        "Amino acids"
-      ],
-      "parts": [
-        "Heavy chains",
-        "Light chains",
-        "Variable regions",
-        "Constant regions"
-      ],
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
       "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    },
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
     }
   },
   "epistemic_metadata": {
-    "source": "https://www.sigmaaldrich.com/US/en/technical-documents/technical-article/protein-biology/elisa/antibody-antigen-interaction, https://www.slideshare.net/slideshow/antigen-antibody-interaction/23724820, https://pmc.ncbi.nlm.nih.gov/articles/PMC6198058/",
+    "source": "See Sources",
     "citations": [
-      "An Introduction to Antibodies : Antibody - Antigen Interaction",
-      "Antigen antibody interaction",
-      "Understanding the Significance and Implications of Antibody"
+      "https://anatomynote.com/lymph-node-sectional-anatomy-and-flow/"
     ]
   }
 }

@@ -1,35 +1,67 @@
 {
   "name": "Water",
-  "type": "PHYSICAL",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 1237
+    "group": 30,
+    "item": 3457
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "CAUSES",
+      "object": "Service interruption",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Hardware damage",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "HYPOTHETICAL",
+        "source_type": "WEB"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": null,
+    "definition": "A clear, odorless, tasteless liquid.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "H2O molecules.",
+    "origin": "Natural resource."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
     "STRUCTURAL": {
-      "visual_features": [],
+      "visual_features": [
+        "Clear",
+        "Liquid"
+      ],
       "shape": [],
-      "composition": [],
+      "composition": [
+        "H2O"
+      ],
       "parts": [],
       "relations": []
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "Photosynthesis - National Geographic Education"
-    ]
+    "source": "CC - Physical and Environmental Security Controls Compliance ...",
+    "citations": []
   }
 }

@@ -1,0 +1,73 @@
+{
+  "name": "Error Function",
+  "type": "MATHEMATICAL_OBJECT",
+  "id": {
+    "group": 47,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Identifying glass type",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.85,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Optical parameters of the lens",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Parameters from known glass types",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A mathematical function used to quantify the difference between predicted and actual values.",
+    "common_uses": [
+      "Optimization",
+      "Machine learning",
+      "Statistical analysis"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Function calculates a value representing the discrepancy between modeled and empirical data.",
+    "origin": "Rooted in mathematical optimization theory."
+  },
+  "instance_layer": [
+    "Mean squared error",
+    "Cross-entropy loss"
+  ],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "WO2019147936A1",
+    "citations": []
+  }
+}

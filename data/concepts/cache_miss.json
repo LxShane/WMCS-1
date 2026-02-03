@@ -1,0 +1,46 @@
+{
+  "name": "Cache Miss",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "CAUSES",
+      "object": "Populating the Cache Hierarchy",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An event where the requested data is not found in the CPU cache.",
+    "common_uses": [
+      "Triggering data retrieval from main memory",
+      "Updating the cache with the retrieved data"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The CPU searches for data in the cache, and if the data is not present, it retrieves it from main memory and updates the cache.",
+    "origin": "Arises from the probabilistic nature of data access patterns."
+  },
+  "instance_layer": {
+    "examples": [
+      "Accessing data for the first time"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Understanding CPU Cache Organization and Structure",
+    "citations": [
+      "https://dev.to/sachin_tolay_052a7e539e57/understanding-cpu-cache-organization-and-structure-4o1o"
+    ]
+  }
+}

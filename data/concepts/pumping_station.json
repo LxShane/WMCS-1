@@ -1,0 +1,54 @@
+{
+  "name": "Pumping Station",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 32,
+    "item": 9876
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Structure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A facility that pumps fluids.",
+    "common_uses": [
+      "Water distribution",
+      "Wastewater management"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Using pumps to move liquids.",
+    "origin": "Engineering"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Fluid transfer"
+      ],
+      "capabilities": [
+        "Moving fluids from one place to another"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Structural Safety and Stability of Buildings - MDPI",
+    "citations": [
+      "https://mdpi-res.com/bookfiles/book/11342/Structural_Safety_and_Stability_of_Buildings.pdf?v=1755318683"
+    ]
+  }
+}

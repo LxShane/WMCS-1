@@ -2,8 +2,8 @@
   "name": "Antigen-presenting cell",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 3456
+    "group": 31,
+    "item": 1236
   },
   "claims": [
     {
@@ -173,6 +173,20 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Cell",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
@@ -180,17 +194,15 @@
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Processes antigens and presents them to T cells.",
+    "mechanism": "Processes and presents antigens to T cells.",
     "origin": "Derived from various cell types."
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6314495/"
+      "https://www.cell.com/trends/immunology/fulltext/S1471-4906(21)00162-9"
     ]
   }
 }

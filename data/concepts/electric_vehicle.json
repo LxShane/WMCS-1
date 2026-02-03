@@ -1,0 +1,135 @@
+{
+  "name": "Electric Vehicle",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Vehicle",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Control Units",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Vehicle Dynamics",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Functionality",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Essential Control Components",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Intelligent Transportation Systems (ITS)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A vehicle powered by electricity.",
+    "common_uses": [
+      "Transportation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Electric vehicles use electric motors for propulsion, powered by batteries or other energy storage devices.",
+    "origin": "Electric vehicles have been in development for over a century, with recent advancements in battery technology leading to increased adoption."
+  },
+  "instance_layer": {
+    "examples": [
+      "Tesla Model S",
+      "Nissan Leaf"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Wheels",
+        "Body",
+        "Lights"
+      ],
+      "shape": [
+        "Car-like"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Transportation"
+      ],
+      "capabilities": [
+        "Movement",
+        "Carrying passengers/cargo"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "PDF Adaptive Control Mechanisms for Electric Vehicles: A Study Based on ...",
+    "citations": []
+  }
+}

@@ -1,9 +1,9 @@
 {
-  "name": "Endothelial cells",
+  "name": "Endothelial Cells",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 31,
-    "item": 9123
+    "group": 21,
+    "item": 5678
   },
   "claims": [
     {
@@ -47,15 +47,99 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Capillary wall",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Blood-Brain Barrier",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INTERACTS_WITH",
+      "object": "Pericytes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Supporting Newly Formed Blood Vessels",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Maintaining Newly Formed Blood Vessels",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "tight junctions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Cells forming the initial endothelial tube.",
+    "definition": "A type of cell that lines the interior surface of blood vessels and lymphatic vessels, forming an interface between circulating blood or lymph and the rest of the vessel wall.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": "Develop from peripheral cells of blood island."
+    "mechanism": "Endothelial cells control the passage of materials into and out of the bloodstream.",
+    "origin": "Develop from angioblasts."
   },
   "instance_layer": {
     "examples": []
@@ -73,14 +157,14 @@
       "relations": []
     },
     "SPATIAL": {
-      "location": null,
+      "location": "Lining blood vessels",
       "coordinates": [],
       "connected_to": [],
-      "contained_in": null
+      "contained_in": "Blood vessels"
     }
   },
   "epistemic_metadata": {
-    "source": "Cardiovascular System - Blood Vessel Development - Embryology",
+    "source": "Multiple Web Sources",
     "citations": []
   }
 }

@@ -2,8 +2,8 @@
   "name": "ADP",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 31,
-    "item": 1004
+    "group": 33,
+    "item": 1007
   },
   "claims": [
     {
@@ -19,10 +19,38 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "RELEASED_FROM",
+      "object": "Active site",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSED_BY",
+      "object": "ATP Hydrolysis",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A nucleotide that is a precursor to ATP.",
+    "definition": null,
     "common_uses": []
   },
   "deep_layer": {
@@ -34,7 +62,7 @@
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "https://www.sciencedirect.com/science/article/pii/S0167488916300684",
+    "source": "https://biologyinsights.com/myosin-movement-how-this-motor-protein-works/",
     "citations": []
   }
 }

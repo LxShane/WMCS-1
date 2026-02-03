@@ -2,8 +2,8 @@
   "name": "Motherboard",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 24,
-    "item": 1238
+    "group": 30,
+    "item": 4571
   },
   "claims": [
     {
@@ -145,29 +145,33 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "connect various modules",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The main printed circuit board in a computer.",
-    "common_uses": [
-      "Connecting all computer components"
-    ]
+    "definition": "A printed circuit backplane to connect various modules.",
+    "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": "Provides electrical connections and pathways for data to flow between components.",
-    "origin": "Developed as computers became more complex and modular."
-  },
-  "instance_layer": {
-    "examples": [
-      "ATX motherboard",
-      "Micro-ATX motherboard"
-    ]
-  },
+  "deep_layer": {},
+  "instance_layer": {},
   "facets": {},
   "epistemic_metadata": {
-    "source": "Modern motherboard features explained: Connectors, headers, ports, and chipsets decoded",
+    "source": "Grokipedia",
     "citations": [
-      "https://www.tomshardware.com/pc-components/motherboards/modern-motherboard-features-explained-connectors-headers-ports-and-chipsets-decoded"
+      "https://grokipedia.com/page/Motherboard"
     ]
   }
 }

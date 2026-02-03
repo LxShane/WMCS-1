@@ -3,57 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 30,
-    "item": 1001
-  },
-  "surface_layer": {
-    "definition": "A component in a battery that prevents direct contact between the anode and cathode while allowing lithium ions to pass.",
-    "common_uses": [
-      "In batteries to prevent short circuits"
-    ]
-  },
-  "deep_layer": {
-    "mechanism": "The separator acts as a physical barrier and facilitates ion transport.",
-    "origin": "Manufactured as a component of a battery."
-  },
-  "instance_layer": {
-    "examples": [
-      "Separator in a lithium-ion battery"
-    ]
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "SEPARATOR"
-      ],
-      "capabilities": [
-        "Prevent direct contact between anode and cathode",
-        "Enable the exchange of lithium ions"
-      ]
-    },
-    "EQUIVALENCE": {
-      "fills_role": [
-        "SEPARATOR"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "MECHANISM": [],
-    "PROCESS_DATA": {},
-    "PROPERTY_DATA": {},
-    "ABSTRACT_DATA": {}
-  },
-  "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "Battery Talk Talk",
-      "BU-306",
-      "A review of lithium-ion battery safety concerns"
-    ]
+    "item": 5678
   },
   "claims": [
     {
@@ -82,6 +32,115 @@
         "status": "SETTLED",
         "source_type": "MIGRATE_LEGACY"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Separating Electrodes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Physical Barrier",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Film",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Paper",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Non-woven",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Electrically Insulating Anode From Cathode",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PREVENTS",
+      "object": "Electrical Internal (Short)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
-  ]
+  ],
+  "surface_layer": {
+    "definition": "A separator is a physical paper/non-woven film barrier which electrically insulates the anode from the cathode (preventing electrical internal shorts).",
+    "common_uses": []
+  },
+  "deep_layer": {},
+  "instance_layer": {},
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "The Future of Battery Technologies: A General Overview & Focus on ...",
+    "citations": []
+  }
 }

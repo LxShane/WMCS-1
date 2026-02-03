@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 31,
-    "item": 1001
+    "item": 1234
   },
   "claims": [
     {
@@ -117,44 +117,189 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Vessel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Propelling Lymph",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Resisting Lymph Flow",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Transporting Lymph",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Smooth Muscle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Reservoir for Plasma",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Reservoir for Cells",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Intraluminal Valve",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Unidirectional Lymph Flow",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A vessel that transports lymph.",
-    "common_uses": []
+    "definition": "A vessel that transports lymph fluid from the tissues back to the circulatory system.",
+    "common_uses": [
+      "Lymph Transport",
+      "Fluid Recovery"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Lymphatic vessels drain fluid and proteins from tissues back into the bloodstream.",
-    "origin": "Forms during embryonic development."
+    "mechanism": "Contraction of smooth muscle and unidirectional flow due to valves.",
+    "origin": "Part of the lymphatic system."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
     "FUNCTION": {
-      "roles": [],
-      "capabilities": []
+      "roles": [
+        "Fluid Transporter"
+      ],
+      "capabilities": [
+        "Lymph propulsion",
+        "Lymph flow regulation"
+      ]
     },
     "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
+      "visual_features": [
+        "Tubular"
+      ],
+      "shape": [
+        "Cylindrical",
+        "Branched"
+      ],
       "composition": [],
-      "parts": [],
+      "parts": [
+        "Smooth muscle",
+        "Intraluminal valves"
+      ],
       "relations": []
     },
     "SPATIAL": {
-      "location": null,
+      "location": "Throughout the body",
       "coordinates": [],
-      "connected_to": [],
+      "connected_to": [
+        "Lymph capillaries",
+        "Subclavian veins"
+      ],
       "contained_in": null
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://www.cell.com/cell/fulltext/S0092-8674(22)01574-4",
-      "https://www.cell.com/cell-stem-cell/fulltext/S1934-5909(23)00359-4",
-      "https://www.cell.com/cell-reports/fulltext/S2211-1247(14)00260-5"
+      "Lymphatic vessel - Wikipedia",
+      "Lymphatic system - Wikipedia",
+      "Lymph - Wikipedia"
     ]
   }
 }

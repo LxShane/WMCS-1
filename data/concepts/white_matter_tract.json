@@ -2,8 +2,8 @@
   "name": "White Matter Tract",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 31,
-    "item": 7890
+    "group": 21,
+    "item": 1234
   },
   "claims": [
     {
@@ -33,26 +33,62 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Fiber Tract",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Brain",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A bundle of nerve fibers within the white matter of the brain.",
+    "definition": "A bundle of nerve fibers in the brain composed primarily of myelinated axons.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "White matter tracts facilitate communication between different brain regions by providing pathways for electrical signals to travel.",
-    "origin": "Formed during brain development through the process of myelination."
+    "mechanism": "Transmits signals between different regions of the brain.",
+    "origin": null
   },
-  "instance_layer": {
-    "examples": []
+  "instance_layer": [],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Within the brain",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Brain"
+    }
   },
-  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "Radiopaedia.org",
-      "AJNR.org",
-      "PMC.ncbi.nlm.nih.gov"
-    ]
+    "source": "Ingestion Engine",
+    "citations": []
   }
 }

@@ -1,0 +1,134 @@
+{
+  "name": "Electric Vehicle Charging Station",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Charging electric vehicles",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "DC microgrids",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Solar Photovoltaic System",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Storage Battery",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Electric vehicle",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Grid",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A station that provides electricity for charging electric vehicles.",
+    "common_uses": [
+      "Charging EVs"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "EVCS uses electricity from the grid or renewable sources to charge the batteries of EVs.",
+    "origin": "EVCS have become increasingly common with the rise of EVs."
+  },
+  "instance_layer": {
+    "examples": [
+      "Tesla Supercharger",
+      "ChargePoint station"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Charging"
+      ],
+      "capabilities": [
+        "Providing electrical power to EV batteries"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Charging cable",
+        "Connector",
+        "Enclosure"
+      ],
+      "shape": [
+        "Box-like"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Development of artificial Intelligence-Based adaptive vehicle to grid ...",
+    "citations": []
+  }
+}

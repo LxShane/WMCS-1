@@ -1,0 +1,52 @@
+{
+  "name": "Interface Delamination",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 20,
+    "item": 8765
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_BETWEEN",
+      "object": "Active material and current collector layers",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Mechanical failure",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Separation of layers due to mechanical forces.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Weak adhesion and stress concentration.",
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "sustainability-directory.com",
+    "citations": []
+  }
+}

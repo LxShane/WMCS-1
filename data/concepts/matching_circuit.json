@@ -1,0 +1,119 @@
+{
+  "name": "Matching Circuit",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 7891
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Circuit",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Transmission Line Components",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Response described by Transmission Line Theory",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Antenna Design and Matching",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A circuit designed to optimize power transfer between a source and a load, often used in antenna systems.",
+    "common_uses": [
+      "Antenna impedance matching",
+      "RF power transfer"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "By adjusting impedance, the matching circuit minimizes reflections and maximizes power delivered to the antenna.",
+    "origin": "Evolved from basic circuit theory and transmission line principles."
+  },
+  "instance_layer": {
+    "examples": [
+      "Matching circuit in a radio transmitter",
+      "Matching circuit in a magnetic resonance imaging (MRI) system"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Impedance Matching"
+      ],
+      "capabilities": [
+        "Optimize power transfer",
+        "Minimize signal reflection"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [
+        "Capacitors",
+        "Inductors",
+        "Transmission lines"
+      ],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Between power source and load (e.g. antenna)",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Dumortier_HC-6.pdf",
+      "S0920379624006446",
+      "10.1007/978-81-322-1768-8_65.pdf"
+    ]
+  }
+}

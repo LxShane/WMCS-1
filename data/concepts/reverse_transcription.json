@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1003
+    "item": 1002
   },
   "claims": [
     {
@@ -33,24 +33,135 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Process of converting RNA to DNA",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Reverse Transcriptase",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Process",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Synthesizing DNA using RNA as a template",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "First-strand cDNA synthesis",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "RNA template",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Reverse Transcriptase",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
     "definition": "The process of synthesizing DNA from an RNA template.",
-    "common_uses": []
+    "common_uses": [
+      "cDNA synthesis"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Reverse transcriptase enzyme uses RNA as a template to create complementary DNA.",
-    "origin": "Occurs naturally in retroviruses and some eukaryotic processes."
+    "mechanism": "Reverse transcriptase binds to an RNA template and synthesizes a complementary DNA strand.",
+    "origin": "Occurs naturally in retroviruses and is used in molecular biology."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "PROCESS_DATA": {
+      "roles": [
+        "Template",
+        "Catalysis"
+      ],
+      "capabilities": [
+        "DNA Synthesis"
+      ]
+    }
+  },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Extracted from multiple web sources.",
     "citations": [
-      "https://www.nature.com/articles/s41586-024-07497-8"
+      "https://www.cusagivd.com/reverse-transcription.html",
+      "https://foodwrite.co.uk/reverse-transcription/"
     ]
   }
 }

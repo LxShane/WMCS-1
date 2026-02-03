@@ -1,0 +1,71 @@
+{
+  "name": "L3 Cache",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 22,
+    "item": 1006
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "CPU Cache",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Fetched block",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Level 3 cache, a tertiary cache memory in a CPU, the largest and slowest of the cache levels.",
+    "common_uses": [
+      "Storing the least frequently accessed data among the cache levels"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Provides a large capacity, minimizing main memory accesses.",
+    "origin": "Designed to further reduce latency and increase performance in multi-core systems."
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Electronic",
+        "Integrated circuit"
+      ],
+      "shape": [
+        "Planar",
+        "Rectangular"
+      ],
+      "composition": [
+        "Semiconductors",
+        "Metals"
+      ]
+    }
+  },
+  "instance_layer": [],
+  "epistemic_metadata": {
+    "source": "Understanding CPU Cache Organization and Structure",
+    "citations": [
+      "https://dev.to/sachin_tolay_052a7e539e57/understanding-cpu-cache-organization-and-structure-4o1o"
+    ]
+  }
+}

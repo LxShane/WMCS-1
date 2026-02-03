@@ -1,0 +1,80 @@
+{
+  "name": "Spatial Autocorrelation Analysis",
+  "type": "MATHEMATICAL_OBJECT",
+  "id": {
+    "group": 42,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Study",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Statistical Analysis",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Analyzing spatial relationships",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A statistical method used to assess the degree to which values of a variable are correlated with each other in a spatial context.",
+    "common_uses": [
+      "Identifying spatial clustering",
+      "Detecting spatial patterns",
+      "Analyzing geographic data"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Spatial autocorrelation analysis involves calculating a statistic that measures the correlation between a variable's values at different locations. The statistic is then tested for significance to determine if the observed correlation is likely due to chance.",
+    "origin": "Developed in the field of spatial statistics."
+  },
+  "instance_layer": {
+    "examples": [
+      "Analyzing disease incidence across a region",
+      "Examining housing prices in a city",
+      "Studying crime rates in different neighborhoods"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Stack Overflow",
+    "citations": [
+      "https://stackoverflow.com/questions/60278573/spatial-autocorrelation-analysis-withe-several-observations-per-location-in-r",
+      "https://stackoverflow.com/questions/15711013/spatial-autocorrelation-analysis-in-r",
+      "https://stackoverflow.com/questions/21039681/spatial-autocorrelation-analysis-global-morans-i-in-r"
+    ]
+  }
+}

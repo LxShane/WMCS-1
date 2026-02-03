@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1005
+    "item": 2007
   },
   "claims": [
     {
@@ -33,22 +33,36 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "fast impedance matching",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The practice of designing or adjusting the input impedance of an electrical load or the output impedance of its corresponding signal source to maximize the power transfer or minimize signal reflection from the load.",
+    "definition": "Adjusting the impedance to minimize signal reflection and maximize power transfer.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Reduces reflections and maximizes power transfer.",
+    "mechanism": "Adjusting the impedance so that the source impedance is equal to the load impedance.",
     "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
-    "source": "Waveguide - Wikipedia",
-    "citations": []
+    "source": "PDF",
+    "citations": [
+      "High-power and long-pulse operation of ICRH system in EAST tokamak"
+    ]
   }
 }

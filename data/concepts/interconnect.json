@@ -1,9 +1,9 @@
 {
   "name": "Interconnect",
-  "type": "ABSTRACT_CONCEPT",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 50,
-    "item": 7890
+    "group": 20,
+    "item": 1234
   },
   "claims": [
     {
@@ -61,30 +61,194 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Connecting components in device fabrication",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Structures that connect two or more circuit elements together electrically in integrated circuits",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Integrated Circuits",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Connecting circuit elements electrically",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Careful design and layout",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "AFFECTS",
+      "object": "Proper function, performance, power efficiency, reliability, and fabrication yield",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Material dependent on many factors",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Routing PG/Clock/Signal paths",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Metal Layer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Establishment of multiple network connections allowing interaction and data sharing.",
+    "definition": "Interconnects are structures that connect two or more circuit elements together electrically in integrated circuits.",
     "common_uses": [
-      "Connecting public and private networks",
-      "Data sharing between networks with different providers"
+      "Connecting circuit elements in ICs",
+      "Routing PG/Clock/Signal paths"
     ]
   },
   "deep_layer": {
-    "mechanism": "Creating multiple network paths for data to flow between different networks.",
-    "origin": "The need for various networks to interact and share data, irrespective of type or provider"
+    "mechanism": "Interconnects provide a physical pathway for electrical signals to travel between components within an integrated circuit.  Their material properties and geometry impact signal speed, power consumption, and signal integrity.",
+    "origin": "Fabricated as part of the integrated circuit manufacturing process."
   },
   "instance_layer": {
     "examples": [
-      "A company connecting its private network to the public internet",
-      "Two companies using different ISPs interconnecting their networks"
+      "Metal layers in VLSI physical design"
     ]
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Electrical Connector"
+      ],
+      "capabilities": [
+        "Signal routing",
+        "Power distribution"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic",
+        "Thin lines"
+      ],
+      "shape": [
+        "Lines",
+        "Planes"
+      ],
+      "composition": [
+        "Metal (e.g., Copper, Aluminum)"
+      ],
+      "parts": [
+        "Vias",
+        "Metal traces"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Within the integrated circuit layers",
+      "coordinates": [],
+      "connected_to": [
+        "Transistors",
+        "Other circuit elements"
+      ],
+      "contained_in": "Integrated circuit"
+    }
+  },
   "epistemic_metadata": {
-    "source": "What is Interconnection: Examples & Definition | Flexential",
+    "source": "Set Automatically",
     "citations": [
-      "What is Interconnection: Examples & Definition | Flexential"
+      "Interconnect (integrated circuits) - Wikipedia",
+      "Lecture_13-interconnect - University of Texas at Austin",
+      "What is Metal Layers Stack in VLSI? | Role, Structure ..."
     ]
   }
 }

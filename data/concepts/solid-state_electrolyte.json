@@ -1,9 +1,9 @@
 {
-  "name": "Solid-State Electrolyte",
+  "name": "Solid-state electrolyte",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 1234
+    "group": 23,
+    "item": 1003
   },
   "claims": [
     {
@@ -61,36 +61,66 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Electrical energy storage",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Electrolyte",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Substitution of the liquid electrolytes",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Electrolyte in a solid state.",
+    "definition": "An electrolyte in a solid state, as opposed to a liquid electrolyte.",
     "common_uses": [
-      "Energy storage"
+      "Lithium-ion batteries"
     ]
   },
   "deep_layer": {
-    "mechanism": "Facilitates ion transport in batteries.",
-    "origin": null
+    "mechanism": "Facilitates ion transport through a solid material.",
+    "origin": "Developed as an alternative to liquid electrolytes"
   },
   "instance_layer": [],
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
+    "source": "Solid-state electrolyte - Wikipedia",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Solid-state_electrolyte"
+    ]
   }
 }

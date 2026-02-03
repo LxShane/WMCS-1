@@ -1,0 +1,61 @@
+{
+  "name": "Texture (Material)",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Microstructural characteristic of copper alloys",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "ANALYZED_BY",
+      "object": "Electron backscatter diffraction analysis (EBSD)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The preferred orientation of crystallites in a polycrystalline material.",
+    "common_uses": [
+      "Material characterization",
+      "Property prediction"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Arises from the processing history of the material.",
+    "origin": "Develops during solidification, deformation, or recrystallization."
+  },
+  "instance_layer": {
+    "examples": [
+      "Rolling texture in aluminum",
+      "Fiber texture in drawn wires"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "https://www.sciencedirect.com/science/article/pii/S2468217916301915",
+    "citations": [
+      "12"
+    ]
+  }
+}

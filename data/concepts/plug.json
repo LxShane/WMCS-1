@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 30,
-    "item": 5678
+    "item": 3456
   },
   "claims": [
     {
@@ -33,28 +33,57 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Contact",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Locking Mechanism",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A type of connector, typically male, that fits into a jack.",
-    "common_uses": [
-      "Connecting devices to ports",
-      "Powering devices"
-    ]
+    "definition": "A part that connects to a receptacle.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Plugs insert into jacks to establish an electrical connection.",
-    "origin": "Evolved from early electrical appliances."
+    "mechanism": null,
+    "origin": null
   },
-  "instance_layer": {
-    "examples": [
-      "Power plug",
-      "USB plug"
-    ]
+  "instance_layer": [],
+  "facets": {
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
   },
-  "facets": {},
   "epistemic_metadata": {
-    "source": "https://www.computerhope.com/issues/ch001379.htm",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "Mating Direction of Connectors | I-PEX"
+    ]
   }
 }

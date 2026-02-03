@@ -1,0 +1,122 @@
+{
+  "name": "IoT actuators",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "mechanical devices",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "electromechanical devices",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "turn energy into motion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "electrical signals",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "energy sources",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Devices that convert energy into motion in Internet of Things (IoT) systems.",
+    "common_uses": [
+      "Robotics",
+      "Automation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Receives electrical signals and uses them to control mechanical motion.",
+    "origin": "Embedded systems and automation."
+  },
+  "instance_layer": {
+    "examples": [
+      "Smart home actuators",
+      "Industrial automation actuators"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Motion control"
+      ],
+      "capabilities": [
+        "Converting energy to motion",
+        "Responding to electrical signals"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Varies by type"
+      ],
+      "shape": [
+        "Varies by type"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://webbylab.com/blog/actuators-in-iot-guide/",
+    "citations": [
+      "IoT Actuators: Types, Selection Criteria & Real-Life Examples"
+    ]
+  }
+}

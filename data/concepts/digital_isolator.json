@@ -1,0 +1,57 @@
+{
+  "name": "Digital Isolator",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Electronic Component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "electrical isolation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A component to provide electrical isolation between circuits.",
+    "common_uses": [
+      "Protect circuits from voltage spikes",
+      "Prevent ground loops"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Uses capacitive or magnetic coupling.",
+    "origin": "Electronics Industry"
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Digi-Key",
+    "citations": [
+      "https://www.digikey.sg/en/product-highlight/a/analog-devices/icoupler-digital-isolator?srsltid=AfmBOoqgPXvXTxuNvuUYB6XmtKW-FaImUeEM5ItNvEQcf4iP6Lb8S5_R"
+    ]
+  }
+}

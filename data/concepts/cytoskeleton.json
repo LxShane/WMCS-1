@@ -2,8 +2,8 @@
   "name": "Cytoskeleton",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 2345
+    "group": 20,
+    "item": 1005
   },
   "claims": [
     {
@@ -369,54 +369,119 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Actin",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Microtubules",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "moving vesicles throughout the cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "dynamic network of actin filaments",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "microtubules",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The cytoskeleton is a network of protein filaments that provides structural support and facilitates cell movement.",
-    "common_uses": [
-      "Cell shape",
-      "Cell motility",
-      "Intracellular transport"
-    ]
+    "definition": "A network of protein filaments responsible for cell shape, movement, and intracellular transport.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Dynamic assembly and disassembly of protein filaments.",
-    "origin": "Eukaryotic cells."
+    "mechanism": "Provides structural support and facilitates intracellular transport.",
+    "origin": null
   },
-  "instance_layer": {
-    "examples": [
-      "Actin filaments",
-      "Microtubules",
-      "Intermediate filaments"
-    ]
-  },
+  "instance_layer": [],
   "facets": {
-    "STRUCTURAL": {
-      "visual_features": [
-        "Filamentous",
-        "Dynamic"
+    "FUNCTION": {
+      "roles": [
+        "Structural Support",
+        "Transport"
       ],
-      "shape": [
-        "Variable"
-      ],
-      "composition": [
-        "Actin",
-        "Tubulin",
-        "Keratin"
+      "capabilities": [
+        "Cell movement",
+        "Intracellular transport"
       ]
     },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [
+        "Actin filaments",
+        "Microtubules"
+      ],
+      "relations": []
+    },
     "SPATIAL": {
-      "location": "Cytoplasm",
-      "connected_to": [
-        "Cell membrane",
-        "Organelles"
-      ]
+      "location": "Throughout the cell",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Cell"
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "Integrin Inside-Out Signalling and the Immunological Synapse - PMC"
+      "https://www.sciencedirect.com/science/article/pii/S0168952522000397"
     ]
   }
 }

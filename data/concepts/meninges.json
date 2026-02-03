@@ -2,7 +2,7 @@
   "name": "Meninges",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 22,
+    "group": 33,
     "item": 1001
   },
   "claims": [
@@ -285,39 +285,245 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "protective membranes that cover the brain and spinal cord",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Dura Mater",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Arachnoid Mater",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Pia Mater",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "shielding the central nervous system (CNS) from injury",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "acting as an immunological protective barrier",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "anchoring and supporting the tissues of the CNS",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "providing containment for cerebrospinal fluid (CSF) and the arteries and veins that supply blood to the brain and spinal cord",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "membrane",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "brain",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "spinal cord",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "providing mechanical support",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "cushioning against trauma",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The meninges are the protective membranous coverings that surround the brain and spinal cord.",
+    "definition": "The meninges are protective membranes that cover the brain and spinal cord.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Meninges protect by acting as a physical barrier and providing immunological defense.",
-    "origin": null
+    "mechanism": "The meninges provide a physical barrier and immunological protection to the brain and spinal cord.",
+    "origin": "Biological development of the central nervous system."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "SPATIAL": {
-      "location": "Surrounding the brain and spinal cord",
-      "connected_to": [
-        "Skull",
-        "Vertebral column",
-        "Brain",
-        "Spinal cord",
-        "Cerebrospinal fluid"
+    "FUNCTION": {
+      "roles": [
+        "Protector"
       ],
-      "coordinates": []
+      "capabilities": [
+        "Physical protection",
+        "Immunological protection",
+        "Support",
+        "Containment of CSF"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Membranous",
+        "Thin"
+      ],
+      "shape": [
+        "Layered"
+      ],
+      "composition": [],
+      "parts": [
+        "Dura Mater",
+        "Arachnoid Mater",
+        "Pia Mater"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Around brain and spinal cord",
+      "coordinates": [],
+      "connected_to": [
+        "Brain",
+        "Spinal Cord"
+      ],
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
-    "source": "Meninges - Wikipedia, Neuroanatomy, Cranial Meninges - StatPearls - NCBI Bookshelf, The Meninges - Dura - Arachnoid - Pia - TeachMeAnatomy",
+    "source": "Set Automatically",
     "citations": [
       "https://en.wikipedia.org/wiki/Meninges",
-      "https://www.ncbi.nlm.nih.gov/books/NBK539882/",
-      "https://teachmeanatomy.info/neuroanatomy/structures/meninges/"
+      "https://grokipedia.com/page/Meninges",
+      "https://my.clevelandclinic.org/health/articles/22266-meninges"
     ]
-  },
-  "autocorrected": true
+  }
 }

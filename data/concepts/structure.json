@@ -1,9 +1,9 @@
 {
   "name": "Structure",
-  "type": "ABSTRACT_CONCEPT",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 50,
-    "item": 4567
+    "group": 30,
+    "item": 8765
   },
   "claims": [
     {
@@ -187,22 +187,122 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Organization",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Supports End of Span",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Accepts Thrust of Arch",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Supports Approach Embankment",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Retains Approach Embankment",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Building",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The organization of components within a material.",
-    "common_uses": []
+    "definition": "A constructed entity.",
+    "common_uses": [
+      "Providing shelter",
+      "Supporting weight"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Atoms arrange themselves according to energy minimization.",
-    "origin": "Thermodynamic principles."
+    "mechanism": "Arrangement of interconnected parts.",
+    "origin": "Construction processes"
   },
-  "instance_layer": [],
-  "facets": {},
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Support",
+        "Enclosure"
+      ],
+      "capabilities": [
+        "Resisting loads",
+        "Protecting inhabitants"
+      ]
+    }
+  },
   "epistemic_metadata": {
-    "source": "Manual",
+    "source": "Structural Safety and Stability of Buildings - MDPI",
     "citations": [
-      "Structure-Property Relationships In Materials Science"
+      "https://mdpi-res.com/bookfiles/book/11342/Structural_Safety_and_Stability_of_Buildings.pdf?v=1755318683"
     ]
   }
 }

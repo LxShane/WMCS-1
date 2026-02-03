@@ -1,0 +1,49 @@
+{
+  "name": "Hydropower",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1006
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Primary Energy Source",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Energy derived from the movement of water.",
+    "common_uses": [
+      "Electricity generation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The force of moving water turns turbines to generate electricity.",
+    "origin": "Kinetic energy of flowing or falling water."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "ABSTRACT_DATA": {
+      "domain": "Energy",
+      "classification": "Energy Source"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "Primary Energy Source - an overview | ScienceDirect Topics"
+    ]
+  }
+}

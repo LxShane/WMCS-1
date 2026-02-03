@@ -2,8 +2,8 @@
   "name": "Femoral Nerve",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 22,
-    "item": 1001
+    "group": 21,
+    "item": 1003
   },
   "claims": [
     {
@@ -439,62 +439,88 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Femoral Triangle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Innervating the anterior compartment of the thigh",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Providing sensory branches for the leg and foot",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The femoral nerve is the major nerve supplying the anterior compartment of the thigh and one of the major nerves supplying the lower limb.",
+    "definition": "The femoral nerve innervates the anterior compartment of the thigh and provides sensory branches for the leg and foot.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": "Arises from the dorsal divisions of the ventral rami of the second, third, and fourth lumbar nerves (L2, L3, and L4)."
+    "mechanism": "Transmits signals from the brain and spinal cord to the thigh muscles, leg, and foot.",
+    "origin": "Part of the nervous system."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Motor innervation",
-        "Sensory innervation"
-      ],
-      "capabilities": [
-        "Innervates muscles of the anterior thigh",
-        "Provides sensory innervation to the anterior thigh and medial leg"
-      ]
-    },
     "STRUCTURAL": {
       "visual_features": [],
       "shape": [],
       "composition": [],
-      "parts": [],
-      "relations": []
+      "parts": []
     },
     "SPATIAL": {
-      "location": "Anterior to the psoas major muscle, within the pelvis and thigh",
-      "connected_to": [
-        "Lumbar plexus (L2-L4)",
-        "Iliacus muscle",
-        "Psoas major muscle",
-        "Inguinal ligament",
-        "Femoral artery",
-        "Femoral vein",
-        "Sartorius muscle",
-        "Quadriceps femoris muscle",
-        "Pectineus muscle",
-        "Skin of the anterior and medial thigh",
-        "Skin of the medial leg and foot (via saphenous nerve)"
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    },
+    "FUNCTION": {
+      "roles": [
+        "Signal transmitter"
       ],
-      "coordinates": []
+      "capabilities": [
+        "Sensory Input",
+        "Motor Output"
+      ]
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Ingestion Engine",
     "citations": [
-      "Femoral nerve - Wikipedia",
-      "The Femoral Nerve - Course - Motor - Sensory - TeachMeAnatomy",
-      "Femoral nerve: Anatomy and clinical notes | Kenhub"
+      "The Femoral Triangle - Borders - Contents - TeachMeAnatomy"
     ]
-  },
-  "autocorrected": true
+  }
 }

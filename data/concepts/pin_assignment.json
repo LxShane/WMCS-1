@@ -1,0 +1,82 @@
+{
+  "name": "Pin Assignment",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "process",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "improve overall design",
+      "temporal": {
+        "valid_from": "2024",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "assigning a specific pin location to each signal (net)",
+      "temporal": {
+        "valid_from": "2024",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The process of assigning a specific pin location to each signal (net) to improve the overall design.",
+    "common_uses": [
+      "improve performance",
+      "reduce noise",
+      "optimize power consumption"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Pin assignment optimizes the layout of a circuit by minimizing the length of connections.",
+    "origin": "Evolved from manual PCB layout to automated software tools."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Optimization"
+      ],
+      "capabilities": [
+        "Placement",
+        "Routing"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://www.techsimplifiedtv.in/2024/08/pin-assignment-power-ground-routing-in.html",
+    "citations": []
+  }
+}

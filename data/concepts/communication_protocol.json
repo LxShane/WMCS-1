@@ -1,9 +1,9 @@
 {
-  "name": "Communication Protocol",
+  "name": "Communication protocol",
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 9012
+    "item": 1234
   },
   "claims": [
     {
@@ -47,43 +47,39 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Specifications defining the nature of communication, data exchange, and state-dependent behaviors",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A set of rules for exchanging data between devices.",
+    "definition": "A set of specifications defining the rules and formats for data exchange between communication entities.",
     "common_uses": [
-      "Data exchange",
-      "Device communication"
+      "Data transmission",
+      "Network communication"
     ]
   },
   "deep_layer": {
-    "mechanism": "Establishes standards for data format and transmission.",
-    "origin": "Evolved from the need for structured communication."
+    "mechanism": "Establishes a common set of rules for encoding, transmitting, and interpreting data signals.",
+    "origin": "Evolved to standardize data exchange."
   },
-  "instance_layer": {
-    "examples": [
-      "UART",
-      "USB",
-      "Ethernet",
-      "CAN"
-    ]
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Communication control"
-      ],
-      "capabilities": [
-        "Data formatting",
-        "Transmission control"
-      ]
-    }
-  },
+  "instance_layer": [],
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Multiple Web Sources",
+    "source": "Communication protocol - Wikipedia",
     "citations": [
-      "https://www.protoexpress.com/blog/complete-guide-pcb-interfaces-communication-protocols/",
-      "https://sparxeng.com/blog/hardware/a-quick-guide-to-communication-protocols"
+      "https://en.wikipedia.org/wiki/Communication_protocol"
     ]
   }
 }

@@ -1,9 +1,9 @@
 {
   "name": "Exocytosis",
-  "type": "ABSTRACT_CONCEPT",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 50,
-    "item": 7890
+    "group": 30,
+    "item": 1003
   },
   "claims": [
     {
@@ -33,42 +33,84 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Active Transport",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Cell",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Move materials out of cells via vesicles",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Exocytosis is a process of vesicle fusion with the cell membrane to release contents.",
+    "definition": "A form of active transport where vesicles fuse with the cell membrane, releasing their contents outside the cell.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Vesicles move to the cell membrane, fuse, and expel their contents.",
-    "origin": "Cellular biology."
+    "mechanism": "Vesicles containing intracellular material migrate to the cell membrane and fuse, releasing their contents into the extracellular space.",
+    "origin": "Evolutionary adaptation for cellular secretion and waste removal."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
     "FUNCTION": {
-      "roles": [
-        "Transport"
-      ],
-      "capabilities": [
-        "Releasing neurotransmitters"
-      ]
+      "roles": [],
+      "capabilities": []
     },
-    "PROCESS_DATA": {
-      "affected": [
-        "neurotransmitter",
-        "synapse"
-      ],
-      "agent": [
-        "cell"
-      ]
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "Kenhub"
+      "Active transport - Wikipedia"
     ]
   }
 }

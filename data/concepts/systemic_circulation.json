@@ -2,8 +2,8 @@
   "name": "Systemic Circulation",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 30,
-    "item": 2345
+    "group": 20,
+    "item": 1235
   },
   "claims": [
     {
@@ -33,24 +33,36 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Circulation",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The systemic circulation is the movement of blood throughout the body.",
+    "definition": "The circulation of blood to all parts of the body except the lungs.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Blood travels from the heart to the body and back to the heart.",
-    "origin": "Evolved to supply oxygen and nutrients to all tissues."
+    "mechanism": "Blood is pumped by the heart and travels through blood vessels to deliver oxygen and nutrients to tissues and remove waste products in the body, excluding the lungs.",
+    "origin": "Evolution of circulatory systems in animals."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "Systemic and Special Circulations | Concise Medical Knowledge"
-    ]
+    "source": "Systemic and Special Circulations | Concise Medical Knowledge",
+    "citations": []
   }
 }

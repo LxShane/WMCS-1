@@ -1,9 +1,9 @@
 {
-  "name": "Synaptic vesicle",
-  "type": "LIVING_SYSTEM",
+  "name": "Synaptic Vesicle",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 25,
-    "item": 1003
+    "group": 30,
+    "item": 1004
   },
   "claims": [
     {
@@ -19,20 +19,78 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Containing glutamate",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Membrane",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Specialized proteins",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A small vesicle that contains neurotransmitters.",
+    "definition": "A vesicle that contains glutamate and is found in synapses.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Fusion with presynaptic membrane releases neurotransmitter.",
-    "origin": null
+    "mechanism": "Glutamate is transported into the vesicle by specialized proteins.",
+    "origin": "Neural synapses."
   },
-  "instance_layer": [],
-  "facets": {},
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
   "epistemic_metadata": {
-    "source": "Chemical synapse - Wikipedia",
+    "source": "https://naturalsciencenews.com/article/12185",
     "citations": []
   }
 }

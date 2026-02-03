@@ -1,0 +1,65 @@
+{
+  "name": "OVSDB",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1006
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "OVS Database",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "control devices",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "OVSDB (OVS Database) protocol is used to control devices.",
+    "common_uses": [
+      "Device control"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "OVSDB provides a configuration database for OVS.",
+    "origin": "Created to manage OVS configurations."
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Configuration Database"
+      ],
+      "capabilities": [
+        "device configuration"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://quizlet.com/607082231/sdn-and-apis-flash-cards/"
+    ]
+  }
+}

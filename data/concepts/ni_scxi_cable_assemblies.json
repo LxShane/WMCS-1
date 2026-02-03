@@ -1,0 +1,85 @@
+{
+  "name": "NI SCXI cable assemblies",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Connect a DAQ device to the SCXI system",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "High-quality, low-noise cables",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Cable assemblies designed for connecting DAQ devices to SCXI systems.",
+    "common_uses": [
+      "Connecting DAQ devices",
+      "Connecting SCXI systems"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Provides a physical connection for data transfer and power supply.",
+    "origin": "Manufactured for specific DAQ and SCXI systems."
+  },
+  "instance_layer": {
+    "examples": [
+      "NI SCXI-1349",
+      "NI SCXI-1346"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Cylindrical",
+        "Insulated",
+        "Color-coded wires"
+      ],
+      "shape": [
+        "Cable",
+        "Connector"
+      ],
+      "composition": [
+        "Copper",
+        "Plastic",
+        "Insulation"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Communication"
+      ],
+      "capabilities": [
+        "Data Transmission"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "DigiKey",
+    "citations": []
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "OpenFlow",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1007
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "control devices",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "OpenFlow protocol is used to control devices.",
+    "common_uses": [
+      "Device control"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "OpenFlow allows SDN controllers to directly control network forwarding devices.",
+    "origin": "Created to standardize communication between SDN controllers and switches."
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "SDN Protocol"
+      ],
+      "capabilities": [
+        "device control"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://quizlet.com/607082231/sdn-and-apis-flash-cards/"
+    ]
+  }
+}

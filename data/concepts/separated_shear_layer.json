@@ -1,0 +1,90 @@
+{
+  "name": "Separated Shear Layer",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 25,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Layer formed after detachment",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Flow feature",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Low-pressure region",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The layer of fluid that forms immediately after flow detachment from a surface.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Results from the instability of the separated flow, leading to a region of intense shear.",
+    "origin": "Arises immediately after flow separation."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Various sources",
+    "citations": [
+      "https://www.sciencedirect.com/science/article/pii/S0309170823001598",
+      "https://engineering.purdue.edu/~wassgren/teaching/ME30800/NotesAndReading/BoundaryLayer_PressureGradientEffects_Reading.pdf",
+      "https://engineerfix.com/flow-separation-and-recirculation-in-a-backward-facing-step/"
+    ]
+  }
+}

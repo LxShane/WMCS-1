@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 30,
-    "item": 6789
+    "item": 1005
   },
   "claims": [
     {
@@ -33,36 +33,50 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Neurotransmitter",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Synaptic vesicles",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "An excitatory neurotransmitter.",
+    "definition": "An amino acid that acts as a neurotransmitter.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Binds to receptors on postsynaptic neurons.",
-    "origin": "Synthesized from glutamine."
+    "mechanism": "Acts as an excitatory neurotransmitter in the central nervous system.",
+    "origin": "Metabolic pathways."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": [],
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Synaptic Signaling in Learning and Memory - PMC - NIH",
+    "source": "https://naturalsciencenews.com/article/12185",
     "citations": []
   }
 }

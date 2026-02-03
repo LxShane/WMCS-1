@@ -3,9 +3,23 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1005
+    "item": 3456
   },
   "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Quality of an electrical signal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
     {
       "predicate": "DEFINED_AS",
       "object": "Quality of an electrical signal",
@@ -22,21 +36,22 @@
     }
   ],
   "surface_layer": {
-    "definition": "A measure of the quality of an electrical signal as it propagates along a transmission line.",
-    "common_uses": [
-      "Ensuring reliable data transmission"
-    ]
+    "definition": "The quality of an electrical signal as it propagates through a circuit.",
+    "common_uses": []
   },
+  "deep_layer": {
+    "mechanism": "Maintaining signal shape and timing.",
+    "origin": "Electrical engineering"
+  },
+  "instance_layer": [],
   "facets": {
-    "PROPERTY_DATA": {
+    "ABSTRACT_DATA": {
       "domain": "Electrical Engineering",
-      "antonym": "Signal Degradation"
+      "antonym": "Signal Corruption"
     }
   },
   "epistemic_metadata": {
-    "source": "Multiple Web Sources",
-    "citations": [
-      "https://electronics.stackexchange.com/questions/688341/signal-integrity-with-a-gap-in-the-ground-plane"
-    ]
+    "source": "How to Design Ground (GND) in PCB Layout",
+    "citations": []
   }
 }

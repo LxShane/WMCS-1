@@ -1,0 +1,82 @@
+{
+  "name": "Driver Software",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "operating system",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "application-specific devices such as a microcontroller",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Software that allows the operating system or application-specific devices to communicate with the host controller interface.",
+    "common_uses": [
+      "Communication with HCI"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The driver software translates commands from the operating system or application into signals that the host controller interface can understand.",
+    "origin": "Developed as a software bridge to the host controller interface."
+  },
+  "instance_layer": {
+    "examples": [
+      "USB driver",
+      "Firewire driver"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Communication Driver"
+      ],
+      "capabilities": [
+        "Translates commands",
+        "Communicates with HCI"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Abstract, no physical form"
+      ],
+      "shape": [
+        "Abstract"
+      ],
+      "composition": [
+        "Software code"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Web Sources",
+    "citations": [
+      "Wikipedia"
+    ]
+  }
+}

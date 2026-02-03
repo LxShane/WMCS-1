@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 21,
-    "item": 1234
+    "item": 1005
   },
   "claims": [
     {
@@ -131,59 +131,70 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Brain",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "projecting to the LC",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The cerebellum is a major structure of the brain located at the base of the brain, responsible for motor control and coordination.",
+    "definition": "A major structure of the hindbrain that is located near the brainstem",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The cerebellum receives sensory information from the spinal cord and other parts of the brain and uses this information to fine-tune motor movements.",
-    "origin": "Develops from the metencephalon during embryonic development."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
     "FUNCTION": {
-      "roles": [
-        "Motor Control",
-        "Coordination"
-      ],
-      "capabilities": [
-        "Fine-tuning movements",
-        "Balance",
-        "Posture"
-      ]
+      "roles": [],
+      "capabilities": []
     },
     "STRUCTURAL": {
-      "visual_features": [
-        "Highly folded surface",
-        "Two hemispheres"
-      ],
-      "shape": [
-        "Oval",
-        "Globular"
-      ],
+      "visual_features": [],
+      "shape": [],
       "composition": [],
-      "parts": [
-        "Cerebellar cortex",
-        "Arbor vitae",
-        "Cerebellar nuclei"
-      ],
+      "parts": [],
       "relations": []
     },
     "SPATIAL": {
-      "location": "Posterior cranial fossa",
+      "location": "Brainstem",
       "coordinates": [],
-      "connected_to": [
-        "Brainstem"
-      ],
-      "contained_in": "Cranial cavity"
+      "connected_to": [],
+      "contained_in": "Hindbrain"
     }
   },
   "epistemic_metadata": {
-    "source": "Anatomy of the cerebellum - Wikipedia",
-    "citations": []
+    "source": "Ingestion Engine",
+    "citations": [
+      "Venous Drainage of the CNS - Cerebrum - TeachMeAnatomy"
+    ]
   }
 }

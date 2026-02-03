@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 20,
-    "item": 2222
+    "item": 1003
   },
   "claims": [
     {
@@ -19,28 +19,77 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "network device",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Spanning Tree Protocol",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Device that forwards data packets between devices.",
+    "definition": "A network device that filters and forwards packets between LAN segments.",
     "common_uses": [
-      "Connecting multiple devices in a network"
+      "Connecting devices on a network",
+      "Forwarding data packets"
     ]
   },
-  "deep_layer": {
-    "mechanism": "Forwards data packets based on destination MAC addresses.",
-    "origin": "Efficient data transmission in a network"
+  "deep_layer": {},
+  "instance_layer": {},
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Rectangular",
+        "Ports for cable connections"
+      ],
+      "shape": [
+        "Box-like"
+      ],
+      "composition": [
+        "Plastic",
+        "Metal",
+        "Electronic components"
+      ],
+      "parts": [
+        "Ports",
+        "Circuit board",
+        "Power supply"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Typically in a network closet or server room",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
   },
-  "instance_layer": {
-    "examples": [
-      "A network switch in a data center"
-    ]
-  },
-  "facets": {},
   "epistemic_metadata": {
-    "source": "System Interconnection - an overview | ScienceDirect Topics",
+    "source": "Set Automatically",
     "citations": [
-      "System Interconnection - an overview | ScienceDirect Topics"
+      "Cisco Spanning Tree Protocol Guide"
     ]
   }
 }

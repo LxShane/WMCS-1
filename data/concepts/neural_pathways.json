@@ -2,7 +2,7 @@
   "name": "Neural Pathways",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 31,
+    "group": 21,
     "item": 9012
   },
   "claims": [
@@ -33,25 +33,60 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Part of brain white matter structures",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Neural pathways transmit information between the body and the brain, enabling sensation, movement and conscious perception.",
+    "definition": "Neural pathways are the routes that nerve impulses travel through the nervous system.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Neural pathways transmit electrical signals between neurons.",
+    "origin": "Neural pathways develop during brain development."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "SPATIAL": {},
-    "STRUCTURAL": {}
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [
+        "Pathways",
+        "Branched"
+      ],
+      "composition": [
+        "Neurons",
+        "Axons"
+      ],
+      "parts": [
+        "Axons",
+        "Synapses"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Throughout the brain and nervous system",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Brain, Spinal Cord"
+    }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": []
+    "citations": [
+      "https://link.springer.com/article/10.1007/s00234-025-03637-7"
+    ]
   }
 }

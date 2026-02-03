@@ -1,9 +1,9 @@
 {
   "name": "Control Systems",
-  "type": "INANIMATE_OBJECT",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 20,
-    "item": 4567
+    "group": 50,
+    "item": 3456
   },
   "claims": [
     {
@@ -33,39 +33,53 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Data management at high-power laser facilities",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Systems that control a process or device.",
+    "definition": "Systems designed to regulate or maintain a desired state or behavior.",
     "common_uses": [
-      "Autonomous Navigation",
-      "Robotics"
+      "Automation",
+      "Process control"
     ]
   },
   "deep_layer": {
-    "mechanism": "Uses feedback loops and algorithms to maintain desired state.",
-    "origin": "Developed through control theory."
+    "mechanism": "Uses feedback loops and algorithms to adjust parameters.",
+    "origin": "Evolved from mechanical governors to complex digital systems."
   },
   "instance_layer": {
     "examples": [
-      "PID controllers"
+      "Cruise control in a car",
+      "Thermostat in a house"
     ]
   },
   "facets": {
     "FUNCTION": {
       "roles": [
-        "Controller"
+        "Regulation",
+        "Automation"
       ],
       "capabilities": [
         "Feedback control",
-        "Set-point regulation"
+        "Process monitoring"
       ]
     }
   },
   "epistemic_metadata": {
-    "source": "Multiple",
-    "citations": [
-      "https://www.lmitac.com/articles/autonomous-navigation-movement-without-human-control"
-    ]
+    "source": "Cambridge",
+    "citations": []
   }
 }

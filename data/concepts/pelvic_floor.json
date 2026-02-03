@@ -1,9 +1,9 @@
 {
   "name": "Pelvic Floor",
-  "type": "LIVING_SYSTEM",
+  "type": "BODY_PART",
   "id": {
-    "group": 32,
-    "item": 1001
+    "group": 22,
+    "item": 1004
   },
   "claims": [
     {
@@ -89,10 +89,38 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "INNERVATED_BY",
+      "object": "Pudendal Nerve",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INNERVATED_BY",
+      "object": "Sacral Nerve Roots (S3-S4)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "An anatomical location in the human body with an important role in urinary and anal continence, sexual function and support.",
+    "definition": "The region at the base of the pelvis.",
     "common_uses": []
   },
   "deep_layer": {
@@ -102,9 +130,28 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "STRUCTURAL": {},
+    "SPATIAL": {
+      "location": "Inferior aspect of the pelvis",
+      "connected_to": [
+        "Pubic symphysis",
+        "Ischial tuberosities",
+        "Coccyx",
+        "Sacrum",
+        "Obturator internus fascia",
+        "Urogenital diaphragm"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "Pelvic floor - Wikipedia",
-    "citations": []
-  }
+    "source": "Set Automatically",
+    "citations": [
+      "Pelvic Floor Anatomy - Physiopedia",
+      "Pelvic Floor Disorders",
+      "Overview of Female Pelvic Floor Muscle Anatomy and Physiology"
+    ]
+  },
+  "autocorrected": true
 }

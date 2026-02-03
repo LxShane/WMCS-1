@@ -1,9 +1,9 @@
 {
   "name": "Cranial Cavity",
-  "type": "INANIMATE_OBJECT",
+  "type": "BODY_PART",
   "id": {
-    "group": 37,
-    "item": 1240
+    "group": 27,
+    "item": 1005
   },
   "claims": [
     {
@@ -47,22 +47,84 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Space within the skull",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Housing the Brain",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Continuous Structure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The area inside the skull that contains the brain.",
+    "definition": "The cranial cavity is a space within the skull that houses the brain.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
+    "mechanism": "Bony structure that protects the brain from injury.",
     "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": []
+    },
+    "SPATIAL": {
+      "location": "Superior aspect of the skull, housing the brain and associated structures",
+      "connected_to": [
+        "Facial bones",
+        "Meninges",
+        "Cervical Vertebrae",
+        "Spinal Cord"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "The Human Body, Anatomical Terminology, Planes and Sections, Body Organization and Organ Systems",
-    "citations": []
-  }
+    "source": "Set Automatically",
+    "citations": [
+      "Chapter 1. Body Structure - Human Anatomy and Physiology I"
+    ]
+  },
+  "autocorrected": true
 }

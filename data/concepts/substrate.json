@@ -1,9 +1,9 @@
 {
   "name": "Substrate",
-  "type": "INANIMATE_OBJECT",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 30,
-    "item": 7890
+    "group": 21,
+    "item": 9012
   },
   "claims": [
     {
@@ -19,20 +19,60 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Binding",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Catalysis",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A substrate is a molecule upon which an enzyme acts.",
+    "definition": "A molecule upon which an enzyme acts.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Enzymes bind substrates via intermolecular forces.",
-    "origin": null
+    "mechanism": "The substrate binds to the active site of an enzyme, forming an enzyme-substrate complex. This complex facilitates the chemical reaction.",
+    "origin": "Can be any molecule that interacts with an enzyme."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Sucrose",
+      "Lactose"
+    ]
   },
   "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Reactant"
+      ],
+      "capabilities": [
+        "Undergoes chemical reaction",
+        "Binds to enzymes"
+      ]
+    },
     "STRUCTURAL": {
       "visual_features": [],
       "shape": [],
@@ -41,22 +81,22 @@
       "relations": []
     },
     "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    },
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
+      "location": "Variable; Depends on context. Could be basal, superficial, or internal relative to surrounding structures.",
+      "connected_to": [
+        "Adjacent cells",
+        "Extracellular matrix",
+        "Basement membrane",
+        "Enzymes",
+        "Receptors"
+      ],
+      "coordinates": []
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://en.wikipedia.org/wiki/Active_site",
-      "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/enzyme-structure",
-      "https://www.sciencedirect.com/topics/medicine-and-dentistry/enzyme-substrate-complex"
+      "https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Chemistry_for_Changing_Times_(Hill_and_McCreary)/16:_Biochemistry/16.05:_Structure_and_Function_of_Proteins"
     ]
-  }
+  },
+  "autocorrected": true
 }
