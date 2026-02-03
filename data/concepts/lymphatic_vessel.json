@@ -2,8 +2,8 @@
   "name": "Lymphatic Vessel",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 31,
-    "item": 1234
+    "group": 21,
+    "item": 1001
   },
   "claims": [
     {
@@ -243,63 +243,138 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Vessel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Molecular Marker",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Control Differentiation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Vessel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Afferent Lymphatic Vessel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Efferent Lymphatic Vessel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Draining into the subcapsular sinus",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Lymphatic system",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A vessel that transports lymph fluid from the tissues back to the circulatory system.",
-    "common_uses": [
-      "Lymph Transport",
-      "Fluid Recovery"
-    ]
+    "definition": "A vessel of the lymphatic system.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Contraction of smooth muscle and unidirectional flow due to valves.",
-    "origin": "Part of the lymphatic system."
+    "mechanism": "Lymphatic vessels transport lymph throughout the body.",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Fluid Transporter"
-      ],
-      "capabilities": [
-        "Lymph propulsion",
-        "Lymph flow regulation"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [
-        "Tubular"
-      ],
-      "shape": [
-        "Cylindrical",
-        "Branched"
-      ],
-      "composition": [],
-      "parts": [
-        "Smooth muscle",
-        "Intraluminal valves"
-      ],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "Throughout the body",
-      "coordinates": [],
-      "connected_to": [
-        "Lymph capillaries",
-        "Subclavian veins"
-      ],
-      "contained_in": null
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Ingestion Engine",
     "citations": [
       "Lymphatic vessel - Wikipedia",
-      "Lymphatic system - Wikipedia",
-      "Lymph - Wikipedia"
+      "Afferent and Efferent Lymphatic Vessels: Lymph Node Circulation",
+      "Anatomy, Lymph Nodes - StatPearls - NCBI Bookshelf"
     ]
   }
 }

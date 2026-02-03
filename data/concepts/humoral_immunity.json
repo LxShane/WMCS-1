@@ -1,9 +1,9 @@
 {
   "name": "Humoral Immunity",
-  "type": "ABSTRACT_CONCEPT",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 50,
-    "item": 1005
+    "group": 21,
+    "item": 1003
   },
   "claims": [
     {
@@ -33,26 +33,38 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Production of antibodies by B cells",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Immunity mediated by antibodies produced by B cells.",
+    "definition": "The branch of adaptive immunity that involves antibodies.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Antibodies neutralize pathogens.",
-    "origin": "Adaptive immune response."
+    "mechanism": "B cells produce antibodies that target specific antigens.",
+    "origin": "Part of the adaptive immune system."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "ABSTRACT_DATA": {}
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "See Sources",
+    "source": "Set Automatically",
     "citations": [
-      "https://anatomynote.com/lymph-node-sectional-anatomy-and-flow/"
+      "https://www.nature.com/articles/s41401-023-01207-2"
     ]
   }
 }

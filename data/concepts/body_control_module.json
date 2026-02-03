@@ -2,27 +2,140 @@
   "name": "Body Control Module",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 25,
-    "item": 1004
+    "group": 30,
+    "item": 1234
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Electronic Control Unit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Orchestrating comfort and convenience features",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Critical component in vehicles",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Arrangement of controls relative to the vehicle",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "An electronic control unit responsible for monitoring and controlling various electronic accessories in a vehicle.",
-    "common_uses": []
+    "definition": "A Body Control Module is a critical electronic control unit that orchestrates comfort and convenience features in a vehicle.",
+    "common_uses": [
+      "Controlling power windows",
+      "Managing interior lighting",
+      "Operating remote keyless entry"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "The BCM receives signals from various sensors and switches throughout the vehicle and activates corresponding outputs to control different functions.",
+    "origin": "Automotive engineering."
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": [
+      "A BCM in a Ford F-150 controls the power locks and windows."
+    ]
+  },
   "facets": {
-    "STRUCTURAL": {},
-    "SPATIAL": {}
+    "FUNCTION": {
+      "roles": [
+        "Controller"
+      ],
+      "capabilities": [
+        "Signal processing",
+        "Output activation"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Rectangular",
+        "Metallic"
+      ],
+      "shape": [
+        "Box-shaped"
+      ],
+      "composition": [
+        "Plastic",
+        "Metal",
+        "Electronic components"
+      ],
+      "parts": [
+        "Microcontroller",
+        "Connectors",
+        "Relays"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Varies depending on vehicle model; typically located within the passenger compartment, often under the dashboard, center console, or behind interior panels.",
+      "connected_to": [
+        "Wiring harnesses",
+        "Sensors",
+        "Actuators",
+        "Vehicle's electrical system",
+        "ECU (Engine Control Unit)",
+        "Transmission Control Unit (TCU)",
+        "Instrument Cluster",
+        "Lighting systems",
+        "Power windows",
+        "Power locks",
+        "Security system",
+        "Air conditioning system"
+      ],
+      "coordinates": []
+    }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "Scribd Document"
+      "https://blog.upfix.com/what-is-a-body-control-module",
+      "https://patents.google.com/patent/CN109460008A/en",
+      "https://patents.google.com/patent/US20200150462A1/en"
     ]
-  }
+  },
+  "autocorrected": true
 }

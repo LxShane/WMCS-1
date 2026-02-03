@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 21,
-    "item": 2468
+    "item": 1002
   },
   "claims": [
     {
@@ -33,15 +33,71 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Vessel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Blood Vessel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Molecular Marker",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Control Differentiation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Veins are blood vessels that carry blood towards the heart.",
+    "definition": "A type of vessel distinguished by structural differences that correspond to its function and defined by specific molecular markers.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Veins have valves to prevent backflow of blood.",
-    "origin": "Evolved to efficiently return blood from tissues to the heart."
+    "mechanism": "Molecular markers control the differentiation of embryonic undifferentiated cells into veins.",
+    "origin": "Embryonic differentiation"
   },
   "instance_layer": {
     "examples": []
@@ -53,20 +109,12 @@
       "composition": [],
       "parts": [],
       "relations": []
-    },
-    "SPATIAL": {
-      "location": "Throughout the body",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": "Circulatory system"
-    },
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
     }
   },
   "epistemic_metadata": {
-    "source": "https://www.sciencedirect.com/science/article/pii/S0031699725074605",
-    "citations": []
+    "source": "Manual",
+    "citations": [
+      "Molecular identity of arteries, veins, and lymphatics"
+    ]
   }
 }

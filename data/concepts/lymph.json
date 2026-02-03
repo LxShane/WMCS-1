@@ -2,8 +2,8 @@
   "name": "Lymph",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 30,
-    "item": 5678
+    "group": 21,
+    "item": 1004
   },
   "claims": [
     {
@@ -257,55 +257,95 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "excess tissue fluid",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Interstitial fluid",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Potential pathogens",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Tissue debris",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Immune cells",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Fluid that returns from the tissues to the venous system.",
-    "common_uses": [
-      "Fluid recirculation"
-    ]
+    "definition": "Fluid that leaks from end-stage capillaries that returns to the vascular system via the superficial and deep lymphatic.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Fluid returns to the circulatory system through lymphatic vessels.",
-    "origin": "Interstitial fluid."
+    "mechanism": "Lymph is transported through lymphatic vessels and filtered by lymph nodes.",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Fluid Returner"
-      ],
-      "capabilities": [
-        "Returning fluid to circulation"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [
-        "Clear",
-        "Watery"
-      ],
-      "shape": [],
-      "composition": [
-        "Water",
-        "Proteins",
-        "Cells"
-      ],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "Within lymphatic vessels and tissues",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Ingestion Engine",
     "citations": [
-      "Lymph - Wikipedia"
+      "Anatomy, Lymph Nodes - StatPearls - NCBI Bookshelf",
+      "Afferent and Efferent Lymphatic Vessels: Lymph Node Circulation"
     ]
   }
 }

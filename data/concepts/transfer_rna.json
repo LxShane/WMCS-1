@@ -2,8 +2,8 @@
   "name": "Transfer RNA",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 1238
+    "group": 21,
+    "item": 1001
   },
   "claims": [
     {
@@ -33,22 +33,114 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "RNA",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Anticodon",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Transfers growing polypeptide chain",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "3' end",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Ensuring correct amino acid placement in protein chain",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
     "definition": "A type of RNA molecule that helps decode a messenger RNA (mRNA) sequence into a protein.",
-    "common_uses": []
+    "common_uses": [
+      "Protein synthesis",
+      "Translation"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "tRNA molecules bind to specific mRNA codons via their anticodon loop and deliver the corresponding amino acid to the ribosome for polypeptide chain elongation.",
+    "origin": "Synthesized from DNA templates in the cell nucleus."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "tRNA-Ala",
+      "tRNA-Gly"
+    ]
   },
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Cytoplasm, Ribosome",
+      "connected_to": [
+        "mRNA",
+        "Aminoacyl-tRNA synthetase",
+        "Ribosome (A-site, P-site, E-site)",
+        "Amino acid"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "Nucleic Acid\u2013Protein Recognition",
-    "citations": []
-  }
+    "source": "Set Automatically",
+    "citations": [
+      "Transfer RNA - Wikipedia",
+      "Ribosome structure: revisiting the connection between translational accuracy and unconventional decoding - PMC",
+      "tRNA Structure and Function in Protein Translation"
+    ]
+  },
+  "autocorrected": true
 }

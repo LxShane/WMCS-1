@@ -1,0 +1,60 @@
+{
+  "name": "Autoimmune Disease",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "CAUSED_BY",
+      "object": "autoantibody",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Disorder",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Disease in which the body's immune system attacks its own tissues.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Immune system misidentifies self-antigens as foreign.",
+    "origin": "Combination of genetic and environmental factors."
+  },
+  "instance_layer": {
+    "examples": [
+      "Rheumatoid arthritis",
+      "Graves\u2019 disease"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Mechanisms of Autoantibody-Induced Pathology - PMC",
+      "Autoantibodies in Autoimmune Disorders: Mechanisms Diagnostic ..."
+    ]
+  }
+}

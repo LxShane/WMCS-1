@@ -1,0 +1,40 @@
+{
+  "name": "Rheumatoid Arthritis",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Autoimmune Disease",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Chronic inflammatory disorder affecting many joints.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Autoantibodies attack the synovium.",
+    "origin": "Unknown, possibly genetic and environmental factors."
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Mechanisms of Autoantibody-Induced Pathology - PMC"
+    ]
+  }
+}

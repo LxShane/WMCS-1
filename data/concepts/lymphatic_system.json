@@ -1,9 +1,9 @@
 {
-  "name": "Lymphatic system",
+  "name": "Lymphatic System",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 25,
-    "item": 9012
+    "group": 20,
+    "item": 1234
   },
   "claims": [
     {
@@ -439,24 +439,91 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "series of vessels and nodes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "collecting excess tissue fluid (lymph)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "filtering excess tissue fluid (lymph)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "returning lymph to the venous circulation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "vital part of the body's immune defence",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A vital network consisting of capillaries, ducts, nodes, and organs that plays a crucial role in maintaining fluid balance in the body.",
+    "definition": "The lymphatic system is a series of vessels and nodes that collect and filter excess tissue fluid (lymph), before returning it to the venous circulation.",
     "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": "Complex fluid regulation.",
-    "origin": null
-  },
-  "instance_layer": {
-    "examples": []
-  },
+  "deep_layer": {},
+  "instance_layer": {},
   "facets": {},
   "epistemic_metadata": {
-    "source": "Lymphatic system | Anatomy and Physiology | Research Starters",
+    "source": "Multiple Web Sources",
     "citations": [
-      "https://www.ebsco.com/research-starters/anatomy-and-physiology/lymphatic-system"
+      "TeachMeAnatomy",
+      "Biology LibreTexts",
+      "Klose Training"
     ]
   }
 }

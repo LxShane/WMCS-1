@@ -1,0 +1,77 @@
+{
+  "name": "Anticodon",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Nucleotide sequence",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Transfer RNA",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Base-pairing with mRNA codon",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A sequence of three nucleotides forming a unit of genetic code in a transfer RNA molecule, corresponding to a complementary codon in messenger RNA.",
+    "common_uses": [
+      "Decoding mRNA",
+      "Ensuring correct amino acid placement"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The anticodon sequence base-pairs with the mRNA codon during translation, allowing the tRNA to deliver the correct amino acid to the ribosome.",
+    "origin": "Encoded within the tRNA gene."
+  },
+  "instance_layer": {
+    "examples": [
+      "UAC anticodon",
+      "GGA anticodon"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Transfer RNA - Wikipedia",
+      "tRNA Structure and Function in Protein Translation"
+    ]
+  }
+}

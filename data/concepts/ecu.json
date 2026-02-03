@@ -2,8 +2,8 @@
   "name": "ECU",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 8735
+    "group": 22,
+    "item": 1004
   },
   "claims": [
     {
@@ -19,40 +19,83 @@
         "status": "SETTLED",
         "source_type": "UNKNOWN"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Vehicle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Electronic Control Units",
-    "common_uses": []
+    "definition": "Electronic Control Unit. A device in a vehicle to control one or more of the electrical systems or subsystems.",
+    "common_uses": [
+      "Vehicle control",
+      "System monitoring"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "An ECU receives sensor data, processes it, and sends control signals to actuators, regulating various vehicle functions.",
+    "origin": "Developed to automate and optimize vehicle systems."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Engine control unit",
+      "Brake control unit"
+    ]
   },
   "facets": {
     "FUNCTION": {
-      "roles": [],
-      "capabilities": []
+      "roles": [
+        "Controller",
+        "Monitor"
+      ],
+      "capabilities": [
+        "Signal processing",
+        "Actuator control",
+        "Data logging"
+      ]
     },
     "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
+      "visual_features": [
+        "Microchips",
+        "Circuit board",
+        "Connectors"
+      ],
+      "shape": [
+        "Rectangular",
+        "Box-shaped"
+      ],
+      "composition": [
+        "Silicon",
+        "Plastic",
+        "Metal"
+      ],
+      "parts": [
+        "Microcontroller",
+        "Memory",
+        "Input/Output interfaces"
+      ]
     },
     "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+      "location": "Inside vehicle",
+      "connected_to": [
+        "Sensors",
+        "Actuators",
+        "Wiring harness"
+      ]
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "How I Built a Car In a Box - Quarkslab's blog",
     "citations": []
   }
 }

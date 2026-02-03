@@ -2,8 +2,8 @@
   "name": "Ribosome",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 1007
+    "group": 21,
+    "item": 1003
   },
   "claims": [
     {
@@ -47,33 +47,87 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Catalyzing reaction between tRNA and polypeptide",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "A site",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "P site",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "E site",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A cell structure that makes protein.",
-    "common_uses": []
+    "definition": "A complex molecular machine found within all living cells that serves as the site of biological protein synthesis (translation).",
+    "common_uses": [
+      "Protein synthesis",
+      "Translation"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Ribosomes bind to mRNA and use tRNA molecules to assemble amino acids into polypeptide chains based on the genetic code.",
+    "origin": "Assembled from ribosomal RNA (rRNA) and ribosomal proteins."
   },
-  "instance_layer": [],
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": []
-    },
-    "SPATIAL": {}
+  "instance_layer": {
+    "examples": [
+      "Prokaryotic ribosome",
+      "Eukaryotic ribosome"
+    ]
   },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Protein Sorting and Transport - The Endoplasmic Reticulum, Golgi Apparatus, and Lysosomes",
+    "source": "Set Automatically",
     "citations": [
-      "https://www.ncbi.nlm.nih.gov/books/NBK9897/"
+      "Transfer RNA - Wikipedia",
+      "Ribosome structure: revisiting the connection between translational accuracy and unconventional decoding - PMC"
     ]
   }
 }

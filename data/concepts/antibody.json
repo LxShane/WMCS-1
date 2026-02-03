@@ -2,8 +2,8 @@
   "name": "Antibody",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 22,
-    "item": 1003
+    "group": 21,
+    "item": 1001
   },
   "claims": [
     {
@@ -229,42 +229,97 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Protein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "B cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Recognize Antigen",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Bind to Antigen",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Marking antigens for destruction",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A protein produced by plasma cells that binds to specific antigens.",
-    "common_uses": []
+    "definition": "Proteins produced by B cells that recognize and bind to antigens.",
+    "common_uses": [
+      "Therapeutic agents",
+      "Marking antigens"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Neutralizes pathogens by binding to their antigens.",
-    "origin": "Produced by plasma cells in response to antigen stimulation."
+    "mechanism": "Antibodies bind to antigens, which flags the antigen for destruction by other parts of the immune system.",
+    "origin": "Produced by B cells as part of the humoral immune response."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    },
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "See Sources",
+    "source": "Set Automatically",
     "citations": [
-      "https://anatomynote.com/lymph-node-sectional-anatomy-and-flow/"
+      "https://www.nature.com/articles/s41401-023-01207-2"
     ]
   }
 }

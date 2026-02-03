@@ -2,8 +2,8 @@
   "name": "Connector",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 7890
+    "group": 22,
+    "item": 1003
   },
   "claims": [
     {
@@ -117,17 +117,60 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Vehicle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Electrical connection",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Electrical Component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A device for joining electrical circuits.",
+    "definition": "A device for joining electrical circuits or components.",
     "common_uses": [
-      "Connecting electronic components"
+      "Electrical connection",
+      "Signal transmission"
     ]
   },
   "deep_layer": {
-    "mechanism": "Provides electrical continuity between circuits.",
-    "origin": "Manufactured for electrical connections."
+    "mechanism": "A connector provides a secure and reliable connection point for electrical wires or components, enabling signal and power transmission.",
+    "origin": "Developed to provide easily detachable electrical connections."
   },
   "instance_layer": {
     "examples": [
@@ -136,25 +179,42 @@
     ]
   },
   "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Electrical conductor"
+      ],
+      "capabilities": [
+        "Provide electrical connectivity",
+        "Securely attach wires"
+      ]
+    },
     "STRUCTURAL": {
       "visual_features": [
-        "Metallic",
-        "Plastic"
+        "Metallic pins",
+        "Plastic housing",
+        "Various shapes and sizes"
       ],
       "shape": [
         "Rectangular",
-        "Cylindrical"
+        "Circular",
+        "D-shaped"
       ],
       "composition": [
         "Metal",
-        "Plastic"
+        "Plastic",
+        "Ceramic"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Inside vehicle",
+      "connected_to": [
+        "Electrical components",
+        "Wiring harness"
       ]
     }
   },
   "epistemic_metadata": {
-    "source": "ScienceDirect Topics",
-    "citations": [
-      "Running Wire - an overview | ScienceDirect Topics"
-    ]
+    "source": "How I Built a Car In a Box - Quarkslab's blog",
+    "citations": []
   }
 }
