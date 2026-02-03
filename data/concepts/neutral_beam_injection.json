@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 4567
+    "item": 1234
   },
   "claims": [
     {
@@ -61,29 +61,178 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Plasma Heating System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Heating plasmas to fusion-relevant temperatures",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "method of heating plasma",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "heating plasma",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "plasma heating",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "materials processing",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "high-energy neutral atoms",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "fusion devices",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "unlocking clean energy",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "extreme temperatures",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A heating technique using beams of energetic neutral deuterium atoms injected into the plasma.",
+    "definition": "Neutral Beam Injection is a method of heating plasma in fusion devices using high-energy neutral atoms.",
     "common_uses": [
-      "Plasma heating"
+      "plasma heating",
+      "materials processing",
+      "unlocking clean energy"
     ]
   },
   "deep_layer": {
-    "mechanism": "Energetic neutral deuterium atoms transfer their kinetic energy to the plasma particles through collisions, increasing the plasma temperature.",
-    "origin": null
+    "mechanism": "Neutral beams inject energy into the plasma, increasing its temperature.",
+    "origin": "Developed for fusion research."
   },
   "instance_layer": {
     "examples": [
-      "ITER Plasma Heating"
+      "ITER",
+      "Princeton Plasma Physics Laboratory"
     ]
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Plasma Heating"
+      ],
+      "capabilities": [
+        "Heating plasma to extreme temperatures"
+      ]
+    }
+  },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://www.iter.org/machine/supporting-systems/external-heating-systems",
-      "https://www.sciencedirect.com/topics/chemical-engineering/plasma-heating"
-    ]
+    "source": "Search Snippet",
+    "citations": []
   }
 }

@@ -1,0 +1,87 @@
+{
+  "name": "None (absence of value)",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "a special value representing the absence of a value",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "indicating a missing or undefined result",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_IN",
+      "object": "Python",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_IN",
+      "object": "SQL (NULL)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "\"None\" represents the absence of a value.",
+    "common_uses": [
+      "representing missing data",
+      "indicating undefined results"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "In programming, 'None' often allows code to handle situations where a variable or result might not have a valid value.",
+    "origin": "Emerged from the need to represent missing or undefined data in computing systems."
+  },
+  "instance_layer": {
+    "examples": [
+      "In Python, a function that doesn't explicitly return a value returns 'None' by default."
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

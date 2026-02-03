@@ -1,0 +1,56 @@
+{
+  "name": "CD45",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1006
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "tyrosine phosphatase",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PREVENTS",
+      "object": "T-cell activation",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "CD45 is a protein tyrosine phosphatase (PTP) that regulates T cell activation.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "CD45 removes phosphate groups from proteins.",
+    "origin": "Expressed on hematopoietic cells."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "T-cell activation through the antigen receptor. Part 1: Signaling components, signaling pathways, and signal integration at the T-cell antigen receptor synapse"
+    ]
+  }
+}

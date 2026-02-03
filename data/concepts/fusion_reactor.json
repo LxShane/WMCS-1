@@ -2,8 +2,8 @@
   "name": "Fusion Reactor",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 1003
+    "group": 30,
+    "item": 1234
   },
   "claims": [
     {
@@ -19,24 +19,56 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Blanket",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Divertor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A device that utilizes the fusion process.",
-    "common_uses": []
+    "definition": "A device designed to produce controlled fusion reactions for energy generation.",
+    "common_uses": [
+      "Energy production",
+      "Fusion research"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Fusion reactions generate heat that is extracted to produce electricity.",
+    "origin": "Developed in the mid-20th century based on nuclear physics principles."
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [
+    "ITER",
+    "JET"
+  ],
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Energy.gov",
     "citations": [
-      "Fusion power"
+      "Energy.gov \u203a science \u203a fusion \u203a blanket-divertor-challenges"
     ]
   }
 }

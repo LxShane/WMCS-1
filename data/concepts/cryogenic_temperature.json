@@ -1,0 +1,43 @@
+{
+  "name": "Cryogenic Temperature",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 5005
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Temperature",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Extremely low temperature.",
+    "common_uses": [
+      "Superconductivity",
+      "Cryopreservation"
+    ]
+  },
+  "facets": {
+    "ABSTRACT_DATA": {
+      "domain": "Physics",
+      "properties": [
+        "low temperature"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Query",
+    "citations": []
+  }
+}

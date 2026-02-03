@@ -1,0 +1,90 @@
+{
+  "name": "Plasma Heating",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Process of increasing plasma temperature",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Fusion Energy",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Radio-Frequency Heating Systems",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Neutral Beam Injection",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The process of increasing the temperature of plasma.",
+    "common_uses": [
+      "Fusion Energy research"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Uses various methods to impart energy to plasma particles, increasing their kinetic energy and temperature.",
+    "origin": "Developed in the context of fusion energy research."
+  },
+  "instance_layer": {
+    "examples": [
+      "Radio-frequency heating",
+      "Neutral beam injection"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "www.pppl.gov/research/plasma-confinement-heating",
+      "www.iter.org/nbi"
+    ]
+  }
+}

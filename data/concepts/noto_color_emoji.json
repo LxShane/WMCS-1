@@ -1,0 +1,98 @@
+{
+  "name": "Noto Color Emoji",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Font",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Color glyphs",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Displaying emoji characters",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A font that provides color glyphs for emoji characters.",
+    "common_uses": [
+      "Displaying emojis on ChromeOS",
+      "Displaying emojis on Android"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Provides a visual representation for each emoji character.",
+    "origin": "Part of Google's Noto fonts project."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Visualizer"
+      ],
+      "capabilities": [
+        "Display emoji characters in color",
+        "Render consistent emoji across platforms"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Color"
+      ],
+      "shape": [
+        "Glyphs"
+      ],
+      "composition": [
+        "Font data"
+      ],
+      "parts": [
+        "Glyphs"
+      ],
+      "relations": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Implementation_of_emoji"
+    ]
+  }
+}

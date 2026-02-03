@@ -1,0 +1,90 @@
+{
+  "name": "Cryostat",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 2002
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Achieving Cryogenic Temperatures",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Integration with Vacuum Vessel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Maintaining Cryogenic Conditions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A device used to maintain cryogenic temperatures.",
+    "common_uses": [
+      "Cooling superconducting magnets",
+      "Cryogenics research"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Cryostats use refrigerants and vacuum insulation to minimize heat transfer and maintain extremely low temperatures.",
+    "origin": "Developed for low-temperature physics experiments."
+  },
+  "instance_layer": {
+    "examples": [
+      "Liquid helium cryostat"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic",
+        "Insulated",
+        "Complex Plumbing"
+      ],
+      "shape": [
+        "Cylindrical",
+        "Spherical"
+      ],
+      "composition": [
+        "Stainless Steel",
+        "Copper",
+        "Insulating Materials"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Query",
+    "citations": []
+  }
+}

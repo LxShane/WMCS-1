@@ -36,11 +36,13 @@ class ResearchAgent:
             if i >= max_steps: break
             print(colored(f"\nStep 2.{i+1}: Investigating '{question}'...", "yellow"))
             
-            # A. Search (Real or Sim)
-            if Config.SERPAPI_KEY:
-                results = self._search_real(question)
-                mode = "LIVE WEB"
-            else:
+            # A. Search (Real)
+            # We now use DuckDuckGo which is free, so we always try real search first.
+            results = self._search_real(question)
+            mode = "LIVE WEB (DDG)"
+            
+            # Fallback check
+            if not results:
                 results = self._search_simulated(question)
                 mode = "SIMULATION"
 
@@ -82,55 +84,43 @@ class ResearchAgent:
 
     def _search_real(self, query):
         """
-        EXECUTING REAL SEARCH via SERPAPI
+        EXECUTING REAL SEARCH via DUCKDUCKGO (Free & Unlimited)
         """
         try:
-            import urllib.parse
-            import urllib.request
+            # Try new package name first
+            try:
+                from ddgs import DDGS
+            except ImportError:
+                from duckduckgo_search import DDGS
             
-            if not Config.SERPAPI_KEY:
-                return "Error: No SERPAPI_KEY found in Config."
-
-            print(colored(f"  > Pinging SerpAPI for: '{query}'...", "cyan"))
+            print(colored(f"  > Searching (DDG): '{query}'...", "cyan"))
             
-            params = {
-                "engine": "google",
-                "q": query,
-                "api_key": Config.SERPAPI_KEY,
-                "num": 3
-            }
-            query_string = urllib.parse.urlencode(params)
-            url = f"https://serpapi.com/search?{query_string}"
+            # Using DuckDuckGo Search (new syntax)
+            results = []
+            with DDGS() as ddgs:
+                # 'text' method is standard for search
+                gen_results = ddgs.text(query, max_results=3)
+                if gen_results:
+                    results = list(gen_results)
             
-            with urllib.request.urlopen(url) as response:
-                if response.status != 200:
-                    print(colored(f"  [!] SerpAPI Error: {response.status}", "red"))
-                    return None
+            if not results:
+                print(colored("  [!] No results found.", "red"))
+                return None
                 
-                data = json.loads(response.read().decode('utf-8'))
-                
-                # Check for error in JSON body
-                if "error" in data:
-                     print(colored(f"  [!] SerpAPI JSON Error: {data['error']}", "red"))
-                     return None
-
-                # Extract Snippets
-                snippets = []
-                if "organic_results" in data:
-                    for result in data["organic_results"]:
-                        title = result.get("title", "")
-                        snippet = result.get("snippet", "")
-                        link = result.get("link", "")
-                        snippets.append(f"SOURCE: {title}\nURL: {link}\nCONTENT: {snippet}\n")
-                
-                combined_text = "\n".join(snippets)
-                return combined_text if combined_text else None
+            snippets = []
+            for r in results:
+                title = r.get("title", "")
+                link = r.get("href", "")
+                body = r.get("body", "")
+                snippets.append(f"SOURCE: {title}\nURL: {link}\nCONTENT: {body}\n")
+            
+            combined_text = "\n".join(snippets)
+            return combined_text if combined_text else None
 
         except Exception as e:
             print(colored(f"  [!] Search Exception: {str(e)}", "red"))
-            return None
-
-
+            # Fallback to simulation if network fails
+            return self._search_simulated(query)
 
 
     def _generate_report(self, topic):

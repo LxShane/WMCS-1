@@ -1,0 +1,151 @@
+{
+  "name": "FODO Cell",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 32,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Large and small arc sections",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Standard design",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Bending angle",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Type of widely used cell of magnets",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Two quadrupoles",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Two dipoles",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Drifts",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "FODO cell is a type of widely used cell of magnets that consists of only two quadrupoles and two dipoles or simply drifts between quads.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "FODO cells are used in particle accelerators for beam focusing and stability.",
+    "origin": "FODO cells are a standard design in accelerator physics."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": [
+        "Beam focusing",
+        "Provide beam stability in particle accelerators"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://colab.research.google.com/github/MSU-Beam-Dynamics/AP_enotes/blob/master/book/transverse_BD/examples/FODO_cell.ipynb",
+      "https://impactx.readthedocs.io/en/23.07/usage/examples/fodo/README.html"
+    ]
+  }
+}

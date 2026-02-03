@@ -11,7 +11,8 @@ class Handler(http.server.SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=DIRECTORY, **kwargs)
 
-print(f"Serving Dashboard at http://127.0.0.1:{PORT}/dashboard.html")
+print(f"Serving Dashboard at http://127.0.0.1:{PORT}/ultimate.html")
+print(f"Legacy Dashboard at http://127.0.0.1:{PORT}/dashboard.html")
 
 try:
     with socketserver.TCPServer(("", PORT), Handler) as httpd:

@@ -49,8 +49,8 @@ def boot():
     print("   SYSTEM BOOTING IN NEW WINDOWS")
     print("==================================")
     print("1. Wait 10 seconds.")
-    print("2. Refresh http://127.0.0.1:3000/dashboard.html")
-    print("3. Verify stars are visible.")
+    print("2. Open COMMAND CENTER: http://127.0.0.1:3000/ultimate.html")
+    print("3. Verify 'SYSTEM ONLINE' indicator.")
 
 if __name__ == "__main__":
     boot()

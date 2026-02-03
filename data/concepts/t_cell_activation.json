@@ -1,0 +1,61 @@
+{
+  "name": "T cell activation",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 62,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "REQUIRES",
+      "object": "Extracellular stimulatory signals",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MEDIATED_BY",
+      "object": "T cell receptor (TCR) complexes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The process by which a T cell is stimulated to perform its functions.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Involves a complex series of signaling events initiated by antigen binding to the TCR.",
+    "origin": "Triggered by the recognition of antigens presented by MHC molecules."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {},
+    "STRUCTURAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7272404/",
+      "https://www.cd-genomics.com/blog/overview-of-t-cell-receptor-signaling-pathways",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8666445/"
+    ]
+  }
+}

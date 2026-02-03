@@ -12,6 +12,7 @@ sys.path.append(os.path.join(os.getcwd(), '..'))
 sys.path.append(os.getcwd())
 
 from main import WMCS_Kernel
+from server.telemetry import telemetry
 
 from contextlib import asynccontextmanager
 
@@ -60,6 +61,11 @@ def get_activity():
     if hasattr(kernel, 'status'):
         return {"activity": kernel.status}
     return {"activity": "Idle"}
+
+@app.get("/logs")
+def get_logs(since: float = 0):
+    """Return logs newer than timestamp."""
+    return telemetry.get_logs(since)
 
 @app.post("/query")
 def run_query(req: QueryRequest):

@@ -17,8 +17,9 @@ Rules:
 5. ACTION LOGIC: For ACTIONS/PROCESSES (Group 60 or 50), you MUST populate 'facets.PROCESS_DATA'. Who does it? What is affected?
 6. PROPERTY LOGIC: For ADJECTIVES/PROPERTIES (Group 50), populate 'facets.PROPERTY_DATA'. What domain? What antonym?
 7. ABSTRACT LOGIC: For ABSTRACT IDEAS (Group 50), populate 'facets.ABSTRACT_DATA'.
-8. UNKNOWN HANDLING: If the text contains a new word that isn't clearly defined (e.g. "The glorp is next to the tree"), set type="UNKNOWN" and populate 'epistemic_metadata.ambiguity_notes'. Do NOT guess.
-9. Confidence: 0.0 to 1.0 based on text clarity.
+8. SPATIAL LOGIC: For PHYSICAL parts/objects, you MUST populate 'facets.SPATIAL'. Where is it? What does it touch? (e.g. "Connected to the scapula").
+9. UNKNOWN HANDLING: If the text contains a new word that isn't clearly defined (e.g. "The glorp is next to the tree"), set type="UNKNOWN" and populate 'epistemic_metadata.ambiguity_notes'. Do NOT guess.
+10. Confidence: 0.0 to 1.0 based on text clarity.
 
 Output JSON Schema:
 {
@@ -68,6 +69,12 @@ Output JSON Schema:
                      "composition": ["Material made of"],
                      "parts": ["Key components"],
                      "relations": ["Other relations"]
+                 },
+                 "SPATIAL": {
+                     "location": "Relative position (e.g. Anterior, Distal, Inside Cranium)",
+                     "coordinates": ["Abstract XYZ or Region Vector"],
+                     "connected_to": ["List of parts it physically attaches to"],
+                     "contained_in": "Parent body cavity/part"
                  }
                  // Legacy facets kept for compatibility, but 'claims' is preferred for new knowledge
              },

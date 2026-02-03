@@ -1,0 +1,88 @@
+{
+  "name": "Conservation Law",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A principle stating that a specific physical property (e.g., energy, mass, momentum) remains constant over time within a closed system.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Law",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "EXPRESSED_AS",
+      "object": "Continuity equation",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A principle stating that a specific physical property (e.g., energy, mass, momentum) remains constant over time within a closed system.",
+    "common_uses": [
+      "Physics",
+      "Ecology"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The underlying mechanism involves the balance between the rate of change of a quantity within a region and the flux of that quantity across the boundary of the region.",
+    "origin": "Derived from empirical observations and mathematical formulations."
+  },
+  "instance_layer": {
+    "examples": [
+      "Conservation of energy",
+      "Conservation of mass",
+      "Conservation of momentum"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Describes constant properties in closed systems"
+      ],
+      "capabilities": [
+        "Predicting system behavior",
+        "Modeling physical processes"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Conservation law - Wikipedia",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Conservation_law",
+      "https://www.scribd.com/document/244210292/Denis-Serre-Systems-of-Conservation-Laws-1-Hyperbolicity-Entropies-Shock-Waves-1999-pdf"
+    ]
+  }
+}

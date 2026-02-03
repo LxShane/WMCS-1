@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WMCS Command Center</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/3d-force-graph"></script>
+</head>
+
+<body>
+
+    <div id="app-container">
+        <!-- SIDEBAR -->
+        <aside id="sidebar" class="glass-panel">
+            <div class="logo">neXus_CORE</div>
+
+            <div class="status-indicator">
+                <span id="status-dot" class="dot active"></span>
+                <span id="status-text">SYSTEM ONLINE</span>
+            </div>
+
+            <div class="stat-item">
+                <span>Vectors</span>
+                <span id="stat-vectors" class="stat-value">--</span>
+            </div>
+            <div class="stat-item">
+                <span>Concepts</span>
+                <span id="stat-concepts" class="stat-value">Lazy</span>
+            </div>
+            <div class="stat-item">
+                <span>Cache</span>
+                <span id="stat-cache" class="stat-value">--</span>
+            </div>
+
+            <div style="flex:1"></div>
+
+            <button onclick="cleanReset()" style="background: #ef4444; font-size: 0.8rem;">RESET KERNEL</button>
+        </aside>
+
+        <!-- MAIN STAGE -->
+        <main id="main-stage">
+            <!-- 3D VISUALIZATION -->
+            <div id="viz-container">
+                <div id="3d-graph"></div>
+            </div>
+
+            <!-- CHAT / INTERACTION -->
+            <div id="chat-interface" class="glass-panel">
+                <div id="chat-history">
+                    <div class="msg ai">Initialized. Awaiting input.</div>
+                </div>
+                <div id="input-area">
+                    <input type="text" id="query-input" placeholder="Enter command or query..." autocomplete="off">
+                    <button id="send-btn">EXECUTE</button>
+                </div>
+            </div>
+        </main>
+
+        <!-- TELEMETRY / LOGS -->
+        <aside id="telemetry-panel" class="glass-panel">
+            <div class="panel-header">
+                <span>LIVE TELEMETRY</span>
+                <span id="log-count">0 events</span>
+            </div>
+            <div id="terminal">
+                <!-- Logs go here -->
+            </div>
+        </aside>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

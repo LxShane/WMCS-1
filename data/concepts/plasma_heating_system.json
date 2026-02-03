@@ -1,0 +1,87 @@
+{
+  "name": "Plasma Heating System",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Sustained Fusion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Technology",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A system used to heat plasma to temperatures required for sustained nuclear fusion.",
+    "common_uses": [
+      "Fusion energy research",
+      "Maintaining high-temperature plasmas"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Various methods like Neutral Beam Injection and Electron Cyclotron Heating transfer energy to the plasma, increasing its temperature.",
+    "origin": "Developed for controlled fusion research."
+  },
+  "instance_layer": {
+    "examples": [
+      "Neutral Beam Injection (NBI) systems",
+      "Electron Cyclotron Heating (ECH) systems"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Heater"
+      ],
+      "capabilities": [
+        "Raises plasma temperature",
+        "Maintains plasma temperature"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Complex",
+        "High-energy"
+      ],
+      "shape": [
+        "Variable, depends on the specific technology"
+      ],
+      "composition": [
+        "Varies by system"
+      ],
+      "parts": [
+        "Energy Source",
+        "Control System"
+      ],
+      "relations": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

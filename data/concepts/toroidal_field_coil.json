@@ -1,0 +1,106 @@
+{
+  "name": "Toroidal Field Coil",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 22,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Coil",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Superconducting Material",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Generating Toroidal Magnetic Field",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Superconducting Magnet System",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A coil that generates a toroidal magnetic field, often made of superconducting material.",
+    "common_uses": [
+      "Plasma Confinement in Tokamaks"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Current flows through the coil, creating a magnetic field that curves around the torus.",
+    "origin": "Designed for toroidal plasma confinement."
+  },
+  "instance_layer": [
+    "TF Coils in ITER"
+  ],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic",
+        "Coiled"
+      ],
+      "shape": [
+        "Toroidal"
+      ],
+      "composition": [
+        "Superconducting Material"
+      ],
+      "parts": []
+    },
+    "FUNCTION": {
+      "roles": [
+        "Magnetic Field Generator"
+      ],
+      "capabilities": [
+        "Generating a Toroidal Magnetic Field"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Text Snippets",
+    "citations": []
+  }
+}

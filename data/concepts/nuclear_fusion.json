@@ -1,0 +1,67 @@
+{
+  "name": "Nuclear Fusion",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "REQUIRES",
+      "object": "High Temperatures",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "High Ion Density",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A nuclear reaction in which two or more atomic nuclei combine to form one or more different atomic nuclei and subatomic particles (neutrons or protons).",
+    "common_uses": [
+      "Energy production"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Light nuclei are forced together under extreme temperatures and pressure, releasing energy.",
+    "origin": "Stellar processes"
+  },
+  "instance_layer": [
+    "ITER",
+    "Stellarators"
+  ],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Energy Source"
+      ],
+      "capabilities": [
+        "Generating electricity"
+      ]
+    },
+    "STRUCTURAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Simulated Search Snippets",
+    "citations": []
+  }
+}

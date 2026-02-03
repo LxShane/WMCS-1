@@ -1,0 +1,82 @@
+{
+  "name": "Diffuse layer",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 20,
+    "item": 3456
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "\"cloud\" of counter-ions above the surface",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "electrical double layer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Debye layer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A cloud of counter-ions above the surface, also known as the electrical double layer or Debye layer.",
+    "common_uses": []
+  },
+  "deep_layer": {},
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Cloud-like"
+      ],
+      "shape": [
+        "Layer"
+      ],
+      "composition": [
+        "Ions"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Above the surface"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Debye Length in a Symmetric Electrolyte Solution",
+    "citations": [
+      "https://www.wolframcloud.com/objects/demonstrations/DebyeLengthInASymmetricElectrolyteSolution-source.nb"
+    ]
+  }
+}

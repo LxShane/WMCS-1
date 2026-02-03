@@ -1,0 +1,54 @@
+{
+  "name": "T cell",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Type of lymphocyte",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Tissue-resident memory T cells (TRM)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A type of lymphocyte that plays a central role in cell-mediated immunity.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "T cells recognize and eliminate infected cells.",
+    "origin": "Develops in the thymus."
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "T cell - Wikipedia",
+    "citations": [
+      "https://en.wikipedia.org/wiki/T_cell"
+    ]
+  }
+}

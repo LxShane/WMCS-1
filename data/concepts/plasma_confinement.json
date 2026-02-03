@@ -33,34 +33,176 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Process of containing plasma",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Critical Step Towards Fusion Energy",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Plasma Heating",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Magnetic Confinement",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Inertial Confinement",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "The process of containing plasma using magnetic fields.",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Magnetic Fields",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Superconducting Magnet System",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Process",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Fusion Energy Development",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Plasma confinement refers to the containment of a plasma by various forces at the extreme conditions necessary for fusion.",
-    "common_uses": []
+    "definition": "The process of containing plasma using magnetic or other fields.",
+    "common_uses": [
+      "Fusion research",
+      "Industrial processes"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Plasma is confined using various methods to create conditions for nuclear fusion.",
-    "origin": null
+    "mechanism": "Plasma is confined by magnetic fields preventing it from touching the walls of the confinement vessel.",
+    "origin": "Early plasma physics research"
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [
+    "Tokamaks",
+    "Stellarators"
+  ],
   "facets": {
     "FUNCTION": {
-      "roles": [],
-      "capabilities": []
+      "roles": [
+        "Containment"
+      ],
+      "capabilities": [
+        "Maintaining plasma stability"
+      ]
     },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    }
+    "STRUCTURAL": {}
   },
   "epistemic_metadata": {
-    "source": "DOE Explains...Plasma Confinement, Plasma Confinement - an overview",
+    "source": "Simulated Search Snippets",
     "citations": []
   }
 }

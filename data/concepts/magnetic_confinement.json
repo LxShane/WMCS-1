@@ -1,0 +1,89 @@
+{
+  "name": "Magnetic Confinement",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 2345
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Plasma Confinement Method",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USES",
+      "object": "Magnetic Fields",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Tokamaks",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Stellarators",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A method of plasma confinement that uses magnetic fields.",
+    "common_uses": [
+      "Fusion energy research"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Magnetic fields exert forces on charged particles in the plasma, confining them to a specific region.",
+    "origin": "Developed for fusion energy research."
+  },
+  "instance_layer": {
+    "examples": [
+      "Tokamak reactors"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "www.sciencedirect.com/topics/engineering/plasma-confinement",
+      "www.pppl.gov/research/plasma-confinement-heating"
+    ]
+  }
+}

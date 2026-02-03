@@ -1,0 +1,68 @@
+{
+  "name": "Secondary Immune Response",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 1239
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "fast and strong immune system response because of memory cells from the first exposure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PRECEDED_BY",
+      "object": "Primary Immune Response",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A rapid and robust response based on prior exposure.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Memory cells provide a faster and stronger defense.",
+    "origin": "Evolved biological system."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "SPATIAL": {
+      "location": "Systemic, occurs throughout the body, particularly in secondary lymphoid organs (spleen, lymph nodes)",
+      "connected_to": [
+        "Lymph nodes",
+        "Spleen",
+        "Circulatory system",
+        "Bone marrow"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Immune_response"
+    ]
+  },
+  "autocorrected": true
+}

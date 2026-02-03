@@ -1,0 +1,68 @@
+{
+  "name": "Plasma cell",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1006
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "differentiated B cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "producing antibody molecules",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PREDECEDES",
+      "object": "memory B cell",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A differentiated B cell that produces antibodies.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Plasma cells secrete large amounts of antibodies.",
+    "origin": "Develops from activated B cells."
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Sci-Hub: A Temporal Switch in the Germinal Center Determines...",
+    "citations": [
+      "https://sci-hub.red/meta/10.1016/j.immuni.2015.12.004"
+    ]
+  }
+}

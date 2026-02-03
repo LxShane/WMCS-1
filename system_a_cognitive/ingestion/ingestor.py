@@ -37,6 +37,36 @@ class ContentIngestor:
         
         return self.ingest_text(content, source_name=os.path.basename(filepath))
 
+    def ingest_proposition(self, text: str) -> List[str]:
+        """
+        Fast ingestion for single propositions.
+        Ex: "A Zorb is a floating pink orb."
+        """
+        system_prompt = (
+            "You are a Knowledge Extraction Engine.\\n"
+            "Input: A single factual statement.\\n"
+            "Output: A SINGLE valid Concept Block JSON.\\n"
+            "Rules:\\n"
+            "1. Extract the SUBJECT as the concept Name.\\n"
+            "2. Extract the DEFINITION.\\n"
+            "3. Extract CLAIMS (Subject -> Predicate -> Object).\\n"
+            "4. Infer the TYPE (Physical, Abstract, etc).\\n"
+            "5. Return ONLY JSON."
+        )
+        
+        print(f"DEBUG: Learning Proposition: '{text}'...")
+        response_json = self.client.json_completion(system_prompt, text)
+        
+        # Wrap in list if single object
+        if isinstance(response_json, dict) and "name" in response_json:
+            blocks = [response_json]
+        elif isinstance(response_json, dict) and "blocks" in response_json:
+             blocks = response_json["blocks"]
+        else:
+             blocks = []
+             
+        return self._process_and_save_blocks(blocks)
+
     def ingest_text(self, content: str, source_name: str = "interactive") -> List[str]:
         """
         Ingests raw text string.
@@ -45,13 +75,13 @@ class ContentIngestor:
         truncated_content = content[:30000]
         prompt = INGESTION_USER_PROMPT_TEMPLATE.format(text=truncated_content) 
 
-        with open("ingestion_debug.log", "a") as log:
+        with open("ingestion_debug.log", "a", encoding='utf-8') as log:
             log.write(f"\n--- Ingesting {source_name} ---\n")
 
         print(f"DEBUG: Sending ingestion request for {source_name}...")
         response_json = self.client.json_completion(INGESTION_SYSTEM_PROMPT, prompt)
         
-        with open("ingestion_debug.log", "a") as log:
+        with open("ingestion_debug.log", "a", encoding='utf-8') as log:
             log.write(f"LLM Response: {response_json}\n")
 
         if "error" in response_json:

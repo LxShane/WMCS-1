@@ -1,0 +1,139 @@
+{
+  "name": "T Cell Receptor (TCR)",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 22,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Receptor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "T cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Recognizes antigens on major histocompatibility complex molecules",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "CD4 or CD8 coreceptors",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "TCR-induced signaling cascades",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INTERACTS_WITH",
+      "object": "MHC-antigenic peptide complex",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Changes at the molecular and cellular levels in T cells",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A receptor found on T cells that recognizes antigens presented by MHC molecules.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Initiates signaling cascades upon antigen recognition, leading to T cell activation and gene expression.",
+    "origin": "Encoded by genes within the T cell genome."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Receptor"
+      ],
+      "capabilities": [
+        "Antigen recognition",
+        "Signal transduction"
+      ]
+    },
+    "STRUCTURAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7272404/",
+      "https://www.cd-genomics.com/blog/overview-of-t-cell-receptor-signaling-pathways",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8666445/"
+    ]
+  }
+}

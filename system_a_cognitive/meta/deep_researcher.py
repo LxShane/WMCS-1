@@ -58,13 +58,10 @@ class DeepResearchAgent(ResearchAgent):
         created_concepts = [] # Track what we learn
         
         # 1. Search
-        if Config.SERPAPI_KEY:
-            results = self._search_real(topic)
-            # FALLBACK: If Real Search fails (Rate Limit), use Simulation
-            if results is None: 
-                print(colored(f"{indent}  [!] Real Search failed. Falling back to Simulation.", "magenta"))
-                results = self._search_simulated(topic)
-        else:
+        # We always attempt real search now via DuckDuckGo
+        results = self._search_real(topic)
+        if results is None: 
+            print(colored(f"{indent}  [!] Real Search failed. Falling back to Simulation.", "magenta"))
             results = self._search_simulated(topic)
             
         # 2. Ingest Immediate Findings

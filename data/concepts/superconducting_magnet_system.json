@@ -1,0 +1,124 @@
+{
+  "name": "Superconducting Magnet System",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 22,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Magnet System",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Superconducting Material",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Toroidal Field Coil",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Poloidal Field Coil",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Plasma Confinement",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A magnet system utilizing superconducting materials for enhanced performance.",
+    "common_uses": [
+      "Plasma Confinement in Fusion Reactors"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Superconducting materials allow for high magnetic fields with minimal energy loss, enabling efficient plasma confinement.",
+    "origin": "Developed for advanced applications requiring strong magnetic fields, such as fusion energy research."
+  },
+  "instance_layer": [
+    "ITER Magnet System"
+  ],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic",
+        "Coiled"
+      ],
+      "shape": [
+        "Toroidal",
+        "Poloidal"
+      ],
+      "composition": [
+        "Superconducting Material"
+      ],
+      "parts": [
+        "Toroidal Field Coils",
+        "Poloidal Field Coils"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Plasma Confiner"
+      ],
+      "capabilities": [
+        "Generating strong magnetic fields"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Text Snippets",
+    "citations": []
+  }
+}
