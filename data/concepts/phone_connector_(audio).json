@@ -1,0 +1,79 @@
+{
+  "name": "Phone Connector (Audio)",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Connector",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Audio",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A connector used for audio signals.",
+    "common_uses": [
+      "Connecting headphones",
+      "Connecting microphones"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Transmits analog audio signals between devices.",
+    "origin": "Developed for early telephone switchboards."
+  },
+  "instance_layer": [
+    "3.5 mm connector",
+    "6.35 mm connector"
+  ],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Cylindrical",
+        "Metallic"
+      ],
+      "shape": [
+        "Cylinder"
+      ],
+      "composition": [
+        "Metal",
+        "Plastic"
+      ]
+    },
+    "SPATIAL": {
+      "location": "External",
+      "connected_to": [
+        "Audio source",
+        "Audio receiver"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Phone connector (audio) - Wikipedia",
+    "citations": []
+  }
+}

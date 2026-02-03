@@ -1,9 +1,9 @@
 {
   "name": "Maintenance",
-  "type": "ABSTRACT_CONCEPT",
+  "type": "SOCIAL_CONSTRUCT",
   "id": {
-    "group": 50,
-    "item": 1238
+    "group": 60,
+    "item": 1004
   },
   "claims": [
     {
@@ -19,32 +19,49 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Understanding of different mounting types",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Activities aimed at preserving the condition of something.",
-    "common_uses": []
+    "definition": "The process of preserving something in its original condition.",
+    "common_uses": [
+      "Maintaining equipment",
+      "Maintaining software"
+    ]
   },
   "deep_layer": {
-    "mechanism": "The act of keeping something in working order.",
-    "origin": null
+    "mechanism": "The process of keeping something in good working order.",
+    "origin": "From the Old French 'maintenir'."
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": [
+      "Maintaining a solar panel system",
+      "Maintaining a vehicle"
+    ]
+  },
   "facets": {
     "FUNCTION": {
       "roles": [],
       "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": []
+    "citations": [
+      "Module 12 - Mounting Structures for PV Systems"
+    ]
   }
 }

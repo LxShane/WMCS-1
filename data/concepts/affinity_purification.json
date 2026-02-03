@@ -1,0 +1,84 @@
+{
+  "name": "Affinity Purification",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Identifying specific protein interaction partners",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "SILAC-based mass spectrometry",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Affinity Matrices",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A biochemical technique used to purify a specific protein from a complex mixture.",
+    "common_uses": [
+      "Protein purification",
+      "Identifying protein complexes"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "A target protein is selectively bound to a ligand attached to a solid support, allowing separation from other molecules.",
+    "origin": "Developed to isolate specific biomolecules from complex biological samples."
+  },
+  "instance_layer": {
+    "examples": [
+      "Purifying antibodies using protein A/G columns"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Purification"
+      ],
+      "capabilities": [
+        "Protein isolation"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "PMC",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2568020/"
+    ]
+  }
+}

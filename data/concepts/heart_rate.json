@@ -1,0 +1,43 @@
+{
+  "name": "Heart Rate",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 23,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Physiological process",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The speed of the heartbeat measured by the number of contractions (beats) of the heart per minute (BPM).",
+    "common_uses": [
+      "Measurement of cardiovascular health"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Regulated by the autonomic nervous system",
+    "origin": "Fundamental to circulatory function."
+  },
+  "instance_layer": [
+    "Resting heart rate",
+    "Maximum heart rate during exercise"
+  ],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "US8126561B2 - Implantable and rechargeable neural stimulator - https://patents.google.com/patent/US8126561B2/en",
+    "citations": []
+  }
+}

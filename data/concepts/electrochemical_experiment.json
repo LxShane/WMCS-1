@@ -1,0 +1,85 @@
+{
+  "name": "Electrochemical Experiment",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 2345
+  },
+  "claims": [
+    {
+      "predicate": "REQUIRES",
+      "object": "Working electrode",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Reference electrode",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Counter electrode",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A scientific procedure involving the study of chemical reactions that take place at the interface between an electrode and an electrolyte solution.",
+    "common_uses": [
+      "Studying redox reactions",
+      "Analyzing electrochemical properties",
+      "Developing electrochemical devices"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Involves applying a potential difference between electrodes and measuring the resulting current flow to study the kinetics and thermodynamics of electrochemical reactions.",
+    "origin": "Evolved from the study of electrochemistry by scientists such as Luigi Galvani and Alessandro Volta."
+  },
+  "instance_layer": {
+    "examples": [
+      "Cyclic voltammetry",
+      "Electrochemical impedance spectroscopy"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Scientific investigation"
+      ],
+      "capabilities": [
+        "Measuring current",
+        "Applying potential"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Instrument Grounding and Guide for the Right Setup",
+    "citations": []
+  }
+}

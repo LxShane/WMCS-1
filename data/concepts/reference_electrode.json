@@ -1,0 +1,75 @@
+{
+  "name": "Reference Electrode",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Electrode",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Electrochemical Experiment",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An electrode which has a stable and well-known electrode potential, used as a reference point for measuring the potential of the working electrode.",
+    "common_uses": [
+      "Electrochemical measurements",
+      "Potentiometry"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Provides a stable electrochemical potential that does not change during the experiment.",
+    "origin": "Part of electrochemical cells since their development."
+  },
+  "instance_layer": {
+    "examples": [
+      "Saturated calomel electrode (SCE)",
+      "Silver chloride electrode (Ag/AgCl)"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Glass",
+        "Metallic"
+      ],
+      "shape": [
+        "Tube",
+        "Rod"
+      ],
+      "composition": [
+        "Mercury",
+        "Silver chloride"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Instrument Grounding and Guide for the Right Setup",
+    "citations": []
+  }
+}

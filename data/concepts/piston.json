@@ -2,64 +2,8 @@
   "name": "Piston",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 4567
-  },
-  "surface_layer": {
-    "definition": "A cylindrical metal part that moves up and down inside the cylinder of an engine.",
-    "common_uses": [
-      "Converting pressure into motion"
-    ]
-  },
-  "deep_layer": {
-    "mechanism": "The piston moves within the cylinder, driven by pressure from combustion, and transfers that force to the crankshaft.",
-    "origin": "Part of the internal combustion engine design."
-  },
-  "instance_layer": {
-    "examples": [
-      "Piston in a car engine"
-    ]
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "FORCE_TRANSMITTER",
-        "MOTION_CONVERTER"
-      ],
-      "capabilities": [
-        "Reciprocating motion"
-      ]
-    },
-    "EQUIVALENCE": {
-      "fills_role": [
-        "FORCE_TRANSMITTER",
-        "MOTION_CONVERTER"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [
-        "Cylindrical",
-        "Smooth surface"
-      ],
-      "shape": [
-        "Cylindrical"
-      ],
-      "composition": [
-        "Metal"
-      ],
-      "parts": [],
-      "relations": [
-        "LOCATED_AT: Cylinder"
-      ]
-    },
-    "MECHANISM": [],
-    "PROCESS_DATA": null,
-    "PROPERTY_DATA": null,
-    "ABSTRACT_DATA": null
-  },
-  "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
+    "group": 25,
+    "item": 5678
   },
   "claims": [
     {
@@ -133,6 +77,140 @@
         "status": "SETTLED",
         "source_type": "MIGRATE_LEGACY"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Moving component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Reciprocating engines",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Reciprocating pumps",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Gas compressors",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Hydraulic cylinders",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Pneumatic cylinders",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Metal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Piston Pin",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
-  ]
+  ],
+  "epistemic_metadata": {
+    "source": "Multiple web sources",
+    "citations": [
+      "Connecting rod - Wikipedia",
+      "How Engine Pistons and Connecting Rods Work",
+      "The Role of the Crankshaft and Connecting Rod Mechanism"
+    ]
+  }
 }

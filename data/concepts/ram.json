@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 20,
-    "item": 1234
+    "item": 1235
   },
   "claims": [
     {
@@ -285,48 +285,68 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Data Memory",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Store Variables",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Store Data",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "RAM is a type of volatile memory that temporarily stores data and instructions for fast access.",
-    "common_uses": [
-      "Storing data and instructions",
-      "Providing fast access to data"
-    ]
+    "definition": "Data memory used to store variables and data during operation.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "RAM allows the CPU to quickly access data without needing to retrieve it from slower storage devices.",
-    "origin": "Evolved from earlier forms of computer memory."
+    "mechanism": null,
+    "origin": null
   },
-  "instance_layer": {
-    "examples": [
-      "DDR5 RAM"
-    ]
-  },
+  "instance_layer": {},
   "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "FUNCTION": {
-      "roles": [
-        "Memory"
-      ],
-      "capabilities": [
-        "Fast data access",
-        "Temporary storage"
-      ]
-    }
+    "STRUCTURAL": {},
+    "FUNCTION": {},
+    "SPATIAL": {}
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Components of Microcontroller - GeeksforGeeks",
     "citations": [
-      "https://www.crucial.com/articles/about-memory/support-what-does-computer-memory-do?srsltid=AfmBOoopgCueKs5MrYNNPUPlv5Yiq_RegIRhbwuDObdzIn4K3__myvw8",
-      "https://www.geeksforgeeks.org/computer-science-fundamentals/random-access-memory-ram/",
-      "https://www.hp.com/us-en/shop/tech-takes/computer-memory-vs-storage"
+      "https://www.geeksforgeeks.org/digital-logic/components-of-microcontroller/"
     ]
   }
 }

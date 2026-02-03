@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 30,
-    "item": 1234
+    "item": 1001
   },
   "claims": [
     {
@@ -33,30 +33,106 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "feedback control system",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "measuring the output voltage of the generator",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "comparing that output to a set point",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "generating an error signal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "adjust the excitation of the generator",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A voltage regulator ensures voltages coming from a power supply are within a specified range.",
+    "definition": "A voltage regulator is a feedback control system that maintains a stable voltage level.",
     "common_uses": [
-      "DC/DC conversion"
+      "Regulating voltage in generators"
     ]
   },
   "deep_layer": {
-    "mechanism": "Senses and regulates output voltage directly on the secondary side (in some isolated DC/DC converters)",
+    "mechanism": "It measures output voltage, compares it to a set point, generates an error signal, and adjusts excitation.",
     "origin": null
   },
   "instance_layer": {
-    "examples": [
-      "LM5001",
-      "LM5022"
-    ]
+    "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Voltage Control"
+      ],
+      "capabilities": [
+        "Maintaining stable voltage",
+        "Adjusting generator excitation"
+      ]
+    }
+  },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://smxpower.com/blogs/power-supply/understanding-voltage-regulation-in-dc-dc-power-converters",
-      "https://www.ti.com/lit/pdf/ssztc93"
+      "Voltage regulator - Wikipedia"
     ]
   }
 }

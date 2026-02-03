@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 21,
-    "item": 1003
+    "item": 1009
   },
   "claims": [
     {
@@ -33,24 +33,57 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "immune cell-specific adaptor protein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "constitutively associates with LAT",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "SLP-76 is an adaptor protein involved in T cell signaling.",
+    "definition": "SH2 domain-containing leukocyte protein of 76 kDa",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "SLP-76 is phosphorylated by ZAP-70.",
-    "origin": "Expressed in T cells."
+    "mechanism": "Adaptor protein in T-cell signaling.",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {},
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "T-cell activation through the antigen receptor. Part 1: Signaling components, signaling pathways, and signal integration at the T-cell antigen receptor synapse"
+      "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2021.626095/full",
+      "https://pubmed.ncbi.nlm.nih.gov/33791292/"
     ]
   }
 }

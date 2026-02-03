@@ -1,0 +1,70 @@
+{
+  "name": "F pocket",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 22,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "peptide-binding groove of MHC class I",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "proper occupancy by an amino acid side chain for stable complex formation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The F pocket is a region within the peptide-binding groove of MHC class I molecules that must be occupied by an amino acid side chain for stable peptide binding.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "peptide-binding groove of MHC class I"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://www.pnas.org/doi/10.1073/pnas.1416543112"
+    ]
+  }
+}

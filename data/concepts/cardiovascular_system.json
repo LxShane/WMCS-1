@@ -2,8 +2,8 @@
   "name": "Cardiovascular System",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 35,
-    "item": 1003
+    "group": 21,
+    "item": 5678
   },
   "claims": [
     {
@@ -19,22 +19,72 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Carrying Oxygenated Blood",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Organ System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The system responsible for transporting blood throughout the body.",
+    "definition": "The organ system that permits blood to circulate and transport nutrients, oxygen, carbon dioxide, hormones, and blood cells to and from the cells in the body.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Transports oxygen, nutrients, hormones, and cellular waste products throughout the body.",
+    "mechanism": "Pumps blood throughout the body via the heart and a network of blood vessels.",
     "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Transport"
+      ],
+      "capabilities": [
+        "Blood Circulation"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
   "epistemic_metadata": {
-    "source": "Animal Science (ANS) < North Carolina State University",
+    "source": "Physiology, Oxygen Transport - StatPearls - NCBI Bookshelf",
     "citations": []
   }
 }

@@ -1,0 +1,87 @@
+{
+  "name": "Ion Cyclotron Resonance Heating Antenna",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Heating plasma",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Mechanical engineering",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Antenna",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An antenna that uses ion cyclotron resonance to heat plasma.",
+    "common_uses": [
+      "Plasma heating in fusion reactors"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The antenna launches radio frequency (RF) waves into the plasma at a frequency that matches the cyclotron frequency of the ions. This causes the ions to resonate and absorb energy, increasing the temperature of the plasma.",
+    "origin": "Developed for use in fusion energy research."
+  },
+  "instance_layer": [
+    "ITER ICRH antenna",
+    "JET-EP antenna",
+    "TPX ICRH antenna"
+  ],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Plasma heating"
+      ],
+      "capabilities": [
+        "Launching RF power"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Web Sources",
+    "citations": [
+      "https://www.sciencedirect.com/science/article/pii/S0920379609001641",
+      "https://ieeexplore.ieee.org/document/1027653",
+      "https://digital.library.unt.edu/ark:/67531/metadc666778/m2/1/high_res_d/184298.pdf"
+    ]
+  }
+}

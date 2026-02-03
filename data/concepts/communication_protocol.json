@@ -1,0 +1,89 @@
+{
+  "name": "Communication Protocol",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A set of rules for exchanging data between devices.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Communication between components",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Hardware communication protocols",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A set of rules for exchanging data between devices.",
+    "common_uses": [
+      "Data exchange",
+      "Device communication"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Establishes standards for data format and transmission.",
+    "origin": "Evolved from the need for structured communication."
+  },
+  "instance_layer": {
+    "examples": [
+      "UART",
+      "USB",
+      "Ethernet",
+      "CAN"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Communication control"
+      ],
+      "capabilities": [
+        "Data formatting",
+        "Transmission control"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Web Sources",
+    "citations": [
+      "https://www.protoexpress.com/blog/complete-guide-pcb-interfaces-communication-protocols/",
+      "https://sparxeng.com/blog/hardware/a-quick-guide-to-communication-protocols"
+    ]
+  }
+}

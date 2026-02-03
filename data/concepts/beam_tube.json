@@ -1,0 +1,71 @@
+{
+  "name": "Beam Tube",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 32,
+    "item": 1006
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Beam Pipe",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Wall",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Vacuum",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A tube containing the particle beam with vacuum.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Provides a vacuum environment for particle beams."
+  },
+  "instance_layer": [],
+  "facets": {
+    "STRUCTURAL": {
+      "shape": [
+        "Cylindrical"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "LHC vacuum tube diameter [closed] - Physics Stack Exchange",
+    "citations": []
+  }
+}

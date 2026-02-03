@@ -1,0 +1,57 @@
+{
+  "name": "Steel Substrate",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Steel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A steel base material for adhesion.",
+    "common_uses": [
+      "Structural support",
+      "Adhesion surface"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Provides a surface for the adhesive to bond to.",
+    "origin": "Materials science"
+  },
+  "instance_layer": [
+    "Steel panel used in automotive assembly"
+  ],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic",
+        "Rigid"
+      ],
+      "shape": [
+        "Planar"
+      ],
+      "composition": [
+        "Iron",
+        "Carbon"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://www.sciencedirect.com/science/article/pii/S014374961930199X",
+    "citations": []
+  }
+}

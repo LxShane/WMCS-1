@@ -1,9 +1,9 @@
 {
   "name": "Voltage",
-  "type": "PHYSICAL_QUANTITY",
+  "type": "PHYSICAL",
   "id": {
-    "group": 40,
-    "item": 1005
+    "group": 20,
+    "item": 1001
   },
   "claims": [
     {
@@ -19,22 +19,157 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Electrical Potential Difference",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "EXAMPLE_OF",
+      "object": "230 kV",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "EXAMPLE_OF",
+      "object": "345 kV",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "EXAMPLE_OF",
+      "object": "500 kV",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "EXAMPLE_OF",
+      "object": "765 kV",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Electrical potential difference",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MEASURED_BY",
+      "object": "Cell based temperature monitoring",
+      "temporal": {
+        "valid_from": "2008",
+        "valid_until": "PRESENT",
+        "event": "Patent Filing"
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "AFFECTED_BY",
+      "object": "Charge-discharge cycles",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MEASURED_SIMULTANEOUSLY_WITH",
+      "object": "Current",
+      "temporal": {
+        "valid_from": "2009",
+        "valid_until": "PRESENT",
+        "event": "Patent Filing"
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Electrical potential difference between two points.",
+    "definition": "The electrical potential difference between two points.",
     "common_uses": [
-      "Describing electrical circuits"
+      "Powering devices",
+      "Measuring energy"
     ]
   },
   "deep_layer": {
-    "mechanism": "Voltage drives current through a circuit.",
-    "origin": "Physics"
+    "mechanism": "Voltage is created by the separation of electric charges.",
+    "origin": "Arises from the distribution of electric charge."
   },
+  "instance_layer": {
+    "examples": [
+      "Voltage of a battery",
+      "Voltage of a power outlet"
+    ]
+  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Ingestion Engine",
     "citations": [
-      "https://www.ti.com/lit/gpn/BQ25882"
+      "US8306771B2",
+      "US20100010769A1"
     ]
   }
 }

@@ -1,0 +1,104 @@
+{
+  "name": "Wireless Local Area Network (WLAN)",
+  "type": "SOCIAL_CONSTRUCT",
+  "id": {
+    "group": 60,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Local Area Network (LAN)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A group of colocated computers that form a network based on radio transmissions rather than wired connections.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Enabling users to access an organization's network from any location inside the organization without any physical connection.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Computers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Radio Transmissions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A wireless local area network (WLAN) is a group of colocated computers that form a network based on radio transmissions rather than wired connections.",
+    "common_uses": [
+      "Connecting devices in a small area",
+      "Accessing a network without physical cables"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Devices communicate via radio waves through access points, enabling network access without physical cabling.",
+    "origin": "Evolved from the need for flexible network access in localized areas."
+  },
+  "instance_layer": {
+    "examples": [
+      "A home Wi-Fi network",
+      "A corporate network using Wi-Fi access points"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Cisco & Springer",
+    "citations": [
+      "https://www.cisco.com/site/us/en/learn/topics/networking/what-is-a-wireless-lan.html",
+      "https://link.springer.com/content/pdf/10.1007/978-3-031-42018-4_12.pdf?pdf=inline+link"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "name": "Acoustic Microscope System",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Imaging system",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USES",
+      "object": "Pulse-echo techniques",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Static transducer configuration",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A microscope system that uses acoustic waves to image objects.",
+    "common_uses": [
+      "Material characterization",
+      "Medical imaging"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Acoustic waves are transmitted and reflected off the object, and the reflected waves are used to create an image.",
+    "origin": "Developed in the 20th century"
+  },
+  "instance_layer": [
+    "Acoustic microscope used to image microstructures in a microchip"
+  ],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "US20040002654A1",
+    "citations": [
+      "G01S15/8925"
+    ]
+  }
+}

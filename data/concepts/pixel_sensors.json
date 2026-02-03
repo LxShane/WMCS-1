@@ -1,0 +1,63 @@
+{
+  "name": "Pixel sensors",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 22,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Width",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Length",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Sensors composed of pixels.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {
+    "SPATIAL": {
+      "location": "Within a detector array",
+      "connected_to": [
+        "Detector array",
+        "Readout electronics",
+        "Support structure"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://www.arxiv.org/pdf/1207.6581v2",
+    "citations": []
+  },
+  "autocorrected": true
+}

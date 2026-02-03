@@ -1,0 +1,89 @@
+{
+  "name": "USB connector interface",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Interface",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Type-A connector",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Type-B connector",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Host",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A physical interface for connecting USB devices.",
+    "common_uses": [
+      "Connecting peripherals to a computer"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Electrical and mechanical connection for data transfer.",
+    "origin": "USB Implementers Forum"
+  },
+  "instance_layer": {
+    "examples": [
+      "USB port on a laptop"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "USB - Wikipedia; Engineering:USB - HandWiki",
+    "citations": [
+      "USB - Wikipedia",
+      "Engineering:USB - HandWiki"
+    ]
+  }
+}

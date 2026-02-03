@@ -1,0 +1,67 @@
+{
+  "name": "Link Aggregation Group (LAG)",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 4568
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Designing and deploying robust wireless networks",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Combining multiple network connections in parallel to increase throughput.",
+    "common_uses": [
+      "Improving network performance",
+      "Providing network redundancy"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Bundles multiple physical links into a single logical link.",
+    "origin": "Developed to increase bandwidth and improve fault tolerance."
+  },
+  "instance_layer": {
+    "examples": [
+      "Combining two Ethernet cables into a single LAG"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Network Bandwidth Improvement"
+      ],
+      "capabilities": [
+        "Increased bandwidth",
+        "Fault tolerance"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Multiple physical links"
+      ],
+      "shape": [
+        "Logical connection"
+      ],
+      "composition": [
+        "Multiple cables",
+        "Network interface cards"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Chipset",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 31,
+    "item": 5005
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Motherboard",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A set of electronic components in an integrated circuit that manages the data flow between the processor, memory and peripherals.",
+    "common_uses": [
+      "Interface CPU with memory and peripherals"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Controls the data flow within a computer system.",
+    "origin": "Developed to reduce the complexity of the motherboard."
+  },
+  "instance_layer": [
+    "Intel Z690",
+    "AMD X570"
+  ],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Rectangular",
+        "Black or Silver"
+      ],
+      "shape": [
+        "Flat",
+        "Integrated Circuit"
+      ],
+      "composition": [
+        "Silicon"
+      ],
+      "parts": [
+        "Northbridge",
+        "Southbridge"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Data Manager"
+      ],
+      "capabilities": [
+        "Data transfer",
+        "Interfacing"
+      ]
+    },
+    "SPATIAL": {
+      "connected_to": [
+        "CPU",
+        "Memory",
+        "Peripherals"
+      ],
+      "contained_in": "Motherboard"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Computer Structure and Logic - Pearsoncmg.com"
+    ]
+  }
+}

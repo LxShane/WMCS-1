@@ -1,0 +1,56 @@
+{
+  "name": "Blood",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 31,
+    "item": 1238
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Part of the Circulatory System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "cancer cells",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Fluid that circulates throughout the body.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Carries oxygen and nutrients.",
+    "origin": "Produced by bone marrow."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9448983/"
+    ]
+  }
+}

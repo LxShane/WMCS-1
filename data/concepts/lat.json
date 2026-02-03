@@ -2,8 +2,8 @@
   "name": "LAT",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1002
+    "group": 22,
+    "item": 1009
   },
   "claims": [
     {
@@ -47,15 +47,85 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "immune cell-specific adaptor protein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "integrate signals proximal to surface receptors",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "pLAT",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "SLP-76",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Membrane adaptor",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "LAT is a transmembrane adaptor protein that plays a key role in T-cell receptor signaling.",
+    "definition": "Membrane adaptor involved in T cell signaling.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "LAT recruits signaling molecules, initiating downstream signaling cascades.",
-    "origin": "Expressed in T cells."
+    "mechanism": "Recruits signaling molecules to the plasma membrane.",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
@@ -63,9 +133,6 @@
   "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": [
-      "Optical sensing and control of T cell signaling pathways - PMC - PubMed Central - NIH",
-      "T-cell activation through the antigen receptor. Part 1: Signaling components, signaling pathways, and signal integration at the T-cell antigen receptor synapse"
-    ]
+    "citations": []
   }
 }

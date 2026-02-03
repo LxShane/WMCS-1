@@ -1,0 +1,60 @@
+{
+  "name": "pinMode()",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Configure Digital Pin",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Arduino Board",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A function used to configure a digital pin as an input or output.",
+    "common_uses": [
+      "Setting a pin as INPUT",
+      "Setting a pin as OUTPUT"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The function sets the internal registers of the microcontroller to enable or disable the pin's input or output drivers.",
+    "origin": "Part of the Arduino programming language."
+  },
+  "instance_layer": {
+    "examples": [
+      "pinMode(13, OUTPUT);"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "https://www.arduino.cc/en/Reference/Board",
+    "citations": [
+      "Overview of the Arduino UNO Components"
+    ]
+  }
+}

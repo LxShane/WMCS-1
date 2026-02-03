@@ -2,38 +2,8 @@
   "name": "Photon",
   "type": "PHYSICAL",
   "id": {
-    "group": 20,
-    "item": 1236
-  },
-  "surface_layer": {
-    "definition": "A particle of light.",
-    "common_uses": []
-  },
-  "deep_layer": {
-    "mechanism": "Elementary particle of electromagnetic radiation.",
-    "origin": "Quantum Mechanics"
-  },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [
-        "No visual features"
-      ],
-      "shape": [
-        "Point-like"
-      ],
-      "composition": [
-        "Electromagnetic field"
-      ]
-    }
-  },
-  "epistemic_metadata": {
-    "source": "Multiple URLs",
-    "citations": [
-      "https://scienceexchange.caltech.edu/topics/quantum-science-explained/entanglement"
-    ]
+    "group": 30,
+    "item": 5678
   },
   "claims": [
     {
@@ -62,6 +32,83 @@
         "status": "SETTLED",
         "source_type": "MIGRATE_LEGACY"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "uncharged elementary particle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "zero rest mass",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "quanta of the electromagnetic field",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "responsible",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
     }
-  ]
+  ],
+  "surface_layer": {
+    "definition": "An uncharged elementary particle with zero rest mass.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Electromagnetic radiation - Wikipedia",
+    "citations": []
+  }
 }

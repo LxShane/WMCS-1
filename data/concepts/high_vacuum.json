@@ -1,0 +1,89 @@
+{
+  "name": "High Vacuum",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "REQUIRES",
+      "object": "Vacuum System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Minimizing collisions of charged particles",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Preventing contamination of the source",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Preventing electrical discharge",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A state of reduced pressure in a system, typically below 10^-3 Torr.",
+    "common_uses": [
+      "Particle physics experiments",
+      "Thin film deposition"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Achieved by removing gas molecules from a closed volume using pumps and leak-tight seals.",
+    "origin": "Essential for many scientific and industrial processes requiring minimal gas interference."
+  },
+  "instance_layer": {
+    "examples": [
+      "Vacuum chamber in a scanning electron microscope",
+      "Space simulation chamber"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Vacuum system and Chamber - FIB - myscope.training"
+    ]
+  }
+}

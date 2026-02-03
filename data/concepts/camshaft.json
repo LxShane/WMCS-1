@@ -1,0 +1,59 @@
+{
+  "name": "Camshaft",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 21,
+    "item": 1237
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Cylinder Head",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Valve Train",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A component often around the same length as the cylinder head.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Driven by a belt or chain connected to the crankshaft.",
+    "origin": "Engine design"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Oily Bits: The cylinder head and valve train - CNET",
+    "citations": [
+      "CNET"
+    ]
+  }
+}

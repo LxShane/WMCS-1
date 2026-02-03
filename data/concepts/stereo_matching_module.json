@@ -1,0 +1,76 @@
+{
+  "name": "Stereo Matching Module",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "core component",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": "Publication of PMC article"
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "system",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": "Publication of PMC article"
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A module that finds corresponding points in stereo images.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Processes stereo images to determine depth information by identifying matching features.",
+    "origin": "Developed in the field of computer vision and robotics."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": ""
+    },
+    "FUNCTION": {
+      "roles": [
+        "Feature matching"
+      ],
+      "capabilities": [
+        "Finding correspondence in images"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Real-Time Robust 2.5D Stereo Multi-Object Tracking with ... - PMC",
+    "citations": []
+  }
+}

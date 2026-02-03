@@ -1,0 +1,60 @@
+{
+  "name": "digitalRead()",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1236
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Read Digital Pin",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Arduino Board",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A function used to read the digital value of a pin (HIGH or LOW).",
+    "common_uses": [
+      "Reading the state of a button",
+      "Detecting a digital signal"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The function reads the voltage level of the pin and returns HIGH if it is above a certain threshold, and LOW otherwise.",
+    "origin": "Part of the Arduino programming language."
+  },
+  "instance_layer": {
+    "examples": [
+      "int buttonState = digitalRead(2);"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "https://www.arduino.cc/en/Reference/Board",
+    "citations": [
+      "Overview of the Arduino UNO Components"
+    ]
+  }
+}

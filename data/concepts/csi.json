@@ -1,0 +1,65 @@
+{
+  "name": "CSI",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Hardware Data Transfer Protocol",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Hardware data transfer protocol that ensures real-time data transfer between image sensor and processing unit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Physical Interface",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "CSI is a hardware data transfer protocol that ensures real-time data transfer between image sensor and processing unit.",
+    "common_uses": []
+  },
+  "deep_layer": {},
+  "instance_layer": {},
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "CSI Cameras: A Comprehensive Guide To Camera Serial Interface Technology | Supertek",
+    "citations": [
+      "Page 1"
+    ]
+  }
+}

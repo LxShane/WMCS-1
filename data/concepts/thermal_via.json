@@ -1,0 +1,94 @@
+{
+  "name": "Thermal Via",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 3456
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "PCB",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Boosting thermal performance",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Minimizing heating issues",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A thermally conductive via used to transfer heat away from components on a PCB.",
+    "common_uses": [
+      "Reducing hotspots on a PCB",
+      "Improving heat dissipation from components"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Provides a low thermal resistance path through the PCB, allowing heat to flow from components to a heat sink or the PCB's ground plane.",
+    "origin": "Developed as component power densities increased and thermal management became more critical."
+  },
+  "instance_layer": {
+    "examples": [
+      "Vias filled with copper on a PCB underneath a BGA package"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Small hole",
+        "Circular"
+      ],
+      "shape": [
+        "Cylindrical"
+      ],
+      "composition": [
+        "Copper"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Through the PCB",
+      "connected_to": [
+        "Components",
+        "Heat sink",
+        "Ground plane"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "12 PCB Thermal Management Techniques | Sierra Circuits",
+    "citations": []
+  }
+}

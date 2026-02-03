@@ -2,63 +2,8 @@
   "name": "Crankshaft",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
+    "group": 25,
     "item": 9012
-  },
-  "surface_layer": {
-    "definition": "A rotating shaft which converts the reciprocating motion of the piston into rotational motion to drive the wheels.",
-    "common_uses": [
-      "Converting linear motion to rotary motion"
-    ]
-  },
-  "deep_layer": {
-    "mechanism": "The crankshaft converts the linear motion of the piston into rotational motion through a series of connecting rods and crankpins.",
-    "origin": "Key component in converting piston motion to usable rotational power."
-  },
-  "instance_layer": {
-    "examples": [
-      "Crankshaft in a car engine"
-    ]
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "MOTION_CONVERTER",
-        "POWER_TRANSMITTER"
-      ],
-      "capabilities": [
-        "Rotational motion"
-      ]
-    },
-    "EQUIVALENCE": {
-      "fills_role": [
-        "MOTION_CONVERTER",
-        "POWER_TRANSMITTER"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [
-        "Rotating shaft",
-        "Offset crankpins"
-      ],
-      "shape": [
-        "Complex rotating shape"
-      ],
-      "composition": [
-        "Metal",
-        "Steel"
-      ],
-      "parts": [],
-      "relations": []
-    },
-    "MECHANISM": [],
-    "PROCESS_DATA": null,
-    "PROPERTY_DATA": null,
-    "ABSTRACT_DATA": null
-  },
-  "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
   },
   "claims": [
     {
@@ -132,6 +77,56 @@
         "status": "SETTLED",
         "source_type": "MIGRATE_LEGACY"
       }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Converting reciprocating motion into rotational motion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Crank",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONNECTED_TO",
+      "object": "Camshaft",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
-  ]
+  ],
+  "epistemic_metadata": {
+    "source": "Multiple web sources",
+    "citations": [
+      "Connecting rod - Wikipedia",
+      "How Engine Pistons and Connecting Rods Work",
+      "The Role of the Crankshaft and Connecting Rod Mechanism"
+    ]
+  }
 }

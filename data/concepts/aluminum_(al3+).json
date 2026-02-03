@@ -1,0 +1,74 @@
+{
+  "name": "Aluminum (Al3+)",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 20,
+    "item": 1012
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Chemical element",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Toxic to plants and microorganisms",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "AFFECTED_BY",
+      "object": "pH",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A chemical element, toxic in high concentrations.",
+    "common_uses": [
+      "Construction",
+      "Packaging"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Inhibits plant growth.",
+    "origin": "Mineral component of soil."
+  },
+  "instance_layer": [
+    "Aluminum cans",
+    "Aluminum foil"
+  ],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Microbiome Journal",
+    "citations": [
+      "https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0482-8"
+    ]
+  }
+}

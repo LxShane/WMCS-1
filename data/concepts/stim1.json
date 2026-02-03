@@ -1,0 +1,49 @@
+{
+  "name": "STIM1",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "ER protein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "rapidly translocate to a PM-ER contact site",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": "depletion of ER stores"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A protein located in the endoplasmic reticulum involved in calcium signaling.",
+    "common_uses": []
+  },
+  "deep_layer": {},
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Membrane contact site - Wikipedia",
+    "citations": []
+  }
+}

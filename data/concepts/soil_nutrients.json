@@ -1,0 +1,47 @@
+{
+  "name": "Soil Nutrients",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 20,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Chemical Substance",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Chemical elements and compounds essential for plant growth in soil.",
+    "common_uses": [
+      "Plant Nutrition",
+      "Fertilizer Production"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Required for plant metabolism.",
+    "origin": "Decomposition of organic matter, mineral weathering."
+  },
+  "instance_layer": [
+    "Nitrogen",
+    "Phosphorus",
+    "Potassium"
+  ],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "PMC",
+    "citations": [
+      "PMC9298831"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Emergency Braking",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "convenient functions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A system that automatically applies the brakes in an emergency situation.",
+    "common_uses": [
+      "Avoiding collisions",
+      "Reducing the severity of collisions"
+    ]
+  },
+  "deep_layer": {},
+  "instance_layer": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Safety System"
+      ],
+      "capabilities": [
+        "Detects imminent collisions",
+        "Applies brakes automatically"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Sensors",
+        "Actuators"
+      ],
+      "shape": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Cybersecurity and Forensics in Connected Autonomous Vehicles",
+    "citations": [
+      "https://ieeexplore.ieee.org/iel7/6287639/6514899/09916257.pdf"
+    ]
+  }
+}

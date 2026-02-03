@@ -1,0 +1,68 @@
+{
+  "name": "Intake Valve",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "control the flow of air/fuel mixture (or air alone for direct-injected engines) into the combustion chamber",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Valvetrain",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A valve that controls the flow of air/fuel mixture into the combustion chamber.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Opens and closes to allow air and fuel mixture into the cylinder.",
+    "origin": "Part of the internal combustion engine."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Air Intake Controller"
+      ],
+      "capabilities": [
+        "Opening",
+        "Closing"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Valvetrain - Wikipedia"
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "name": "CPU Fan",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 31,
+    "item": 3003
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Cooling CPU",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Fan Blades",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A fan used to cool a CPU.",
+    "common_uses": [
+      "Cooling computer components"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Circulates air to remove heat from the CPU.",
+    "origin": "Derived from general fan technology."
+  },
+  "instance_layer": [
+    "Noctua NH-U12S",
+    "Cooler Master Hyper 212"
+  ],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Circular",
+        "Bladed"
+      ],
+      "shape": [
+        "Round",
+        "Spinning"
+      ],
+      "composition": [
+        "Plastic",
+        "Metal"
+      ],
+      "parts": [
+        "Motor",
+        "Blades",
+        "Frame"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Cooler"
+      ],
+      "capabilities": [
+        "Airflow",
+        "Heat removal"
+      ]
+    },
+    "SPATIAL": {
+      "connected_to": [
+        "Heat Sink",
+        "CPU"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Computer Structure and Logic - Pearsoncmg.com",
+      "Why does a PC shut down at 100% CPU load? - Quora",
+      "Identifying Personal Computer Components"
+    ]
+  }
+}

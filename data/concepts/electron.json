@@ -2,38 +2,8 @@
   "name": "Electron",
   "type": "PHYSICAL",
   "id": {
-    "group": 21,
-    "item": 1237
-  },
-  "surface_layer": {
-    "definition": "A subatomic particle with a negative electric charge.",
-    "common_uses": []
-  },
-  "deep_layer": {
-    "mechanism": "Elementary particle, a constituent of atoms.",
-    "origin": "Atomic Theory"
-  },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [
-        "No visual features"
-      ],
-      "shape": [
-        "Point-like"
-      ],
-      "composition": [
-        "Fundamental particle"
-      ]
-    }
-  },
-  "epistemic_metadata": {
-    "source": "Multiple URLs",
-    "citations": [
-      "https://scienceexchange.caltech.edu/topics/quantum-science-explained/entanglement"
-    ]
+    "group": 20,
+    "item": 9012
   },
   "claims": [
     {
@@ -62,6 +32,72 @@
         "status": "SETTLED",
         "source_type": "MIGRATE_LEGACY"
       }
+    },
+    {
+      "predicate": "HAS_PROPERTY",
+      "object": "Negative Charge",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Moving within the lattice of a material",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Charge carrier",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
-  ]
+  ],
+  "surface_layer": {
+    "definition": "A subatomic particle with a negative electric charge.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Electrons are fundamental particles that carry electric charge.",
+    "origin": "Subatomic physics"
+  },
+  "instance_layer": [],
+  "facets": {
+    "STRUCTURAL": {
+      "material_properties": {
+        "rigidity": "N/A",
+        "state": "N/A",
+        "conductivity": "Elec"
+      }
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple",
+    "citations": [
+      "Electrical Conductivity - an overview | ScienceDirect Topics"
+    ]
+  }
 }

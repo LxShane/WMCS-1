@@ -1,0 +1,149 @@
+{
+  "name": "Docking Mechanism",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Pressurized Docking",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Attachment on ISS",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Mechanism",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "On-orbit Assembly",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Androgynous Body",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Large Tolerance Docking",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A mechanism used for docking spacecraft or other objects in space.",
+    "common_uses": [
+      "Docking spacecraft",
+      "On-orbit assembly",
+      "Pressurized attachment"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Docking mechanisms use a variety of latches, alignment guides, and sealing mechanisms to create a secure and airtight connection between two spacecraft.",
+    "origin": "Developed for space exploration and assembly of space stations."
+  },
+  "instance_layer": {
+    "examples": [
+      "International Space Station docking mechanism"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic",
+        "Circular or hexagonal interface"
+      ],
+      "shape": [
+        "Round",
+        "Cylindrical"
+      ],
+      "composition": [
+        "Aluminum",
+        "Steel"
+      ],
+      "parts": [
+        "Latches",
+        "Alignment guides",
+        "Sealing mechanisms"
+      ],
+      "relations": []
+    },
+    "FUNCTION": {
+      "roles": [
+        "Connector"
+      ],
+      "capabilities": [
+        "Connects two space vehicles"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "ISS Interface Mechanisms and their Lineage",
+      "Design of Docking Interfaces for On-Orbit Assembly of Large ...",
+      "Design and analysis of a large tolerance docking mechanism"
+    ]
+  }
+}

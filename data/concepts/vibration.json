@@ -3,75 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 5678
-  },
-  "surface_layer": {
-    "definition": "A periodic back-and-forth motion of the particles of an elastic body or medium, commonly resulting in sound or other forms of energy transfer.",
-    "common_uses": [
-      "Sound production",
-      "Energy transfer"
-    ]
-  },
-  "deep_layer": {
-    "mechanism": "Particles oscillate around an equilibrium point.",
-    "origin": "Caused by an initial force or energy input."
-  },
-  "instance_layer": {
-    "examples": [
-      "String vibration",
-      "Earthquake vibration"
-    ]
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "ENERGY_TRANSFER",
-        "SOUND_GENERATION"
-      ],
-      "capabilities": [
-        "Transmitting energy",
-        "Creating sound waves"
-      ]
-    },
-    "EQUIVALENCE": {
-      "fills_role": [
-        "ENERGY_TRANSFER"
-      ]
-    },
-    "PROCESS_DATA": {
-      "agent": [
-        "INANIMATE_OBJECT"
-      ],
-      "patient": [
-        "INANIMATE_OBJECT"
-      ],
-      "precondition": [
-        "External Force"
-      ],
-      "effect": [
-        "Energy Transmission",
-        "Sound Wave Generation"
-      ]
-    },
-    "ABSTRACT_DATA": {
-      "domain": [
-        "PHYSICS"
-      ],
-      "core_premise": [
-        "Particles oscillate around an equilibrium point"
-      ],
-      "contrasting_concepts": [
-        "Static equilibrium"
-      ]
-    }
-  },
-  "epistemic_metadata": {
-    "source": "The Science Behind the Sound: An Exploration of Acoustics",
-    "citations": [
-      "https://www.theamericanguitaracademy.com/post/the-science-behind-the-sound-an-exploration-of-acoustics",
-      "How does the string of an acoustic guitar transfer energy to ...",
-      "https://physics.stackexchange.com/questions/733470/how-does-the-string-of-an-acoustic-guitar-transfer-energy-to-the-guitars-body"
-    ]
+    "item": 1236
   },
   "claims": [
     {
@@ -109,6 +41,51 @@
         "status": "SETTLED",
         "source_type": "MIGRATE_LEGACY"
       }
+    },
+    {
+      "predicate": "AFFECTS",
+      "object": "Soundboard",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
-  ]
+  ],
+  "surface_layer": {
+    "definition": "An oscillating movement.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Sources",
+    "citations": [
+      "https://forum.pianoworld.com/ubbthreads.php/topics/3548933/are-you-smarter-than-chatgtp-regarding-soundboards.html",
+      "https://www.academia.edu/111214166/Evolution_of_the_vibrational_behavior_of_a_guitar_soundboard_along_successive_construction_phases_by_means_of_the_modal_analysis_technique"
+    ]
+  }
 }

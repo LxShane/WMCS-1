@@ -1,0 +1,48 @@
+{
+  "name": "ATP Demand",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1006
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Energy Requirement",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The amount of ATP needed to fuel cellular processes.",
+    "common_uses": [
+      "Determining energy needs",
+      "Regulating metabolic pathways"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "ATP demand varies depending on the activity level of the cell or tissue.",
+    "origin": "Arises from cellular functions."
+  },
+  "instance_layer": {},
+  "facets": {
+    "ABSTRACT_DATA": {
+      "domain": "Cellular Energy",
+      "antonym": "ATP Excess"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Skeletal muscle energy metabolism during exercise",
+    "citations": [
+      "https://pubmed.ncbi.nlm.nih.gov/32747792/"
+    ]
+  }
+}

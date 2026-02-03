@@ -1,0 +1,56 @@
+{
+  "name": "Electrical Boundary",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 22,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Physical limit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Defined for electrical operation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The physical limit defining the microgrid network",
+    "common_uses": [
+      "Isolating faults"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The electrical boundary is determined by protection devices.",
+    "origin": "Established during microgrid design."
+  },
+  "instance_layer": [
+    "A circuit breaker"
+  ],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Microgrid - Wikipedia",
+    "citations": []
+  }
+}

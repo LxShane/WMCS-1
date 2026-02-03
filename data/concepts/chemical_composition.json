@@ -1,0 +1,66 @@
+{
+  "name": "Chemical Composition",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Property",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Understanding properties",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The types and quantities of chemical elements and compounds present in a substance.",
+    "common_uses": [
+      "Material identification",
+      "Quality control"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Reveals the building blocks of matter and their interactions.",
+    "origin": "Determined by the processes that create and modify the substance."
+  },
+  "instance_layer": {
+    "examples": [
+      "Water is H2O",
+      "Salt is NaCl"
+    ]
+  },
+  "facets": {
+    "ABSTRACT_DATA": {
+      "domain": "Chemistry"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.sciencedirect.com/science/article/pii/S1386142524013301"
+    ]
+  }
+}

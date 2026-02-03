@@ -1,0 +1,118 @@
+{
+  "name": "Internal Vacuum Transmission Line",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Transmission Line",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "feeding Radio Frequency power",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "inside the antenna support box",
+      "temporal": {
+        "valid_from": "2003",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "in-vessel matching capacitors",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A transmission line designed for internal use within a vacuum environment, often found in devices like ICRH systems.",
+    "common_uses": [
+      "transferring RF power"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The transmission line facilitates the movement of radio frequency energy from a source to a target, maintaining minimal signal loss and handling the vacuum environment.",
+    "origin": "Developed for applications where RF power needs to be delivered within a vacuum, such as fusion research."
+  },
+  "instance_layer": {
+    "examples": [
+      "The internal vacuum transmission lines used in the ITER-like ICRH antenna."
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic",
+        "Cylindrical"
+      ],
+      "shape": [
+        "Tube-like"
+      ],
+      "composition": [
+        "Metal"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Inside antenna support box",
+      "connected_to": [
+        "antenna straps",
+        "in-vessel matching capacitors"
+      ],
+      "contained_in": "Antenna Support Box"
+    },
+    "FUNCTION": {
+      "roles": [
+        "Power Transmission"
+      ],
+      "capabilities": [
+        "RF power delivery"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Academic Sources",
+    "citations": [
+      "https://www.sciencedirect.com/science/article/pii/S0920379603002722",
+      "https://scipub.euro-fusion.org/wp-content/uploads/2014/11/EFDC020533.pdf"
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "name": "Ground Connection",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Ensuring proper grounding of test and measurement device",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Electrical Connection",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A connection to ground used for safety and signal integrity.",
+    "common_uses": [
+      "Electrical safety",
+      "Signal integrity",
+      "Electromagnetic compatibility"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Provides a low-impedance path for fault currents to flow back to the source, allowing protective devices to operate and clear the fault.",
+    "origin": "Derived from the concept of connecting electrical circuits to the earth to provide a reference point."
+  },
+  "instance_layer": {
+    "examples": [
+      "Ground connection in a household electrical outlet"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic",
+        "Wire"
+      ],
+      "shape": [
+        "Cylindrical wire"
+      ],
+      "composition": [
+        "Copper",
+        "Insulation"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Instrument Grounding and Guide for the Right Setup, Grounding Guide for Test and Measurement Devices - NI",
+    "citations": []
+  }
+}

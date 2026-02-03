@@ -1,0 +1,75 @@
+{
+  "name": "Return Current",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Current that returns from a load back to the source.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Directly beneath signal traces",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Low-impedance path",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The current that flows back to the power source after completing a circuit.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Return current completes the electrical circuit, allowing energy to flow and devices to operate.",
+    "origin": "Fundamental concept in electrical engineering."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Completes circuit",
+        "Carries energy back to the source"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://resources.pcb.cadence.com/blog/er-grounding-and-return-paths-advanced-techniques",
+    "citations": []
+  }
+}

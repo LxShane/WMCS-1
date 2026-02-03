@@ -1,0 +1,60 @@
+{
+  "name": "digitalWrite()",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1237
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Write Digital Pin",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Arduino Board",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A function used to write a digital value (HIGH or LOW) to a pin.",
+    "common_uses": [
+      "Turning an LED on or off",
+      "Controlling a relay"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The function sets the voltage level of the pin to HIGH or LOW.",
+    "origin": "Part of the Arduino programming language."
+  },
+  "instance_layer": {
+    "examples": [
+      "digitalWrite(13, HIGH);"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "https://www.arduino.cc/en/Reference/Board",
+    "citations": [
+      "Overview of the Arduino UNO Components"
+    ]
+  }
+}

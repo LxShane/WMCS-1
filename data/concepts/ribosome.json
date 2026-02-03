@@ -1,39 +1,68 @@
 {
   "name": "Ribosome",
-  "type": "INANIMATE_OBJECT",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 25,
-    "item": 2468
+    "group": 21,
+    "item": 1002
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "PERFORMS",
+      "object": "synthesis of protein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Molecular Machine",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Large Subunit",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "A ribosome is a complex molecular machine found inside living cells that produces proteins from amino acids during protein synthesis.",
+    "definition": "A complex molecular machine that translates RNA to proteins.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Reads mRNA and synthesizes polypeptide chains.",
+    "origin": "Present in all living cells."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Cellular organelles and structure (article)",
-    "citations": [
-      "https://www.khanacademy.org/test-prep/mcat/cells/eukaryotic-cells/a/organelles-article"
-    ]
+    "source": "Set Automatically",
+    "citations": []
   }
 }

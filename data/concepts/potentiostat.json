@@ -1,0 +1,61 @@
+{
+  "name": "Potentiostat",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 6789
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Electrochemical Experiment",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An electronic instrument that controls the potential difference between a working electrode and a reference electrode.",
+    "common_uses": [
+      "Cyclic voltammetry",
+      "Electrochemical impedance spectroscopy"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Maintains a constant potential between the working and reference electrodes by adjusting the current flowing through the counter electrode.",
+    "origin": "Developed in the field of electrochemistry to enable precise control of electrode potentials."
+  },
+  "instance_layer": {
+    "examples": [
+      "Gamry Reference 600+",
+      "CH Instruments 660E"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Box-shaped",
+        "Electronic display"
+      ],
+      "shape": [
+        "Rectangular prism"
+      ],
+      "composition": [
+        "Metal",
+        "Plastic",
+        "Electronic components"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Instrument Grounding and Guide for the Right Setup",
+    "citations": []
+  }
+}

@@ -1,41 +1,56 @@
 {
   "name": "Environment",
-  "type": "INANIMATE_OBJECT",
+  "type": "PHYSICAL",
   "id": {
-    "group": 32,
-    "item": 1236
+    "group": 39,
+    "item": 1009
   },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "part of a closed-loop system",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
     "definition": "The surroundings or conditions in which a person, animal, or plant lives or operates.",
-    "common_uses": []
+    "common_uses": [
+      "Providing context",
+      "Influencing a system"
+    ]
   },
-  "deep_layer": {
-    "mechanism": "Provides context and influences systems within it.",
-    "origin": "Natural world."
-  },
-  "instance_layer": {
-    "examples": []
-  },
+  "deep_layer": {},
+  "instance_layer": {},
   "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
     "FUNCTION": {
-      "roles": [],
-      "capabilities": []
+      "roles": [
+        "Context Provider"
+      ],
+      "capabilities": [
+        "Influencing the vehicle and driver"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Trees",
+        "Buildings"
+      ],
+      "shape": []
     }
   },
   "epistemic_metadata": {
-    "source": "physics.stackexchange.com, quantumzeitgeist.com, facebook.com",
+    "source": "Active Safety Control for Automobiles - IEEE Control Systems Society",
     "citations": [
-      "physics.stackexchange.com: N/A",
-      "quantumzeitgeist.com: N/A",
-      "facebook.com: N/A"
+      "https://ieeecss.org/sites/ieeecss/files/2019-06/SuccessStoriesforControlCompilation.pdf"
     ]
-  },
-  "claims": []
+  }
 }

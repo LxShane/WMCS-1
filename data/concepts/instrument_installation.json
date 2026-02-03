@@ -1,0 +1,70 @@
+{
+  "name": "Instrument Installation",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Mounting",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Accessibility",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The process of setting up and connecting an instrument for proper operation.",
+    "common_uses": [
+      "Setting up measurement instruments",
+      "Configuring control systems"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Ensuring that the instrument is properly mounted, grounded, and accessible for maintenance and calibration.",
+    "origin": "Evolved from the need to properly integrate instruments into various systems."
+  },
+  "instance_layer": {
+    "examples": [
+      "Installing a temperature sensor in a process control loop",
+      "Setting up a flow meter in a pipeline"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "System setup"
+      ],
+      "capabilities": [
+        "Instrument connectivity",
+        "Instrument configuration"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Instrument Installation \u2013 Mounting & Accessibility Guidelines",
+    "citations": []
+  }
+}

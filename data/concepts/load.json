@@ -1,0 +1,58 @@
+{
+  "name": "Load",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 23,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Electrical component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Energy consumption",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A device or component that consumes electrical energy.",
+    "common_uses": [
+      "Powering appliances",
+      "Running machinery"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Loads convert electrical energy into other forms of energy, such as heat or motion.",
+    "origin": "Varies depending on the specific load."
+  },
+  "instance_layer": [
+    "A light bulb",
+    "An electric motor"
+  ],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Microgrid - Wikipedia",
+    "citations": []
+  }
+}

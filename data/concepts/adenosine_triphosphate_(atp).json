@@ -1,9 +1,9 @@
 {
-  "name": "Adenosine Triphosphate (ATP)",
+  "name": "Adenosine triphosphate (ATP)",
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 20,
-    "item": 7890
+    "item": 1235
   },
   "claims": [
     {
@@ -33,10 +33,24 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "primary energy currency of the cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "ATP (adenosine triphosphate) is the main energy currency of the cell.",
+    "definition": "Adenosine triphosphate (ATP) is the primary energy currency of the cell.",
     "common_uses": []
   },
   "deep_layer": {
@@ -47,26 +61,14 @@
     "examples": []
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Energy source"
-      ],
-      "capabilities": [
-        "Powering cellular processes"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    }
+    "FUNCTION": {},
+    "STRUCTURAL": {},
+    "SPATIAL": {}
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "www.sciencelearn.org.nz \u203a resources \u203a 114-what-is-atp-and-how-does-it-provide-energy"
+      "https://grokipedia.com/page/ATP_hydrolysis"
     ]
   }
 }

@@ -1,9 +1,9 @@
 {
-  "name": "Respiratory System",
+  "name": "Respiratory system",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 35,
-    "item": 1004
+    "group": 22,
+    "item": 1005
   },
   "claims": [
     {
@@ -19,22 +19,55 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "capable of very high metabolic rates and oxygen supply",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The system responsible for gas exchange in the body.",
+    "definition": "The system of organs and tissues involved in the exchange of oxygen and carbon dioxide between an organism and its environment.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Facilitates the exchange of oxygen and carbon dioxide between the body and the environment.",
+    "mechanism": null,
     "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Thoracic cavity, Head",
+      "connected_to": [
+        "Mouth",
+        "Nasal cavity",
+        "Pharynx",
+        "Larynx",
+        "Trachea",
+        "Diaphragm",
+        "Rib cage",
+        "Pulmonary blood vessels",
+        "Alveoli"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "Animal Science (ANS) < North Carolina State University",
-    "citations": []
-  }
+    "source": "Set Automatically",
+    "citations": [
+      "Bird anatomy - Wikipedia"
+    ]
+  },
+  "autocorrected": true
 }

@@ -1,44 +1,56 @@
 {
-  "name": "heat",
+  "name": "Heat",
   "type": "PHYSICAL",
   "id": {
     "group": 20,
-    "item": 1236
+    "item": 3456
   },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Energy transfer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PRODUCED_DURING",
+      "object": "Transfers between trophic levels",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
     "definition": "A form of energy.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "",
-    "origin": ""
+    "mechanism": "Generated as a byproduct of energy transfers between trophic levels",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "EQUIVALENCE": {
-      "fills_role": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "MECHANISM": [],
-    "PROCESS_DATA": null,
-    "PROPERTY_DATA": null,
-    "ABSTRACT_DATA": null
-  },
+  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": []
-  },
-  "claims": []
+    "citations": [
+      "https://pressbooks.umn.edu/introbio/chapter/ecosystemcycles/"
+    ]
+  }
 }

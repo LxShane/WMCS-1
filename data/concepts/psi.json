@@ -1,0 +1,102 @@
+{
+  "name": "PSI",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Terminal protein supercomplex",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Photosynthetic electron transport chain",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Thylakoid membranes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Vascular plants",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "PSI is the terminal protein supercomplex of the photosynthetic electron transport chain.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Facilitates electron transport in photosynthesis.",
+    "origin": "Assembled from various protein subunits."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [
+        "Proteins"
+      ],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Embedded in the thylakoid membrane",
+      "coordinates": [],
+      "connected_to": [
+        "Other photosynthetic complexes"
+      ],
+      "contained_in": "Thylakoid"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Academic Sources",
+    "citations": [
+      "https://academic.oup.com/plcell/article/36/10/4080/7689652"
+    ]
+  }
+}

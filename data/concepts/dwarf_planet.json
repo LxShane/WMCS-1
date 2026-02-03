@@ -2,8 +2,8 @@
   "name": "Dwarf Planet",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 30,
-    "item": 9876
+    "group": 20,
+    "item": 1009
   },
   "claims": [
     {
@@ -33,22 +33,68 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Celestial Body",
+      "temporal": {
+        "valid_from": "2006",
+        "valid_until": "PRESENT",
+        "event": "IAU Definition"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Clearing the neighborhood around their orbits",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "CONTESTED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A celestial body that orbits the Sun and is neither a planet nor a satellite.",
+    "definition": "A planetary-mass object that is neither a planet nor a natural satellite.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Formation and classification criteria.",
-    "origin": "Astronomical observations and definitions."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Within a solar system; beyond the orbit of Neptune in some cases; within the asteroid belt in others",
+      "connected_to": [],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Dwarf planet - Wikipedia",
     "citations": []
-  }
+  },
+  "autocorrected": true
 }

@@ -1,0 +1,97 @@
+{
+  "name": "CPU socket",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Installing microprocessors",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "CPU series and speed support",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Motherboard Chipset",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A connector on a motherboard designed to hold a CPU.",
+    "common_uses": [
+      "Connecting CPU to the motherboard"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Pins or contacts establish electrical connections.",
+    "origin": "Evolved from earlier socket designs."
+  },
+  "instance_layer": [
+    "LGA 1700",
+    "Socket AM5"
+  ],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Square",
+        "Pin array",
+        "Lever or latch"
+      ],
+      "shape": [
+        "Square with many holes or contacts"
+      ],
+      "composition": [
+        "Plastic",
+        "Metal contacts"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "CPU Connector"
+      ],
+      "capabilities": [
+        "Mechanical support for CPU",
+        "Electrical connection for CPU"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Wikipedia"
+    ]
+  }
+}

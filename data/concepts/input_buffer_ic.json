@@ -1,0 +1,76 @@
+{
+  "name": "Input Buffer IC",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Integrated Circuit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Voltage Adjustment",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An integrated circuit used to buffer and condition input signals.",
+    "common_uses": [
+      "Signal Isolation",
+      "Impedance Matching"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Amplifies and isolates the input signal to prevent loading effects.",
+    "origin": "Electronic circuit design and fabrication."
+  },
+  "instance_layer": [],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Small Package",
+        "Multiple Pins"
+      ],
+      "shape": [
+        "Rectangular",
+        "Square"
+      ],
+      "composition": [
+        "Silicon",
+        "Metal"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Signal Conditioning",
+        "Isolation"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

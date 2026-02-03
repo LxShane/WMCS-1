@@ -1,0 +1,159 @@
+{
+  "name": "Sensor fusion",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "combining LiDAR, inertial, and positional data",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "stable, accurate mapping",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "process of combining sensor data or data derived from disparate sources",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "reducing uncertainty",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "obtaining a more accurate location estimate of an indoor object",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "subset of information fusion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "integrating data from multiple disparate sensors to generate a more accurate, reliable, and comprehensive representation of the environment or system",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "compensating for weaknesses of sensors",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.85,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Sensor fusion is a process of combining data to reduce uncertainty and create comprehensive representations.",
+    "common_uses": [
+      "Indoor object localization",
+      "Creating robust systems"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Sensor fusion combines data from multiple sensors, leveraging each sensor's strengths to overcome individual weaknesses, resulting in a more accurate and reliable representation.",
+    "origin": "Emerged from the need to improve data accuracy and reliability in various applications."
+  },
+  "instance_layer": {
+    "examples": [
+      "Stereoscopic vision",
+      "Combining video cameras and WiFi localization for indoor object tracking"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Data Integration",
+        "Uncertainty Reduction"
+      ],
+      "capabilities": [
+        "Improving data accuracy",
+        "Enhancing system reliability"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Sensor fusion",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Sensor_fusion",
+      "https://grokipedia.com/page/Sensor_fusion",
+      "https://www.geeksforgeeks.org/electronics-engineering/concept-of-sensor-fusion-and-its-types/"
+    ]
+  }
+}

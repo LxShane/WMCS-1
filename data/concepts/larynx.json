@@ -1,67 +1,9 @@
 {
   "name": "Larynx",
-  "type": "PHYSICAL",
+  "type": "BODY_PART",
   "id": {
     "group": 24,
-    "item": 9003
-  },
-  "surface_layer": {
-    "definition": "The organ in the neck involved in breathing, sound production, and protecting the trachea against food aspiration.",
-    "common_uses": [
-      "Sound production",
-      "Breathing"
-    ]
-  },
-  "deep_layer": {
-    "mechanism": "Contains vocal cords that vibrate to produce sound.",
-    "origin": "Evolved as part of the respiratory system."
-  },
-  "instance_layer": {
-    "examples": [
-      "The larynx is located in the neck."
-    ]
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "VOCALIZER",
-        "RESPIRATOR"
-      ],
-      "capabilities": [
-        "Producing sound",
-        "Regulating airflow"
-      ]
-    },
-    "EQUIVALENCE": {
-      "fills_role": [
-        "VOCALIZER",
-        "RESPIRATOR"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [
-        "Cartilaginous"
-      ],
-      "shape": [
-        "Tubular"
-      ],
-      "composition": [
-        "Cartilage",
-        "Muscle",
-        "Connective tissue"
-      ],
-      "parts": [
-        "Vocal folds",
-        "Glottis"
-      ],
-      "relations": [
-        "LOCATED_AT neck"
-      ]
-    }
-  },
-  "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
+    "item": 1001
   },
   "claims": [
     {
@@ -171,6 +113,182 @@
         "status": "SETTLED",
         "source_type": "MIGRATE_LEGACY"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Body Part",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Cricoid Cartilage",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Thyroid Cartilage",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Epiglottis",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Arytenoid Cartilage",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Corniculate Cartilage",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Cuneiform Cartilage",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Muscles",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Ligaments",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Protection of the airway during swallowing",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Production of voice",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
-  ]
+  ],
+  "surface_layer": {
+    "definition": "The larynx is a complex organ in the neck involved in breathing, swallowing, and voice production.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Muscles and cartilages interact to control airflow and vocal cord tension.",
+    "origin": "Evolves from the foregut."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.kenhub.com/en/library/anatomy/larynx",
+      "https://www.ncbi.nlm.nih.gov/sites/books/NBK545231/",
+      "https://emedicine.medscape.com/article/1949369-overview"
+    ]
+  }
 }

@@ -1,9 +1,9 @@
 {
   "name": "Plasma",
-  "type": "PHYSICAL",
+  "type": "INANIMATE_OBJECT",
   "id": {
     "group": 20,
-    "item": 1006
+    "item": 1002
   },
   "claims": [
     {
@@ -89,22 +89,65 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "State of matter",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Conduction",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Ions",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A state of matter in which a gas becomes ionized.",
-    "common_uses": []
+    "definition": "A state of matter in which a gas is ionized and contains a significant number of free electrons and ions.",
+    "common_uses": [
+      "Fusion reactors",
+      "Plasma displays"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Plasma is formed when a gas is heated to a very high temperature, causing the atoms to lose their electrons.",
+    "origin": "Naturally occurring in stars and lightning."
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Multiple Web Sources",
     "citations": []
   }
 }

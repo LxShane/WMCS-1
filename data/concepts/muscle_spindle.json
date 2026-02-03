@@ -1,0 +1,65 @@
+{
+  "name": "Muscle Spindle",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 22,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Sensory Subclass",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Feedback Control System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Muscle spindles are sensory receptors that provide feedback about muscle length and changes in length.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Muscle spindles contain intrafusal muscle fibers that are sensitive to stretch.",
+    "origin": "Biological sensory system"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Sensory Receptor"
+      ],
+      "capabilities": [
+        "Detects muscle length and changes in length"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

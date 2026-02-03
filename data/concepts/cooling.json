@@ -1,0 +1,52 @@
+{
+  "name": "Cooling",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 8008
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Maintaining Component Temperature",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The process of removing heat from a system or object.",
+    "common_uses": [
+      "Preventing overheating",
+      "Maintaining optimal performance"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Heat transfer through conduction, convection, or radiation.",
+    "origin": "Derived from thermodynamics."
+  },
+  "instance_layer": [
+    "Air cooling",
+    "Liquid cooling"
+  ],
+  "facets": {
+    "ABSTRACT_DATA": {
+      "domain": "Thermodynamics",
+      "antonym": "Heating"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Identifying Personal Computer Components",
+      "Why does a PC shut down at 100% CPU load? - Quora"
+    ]
+  }
+}

@@ -20,6 +20,7 @@ Rules:
 8. SPATIAL LOGIC: For PHYSICAL parts/objects, you MUST populate 'facets.SPATIAL'. Where is it? What does it touch? (e.g. "Connected to the scapula").
 9. UNKNOWN HANDLING: If the text contains a new word that isn't clearly defined (e.g. "The glorp is next to the tree"), set type="UNKNOWN" and populate 'epistemic_metadata.ambiguity_notes'. Do NOT guess.
 10. Confidence: 0.0 to 1.0 based on text clarity.
+11. PHYSICS LOGIC: For PHYSICAL objects, you MUST populate 'facets.STRUCTURAL.material_properties'. Is it rigid? Flexible? Conductive? (e.g. { "rigidity": "High", "state": "Solid" }). This enables functional substitution logic.
 
 Output JSON Schema:
 {
@@ -67,6 +68,12 @@ Output JSON Schema:
                      "visual_features": ["Primary visual descriptors (e.g. Furry, Metallic)"],
                      "shape": ["Physical morphology"],
                      "composition": ["Material made of"],
+                     "material_properties": {
+                         "rigidity": "High/Medium/Low",
+                         "flexibility": "High/Medium/Low",
+                         "state": "Solid/Liquid/Gas",
+                         "conductivity": "None/Elec/Thermal"
+                     },
                      "parts": ["Key components"],
                      "relations": ["Other relations"]
                  },

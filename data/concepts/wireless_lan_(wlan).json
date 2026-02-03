@@ -1,0 +1,83 @@
+{
+  "name": "Wireless LAN (WLAN)",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Connects wireless devices to a wired network using Access Points (APs)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Access Points (APs)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A network that connects wireless devices to a wired network.",
+    "common_uses": [
+      "Connecting laptops to a network",
+      "Connecting phones to a network",
+      "Connecting tablets to a network"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Wireless devices communicate with Access Points, which are connected to the wired network.",
+    "origin": "Evolved from wired networks to provide mobility."
+  },
+  "instance_layer": {
+    "examples": [
+      "A home Wi-Fi network",
+      "A Wi-Fi network in a coffee shop"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Network Connection"
+      ],
+      "capabilities": [
+        "Wireless communication",
+        "Data transfer"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Invisible radio waves"
+      ],
+      "shape": [
+        "Network Topology"
+      ],
+      "composition": [
+        "Radio waves",
+        "Network cables"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Electricity",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1238
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Electromagnetism",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Industrial progress",
+      "temporal": {
+        "valid_from": "1800",
+        "valid_until": "PRESENT",
+        "event": "Industrial Revolution"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The flow of electric charge.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Movement of electrons through a conductor",
+    "origin": "Physical phenomenon involving electric charge"
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Electricity - Wikipedia",
+    "citations": []
+  }
+}

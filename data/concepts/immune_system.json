@@ -2,8 +2,8 @@
   "name": "Immune System",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 3456
+    "group": 22,
+    "item": 1002
   },
   "claims": [
     {
@@ -33,20 +33,36 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Rendering Bacteria Harmless",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A protection mechanism that protects against pathogens.",
+    "definition": "A system of biological structures and processes within an organism that protects against disease.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Specialized cells, tissues, and organs work together to protect against pathogens.",
+    "mechanism": null,
     "origin": null
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Body systems \u2014 Science Learning Hub",
+    "source": "Bacteria - Wikipedia",
     "citations": []
   }
 }

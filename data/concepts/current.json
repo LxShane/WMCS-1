@@ -1,0 +1,59 @@
+{
+  "name": "Current",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 20,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Flow of electrical charge",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MEASURED_SIMULTANEOUSLY_WITH",
+      "object": "Voltage",
+      "temporal": {
+        "valid_from": "2009",
+        "valid_until": "PRESENT",
+        "event": "Patent Filing"
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The rate of flow of electric charge past a point or region.",
+    "common_uses": [
+      "Powering circuits",
+      "Signal transmission"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Movement of electrons or ions.",
+    "origin": "Potential difference."
+  },
+  "instance_layer": [
+    "Amperes flowing through a wire."
+  ],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "US20100010769A1"
+    ]
+  }
+}

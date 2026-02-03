@@ -1,0 +1,109 @@
+{
+  "name": "Metal Can Shielding",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Metal can",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Enclosure",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Tying to ground",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "EMI problem in the form of common-mode noise due to parasitic capacitance between grounds in the system.",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Placement of a metal can within an enclosure and tying it to ground to provide shielding.",
+    "common_uses": [
+      "Shielding from radiated emissions."
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Provides shielding by attenuating electromagnetic fields. Tying to ground is key for effectiveness, but can introduce new EMI problems.",
+    "origin": "Evolved as a method to control electromagnetic interference."
+  },
+  "instance_layer": {
+    "examples": [
+      "A metal can placed around sensitive components in a radio."
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic",
+        "Can shaped"
+      ],
+      "shape": [
+        "Cylindrical",
+        "Rectangular"
+      ],
+      "composition": [
+        "Metal"
+      ]
+    },
+    "SPATIAL": {},
+    "FUNCTION": {
+      "roles": [
+        "Shielding"
+      ],
+      "capabilities": [
+        "Attenuation of Electromagnetic Radiation"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "A Basic Overview of EMI Shielding Techniques & Concepts",
+    "citations": []
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "name": "Thermal Design",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 2345
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Design process",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Managing heat dissipation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Thermal calculation tools",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PREVENTS",
+      "object": "Overheating",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The process of designing a system to manage and dissipate heat effectively.",
+    "common_uses": [
+      "Preventing overheating in electronic devices",
+      "Improving the reliability of electronic components"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Involves the selection of materials, components, and layouts that optimize heat transfer and minimize thermal resistance.",
+    "origin": "Developed as electronic devices became more powerful and generated more heat."
+  },
+  "instance_layer": {
+    "examples": [
+      "Designing heat sinks for CPUs",
+      "Using thermal vias in PCBs"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Heat management"
+      ],
+      "capabilities": [
+        "Dissipating heat",
+        "Reducing thermal resistance"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "PDF PCB Layout Thermal Design Guide - Rohm, Using Thermal Calculation Tools for Analog Components",
+    "citations": []
+  }
+}

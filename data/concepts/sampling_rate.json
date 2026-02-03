@@ -1,0 +1,51 @@
+{
+  "name": "Sampling Rate",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1011
+  },
+  "claims": [
+    {
+      "predicate": "CAUSES",
+      "object": "Lower noise",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "More bits",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The number of samples taken per unit of time from a continuous signal to make a discrete signal.",
+    "common_uses": [
+      "Audio Recording",
+      "Data Acquisition"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Signal Encoding Techniques - Washington University in St. Louis",
+    "citations": [
+      "https://www.cse.wustl.edu/~jain//cse473-05/ftp/i_5cod.pdf"
+    ]
+  }
+}

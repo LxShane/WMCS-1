@@ -1,76 +1,9 @@
 {
   "name": "Diaphragm",
-  "type": "PHYSICAL",
+  "type": "BODY_PART",
   "id": {
-    "group": 24,
-    "item": 9010
-  },
-  "surface_layer": {
-    "definition": "A large, flat muscle at the bottom of the chest cavity that helps with breathing.",
-    "common_uses": [
-      "Breathing"
-    ]
-  },
-  "deep_layer": {
-    "mechanism": "Contracts and relaxes to change the volume of the chest cavity, aiding in inhalation and exhalation.",
-    "origin": "Evolved as part of the respiratory system."
-  },
-  "instance_layer": {
-    "examples": [
-      "The diaphragm contracts during inhalation."
-    ]
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "RESPIRATOR"
-      ],
-      "capabilities": [
-        "Aiding in inhalation",
-        "Aiding in exhalation"
-      ]
-    },
-    "EQUIVALENCE": {
-      "fills_role": [
-        "RESPIRATOR"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [
-        "Flat",
-        "Muscular"
-      ],
-      "shape": [
-        "Dome-shaped"
-      ],
-      "composition": [
-        "Muscle"
-      ],
-      "parts": [],
-      "relations": [
-        "LOCATED_AT chest cavity"
-      ]
-    },
-    "PROCESS_DATA": {
-      "agent": [
-        "Diaphragm"
-      ],
-      "patient": [
-        "Airflow",
-        "Chest cavity"
-      ],
-      "precondition": [
-        "Neural signals from the brain"
-      ],
-      "effect": [
-        "Change in chest cavity volume",
-        "Airflow"
-      ]
-    }
-  },
-  "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
+    "group": 22,
+    "item": 1002
   },
   "claims": [
     {
@@ -144,6 +77,110 @@
         "status": "SETTLED",
         "source_type": "MIGRATE_LEGACY"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Floor of the thoracic cavity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "separating the thoracic cavity from the abdominopelvic cavity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "\"in between\" and \"fence\"",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Muscle",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "breathing",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A unique muscle upon which life itself depends",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
-  ]
+  ],
+  "surface_layer": {
+    "definition": "The diaphragm is a crucial muscle essential for life.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://link.springer.com/content/pdf/10.1007/1-84628-066-4_4.pdf",
+      "https://radiopaedia.org/articles/central-tendon-of-diaphragm",
+      "https://quizlet.com/au/1052079097/central-tendon-of-the-diaphragm-diagram/"
+    ]
+  }
 }

@@ -1,0 +1,42 @@
+{
+  "name": "Spore Wall",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Layer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The outer covering of a spore.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Protects the spore from environmental hazards.",
+    "origin": "Formed during sporulation."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Cell wall - Wikipedia",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Cell_wall"
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "name": "ATLAS pixel detector",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 2347
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Module",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "1744 identical modules",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Sensitive area of 1.73 m2",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The ATLAS pixel detector is composed of modules covering a sensitive area.",
+    "common_uses": [
+      "Particle Tracking",
+      "Vertexing"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Detects charged particles produced in high-energy collisions.",
+    "origin": "Designed and built for the ATLAS experiment at CERN."
+  },
+  "instance_layer": [
+    "ATLAS pixel detector at CERN"
+  ],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Particle Detection",
+        "Tracking"
+      ],
+      "capabilities": [
+        "Precise determination of particle trajectories",
+        "Reconstruction of particle vertices"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Modular",
+        "Large",
+        "Complex"
+      ],
+      "shape": [
+        "Cylindrical",
+        "Layered"
+      ],
+      "composition": [
+        "Silicon",
+        "Electronics"
+      ]
+    },
+    "SPATIAL": {
+      "contained_in": "ATLAS experiment"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://www-physics.lbl.gov/~gilg/PixelOverviewPaper/Modules_NW.pdf",
+    "citations": []
+  }
+}

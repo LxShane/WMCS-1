@@ -1,0 +1,56 @@
+{
+  "name": "Endothelial Cells",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 31,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Blood Vessels",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Endothelial cells are cells that line the interior surface of blood vessels and lymphatic vessels.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Endothelial cells regulate blood clotting, immune function, and vascular permeability.",
+    "origin": "Differentiate from angioblasts during vasculogenesis."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3530036/"
+    ]
+  }
+}

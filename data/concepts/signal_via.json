@@ -1,0 +1,61 @@
+{
+  "name": "Signal Via",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Via",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A via used to carry a signal between layers in a PCB.",
+    "common_uses": [
+      "Connecting signal traces on different layers"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Signal vias provide a conductive path for signals to travel between layers, enabling complex routing designs.",
+    "origin": "Developed to overcome limitations of single-layer PCBs."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Cylindrical",
+        "Small"
+      ],
+      "shape": [
+        "Cylinder"
+      ],
+      "composition": [
+        "Metal (e.g., copper)"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Between PCB layers",
+      "connected_to": [
+        "Signal traces"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://www.protoexpress.com/blog/best-high-speed-pcb-routing-practices/",
+    "citations": []
+  }
+}

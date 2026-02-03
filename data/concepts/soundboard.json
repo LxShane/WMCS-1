@@ -2,61 +2,8 @@
   "name": "Soundboard",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 9012
-  },
-  "surface_layer": {
-    "definition": "A thin piece of wood in a stringed instrument that amplifies the sound of the strings.",
-    "common_uses": [
-      "Amplifying sound in musical instruments"
-    ]
-  },
-  "deep_layer": {
-    "mechanism": "Vibrates in response to the strings, amplifying the sound.",
-    "origin": "Made of wood."
-  },
-  "instance_layer": {
-    "examples": [
-      "Guitar soundboard",
-      "Piano soundboard"
-    ]
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "AMPLIFIER"
-      ],
-      "capabilities": [
-        "Amplifying sound"
-      ]
-    },
-    "EQUIVALENCE": {
-      "fills_role": [
-        "AMPLIFIER"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [
-        "Thin",
-        "Flat"
-      ],
-      "shape": [
-        "Rectangular"
-      ],
-      "composition": [
-        "Wood"
-      ],
-      "parts": [],
-      "relations": []
-    }
-  },
-  "epistemic_metadata": {
-    "source": "The Science Behind the Sound: An Exploration of Acoustics",
-    "citations": [
-      "https://www.theamericanguitaracademy.com/post/the-science-behind-the-sound-an-exploration-of-acoustics",
-      "How does the string of an acoustic guitar transfer energy to ...",
-      "https://physics.stackexchange.com/questions/733470/how-does-the-string-of-an-acoustic-guitar-transfer-energy-to-the-guitars-body"
-    ]
+    "group": 30,
+    "item": 1234
   },
   "claims": [
     {
@@ -112,6 +59,93 @@
         "status": "SETTLED",
         "source_type": "MIGRATE_LEGACY"
       }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Material",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Vibrating",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Structure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
-  ]
+  ],
+  "surface_layer": {
+    "definition": "A resonant structure in musical instruments.",
+    "common_uses": [
+      "Piano",
+      "Guitar"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Material properties and structure affect vibration.",
+    "origin": "Crafted from specific materials."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Resonator"
+      ],
+      "capabilities": [
+        "Amplifying sound"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "N/A",
+      "connected_to": [],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Sources",
+    "citations": [
+      "https://forum.pianoworld.com/ubbthreads.php/topics/3548933/are-you-smarter-than-chatgtp-regarding-soundboards.html",
+      "https://pdfs.semanticscholar.org/7a6c/e9963e982ad812fab23873c7f7dd0b88baef.pdf",
+      "https://www.academia.edu/111214166/Evolution_of_the_vibrational_behavior_of_a_guitar_soundboard_along_successive_construction_phases_by_means_of_the_modal_analysis_technique"
+    ]
+  },
+  "autocorrected": true
 }

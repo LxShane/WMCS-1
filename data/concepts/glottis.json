@@ -2,64 +2,8 @@
   "name": "Glottis",
   "type": "PHYSICAL",
   "id": {
-    "group": 24,
-    "item": 9005
-  },
-  "surface_layer": {
-    "definition": "The opening between the vocal cords in the larynx.",
-    "common_uses": [
-      "Regulating airflow",
-      "Sound production"
-    ]
-  },
-  "deep_layer": {
-    "mechanism": "Opens and closes to interrupt airflow and generate sound.",
-    "origin": "Evolved as part of the vocalization system."
-  },
-  "instance_layer": {
-    "examples": [
-      "The glottis opens during breathing."
-    ]
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "AIRFLOW_REGULATOR",
-        "SOUND_GENERATOR"
-      ],
-      "capabilities": [
-        "Regulating airflow",
-        "Producing sound"
-      ]
-    },
-    "EQUIVALENCE": {
-      "fills_role": [
-        "AIRFLOW_REGULATOR",
-        "SOUND_GENERATOR"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [
-        "Openable",
-        "Closable"
-      ],
-      "shape": [
-        "Slit-like"
-      ],
-      "composition": [
-        "Muscle",
-        "Mucous membrane"
-      ],
-      "parts": [],
-      "relations": [
-        "HAS_PART vocal cords",
-        "LOCATED_AT larynx"
-      ]
-    }
-  },
-  "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
+    "group": 23,
+    "item": 9876
   },
   "claims": [
     {
@@ -160,6 +104,68 @@
         "status": "SETTLED",
         "source_type": "MIGRATE_LEGACY"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "vocal folds",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
-  ]
+  ],
+  "surface_layer": {
+    "definition": "The space between the vocal folds.",
+    "common_uses": [
+      "Air passage during phonation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Air passes through during speech.",
+    "origin": "Part of the larynx."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Air passage"
+      ],
+      "capabilities": [
+        "Channeling Air"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Superior to the trachea, inferior to the epiglottis",
+      "connected_to": [
+        "Vocal cords",
+        "Arytenoid cartilages",
+        "Epiglottis",
+        "Thyroid cartilage",
+        "Cricoid cartilage"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Myoelastic Aerodynamic Theory and Vocal Rehabilitation (part 1)",
+    "citations": [
+      "Myoelastic Aerodynamic Theory and Vocal Rehabilitation (part 1)"
+    ]
+  },
+  "autocorrected": true
 }

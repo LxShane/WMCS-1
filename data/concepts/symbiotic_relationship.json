@@ -1,9 +1,9 @@
 {
   "name": "Symbiotic Relationship",
-  "type": "ABSTRACT_CONCEPT",
+  "type": "ABSTRACT",
   "id": {
-    "group": 50,
-    "item": 1234
+    "group": 51,
+    "item": 6789
   },
   "claims": [
     {
@@ -89,43 +89,68 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Essential for the operation of living organisms",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "BETWEEN",
+      "object": "Anatomical Structure and Physiological Function",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A close and long-term biological interaction between two organisms of different species.",
-    "common_uses": [
-      "Understanding ecological relationships",
-      "Studying evolutionary processes"
-    ]
+    "definition": "A mutually beneficial relationship between two or more entities.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The symbiont lives in or on the host, often benefiting at the host's expense.",
-    "origin": "Evolutionary adaptation between different species."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
-    "examples": [
-      "Nitrogen-fixing bacteria in plant roots",
-      "Parasitic worms in animals"
-    ]
+    "examples": []
   },
   "facets": {
     "FUNCTION": {
-      "roles": [
-        "Ecological Interaction"
-      ],
-      "capabilities": [
-        "Nutrient exchange",
-        "Protection",
-        "Disease transmission"
-      ]
+      "roles": [],
+      "capabilities": []
     },
-    "STRUCTURAL": {}
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
   },
   "epistemic_metadata": {
-    "source": "Ingestion Engine",
-    "citations": [
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7123458/",
-      "https://en.wikipedia.org/wiki/Symbiosis"
-    ]
+    "source": "https://physixis.com/articles/anatomy-physiology-relationship/",
+    "citations": []
   }
 }

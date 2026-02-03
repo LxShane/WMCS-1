@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 22,
-    "item": 1235
+    "item": 1003
   },
   "claims": [
     {
@@ -19,15 +19,46 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "AFFECTS",
+      "object": "soil microbial community",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "AFFECTS",
+      "object": "pH of soil",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": null,
-    "common_uses": []
+    "definition": "A multicellular organism of the kingdom Plantae.",
+    "common_uses": [
+      "Food source",
+      "Oxygen production"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Plants interact with soil microbes through root exudates and nutrient uptake.",
+    "origin": "Evolutionary origin in green algae."
   },
   "instance_layer": {
     "examples": []
@@ -36,7 +67,7 @@
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "Photosynthesis - National Geographic Education"
+      "https://www.mdpi.com/2073-4441/17/21/3054"
     ]
   }
 }

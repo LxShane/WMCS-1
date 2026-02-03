@@ -1,0 +1,77 @@
+{
+  "name": "Hysteresis",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Range of Input Values",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Noise Immunity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PREVENTS",
+      "object": "Rapid Switching",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The dependence of the state of a system on its history.",
+    "common_uses": [
+      "Smoothing transitions",
+      "Reducing oscillation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Introduces a delay in the response of a system, preventing rapid changes in output.",
+    "origin": "Originally described in magnetic systems, now applied broadly in engineering."
+  },
+  "instance_layer": [
+    "Schmitt trigger",
+    "Thermostat"
+  ],
+  "facets": {
+    "ABSTRACT_DATA": {
+      "domain": "Electronics",
+      "antonym": "None"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Robot",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Simultaneous Localization and Mapping (SLAM)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Inspection",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A machine capable of carrying out a complex series of actions automatically.",
+    "common_uses": [
+      "Manufacturing",
+      "Exploration",
+      "Inspection"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Operates using sensors, actuators, and control systems.",
+    "origin": "Originated in industrial automation."
+  },
+  "instance_layer": {
+    "examples": [
+      "Industrial robot arm"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Automation",
+        "Assistance"
+      ],
+      "capabilities": [
+        "Automated tasks",
+        "Data collection"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

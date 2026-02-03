@@ -1,0 +1,54 @@
+{
+  "name": "Radiation",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 20,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Heat transfer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Movement of heat",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The transfer of heat through electromagnetic waves.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Heat transfer through emission and absorption of electromagnetic radiation.",
+    "origin": "Electromagnetic energy."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "https://neothermalinsulation.com/blog/building-insulation/",
+    "citations": []
+  }
+}

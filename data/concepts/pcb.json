@@ -1,0 +1,147 @@
+{
+  "name": "PCB",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Printed Circuit Board",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Designing power circuits",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Thermal design",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Thermal management techniques",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Ground plane",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Shield can",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A printed circuit board (PCB) is a laminated sandwich structure of conductive and insulating layers.",
+    "common_uses": [
+      "Connecting electronic components",
+      "Providing mechanical support for electronic components"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Etched conductive pathways connect components, transferring electrical signals.",
+    "origin": "Developed to replace bulky point-to-point wiring."
+  },
+  "instance_layer": {
+    "examples": [
+      "Motherboard in a computer."
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Flat",
+        "Green or other colored",
+        "Metallic traces"
+      ],
+      "shape": [
+        "Rectangular",
+        "Variable sizes"
+      ],
+      "composition": [
+        "Fiberglass",
+        "Copper"
+      ],
+      "parts": [
+        "Traces",
+        "Pads",
+        "Vias"
+      ]
+    },
+    "SPATIAL": {},
+    "FUNCTION": {
+      "roles": [
+        "Electrical Connection",
+        "Component Support"
+      ],
+      "capabilities": [
+        "Conducting electricity",
+        "Holding components"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "EMC/EMI Shielding Explained - Harwin",
+    "citations": []
+  }
+}

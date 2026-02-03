@@ -1,0 +1,60 @@
+{
+  "name": "Port",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 8765
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Component used in computers",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Computer Component",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A physical interface on a computer where external devices can be connected.",
+    "common_uses": [
+      "Connecting peripherals",
+      "Data transfer"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Ports provide a physical and electrical connection point for external devices to communicate with the computer.",
+    "origin": "Developed alongside early computer architectures."
+  },
+  "instance_layer": {
+    "examples": [
+      "USB port",
+      "Ethernet port"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "https://www.computerhope.com/issues/ch001379.htm",
+    "citations": []
+  }
+}

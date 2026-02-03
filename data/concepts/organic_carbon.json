@@ -1,0 +1,71 @@
+{
+  "name": "Organic carbon",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 20,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "soil",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "AFFECTS",
+      "object": "soil microbial community",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Carbon compounds found in organic matter.",
+    "common_uses": [
+      "Soil fertility",
+      "Carbon sequestration"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Organic carbon serves as a food source for soil microbes.",
+    "origin": "Derived from plant matter and other organic sources."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": []
+    },
+    "SPATIAL": {
+      "location": "Within Soil Matrix",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Soil"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.mdpi.com/2073-4441/17/21/3054"
+    ]
+  }
+}

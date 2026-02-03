@@ -1,0 +1,57 @@
+{
+  "name": "Blind Spot Monitoring",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "convenient functions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A system that monitors areas around a vehicle not easily visible to the driver.",
+    "common_uses": [
+      "Detecting vehicles in blind spots",
+      "Warning the driver of potential hazards"
+    ]
+  },
+  "deep_layer": {},
+  "instance_layer": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Safety System"
+      ],
+      "capabilities": [
+        "Detects objects in blind spots",
+        "Alerts driver to hazards"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Sensors",
+        "Lights"
+      ],
+      "shape": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Cybersecurity and Forensics in Connected Autonomous Vehicles",
+    "citations": [
+      "https://ieeexplore.ieee.org/iel7/6287639/6514899/09916257.pdf"
+    ]
+  }
+}

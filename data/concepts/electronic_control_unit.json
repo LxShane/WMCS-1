@@ -1,0 +1,99 @@
+{
+  "name": "Electronic Control Unit",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Embedded System",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Controls electrical systems in motor vehicle",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Electronic Control Module",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Automotive Electronics",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An electronic control unit (ECU), also known as an electronic control module (ECM), is an embedded system in automotive electronics that controls one or more of the electrical systems or subsystems in a car or other motor vehicle.",
+    "common_uses": [
+      "Controlling electrical systems",
+      "Controlling subsystems in a car"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The ECU receives signals from various sensors and uses pre-programmed algorithms to control actuators and other components.",
+    "origin": "Developed with the rise of automotive electronics to manage complex systems."
+  },
+  "instance_layer": {
+    "examples": [
+      "Engine control unit (ECU)",
+      "Transmission control unit (TCU)"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Controller"
+      ],
+      "capabilities": [
+        "Electrical System Control"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Electronic control unit - Wikipedia",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Electronic_control_unit"
+    ]
+  }
+}

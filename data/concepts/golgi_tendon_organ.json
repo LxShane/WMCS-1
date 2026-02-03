@@ -1,0 +1,65 @@
+{
+  "name": "Golgi Tendon Organ",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 22,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Sensory Subclass",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Feedback Control System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Golgi tendon organs are sensory receptors that provide feedback about muscle tension.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Golgi tendon organs are located in tendons and are sensitive to changes in muscle tension.",
+    "origin": "Biological sensory system"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Sensory Receptor"
+      ],
+      "capabilities": [
+        "Detects muscle tension"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

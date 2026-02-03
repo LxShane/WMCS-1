@@ -26,9 +26,16 @@ Format as JSON:
 }}
 """
 
+from ..memory.strategy_store import StrategyStore
+
 class ReflectionEngine:
     def __init__(self):
         self.client = GeminiClient(Config.LLM_API_KEY, Config.LLM_MODEL)
+        try:
+             self.store = StrategyStore()
+        except Exception as e:
+             print(f"Warning: StrategyStore failed to init: {e}")
+             self.store = None
 
     def analyze_trace(self, trace: ReasoningTrace, feedback: str) -> MetaLesson:
         """
@@ -50,7 +57,7 @@ class ReflectionEngine:
         if "error" in result:
             return None
             
-        return MetaLesson(
+        lesson = MetaLesson(
             id=str(uuid.uuid4())[:8],
             lesson_type=result.get("type", "STRATEGY"),
             content=result.get("content", "No lesson extracted"),
@@ -58,3 +65,9 @@ class ReflectionEngine:
             confidence=result.get("confidence", 0.5),
             created_at=datetime.now().isoformat()
         )
+        
+        # PERSISTENCE (New Phase 3)
+        if self.store and lesson.content != "No lesson extracted":
+             self.store.add_lesson(lesson)
+             
+        return lesson

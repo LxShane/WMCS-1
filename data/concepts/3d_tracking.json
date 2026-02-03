@@ -1,0 +1,101 @@
+{
+  "name": "3D Tracking",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Process",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Process that tracks the position and/or orientation of head-mounted displays, controllers, or other input devices within Euclidean space",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Pose tracking",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Positional tracking",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A process that tracks the position and/or orientation of objects in 3D space.",
+    "common_uses": [
+      "Human-computer interaction",
+      "Virtual reality"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Various methods are used, including position sensors and vision-based systems.",
+    "origin": "Evolved from needs in robotics and virtual reality."
+  },
+  "instance_layer": {
+    "examples": [
+      "HTC Vive tracking system"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Tracking"
+      ],
+      "capabilities": [
+        "Determining position",
+        "Determining orientation"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "3D tracking - Wikipedia",
+      "3. TRACKING INTERFACES - University of Washington",
+      "Improvement of position and orientation tracking accuracy by ..."
+    ]
+  }
+}

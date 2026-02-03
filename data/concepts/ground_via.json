@@ -1,0 +1,90 @@
+{
+  "name": "Ground Via",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Via",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Providing a direct, low-inductance path for high-frequency return current",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Immediately adjacent to the signal via at both the source and sink of the signal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A via connected to the ground plane, providing a low-impedance path for return currents.",
+    "common_uses": [
+      "Providing a low-inductance path for high-frequency return current"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Ground vias reduce inductance by providing a short, direct path for return currents to flow, minimizing voltage drops and improving signal integrity.",
+    "origin": "Developed to address signal integrity issues in high-speed circuits."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Cylindrical",
+        "Small"
+      ],
+      "shape": [
+        "Cylinder"
+      ],
+      "composition": [
+        "Metal (e.g., copper)"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Adjacent to signal vias",
+      "connected_to": [
+        "Ground plane",
+        "Signal via"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://www.protoexpress.com/blog/best-high-speed-pcb-routing-practices/",
+    "citations": []
+  }
+}

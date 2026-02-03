@@ -1,0 +1,79 @@
+{
+  "name": "Grana",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Stacked lamellae regions of thylakoids",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Chloroplast",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Grana are stacked regions of thylakoid membranes within chloroplasts.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Grana provide increased surface area for light-dependent reactions.",
+    "origin": "Arises from the folding of the thylakoid membrane."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Stacked"
+      ],
+      "shape": [
+        "Stack of discs"
+      ],
+      "composition": [
+        "Membrane lipids and proteins"
+      ],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Within the thylakoid membrane",
+      "coordinates": [],
+      "connected_to": [
+        "Other thylakoid membranes"
+      ],
+      "contained_in": "Chloroplast"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Academic Sources",
+    "citations": [
+      "https://www.sciencedirect.com/topics/immunology-and-microbiology/thylakoid",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11448915/"
+    ]
+  }
+}

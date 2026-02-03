@@ -1,9 +1,9 @@
 {
-  "name": "Maillard Reaction",
+  "name": "Maillard reaction",
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1234
+    "item": 1001
   },
   "claims": [
     {
@@ -187,21 +187,46 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "chemical reaction between amino acid residues and reducing sugars",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "formation of melanoidins",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The Maillard reaction is a chemical reaction between amino acids and reducing sugars that results in the browning of food.",
+    "definition": "A chemical reaction between amino acid residues and reducing sugars.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Amino acids and reducing sugars react at high temperatures to produce melanoidins, which contribute to the brown color and flavor of food.",
-    "origin": "Occurs naturally in various foods when heated."
+    "mechanism": "Amino acid residues react with reducing sugars.",
+    "origin": null
   },
   "instance_layer": {
-    "examples": [
-      "Browning of steak",
-      "Browning of bread crust"
-    ]
+    "examples": []
   },
   "facets": {
     "FUNCTION": {
@@ -214,13 +239,19 @@
       "composition": [],
       "parts": [],
       "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
-    "source": "Extracted from web pages",
+    "source": "Set Automatically",
     "citations": [
-      "https://en.wikipedia.org/wiki/Maillard_reaction",
-      "https://www.cookingforengineers.com/article/209/Heat-Transfer-and-Browning-Foods"
+      "https://www.mdpi.com/2304-8158/14/11/1881",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12154226/"
     ]
   }
 }

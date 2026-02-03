@@ -1,0 +1,143 @@
+{
+  "name": "Binding Affinity",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Rate of binding",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Measurement that typifies a tendency or strength of the effect",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Adaptation of solvent to ligand and receptor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Measure of interaction strength between molecules",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MEASURED_BY",
+      "object": "Biacore",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MEASURED_BY",
+      "object": "Isothermal Titration Calorimetry (ITC)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MEASURED_BY",
+      "object": "SPR experiment",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The strength of interaction between two molecules.",
+    "common_uses": [
+      "Drug discovery",
+      "Protein interaction studies"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Determined by the equilibrium dissociation constant (K_D).",
+    "origin": "Physical chemistry principles."
+  },
+  "instance_layer": {
+    "examples": [
+      "Antibody-antigen binding",
+      "Enzyme-substrate binding"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Measurement"
+      ],
+      "capabilities": [
+        "Quantifies interaction strength"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Extraction from provided text.",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8627677/",
+      "https://bio.libretexts.org/Bookshelves/Biochemistry/Fundamentals_of_Biochemistry_(Jakubowski_and_Flatt)/01:_Unit_I-_Structure_and_Catalysis/05:_Protein_Function/5.02:_Techniques_to_Measure_Binding",
+      "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781394342945.fmatter"
+    ]
+  }
+}

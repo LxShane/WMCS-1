@@ -1,9 +1,9 @@
 {
   "name": "ITAM",
-  "type": "INANIMATE_OBJECT",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 1001
+    "group": 21,
+    "item": 1007
   },
   "claims": [
     {
@@ -19,20 +19,42 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "recruitment and activation of ZAP-70",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": "CD4/CD8-p56lck phosphorylation of TCR ITAMs"
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "ITAMs are located in the cytoplasmic tails of CD3.",
+    "definition": "Immunoreceptor tyrosine-based activation motif.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
+    "mechanism": "Recruits signaling molecules.",
     "origin": null
   },
-  "instance_layer": [],
-  "facets": {},
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {},
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
   "epistemic_metadata": {
-    "source": "T-cell receptor - Wikipedia",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://pubmed.ncbi.nlm.nih.gov/33791292/"
+    ]
   }
 }

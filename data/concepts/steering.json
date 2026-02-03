@@ -1,0 +1,56 @@
+{
+  "name": "Steering",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1007
+  },
+  "claims": [
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "driver",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The mechanism by which a vehicle is steered.",
+    "common_uses": [
+      "Controlling direction",
+      "Turning the vehicle"
+    ]
+  },
+  "deep_layer": {},
+  "instance_layer": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Direction Control"
+      ],
+      "capabilities": [
+        "Changing vehicle direction"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Steering Wheel",
+        "Linkages"
+      ],
+      "shape": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Active Safety Control for Automobiles - IEEE Control Systems Society",
+    "citations": [
+      "https://ieeecss.org/sites/ieeecss/files/2019-06/SuccessStoriesforControlCompilation.pdf"
+    ]
+  }
+}

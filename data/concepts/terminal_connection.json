@@ -1,0 +1,82 @@
+{
+  "name": "Terminal Connection",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Connection Point",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Identification Number",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A point where electrical wires are connected, often with a unique identification number.",
+    "common_uses": [
+      "Joining wires",
+      "Connecting devices to a circuit"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Provides a secure and labeled point for electrical connections.",
+    "origin": "Developed for organized and maintainable electrical systems."
+  },
+  "instance_layer": {
+    "examples": [
+      "Screw terminal",
+      "Spring clamp terminal"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic",
+        "Insulated"
+      ],
+      "shape": [
+        "Various, depending on type"
+      ],
+      "composition": [
+        "Metal",
+        "Plastic"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Within an electrical system",
+      "connected_to": [
+        "Wires"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Electrical Signal and Control Wiring",
+    "citations": [
+      "https://control.com/textbook/instrument-connections/electrical-signal-and-control-wiring/"
+    ]
+  }
+}

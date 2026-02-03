@@ -1,0 +1,46 @@
+{
+  "name": "Manual fire alarm activation",
+  "type": "SOCIAL_CONSTRUCT",
+  "id": {
+    "group": 60,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "process of triggering a fire alarm through a call point, pull station, or other device",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Manual fire alarm activation is the process of triggering a fire alarm through a call point, pull station, or other device.",
+    "common_uses": [
+      "alerting occupants of a fire"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Activating a manual call point initiates a signal to the fire alarm control panel, which then activates audible and visual alarms.",
+    "origin": "Fire safety regulations"
+  },
+  "instance_layer": {
+    "examples": [
+      "Activating a pull station"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Manual fire alarm activation - Wikipedia",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Manual_fire_alarm_activation"
+    ]
+  }
+}

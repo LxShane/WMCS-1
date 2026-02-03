@@ -1,58 +1,9 @@
 {
+  "name": "CAT",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 21,
-    "item": 1
-  },
-  "name": "Cat",
-  "aliases": [
-    "Felis catus",
-    "House cat"
-  ],
-  "type": "LIVING_SYSTEM",
-  "surface_layer": {
-    "definition": "A small domesticated carnivorous mammal with soft fur, a short snout, and retractable claws."
-  },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [
-        "Furry body",
-        "Pointed ears",
-        "Long tail"
-      ],
-      "shape": [
-        "Quadrupedal",
-        "Sinuous"
-      ],
-      "composition": [
-        "Flesh",
-        "Bone",
-        "Fur"
-      ],
-      "has_part": [
-        "\u2192 (23, 1) [Cat Paw]",
-        "\u2192 (23, 2) [Cat Eye]",
-        "\u2192 (23, 3) [Cat Tail]"
-      ]
-    },
-    "FUNCTION": {
-      "roles": [
-        "PREDATOR",
-        "COMPANION",
-        "PEST_CONTROL"
-      ],
-      "capabilities": [
-        "hunt",
-        "purr",
-        "climb"
-      ]
-    },
-    "HIERARCHY": {
-      "is_a": [
-        "MAMMAL",
-        "CARNIVORE",
-        "PET"
-      ]
-    }
+    "group": 20,
+    "item": 1004
   },
   "claims": [
     {
@@ -207,6 +158,95 @@
         "status": "SETTLED",
         "source_type": "MIGRATE_LEGACY"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Neuron",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Axon terminals",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Marker",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Identifying Cholinergic neurons",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
-  ]
+  ],
+  "surface_layer": {
+    "definition": "A marker that identifies cholinergic neurons.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "SPATIAL": {
+      "location": "Varies based on specific body part (e.g., Head: Anterior, Tail: Posterior)",
+      "connected_to": [
+        "Spinal Cord",
+        "Rib Cage",
+        "Skull",
+        "Pelvis",
+        "Limb Bones",
+        "Muscles",
+        "Skin"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Acetylcholine Neurotransmission (Section 1, Chapter 11) Neuroscience Online",
+    "citations": [
+      "https://nba.uth.tmc.edu/neuroscience/m/s1/chapter11.html"
+    ]
+  },
+  "autocorrected": true
 }

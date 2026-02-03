@@ -1,0 +1,42 @@
+{
+  "name": "Voltage Sensor",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1006
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "voltage divider",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A device that measures voltage.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Converts a voltage signal into another measurable signal.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Voltage Sensor: What is it And How Does it Work? (Circuit Diagram Included) | Electrical4U"
+    ]
+  }
+}

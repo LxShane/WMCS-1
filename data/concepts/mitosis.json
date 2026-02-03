@@ -1,0 +1,49 @@
+{
+  "name": "Mitosis",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1239
+  },
+  "claims": [
+    {
+      "predicate": "REQUIRES",
+      "object": "Cytoskeleton",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PRECEDES",
+      "object": "Radial Migration",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A type of cell division that results in two daughter cells each having the same number and kind of chromosomes as the parent nucleus, typical of ordinary tissue growth.",
+    "common_uses": []
+  },
+  "deep_layer": {},
+  "instance_layer": {},
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Mode and Tempo of Tangential Cell Migration in the Cerebellar External Granular Layer | Journal of Neuroscience",
+    "citations": []
+  }
+}

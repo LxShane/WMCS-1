@@ -1,0 +1,62 @@
+{
+  "name": "Basal Metabolic Rate",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Resting Energy Consumption",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MEASURED_IN",
+      "object": "W/kg",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The amount of energy expended while at rest in a neutrally temperate environment.",
+    "common_uses": [
+      "Measuring energy expenditure",
+      "Estimating caloric needs"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Represents the minimum amount of energy required to keep your body functioning, including breathing and keeping your heart beating.",
+    "origin": "Metabolic processes within the body."
+  },
+  "instance_layer": {},
+  "facets": {
+    "ABSTRACT_DATA": {
+      "domain": "Metabolism",
+      "antonym": "Active Metabolic Rate"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Exercise physiology - Wikipedia",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Exercise_physiology"
+    ]
+  }
+}

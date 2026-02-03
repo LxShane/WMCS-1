@@ -1,0 +1,120 @@
+{
+  "name": "Inductor",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Passive energy storage component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Energy storage",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "STORES",
+      "object": "Energy",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "STORES",
+      "object": "Energy in magnetic field",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "EXHIBITS",
+      "object": "High impedance to DC",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "EXHIBITS",
+      "object": "Low impedance to AC",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An inductor is a passive component that stores energy in a magnetic field.",
+    "common_uses": [
+      "Energy storage in switched-mode power supplies",
+      "Filtering signals"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Inductors store energy when current flows through them, creating a magnetic field. The energy is released when the current changes.",
+    "origin": "Manufactured electronic component."
+  },
+  "instance_layer": {
+    "examples": [
+      "Inductors in power supplies",
+      "Inductors in radio circuits"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Multiple web sources",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Inductor",
+      "https://www.capacitorconnect.com/similarities-and-differences-between-inductors-and-capacitors/",
+      "https://www.ersaelectronics.com/blog/how-inductors-store-energy"
+    ]
+  }
+}

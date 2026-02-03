@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 62,
-    "item": 1003
+    "item": 4567
   },
   "claims": [
     {
@@ -33,29 +33,61 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Extracellular stimulatory signals",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "T cell receptor",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The process by which a T cell is stimulated to perform its functions.",
+    "definition": "The process by which T cells are stimulated to perform their function.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Involves a complex series of signaling events initiated by antigen binding to the TCR.",
-    "origin": "Triggered by the recognition of antigens presented by MHC molecules."
+    "mechanism": "Extracellular signals bind to the T cell receptor, initiating intracellular signaling cascades.",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "FUNCTION": {},
-    "STRUCTURAL": {}
+    "PROCESS_DATA": {
+      "roles": [
+        "T cell"
+      ],
+      "capabilities": [
+        "Adaptive Immunity"
+      ]
+    }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7272404/",
-      "https://www.cd-genomics.com/blog/overview-of-t-cell-receptor-signaling-pathways",
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8666445/"
+      "PMC7272404"
     ]
   }
 }

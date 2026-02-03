@@ -1,0 +1,184 @@
+{
+  "name": "Chassis",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 23,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Vehicles",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Withstanding torsional stress",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Withstanding bending stress",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Withstanding shear stress",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Ensuring body remains intact",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Ensuring components remain intact",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Suspensions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The load-bearing framework of a vehicle.",
+    "common_uses": [
+      "Support vehicle body",
+      "Mounting point for components"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Distributes forces from road and payload.",
+    "origin": "Early vehicles required separate frame and body."
+  },
+  "instance_layer": {
+    "examples": [
+      "Ladder chassis",
+      "Monocoque chassis"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Rigid",
+        "Frame-like"
+      ],
+      "shape": [
+        "Rectangular",
+        "Tubular"
+      ],
+      "composition": [
+        "Steel",
+        "Aluminum"
+      ],
+      "parts": [
+        "Frame rails",
+        "Crossmembers"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Support",
+        "Protection"
+      ],
+      "capabilities": [
+        "Bearing load",
+        "Distributing force"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Underneath the vehicle body",
+      "connected_to": [
+        "Suspension",
+        "Engine mounts"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Extraction from Web Content",
+    "citations": [
+      "https://grokipedia.com/page/Chassis",
+      "https://www.projecttopics.info/Mechanical/single-seater-race-car-chassis-frame.php",
+      "https://patents.google.com/patent/US6923282B2/en"
+    ]
+  }
+}

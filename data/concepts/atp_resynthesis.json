@@ -1,0 +1,76 @@
+{
+  "name": "ATP Resynthesis",
+  "type": "SOCIAL_CONSTRUCT",
+  "id": {
+    "group": 60,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Metabolic Process",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Regulatory Mechanisms",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Metabolic system",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The process of regenerating adenosine triphosphate (ATP) from adenosine diphosphate (ADP) and inorganic phosphate.",
+    "common_uses": [
+      "Energy supply for cells",
+      "Fueling muscle contraction"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Involves various metabolic pathways, including oxidative phosphorylation, glycolysis, and the phosphagen system.",
+    "origin": "Occurs within cells."
+  },
+  "instance_layer": {},
+  "facets": {
+    "PROCESS_DATA": {
+      "actor": "Metabolic system",
+      "affected": "ATP levels"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Skeletal muscle energy metabolism during exercise",
+    "citations": [
+      "https://pubmed.ncbi.nlm.nih.gov/32747792/"
+    ]
+  }
+}

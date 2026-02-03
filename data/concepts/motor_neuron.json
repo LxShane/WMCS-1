@@ -1,0 +1,83 @@
+{
+  "name": "Motor Neuron",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Presynaptic Terminal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Neuron",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Inducing muscle contraction",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A neuron that controls muscle activity.",
+    "common_uses": [
+      "Movement"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Motor neurons transmit electrical signals to muscle fibers, causing them to contract.",
+    "origin": "Evolution of nervous systems"
+  },
+  "instance_layer": {
+    "examples": [
+      "Alpha motor neuron"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Motor Output"
+      ],
+      "capabilities": [
+        "Muscle activation"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Proprioception"
+    ]
+  }
+}

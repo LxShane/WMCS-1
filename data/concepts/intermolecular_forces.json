@@ -1,9 +1,9 @@
 {
-  "name": "Intermolecular Forces",
+  "name": "Intermolecular forces",
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 7890
+    "item": 1234
   },
   "claims": [
     {
@@ -33,25 +33,50 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Electrostatic interactions between gas particles",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Van der Waals forces",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
     "definition": "Forces of attraction or repulsion between molecules.",
-    "common_uses": [
-      "Understanding material properties",
-      "Predicting boiling points"
-    ]
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Arise from electrostatic interactions between molecules.",
-    "origin": "Electromagnetic interactions"
+    "mechanism": "Result from variations in electron density around atoms and molecules.",
+    "origin": "Arise from the quantum mechanical nature of electron distribution."
   },
-  "instance_layer": [
-    "Van der Waals forces",
-    "Hydrogen bonding"
-  ],
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Gas - Wikipedia",
     "citations": []
   }
 }

@@ -1,0 +1,114 @@
+{
+  "name": "Electrocorticography",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "electrophysiological monitoring",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "intracranial electroencephalography",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "a type of electrophysiological monitoring that uses electrodes placed directly on the exposed surface of the brain to record electrical activity from the cerebral cortex",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "electrode grid",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "craniotomy",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Electrocorticography (ECoG) is a type of intracranial electroencephalography (iEEG) used to record electrical activity from the cerebral cortex.",
+    "common_uses": [
+      "monitoring brain activity",
+      "diagnosing neurological conditions"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Electrodes placed on the brain surface detect electrical signals.",
+    "origin": "Developed for direct brain activity recording."
+  },
+  "instance_layer": {
+    "examples": [
+      "Monitoring seizure activity in epilepsy patients"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Diagnostic tool"
+      ],
+      "capabilities": [
+        "Record electrical activity of the brain",
+        "Monitor brain function"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Electrocorticography",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6476542/"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Interface Composition",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 2345
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Chemical makeup at the liquid-liquid interface",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Chemical Composition",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MIRRORS",
+      "object": "Composition at the Critical Point",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": "Discovery"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The specific chemical species and their concentrations present at the interface.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Determined by thermodynamic equilibrium and interfacial energy minimization.",
+    "origin": "Result of component partitioning between phases."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "ABSTRACT_DATA": {
+      "domain": "Chemistry, Thermodynamics",
+      "properties": [
+        "Concentration",
+        "Molar Fraction"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://pubs.acs.org/doi/10.1021/acs.langmuir.3c03344",
+    "citations": []
+  }
+}

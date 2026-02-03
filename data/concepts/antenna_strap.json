@@ -1,0 +1,73 @@
+{
+  "name": "Antenna Strap",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "end of the internal-VTLs",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Component of an antenna used to transmit or receive radio frequency signals.",
+    "common_uses": [
+      "Transmitting RF signals to plasma"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Transmits electromagnetic energy in the form of radio frequency waves to the plasma.",
+    "origin": "Component of ICRH systems."
+  },
+  "instance_layer": {
+    "examples": [
+      "Antenna straps used with Internal Vacuum Transmission Lines."
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic",
+        "Strip-shaped"
+      ],
+      "shape": [
+        "Flat"
+      ],
+      "composition": [
+        "Metal"
+      ]
+    },
+    "SPATIAL": {
+      "location": "End of VTL",
+      "connected_to": [
+        "Internal Vacuum Transmission Lines"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "RF transmission"
+      ],
+      "capabilities": [
+        "Transmitting RF signals"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Academic Sources",
+    "citations": [
+      "https://www.sciencedirect.com/science/article/pii/S0920379603002722"
+    ]
+  }
+}

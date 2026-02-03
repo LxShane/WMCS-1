@@ -1,0 +1,77 @@
+{
+  "name": "Stitching Via",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1006
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Via",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Keeping return currents close when signals change layers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A via used to connect ground planes or power planes on different layers of a PCB.",
+    "common_uses": [
+      "Minimizing inductance",
+      "Providing a return path for current"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Stitching vias reduce the inductance between planes, improving signal integrity and reducing EMI.",
+    "origin": "Developed to address high-speed signal integrity concerns."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Cylindrical",
+        "Small"
+      ],
+      "shape": [
+        "Cylinder"
+      ],
+      "composition": [
+        "Metal (e.g., copper)"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Between PCB layers",
+      "connected_to": [
+        "Ground planes",
+        "Power planes"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://resources.pcb.cadence.com/blog/er-grounding-and-return-paths-power-plane-no-nos",
+    "citations": []
+  }
+}

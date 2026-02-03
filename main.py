@@ -318,8 +318,33 @@ class WMCS_Kernel:
         # STEP 3: COGNITIVE PROCESSING (Synthesizing Logic)
         tprint("Step 3 (Cognitive Processing): Synthesizing Logic...", "cyan")
         
+        # META-LEARNING INJECTION
+        reasoning_prompt_header = "SYSTEM ROLE: You are the Logic Engine (System A).\\n"
+        
+        # 1. Recall relevant strategies
+        try:
+             from system_a_cognitive.memory.strategy_store import StrategyStore
+             # Dirty hack: We need a singleton or to init it in __init__
+             # Ideally validation happens in init.
+             if not hasattr(self, 'strategy_store'):
+                  try:
+                      self.strategy_store = StrategyStore()
+                  except:
+                      self.strategy_store = None
+             
+             if self.strategy_store:
+                  strategies = self.strategy_store.recall_strategies(text, top_k=2)
+                  if strategies:
+                      print(colored(f"  > [Meta-Learning] Applying Strategies: {strategies}", "magenta"))
+                      reasoning_prompt_header += f"ADAPTIVE STRATEGIES (LEARNED FROM PAST):\\n"
+                      for s in strategies:
+                           reasoning_prompt_header += f"- {s}\\n"
+                      reasoning_prompt_header += "\\n"
+        except Exception as e:
+             print(f"Strategy Injection Failed: {e}")
+
         reasoning_prompt = (
-            f"SYSTEM ROLE: You are the Logic Engine (System A).\\n"
+            f"{reasoning_prompt_header}"
             f"YOUR GOAL: Answer the User Query using ONLY the provided Memory Blocks.\\n\\n"
             f"MEMORY BLOCKS:\\n{json.dumps(found_info, indent=2)}\\n\\n"
             f"USER QUERY: \"{text}\"\\n\\n"

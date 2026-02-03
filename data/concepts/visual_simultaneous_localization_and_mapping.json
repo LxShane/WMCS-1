@@ -1,0 +1,51 @@
+{
+  "name": "Visual Simultaneous Localization and Mapping",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "V-SLAM",
+      "temporal": {
+        "valid_from": "2022",
+        "valid_until": "PRESENT",
+        "event": "Publication of Review"
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A technique that simultaneously builds a map of the environment and localizes the sensor within it using visual data.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Uses camera input to estimate the sensor's position and orientation while concurrently constructing a 3D representation of the surroundings.",
+    "origin": "Developed in the field of robotics and computer vision."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Localization",
+        "Mapping"
+      ],
+      "capabilities": [
+        "Simultaneous Localization",
+        "Environment Mapping"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Review A survey of state-of-the-art on visual SLAM - ScienceDirect.com",
+    "citations": []
+  }
+}

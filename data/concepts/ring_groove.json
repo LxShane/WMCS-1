@@ -1,0 +1,49 @@
+{
+  "name": "Ring Groove",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Piston Ring",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Groove in the piston holding the ring.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Holds the ring in place, allowing it to seal the cylinder.",
+    "origin": ""
+  },
+  "instance_layer": [],
+  "facets": {
+    "SPATIAL": {
+      "location": "On piston",
+      "coordinates": [],
+      "connected_to": [
+        "Piston Ring"
+      ],
+      "contained_in": "Piston"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Home Model Enginemachinist"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Exhaust Valve",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1236
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "control the flow of spent exhaust gases out of the combustion chamber",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Valvetrain",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A valve that controls the flow of exhaust gases out of the combustion chamber.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Opens and closes to release exhaust gases from the cylinder.",
+    "origin": "Part of the internal combustion engine."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Exhaust Gas Controller"
+      ],
+      "capabilities": [
+        "Opening",
+        "Closing"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Valvetrain - Wikipedia"
+    ]
+  }
+}

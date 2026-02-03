@@ -1,0 +1,198 @@
+{
+  "name": "Damper",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "valve or plate",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "FUNCTION",
+      "object": "stops or regulates the flow of air",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "duct",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "chimney",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "VAV box",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "air handler",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "air-handling equipment",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "cut off central air conditioning",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Aluminum",
+      "temporal": {
+        "valid_from": "2024",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A damper is a valve or plate that stops or regulates the flow of air inside a duct, chimney, or other air-handling equipment.",
+    "common_uses": [
+      "Controlling airflow in HVAC systems",
+      "Isolating unused rooms"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "By adjusting the angle or position of the plate, the damper restricts or allows airflow.",
+    "origin": "Likely developed alongside early HVAC systems."
+  },
+  "instance_layer": {
+    "examples": [
+      "Rectangular HVAC dampers",
+      "Aluminum dampers"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Airflow Regulator"
+      ],
+      "capabilities": [
+        "Stops airflow",
+        "Regulates airflow"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Plate-like",
+        "Rectangular"
+      ],
+      "shape": [
+        "Flat",
+        "Variable, often rectangular or circular"
+      ],
+      "composition": [
+        "Metal",
+        "Aluminum"
+      ],
+      "parts": [
+        "Plate",
+        "Actuator",
+        "Frame"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Within ducts or air passages",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Duct, chimney, VAV box, air handler"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Damper (flow) - Wikipedia; ZoningSupply.com - Zone Control - Rectangular HVAC Dampers; Home | Tamco Dampers",
+    "citations": [
+      "Wikipedia",
+      "ZoningSupply.com",
+      "Tamco Dampers"
+    ]
+  }
+}

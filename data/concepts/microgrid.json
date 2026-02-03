@@ -1,0 +1,57 @@
+{
+  "name": "Microgrid",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Group of interconnected loads and distributed energy resources with defined electrical boundaries",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Local energy network",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A local energy network consisting of interconnected loads and distributed energy resources within defined electrical boundaries.",
+    "common_uses": [
+      "Local power generation",
+      "Emergency power backup"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Microgrids balance energy supply and demand locally.",
+    "origin": "Developed to improve grid resilience and energy independence."
+  },
+  "instance_layer": [
+    "A microgrid powering a university campus"
+  ],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Microgrid - Wikipedia",
+    "citations": []
+  }
+}

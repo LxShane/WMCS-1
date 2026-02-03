@@ -1,0 +1,72 @@
+{
+  "name": "Principal Component Analysis",
+  "type": "MATHEMATICAL_OBJECT",
+  "id": {
+    "group": 40,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "PCA of a multivariate Gaussian distribution",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Standard Deviation",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A statistical procedure that uses an orthogonal transformation to convert a set of observations of possibly correlated variables into a set of values of linearly uncorrelated variables called principal components.",
+    "common_uses": [
+      "Dimensionality reduction",
+      "Feature extraction"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The first principal component has the largest possible variance (that is, accounts for as much of the variability in the data as possible), and each succeeding component in turn has the highest variance possible under the constraint that it is orthogonal to the preceding components.",
+    "origin": "Developed in the early 20th century."
+  },
+  "instance_layer": {
+    "examples": [
+      "Image processing",
+      "Genetics"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Data Analysis Tool"
+      ],
+      "capabilities": [
+        "Reduces dimensionality of data",
+        "Extracts features from data"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "https://en.wikipedia.org/wiki/Principal_component_analysis",
+    "citations": []
+  }
+}

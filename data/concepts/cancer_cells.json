@@ -1,0 +1,57 @@
+{
+  "name": "Cancer Cells",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 30,
+    "item": 1236
+  },
+  "claims": [
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "migrate from the primary tumor to distant organs",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "spread and growth in other organs",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Cells that divide uncontrollably and can invade other tissues.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Result from accumulated genetic mutations.",
+    "origin": "Mutation of normal cells."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12840987/",
+      "https://www.preprints.org/manuscript/202512.0263/v1"
+    ]
+  }
+}

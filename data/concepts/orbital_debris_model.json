@@ -1,0 +1,80 @@
+{
+  "name": "Orbital Debris Model",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A model to describe and characterize the current and future orbital debris environment.",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Debris impact risk assessments for spacecraft and satellites",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A computational model used to simulate the behavior and evolution of orbital debris.",
+    "common_uses": [
+      "Predicting future debris environment",
+      "Assessing impact risk to spacecraft",
+      "Evaluating debris mitigation strategies"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Orbital debris models use mathematical equations and simulations to track the movement and collision of debris in Earth's orbit.",
+    "origin": "Developed by space agencies and research institutions."
+  },
+  "instance_layer": {
+    "examples": [
+      "ORDEM2000",
+      "ORDEM 3.2",
+      "EVOLVE",
+      "LEGEND",
+      "DELTA"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Predictor",
+        "Risk Assessor"
+      ],
+      "capabilities": [
+        "Predicting future debris distribution",
+        "Calculating collision probability",
+        "Simulating debris mitigation scenarios"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Sources",
+    "citations": [
+      "NASA Orbital Debris Program Office - Wikipedia",
+      "ARES | Orbital Debris Program Office | Debris Modeling",
+      "J. Astron. Space Sci.: Review of Space Debris Modeling Methods and Development Direction of the Korean Space Debris Models"
+    ]
+  }
+}

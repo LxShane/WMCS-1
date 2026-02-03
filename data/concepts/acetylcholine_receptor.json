@@ -1,0 +1,165 @@
+{
+  "name": "Acetylcholine Receptor",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 31,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Molecular Component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Postsynaptic Muscle Membrane",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Generation of Endplate Potential",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Fetal Acetylcholine Receptor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": null,
+        "event": "Development"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Adult Acetylcholine Receptor",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": "Maturation"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Altering Channel Biophysics",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": "Developmental Switch"
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Altering Channel Pharmacology",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": "Developmental Switch"
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Muscle-type nicotinic acetylcholine receptor (AChR)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A key molecular component located at the postsynaptic muscle membrane responsible for the generation of the endplate potential.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Activation of the receptor by acetylcholine leads to ion channel opening and generation of the endplate potential.",
+    "origin": "Synthesized within muscle cells."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Receptor"
+      ],
+      "capabilities": [
+        "Ligand Binding",
+        "Ion Channel Regulation"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Postsynaptic Membrane",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Muscle Cell"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Manual",
+    "citations": [
+      "https://www.nature.com/articles/s41586-024-07774-6",
+      "https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2020.581097/full",
+      "https://www.sciencedirect.com/topics/neuroscience/postsynaptic-membrane"
+    ]
+  }
+}

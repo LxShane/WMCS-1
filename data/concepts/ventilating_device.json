@@ -1,0 +1,58 @@
+{
+  "name": "Ventilating device",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Temperature Control",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A device designed to circulate air for temperature management.",
+    "common_uses": [
+      "Cooling systems",
+      "HVAC systems"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Uses a fan or blower to move air across a heat source.",
+    "origin": "Originally designed for mine ventilation."
+  },
+  "instance_layer": {
+    "examples": [
+      "Industrial fans",
+      "Computer cooling fans"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Cooling",
+        "Air Circulation"
+      ],
+      "capabilities": [
+        "Temperature Reduction"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "ScienceDirect Topics",
+    "citations": [
+      "Cooling Lubrication - an overview"
+    ]
+  }
+}

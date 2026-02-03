@@ -1,0 +1,97 @@
+{
+  "name": "Biacore",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Measuring interactions between unmodified proteins",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Providing accurate measures of binding affinity",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Providing accurate measures of stoichiometry",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A surface plasmon resonance (SPR) based instrument used for real-time biomolecular interaction analysis.",
+    "common_uses": [
+      "Protein-protein interaction studies",
+      "Drug discovery"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Measures changes in refractive index on a sensor surface due to biomolecular binding.",
+    "origin": "Developed by Biacore AB."
+  },
+  "instance_layer": {
+    "examples": [
+      "Biacore T200",
+      "Biacore 8K"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Measurement",
+        "Analysis"
+      ],
+      "capabilities": [
+        "Real-time interaction analysis",
+        "Affinity determination"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic casing",
+        "Electronic display"
+      ],
+      "shape": [
+        "Box-shaped",
+        "Benchtop instrument"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Extraction from provided text and common knowledge.",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8627677/"
+    ]
+  }
+}

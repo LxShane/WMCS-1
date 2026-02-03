@@ -1,0 +1,79 @@
+{
+  "name": "Power Connector",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 31,
+    "item": 4004
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Passing power to CPU",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A connector used to supply power to a device.",
+    "common_uses": [
+      "Supplying power to computer components"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Provides a physical connection for electrical current to flow.",
+    "origin": "Developed alongside power supply technology."
+  },
+  "instance_layer": [
+    "ATX power connector",
+    "EPS power connector"
+  ],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Rectangular",
+        "Pinned"
+      ],
+      "shape": [
+        "Compact",
+        "Multi-pinned"
+      ],
+      "composition": [
+        "Plastic",
+        "Metal"
+      ],
+      "parts": [
+        "Pins",
+        "Housing"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Power Supplier"
+      ],
+      "capabilities": [
+        "Power delivery",
+        "Electrical connection"
+      ]
+    },
+    "SPATIAL": {
+      "connected_to": [
+        "Power Supply",
+        "CPU"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Computer Structure and Logic - Pearsoncmg.com"
+    ]
+  }
+}

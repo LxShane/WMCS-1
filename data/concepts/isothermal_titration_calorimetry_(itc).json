@@ -1,0 +1,97 @@
+{
+  "name": "Isothermal Titration Calorimetry (ITC)",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 9123
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Measuring binding",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Deriving K_D",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Deriving binding stoichiometry",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A technique to measure the thermodynamic parameters of interactions in solution.",
+    "common_uses": [
+      "Protein-ligand interaction studies",
+      "Enzyme kinetics"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Measures the heat released or absorbed during a binding event.",
+    "origin": "Developed in the 1960s."
+  },
+  "instance_layer": {
+    "examples": [
+      "MicroCal ITC200",
+      "TA Instruments Nano ITC"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Measurement",
+        "Analysis"
+      ],
+      "capabilities": [
+        "Thermodynamic parameter determination",
+        "Binding affinity measurement"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic casing",
+        "Sample cell"
+      ],
+      "shape": [
+        "Box-shaped",
+        "Benchtop instrument"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Extraction from provided text and common knowledge.",
+    "citations": [
+      "https://bio.libretexts.org/Bookshelves/Biochemistry/Fundamentals_of_Biochemistry_(Jakubowski_and_Flatt)/01:_Unit_I-_Structure_and_Catalysis/05:_Protein_Function/5.02:_Techniques_to_Measure_Binding"
+    ]
+  }
+}

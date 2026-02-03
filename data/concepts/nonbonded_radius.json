@@ -1,0 +1,54 @@
+{
+  "name": "Nonbonded Radius",
+  "type": "MATHEMATICAL_OBJECT",
+  "id": {
+    "group": 40,
+    "item": 1006
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Steric penalties",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Desolvation penalties",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Radius determining the size of atoms.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Impacts protein binding affinity of anionic vs neutral drugs by imposing steric and desolvation penalties.",
+    "origin": "Atomic property"
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Drug ionization and protein binding affinity",
+    "citations": [
+      "https://grokipedia.com/page/Drug_ionization_and_protein_binding_affinity"
+    ]
+  }
+}

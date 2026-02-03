@@ -1,0 +1,80 @@
+{
+  "name": "Heat Sink",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 31,
+    "item": 2002
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Cooling CPU",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A component used to dissipate heat from a device.",
+    "common_uses": [
+      "Cooling CPUs",
+      "Cooling GPUs"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Transfers heat from a hot surface to a cooler medium, usually air or a liquid.",
+    "origin": "Early heat sinks were simple metal blocks."
+  },
+  "instance_layer": [
+    "Aluminum heat sink",
+    "Copper heat sink"
+  ],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Finned",
+        "Metallic"
+      ],
+      "shape": [
+        "Rectangular",
+        "Radiating"
+      ],
+      "composition": [
+        "Aluminum",
+        "Copper"
+      ],
+      "parts": [
+        "Base",
+        "Fins"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Heat Dissipater"
+      ],
+      "capabilities": [
+        "Heat transfer",
+        "Cooling"
+      ]
+    },
+    "SPATIAL": {
+      "connected_to": [
+        "CPU"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Computer Structure and Logic - Pearsoncmg.com",
+      "Why does a PC shut down at 100% CPU load? - Quora"
+    ]
+  }
+}

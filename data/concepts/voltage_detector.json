@@ -1,0 +1,99 @@
+{
+  "name": "Voltage Detector",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Electronic Component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Voltage Detection",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Input Buffer IC",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An electronic device that detects voltage levels.",
+    "common_uses": [
+      "Overvoltage Protection",
+      "Undervoltage Protection",
+      "Power Supply Monitoring"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Compares an input voltage to a threshold voltage and outputs a signal based on the comparison.",
+    "origin": "Electronic engineering design and manufacturing processes."
+  },
+  "instance_layer": [
+    "TPS3711",
+    "ACPL-K378"
+  ],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Voltage Monitoring",
+        "Threshold Detection"
+      ],
+      "capabilities": [
+        "Detecting overvoltage conditions",
+        "Detecting undervoltage conditions"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Integrated circuit",
+        "Multiple pins",
+        "Small form factor"
+      ],
+      "shape": [
+        "Rectangular",
+        "Square"
+      ],
+      "composition": [
+        "Semiconductor materials",
+        "Epoxy resin"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

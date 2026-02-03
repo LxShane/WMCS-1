@@ -1,9 +1,9 @@
 {
   "name": "Virtual Reality",
-  "type": "INANIMATE_OBJECT",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 30,
-    "item": 1239
+    "group": 50,
+    "item": 1234
   },
   "claims": [
     {
@@ -19,39 +19,169 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "computer-generated environment that immerses users in a three-dimensional world",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "VR headset",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "system based on an interactive 3D environment",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "auditory feedback",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "visual feedback",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "haptic feedback",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "visual experience",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "auditory input",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "immersing users",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Computer-generated simulation of a three-dimensional environment.",
-    "common_uses": [
-      "Training",
-      "Simulation"
-    ]
+    "definition": "A computer-generated environment that immerses users in a three-dimensional world.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Uses headsets and software to create immersive experiences.",
-    "origin": "Developed in the late 20th century, with increasing applications in military contexts."
+    "mechanism": null,
+    "origin": null
   },
-  "instance_layer": [
-    "Flight simulators",
-    "Combat training"
-  ],
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {
     "FUNCTION": {
-      "roles": [
-        "Training",
-        "Simulation"
-      ],
-      "capabilities": [
-        "Immersive environments",
-        "Realistic scenarios"
-      ]
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "N/A (Conceptual, not physical)",
+      "connected_to": [],
+      "coordinates": []
     }
   },
   "epistemic_metadata": {
-    "source": "orfonline.org",
+    "source": "Set Automatically",
     "citations": [
-      "Future Warfare and Critical Technologies"
+      "https://www.sciencedirect.com/topics/computer-science/virtual-reality",
+      "https://ieeexplore.ieee.org/iel8/6287639/6514899/10938103.pdf"
     ]
-  }
+  },
+  "autocorrected": true
 }

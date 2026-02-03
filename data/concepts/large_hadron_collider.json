@@ -89,27 +89,206 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Particle accelerator",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "World's largest particle accelerator",
+      "temporal": {
+        "valid_from": "2008",
+        "valid_until": "PRESENT",
+        "event": "First startup"
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Most powerful particle accelerator",
+      "temporal": {
+        "valid_from": "2008",
+        "valid_until": "PRESENT",
+        "event": "First startup"
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "pushing protons to near the speed of light",
+      "temporal": {
+        "valid_from": "2008",
+        "valid_until": "PRESENT",
+        "event": "First startup"
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "pushing ions to near the speed of light",
+      "temporal": {
+        "valid_from": "2008",
+        "valid_until": "PRESENT",
+        "event": "First startup"
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Latest addition to CERN\u2019s accelerator complex",
+      "temporal": {
+        "valid_from": "2008",
+        "valid_until": "PRESENT",
+        "event": "First startup"
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Detectors",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "particle accelerator",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "cryogenic system",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "largest cryogenic system in the world",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "CERN",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "electromagnets",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Collider Tunnel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A particle accelerator designed to collide beams of particles.",
+    "definition": "A particle accelerator at CERN.",
     "common_uses": [
-      "particle physics research"
+      "Particle physics research"
     ]
   },
   "deep_layer": {
-    "mechanism": "Uses electromagnets to accelerate and collide particle beams.",
-    "origin": "Built by CERN."
+    "mechanism": "Accelerates and collides particles to study fundamental physics.",
+    "origin": "Built and operated by CERN."
   },
-  "instance_layer": {
-    "examples": [
-      "LHC at CERN"
-    ]
-  },
+  "instance_layer": [
+    "Located at CERN near Geneva"
+  ],
+  "facets": {},
   "epistemic_metadata": {
     "source": "Large Hadron Collider - Wikipedia",
-    "citations": [
-      "Page 12"
-    ]
+    "citations": []
   }
 }

@@ -1,0 +1,100 @@
+{
+  "name": "Circuitry",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1236
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Electronic components and connections within a device",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Electronic Components",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Connections",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The arrangement of electronic components and connections within a device that enable its operation.",
+    "common_uses": [
+      "Implementing electronic functions",
+      "Controlling devices"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Circuitry uses electrical current to perform calculations and control devices.",
+    "origin": "Evolved with the development of electronics."
+  },
+  "instance_layer": {
+    "examples": [
+      "Circuitry in a microcontroller",
+      "Circuitry in a computer motherboard"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Complex",
+        "Miniaturized"
+      ],
+      "shape": [
+        "Various, depending on the device"
+      ],
+      "composition": [
+        "Semiconductors",
+        "Metals",
+        "Ceramics"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Enables device operation"
+      ],
+      "capabilities": [
+        "Performs calculations",
+        "Controls devices"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Internal Circuitry - an overview | ScienceDirect Topics",
+    "citations": [
+      "https://www.sciencedirect.com/topics/computer-science/internal-circuitry"
+    ]
+  }
+}

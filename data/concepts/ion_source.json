@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 30,
-    "item": 1003
+    "item": 6789
   },
   "claims": [
     {
@@ -47,22 +47,43 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Ion Production",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A device that creates ions.",
+    "definition": "A device that produces ions.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Various methods are used to ionize a gas or solid, then the ions are extracted.",
+    "mechanism": "Various mechanisms are used to generate ions.",
     "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
+    "source": "Ion source - Wikipedia",
+    "citations": [
+      "Wikipedia"
+    ]
   }
 }

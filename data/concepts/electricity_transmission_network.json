@@ -1,0 +1,101 @@
+{
+  "name": "Electricity Transmission Network",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 22,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Network",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "High-voltage transmission lines",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Interconnecting various regions and demand centers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A network for transmitting electricity, typically using high-voltage lines to connect regions and demand centers.",
+    "common_uses": [
+      "Electricity distribution"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Electricity flows through high-voltage transmission lines to connect different locations.",
+    "origin": "Developed to efficiently transmit electricity over long distances."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Electricity Transmission"
+      ],
+      "capabilities": [
+        "Connect regions",
+        "Transmit electricity"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Wires",
+        "Towers"
+      ],
+      "shape": [
+        "Linear"
+      ],
+      "composition": [],
+      "parts": [
+        "Transmission Lines",
+        "Transformers"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Between power plants and demand centers",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://www.energy.gov/sites/default/files/2023-11/FINAL_CESER+Electricity+Grid+Backgrounder_508.pdf",
+    "citations": []
+  }
+}

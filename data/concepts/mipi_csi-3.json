@@ -1,0 +1,79 @@
+{
+  "name": "MIPI CSI-3",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Protocol",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "High-speed, bidirectional protocol primarily intended for image and video transmission between cameras and hosts within a multi-layered, peer-to-peer, UniPro-based M-PHY device network",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Image transmission",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Video transmission",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "MIPI CSI-3 is a high-speed, bidirectional protocol primarily intended for image and video transmission between cameras and hosts.",
+    "common_uses": []
+  },
+  "deep_layer": {},
+  "instance_layer": {},
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Camera Serial Interface - Wikipedia",
+    "citations": [
+      "Page 1"
+    ]
+  }
+}

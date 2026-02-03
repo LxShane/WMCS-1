@@ -1,0 +1,93 @@
+{
+  "name": "Socket G 1",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "CPU socket",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Direct Media Interface",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "PCI Express 2.0 interface",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A CPU socket specification.",
+    "common_uses": [
+      "Connecting compatible CPUs."
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Electrical contacts provide communication pathways.",
+    "origin": "Designed for specific CPU architectures."
+  },
+  "instance_layer": [],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Square",
+        "Pin array"
+      ],
+      "shape": [
+        "Square with pin holes."
+      ],
+      "composition": [
+        "Plastic",
+        "Metal"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "CPU Interface"
+      ],
+      "capabilities": [
+        "Connecting CPU",
+        "Enabling communication"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "CPU-World"
+    ]
+  }
+}

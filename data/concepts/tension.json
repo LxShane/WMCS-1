@@ -3,60 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 3456
-  },
-  "surface_layer": {
-    "definition": "The state of being stretched tight.",
-    "common_uses": [
-      "Measuring force",
-      "Adjusting musical instruments"
-    ]
-  },
-  "deep_layer": {
-    "mechanism": "Force exerted by a stretched object.",
-    "origin": "Application of opposing forces."
-  },
-  "instance_layer": {
-    "examples": [
-      "String tension",
-      "Cable tension"
-    ]
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "FORCE"
-      ],
-      "capabilities": [
-        "Applying force",
-        "Resisting deformation"
-      ]
-    },
-    "EQUIVALENCE": {
-      "fills_role": [
-        "FORCE"
-      ]
-    },
-    "PROPERTY_DATA": {
-      "domain": [
-        "FORCE"
-      ],
-      "scale_type": [
-        "SCALAR"
-      ],
-      "typical_applies_to": [
-        "Stretched objects"
-      ],
-      "antonym": [
-        "Compression"
-      ]
-    }
-  },
-  "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "Strings, standing waves and harmonics"
-    ]
+    "item": 1002
   },
   "claims": [
     {
@@ -85,6 +32,57 @@
         "status": "SETTLED",
         "source_type": "MIGRATE_LEGACY"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Diaphragm",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Changes in breathing",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "WEB"
+      }
     }
-  ]
+  ],
+  "surface_layer": {
+    "definition": "A state of being stretched or strained.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Muscle contraction or external forces leading to the stretching of the muscle.",
+    "origin": "Can be caused by various factors."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "PROPERTY_DATA": {
+      "domain": "Physical",
+      "antonym": "Relaxation"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://geelongosteopaths.com.au/your-diaphragm-isnt-just-for-breathing/"
+    ]
+  }
 }

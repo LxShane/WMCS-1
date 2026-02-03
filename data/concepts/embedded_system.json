@@ -1,0 +1,47 @@
+{
+  "name": "Embedded System",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1239
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Microcontroller",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A computer system with a dedicated function within a larger system.",
+    "common_uses": [
+      "Controlling appliances",
+      "Controlling vehicles"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Microcontroller executes code to interact with sensors and actuators.",
+    "origin": "Evolved from dedicated hardware circuits"
+  },
+  "instance_layer": {
+    "examples": [
+      "Engine control unit",
+      "Washing machine controller"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "https://www.eng.auburn.edu/~dbeale/MECH4240-50/Introduction+to+Microcontrollers+and+Embedded+Systems.pdf",
+    "citations": [
+      "An introduction to microcontrollers and embedded systems"
+    ]
+  }
+}

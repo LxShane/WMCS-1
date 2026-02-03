@@ -1,0 +1,85 @@
+{
+  "name": "10-20 system (EEG)",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Reference system for electrode placement",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Equating electrode placement across individuals",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Consistent administration of TES",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The 10-20 system is a standardized method for electrode placement on the scalp during electroencephalography (EEG).",
+    "common_uses": [
+      "EEG",
+      "tDCS",
+      "Transcranial Electric Stimulation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The system uses anatomical landmarks to define electrode positions as percentages of the total distance between nasion and inion, and between pre-auricular points.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Standardization"
+      ],
+      "capabilities": [
+        "Provides a consistent reference frame for electrode placement."
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Wikipedia",
+      "PMC",
+      "tDCS Devices"
+    ]
+  }
+}

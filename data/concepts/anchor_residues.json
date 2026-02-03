@@ -1,0 +1,75 @@
+{
+  "name": "Anchor Residues",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 22,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Amino Acid Residues",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Protein-Protein Interactions",
+      "temporal": {
+        "valid_from": "2004",
+        "valid_until": "PRESENT",
+        "event": "Discovery"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Maintaining conformation in the absence of interacting partners",
+      "temporal": {
+        "valid_from": "2004",
+        "valid_until": "PRESENT",
+        "event": "Discovery"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Residues within a protein that are critical for mediating protein-protein interactions.",
+    "common_uses": [
+      "Studying protein binding specificity",
+      "Designing protein therapeutics"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Anchor residues often form key contacts within the interaction interface, contributing significantly to binding affinity.",
+    "origin": "Evolved to ensure specific and stable protein-protein interactions."
+  },
+  "instance_layer": {
+    "examples": [
+      "Tryptophan residues in SH3 domains"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "PNAS",
+    "citations": [
+      "https://www.pnas.org/doi/10.1073/pnas.0401942101"
+    ]
+  }
+}

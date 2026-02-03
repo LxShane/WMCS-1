@@ -1,0 +1,65 @@
+{
+  "name": "Intraperitoneal Space",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 24,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "abdominal cavity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "WRAPPED_IN",
+      "object": "Peritoneum",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The space located within the abdominal cavity but wrapped in peritoneum.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "SPATIAL": {
+      "location": "within abdominal cavity",
+      "coordinates": [],
+      "connected_to": [
+        "peritoneum"
+      ],
+      "contained_in": "abdominal cavity"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Peritoneum"
+    ]
+  }
+}

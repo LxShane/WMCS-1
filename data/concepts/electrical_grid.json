@@ -1,0 +1,75 @@
+{
+  "name": "Electrical Grid",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 22,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Line",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A network of power lines and associated equipment used to transmit and distribute electricity over a geographic area.",
+    "common_uses": [
+      "Electricity distribution",
+      "Power transmission"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Electricity is transmitted from power plants, stepped up in voltage, sent across transmission lines and stepped down for distribution.",
+    "origin": "Developed to transmit and distribute electricity to a wide range of consumers."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Electrical Power Distribution"
+      ],
+      "capabilities": [
+        "Transmit electrical power",
+        "Distribute electrical power"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Wires",
+        "Towers"
+      ],
+      "shape": [
+        "Networked"
+      ],
+      "composition": [],
+      "parts": [
+        "Transmission lines",
+        "Transformers",
+        "Substations"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Spanning a geographic area",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://web.engr.oregonstate.edu/~webbky/ESE470_files/Section+1+Overview+of+the+Electrical+Grid.pdf",
+    "citations": []
+  }
+}

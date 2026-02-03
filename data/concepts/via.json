@@ -1,0 +1,66 @@
+{
+  "name": "Via",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 1239
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Electrical connection",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Inductance",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An electrical connection between layers in a printed circuit board (PCB).",
+    "common_uses": [
+      "Connecting traces on different layers"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Provides a path for current to flow between layers.",
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Small hole",
+        "Plated with metal"
+      ],
+      "shape": [
+        "Cylindrical"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://hilelectronic.com/capacitor-esr-and-esl/"
+    ]
+  }
+}
