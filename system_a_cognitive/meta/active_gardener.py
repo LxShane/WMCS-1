@@ -30,12 +30,43 @@ class ActiveGardener:
             
         print(colored("🌱 [ACTIVE GARDENER] returning to sleep.\n", "green"))
 
+    def rebuild_registry(self):
+        """
+        Scans all concept files and rebuilds registry.json.
+        """
+        print(colored("  [Gardener] Rebuilding Registry from disk...", "magenta"))
+        registry = {}
+        files = [f for f in os.listdir(self.concepts_dir) if f.endswith(".json")]
+        
+        for fname in files:
+            try:
+                with open(os.path.join(self.concepts_dir, fname), 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    name = data.get("name", "").lower().replace(" ", "_")
+                    gid = data.get("id", {}).get("group")
+                    iid = data.get("id", {}).get("item")
+                    
+                    if name and gid and iid:
+                        registry[name] = {"group": gid, "item": iid}
+            except: continue
+            
+        reg_path = os.path.join(os.path.dirname(self.concepts_dir), "registry.json")
+        with open(reg_path, 'w', encoding='utf-8') as f:
+            json.dump(registry, f, indent=4)
+        print(colored(f"  [Gardener] Registry Rebuilt. Indexed {len(registry)} concepts.", "green"))
+
     def audit_and_fix(self):
         """
-        Scans for gaps. Randomly chooses between SPATIAL and PHYSICS audits.
+        Scans for gaps. Randomly chooses between SPATIAL, PHYSICS, and REGISTRY audits.
         """
-        audit_mode = random.choice(["SPATIAL", "PHYSICS"])
+        audit_mode = random.choices(["SPATIAL", "PHYSICS", "REGISTRY"], weights=[40, 40, 20], k=1)[0]
+        
+        if audit_mode == "REGISTRY":
+            self.rebuild_registry()
+            return
+
         print(colored(f"  [Gardener] Running Audit Mode: {audit_mode}...", "cyan"))
+        # ... logic continues ...
 
         files = [f for f in os.listdir(self.concepts_dir) if f.endswith(".json")]
         random.shuffle(files) # Randomize to avoid getting stuck

@@ -2,8 +2,8 @@
   "name": "Lungs",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 34,
-    "item": 1007
+    "group": 23,
+    "item": 3456
   },
   "claims": [
     {
@@ -33,22 +33,76 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "organs of respiration",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "ARE_A",
+      "object": "diverticula",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": "Formation off of the ventral foregut"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "lung buds",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "air-filled space",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Organs that facilitate gas exchange.",
+    "definition": "The essential respiration organs.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Facilitate gas exchange.",
+    "mechanism": null,
     "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
-    "source": "2.2 Building Blocks of the Animal's Body",
+    "source": "Wikipedia",
     "citations": []
   }
 }

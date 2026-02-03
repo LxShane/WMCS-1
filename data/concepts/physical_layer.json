@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1236
+    "item": 1234
   },
   "claims": [
     {
@@ -131,39 +131,52 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Concerned with transmitting raw bits over a communication channel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Layer of data communication networking",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The physical layer is a bit pipe that is used to connect one sender with possibly multiple receivers.",
+    "definition": "The physical layer is the lowest layer in the OSI model and is responsible for the physical transmission of data.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The physical layer sends bits from a sender to a receiver.",
-    "origin": null
+    "mechanism": "The physical layer encodes and transmits raw bits over a communication channel, handling the electrical and physical characteristics of the connection.",
+    "origin": "Part of the Open Systems Interconnection (OSI) model, developed to standardize network protocols."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "SPATIAL": {
-      "location": "Layer 1 of the OSI model; Lowest layer of the TCP/IP model",
-      "connected_to": [
-        "Data Link Layer",
-        "Network Layer",
-        "Physical Medium"
-      ],
-      "coordinates": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "PDF RECEIVER 1 bits RECEIVER 1 PHYSICAL LAYER SENDER RECEIVER 1",
+    "source": "351cs51 data communication & networking",
     "citations": [
-      "PDF RECEIVER 1 bits RECEIVER 1 PHYSICAL LAYER SENDER RECEIVER 1"
+      "351CS51 DATA COMMUNICATION NETWORKING. 6"
     ]
-  },
-  "autocorrected": true
+  }
 }

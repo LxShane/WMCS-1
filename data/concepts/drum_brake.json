@@ -1,0 +1,136 @@
+{
+  "name": "Drum Brake",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 31,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Brake",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Slowing vehicle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Friction",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Brake Shoes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Brake Pads",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Brake Drum",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A drum brake is a brake that uses friction caused by a set of shoes or pads that press outward against a rotating bowl-shaped part called a brake drum.",
+    "common_uses": [
+      "Slowing a vehicle"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Brake shoes or pads press against a rotating brake drum, creating friction and slowing the vehicle.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [
+        "Bowl-shaped drum"
+      ],
+      "composition": [],
+      "parts": [
+        "Brake shoes",
+        "Brake pads",
+        "Brake drum"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Inside the wheels"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "Drum brake - Wikipedia",
+      "How the Brake System Works",
+      "Car Braking Systems Explained: How They Work & Key Components"
+    ]
+  }
+}

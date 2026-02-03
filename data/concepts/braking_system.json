@@ -1,0 +1,85 @@
+{
+  "name": "Braking System",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 29,
+    "item": 1006
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Vehicle System",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Vehicle",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A system used to slow down or stop a vehicle.",
+    "common_uses": [
+      "Stopping a vehicle",
+      "Slowing down a vehicle"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Applies friction to the wheels to reduce speed.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Deceleration"
+      ],
+      "capabilities": [
+        "Apply braking force",
+        "Reduce vehicle speed",
+        "Stop vehicle"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Varies depending on the type of braking system. Disc brakes are located near the wheels, while drum brakes are integrated within the wheel hub. The master cylinder is typically located in the engine compartment, connected to the brake pedal.",
+      "connected_to": [
+        "Wheels",
+        "Brake pedal",
+        "Brake lines",
+        "Master cylinder",
+        "Calipers (disc brakes)",
+        "Brake shoes/pads",
+        "Brake rotors/drums",
+        "Axle"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "US11694116B2 - Vehicle resiliency, driving feedback and risk"
+    ]
+  },
+  "autocorrected": true
+}

@@ -1,0 +1,99 @@
+{
+  "name": "Battery Thermal Management System (BTMS)",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1238
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "System Supervision",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Thermal Safety",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Electrical Safety",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An electronic device that supervises and manages the thermal and electrical safety of the battery system.",
+    "common_uses": [
+      "Monitoring battery temperature",
+      "Ensuring electrical safety"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Monitors temperature and voltage, and triggers safety mechanisms if necessary.",
+    "origin": "Engineered to ensure safe and efficient operation of the battery pack."
+  },
+  "instance_layer": {
+    "examples": [
+      "Microcontroller in a battery management system"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Electronic components",
+        "Sensors"
+      ],
+      "shape": [
+        "Circuit board"
+      ],
+      "composition": [
+        "Silicon",
+        "Electronic components"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Monitoring",
+        "Safety"
+      ],
+      "capabilities": [
+        "Monitors system",
+        "Regulates safety parameters"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.mdpi.com/2624-8921/5/2/28"
+    ]
+  }
+}

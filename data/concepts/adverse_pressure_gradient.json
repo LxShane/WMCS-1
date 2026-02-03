@@ -1,0 +1,56 @@
+{
+  "name": "Adverse Pressure Gradient",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 30,
+    "item": 1236
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A pressure gradient in which the static pressure increases in the direction of the flow.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "APPLIES_TO",
+      "object": "Fluid Dynamics",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A pressure gradient in which the static pressure increases in the direction of the flow.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "The increasing static pressure opposes the flow, potentially leading to boundary layer separation and turbulence.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Adverse_pressure_gradient"
+    ]
+  }
+}

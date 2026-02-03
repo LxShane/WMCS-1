@@ -2,8 +2,8 @@
   "name": "Ligand",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 4567
+    "group": 30,
+    "item": 9012
   },
   "claims": [
     {
@@ -131,18 +131,32 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Binding Receptors",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A ligand is a substance that forms a complex with a biomolecule to serve a biological purpose.",
+    "definition": "A molecule that binds to a receptor.",
     "common_uses": [
-      "Drug delivery",
-      "Signaling"
+      "Drug",
+      "Signaling molecule"
     ]
   },
   "deep_layer": {
-    "mechanism": "Ligand binds to receptor leading to a conformational change.",
-    "origin": "Chemical synthesis"
+    "mechanism": "Ligands bind to receptors via non-covalent interactions.",
+    "origin": "Synthesized by cells or introduced externally."
   },
   "instance_layer": {
     "examples": [
@@ -151,23 +165,34 @@
     ]
   },
   "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Receptor Activation",
+        "Signal Initiation"
+      ],
+      "capabilities": [
+        "Activating intracellular signaling pathways"
+      ]
+    },
     "STRUCTURAL": {
       "visual_features": [
-        "Small",
-        "Varied shape"
+        "Variable",
+        "Small molecule"
       ],
       "shape": [
         "Variable"
       ],
       "composition": [
-        "Various atoms"
+        "Variable"
       ]
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Multiple Sources",
     "citations": [
-      "Integrin - Wikipedia"
+      "https://www.bing.com/aclick?ld=e8Ujb33Ye3L5AJV5L1ISwcJTVUCUxLon5ftm24-a0vrqat4KoYvEfNNh2o481fQVTLc8CVgVqq-2I5KKAq2UIQ-6Xd9zuURuQrRgmw_YofsRQt-s9jbvhIU9iu3euVNYv7IHkv-H8OFcgoeqXE0fgIM-9OxnV1-nLNTDOAizoi7-Hvg4w7tboAaae_vGDYHzD6UFwrunLSBKiCLXkpfDCAU9IMslU&u=aHR0cHMlM2ElMmYlMmZ3d3cuZ2lmZm9yZGJpb3NjaWVuY2UuY29tJTJmcmFkaW9saWdhbmQtYmluZGluZy1hc3NheSUyZiUzZm1zY2xraWQlM2RhYjE3MDRjZmEyYjMxMGExMjI4NjZkNGU2OWE2Y2RmZCUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZEFsbCUyNTIwUmFkJTI1MjBTZXJ2aWNlcyUyNTIwKEVVKSUyNnV0bV90ZXJtJTNkcmVjZXB0b3IlMjUyMGxpZ2FuZCUyNTIwYmluZGluZyUyNnV0bV9jb250ZW50JTNkUmFkaW9saWdhbmQlMjUyMEJpbmRpbmclMjUyMEFzc2F5JTI1MjAoUkJBJTI1MjBTZXJ2aWNlJTI1MjBQYWdlKQ&rlid=ab1704cfa2b310a122866d4e69a6cdfd",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10219515/",
+      "https://bio.libretexts.org/Bookshelves/Biochemistry/Supplemental_Modules_(Biochemistry)/6._Lab_Notes_Part_2/6.3:_Ligand_binding"
     ]
   }
 }

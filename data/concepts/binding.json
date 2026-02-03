@@ -1,71 +1,9 @@
 {
-  "name": "binding",
+  "name": "Binding",
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1213
-  },
-  "surface_layer": {
-    "definition": "The process of two or more molecules attaching to each other.",
-    "common_uses": [
-      "Molecular interactions"
-    ]
-  },
-  "deep_layer": {
-    "mechanism": "Involves intermolecular forces between molecules.",
-    "origin": "Based on chemical and physical principles."
-  },
-  "instance_layer": {
-    "examples": [
-      "Enzyme-substrate binding"
-    ]
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "CONNECT"
-      ],
-      "capabilities": [
-        "Joining molecules"
-      ]
-    },
-    "EQUIVALENCE": {
-      "fills_role": [
-        "CONNECT"
-      ]
-    },
-    "ABSTRACT_DATA": {
-      "domain": [
-        "CHEMISTRY",
-        "BIOLOGY"
-      ],
-      "core_premise": [
-        "Molecules interact through forces"
-      ],
-      "contrasting_concepts": [
-        "Repulsion"
-      ]
-    },
-    "PROCESS_DATA": {
-      "agent": [
-        "Molecule"
-      ],
-      "patient": [
-        "Molecule"
-      ],
-      "precondition": [
-        "Appropriate molecular interactions"
-      ],
-      "effect": [
-        "Complex formation"
-      ]
-    }
-  },
-  "epistemic_metadata": {
-    "source": "Ingestion Engine",
-    "citations": [
-      "PMC5627312"
-    ]
+    "item": 1236
   },
   "claims": [
     {
@@ -85,6 +23,73 @@
         "status": "SETTLED",
         "source_type": "MIGRATE_LEGACY"
       }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Lon",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "USER"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Cady",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "USER"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Demonstrating usually strong powers",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "USER"
+      }
     }
-  ]
+  ],
+  "surface_layer": {
+    "definition": "The action of fastening something or someone.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "PROCESS_DATA": {
+      "roles": [
+        "Agent"
+      ],
+      "affected": [
+        "Demonstrating usually strong powers"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Binding the Shadows (Arcadia Bell, #3) by Jenn Bennett",
+    "citations": []
+  }
 }

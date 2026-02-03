@@ -1,9 +1,9 @@
 {
-  "name": "Peripheral Devices",
+  "name": "Peripheral devices",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 31,
-    "item": 7890
+    "group": 20,
+    "item": 6789
   },
   "claims": [
     {
@@ -33,45 +33,56 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Input-Output subsystem",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Devices used to provide input or receive output from a computer.",
-    "common_uses": []
+    "definition": "A device connected to a computer system that provides input or output functions.",
+    "common_uses": [
+      "Inputting data into a computer",
+      "Outputting data from a computer"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Provides a means for the computer to interact with the outside world.",
+    "origin": "Developed as a necessary component for human-computer interaction."
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": [
+      "Keyboard",
+      "Mouse",
+      "Monitor"
+    ]
+  },
   "facets": {
     "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "External",
-      "connected_to": [
-        "Computer Case",
-        "Motherboard (via ports)",
-        "External Ports"
+      "roles": [
+        "Input",
+        "Output"
       ],
-      "coordinates": []
+      "capabilities": [
+        "Sending data to the computer",
+        "Receiving data from the computer"
+      ]
     }
   },
   "epistemic_metadata": {
-    "source": "Discover the Power of I/O: What is I/O and How Does it Work?, What is I/O (Input/Output) in Computing?",
+    "source": "Set Automatically",
     "citations": [
-      "https://www.lenovo.com/us/en/glossary/what-is-io/?srsltid=AfmBOoojt73uywi4uDKmOSwl18Yic03KqAnpenCPMj1ws_b-OLB8ImJV",
-      "https://builtin.com/hardware/i-o-input-output"
+      "https://www.ioenotes.edu.np/media/notes/computer-organization-and-architecture-coa/Chapter7-Input-Output-Organization.pdf"
     ]
-  },
-  "autocorrected": true
+  }
 }

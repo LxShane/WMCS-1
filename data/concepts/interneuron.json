@@ -2,8 +2,8 @@
   "name": "Interneuron",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 22,
-    "item": 1011
+    "group": 21,
+    "item": 1004
   },
   "claims": [
     {
@@ -19,20 +19,64 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "GluN2D-containing NMDA receptor",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Neuron subtype",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Targeting dendritic compartments",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A neuron that relays signals between other neurons.",
+    "definition": "A neuron that transmits impulses between other neurons, especially sensory or motor neurons.",
     "common_uses": []
   },
   "deep_layer": {
     "mechanism": null,
     "origin": null
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Cellular and synaptic organization of the Octopus vertical lobe",
+    "source": "Spatially targeted inhibitory rhythms differentially affect",
     "citations": []
   }
 }

@@ -1,9 +1,9 @@
 {
   "name": "Interface",
-  "type": "ABSTRACT_CONCEPT",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 50,
-    "item": 1234
+    "group": 20,
+    "item": 6543
   },
   "claims": [
     {
@@ -117,43 +117,48 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PROPERTY",
+      "object": "Migrated interfaces",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A point of interaction or interconnection between systems, components, or processes.",
-    "common_uses": [
-      "Data transfer",
-      "Communication between components"
-    ]
+    "definition": "A surface forming a common boundary between two bodies, spaces, or phases.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Establishes a pathway for data or signal exchange.",
-    "origin": "Arises from the need for interoperability between systems."
+    "mechanism": null,
+    "origin": null
   },
-  "instance_layer": {
-    "examples": [
-      "USB interface",
-      "Ethernet interface"
-    ]
-  },
+  "instance_layer": [],
   "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Communication",
-        "Data transfer"
-      ],
-      "capabilities": [
-        "Encoding messages",
-        "Decoding messages"
-      ]
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
-    "source": "Multiple Web Sources",
-    "citations": [
-      "https://www.tme.eu/en/news/library-articles/page/60826/popular-communication-interfaces-and-protocols/",
-      "https://www.protoexpress.com/blog/complete-guide-pcb-interfaces-communication-protocols/",
-      "https://sparxeng.com/blog/hardware/a-quick-guide-to-communication-protocols"
-    ]
+    "source": "Set Automatically",
+    "citations": []
   }
 }

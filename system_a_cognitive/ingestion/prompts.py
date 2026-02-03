@@ -43,8 +43,8 @@ Output JSON Schema:
                     },
                     "epistemic": {
                         "confidence": 0.0 to 1.0,
-                        "status": "SETTLED" | "CONTESTED" | "HYPOTHETICAL" | "HISTORICAL",
-                        "source_type": "ACADEMIC" | "WEB" | "USER" | "UNKNOWN"
+                        "status": "SETTLED" | "CONTESTED" | "HYPOTHETICAL" | "HISTORICAL" | "FICTIONAL",
+                        "source_type": "ACADEMIC" | "WEB" | "USER" | "FANTASY" | "UNKNOWN"
                     }
                 }
             ],
@@ -60,6 +60,21 @@ Output JSON Schema:
                 "examples": ["Specific real-world example 1"]
             },
             "facets": {
+                 "ACTION_SCHEMA": {
+                     "domain": "PHYSICAL | SOCIAL | CHEMICAL | GENERIC",
+                     "preconditions": {"subject.state": "...", "object.property": "..."},
+                     "postconditions": {"object.state": "...", "new_relation": "..."},
+                     "mechanics": "The causal rule or formula (e.g. Impact Force > Brittleness)"
+                 },
+                 "SOCIAL_PROFILE": {
+                     "traits": {"agreeableness": "HIGH", "dominance": "LOW"},
+                     "relationships": ["Friend of X", "Enemy of Y"]
+                 },
+                 "MENTAL_STATE": {
+                     "mood": "Neutral",
+                     "intent": "Unknown",
+                     "trust_model": {"AgentID": 0.5}
+                 },
                  "FUNCTION": {
                      "roles": ["Standardized Role Name"],
                      "capabilities": ["specific capability"]

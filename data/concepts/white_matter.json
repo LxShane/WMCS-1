@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 21,
-    "item": 1240
+    "item": 5678
   },
   "claims": [
     {
@@ -19,24 +19,82 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "myelinated axons",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "glial cells",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "brain",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Brain tissue primarily composed of myelinated nerve fibers.",
+    "definition": "Part of the brain, mainly made up of myelinated axons.",
     "common_uses": []
   },
-  "deep_layer": {},
-  "instance_layer": [],
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {
     "FUNCTION": {
       "roles": [],
       "capabilities": []
     },
-    "STRUCTURAL": {},
-    "SPATIAL": {}
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
   },
   "epistemic_metadata": {
-    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4503207/",
+    "source": "Set Automatically",
     "citations": []
   }
 }

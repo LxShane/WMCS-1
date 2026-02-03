@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1234
+    "item": 1002
   },
   "claims": [
     {
@@ -103,19 +103,39 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "guiding reverse transcription in prime editing",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Engineered prime editing guide RNA",
+    "definition": "A guide RNA used in prime editing to direct reverse transcriptase to a specific DNA location.",
     "common_uses": []
   },
-  "deep_layer": {},
-  "instance_layer": [],
+  "deep_layer": {
+    "mechanism": "Base-pairs with target DNA and contains a template for reverse transcription.",
+    "origin": "Engineered RNA molecule."
+  },
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "Prime Editing Technology and Its Prospects for Future Applications in ..."
+      "https://www.nature.com/articles/s41586-024-07497-8",
+      "https://elifesciences.org/articles/90948"
     ]
   }
 }

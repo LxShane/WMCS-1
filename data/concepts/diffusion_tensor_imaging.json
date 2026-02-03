@@ -1,0 +1,90 @@
+{
+  "name": "Diffusion Tensor Imaging",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "MRI technique",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "estimate the axonal (white matter) organization of the brain",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "examine the microstructural status of white matter in vivo and non-invasively",
+      "temporal": {
+        "valid_from": "2016",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "anisotropic diffusion",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An MRI technique that uses anisotropic diffusion to estimate the axonal (white matter) organization of the brain.",
+    "common_uses": [
+      "assess neural tracts",
+      "presurgical mapping of eloquent white matter tracts",
+      "examine microstructural status of white matter"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "DTI uses anisotropic diffusion properties of water molecules to infer the direction and integrity of white matter tracts. The data acquired are then used to generate diffusion tensor maps, which are analyzed to understand brain connectivity.",
+    "origin": "Developed as an extension of conventional MRI to provide insights into brain microstructure."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Radiopaedia.org",
+      "AJNR.org",
+      "PMC.ncbi.nlm.nih.gov"
+    ]
+  }
+}

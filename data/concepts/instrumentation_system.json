@@ -1,0 +1,75 @@
+{
+  "name": "Instrumentation System",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "obtaining data about a physical system",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "collecting information about a physical system",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "feedback control of the physical system",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An instrumentation system obtains data about a physical system for collecting information or feedback control.",
+    "common_uses": [
+      "Data Collection",
+      "Feedback Control"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Sensors measure physical parameters, signal conditioning prepares the signal, and data acquisition converts to a digital format for analysis or control.",
+    "origin": "Developed in engineering for measurement and control applications."
+  },
+  "instance_layer": {
+    "examples": [
+      "Temperature measurement system",
+      "Pressure control system"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "PDF INSTRUMENTATION AND CONTROL SYSTEMS - University of Oxford",
+    "citations": [
+      "https://www.robots.ox.ac.uk/~gari/teaching/b18/background_lectures/2A2-Signal-Conditioning-L1-Notes-Collins.pdf"
+    ]
+  }
+}

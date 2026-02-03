@@ -1,0 +1,94 @@
+{
+  "name": "Logical Interface",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 29,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Interface",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Packet types",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Part of Physical Interface",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A software-based interface within a physical interface.",
+    "common_uses": [
+      "Configuring network settings",
+      "Managing network traffic"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "A logical interface manages data flow via software configurations within the physical interface.",
+    "origin": "Developed to abstract physical network connections in software."
+  },
+  "instance_layer": {
+    "examples": [
+      "VLAN interface",
+      "Tunnel interface"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    },
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Physical Interface Properties | Junos OS | Juniper Networks"
+    ]
+  }
+}

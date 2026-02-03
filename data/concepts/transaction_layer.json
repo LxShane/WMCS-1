@@ -1,0 +1,40 @@
+{
+  "name": "Transaction Layer",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Layer in PCIe protocol stack",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A layer in a communication protocol that manages the exchange of data between two devices in terms of transactions.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "The transaction layer enables the sending and receiving of requests and responses, and handles the overall flow of data.",
+    "origin": "Part of the PCIe protocol stack and other transaction-oriented architectures."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "PCIe\u00ae 5.0 Protocol and Electrical Compliance Testing Deep Dive",
+    "citations": []
+  }
+}

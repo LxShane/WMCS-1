@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 30,
-    "item": 1235
+    "item": 1234
   },
   "claims": [
     {
@@ -33,22 +33,170 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Assembly",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Battery Cells",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Structural Enclosures",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Temperature Control System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Battery Thermal Management System (BTMS)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Structural Integrity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Thermal Management",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Accessibility",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "An assembly of battery cells, electrically organized.",
-    "common_uses": []
+    "definition": "A complex assembly that stores energy for a vehicle.",
+    "common_uses": [
+      "Powering electric vehicles"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Battery cells provide energy, enclosures provide structure, temperature control manages heat, and BTMS supervises the system.",
+    "origin": "Manufactured for use in electric vehicles."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Battery pack in a Tesla Model 3"
+    ]
   },
-  "facets": {},
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Rectangular",
+        "Enclosed"
+      ],
+      "shape": [
+        "Box-like"
+      ],
+      "composition": [
+        "Metal",
+        "Plastic"
+      ],
+      "parts": [
+        "Cells",
+        "Enclosure",
+        "Cooling System",
+        "BTMS"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Energy Storage"
+      ],
+      "capabilities": [
+        "Provides power to the vehicle"
+      ]
+    }
+  },
   "epistemic_metadata": {
-    "source": "https://www.synopsys.com/glossary/what-is-a-battery-management-system.html",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.mdpi.com/2624-8921/5/2/28",
+      "https://journalwjarr.com/sites/default/files/fulltext_pdf/WJARR-2025-1902.pdf",
+      "https://xray.greyb.com/ev-battery/ev-battery-packaging"
+    ]
   }
 }

@@ -1,9 +1,9 @@
 {
   "name": "Protoplanetary Disk",
-  "type": "PHYSICAL",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 34,
-    "item": 1003
+    "group": 28,
+    "item": 1237
   },
   "claims": [
     {
@@ -19,6 +19,20 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Formation of planets",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
@@ -26,13 +40,23 @@
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Accretion of planetesimals and smaller bodies.",
+    "origin": "Molecular clouds"
   },
-  "instance_layer": [],
-  "facets": {},
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "SPATIAL": {
+      "location": "Surrounding a star",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Solar System"
+    },
+    "STRUCTURAL": {}
+  },
   "epistemic_metadata": {
-    "source": "Stellar magnetic field - Wikipedia",
+    "source": "Kuiper belt - Wikipedia",
     "citations": []
   }
 }

@@ -1,0 +1,54 @@
+{
+  "name": "Cytotoxic T Lymphocytes",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 30,
+    "item": 1009
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "T Cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Targeting Enriched tumor-APCs",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A type of T lymphocyte that kills infected or cancerous cells.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "CTLs recognize antigens presented by MHC class I molecules on the surface of target cells and kill the cells by releasing cytotoxic granules containing perforin and granzymes.",
+    "origin": "Develop in the thymus."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

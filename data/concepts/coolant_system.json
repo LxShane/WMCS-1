@@ -1,0 +1,70 @@
+{
+  "name": "Coolant System",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 29,
+    "item": 1008
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Vehicle System",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Vehicle",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A system used to regulate the temperature of a vehicle's engine.",
+    "common_uses": [
+      "Engine temperature regulation",
+      "Heat dissipation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Circulates coolant through the engine to remove heat.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Temperature Regulation"
+      ],
+      "capabilities": [
+        "Remove heat from engine",
+        "Prevent overheating",
+        "Maintain optimal temperature"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "US11694116B2 - Vehicle resiliency, driving feedback and risk"
+    ]
+  }
+}

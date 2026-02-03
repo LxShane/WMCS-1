@@ -1,0 +1,96 @@
+{
+  "name": "MRI Machine",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Gradient Set",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Magnet",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "RF Shield",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Gradient Coils",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A medical imaging device that uses magnetic fields and radio waves to create detailed images of the organs and tissues in your body.",
+    "common_uses": [
+      "Medical diagnosis",
+      "Research"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Uses strong magnetic fields and radio waves to generate signals from the body, which are then processed to create images.",
+    "origin": "Developed in the 1970s"
+  },
+  "instance_layer": {
+    "examples": [
+      "Clinical MRI scanners found in hospitals."
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "parts": [
+        "Magnet",
+        "Gradient coils",
+        "RF coils",
+        "Computer system"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

@@ -2,8 +2,8 @@
   "name": "Chipset",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 31,
-    "item": 5005
+    "group": 30,
+    "item": 9012
   },
   "claims": [
     {
@@ -19,62 +19,62 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Northbridge",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "HISTORICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Southbridge",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "HISTORICAL",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
     "definition": "A set of electronic components in an integrated circuit that manages the data flow between the processor, memory and peripherals.",
     "common_uses": [
-      "Interface CPU with memory and peripherals"
+      "Managing data flow",
+      "Controlling peripherals"
     ]
   },
-  "deep_layer": {
-    "mechanism": "Controls the data flow within a computer system.",
-    "origin": "Developed to reduce the complexity of the motherboard."
-  },
-  "instance_layer": [
-    "Intel Z690",
-    "AMD X570"
-  ],
   "facets": {
     "STRUCTURAL": {
-      "visual_features": [
-        "Rectangular",
-        "Black or Silver"
-      ],
-      "shape": [
-        "Flat",
-        "Integrated Circuit"
-      ],
-      "composition": [
-        "Silicon"
-      ],
-      "parts": [
-        "Northbridge",
-        "Southbridge"
-      ]
-    },
-    "FUNCTION": {
-      "roles": [
-        "Data Manager"
-      ],
-      "capabilities": [
-        "Data transfer",
-        "Interfacing"
-      ]
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
     },
     "SPATIAL": {
-      "connected_to": [
-        "CPU",
-        "Memory",
-        "Peripherals"
-      ],
-      "contained_in": "Motherboard"
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "https://en.wikipedia.org/wiki/Chipset",
     "citations": [
-      "Computer Structure and Logic - Pearsoncmg.com"
+      "Wikipedia"
     ]
   }
 }

@@ -1,0 +1,54 @@
+{
+  "name": "Membranous Compartment",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 23,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Cell Part",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A cellular compartment enclosed by a membrane.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Provides a confined space for specific biochemical reactions.",
+    "origin": "Evolved in eukaryotic cells."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": []
+  }
+}

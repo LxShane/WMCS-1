@@ -1,0 +1,70 @@
+{
+  "name": "Battery Cells",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Energy Storage",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Individual units within a battery pack that store electrical energy.",
+    "common_uses": [
+      "Energy storage in battery packs"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Electrochemical reactions store and release energy.",
+    "origin": "Manufactured through electrochemical processes."
+  },
+  "instance_layer": {
+    "examples": [
+      "Lithium-ion battery cells"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Cylindrical",
+        "Prismatic"
+      ],
+      "shape": [
+        "Cylinder",
+        "Prism"
+      ],
+      "composition": [
+        "Lithium",
+        "Nickel",
+        "Cobalt"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Energy Storage"
+      ],
+      "capabilities": [
+        "Stores electrical energy through chemical reactions"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.mdpi.com/2624-8921/5/2/28"
+    ]
+  }
+}

@@ -1,9 +1,9 @@
 {
-  "name": "prime editing guide RNA",
-  "type": "INANIMATE_OBJECT",
+  "name": "Prime Editing Guide RNA",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 1236
+    "group": 30,
+    "item": 1001
   },
   "claims": [
     {
@@ -33,10 +33,80 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Modified sgRNA",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Primer Binding Site",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Reverse Transcriptase Template Sequence",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "3' extension",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Replacing targeted sequence",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "An extended RNA used in prime editing.",
+    "definition": "A modified single guide RNA used in prime editing.",
     "common_uses": []
   },
   "deep_layer": {
@@ -48,7 +118,11 @@
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "https://elifesciences.org/articles/90948, https://elifesciences.org/reviewed-preprints/90948",
-    "citations": []
+    "source": "Manual",
+    "citations": [
+      "Prime editing - Wikipedia",
+      "Structural basis for pegRNA-guided reverse transcription by a prime editor | Nature",
+      "Designing and executing prime editing experiments in mammalian cells - PMC"
+    ]
   }
 }

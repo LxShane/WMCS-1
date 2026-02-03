@@ -1,0 +1,60 @@
+{
+  "name": "M.2",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 24,
+    "item": 1237
+  },
+  "claims": [
+    {
+      "predicate": "REPLACES",
+      "object": "mSATA standard",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REPLACES",
+      "object": "Mini PCIe",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A specification for internally mounted computer expansion cards and associated connectors.",
+    "common_uses": [
+      "Connecting SSDs"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Provides interfaces for PCI Express, SATA, and USB.",
+    "origin": "Designed to replace mSATA and Mini PCIe."
+  },
+  "instance_layer": {
+    "examples": [
+      "M.2 SSD"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "PCI Express - Wikipedia",
+    "citations": [
+      "https://en.wikipedia.org/wiki/PCI_Express"
+    ]
+  }
+}

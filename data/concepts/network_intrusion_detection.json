@@ -1,0 +1,70 @@
+{
+  "name": "Network Intrusion Detection",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 52,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A system that analyzes network traffic for signs of unauthorized access or malicious activity",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Detection Techniques",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The process of monitoring network traffic for malicious activity.",
+    "common_uses": [
+      "Security Monitoring",
+      "Threat Detection"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "NIDS employ various techniques to detect patterns and anomalies in network traffic, triggering alerts when suspicious activity is identified.",
+    "origin": "Evolved from basic packet sniffing to sophisticated threat analysis systems."
+  },
+  "instance_layer": [
+    "Signature-based detection",
+    "Anomaly-based detection"
+  ],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Security Monitoring"
+      ],
+      "capabilities": [
+        "Detecting unauthorized access",
+        "Identifying malicious activity"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Network Intrusion Detection - an overview | ScienceDirect Topics"
+    ]
+  }
+}

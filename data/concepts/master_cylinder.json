@@ -1,0 +1,74 @@
+{
+  "name": "Master Cylinder",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Device",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Converting force into hydraulic pressure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Compensating ports",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A device that converts force (usually from the driver's foot) into hydraulic pressure.",
+    "common_uses": [
+      "Actuating brakes in a hydraulic brake system"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The master cylinder receives force from the brake pedal and uses pistons to pressurize brake fluid, which is then sent to the wheel cylinders or calipers.",
+    "origin": "Automotive engineering"
+  },
+  "instance_layer": {
+    "examples": [
+      "Master cylinder in a car's braking system"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "theengineerspost.com",
+    "citations": [
+      "Master Cylinder: Diagram, Parts, Function, Symptoms"
+    ]
+  }
+}

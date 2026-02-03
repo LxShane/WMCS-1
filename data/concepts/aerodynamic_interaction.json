@@ -1,0 +1,56 @@
+{
+  "name": "Aerodynamic Interaction",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "AFFECTS",
+      "object": "Wind turbine blades",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Rain",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The interaction between air and a physical object due to their relative motion, especially regarding forces and pressures.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "The interaction involves the transfer of momentum and energy between the air and the object, altering flow patterns and force distributions.",
+    "origin": "Arises from the principles of fluid dynamics."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "WES - Aerodynamic interaction of rain and wind turbine blades",
+    "citations": [
+      "https://wes.copernicus.org/articles/9/2333/2024/"
+    ]
+  }
+}

@@ -2,8 +2,8 @@
   "name": "Peptidoglycan",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 25,
-    "item": 1006
+    "group": 20,
+    "item": 1234
   },
   "claims": [
     {
@@ -173,34 +173,166 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Cell Wall",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Murein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Cross-linked structure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Conferring mechanical strength",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Conferring shape",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Providing a barrier to withstand internal osmotic pressure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Intercalation of new peptidoglycan material",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Intercalation of new teichoic acid material",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Controlled hydrolysis",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A macromolecule composed of sugars and amino acids that forms a mesh-like layer around the bacterial cytoplasmic membrane.",
+    "definition": "Peptidoglycan is a component of the cell wall in bacteria, responsible for providing structural support and protection.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Provides structural integrity to the bacterial cell wall.",
-    "origin": "Synthesized within the bacterial cell."
+    "mechanism": "Peptidoglycan's cross-linked structure forms a mesh-like network that protects the cell from osmotic lysis and provides rigidity.",
+    "origin": "Synthesized intracellularly and transported to the cell wall."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
     "STRUCTURAL": {
-      "shape": [
-        "Mesh-like"
-      ],
-      "composition": [
-        "Sugars",
-        "Amino Acids"
-      ]
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Cell wall",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Bacterial cell"
     }
   },
   "epistemic_metadata": {
-    "source": "Peptidoglycan - Wikipedia",
+    "source": "Set Automatically",
     "citations": [
-      "https://en.wikipedia.org/wiki/Peptidoglycan"
+      "Eubacteria and Archaea - Essentials of Glycobiology - NCBI Bookshelf",
+      "Cell Wall Skeleton - an overview | ScienceDirect Topics",
+      "Cell Cycle Machinery in Bacillus subtilis - PMC - PubMed Central - NIH"
     ]
   }
 }

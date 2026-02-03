@@ -2,7 +2,7 @@
   "name": "Anatomical Landmark",
   "type": "PHYSICAL",
   "id": {
-    "group": 31,
+    "group": 20,
     "item": 1002
   },
   "claims": [
@@ -47,38 +47,70 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A recognizable anatomical feature used for orientation.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Clinical Examination",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Medical Procedures",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A consistently located point on the anatomy.",
-    "common_uses": []
+    "definition": "A recognizable anatomical feature used for orientation during examination or procedures.",
+    "common_uses": [
+      "Guiding surgical incisions",
+      "Locating underlying structures"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Specific anatomical landmarks maintain a consistent spatial relationship with other anatomical structures.",
+    "origin": "Arise from normal human anatomical development."
   },
   "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
-  "epistemic_metadata": {
-    "source": "PMC",
-    "citations": [
-      "Towards a Common Coordinate Framework for the Human Body"
+    "examples": [
+      "Nipple line",
+      "Iliac crest"
     ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "https://radiopaedia.org/articles/vertebral-levels-anatomical-landmarks; https://www.medicalexamprep.co.uk/vertebral-levels/; https://anatomynote.com/surface-anatomy-of-the-vertebral-column-key-landmarks-and-muscular-relationships/",
+    "citations": []
   }
 }

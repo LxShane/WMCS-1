@@ -1,0 +1,72 @@
+{
+  "name": "USB Tree Structure",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Connecting many devices using simple point-to-point serial links",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Hub",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A hierarchical structure used in USB connections to connect multiple devices to a single host.",
+    "common_uses": [
+      "Connecting USB devices to a computer",
+      "Expanding the number of available USB ports"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Each hub in the tree structure acts as a node, allowing devices to be connected in a cascading fashion.",
+    "origin": "Designed to overcome the limitations of connecting devices with point-to-point connections."
+  },
+  "instance_layer": {
+    "examples": [
+      "Connecting multiple USB drives to a computer using a USB hub"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Connection Management",
+        "Data Routing"
+      ],
+      "capabilities": [
+        "Managing multiple device connections",
+        "Routing data between devices and the host"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.marian.ac.in/public/images/uploads/EC206_CO_module+5.pdf"
+    ]
+  }
+}

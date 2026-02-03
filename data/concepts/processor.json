@@ -2,8 +2,8 @@
   "name": "Processor",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 30,
-    "item": 1002
+    "group": 20,
+    "item": 4567
   },
   "claims": [
     {
@@ -33,20 +33,87 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Performing computations",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Component of Von Neumann architecture",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A component in a computer that executes instructions.",
-    "common_uses": []
+    "definition": "The part of a computer that executes instructions.",
+    "common_uses": [
+      "Running programs",
+      "Processing data"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Fetches instructions from memory, decodes them, and executes them using arithmetic and logical operations.",
+    "origin": "Developed as the central processing unit of a computer."
   },
-  "instance_layer": [],
-  "facets": {},
+  "instance_layer": {
+    "examples": [
+      "Intel Core i7",
+      "AMD Ryzen 5"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Instruction Execution",
+        "Data Processing"
+      ],
+      "capabilities": [
+        "Performing arithmetic operations",
+        "Controlling other components"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Rectangular",
+        "Metallic"
+      ],
+      "shape": [
+        "Flat chip"
+      ],
+      "composition": [
+        "Silicon",
+        "Metal"
+      ],
+      "parts": [
+        "ALU",
+        "Control Unit",
+        "Registers"
+      ]
+    }
+  },
   "epistemic_metadata": {
-    "source": "Processor Architectures - an overview | ScienceDirect Topics",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.cs.cornell.edu/courses/cs3410/2025sp/notes/io.html"
+    ]
   }
 }

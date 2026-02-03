@@ -1,9 +1,9 @@
 {
-  "name": "Postsynaptic membrane",
+  "name": "postsynaptic membrane",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 33,
-    "item": 1002
+    "group": 32,
+    "item": 5678
   },
   "claims": [
     {
@@ -22,19 +22,44 @@
     }
   ],
   "surface_layer": {
-    "definition": "Membrane on the postsynaptic neuron that receives signals.",
+    "definition": "The postsynaptic membrane is the membrane of the neuron (nerve cell) on the receiving side of a synapse.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Contains receptors for neurotransmitters.",
+    "origin": "Formed by the neuron's cell membrane."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Signal Receiver"
+      ],
+      "capabilities": [
+        "Receiving neurotransmitters",
+        "Initiating signal transduction"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "At a synapse",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Neuron"
+    }
+  },
   "epistemic_metadata": {
-    "source": "https://elifesciences.org/articles/41299",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "Molecular Mechanisms of AMPA Receptor Trafficking in the ..."
+    ]
   }
 }

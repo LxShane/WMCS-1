@@ -1,0 +1,40 @@
+{
+  "name": "Packet",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Data communication",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A unit of data that is routed between an origin and a destination on a network.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Packets are typically composed of a header containing addressing and control information, and a payload containing the actual data.",
+    "origin": "Developed as a fundamental concept in packet-switched networks."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "ICs for Communications - uri=media.digikey",
+    "citations": []
+  }
+}

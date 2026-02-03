@@ -2,8 +2,8 @@
   "name": "Connector",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 21,
-    "item": 1001
+    "group": 30,
+    "item": 1245
   },
   "claims": [
     {
@@ -61,33 +61,32 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Supports media including signals, power, high current, high voltage, high-frequency coax signals, air, fluid, high-speed data transmission, and fiber optics",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A device for connecting electrical circuits or mechanical parts.",
-    "common_uses": [
-      "Joining wires",
-      "Attaching components"
-    ]
+    "definition": "A device for connecting electrical circuits.",
+    "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": "Provides a physical interface for signals or power to pass between parts.",
-    "origin": "Man-made device."
-  },
-  "instance_layer": [
-    "CN1 terminal"
-  ],
   "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    }
+    "STRUCTURAL": {},
+    "FUNCTION": {}
   },
   "epistemic_metadata": {
-    "source": "[PDF] UM3175 - Getting started with STEVAL-FSM01M1 safe digital I/O ...",
+    "source": "Hybrid Power and Signal Connector Products",
     "citations": []
   }
 }

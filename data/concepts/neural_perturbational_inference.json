@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1234
+    "item": 1001
   },
   "claims": [
     {
@@ -47,24 +47,70 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Approach",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Estimating effective connectivity",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A noninvasive framework for mapping whole-brain EC.",
+    "definition": "An approach for estimating effective connectivity.",
     "common_uses": []
   },
-  "deep_layer": {},
-  "instance_layer": {},
+  "deep_layer": {
+    "mechanism": "Virtual perturbations to a surrogate brain allow gaining insights into human brain functions.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {
     "FUNCTION": {
       "roles": [],
       "capabilities": []
     },
-    "STRUCTURAL": {},
-    "SPATIAL": {}
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
   },
   "epistemic_metadata": {
-    "source": "https://www.nature.com/articles/s41592-025-02654-x",
-    "citations": []
+    "source": "Mapping effective connectivity by virtually perturbing a ... - Nature",
+    "citations": [
+      "https://www.nature.com/articles/s41592-025-02654-x"
+    ]
   }
 }

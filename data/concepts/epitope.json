@@ -2,8 +2,8 @@
   "name": "Epitope",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 9123
+    "group": 20,
+    "item": 1235
   },
   "claims": [
     {
@@ -19,14 +19,28 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Molecular Fraction",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Specific region of an antigen that interacts with an antibody.",
+    "definition": "A molecular fraction displayed by MHC molecules.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Epitopes are the specific sequences or structural features of an antigen that antibodies recognize and bind to.",
+    "mechanism": null,
     "origin": null
   },
   "instance_layer": {
@@ -34,10 +48,9 @@
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "https://www.sigmaaldrich.com/US/en/technical-documents/technical-article/protein-biology/elisa/antibody-antigen-interaction, https://www.slideshare.net/slideshow/antigen-antibody-interaction/23724820",
+    "source": "Set Automatically",
     "citations": [
-      "An Introduction to Antibodies : Antibody - Antigen Interaction",
-      "Antigen antibody interaction"
+      "11.11A: MHC Polymorphism and Antigen Binding - Biology LibreTexts"
     ]
   }
 }

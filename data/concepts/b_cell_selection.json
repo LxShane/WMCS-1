@@ -1,9 +1,9 @@
 {
   "name": "B cell selection",
-  "type": "ABSTRACT_CONCEPT",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 50,
-    "item": 1238
+    "group": 21,
+    "item": 1001
   },
   "claims": [
     {
@@ -19,42 +19,50 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Selection process of B cells within the immune system.",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Conserved process across vertebrate phylogeny",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The process of selecting B cells with desired characteristics.",
+    "definition": "The selection process of B cells within the immune system, which appears to be more conserved across vertebrate phylogeny than previously thought.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "B cells are selected based on their ability to bind antigen.",
-    "origin": null
+    "mechanism": "B cell selection involves mechanisms to ensure high affinity antibody production and immune response.",
+    "origin": "Evolved within the vertebrate immune system."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "Germinal Center - an overview | ScienceDirect Topics"
-    ]
+    "source": "mapping the evolutionary foundations of germinal centers - PubMed Central",
+    "citations": []
   }
 }

@@ -1,9 +1,9 @@
 {
   "name": "Fibronectin",
-  "type": "INANIMATE_OBJECT",
+  "type": "LIVING_SYSTEM",
   "id": {
     "group": 20,
-    "item": 1006
+    "item": 4567
   },
   "claims": [
     {
@@ -47,10 +47,24 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "adhesive protein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A component of the extracellular matrix that binds to cell surface receptors.",
+    "definition": "Fibronectin is a high-molecular weight glycoprotein of the extracellular matrix that binds to membrane-spanning receptor proteins called integrins.",
     "common_uses": []
   },
   "deep_layer": {
@@ -60,9 +74,19 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "Signal transduction - Wikipedia",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11430160/"
+    ]
   }
 }

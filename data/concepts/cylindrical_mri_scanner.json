@@ -1,0 +1,62 @@
+{
+  "name": "Cylindrical MRI Scanner",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "MRI Machine",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Gradient Coil Arrangements",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A type of MRI scanner with a cylindrical shape.",
+    "common_uses": [
+      "Medical Imaging"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Uses a cylindrical magnet and gradient coil arrangement to generate images.",
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {
+    "STRUCTURAL": {
+      "shape": [
+        "Cylindrical"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Advancements in Gradient System Performance for Clinical and ..."
+    ]
+  }
+}

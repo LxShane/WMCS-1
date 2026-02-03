@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 21,
-    "item": 1234
+    "item": 1122
   },
   "claims": [
     {
@@ -161,15 +161,29 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "recognizing antigens",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A receptor on T cells that recognizes antigens.",
+    "definition": "A protein complex found on the surface of T cells that is responsible for recognizing antigens bound to major histocompatibility complex (MHC) molecules.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The TCR binds to antigens presented on MHC molecules, triggering intracellular signaling cascades.",
-    "origin": null
+    "mechanism": "Binds to antigen-MHC complexes and initiates T cell signaling.",
+    "origin": "Expressed on the surface of T cells."
   },
   "instance_layer": {
     "examples": []
@@ -178,9 +192,7 @@
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "PMC7272404",
-      "S1359610122000594",
-      "PMC9524838"
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6314495/"
     ]
   }
 }

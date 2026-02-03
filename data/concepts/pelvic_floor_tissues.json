@@ -1,0 +1,84 @@
+{
+  "name": "Pelvic floor tissues",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 22,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Biological tissue",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Pelvic floor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The pelvic floor tissues are a group of muscles and connective tissues that support the pelvic organs.",
+    "common_uses": [
+      "Support of pelvic organs",
+      "Continence"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Pelvic floor tissues maintain support through their biomechanical properties.",
+    "origin": "Formed during embryonic development."
+  },
+  "instance_layer": {
+    "examples": [
+      "Levator ani muscle",
+      "Coccygeus muscle"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "composition": [
+        "Muscle tissue",
+        "Connective tissue"
+      ],
+      "location": "Pelvic floor",
+      "shape": [
+        "Variable depending on muscle and tissue type"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Pelvic cavity",
+      "coordinates": [
+        "Inferior portion of the pelvic cavity"
+      ],
+      "connected_to": [
+        "Pelvic bones",
+        "Pelvic organs"
+      ],
+      "contained_in": "Pelvic cavity"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Biomechanical Analysis - an overview | ScienceDirect Topics"
+    ]
+  }
+}

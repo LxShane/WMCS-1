@@ -3,25 +3,99 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1239
+    "item": 1234
   },
-  "claims": [],
-  "surface_layer": {
-    "definition": "A neuroimaging technique used to visualize white matter tracts in the brain.",
-    "common_uses": []
-  },
-  "deep_layer": {},
-  "instance_layer": [],
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Technique",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     },
-    "STRUCTURAL": {},
-    "SPATIAL": {}
+    {
+      "predicate": "USED_FOR",
+      "object": "Reconstructing anatomical connectivity in the human brain",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Non-invasive reconstruction",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "In-vivo reconstruction",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Local orientations of nerve bundles",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A technique for reconstructing anatomical connectivity in the human brain non-invasively and in-vivo.",
+    "common_uses": [
+      "Brain imaging",
+      "Research on brain connectivity"
+    ]
   },
+  "deep_layer": {
+    "mechanism": "Estimates trajectory and terminations of white matter pathways from local orientations of nerve bundles.",
+    "origin": "Developed for non-invasive brain imaging."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4503207/",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "PMC4503207"
+    ]
   }
 }

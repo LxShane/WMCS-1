@@ -1,0 +1,70 @@
+{
+  "name": "Temperature Control System",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1237
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Cooling",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A system that manages the temperature of the battery pack.",
+    "common_uses": [
+      "Cooling the battery pack"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Removes heat from the battery pack to maintain optimal operating temperature.",
+    "origin": "Engineered to regulate temperature using various methods."
+  },
+  "instance_layer": {
+    "examples": [
+      "Liquid cooling system in a battery pack"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Pipes",
+        "Fans",
+        "Radiators"
+      ],
+      "shape": [
+        "Varied"
+      ],
+      "composition": [
+        "Metal",
+        "Plastic",
+        "Coolant"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Thermal Management"
+      ],
+      "capabilities": [
+        "Regulates battery temperature"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.mdpi.com/2624-8921/5/2/28"
+    ]
+  }
+}

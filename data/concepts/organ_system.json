@@ -2,8 +2,8 @@
   "name": "Organ System",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 4567
+    "group": 21,
+    "item": 9012
   },
   "claims": [
     {
@@ -89,43 +89,99 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "maintaining internal balance",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "supporting growth",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "enabling reproduction",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "responding to the environment",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Organ",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A group of organs that work together to perform a specific function.",
-    "common_uses": []
+    "definition": "Organ systems are groups of organs working together.",
+    "common_uses": [
+      "medical diagnosis",
+      "biological research"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Organ systems coordinate to maintain homeostasis.",
+    "origin": "Organ systems arise through complex developmental processes."
   },
   "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
-  "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://www.instituteofhumananatomy.com/blog/major-organ-systems-functions-connections",
-      "https://bio.libretexts.org/Bookshelves/Human_Biology/Book:_Human_Biology_(Wakim_and_Grewal)/10:_Introduction_to_the_Human_Body/10.6:_Interaction_of_Organ_Systems"
+    "examples": [
+      "Digestive system",
+      "Respiratory system",
+      "Circulatory system"
     ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "multiple sources",
+    "citations": []
   }
 }

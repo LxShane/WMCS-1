@@ -2,8 +2,8 @@
   "name": "Synapse",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 30,
-    "item": 1234
+    "group": 21,
+    "item": 4567
   },
   "claims": [
     {
@@ -341,32 +341,84 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Edge",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "information transfer between neurons",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "juxtaposition of a postsynaptic site around the somatodendritic domain",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "UNKNOWN"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "strengthening",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "weakening",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
-  "surface_layer": {
-    "definition": "A structure that permits a neuron to pass an electrical or chemical signal to another neuron.",
-    "common_uses": []
-  },
-  "deep_layer": {
-    "mechanism": "Synapses mediate the transmission of nerve impulses between two neurons or between a neuron and an effector cell.",
-    "origin": null
-  },
-  "instance_layer": [],
-  "facets": {
-    "SPATIAL": {
-      "location": "Intercellular space (synaptic cleft) between pre- and postsynaptic neurons; often concentrated in specific brain regions depending on the type of synapse and the neural circuit.",
-      "connected_to": [
-        "Presynaptic neuron (axon terminal)",
-        "Postsynaptic neuron (dendrite, soma, or axon)",
-        "Glial cells (astrocytes)",
-        "Extracellular matrix"
-      ],
-      "coordinates": []
-    }
-  },
   "epistemic_metadata": {
-    "source": "https://elifesciences.org/reviewed-preprints/100335v2",
-    "citations": []
-  },
-  "autocorrected": true
+    "source": "Multiple Sources",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Synaptic_plasticity",
+      "https://grokipedia.com/page/Synaptic_plasticity",
+      "https://www.nature.com/articles/1301559"
+    ]
+  }
 }

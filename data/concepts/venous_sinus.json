@@ -1,0 +1,60 @@
+{
+  "name": "Venous Sinus",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Blood Vessel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Upper Lobe",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A sinus containing venous blood.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Collects blood from tissues and organs.",
+    "origin": "Part of the circulatory system."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {},
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "svpow.com",
+    "citations": [
+      "Pneumatic Diverticula"
+    ]
+  }
+}

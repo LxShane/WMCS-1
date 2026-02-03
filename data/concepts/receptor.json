@@ -2,8 +2,8 @@
   "name": "Receptor",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 2001
+    "group": 20,
+    "item": 1002
   },
   "claims": [
     {
@@ -103,14 +103,56 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Binding Ligands",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Protein",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "protein responsible for detecting stimuli",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The receptor is the sensing component that monitors and responds to changes in the environment, either external or internal.",
+    "definition": "A protein responsible for detecting stimuli.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
+    "mechanism": "Detects stimuli.",
     "origin": null
   },
   "instance_layer": {
@@ -118,9 +160,9 @@
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Signal transduction - Wikipedia",
     "citations": [
-      "https://en.wikipedia.org/wiki/Homeostasis"
+      "Signal transduction - Wikipedia"
     ]
   }
 }

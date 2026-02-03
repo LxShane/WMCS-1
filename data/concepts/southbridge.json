@@ -1,0 +1,132 @@
+{
+  "name": "Southbridge",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Computer Motherboard",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "I/O Communication",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Chipset",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "COMMUNICATED_VIA",
+      "object": "PCI bus",
+      "temporal": {
+        "valid_from": "1990",
+        "valid_until": "2000",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "HISTORICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "COMMUNICATED_VIA",
+      "object": "Direct Media Interface (Intel)",
+      "temporal": {
+        "valid_from": "2000",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "COMMUNICATED_VIA",
+      "object": "PCI Express (AMD)",
+      "temporal": {
+        "valid_from": "2000",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A chipset that handles I/O communication on a computer motherboard.",
+    "common_uses": [
+      "Connecting slower peripherals to the system",
+      "Managing input/output functions"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The Southbridge connects slower peripherals to the faster Northbridge, or directly to the CPU in modern architectures.",
+    "origin": "Part of the original two-chip chipset design of computer motherboards."
+  },
+  "instance_layer": {
+    "examples": [
+      "Intel I/O Controller Hub (ICH)",
+      "Platform Controller Hub (PCH)"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://en.wikipedia.org/wiki/Southbridge_(computing)",
+    "citations": [
+      "Wikipedia"
+    ]
+  }
+}

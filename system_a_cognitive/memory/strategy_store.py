@@ -61,8 +61,15 @@ class StrategyStore:
             dists = results['distances'][0] if 'distances' in results else [0]*len(metas)
             
             for i, m in enumerate(metas):
-                # Filter weak matches if needed (dist > 0.5)
-                # For now, we take top_k
-                strategies.append(f"[{m['type']}] {m['content']} (Trigger: {m['trigger']})")
+                # Reconstruct MetaLesson object (without ID for now as it's not critical for recall)
+                lesson = MetaLesson(
+                    id=results['ids'][0][i],
+                    lesson_type=m['type'],
+                    content=m['content'],
+                    trigger=m['trigger'],
+                    confidence=m.get('confidence', 0.5),
+                    created_at=m.get('created_at', "")
+                )
+                strategies.append(lesson)
                 
         return strategies

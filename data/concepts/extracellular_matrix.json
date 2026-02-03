@@ -1,9 +1,9 @@
 {
   "name": "Extracellular Matrix",
-  "type": "INANIMATE_OBJECT",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 30,
-    "item": 1237
+    "group": 20,
+    "item": 1234
   },
   "claims": [
     {
@@ -537,10 +537,94 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "PROVIDES",
+      "object": "substrate",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "fibronectin",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "laminin",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "integrins",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "collagen fibers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "elastin",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": null,
+    "definition": "The extracellular matrix (ECM) is a complex structural network surrounding and supporting cells in tissues.",
     "common_uses": []
   },
   "deep_layer": {
@@ -550,9 +634,28 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": [
+        "provides substrate for cell adhesion",
+        "provides substrate for cell migration"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "Cell Adhesion by Integrins | Physiological Reviews | American ...",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11430160/",
+      "https://www.nature.com/articles/s41419-024-06697-4",
+      "https://www.sciencedirect.com/science/article/pii/S0079642524001191"
+    ]
   }
 }

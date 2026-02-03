@@ -2,8 +2,8 @@
   "name": "Electrical Grid",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 22,
-    "item": 1005
+    "group": 23,
+    "item": 1001
   },
   "claims": [
     {
@@ -19,57 +19,147 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Networked system of connections for bulk movement of electrical energy",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Electromechanical Generators",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Interconnected Lines",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Electrical Substations",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Distribution System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Grid Batteries",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A network of power lines and associated equipment used to transmit and distribute electricity over a geographic area.",
+    "definition": "A networked system for transmitting electrical energy from generation sites to consumers.",
     "common_uses": [
-      "Electricity distribution",
-      "Power transmission"
+      "Powering homes",
+      "Powering businesses",
+      "Powering industries"
     ]
   },
   "deep_layer": {
-    "mechanism": "Electricity is transmitted from power plants, stepped up in voltage, sent across transmission lines and stepped down for distribution.",
-    "origin": "Developed to transmit and distribute electricity to a wide range of consumers."
+    "mechanism": "Power is generated, transmitted through high-voltage lines, stepped down at substations, and distributed to consumers.",
+    "origin": "Evolved from early local power generation and distribution systems."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "The North American Electric Reliability Corporation (NERC) oversees grid reliability in North America."
+    ]
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Electrical Power Distribution"
-      ],
-      "capabilities": [
-        "Transmit electrical power",
-        "Distribute electrical power"
-      ]
-    },
     "STRUCTURAL": {
       "visual_features": [
-        "Wires",
-        "Towers"
+        "Overhead power lines",
+        "Underground cables",
+        "Substations with transformers"
       ],
       "shape": [
-        "Networked"
+        "Network of interconnected lines"
       ],
-      "composition": [],
+      "composition": [
+        "Aluminum conductors",
+        "Steel towers",
+        "Copper wiring"
+      ],
       "parts": [
-        "Transmission lines",
+        "Generators",
         "Transformers",
-        "Substations"
-      ],
-      "relations": []
+        "Transmission lines",
+        "Substations",
+        "Distribution lines"
+      ]
     },
-    "SPATIAL": {
-      "location": "Spanning a geographic area",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+    "FUNCTION": {
+      "roles": [
+        "Power Delivery"
+      ],
+      "capabilities": [
+        "Transmit power",
+        "Distribute power",
+        "Regulate voltage"
+      ]
     }
   },
   "epistemic_metadata": {
-    "source": "https://web.engr.oregonstate.edu/~webbky/ESE470_files/Section+1+Overview+of+the+Electrical+Grid.pdf",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "Electrical grid - Wikipedia"
+    ]
   }
 }

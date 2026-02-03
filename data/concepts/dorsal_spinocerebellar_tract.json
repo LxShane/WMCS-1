@@ -1,8 +1,8 @@
 {
   "name": "Dorsal Spinocerebellar Tract",
-  "type": "LIVING_SYSTEM",
+  "type": "BODY_PART",
   "id": {
-    "group": 21,
+    "group": 24,
     "item": 1004
   },
   "claims": [
@@ -33,19 +33,38 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "lateral to the corticospinal tract",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A type of spinocerebellar tract.",
+    "definition": "Ascending tract in the spinal cord that carries unconscious proprioception to the cerebellum.",
     "common_uses": []
   },
-  "deep_layer": {},
-  "instance_layer": {},
+  "deep_layer": {
+    "mechanism": "Relays proprioceptive information from the lower limbs and trunk to the cerebellum.",
+    "origin": "Develops as part of the spinal cord during embryonic development."
+  },
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "The Ascending Tracts of the Central Nervous System - Geeky Medics"
+      "https://www.kenhub.com/en/library/anatomy/ascending-and-descending-tracts-of-the-spinal-cord"
     ]
   }
 }

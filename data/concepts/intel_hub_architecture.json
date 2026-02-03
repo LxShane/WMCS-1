@@ -1,0 +1,77 @@
+{
+  "name": "Intel Hub Architecture",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Northbridge",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Southbridge",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An architecture that uses two chips, a northbridge and a southbridge.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Older chipset architecture replaced by single chip solutions like Platform Controller Hub",
+    "origin": "Intel"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [
+        "northbridge",
+        "southbridge"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Platform Controller Hub",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Platform_Controller_Hub"
+    ]
+  }
+}

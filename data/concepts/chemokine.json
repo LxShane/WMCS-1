@@ -1,0 +1,56 @@
+{
+  "name": "Chemokine",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 31,
+    "item": 3456
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Cytokine",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Chemoattraction",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A type of cytokine that directs the migration of cells.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Binds to receptors on cells to induce chemotaxis.",
+    "origin": "Produced by various cells in the body."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://pubmed.ncbi.nlm.nih.gov/14523388/"
+    ]
+  }
+}

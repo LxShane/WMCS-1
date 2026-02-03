@@ -1,0 +1,60 @@
+{
+  "name": "Proximity Operations",
+  "type": "SOCIAL_CONSTRUCT",
+  "id": {
+    "group": 60,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Spacecraft maneuvers in close range",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Causing contamination on orbit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Spacecraft operations conducted in close proximity to another object in space.",
+    "common_uses": [
+      "Satellite servicing",
+      "Rendezvous and docking"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Involves precise trajectory control and sensor feedback.",
+    "origin": "Space exploration and satellite maintenance needs."
+  },
+  "instance_layer": {
+    "examples": [
+      "Docking with the International Space Station"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "PDF: Contamination Control Engineering Design Guidelines for the ..."
+    ]
+  }
+}

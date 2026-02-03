@@ -1,0 +1,74 @@
+{
+  "name": "ASSLB",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Lithium-ion Battery",
+      "temporal": {
+        "valid_from": "2018",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Inorganic Solid Electrolyte",
+      "temporal": {
+        "valid_from": "2018",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "All Solid State Lithium-Ion Battery",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Uses solid electrolytes instead of liquid electrolytes.",
+    "origin": "Newer technology for increased safety and stability."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    },
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://www.sciencedirect.com/science/article/pii/S2405829717300685"
+    ]
+  }
+}

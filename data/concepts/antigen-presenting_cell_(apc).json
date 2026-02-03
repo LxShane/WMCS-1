@@ -1,0 +1,96 @@
+{
+  "name": "Antigen-Presenting Cell (APC)",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 30,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Cell that presents antigens to T cells",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Presenting antigens to Na\u00efve CD8+ T cells",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Presenting antigens to Na\u00efve CD4+ T cells",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Eliciting anti-tumor responses in vivo",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Distinct areas of the human axillary lymph node",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A cell that displays foreign antigens complexed with major histocompatibility complexes (MHCs) on their surfaces.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "APCs engulf and process antigens, then present them on their cell surface bound to MHC molecules. This complex is recognized by T cells, leading to T cell activation.",
+    "origin": "Derived from various cell types, including macrophages, dendritic cells, and B cells."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

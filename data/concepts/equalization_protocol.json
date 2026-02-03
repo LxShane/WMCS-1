@@ -1,0 +1,40 @@
+{
+  "name": "Equalization Protocol",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 2468
+  },
+  "claims": [
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Logical PHY Layer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A set of rules or procedures used to compensate for signal distortion and loss in a communication channel.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Equalization protocols adjust the transmitted signal to counteract the effects of the channel, ensuring reliable data reception.",
+    "origin": "Developed to improve signal integrity in high-speed communication systems."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "PCIe\u00ae 5.0 Protocol and Electrical Compliance Testing Deep Dive",
+    "citations": []
+  }
+}

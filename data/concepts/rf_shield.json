@@ -1,0 +1,49 @@
+{
+  "name": "RF Shield",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 32,
+    "item": 2002
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Inside Gradient Coils",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A conductive enclosure used to block radio frequency electromagnetic fields.",
+    "common_uses": [
+      "Shielding from RF interference"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Reduces electromagnetic interference from external sources.",
+    "origin": "Engineering design for MRI machines"
+  },
+  "instance_layer": [],
+  "facets": {
+    "STRUCTURAL": {
+      "composition": [
+        "Copper",
+        "Aluminum"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Experience of how to build an MRI machine from scratch"
+    ]
+  }
+}

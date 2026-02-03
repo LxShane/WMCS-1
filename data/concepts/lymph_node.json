@@ -2,7 +2,7 @@
   "name": "Lymph Node",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 33,
+    "group": 28,
     "item": 1234
   },
   "claims": [
@@ -215,44 +215,50 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Niches",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "High Endothelial Venules",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Lymph nodes are small structures that filter fluid in your body.",
+    "definition": "A secondary lymphoid organ.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Lymph nodes filter lymph and provide a location for immune cells to interact with foreign substances.",
-    "origin": "Part of the lymphatic system."
+    "mechanism": "Site of lymphocyte activation and proliferation.",
+    "origin": "Develops during ontogeny."
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    },
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    }
+    "SPATIAL": {}
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": [
-      "https://my.clevelandclinic.org/health/body/23131-lymph-nodes",
-      "https://teachmeanatomy.info/the-basics/systems/lymphatic/",
-      "https://www.ncbi.nlm.nih.gov/books/NBK557717/"
-    ]
+    "citations": []
   }
 }

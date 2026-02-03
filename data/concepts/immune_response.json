@@ -1,9 +1,9 @@
 {
-  "name": "Immune Response",
-  "type": "LIVING_SYSTEM",
+  "name": "immune response",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 20,
-    "item": 1234
+    "group": 50,
+    "item": 1238
   },
   "claims": [
     {
@@ -117,26 +117,56 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "a reaction of the body to foreign substances or microorganisms, involving antibody production, immune cellular mechanisms, and phagocytosis.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A physiological reaction to defend against exogenous factors.",
+    "definition": "A reaction of the body to foreign substances or microorganisms.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The body's system for recognizing and defending against foreign and harmful substances.",
-    "origin": "Evolved biological system."
+    "mechanism": "Immune cells recognize and eliminate pathogens through various mechanisms.",
+    "origin": "Evolution of multicellular organisms."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Ingestion Engine",
     "citations": [
-      "https://en.wikipedia.org/wiki/Immune_response",
-      "https://grokipedia.com/page/Immune_response",
-      "https://medlineplus.gov/ency/article/000821.htm"
+      "https://www.sciencedirect.com/science/article/pii/S0168952525001362"
     ]
   }
 }

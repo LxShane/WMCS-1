@@ -2,8 +2,8 @@
   "name": "Control Unit",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 36,
-    "item": 1617
+    "group": 20,
+    "item": 7890
   },
   "claims": [
     {
@@ -61,40 +61,150 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "component of the central processing unit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "directing the operation of the processor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "part of the computer's central processing unit (CPU)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "directing the operation of the processor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "fetching instructions from memory",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "decoding instructions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "generating control signals to manage the ALU, memory, and I/O devices",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "coordinating instruction execution",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A component of the CPU that directs the operation of the processor.",
-    "common_uses": []
+    "definition": "The control unit directs the operation of the processor by fetching and decoding instructions, and generating control signals.",
+    "common_uses": [
+      "Instruction Execution",
+      "Processor Management"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "The control unit uses a sequence of micro-operations to execute instructions, often based on a microprogram or hardwired logic.",
+    "origin": "Developed as a key component of early computers to automate instruction execution."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Hardwired Control Unit",
+      "Microprogrammed Control Unit"
+    ]
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
     "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+      "parts": [
+        "Instruction Decoder",
+        "Timing Generator",
+        "Control Signal Generator"
+      ]
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
+    "source": "Introduction to Control Unit and its Design - GeeksforGeeks",
+    "citations": [
+      "https://www.geeksforgeeks.org/computer-organization-architecture/introduction-of-control-unit-and-its-design/"
+    ]
   }
 }

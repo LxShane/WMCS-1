@@ -2,8 +2,8 @@
   "name": "Voltage Regulator",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 30,
-    "item": 1001
+    "group": 21,
+    "item": 7890
   },
   "claims": [
     {
@@ -103,36 +103,50 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "PMIC",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A voltage regulator is a feedback control system that maintains a stable voltage level.",
-    "common_uses": [
-      "Regulating voltage in generators"
-    ]
+    "definition": "A voltage regulator is an electronic component that maintains a stable voltage level.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "It measures output voltage, compares it to a set point, generates an error signal, and adjusts excitation.",
-    "origin": null
+    "mechanism": "Uses feedback control systems to maintain a steady voltage.",
+    "origin": "Electrical engineering."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Voltage Control"
-      ],
-      "capabilities": [
-        "Maintaining stable voltage",
-        "Adjusting generator excitation"
-      ]
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "Voltage regulator - Wikipedia"
-    ]
+    "source": "https://www.allelcoelec.com/blog/switches-types-and-uses-explained.html",
+    "citations": []
   }
 }

@@ -2,8 +2,8 @@
   "name": "Cardiovascular System",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 5678
+    "group": 30,
+    "item": 1234
   },
   "claims": [
     {
@@ -47,44 +47,94 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Heart",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Blood Vessels",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Lymphatic Vessels",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Delivery",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Removal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The organ system that permits blood to circulate and transport nutrients, oxygen, carbon dioxide, hormones, and blood cells to and from the cells in the body.",
+    "definition": "The cardiovascular system is a complex system of vessels and a pump (the heart) that delivers and removes substances from the body.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Pumps blood throughout the body via the heart and a network of blood vessels.",
-    "origin": null
+    "mechanism": "The heart pumps blood through blood vessels, enabling the delivery and removal of substances.",
+    "origin": "Evolved to facilitate transport of nutrients and waste."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Transport"
-      ],
-      "capabilities": [
-        "Blood Circulation"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Physiology, Oxygen Transport - StatPearls - NCBI Bookshelf",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "Structure and Function of the Cardiovascular and Lymphatic Systems"
+    ]
   }
 }

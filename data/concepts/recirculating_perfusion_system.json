@@ -1,0 +1,88 @@
+{
+  "name": "Recirculating Perfusion System",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Cell Culture Device",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Bioreactor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Recirculation Pathway",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Exchange of spent media",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A cell culture device with a bioreactor connected to a recirculation pathway for exchange of spent media.",
+    "common_uses": [
+      "Cell culture"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Recirculates media for efficient nutrient delivery and waste removal in cell cultures.",
+    "origin": "Designed for continuous cell culture applications."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Perfusion System w. media recirculation | cell culture under",
+    "citations": [
+      "https://www.precigenome.com/microfluidic-fluidic/recirculating-perfusion-system"
+    ]
+  }
+}

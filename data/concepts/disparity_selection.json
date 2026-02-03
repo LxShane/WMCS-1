@@ -1,0 +1,46 @@
+{
+  "name": "Disparity Selection",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Step in Stereo Matching",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The process of choosing the most likely disparity value for each pixel based on the aggregated cost.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Algorithms typically select the disparity with the minimum cost, but may also incorporate additional constraints or regularization.",
+    "origin": "Stereo vision algorithms"
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": [
+        "Choosing disparity value",
+        "Minimizing cost"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Sources",
+    "citations": []
+  }
+}

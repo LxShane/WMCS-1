@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1002
+    "item": 1235
   },
   "claims": [
     {
@@ -60,29 +60,49 @@
         "status": "HYPOTHETICAL",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Effect on Receptor-Ligand Binding",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A state of being stretched or strained.",
-    "common_uses": []
+    "definition": "A force that stretches or pulls an object.",
+    "common_uses": [
+      "Material science",
+      "Engineering"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Muscle contraction or external forces leading to the stretching of the muscle.",
-    "origin": "Can be caused by various factors."
+    "mechanism": "Applies a stretching force to the receptor and ligand.",
+    "origin": "External mechanical forces."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Stretching a rubber band",
+      "Pulling on a rope"
+    ]
   },
   "facets": {
-    "PROPERTY_DATA": {
-      "domain": "Physical",
-      "antonym": "Relaxation"
+    "ABSTRACT_DATA": {
+      "domain": "Mechanics",
+      "antonym": "Compression"
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "PMC",
     "citations": [
-      "https://geelongosteopaths.com.au/your-diaphragm-isnt-just-for-breathing/"
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10219515/"
     ]
   }
 }

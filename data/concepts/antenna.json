@@ -1,9 +1,9 @@
 {
   "name": "Antenna",
-  "type": "LIVING_SYSTEM",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 22,
-    "item": 7890
+    "group": 30,
+    "item": 1002
   },
   "claims": [
     {
@@ -33,29 +33,124 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Device",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Receive radio waves",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Transmit radio waves",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Feedpoint",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Impedance matching",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Radiating",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A sensory appendage used for detecting stimuli.",
+    "definition": "A device that transmits or receives radio waves.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Sensory receptors detect chemicals or physical stimuli.",
+    "mechanism": "Converts electrical signals into radio waves and vice versa.",
     "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Sensory Input"
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Anterior, Dorsal (in insects), Superior (in some vertebrates)",
+      "connected_to": [
+        "Head",
+        "Sensory neurons",
+        "Muscles (in some insects)"
       ],
-      "capabilities": []
+      "coordinates": []
     }
   },
   "epistemic_metadata": {
-    "source": "Drosophila tissue and organ development: Antenna, auditory",
+    "source": "Antenna (radio) - Wikipedia",
     "citations": []
-  }
+  },
+  "autocorrected": true
 }

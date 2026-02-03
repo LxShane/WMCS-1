@@ -2,8 +2,8 @@
   "name": "Solar System",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 1006
+    "group": 25,
+    "item": 1001
   },
   "claims": [
     {
@@ -103,40 +103,106 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Planetary system consisting of the Sun and the objects that orbit it",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Planets",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Moons",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Asteroids",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Small Solar System bodies",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PRECEDED_BY",
+      "object": "Protosolar nebula",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The gravitationally bound system comprising the Sun and the objects that orbit it, either directly or indirectly.",
+    "definition": "The gravitationally bound system of the Sun and the objects that orbit it, either directly or indirectly.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Formed from the gravitational collapse of a molecular cloud.",
+    "origin": "Formed approximately 4.6 billion years ago."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Orbital resonance - Wikipedia",
+    "source": "Set Automatically",
     "citations": []
   }
 }

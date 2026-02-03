@@ -1,9 +1,9 @@
 {
   "name": "Pinout",
-  "type": "ABSTRACT_CONCEPT",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 50,
-    "item": 1234
+    "group": 24,
+    "item": 1235
   },
   "claims": [
     {
@@ -117,32 +117,66 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Motherboard connector",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "A side",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "B side",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A cross-reference between the contacts, or pins, of an electrical connector or electronic component, and their functions.",
-    "common_uses": [
-      "Troubleshooting electronic circuits",
-      "Designing electronic devices"
-    ]
+    "definition": "An arrangement of pins on a connector.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Pinouts provide a standardized way to understand the connections and functions of pins in electronic components and connectors.",
-    "origin": "Evolved from 'basing diagrams' for vacuum tubes; standardized by organizations like the RMA and EIA."
+    "mechanism": "Provides electrical connections for data and power.",
+    "origin": "Determined during the design of the connector."
   },
   "instance_layer": {
-    "examples": [
-      "Pinout of a USB connector",
-      "Pinout of a CPU socket"
-    ]
+    "examples": []
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Multiple",
+    "source": "Peripheral Component Interconnect - Wikipedia",
     "citations": [
-      "https://en.wikipedia.org/wiki/Pinout_diagram",
-      "https://pinoutguide.com/",
-      "https://allpinouts.org/"
+      "https://en.wikipedia.org/wiki/Peripheral_Component_Interconnect"
     ]
   }
 }

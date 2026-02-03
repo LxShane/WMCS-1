@@ -1,9 +1,9 @@
 {
-  "name": "Molecular Cloud",
-  "type": "PHYSICAL",
+  "name": "Molecular cloud",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 34,
-    "item": 1009
+    "group": 25,
+    "item": 1006
   },
   "claims": [
     {
@@ -33,20 +33,79 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A type of interstellar cloud that is cold and dense",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Gas",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Dust",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A type of interstellar cloud.",
+    "definition": "A large cloud of molecules in interstellar space, primarily hydrogen.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
+    "mechanism": "Forms in interstellar space.",
     "origin": null
   },
-  "instance_layer": [],
-  "facets": {},
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Cloud-like"
+      ],
+      "shape": [
+        "Irregular"
+      ],
+      "composition": [
+        "Gas",
+        "Dust"
+      ],
+      "parts": [],
+      "relations": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "Interstellar medium - Wikipedia",
+    "source": "Set Automatically",
     "citations": []
   }
 }

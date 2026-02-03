@@ -2,8 +2,8 @@
   "name": "CD3",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1002
+    "group": 30,
+    "item": 1007
   },
   "claims": [
     {
@@ -33,28 +33,36 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Marker detecting T lymphocyte-rich paracortex",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Part of the T-cell receptor complex.",
+    "definition": "A protein complex found on T cells.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Binds ZAP-70 when phosphorylated.",
-    "origin": null
+    "mechanism": "CD3 functions as a T cell co-receptor that activates the T cell.",
+    "origin": "T cells"
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {},
-    "STRUCTURAL": {},
-    "SPATIAL": {}
-  },
+  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": [
-      "https://en.wikipedia.org/wiki/Lck"
-    ]
+    "citations": []
   }
 }

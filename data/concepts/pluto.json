@@ -2,8 +2,8 @@
   "name": "Pluto",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 30,
-    "item": 8765
+    "group": 28,
+    "item": 1236
   },
   "claims": [
     {
@@ -47,22 +47,72 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Kuiper Belt Object",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IN_RESONANCE_WITH",
+      "object": "Neptune",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_ORBITAL_RESONANCE",
+      "object": "2:3",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A dwarf planet in the Kuiper belt.",
+    "definition": "A dwarf planet in the Kuiper Belt, in resonance with Neptune.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Orbital mechanics and gravitational effects.",
-    "origin": "Formation in the early solar system."
+    "mechanism": "Gravitational interaction with Neptune.",
+    "origin": "Formation within the Kuiper Belt."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Kuiper Belt",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Kuiper Belt"
+    },
+    "STRUCTURAL": {}
+  },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Chapter 0 The Solar System: structural overview, origins and evolution",
     "citations": []
   }
 }

@@ -2,8 +2,8 @@
   "name": "Galaxy Cluster",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 22,
-    "item": 1002
+    "group": 30,
+    "item": 4567
   },
   "claims": [
     {
@@ -33,6 +33,20 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Gravitational effects",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
@@ -40,15 +54,20 @@
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Galaxy clusters form through the hierarchical merging of smaller groups of galaxies.",
-    "origin": "Galaxy clusters originated from density fluctuations in the early universe."
+    "mechanism": "Galaxies within a cluster are gravitationally bound and interact with each other.",
+    "origin": "Formed through the hierarchical merging of smaller groups of galaxies."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "The Bullet Cluster is a galaxy cluster."
+    ]
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
+    "source": "Multiple Web Sources",
+    "citations": [
+      "https://davidboulton.com/centraldynamic/",
+      "https://universewatcher.com/galactic-scale-exploration/"
+    ]
   }
 }

@@ -1,0 +1,100 @@
+{
+  "name": "Pleuroperitoneal Membrane",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 22,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "membrane",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Diaphragmatic Hernia",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Pleural Cavities",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Septum Transversum",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A membrane that separates the pleural and peritoneal cavities during development.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "The pleuroperitoneal membranes grow to fuse with the septum transversum, closing off canals between the pleural and peritoneal cavities.",
+    "origin": "Formed from the transverse septum and displaced somites."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Pleuroperitoneal",
+      "https://en.wikipedia.org/wiki/Pleural_cavity",
+      "https://en.wikipedia.org/wiki/Lateral_plate_mesoderm"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Post-Processing",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 3456
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Step in Stereo Matching",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Techniques applied to the disparity map to improve its quality and remove artifacts.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Common post-processing steps include filtering, hole filling, and outlier removal.",
+    "origin": "Stereo vision algorithms"
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": [
+        "Filtering disparity map",
+        "Removing artifacts"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Sources",
+    "citations": []
+  }
+}

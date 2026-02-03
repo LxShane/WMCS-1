@@ -1,9 +1,9 @@
 {
-  "name": "Dendritic Spines",
+  "name": "dendritic spines",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 30,
-    "item": 1009
+    "group": 33,
+    "item": 5678
   },
   "claims": [
     {
@@ -19,24 +19,48 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "F-actin cytoskeleton",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "structural and functional plasticity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "small protrusions from a neuron's dendrite that receive synaptic inputs",
+    "definition": "Small protrusions from dendrites that receive synaptic inputs.",
     "common_uses": []
   },
   "deep_layer": {
     "mechanism": null,
     "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
-    "source": "Ingestion Engine",
-    "citations": [
-      "10.1155/2013/145387"
-    ]
+    "source": "Set Automatically",
+    "citations": []
   }
 }

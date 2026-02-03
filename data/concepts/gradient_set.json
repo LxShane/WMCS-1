@@ -1,0 +1,50 @@
+{
+  "name": "Gradient Set",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 32,
+    "item": 2001
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Bore of the Magnet",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A component of an MRI machine used to create spatial encoding of the MRI signal.",
+    "common_uses": [
+      "Spatial encoding in MRI"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Generates magnetic field gradients in three orthogonal directions.",
+    "origin": "Part of the original MRI design"
+  },
+  "instance_layer": [],
+  "facets": {
+    "STRUCTURAL": {
+      "parts": [
+        "X-gradient coil",
+        "Y-gradient coil",
+        "Z-gradient coil"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Experience of how to build an MRI machine from scratch"
+    ]
+  }
+}

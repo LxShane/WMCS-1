@@ -1,0 +1,70 @@
+{
+  "name": "Network Anomaly Detection",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 52,
+    "item": 9101
+  },
+  "claims": [
+    {
+      "predicate": "REQUIRES",
+      "object": "Autoencoders",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Traffic Images",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Detecting deviations from normal network behavior.",
+    "common_uses": [
+      "Identifying unusual traffic patterns",
+      "Detecting potential security threats"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Network anomaly detection uses statistical models and machine learning algorithms to identify deviations from normal network behavior, flagging potential security threats or performance issues.",
+    "origin": "Emerged from statistical process control and expanded with advancements in machine learning."
+  },
+  "instance_layer": [
+    "Using autoencoders to reconstruct traffic images",
+    "Statistical analysis of network flow data"
+  ],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Threat detection"
+      ],
+      "capabilities": [
+        "Detecting anomalies",
+        "Identifying deviations"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "[2505.16650] Unsupervised Network Anomaly Detection with Autoencoders ..."
+    ]
+  }
+}

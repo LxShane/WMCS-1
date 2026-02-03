@@ -1,0 +1,83 @@
+{
+  "name": "Periosteal Layer",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Layer of Dura Mater",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Closely adhered to the neurocranium",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The outer periosteal layer of the Dura Mater is closely adhered to the neurocranium.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Adherence to the neurocranium provides structural support.",
+    "origin": "Part of the Dura Mater."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Structural Support"
+      ],
+      "capabilities": [
+        "Adherence to neurocranium"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [
+        "Layer"
+      ],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Outer layer of dura mater",
+      "coordinates": [],
+      "connected_to": [
+        "Neurocranium",
+        "Meningeal Layer"
+      ],
+      "contained_in": "Cranial cavity"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Dura_mater"
+    ]
+  }
+}

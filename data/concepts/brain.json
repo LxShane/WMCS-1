@@ -2,8 +2,8 @@
   "name": "Brain",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1234
+    "group": 20,
+    "item": 3456
   },
   "claims": [
     {
@@ -117,40 +117,106 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Gray matter",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "White matter",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Organ",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Complex System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Brain Area",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Cerebrum",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The central processing unit of the body.",
+    "definition": "The central organ of the nervous system.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Complex neural networks enable thought, emotion, and control of bodily functions.",
-    "origin": "Develops from the neural tube during embryogenesis."
+    "mechanism": "Processes information and controls bodily functions.",
+    "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "Cranial cavity",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": "Skull"
-    }
-  },
+  "instance_layer": [],
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
+    "source": "The Brain - Structure, Function",
+    "citations": [
+      "https://www.pharmacy180.com/article/the-brain-3551/"
+    ]
   }
 }

@@ -1,0 +1,70 @@
+{
+  "name": "Brake Disc",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 31,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Slowing vehicle",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": "Discovery"
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Brake Pads",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": "Discovery"
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The brake discs rotate with the wheels. The brake pads press against them to create friction and slow the vehicle.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "With the wheels",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "Car Braking Systems Explained: How They Work & Key Components"
+    ]
+  }
+}

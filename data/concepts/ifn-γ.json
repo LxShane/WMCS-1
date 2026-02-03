@@ -1,0 +1,81 @@
+{
+  "name": "IFN-\u03b3",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 3456
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Cytokine",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Inflammatory Cytokine",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "CD8+ Cytotoxic T Cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "CD4+ T Helper 1 Cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A cytokine critical for innate and adaptive immunity against viral and intracellular bacterial infections and for tumor control.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Activates macrophages and induces the expression of MHC class II molecules.",
+    "origin": "Produced mainly by natural killer and natural killer T cells as part of the innate immune response, and by CD4 Th1 and CD8 cytotoxic T lymphocyte effector T cells once antigen-specific immunity develops."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

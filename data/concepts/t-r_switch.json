@@ -1,0 +1,56 @@
+{
+  "name": "T/R switch",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 22,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Transmit\u2010receive RF coil",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "controls the transmission and reception of RF signals",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Controls the transmission and reception of RF signals.",
+    "common_uses": [
+      "switching between transmitting and receiving modes in MRI"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Electronically switches the coil between transmit and receive modes.",
+    "origin": "Developed for transmit-receive coil."
+  },
+  "instance_layer": {},
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Extraction from RF coils: A practical guide for nonphysicists - PMC",
+    "citations": [
+      "PMC6175221"
+    ]
+  }
+}

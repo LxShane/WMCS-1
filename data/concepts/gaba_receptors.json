@@ -1,0 +1,66 @@
+{
+  "name": "GABA receptors",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 30,
+    "item": 1111
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "postsynaptic membrane",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "binding to gephyrin",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "GABA receptors are receptors that bind to GABA.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "GABA receptors bind GABA, leading to an inhibitory signal.",
+    "origin": "Cellular biology."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Receptor"
+      ],
+      "capabilities": [
+        "Binding to GABA"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Kenhub",
+      "PMC5991458"
+    ]
+  }
+}

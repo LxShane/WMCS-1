@@ -1,9 +1,9 @@
 {
   "name": "Blood Vessels",
-  "type": "INANIMATE_OBJECT",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1002
+    "group": 32,
+    "item": 7890
   },
   "claims": [
     {
@@ -75,6 +75,34 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Tubing",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Movement of Blood",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
@@ -82,8 +110,8 @@
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Blood vessels transport oxygen and nutrients to tissues and remove waste products.",
-    "origin": "Develop from mesoderm during embryogenesis."
+    "mechanism": "Blood vessels constrict and dilate to regulate blood flow.",
+    "origin": "Evolved from simple diffusion channels."
   },
   "instance_layer": {
     "examples": []
@@ -95,12 +123,18 @@
       "composition": [],
       "parts": [],
       "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3530036/"
+      "Structure and Function of the Cardiovascular and Lymphatic Systems"
     ]
   }
 }

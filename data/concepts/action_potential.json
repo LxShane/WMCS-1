@@ -1,8 +1,8 @@
 {
-  "name": "Action potential",
-  "type": "LIVING_SYSTEM",
+  "name": "Action Potential",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 20,
+    "group": 50,
     "item": 1002
   },
   "claims": [
@@ -47,20 +47,55 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Postsynaptic Neuron",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "signal propagation",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "UNKNOWN"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A rapid rise and subsequent fall in voltage or membrane potential across a cellular membrane.",
+    "definition": "A rapid, transient, all-or-nothing electrical potential change in the membrane of excitable cells.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Ions flow across the neuronal membrane.",
-    "origin": null
+    "mechanism": "Involves ion fluxes across the cell membrane.",
+    "origin": "Evolutionary development of excitable cells."
   },
-  "instance_layer": [],
-  "facets": {},
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "Chemical synapse - Wikipedia",
+    "source": "Essay // Biopsychology: How our Neurons work | dpurb . com",
     "citations": []
   }
 }

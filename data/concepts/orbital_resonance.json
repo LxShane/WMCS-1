@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1001
+    "item": 1234
   },
   "claims": [
     {
@@ -47,40 +47,112 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Regular, periodic gravitational influence between two orbiting bodies",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Orbital periods are in a ratio of small integers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Enhancing mutual gravitational influence of bodies",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Exchange of momentum and shift of orbits",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Unstable interaction",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PREVENTS",
+      "object": "Long-term stability and configuration of planetary systems",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "CONTESTED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A situation in which orbiting bodies exert regular, periodic gravitational influence on each other, usually due to their orbital periods being related by a ratio of small integers.",
-    "common_uses": []
+    "definition": "Orbital resonance is a situation in which two orbiting bodies exert regular, periodic gravitational influence on each other.",
+    "common_uses": [
+      "Explaining the stability of planetary systems",
+      "Understanding the dynamics of celestial bodies"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Gravitational interaction causing periodic influence.",
-    "origin": "Celestial mechanics"
+    "mechanism": "The gravitational influence between orbiting bodies leads to a transfer of energy and momentum, affecting their orbits.",
+    "origin": "Arises from the gravitational interactions between celestial bodies in a system."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Moon's synchronous rotation with Earth (1:1)",
+      "Mercury's 3:2 orbital resonance"
+    ]
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Orbital resonance - Wikipedia",
+    "source": "Orbital resonance - Wikipedia, Dynamics of Orbital Resonances in Planetary Systems Explained, Planetary orbits: Couplings and resonances | Research ...",
     "citations": []
   }
 }

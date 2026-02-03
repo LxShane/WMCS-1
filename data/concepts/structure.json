@@ -1,9 +1,9 @@
 {
   "name": "Structure",
-  "type": "INANIMATE_OBJECT",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 25,
-    "item": 8765
+    "group": 50,
+    "item": 4567
   },
   "claims": [
     {
@@ -145,45 +145,64 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Arrangement of atoms in space",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Influence on material design",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Influence on material applications",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A stationary linkage.",
+    "definition": "The organization of components within a material.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Provides support and stability.",
-    "origin": "Engineered system"
+    "mechanism": "Atoms arrange themselves according to energy minimization.",
+    "origin": "Thermodynamic principles."
   },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [
-        "Rigid and immobile"
-      ],
-      "shape": [
-        "Varies"
-      ],
-      "composition": [],
-      "parts": [
-        "Links",
-        "Joints"
-      ],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "Variable; dependent on the specific structure. Examples: Anterior (for structures in the front), Medial (for structures near the midline), Superficial (for structures near the surface)",
-      "connected_to": [],
-      "coordinates": []
-    }
-  },
+  "instance_layer": [],
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Manual",
     "citations": [
-      "https://en.wikipedia.org/wiki/Mechanical_linkage"
+      "Structure-Property Relationships In Materials Science"
     ]
-  },
-  "autocorrected": true
+  }
 }

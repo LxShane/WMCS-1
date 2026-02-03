@@ -2,8 +2,8 @@
   "name": "Antigen-presenting cell",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 22,
-    "item": 1001
+    "group": 21,
+    "item": 3456
   },
   "claims": [
     {
@@ -159,44 +159,38 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "interact with distinct subsets of T cells",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "An antigen-presenting cell (APC) or accessory cell is a cell that displays an antigen bound by major histocompatibility complex (MHC) proteins on its surface.",
-    "common_uses": [
-      "adaptive immune response",
-      "antigen presentation"
-    ]
+    "definition": "A cell that displays antigen complexed with major histocompatibility complex (MHC) molecules on its surface.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "APCs process antigens and present them to T cells, allowing T cells to recognize and respond to the antigens.",
-    "origin": "Found in a variety of tissue types."
+    "mechanism": "Processes antigens and presents them to T cells.",
+    "origin": "Derived from various cell types."
   },
   "instance_layer": {
-    "examples": [
-      "macrophages",
-      "B cells",
-      "dendritic cells"
-    ]
+    "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Immune cell"
-      ],
-      "capabilities": [
-        "antigen presentation",
-        "T cell activation"
-      ]
-    },
-    "STRUCTURAL": {},
-    "SPATIAL": {}
-  },
+  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://en.wikipedia.org/wiki/Antigen-presenting_cell",
-      "https://bio.libretexts.org/Courses/North_Central_State_College/BIOL_1550:_Microbiology_(2025)/22:_Adaptive_Immunity_I/22.06:_Antigen_Presenting_Cells_(APC)"
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6314495/"
     ]
   }
 }

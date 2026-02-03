@@ -1,9 +1,9 @@
 {
   "name": "Spinocerebellar Tracts",
-  "type": "LIVING_SYSTEM",
+  "type": "BODY_PART",
   "id": {
-    "group": 21,
-    "item": 4444
+    "group": 24,
+    "item": 1002
   },
   "claims": [
     {
@@ -89,32 +89,38 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "lateral funiculus",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Spinocerebellar tracts are a group of ascending tracts that carry unconscious proprioceptive information to the cerebellum.",
+    "definition": "Ascending tracts in the spinal cord that transmit proprioceptive information to the cerebellum.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Transmits proprioceptive information to the cerebellum for motor coordination.",
+    "origin": "Develops as part of the spinal cord during embryonic development."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "SPATIAL": {
-      "location": "Located in the lateral funiculus of the spinal cord. Ascends ipsilaterally.",
-      "connected_to": [
-        "Spinal Cord",
-        "Cerebellum"
-      ],
-      "coordinates": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "The Ascending Tracts - DCML - Anterolateral - TeachMeAnatomy",
-    "citations": []
-  },
-  "autocorrected": true
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.kenhub.com/en/library/anatomy/ascending-and-descending-tracts-of-the-spinal-cord"
+    ]
+  }
 }

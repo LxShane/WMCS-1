@@ -2,8 +2,8 @@
   "name": "F1 filter",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 9012
+    "group": 30,
+    "item": 1239
   },
   "claims": [
     {
@@ -19,28 +19,60 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "filter",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Filtrete purifier",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A filter used for transmittance calculation.",
-    "common_uses": [
-      "Spectral analysis"
-    ]
+    "definition": "A filter type, specifically the F1 model.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Alters the spectral composition of light.",
-    "origin": "Manufactured for specific spectral characteristics."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
-    "examples": [
-      "Optical filter"
-    ]
+    "examples": []
   },
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Inline within the fluid path",
+      "connected_to": [
+        "Fluid input source",
+        "Fluid output destination"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://www.biorxiv.org/content/10.1101/2025.11.25.690411v1.full-text"
-    ]
-  }
+    "source": "https://www.reddit.com/r/AirPurifiers/comments/1fbfgeq/filtrete_filters_f1_vs_f2/",
+    "citations": []
+  },
+  "autocorrected": true
 }

@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1002
+    "item": 1234
   },
   "claims": [
     {
@@ -33,34 +33,61 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Term used to describe anatomy",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A standardized term used to describe anatomical locations and features.",
+    "definition": "A term used to describe the location of structures in anatomy.",
     "common_uses": [
-      "Anatomical studies",
-      "Medical communication"
+      "Describing location of body parts",
+      "Anatomical studies"
     ]
   },
   "deep_layer": {
-    "mechanism": "Provides a common language for describing anatomical structures.",
-    "origin": "Often derived from Latin or Greek."
+    "mechanism": "Used to unambiguously describe the anatomy of humans and other animals.",
+    "origin": "Developed for consistent anatomical descriptions."
   },
-  "instance_layer": [],
+  "instance_layer": [
+    "Medial",
+    "Lateral",
+    "Anterior",
+    "Posterior",
+    "Superior",
+    "Inferior",
+    "Proximal",
+    "Distal",
+    "Dorsal",
+    "Ventral"
+  ],
   "facets": {
     "FUNCTION": {
       "roles": [
-        "Nomenclature"
+        "Descriptor"
       ],
       "capabilities": [
-        "Provides standardized anatomical description"
+        "Spatial Localization"
       ]
-    },
-    "STRUCTURAL": {},
-    "SPATIAL": {}
+    }
   },
   "epistemic_metadata": {
-    "source": "https://en.wikipedia.org/wiki/Ipsilaterally",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "Anatomical terms of location - Wikipedia",
+      "Anatomical Location | Anatomy and Physiology I - Lumen Learning",
+      "Anatomical Terms of Location - TeachMeAnatomy"
+    ]
   }
 }

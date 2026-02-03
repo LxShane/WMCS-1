@@ -2,8 +2,8 @@
   "name": "Electromagnet",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 1236
+    "group": 30,
+    "item": 1234
   },
   "claims": [
     {
@@ -61,15 +61,165 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Magnet",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Copper wire",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Coil",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Magnetic field",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Electric current",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Magnetic core",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Ferromagnetic material",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Ferrimagnetic material",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Picking up heavy iron objects",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Moving heavy iron objects",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A type of magnet that generates a magnetic field using electric current.",
-    "common_uses": []
+    "definition": "A type of magnet in which the magnetic field is produced by an electric current.",
+    "common_uses": [
+      "Motors",
+      "Generators",
+      "Electromechanical solenoids",
+      "Relays",
+      "Loudspeakers",
+      "Hard disks",
+      "MRI machines",
+      "Scientific instruments",
+      "Magnetic separation equipment"
+    ]
   },
   "deep_layer": {
     "mechanism": "Electric current flowing through a coil creates a magnetic field.",
-    "origin": "Invented in the early 19th century."
+    "origin": "Developed through understanding of electromagnetism."
   },
   "instance_layer": {
     "examples": []
@@ -80,25 +230,35 @@
         "Magnetic Field Generator"
       ],
       "capabilities": [
-        "Generates magnetic fields"
+        "Generate a magnetic field",
+        "Control magnetic field strength"
       ]
     },
     "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
+      "visual_features": [
+        "Coil of wire",
+        "May have a core"
+      ],
+      "shape": [
+        "Coil shaped"
+      ],
+      "composition": [
+        "Copper",
+        "Iron"
+      ],
+      "parts": [
+        "Coil",
+        "Core (optional)"
+      ],
       "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
+    "source": "Multiple Web Sources",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Electromagnet",
+      "https://grokipedia.com/page/Electromagnet",
+      "https://ece.northeastern.edu/fac-ece/nian/mom/electromagnets.html"
+    ]
   }
 }

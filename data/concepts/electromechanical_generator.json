@@ -1,0 +1,69 @@
+{
+  "name": "Electromechanical Generator",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 23,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Generating electricity from primary energy sources",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Converting kinetic or thermal energy into electrical energy",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A device that converts mechanical energy into electrical energy.",
+    "common_uses": [
+      "Power generation in power plants"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Uses electromagnetic induction to convert mechanical energy to electrical energy.",
+    "origin": "Developed in the 19th century."
+  },
+  "instance_layer": {
+    "examples": [
+      "Turbogenerators in hydroelectric dams"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Energy Conversion"
+      ],
+      "capabilities": [
+        "Generate Electricity"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Electrical grid - Wikipedia"
+    ]
+  }
+}

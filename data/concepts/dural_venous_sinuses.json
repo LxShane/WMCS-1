@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 21,
-    "item": 2468
+    "item": 1004
   },
   "claims": [
     {
@@ -47,44 +47,82 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Separation of dural layers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Blood to drain from the brain",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Venous channels located between the layers of the dura mater in the brain.",
+    "definition": "Spaces between the dural layers that allow blood to drain from the brain.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Collect venous blood from the brain and drain it into the internal jugular vein.",
-    "origin": "Formed by the dura mater."
+    "mechanism": "Venous blood collects in these sinuses and drains away from the brain.",
+    "origin": "Formed by separation of dural layers."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
     "FUNCTION": {
-      "roles": [],
-      "capabilities": []
+      "roles": [
+        "Blood Drainage"
+      ],
+      "capabilities": [
+        "Venous drainage"
+      ]
     },
     "STRUCTURAL": {
       "visual_features": [],
-      "shape": [],
+      "shape": [
+        "Sinus"
+      ],
       "composition": [
-        "Dura mater"
+        "Blood",
+        "Dura Mater"
       ],
       "parts": [],
       "relations": []
     },
     "SPATIAL": {
-      "location": "Between layers of dura mater",
+      "location": "Between dural layers",
       "coordinates": [],
       "connected_to": [
-        "Internal jugular vein"
+        "Brain",
+        "Dural Layers"
       ],
       "contained_in": "Cranial cavity"
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": []
+    "citations": [
+      "https://en.wikipedia.org/wiki/Dura_mater"
+    ]
   }
 }

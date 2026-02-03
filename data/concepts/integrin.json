@@ -2,8 +2,8 @@
   "name": "Integrin",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1236
+    "group": 30,
+    "item": 1004
   },
   "claims": [
     {
@@ -775,14 +775,140 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Cell Adhesion Receptor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Heterodimeric Receptor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INVOLVED_IN",
+      "object": "Cell-Cell Interactions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INVOLVED_IN",
+      "object": "Cell-Matrix Interactions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Anchoring",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Transmitting Bidirectional Signals",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Regulating Cell Proliferation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Regulating Cell Differentiation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Regulating Cell Survival",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Integrins are heterodimeric cell surface receptors ensuring the mechanical connection between cells and the extracellular matrix.",
+    "definition": "Integrins are cell adhesion receptors involved in cell-cell and cell-matrix interactions, transmitting bidirectional signals that regulate cell behavior.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
+    "mechanism": "Integrins bind to extracellular matrix components and other cells, transmitting signals that influence cell proliferation, differentiation, and survival.",
     "origin": null
   },
   "instance_layer": {
@@ -790,7 +916,7 @@
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Cell Adhesion by Integrins | Physiological Reviews | American ...",
+    "source": "https://www.sciencedirect.com/science/article/pii/S0021925818362616",
     "citations": []
   }
 }

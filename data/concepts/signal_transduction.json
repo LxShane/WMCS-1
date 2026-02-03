@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1003
+    "item": 1001
   },
   "claims": [
     {
@@ -19,19 +19,68 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "process by which a chemical or physical signal is transmitted through a cell as a series of molecular events",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "series of molecular events inside a cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "converts an external signal into a specific cellular response",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The process by which a cell responds to substances outside the cell through signaling molecules found on the surface of and inside the cell.",
+    "definition": "The process by which a chemical or physical signal is transmitted through a cell as a series of molecular events.",
     "common_uses": []
   },
-  "deep_layer": {},
-  "instance_layer": {},
+  "deep_layer": {
+    "mechanism": "Signals move through the cell by passing from protein to protein, each protein modifying the next in some way.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Ingestion Engine",
+    "source": "Signal transduction - Wikipedia, The Inside Story of Cell Communication - University of Utah, Signal Transduction Pathway - Definition, Types, Functions, Examples",
     "citations": [
-      "https://www.sciencedirect.com/science/article/pii/S2451945620302956"
+      "Signal transduction - Wikipedia",
+      "The Inside Story of Cell Communication - University of Utah",
+      "Signal Transduction Pathway - Definition, Types, Functions, Examples"
     ]
   }
 }

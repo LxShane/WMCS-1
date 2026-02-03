@@ -1,0 +1,40 @@
+{
+  "name": "Logical PHY Layer",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1357
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Layer in PCIe protocol stack",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The part of the physical layer (PHY) that is responsible for the logical signaling and protocol aspects.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "The Logical PHY layer handles tasks such as equalization protocol and the interpretation of reserved bits.",
+    "origin": "Part of the PCIe protocol stack's physical layer architecture."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "PCIe\u00ae 5.0 Protocol and Electrical Compliance Testing Deep Dive",
+    "citations": []
+  }
+}

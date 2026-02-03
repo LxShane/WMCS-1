@@ -1,0 +1,75 @@
+{
+  "name": "Low-Melting-Point-Alloy (LMPA) Particle",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Particle",
+      "temporal": {
+        "valid_from": "2023",
+        "valid_until": "PRESENT",
+        "event": "Publication"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Low-Melting-Point-Alloy",
+      "temporal": {
+        "valid_from": "2023",
+        "valid_until": "PRESENT",
+        "event": "Publication"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PROPERTY",
+      "object": "Size-controllable",
+      "temporal": {
+        "valid_from": "2023",
+        "valid_until": "PRESENT",
+        "event": "Publication"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A particle composed of an alloy with a low melting point.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Melts at relatively low temperatures, enabling use in transient liquid-phase bonding.",
+    "origin": "Manufactured through sonochemical processes."
+  },
+  "instance_layer": [],
+  "facets": {
+    "STRUCTURAL": {
+      "material_properties": {
+        "rigidity": "Medium",
+        "flexibility": "Low",
+        "state": "Solid",
+        "conductivity": "Thermal"
+      }
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://pubs.acs.org/doi/10.1021/acsapm.3c00018",
+    "citations": []
+  }
+}

@@ -2,8 +2,8 @@
   "name": "ALICE",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 22,
-    "item": 7890
+    "group": 30,
+    "item": 1001
   },
   "claims": [
     {
@@ -19,20 +19,59 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Heavy-Ion Detector",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "CERN LHC",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Study QCD",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A detector at the Large Hadron Collider.",
+    "definition": "A Large Ion Collider Experiment (ALICE) is a detector at the CERN LHC.",
     "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": "Detects particles and their properties.",
-    "origin": null
-  },
-  "instance_layer": [],
+  "deep_layer": {},
+  "instance_layer": {},
   "facets": {},
   "epistemic_metadata": {
-    "source": "https://www.quora.com/What-would-happen-if-one-were-to-blow-up-the-Large-Hadron-Collider",
+    "source": "SciSpace PDF",
     "citations": []
   }
 }

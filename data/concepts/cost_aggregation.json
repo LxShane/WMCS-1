@@ -1,0 +1,60 @@
+{
+  "name": "Cost Aggregation",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Step in Stereo Matching",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Method for determining disparity",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A process of refining initial cost estimates by incorporating information from neighboring pixels.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "By accumulating costs over a support region, the method reduces the impact of noise and improves the accuracy of disparity estimation.",
+    "origin": "Stereo vision algorithms"
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": [
+        "Reducing noise",
+        "Improving disparity accuracy"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Sources",
+    "citations": []
+  }
+}

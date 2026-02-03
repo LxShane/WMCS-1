@@ -1,0 +1,48 @@
+{
+  "name": "Evapotranspiration",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 20,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Hydrological Variable",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The sum of evaporation and plant transpiration from the Earth's land and ocean surface to the atmosphere.",
+    "common_uses": [
+      "Irrigation management",
+      "Climate modeling"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Water evaporates from soil and open water surfaces, while plants release water vapor through transpiration from their leaves.",
+    "origin": "Natural processes"
+  },
+  "instance_layer": {
+    "examples": [
+      "Evaporation from a lake",
+      "Transpiration from a tree"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2023WR034861"
+    ]
+  }
+}

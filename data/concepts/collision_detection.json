@@ -1,0 +1,54 @@
+{
+  "name": "Collision Detection",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Collision Resolution",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Allows statistical multiplexing of packets",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A process for detecting when two devices attempt to transmit on a shared communication channel at the same time.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Collision detection relies on monitoring the communication channel for abnormal signals, such as increased voltage or signal distortion.",
+    "origin": "Developed to address the challenges of shared media networks, such as Ethernet."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "ICs for Communications - uri=media.digikey",
+    "citations": []
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "name": "Spacecraft Structures",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Component of a spacecraft",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Being a source of contamination",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The physical framework that supports and protects a spacecraft's components.",
+    "common_uses": [
+      "Supporting instruments",
+      "Protecting internal systems"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Provides a rigid framework and thermal control.",
+    "origin": "Materials science and aerospace engineering."
+  },
+  "instance_layer": {
+    "examples": [
+      "Solar panel supports",
+      "Antenna booms"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Rigid",
+        "Metallic"
+      ],
+      "shape": [
+        "Varied, depending on the specific structure"
+      ],
+      "composition": [
+        "Aluminum",
+        "Titanium",
+        "Carbon fiber"
+      ],
+      "parts": [
+        "Frames",
+        "Panels",
+        "Joints"
+      ],
+      "relations": [
+        "Connected to other spacecraft components"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "PDF: Contamination Control Engineering Design Guidelines for the ..."
+    ]
+  }
+}

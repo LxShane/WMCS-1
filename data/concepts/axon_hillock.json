@@ -1,0 +1,204 @@
+{
+  "name": "Axon Hillock",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 23,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "calculating whether it reaches the threshold",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Axon",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "UNKNOWN"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Part of Neuron",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Cone-shaped region",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONNECTS_TO",
+      "object": "Axon",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Cell Body (Soma)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Integrating synaptic inputs",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Generating action potentials",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Site for summation of membrane potentials",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Delineates separate membrane domains",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The axon hillock is a specialized part of the cell body of a neuron that connects to the axon and is involved in integrating synaptic stimuli and generating action potentials.",
+    "common_uses": [
+      "Signal Integration",
+      "Action Potential Generation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The axon hillock integrates incoming signals, initiating action potentials when the threshold is reached, and maintains separate membrane domains.",
+    "origin": "Part of the neuron, formed during neuronal development."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Visible using light microscopy",
+        "Sparse distribution of Nissl substance"
+      ],
+      "shape": [
+        "Cone-shaped",
+        "Triangular"
+      ],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Connects soma to axon",
+      "coordinates": [],
+      "connected_to": [
+        "Cell body",
+        "Axon"
+      ],
+      "contained_in": "Neuron"
+    },
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": [
+        "Signal integration",
+        "Action potential generation",
+        "Maintaining membrane domains"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "See URL",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Axon_hillock",
+      "https://grokipedia.com/page/Axon_hillock",
+      "https://www.kenhub.com/en/library/anatomy/axon-hillock"
+    ]
+  }
+}

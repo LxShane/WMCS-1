@@ -1,0 +1,124 @@
+{
+  "name": "Physical Interface",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 29,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Interface",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Connecting firewall to network",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Software driver",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Connector",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Logical Interface",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A connection point between a system and a network, often used to connect a firewall.",
+    "common_uses": [
+      "Connect firewall to network",
+      "Provide network connectivity"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Physical interfaces allow data transmission between devices via physical cables and wireless signals, managed by the operating system through software drivers.",
+    "origin": "Developed as a means to facilitate network communication."
+  },
+  "instance_layer": {
+    "examples": [
+      "Ethernet port on a computer",
+      "Wireless network adapter"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    },
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Physical Interface - an overview | ScienceDirect Topics",
+      "Basics for Administering Physical Interfaces - System Administration Guide: IP Services",
+      "Physical Interface Properties | Junos OS | Juniper Networks"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "B1 field",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "RF field",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "excites the proton spins and generates a rotating transverse magnetization",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The RF field produced by the transmit coil during an MRI examination.",
+    "common_uses": [
+      "Exciting proton spins"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Radiofrequency energy transfer to the hydrogen nuclei.",
+    "origin": "MRI Physics"
+  },
+  "instance_layer": {},
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Extraction from Basic Principles of and Practical Guide to Clinical MRI Radiofrequency Coils | RadioGraphics",
+    "citations": [
+      "RadioGraphics"
+    ]
+  }
+}

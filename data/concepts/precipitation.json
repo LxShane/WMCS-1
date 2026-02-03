@@ -1,0 +1,48 @@
+{
+  "name": "Precipitation",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 20,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Hydrological Variable",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Any product of the condensation of atmospheric water vapor that falls under gravity.",
+    "common_uses": [
+      "Water supply",
+      "Agricultural irrigation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Water vapor condenses and forms clouds, which then release water in the form of rain, snow, sleet, or hail.",
+    "origin": "Atmospheric processes"
+  },
+  "instance_layer": {
+    "examples": [
+      "Rainfall in the Amazon rainforest",
+      "Snowfall in the Himalayas"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2023WR034861"
+    ]
+  }
+}

@@ -1,9 +1,9 @@
 {
   "name": "Sensor",
-  "type": "INANIMATE_OBJECT",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1002
+    "group": 20,
+    "item": 1003
   },
   "claims": [
     {
@@ -75,31 +75,38 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "term used in some cases to describe a protein responsible for detecting stimuli",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A device that detects or measures a physical property and records, indicates, or otherwise responds to it.",
-    "common_uses": [
-      "Measuring temperature",
-      "Detecting motion"
-    ]
+    "definition": "Term used in some cases to describe a protein responsible for detecting stimuli.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Transforms a physical quantity into a signal that can be read by an instrument or observer.",
-    "origin": "Man-made device."
+    "mechanism": "Detects stimuli.",
+    "origin": null
   },
-  "instance_layer": [],
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    }
+  "instance_layer": {
+    "examples": []
   },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "[PDF] UM3175 - Getting started with STEVAL-FSM01M1 safe digital I/O ...",
-    "citations": []
+    "source": "Signal transduction - Wikipedia",
+    "citations": [
+      "Signal transduction - Wikipedia"
+    ]
   }
 }

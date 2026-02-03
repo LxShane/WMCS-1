@@ -1,0 +1,57 @@
+{
+  "name": "Transmit coil",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 22,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Radiofrequency coil",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "B1 transmission",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A radiofrequency coil used to transmit radiofrequency signals during an MRI examination.",
+    "common_uses": [
+      "MRI signal excitation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Generates a radiofrequency field to excite proton spins within the patient's body",
+    "origin": "Part of the MRI system, designed for signal transmission"
+  },
+  "instance_layer": {},
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Extraction from Radiofrequency coil - Wikipedia, Basic Principles of and Practical Guide to Clinical MRI Radiofrequency Coils | RadioGraphics",
+    "citations": [
+      "Wikipedia",
+      "RadioGraphics"
+    ]
+  }
+}

@@ -1,9 +1,9 @@
 {
   "name": "Memory",
-  "type": "ABSTRACT_CONCEPT",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 50,
-    "item": 1234
+    "group": 20,
+    "item": 7890
   },
   "claims": [
     {
@@ -117,20 +117,116 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Functional Component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Device",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Storing data",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Component of Von Neumann architecture",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Memory is the term given to the structures and processes involved in the storage and subsequent retrieval of information.",
-    "common_uses": []
+    "definition": "A device or system used to store information for immediate use in a computer.",
+    "common_uses": [
+      "Storing program instructions",
+      "Storing data"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Information is encoded, stored, and then retrieved.",
-    "origin": null
+    "mechanism": "Uses various technologies like RAM, ROM, SSDs to store data in electronic or magnetic format.",
+    "origin": "Developed to provide storage for computer programs and data."
   },
-  "instance_layer": [],
-  "facets": {},
+  "instance_layer": {
+    "examples": [
+      "RAM",
+      "Hard drive",
+      "SSD"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Data Storage",
+        "Program Storage"
+      ],
+      "capabilities": [
+        "Storing data persistently",
+        "Providing fast data access"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Rectangular",
+        "Varies by type"
+      ],
+      "shape": [
+        "Chip or Drive"
+      ],
+      "composition": [
+        "Silicon",
+        "Metal",
+        "Plastic"
+      ],
+      "parts": [
+        "Memory cells",
+        "Controller"
+      ]
+    }
+  },
   "epistemic_metadata": {
-    "source": "https://www.simplypsychology.org/memory.html",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.cs.cornell.edu/courses/cs3410/2025sp/notes/io.html"
+    ]
   }
 }

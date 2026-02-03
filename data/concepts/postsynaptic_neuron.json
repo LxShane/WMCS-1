@@ -2,8 +2,8 @@
   "name": "Postsynaptic Neuron",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 30,
-    "item": 2004
+    "group": 21,
+    "item": 1003
   },
   "claims": [
     {
@@ -19,22 +19,62 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "triggering an Action Potential",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RECEIVES",
+      "object": "signals from other cells",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "UNKNOWN"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Neuron that receives signals from another neuron across a synapse.",
+    "definition": "A neuron that receives neurotransmitters after they have crossed the synapse.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Receives neurotransmitters and generates postsynaptic potentials.",
-    "origin": null
+    "mechanism": "Receives and integrates signals from presynaptic neurons.",
+    "origin": "Biological development of nervous system."
   },
-  "instance_layer": [],
-  "facets": {},
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "parts": [],
+      "relations": [],
+      "visual_features": [],
+      "shape": [],
+      "composition": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://www.frontiersin.org/journals/neural-circuits/articles/10.3389/fncir.2020.00009/full"
-    ]
+    "source": "Essay // Biopsychology: How our Neurons work | dpurb . com",
+    "citations": []
   }
 }

@@ -1,0 +1,60 @@
+{
+  "name": "Stereo Matching",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A method for determining disparity in a stereo setup.",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A technique in computer vision to determine the depth information from two or more images.",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A technique in computer vision to determine the depth information from two or more images.",
+    "common_uses": [
+      "3D reconstruction",
+      "Robotics"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Stereo matching algorithms find corresponding points in the stereo images to calculate depth.",
+    "origin": "Computer vision research"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.mdpi.com/2072-4292/16/3/487",
+      "https://www.sciencedirect.com/science/article/pii/S014193822300207X"
+    ]
+  }
+}

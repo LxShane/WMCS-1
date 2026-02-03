@@ -1,0 +1,91 @@
+{
+  "name": "Input/Output (I/O)",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Mode of communication between the central system and the outside environment",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Communication between computer system and outside environment",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Key element of a computer system",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The means by which a computer system communicates with the outside world.",
+    "common_uses": [
+      "Reading data from peripherals",
+      "Writing data to peripherals",
+      "User interaction"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "I/O devices and interfaces transfer data between the computer's internal components (processor, memory) and external devices.",
+    "origin": "Developed as a necessary component of computer systems to allow interaction with the outside world."
+  },
+  "instance_layer": {
+    "examples": [
+      "Keyboard input",
+      "Monitor output",
+      "Data transfer via USB"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Data Input",
+        "Data Output"
+      ],
+      "capabilities": [
+        "Receiving data",
+        "Transmitting data"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.cs.cornell.edu/courses/cs3410/2025sp/notes/io.html",
+      "https://www.marian.ac.in/public/images/uploads/EC206_CO_module+5.pdf",
+      "https://www.ioenotes.edu.np/media/notes/computer-organization-and-architecture-coa/Chapter7-Input-Output-Organization.pdf"
+    ]
+  }
+}

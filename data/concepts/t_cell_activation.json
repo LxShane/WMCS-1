@@ -2,8 +2,8 @@
   "name": "T cell activation",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 62,
-    "item": 4567
+    "group": 21,
+    "item": 1004
   },
   "claims": [
     {
@@ -61,33 +61,50 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "TCR signaling",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Integrins",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The process by which T cells are stimulated to perform their function.",
+    "definition": "The activation of T cells is a complex process that requires signals from the T cell receptor (TCR) and integrins.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Extracellular signals bind to the T cell receptor, initiating intracellular signaling cascades.",
-    "origin": null
+    "mechanism": "T cell activation involves a cascade of signaling events leading to cytokine production and effector function.",
+    "origin": "Occurs in response to antigen presentation."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "PROCESS_DATA": {
-      "roles": [
-        "T cell"
-      ],
-      "capabilities": [
-        "Adaptive Immunity"
-      ]
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "PMC7272404"
-    ]
+    "source": "[PDF] Synaptic Interactions in Germinal Centers - Frontiers",
+    "citations": []
   }
 }

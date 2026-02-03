@@ -1,9 +1,9 @@
 {
-  "name": "Lithium-ion battery",
+  "name": "Lithium-ion Battery",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 30,
-    "item": 1234
+    "group": 20,
+    "item": 4567
   },
   "claims": [
     {
@@ -429,50 +429,59 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Electrolyte",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A lithium-ion battery is a type of rechargeable battery that uses the reversible intercalation of Li + ions.",
+    "definition": "A type of rechargeable battery that uses lithium ions as the charge carrier.",
     "common_uses": [
-      "Storing energy"
+      "Electronics",
+      "Electric Vehicles"
     ]
   },
   "deep_layer": {
-    "mechanism": "Energy storage via chemical reactions, specifically the movement of lithium ions between anode and cathode.",
-    "origin": null
+    "mechanism": "Lithium ions move between the anode and cathode through an electrolyte to generate electricity.",
+    "origin": "Developed in the late 20th century."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Energy Storage"
-      ],
-      "capabilities": [
-        "Recharging",
-        "Discharging"
-      ]
-    },
     "STRUCTURAL": {
       "visual_features": [],
       "shape": [],
       "composition": [],
-      "parts": [
-        "Cathode",
-        "Anode",
-        "Separator",
-        "Electrolyte"
-      ],
+      "parts": [],
       "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    },
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Ingestion Engine",
     "citations": [
-      "Towards a safer lithium-ion batteries: A critical review on ...",
-      "Lithium-ion battery",
-      "The Role of Lithium-Ion Batteries in the Growing Trend ..."
+      "https://www.sciencedirect.com/science/article/pii/S2405829717300685"
     ]
   }
 }

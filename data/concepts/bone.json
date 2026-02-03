@@ -2,8 +2,8 @@
   "name": "Bone",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 7890
+    "group": 23,
+    "item": 5678
   },
   "claims": [
     {
@@ -61,30 +61,34 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "containing air spaces",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Bone is a component of the skeleton.",
+    "definition": "A rigid organ that constitutes part of the vertebral skeleton in animals.",
     "common_uses": []
   },
   "deep_layer": {
     "mechanism": null,
     "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    }
-  },
+  "instance_layer": [],
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Wikipedia",
     "citations": []
   }
 }

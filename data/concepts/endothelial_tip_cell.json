@@ -1,0 +1,65 @@
+{
+  "name": "Endothelial Tip Cell",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Guided Migration",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A specialized endothelial cell that leads the formation of new blood vessels.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Endothelial tip cells respond to signaling cues to guide the direction of vascular sprout growth.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Migrator"
+      ],
+      "capabilities": [
+        "Guided migration"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Building the complex architectures of vascular networks: Where to ...",
+    "citations": []
+  }
+}

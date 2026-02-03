@@ -2,8 +2,8 @@
   "name": "Central Processing Unit",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 1234
+    "group": 22,
+    "item": 1003
   },
   "claims": [
     {
@@ -453,66 +453,144 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Processor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Primary Processor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Executing Instructions of a Computer Program",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Arithmetic Operations",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Logic Operations",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Controlling Operations",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Input/Output Operations",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "An electronic circuit that executes instructions of a computer program.",
-    "common_uses": [
-      "Performing arithmetic calculations",
-      "Controlling computer operations"
-    ]
+    "definition": "A central processing unit (CPU) is the primary processor in a given computer.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The CPU fetches instructions from memory, decodes them, and executes them using its arithmetic logic unit (ALU) and control unit.",
-    "origin": "Developed in the early 1970s as a single-chip microprocessor."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
-    "examples": [
-      "Intel Core i7",
-      "AMD Ryzen 9"
-    ]
+    "examples": []
   },
   "facets": {
-    "STRUCTURAL": {
-      "visual_features": [
-        "Rectangular",
-        "Small",
-        "Integrated Circuit"
-      ],
-      "shape": [
-        "Flat",
-        "Multi-layered"
-      ]
-    },
     "FUNCTION": {
-      "roles": [
-        "Central Processor"
-      ],
-      "capabilities": [
-        "instruction execution",
-        "data processing"
-      ]
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
     },
     "SPATIAL": {
-      "location": "Central within the motherboard, often near RAM slots and expansion slots",
-      "connected_to": [
-        "Motherboard",
-        "CPU cooler (heatsink/fan or liquid cooler)",
-        "Power supply (via motherboard)",
-        "RAM (via memory controller)",
-        "Chipset (Northbridge/Southbridge or PCH)",
-        "Expansion slots (PCIe)",
-        "Storage controllers (SATA, NVMe)"
-      ],
-      "coordinates": []
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Central processing unit - Wikipedia",
     "citations": [
-      "https://en.wikipedia.org/wiki/Central_processing_unit",
-      "https://www.ibm.com/think/topics/central-processing-unit"
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
     ]
-  },
-  "autocorrected": true
+  }
 }

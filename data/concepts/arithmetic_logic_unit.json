@@ -2,8 +2,8 @@
   "name": "Arithmetic Logic Unit",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 37,
-    "item": 1819
+    "group": 20,
+    "item": 1001
   },
   "claims": [
     {
@@ -201,40 +201,116 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Combinational Digital Circuit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Performing Arithmetic Operations",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Performing Bitwise Operations",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Operating on Integer Binary Numbers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A component of the CPU that performs arithmetic and logical operations.",
-    "common_uses": []
+    "definition": "An arithmetic logic unit (ALU) is a combinational digital circuit that performs arithmetic and bitwise operations on integer binary numbers.",
+    "common_uses": [
+      "performing calculations in computers",
+      "data processing"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "The ALU uses various logic gates and circuits to perform the specified operations based on input signals.",
+    "origin": "Developed as a core component of central processing units (CPUs)."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "ALUs within Intel processors",
+      "ALUs within ARM processors"
+    ]
   },
   "facets": {
     "FUNCTION": {
-      "roles": [],
-      "capabilities": []
+      "roles": [
+        "Calculator"
+      ],
+      "capabilities": [
+        "Addition",
+        "Subtraction",
+        "Bitwise AND",
+        "Bitwise OR"
+      ]
     },
     "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+      "visual_features": [
+        "Digital circuit"
+      ],
+      "shape": [
+        "Electronic Components connected"
+      ],
+      "composition": [
+        "Silicon",
+        "Transistors"
+      ],
+      "parts": [
+        "Adders",
+        "Multiplexers",
+        "Registers"
+      ]
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
+    "source": "Arithmetic logic unit - Wikipedia",
+    "citations": [
+      "Page 1",
+      "Section 2.3"
+    ]
   }
 }

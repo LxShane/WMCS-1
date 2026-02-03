@@ -2,8 +2,8 @@
   "name": "Lymphatic System",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1007
+    "group": 30,
+    "item": 3456
   },
   "claims": [
     {
@@ -341,20 +341,38 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A network of vessels and nodes that filters fluid and supports the immune system.",
+    "definition": "The lymphatic system is a network of vessels and tissues that help remove waste and toxins from the body.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Fluid is drained, filtered and returned to circulation.",
-    "origin": "Mesenchymal and endothelial differentiation."
+    "mechanism": "Lymphatic vessels transport lymph fluid, which contains waste products and immune cells.",
+    "origin": "Evolved to maintain fluid balance and support the immune system."
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Kenhub",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "Improve Your Lymphatic System for Overall Health &"
+    ]
   }
 }

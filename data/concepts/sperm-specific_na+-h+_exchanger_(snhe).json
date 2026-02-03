@@ -1,0 +1,74 @@
+{
+  "name": "sperm-specific Na+/H+ exchanger (sNHE)",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Voltage Sensor Domain",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Type of transmembrane protein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A sodium-hydrogen exchanger found specifically in sperm cells.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Exchanges sodium ions for hydrogen ions across the sperm cell membrane.",
+    "origin": "Involved in sperm cell physiology and fertilization."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": [
+        "Ion exchange"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Sperm Cell Membrane",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "PubMed",
+    "citations": []
+  }
+}

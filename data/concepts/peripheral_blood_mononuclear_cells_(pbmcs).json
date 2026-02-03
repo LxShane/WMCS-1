@@ -1,0 +1,68 @@
+{
+  "name": "Peripheral Blood Mononuclear Cells (PBMCs)",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 30,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Blood cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Lymphocytes and Monocytes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Being isolated from healthy donor-derived buffy coats",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A group of blood cells having a round nucleus (lymphocytes and monocytes).",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "PBMCs are isolated from whole blood through density gradient centrifugation.",
+    "origin": "Found in blood."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

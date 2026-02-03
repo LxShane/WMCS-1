@@ -1,9 +1,9 @@
 {
   "name": "Dark Matter",
-  "type": "INANIMATE_OBJECT",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 20,
-    "item": 1002
+    "group": 50,
+    "item": 1234
   },
   "claims": [
     {
@@ -33,38 +33,78 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Matter",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Providing gravitational scaffolding for galaxies and large-scale structures",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PROVIDES",
+      "object": "Gravitational influence",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A hypothetical form of matter that is thought to account for approximately 85% of the matter in the universe and about a quarter of its total mass-energy density.",
+    "definition": "A hypothetical form of matter that does not interact with light, making it invisible to telescopes.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Unknown",
-    "origin": "Unknown"
+    "mechanism": "Dark matter interacts gravitationally, providing extra mass and gravity to hold galaxies and galaxy clusters together.",
+    "origin": "Hypothesized to have originated in the early universe."
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": [
+      "The Bullet Cluster provides evidence for the existence of dark matter."
+    ]
+  },
   "facets": {
     "FUNCTION": {
       "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+      "capabilities": [
+        "Providing gravitational influence",
+        "Providing gravitational scaffolding"
+      ]
     }
   },
   "epistemic_metadata": {
-    "source": "Dark matter - Wikipedia",
-    "citations": []
+    "source": "Multiple Web Sources",
+    "citations": [
+      "https://davidboulton.com/centraldynamic/",
+      "https://universewatcher.com/galactic-scale-exploration/",
+      "https://diversedaily.com/unraveling-the-cosmos-the-estimated-distribution-of-dark-matter-and-dark-energy-in-the-universe/"
+    ]
   }
 }
