@@ -1,0 +1,142 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 527
+    },
+    "name": "Impact Crater",
+    "type": "geological formation",
+    "definition": "A circular or bowl-shaped depression on the surface of a planet, moon, or other celestial body, formed by the hypervelocity impact of a smaller object."
+  },
+  "GROUNDING": {
+    "chain": [
+      "impact event",
+      "ejecta deposition",
+      "crater morphology"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "spectral"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Impact craters are identified by their circular shape, raised rim, ejecta blanket, and, in some cases, a central peak or ring structure. Geophysical surveys and sample analysis can confirm the presence of shocked minerals and other impact-related features."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Geology",
+      "Planetary Science",
+      "Exogeology",
+      "Impact Structures"
+    ],
+    "siblings": [
+      "Volcanic Crater",
+      "Sinkhole",
+      "Caldera"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Target Rock",
+              "ref": "Various - Depends on location"
+            },
+            {
+              "name": "Impact Melt",
+              "ref": "Silicates, Oxides"
+            },
+            {
+              "name": "Ejecta",
+              "ref": "Breccia, Rock Fragments"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "bowl-shaped",
+        "size": {
+          "value": 1000000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "crater floor"
+      },
+      "parts": [
+        {
+          "name": "rim",
+          "relative_to": "crater floor",
+          "position": {
+            "x": 0,
+            "y": 50000,
+            "z": 0
+          }
+        },
+        {
+          "name": "ejecta blanket",
+          "relative_to": "rim",
+          "position": {
+            "x": 200000,
+            "y": -20000,
+            "z": 0
+          }
+        },
+        {
+          "name": "central peak",
+          "relative_to": "crater floor",
+          "position": {
+            "x": 0,
+            "y": 20000,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "impactor",
+      "target surface",
+      "sufficient impact velocity"
+    ],
+    "produces": [
+      "shock waves",
+      "ejecta",
+      "impact melt",
+      "target deformation"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "Impact",
+        "target": "Impactor"
+      },
+      {
+        "relation": "Geological Feature",
+        "target": "Planetary Surface"
+      },
+      {
+        "relation": "Source Material",
+        "target": "Ejecta Blanket"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      "impact",
+      "excavation",
+      "modification (e.g., collapse, erosion)",
+      "degradation"
+    ]
+  }
+}

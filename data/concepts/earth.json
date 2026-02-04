@@ -1,194 +1,150 @@
 {
-  "name": "Earth",
-  "type": "INANIMATE_OBJECT",
-  "id": {
-    "group": 29,
-    "item": 1234
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 873
+    },
+    "name": "Earth",
+    "type": "planet.terrestrial",
+    "definition": "The third planet from the Sun, the densest and fifth-largest of the Solar System's eight planets, and the only astronomical object known to harbor life."
   },
-  "claims": [
-    {
-      "predicate": "HAS_PART",
-      "object": "Lithosphere",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "DEFINED_AS",
-      "object": "integrated system",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "HAS_PART",
-      "object": "Atmosphere",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "HAS_PART",
-      "object": "Lithosphere",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "HAS_PART",
-      "object": "Center of mass",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IS_A",
-      "object": "Planet",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 1.0,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IS_A",
-      "object": "Planet",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "HAS_PART",
-      "object": "Crust",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "HAS_PART",
-      "object": "Mantle",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "HAS_PART",
-      "object": "Core",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "HAS_PART",
-      "object": "Lithosphere",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.7,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "HAS_PART",
-      "object": "Asthenosphere",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.7,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
+  "GROUNDING": {
+    "chain": [
+      "observation",
+      "measurement",
+      "scientific consensus"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "theoretical"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Extensive observational data from telescopes, satellites, and probes; geological surveys; atmospheric analysis; seismic data; and gravitational measurements all support the current understanding of Earth."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Celestial Body",
+      "Planet",
+      "Terrestrial Planet"
+    ],
+    "siblings": [
+      "Mars",
+      "Venus",
+      "Mercury"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Iron",
+              "ref": "core"
+            },
+            {
+              "name": "Oxygen",
+              "ref": "mantle"
+            },
+            {
+              "name": "Silicon",
+              "ref": "crust"
+            },
+            {
+              "name": "Magnesium",
+              "ref": "mantle"
+            },
+            {
+              "name": "Aluminum",
+              "ref": "crust"
+            }
+          ]
+        }
+      ]
     }
-  ],
-  "surface_layer": {
-    "definition": "The planet on which we live, composed of several layers.",
-    "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": "Heavier materials sank to the center during its formation.",
-    "origin": "Formed from the solar nebula."
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "oblate spheroid",
+        "size": {
+          "value": 1274200000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "core"
+      },
+      "parts": [
+        {
+          "name": "crust",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 635675231
+          }
+        },
+        {
+          "name": "mantle",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 350000000
+          }
+        },
+        {
+          "name": "atmosphere",
+          "relative_to": "crust",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 10000000
+          }
+        }
+      ]
+    }
   },
-  "instance_layer": {
-    "examples": []
+  "CAUSATION": {
+    "requires": [
+      "stellar formation",
+      "gravitational accretion",
+      "differentiation"
+    ],
+    "produces": [
+      "life",
+      "plate tectonics",
+      "magnetic field",
+      "climate"
+    ]
   },
-  "facets": {},
-  "epistemic_metadata": {
-    "source": "Multiple Web Sources",
-    "citations": []
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "orbits",
+        "target": "Sun"
+      },
+      {
+        "relation": "has moon",
+        "target": "Moon"
+      },
+      {
+        "relation": "interacts with",
+        "target": "Solar Wind"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      "formation (4.54 billion years ago)",
+      "differentiation",
+      "geological activity",
+      "biological evolution",
+      "future stages (gradual cooling, eventual solar expansion)"
+    ]
   }
 }

@@ -1,43 +1,103 @@
 {
-  "name": "Black Hole",
-  "type": "INANIMATE_OBJECT",
-  "id": {
-    "group": 30,
-    "item": 1002
-  },
-  "claims": [],
-  "surface_layer": {
-    "definition": null,
-    "common_uses": []
-  },
-  "deep_layer": {
-    "mechanism": null,
-    "origin": null
-  },
-  "instance_layer": [],
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 726
     },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+    "name": "Black Hole",
+    "type": "phenomenon.astrophysical",
+    "definition": "A region in spacetime exhibiting such strong gravitational effects that nothing\u2014not even particles and electromagnetic radiation such as light\u2014can escape from inside it."
+  },
+  "GROUNDING": {
+    "chain": [
+      "Observation of gravitational lensing",
+      "Detection of Hawking radiation (theoretical)",
+      "Analysis of orbital motion of stars around a supermassive compact object"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "theoretical"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Black holes are indirectly observed through their gravitational effects on surrounding matter and light. Strong evidence comes from observations of stars orbiting seemingly empty space at very high speeds, as well as the detection of gravitational waves from black hole mergers. The Event Horizon Telescope has directly imaged the shadow of a black hole."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Celestial Object",
+      "Compact Object",
+      "Black Hole"
+    ],
+    "siblings": [
+      "Neutron Star",
+      "White Dwarf"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Singularity",
+          "components": [
+            {
+              "name": "Matter",
+              "ref": "Unknown; all matter is crushed into an infinitely small point."
+            }
+          ]
+        }
+      ]
     }
   },
-  "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "http://www.vaporia.com/astro/start/adaf.html"
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "sphere",
+        "size": {
+          "value": 300000000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "singularity"
+      },
+      "parts": [
+        {
+          "name": "event horizon",
+          "relative_to": "singularity",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Sufficient mass concentrated in a small enough space"
+    ],
+    "produces": [
+      "Extreme gravitational field",
+      "Gravitational lensing",
+      "Hawking radiation (theoretical)",
+      "Spacetime distortion"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      "Gravitational interaction with surrounding matter",
+      "Accretion of matter from surrounding environment",
+      "Emission of Hawking radiation (theoretical)"
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      "Formation from stellar collapse or primordial density fluctuations",
+      "Growth through accretion of matter",
+      "Evaporation through Hawking radiation (extremely slow for stellar mass black holes)",
+      "Merger with other black holes"
     ]
   }
 }

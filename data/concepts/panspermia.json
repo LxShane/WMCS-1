@@ -1,0 +1,131 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 672
+    },
+    "name": "Panspermia",
+    "type": "hypothesis",
+    "definition": "The hypothesis that life exists throughout the Universe and is distributed by space dust, meteoroids, asteroids, comets, planetoids, and also by contaminated spacecraft, with microscopic lifeforms surviving the effects of space, such as radiation."
+  },
+  "GROUNDING": {
+    "chain": [
+      "detection of organic molecules in meteorites",
+      "experimental survival of microorganisms in space",
+      "modeling of interplanetary transfer of life"
+    ],
+    "base_types": [
+      "observational",
+      "experimental",
+      "theoretical"
+    ],
+    "confidence": 0.75,
+    "evidence_summary": "Evidence includes the presence of organic molecules in meteorites, the observed survival of certain microorganisms under simulated space conditions, and theoretical models supporting the feasibility of interplanetary transfer of life. However, conclusive proof remains elusive."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Scientific Hypothesis",
+      "Astrobiology",
+      "Origin of Life Research"
+    ],
+    "siblings": [
+      "Abiogenesis",
+      "Directed Panspermia"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Microorganisms (bacteria, archaea)",
+              "ref": "microorganism"
+            },
+            {
+              "name": "Organic Molecules (amino acids, nucleic acids)",
+              "ref": "organic_molecules"
+            },
+            {
+              "name": "Protective Coating (ice, mineral layer)",
+              "ref": "protective_coating"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 0.001,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "DNA/RNA Core"
+      },
+      "parts": [
+        {
+          "name": "Cell Membrane",
+          "relative_to": "DNA/RNA Core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Protective Mineral Layer",
+          "relative_to": "Cell Membrane",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "viable microorganisms",
+      "protective environment",
+      "transfer mechanism"
+    ],
+    "produces": [
+      "seeding of life on other planets",
+      "evolution of life in new environments",
+      "spread of disease (hypothetical)"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "Transports",
+        "target": "Microorganisms"
+      },
+      {
+        "relation": "Survives in",
+        "target": "Space Environment"
+      },
+      {
+        "relation": "Relies on",
+        "target": "Protective Coating"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      "Originating on a planet",
+      "Ejection into space (e.g., through meteor impact)",
+      "Interplanetary travel",
+      "Entry into a new planetary environment",
+      "Possible germination and growth"
+    ]
+  }
+}

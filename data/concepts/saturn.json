@@ -1,0 +1,141 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 873
+    },
+    "name": "Saturn",
+    "type": "celestial.planet",
+    "definition": "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, characterized by its prominent ring system."
+  },
+  "GROUNDING": {
+    "chain": [
+      "observation",
+      "measurement",
+      "modeling"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "spectral"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Extensive telescopic observations, space probe missions (e.g., Cassini), and spectral analysis provide detailed information about Saturn's physical characteristics, atmospheric composition, and ring structure."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Planet",
+      "Gas Giant",
+      "Outer Planet",
+      "Solar System Object"
+    ],
+    "siblings": [
+      "Jupiter",
+      "Uranus",
+      "Neptune"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Hydrogen",
+              "ref": "H2"
+            },
+            {
+              "name": "Helium",
+              "ref": "He"
+            }
+          ]
+        },
+        {
+          "depth": 1,
+          "name": "Minor",
+          "components": [
+            {
+              "name": "Methane",
+              "ref": "CH4"
+            },
+            {
+              "name": "Ammonia",
+              "ref": "NH3"
+            },
+            {
+              "name": "Water Ice",
+              "ref": "H2O"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "oblate spheroid",
+        "size": {
+          "value": 12053600,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "core"
+      },
+      "parts": [
+        {
+          "name": "atmosphere",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "ring system",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "gravity",
+      "nuclear fusion (in the Sun)",
+      "initial angular momentum"
+    ],
+    "produces": [
+      "gravitational influence on surrounding objects",
+      "auroras",
+      "heat radiation"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "orbits",
+        "target": "Sun"
+      },
+      {
+        "relation": "has moons",
+        "target": "Titan, Enceladus, etc."
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      "formation from protoplanetary disk",
+      "ongoing gravitational interactions",
+      "gradual cooling"
+    ]
+  }
+}

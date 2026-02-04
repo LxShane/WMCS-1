@@ -1,0 +1,138 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 742
+    },
+    "name": "Orbit",
+    "type": "celestial.movement",
+    "definition": "A gravitationally curved trajectory of an object around a point in space, such as a planet around a star."
+  },
+  "GROUNDING": {
+    "chain": [
+      "gravitational interaction",
+      "trajectory determination",
+      "orbital mechanics"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "mathematical"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Observed planetary and satellite movements, validated by Kepler's Laws and Newton's Law of Universal Gravitation; astronomical observations across multiple wavelengths."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Physics",
+      "Celestial Mechanics",
+      "Orbital Dynamics"
+    ],
+    "siblings": [
+      "Rotation",
+      "Revolution",
+      "Trajectory",
+      "Elliptical Path"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Gravitational Field",
+              "ref": "Gravity"
+            },
+            {
+              "name": "Kinetic Energy",
+              "ref": "KineticEnergy"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "elliptical",
+        "size": {
+          "value": 14960000000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "central mass"
+      },
+      "parts": [
+        {
+          "name": "perihelion",
+          "relative_to": "central mass",
+          "position": {
+            "x": -7480000000,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "aphelion",
+          "relative_to": "central mass",
+          "position": {
+            "x": 7480000000,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "gravitational force",
+      "initial velocity"
+    ],
+    "produces": [
+      "continuous motion",
+      "centripetal acceleration"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "Orbited by",
+        "target": "Satellite"
+      },
+      {
+        "relation": "Governed by",
+        "target": "Kepler's Laws"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "Formation",
+        "description": "Occurs during planetary or satellite system formation via gravitational accretion.",
+        "duration": "Billions of years"
+      },
+      {
+        "stage": "Stable Orbit",
+        "description": "Sustained balance of gravitational forces and kinetic energy.",
+        "duration": "Potentially infinite"
+      },
+      {
+        "stage": "Orbital Decay",
+        "description": "Gradual reduction in orbital altitude due to atmospheric drag or tidal forces.",
+        "duration": "Variable, potentially millions of years"
+      },
+      {
+        "stage": "Orbital Disruption",
+        "description": "Significant alteration of orbit due to collisions or gravitational perturbations.",
+        "duration": "Instantaneous"
+      }
+    ]
+  }
+}

@@ -1,118 +1,161 @@
 {
-  "name": "Pluto",
-  "type": "INANIMATE_OBJECT",
-  "id": {
-    "group": 28,
-    "item": 1236
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 789
+    },
+    "name": "Pluto",
+    "type": "celestial_body.dwarf_planet",
+    "definition": "Pluto is a dwarf planet in the Kuiper Belt, a ring of bodies beyond Neptune. It is primarily composed of ice and rock and is known for its complex surface geology and five moons."
   },
-  "claims": [
-    {
-      "predicate": "DEFINED_AS",
-      "object": "ninth planet of the solar system",
-      "temporal": {
-        "valid_from": "1930",
-        "valid_until": null,
-        "event": "Discovery"
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "HISTORICAL",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IS_A",
-      "object": "Celestial Body",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "2006",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "HISTORICAL",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IS_A",
-      "object": "Dwarf Planet",
-      "temporal": {
-        "valid_from": "2006",
-        "valid_until": "PRESENT",
-        "event": "Reclassification"
-      },
-      "epistemic": {
-        "confidence": 1.0,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IS_A",
-      "object": "Kuiper Belt Object",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 1.0,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IN_RESONANCE_WITH",
-      "object": "Neptune",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "HAS_ORBITAL_RESONANCE",
-      "object": "2:3",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
+  "GROUNDING": {
+    "chain": [
+      "Observation through telescopes",
+      "Spectroscopic analysis of surface composition",
+      "Spacecraft flyby data (New Horizons)"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "spectral"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Extensive telescopic observations, spectroscopic data, and data obtained from the New Horizons mission provide robust evidence for Pluto's physical characteristics, composition, and geological features."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Celestial Body",
+      "Planet",
+      "Dwarf Planet",
+      "Kuiper Belt Object"
+    ],
+    "siblings": [
+      "Eris",
+      "Makemake",
+      "Haumea",
+      "Ceres"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Nitrogen Ice",
+              "ref": "N2"
+            },
+            {
+              "name": "Methane Ice",
+              "ref": "CH4"
+            },
+            {
+              "name": "Water Ice",
+              "ref": "H2O"
+            },
+            {
+              "name": "Rock",
+              "ref": "SiO2"
+            }
+          ]
+        },
+        {
+          "depth": 1,
+          "name": "Minor",
+          "components": [
+            {
+              "name": "Carbon Monoxide Ice",
+              "ref": "CO"
+            },
+            {
+              "name": "Tholins",
+              "ref": "Complex Organic Molecules"
+            }
+          ]
+        }
+      ]
     }
-  ],
-  "surface_layer": {
-    "definition": "A dwarf planet in the Kuiper Belt, in resonance with Neptune.",
-    "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": "Gravitational interaction with Neptune.",
-    "origin": "Formation within the Kuiper Belt."
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "sphere",
+        "size": {
+          "value": 2377000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "core"
+      },
+      "parts": [
+        {
+          "name": "nitrogen_ice_glaciers",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 1000000,
+            "z": 0
+          }
+        },
+        {
+          "name": "water_ice_mountains",
+          "relative_to": "core",
+          "position": {
+            "x": 500000,
+            "y": -500000,
+            "z": 500000
+          }
+        },
+        {
+          "name": "Sputnik_Planum",
+          "relative_to": "core",
+          "position": {
+            "x": -700000,
+            "y": 0,
+            "z": 700000
+          }
+        }
+      ]
+    }
   },
-  "instance_layer": {
-    "examples": []
+  "CAUSATION": {
+    "requires": [
+      "gravitational_accretion",
+      "low_temperature_environment"
+    ],
+    "produces": [
+      "complex_surface_geology",
+      "thin_atmosphere",
+      "orbital_resonance_with_Neptune"
+    ]
   },
-  "facets": {
-    "SPATIAL": {
-      "location": "Kuiper Belt",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": "Kuiper Belt"
-    },
-    "STRUCTURAL": {}
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation_type": "orbital",
+        "target": "Neptune",
+        "description": "Pluto is in a 3:2 orbital resonance with Neptune."
+      },
+      {
+        "relation_type": "satellite",
+        "target": "Charon",
+        "description": "Pluto and Charon are tidally locked and form a binary system."
+      }
+    ]
   },
-  "epistemic_metadata": {
-    "source": "Chapter 0 The Solar System: structural overview, origins and evolution",
-    "citations": []
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "formation",
+        "description": "Accretion from planetesimals in the early solar system."
+      },
+      {
+        "stage": "current",
+        "description": "Stable dwarf planet in the Kuiper Belt."
+      }
+    ]
   }
 }

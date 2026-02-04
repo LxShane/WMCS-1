@@ -1,0 +1,119 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 672
+    },
+    "name": "Phobos",
+    "type": "celestial.satellite",
+    "definition": "Phobos is the larger and innermost of the two natural satellites of Mars. It is an irregularly shaped object with a heavily cratered surface."
+  },
+  "GROUNDING": {
+    "chain": [
+      "observation",
+      "measurement",
+      "orbit_calculation"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "mathematical"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Phobos has been directly observed by numerous Mars missions, including orbiters and landers. Its orbit has been precisely calculated based on these observations. Measurements include size, shape, mass, and surface composition."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "celestial object",
+      "moon",
+      "Martian moon"
+    ],
+    "siblings": [
+      "Deimos"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Rock",
+              "ref": "silicates"
+            },
+            {
+              "name": "Ice",
+              "ref": "H2O"
+            },
+            {
+              "name": "Carbonaceous Chondrites",
+              "ref": "CC"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 2700,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "barycenter"
+      },
+      "parts": [
+        {
+          "name": "Stickney Crater",
+          "relative_to": "barycenter",
+          "position": {
+            "x": 500,
+            "y": -300,
+            "z": 200
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Martian gravitational field"
+    ],
+    "produces": [
+      "tidal forces on Mars",
+      "small contribution to Martian rings"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "orbits",
+        "target": "Mars"
+      },
+      {
+        "relation": "gravitationally interacts with",
+        "target": "Deimos"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "event": "formation",
+        "description": "Likely formed from debris ejected from Mars after a large impact, or captured asteroid.",
+        "time_scale": "billions of years ago"
+      },
+      {
+        "event": "orbital decay",
+        "description": "Slowly spiraling inward towards Mars due to tidal forces.",
+        "time_scale": "millions of years remaining until impact/disintegration"
+      }
+    ]
+  }
+}

@@ -1,299 +1,116 @@
 {
-  "name": "Tidal Force",
-  "type": "ABSTRACT_CONCEPT",
-  "id": {
-    "group": 50,
-    "item": 1234
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 672
+    },
+    "name": "Tidal Force",
+    "type": "phenomenon.gravitational",
+    "definition": "The gravitational force exerted by a celestial body on another, causing a differential in gravitational attraction across the body and resulting in tides or other deformation."
   },
-  "claims": [
-    {
-      "predicate": "DEFINED_AS",
-      "object": "difference in gravitational attraction between different points in a gravitational field",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "CAUSES",
-      "object": "bodies to be pulled unevenly",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "CAUSES",
-      "object": "bodies being stretched towards the attraction",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "DEFINED_AS",
-      "object": "differential force of gravity",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "DEFINED_AS",
-      "object": "net between gravitational forces",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "DEFINED_AS",
-      "object": "derivative of gravitational potential",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "DEFINED_AS",
-      "object": "gradient of gravitational fields",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IS_A",
-      "object": "residual force",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IS_A",
-      "object": "secondary effect of gravity",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "CAUSES",
-      "object": "range of tidal phenomena",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "CAUSES",
-      "object": "Earth being stretched",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.7,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "CAUSES",
-      "object": "Earth bulging on both sides",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.7,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "CAUSES",
-      "object": "Earth having opposite high-tides",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.7,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "CAUSES",
-      "object": "solid-earth tides",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.7,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "CAUSES",
-      "object": "tidal locking",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.7,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "CAUSES",
-      "object": "breaking apart of celestial bodies",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.7,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "CAUSES",
-      "object": "formation of ring systems within the Roche limit",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.7,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "CAUSES",
-      "object": "spaghettification of objects",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.7,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "RELATED_TO",
-      "object": "gravitational waves",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.7,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
+  "GROUNDING": {
+    "chain": [
+      "gravitational attraction",
+      "differential force",
+      "deformation"
+    ],
+    "base_types": [
+      "measurement",
+      "mathematical",
+      "physical"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Observed tidal bulges on Earth caused by the Moon's gravity, confirmed by satellite measurements and mathematical models of gravitational interaction."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Physics",
+      "Gravitational Phenomena",
+      "Tidal Effects"
+    ],
+    "siblings": [
+      "Gravitational Force",
+      "Centrifugal Force",
+      "Coriolis Effect"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Gravitational Field",
+              "ref": "gravitational_field"
+            }
+          ]
+        }
+      ]
     }
-  ],
-  "surface_layer": {
-    "definition": "The tidal force or tide-generating force is the difference in gravitational attraction between different points in a gravitational field, causing bodies to be pulled unevenly and as a result are being stretched towards the attraction.",
-    "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": "It is the differential force of gravity, the net between gravitational forces, the derivative of gravitational potential, the gradient of gravitational fields.",
-    "origin": null
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 1274200000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "Barycenter"
+      },
+      "parts": [
+        {
+          "name": "Tidal Bulge",
+          "relative_to": "Barycenter",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 637100000
+          }
+        }
+      ]
+    }
   },
-  "instance_layer": {
-    "examples": []
+  "CAUSATION": {
+    "requires": [
+      "Celestial Body 1 (e.g., Moon)",
+      "Celestial Body 2 (e.g., Earth)",
+      "Gravitational Constant"
+    ],
+    "produces": [
+      "Tidal Bulges",
+      "Tidal Currents",
+      "Tidal Forces on coastlines"
+    ]
   },
-  "facets": {
-    "FUNCTION": {},
-    "STRUCTURAL": {},
-    "SPATIAL": {}
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "Causes",
+        "target": "Tides",
+        "description": "Tidal force causes the rise and fall of sea levels (tides)."
+      },
+      {
+        "relation": "Affected By",
+        "target": "Distance",
+        "description": "The magnitude of the tidal force is inversely proportional to the cube of the distance between the celestial bodies."
+      }
+    ]
   },
-  "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "Page 1",
-      "Section 2.3"
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "Formation",
+        "description": "Arises immediately due to gravitational interaction when two or more celestial bodies exist"
+      },
+      {
+        "stage": "Duration",
+        "description": "Continuous as long as the celestial bodies exist and exert gravitational forces on each other."
+      }
     ]
   }
 }

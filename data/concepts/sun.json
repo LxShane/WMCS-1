@@ -1,82 +1,191 @@
 {
-  "name": "Sun",
-  "type": "INANIMATE_OBJECT",
-  "id": {
-    "group": 31,
-    "item": 4567
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 729
+    },
+    "name": "Sun",
+    "type": "star.main_sequence",
+    "definition": "The star at the center of the Solar System, providing light and heat to Earth and other planets."
   },
-  "claims": [
-    {
-      "predicate": "CAPABLE_OF",
-      "object": "fusion",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.95,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "CAPABLE_OF",
-      "object": "Fusion",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 1.0,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "LOCATED_AT",
-      "object": "Edge of the LIC",
-      "temporal": {
-        "valid_from": "PRESENT",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "CAPABLE_OF",
-      "object": "Traversing the outer layer of the LIC",
-      "temporal": {
-        "valid_from": null,
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.7,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
+  "GROUNDING": {
+    "chain": [
+      "nuclear fusion in core",
+      "electromagnetic radiation emission"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "spectral analysis"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Observations of the Sun's spectrum, energy output, and composition confirm its status as a main sequence star powered by nuclear fusion of hydrogen into helium."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Star",
+      "Main Sequence Star",
+      "G-type Main Sequence Star (Yellow Dwarf)"
+    ],
+    "siblings": [
+      "Alpha Centauri A",
+      "Tau Ceti",
+      "Epsilon Eridani"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Hydrogen",
+              "ref": "H"
+            },
+            {
+              "name": "Helium",
+              "ref": "He"
+            }
+          ]
+        },
+        {
+          "depth": 1,
+          "name": "Minor",
+          "components": [
+            {
+              "name": "Oxygen",
+              "ref": "O"
+            },
+            {
+              "name": "Carbon",
+              "ref": "C"
+            },
+            {
+              "name": "Iron",
+              "ref": "Fe"
+            },
+            {
+              "name": "Neon",
+              "ref": "Ne"
+            }
+          ]
+        }
+      ]
     }
-  ],
-  "surface_layer": {
-    "definition": "The star at the center of the Solar System.",
-    "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": null,
-    "origin": null
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "sphere",
+        "size": {
+          "value": 139000000000.0,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "core"
+      },
+      "parts": [
+        {
+          "name": "radiative zone",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "convection zone",
+          "relative_to": "radiative zone",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "photosphere",
+          "relative_to": "convection zone",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "chromosphere",
+          "relative_to": "photosphere",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "corona",
+          "relative_to": "chromosphere",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
   },
-  "instance_layer": {
-    "examples": []
+  "CAUSATION": {
+    "requires": [
+      "sufficient mass",
+      "gravitational collapse"
+    ],
+    "produces": [
+      "light",
+      "heat",
+      "solar wind",
+      "electromagnetic radiation"
+    ]
   },
-  "facets": {},
-  "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "orbits",
+        "target": "planets"
+      },
+      {
+        "relation": "illuminates",
+        "target": "planets"
+      },
+      {
+        "relation": "gravitationally bound to",
+        "target": "Solar System"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "protostar",
+        "duration": "1e6 years"
+      },
+      {
+        "stage": "main sequence",
+        "duration": "1e10 years"
+      },
+      {
+        "stage": "red giant",
+        "duration": "1e9 years"
+      },
+      {
+        "stage": "planetary nebula",
+        "duration": "5e4 years"
+      },
+      {
+        "stage": "white dwarf",
+        "duration": "indefinite"
+      }
+    ]
   }
 }

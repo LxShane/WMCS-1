@@ -1,0 +1,157 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 72
+    },
+    "name": "Sputnik 1",
+    "type": "artifact.satellite",
+    "definition": "The first artificial Earth satellite. It was launched into an elliptical low Earth orbit by the Soviet Union on 4 October 1957 as part of the Soviet space program."
+  },
+  "GROUNDING": {
+    "chain": [
+      "visual observation of launch",
+      "radio signal detection",
+      "orbital tracking"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Multiple independent methods confirm Sputnik 1's existence and orbital parameters, including visual tracking, radar tracking, and radio signal reception by numerous stations worldwide. Publicly available data corroborates the launch date, orbital characteristics, and eventual decay."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "artificial object",
+      "satellite",
+      "artificial satellite",
+      "early space exploration"
+    ],
+    "siblings": [
+      "Explorer 1",
+      "Sputnik 2"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Aluminum Alloy",
+              "ref": "Aluminum"
+            },
+            {
+              "name": "Radio Transmitters",
+              "ref": "RadioTransmitter"
+            },
+            {
+              "name": "Batteries",
+              "ref": "Battery"
+            },
+            {
+              "name": "Antennas",
+              "ref": "Antenna"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "sphere",
+        "size": {
+          "value": 58,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "core"
+      },
+      "parts": [
+        {
+          "name": "Antenna 1",
+          "relative_to": "core",
+          "position": {
+            "x": 200,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Antenna 2",
+          "relative_to": "core",
+          "position": {
+            "x": -200,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Antenna 3",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 200,
+            "z": 0
+          }
+        },
+        {
+          "name": "Antenna 4",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": -200,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "R-7 Semyorka rocket",
+      "launch pad",
+      "tracking stations"
+    ],
+    "produces": [
+      "first artificial satellite in Earth orbit",
+      "advancement of space exploration",
+      "start of the Space Race",
+      "scientific data on atmospheric density"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "launched by",
+        "target": "Soviet Union"
+      },
+      {
+        "relation": "preceded by",
+        "target": "German V-2 rocket tests"
+      },
+      {
+        "relation": "followed by",
+        "target": "Sputnik 2"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "event": "Launch",
+        "date": "1957-10-04"
+      },
+      {
+        "event": "Orbital Decay",
+        "date": "1958-01-04"
+      }
+    ]
+  }
+}

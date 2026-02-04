@@ -1,0 +1,182 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 72
+    },
+    "name": "Apollo 11",
+    "type": "artifact.spacecraft",
+    "definition": "The first crewed mission to land on the Moon, launched by the United States in 1969."
+  },
+  "GROUNDING": {
+    "chain": [
+      "launch",
+      "lunar orbit",
+      "lunar landing",
+      "moonwalk",
+      "lunar ascent",
+      "earth return"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "historical"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Documented mission records, photographic and video evidence, telemetry data, and physical samples returned from the Moon."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "human artifact",
+      "spacecraft",
+      "lunar mission",
+      "NASA program"
+    ],
+    "siblings": [
+      "Apollo 12",
+      "Apollo 13",
+      "Gemini program",
+      "Soyuz program"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Aluminum alloys",
+              "ref": "aluminum"
+            },
+            {
+              "name": "Titanium alloys",
+              "ref": "titanium"
+            },
+            {
+              "name": "Stainless steel",
+              "ref": "steel"
+            },
+            {
+              "name": "Composite materials",
+              "ref": "composite"
+            },
+            {
+              "name": "Liquid propellants (RP-1, LH2, LOX)",
+              "ref": "propellants"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 1110,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "Command Module"
+      },
+      "parts": [
+        {
+          "name": "Command Module",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Service Module",
+          "relative_to": "Command Module",
+          "position": {
+            "x": 0,
+            "y": -390,
+            "z": 0
+          }
+        },
+        {
+          "name": "Lunar Module",
+          "relative_to": "Command Module",
+          "position": {
+            "x": 400,
+            "y": -390,
+            "z": 0
+          }
+        },
+        {
+          "name": "Launch Escape System",
+          "relative_to": "Command Module",
+          "position": {
+            "x": 0,
+            "y": 350,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Saturn V rocket",
+      "Mission Control",
+      "Trained Astronauts",
+      "Guidance systems",
+      "Life support systems"
+    ],
+    "produces": [
+      "Lunar landing",
+      "Lunar samples",
+      "Advancement of space technology",
+      "Increased scientific knowledge of the Moon",
+      "Boost to national pride"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "preceded_by",
+        "target": "Apollo 10"
+      },
+      {
+        "relation": "followed_by",
+        "target": "Apollo 12"
+      },
+      {
+        "relation": "part_of",
+        "target": "Apollo program"
+      },
+      {
+        "relation": "launched_by",
+        "target": "Saturn V"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "event": "Launch",
+        "time": "July 16, 1969"
+      },
+      {
+        "event": "Lunar Landing",
+        "time": "July 20, 1969"
+      },
+      {
+        "event": "Lunar Ascent",
+        "time": "July 21, 1969"
+      },
+      {
+        "event": "Splashdown",
+        "time": "July 24, 1969"
+      }
+    ]
+  }
+}

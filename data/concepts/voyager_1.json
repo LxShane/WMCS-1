@@ -1,0 +1,175 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 739
+    },
+    "name": "Voyager 1",
+    "type": "artifact.spacecraft",
+    "definition": "An American unmanned spacecraft launched September 5, 1977, as part of the Voyager program to study the outer Solar System. It has exceeded the boundaries of the heliosphere and entered interstellar space."
+  },
+  "GROUNDING": {
+    "chain": [
+      "spacecraft",
+      "robotic probe",
+      "interstellar explorer"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "symbolic"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Data and images collected by Voyager 1, telemetry data, and scientific publications confirm its mission and location in interstellar space."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Technology",
+      "Space Exploration",
+      "Unmanned Spacecraft",
+      "Deep Space Probe"
+    ],
+    "siblings": [
+      "Voyager 2",
+      "Pioneer 10",
+      "Pioneer 11",
+      "New Horizons"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Aluminum",
+              "ref": "Al"
+            },
+            {
+              "name": "Titanium",
+              "ref": "Ti"
+            },
+            {
+              "name": "Copper",
+              "ref": "Cu"
+            },
+            {
+              "name": "Gold",
+              "ref": "Au"
+            },
+            {
+              "name": "Silicon",
+              "ref": "Si"
+            },
+            {
+              "name": "Plutonium-238",
+              "ref": "Pu-238"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 1740,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "main body"
+      },
+      "parts": [
+        {
+          "name": "High-Gain Antenna",
+          "relative_to": "main body",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 870
+          }
+        },
+        {
+          "name": "Radioisotope Thermoelectric Generator (RTG)",
+          "relative_to": "main body",
+          "position": {
+            "x": 500,
+            "y": 0,
+            "z": -200
+          }
+        },
+        {
+          "name": "Science Boom",
+          "relative_to": "main body",
+          "position": {
+            "x": -500,
+            "y": 0,
+            "z": -200
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Nuclear power source",
+      "Telemetry",
+      "Guidance system",
+      "Communication system"
+    ],
+    "produces": [
+      "Scientific data",
+      "Images of outer planets",
+      "Information about interstellar medium"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "sibling",
+        "target": "Voyager 2"
+      },
+      {
+        "relation": "predecessor",
+        "target": "Pioneer 10"
+      },
+      {
+        "relation": "successor",
+        "target": "New Horizons"
+      },
+      {
+        "relation": "part_of",
+        "target": "Voyager Program"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "event": "Launch",
+        "date": "1977-09-05"
+      },
+      {
+        "event": "Jupiter Encounter",
+        "date": "1979-03-05"
+      },
+      {
+        "event": "Saturn Encounter",
+        "date": "1980-11-12"
+      },
+      {
+        "event": "Heliosheath Entry",
+        "date": "2004-12-16"
+      },
+      {
+        "event": "Interstellar Space Entry",
+        "date": "2012-08-25"
+      }
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 723
+    },
+    "name": "Olympus Mons",
+    "type": "geological.mountain.volcano",
+    "definition": "Olympus Mons is a massive shield volcano on Mars, and the largest known volcano and highest known mountain in the Solar System. It is characterized by its immense size, gentle slopes, and complex caldera."
+  },
+  "GROUNDING": {
+    "chain": [
+      "Remote sensing data from Mars orbiters",
+      "Analysis of Martian meteorites",
+      "Geological models of volcanic activity"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "geological"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Multiple spacecraft missions, including Mars Global Surveyor, Mars Express, and Mars Reconnaissance Orbiter, have provided extensive imagery, topographic data, and spectral analyses. Martian meteorites provide clues about the composition of the Martian crust and mantle."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Planet: Mars",
+      "Geological Feature: Volcano",
+      "Type: Shield Volcano",
+      "Notable Feature: Largest volcano in the Solar System"
+    ],
+    "siblings": [
+      "Arsia Mons",
+      "Pavonis Mons",
+      "Ascraeus Mons"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Basaltic Rock",
+              "ref": "basalt"
+            },
+            {
+              "name": "Pyroclastic Material",
+              "ref": "pyroclastics"
+            },
+            {
+              "name": "Lava Flows",
+              "ref": "lava"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 62400000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "caldera"
+      },
+      "parts": [
+        {
+          "name": "summit caldera",
+          "relative_to": "center",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 2500000
+          }
+        },
+        {
+          "name": "western flank",
+          "relative_to": "center",
+          "position": {
+            "x": -31200000,
+            "y": 0,
+            "z": -1000000
+          }
+        },
+        {
+          "name": "eastern flank",
+          "relative_to": "center",
+          "position": {
+            "x": 31200000,
+            "y": 0,
+            "z": -1000000
+          }
+        },
+        {
+          "name": "northern flank",
+          "relative_to": "center",
+          "position": {
+            "x": 0,
+            "y": 31200000,
+            "z": -1000000
+          }
+        },
+        {
+          "name": "southern flank",
+          "relative_to": "center",
+          "position": {
+            "x": 0,
+            "y": -31200000,
+            "z": -1000000
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Mantle Plume",
+      "Volcanic Activity",
+      "Tectonic Stability"
+    ],
+    "produces": [
+      "Lava Flows",
+      "Pyroclastic Deposits",
+      "Caldera Formation"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "Located on",
+        "target": "Mars"
+      },
+      {
+        "relation": "Largest",
+        "target": "Volcano in the Solar System"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      "Formation: Hesperian Period (3.7-3.0 billion years ago)",
+      "Continued activity: Amazonian Period (3.0 billion years ago - present)",
+      "Present: Dormant volcano"
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 872
+    },
+    "name": "Vesta",
+    "type": "asteroid",
+    "definition": "Vesta is one of the largest objects in the asteroid belt, an inner Solar System body, and the second-most-massive asteroid."
+  },
+  "GROUNDING": {
+    "chain": [
+      "Solar System",
+      "Asteroid Belt",
+      "Asteroid"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "spectral"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Evidence includes telescopic observations, Hubble Space Telescope imagery, Dawn spacecraft mission data including imaging, spectral analysis, and gravity measurements."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Solar System Body",
+      "Asteroid Belt Object",
+      "Asteroid",
+      "Vesta"
+    ],
+    "siblings": [
+      "Ceres",
+      "Pallas",
+      "Hygieneia"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Basalt",
+              "ref": "mineral.basalt"
+            },
+            {
+              "name": "Olivine",
+              "ref": "mineral.olivine"
+            },
+            {
+              "name": "Pyroxene",
+              "ref": "mineral.pyroxene"
+            },
+            {
+              "name": "Iron-Nickel",
+              "ref": "metal.iron_nickel"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 525,
+          "unit": "km"
+        }
+      },
+      "center": {
+        "name": "core"
+      },
+      "parts": [
+        {
+          "name": "Rheasilvia basin",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 200,
+            "z": 0
+          }
+        },
+        {
+          "name": "Veneneia crater",
+          "relative_to": "core",
+          "position": {
+            "x": 100,
+            "y": -100,
+            "z": 50
+          }
+        },
+        {
+          "name": "equator",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "solar nebula",
+      "accretion"
+    ],
+    "produces": [
+      "impact craters",
+      "differentiated structure"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      "gravitational interaction with other asteroids",
+      "member of the asteroid belt"
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      "formation during early solar system",
+      "differentiation into core, mantle, crust",
+      "ongoing bombardment by micrometeorites"
+    ]
+  }
+}

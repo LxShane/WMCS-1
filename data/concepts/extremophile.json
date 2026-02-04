@@ -1,0 +1,149 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 87
+    },
+    "name": "Extremophile",
+    "type": "organism.microbe",
+    "definition": "An organism that thrives in extreme conditions that are detrimental to most life forms, such as high temperatures, extreme pH levels, or high salinity."
+  },
+  "GROUNDING": {
+    "chain": [
+      "observation of life in extreme environments",
+      "analysis of cellular adaptations",
+      "genetic sequencing"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "experimental"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Extremophiles are observed in diverse extreme habitats globally. Their unique adaptations, such as specialized enzymes and cell membrane structures, are well-documented. Genetic sequencing confirms unique adaptations enabling survival."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Life",
+      "Domain (Archaea, Bacteria, Eukarya)",
+      "Kingdom",
+      "Phylum",
+      "Class",
+      "Order",
+      "Family",
+      "Genus",
+      "Species"
+    ],
+    "siblings": [
+      "Thermophile",
+      "Acidophile",
+      "Alkaliphile",
+      "Halophile",
+      "Piezophile",
+      "Xerophile"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Water",
+              "ref": "H2O"
+            },
+            {
+              "name": "Proteins",
+              "ref": "Protein"
+            },
+            {
+              "name": "Lipids",
+              "ref": "Lipid"
+            },
+            {
+              "name": "Nucleic Acids",
+              "ref": "DNA/RNA"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 0.001,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "cytoplasm"
+      },
+      "parts": [
+        {
+          "name": "cell membrane",
+          "relative_to": "cytoplasm",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "ribosomes",
+          "relative_to": "cytoplasm",
+          "position": {
+            "x": 0.0001,
+            "y": 0.0001,
+            "z": 0.0001
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "specific environmental conditions (e.g., high temperature)",
+      "nutrients",
+      "water"
+    ],
+    "produces": [
+      "energy",
+      "biomass",
+      "waste products",
+      "adapted enzymes"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "symbiosis",
+        "target": "other extremophiles",
+        "description": "Some extremophiles form symbiotic relationships with other organisms in extreme environments."
+      },
+      {
+        "relation": "food source",
+        "target": "viruses",
+        "description": "Extremophiles are consumed by viruses specific to them."
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "growth",
+        "duration": "variable",
+        "description": "Replication through binary fission or other asexual reproduction methods."
+      },
+      {
+        "stage": "dormancy",
+        "duration": "variable",
+        "description": "Formation of spores or other resistant structures to survive unfavorable conditions."
+      }
+    ]
+  }
+}

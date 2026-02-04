@@ -1,0 +1,148 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 789
+    },
+    "name": "Valles Marineris",
+    "type": "geological.canyon",
+    "definition": "Valles Marineris is a vast canyon system on Mars that runs along the equator of the planet just east of the Tharsis region. It is one of the largest canyons in the Solar System, rivaling Earth's grand canyon in overall scale, but surpassing it greatly in length and width."
+  },
+  "GROUNDING": {
+    "chain": [
+      "remote sensing data",
+      "geological mapping",
+      "spectral analysis"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Evidence is based on extensive remote sensing data collected by various Mars orbiters including the Mars Reconnaissance Orbiter, Mars Express, and Mariner 9. Geological mapping using high-resolution imagery confirms the canyon's dimensions and morphology. Spectral analysis provides information about the composition of the canyon walls and floor."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "geological feature",
+      "canyon",
+      "chasma",
+      "planetary surface feature",
+      "Martian feature"
+    ],
+    "siblings": [
+      "Grand Canyon (Earth)",
+      "Ius Chasma",
+      "Melas Chasma",
+      "Coprates Chasma"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Basalt",
+              "ref": "Martian crust"
+            },
+            {
+              "name": "Sedimentary Rock",
+              "ref": "Layered deposits"
+            },
+            {
+              "name": "Volcanic Ash",
+              "ref": "Volcanic activity products"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 400000000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "canyon floor"
+      },
+      "parts": [
+        {
+          "name": "Ius Chasma",
+          "relative_to": "canyon floor",
+          "position": {
+            "x": 50000000,
+            "y": 0,
+            "z": 1000000
+          }
+        },
+        {
+          "name": "Melas Chasma",
+          "relative_to": "canyon floor",
+          "position": {
+            "x": 100000000,
+            "y": 0,
+            "z": 500000
+          }
+        },
+        {
+          "name": "Coprates Chasma",
+          "relative_to": "canyon floor",
+          "position": {
+            "x": 150000000,
+            "y": 0,
+            "z": 2000000
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Tectonic activity",
+      "Erosion",
+      "Volcanic activity"
+    ],
+    "produces": [
+      "Erosion features",
+      "Layered deposits",
+      "Landslides"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "Located on",
+        "target": "Mars"
+      },
+      {
+        "relation": "Adjacent to",
+        "target": "Tharsis region"
+      },
+      {
+        "relation": "Source of",
+        "target": "Outflow channels"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "event": "Formation",
+        "time": "Hesperian period (3.7 - 3.0 billion years ago)",
+        "process": "Tectonic activity and erosion"
+      },
+      {
+        "event": "Ongoing erosion",
+        "time": "Present",
+        "process": "Wind and potential fluvial processes"
+      }
+    ]
+  }
+}

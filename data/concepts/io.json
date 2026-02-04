@@ -1,0 +1,148 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 789
+    },
+    "name": "Io",
+    "type": "celestial.moon",
+    "definition": "Io is the innermost and third-largest of Jupiter's four Galilean moons. It is the most volcanically active world in the Solar System, with hundreds of volcanoes, some erupting plumes of sulfur and sulfur dioxide up to 500 km (310 mi) high."
+  },
+  "GROUNDING": {
+    "chain": [
+      "observation of spectral data",
+      "remote sensing via spacecraft"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Extensive data from Voyager, Galileo, and New Horizons missions, coupled with telescopic observations, provide high-resolution imagery, spectral analysis, and gravity field measurements confirming its volcanic activity and composition."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Solar System",
+      "Planet",
+      "Gas Giant",
+      "Moon",
+      "Galilean Moon",
+      "Volcanically Active Moon"
+    ],
+    "siblings": [
+      "Europa",
+      "Ganymede",
+      "Callisto"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Silicates",
+              "ref": "silicate minerals"
+            },
+            {
+              "name": "Sulfur",
+              "ref": "elemental sulfur"
+            },
+            {
+              "name": "Sulfur Dioxide",
+              "ref": "sulfur dioxide compound"
+            },
+            {
+              "name": "Iron",
+              "ref": "elemental iron"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 3643.2,
+          "unit": "km"
+        }
+      },
+      "center": {
+        "name": "core"
+      },
+      "parts": [
+        {
+          "name": "mantle",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "lithosphere",
+          "relative_to": "mantle",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "volcanoes",
+          "relative_to": "lithosphere",
+          "position": {
+            "x": 100,
+            "y": 50,
+            "z": 20
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "tidal heating from Jupiter's gravity",
+      "orbital resonance with Europa and Ganymede"
+    ],
+    "produces": [
+      "volcanic activity",
+      "sulfur-rich atmosphere",
+      "plasma torus around Jupiter"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "orbits",
+        "target": "Jupiter"
+      },
+      {
+        "relation": "tidal locked",
+        "target": "Jupiter"
+      },
+      {
+        "relation": "orbital resonance",
+        "target": "Europa and Ganymede"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "event": "formation",
+        "description": "Accretion from the protoplanetary disk around Jupiter."
+      },
+      {
+        "event": "ongoing volcanic activity",
+        "description": "Continuous resurfacing due to tidal heating."
+      }
+    ]
+  }
+}

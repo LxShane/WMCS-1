@@ -1,0 +1,131 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 187
+    },
+    "name": "Makemake",
+    "type": "celestial.dwarf_planet",
+    "definition": "Makemake is a dwarf planet and a large Kuiper belt object, approximately two-thirds the size of Pluto. It is one of the largest known trans-Neptunian objects and was discovered in 2005."
+  },
+  "GROUNDING": {
+    "chain": [
+      "observation",
+      "measurement",
+      "spectral analysis",
+      "orbital calculation"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Discovery images, spectroscopic data indicating surface composition (methane, ethane, nitrogen ices), and orbital parameters confirming its location in the Kuiper belt. Light curve data constrains its rotational period."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "celestial object",
+      "trans-Neptunian object",
+      "Kuiper belt object",
+      "dwarf planet",
+      "plutoid"
+    ],
+    "siblings": [
+      "Pluto",
+      "Eris",
+      "Haumea",
+      "Ceres"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Methane Ice",
+              "ref": "methane"
+            },
+            {
+              "name": "Ethane Ice",
+              "ref": "ethane"
+            },
+            {
+              "name": "Nitrogen Ice",
+              "ref": "nitrogen"
+            },
+            {
+              "name": "Tholins",
+              "ref": "tholins"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "oblate spheroid",
+        "size": {
+          "value": 143000000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "core"
+      },
+      "parts": [
+        {
+          "name": "surface",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 71500000
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "gravitational accretion",
+      "Kuiper belt environment"
+    ],
+    "produces": [
+      "orbital resonance with Neptune",
+      "potential atmospheric collapse during furthest point from the sun"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "orbital resonance",
+        "target": "Neptune"
+      },
+      {
+        "relation": "parent body",
+        "target": "Solar System"
+      },
+      {
+        "relation": "satellite",
+        "target": "S/2015 (136472) 1"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "event": "formation",
+        "timeframe": "Early Solar System"
+      },
+      {
+        "event": "orbital evolution",
+        "timeframe": "Ongoing"
+      }
+    ]
+  }
+}

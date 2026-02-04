@@ -1,0 +1,140 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 723
+    },
+    "name": "Rhea",
+    "type": "organism.animal.bird",
+    "definition": "A large, flightless South American bird of the genus Rhea, closely related to the ostrich and emu."
+  },
+  "GROUNDING": {
+    "chain": [
+      "Observation of physical characteristics",
+      "Taxonomic classification based on anatomical and genetic data"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "taxonomic"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Extensive anatomical studies, DNA sequencing, and ecological observations confirm the distinct characteristics and evolutionary relationships of the Rhea."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Life",
+      "Eukaryota",
+      "Animalia",
+      "Chordata",
+      "Aves",
+      "Rheiformes",
+      "Rheidae",
+      "Rhea"
+    ],
+    "siblings": [
+      "Ostrich",
+      "Emu",
+      "Cassowary",
+      "Kiwi"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Water",
+              "ref": "H2O"
+            },
+            {
+              "name": "Protein",
+              "ref": "Protein"
+            },
+            {
+              "name": "Lipid",
+              "ref": "Lipid"
+            },
+            {
+              "name": "Bone",
+              "ref": "Bone"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 140,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "core"
+      },
+      "parts": [
+        {
+          "name": "head",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 60,
+            "z": 0
+          }
+        },
+        {
+          "name": "leg",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": -70,
+            "z": 0
+          }
+        },
+        {
+          "name": "wing",
+          "relative_to": "core",
+          "position": {
+            "x": 30,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Food",
+      "Water",
+      "Habitat"
+    ],
+    "produces": [
+      "Offspring",
+      "Waste",
+      "Ecological Impact"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      "Prey for predators (e.g., puma, jaguar)",
+      "Competitor with other herbivores",
+      "Disperser of seeds"
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      "Egg",
+      "Chick",
+      "Juvenile",
+      "Adult"
+    ]
+  }
+}

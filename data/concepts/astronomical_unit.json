@@ -1,0 +1,112 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 673
+    },
+    "name": "Astronomical Unit",
+    "type": "measurement.distance",
+    "definition": "A unit of length, roughly the distance between Earth and the Sun, and equal to 149,597,870,700 meters."
+  },
+  "GROUNDING": {
+    "chain": [
+      "Earth's orbit",
+      "Sun's gravitational influence",
+      "Measurement standard"
+    ],
+    "base_types": [
+      "measurement",
+      "physical"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Defined by the International Astronomical Union (IAU) based on radar measurements and Kepler's laws of planetary motion. Consistent with gravitational models of the solar system."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Unit of distance",
+      "Astronomical measurement",
+      "SI derived unit"
+    ],
+    "siblings": [
+      "Light-year",
+      "Parsec",
+      "Kilometer",
+      "Mile"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Distance",
+              "ref": "Distance between Earth and Sun"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 14959787070000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "Sun"
+      },
+      "parts": [
+        {
+          "name": "Earth",
+          "relative_to": "Sun",
+          "position": {
+            "x": 14959787070000,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Defining Earth's orbital radius",
+      "Standard unit of measurement"
+    ],
+    "produces": [
+      "Facilitates calculations of distances within the solar system",
+      "Standardizes astronomical measurements"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "Used in Kepler's Laws",
+        "target": "Planetary Motion"
+      },
+      {
+        "relation": "Related to gravitational constant",
+        "target": "Newton's Law of Universal Gravitation"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "event": "Defined",
+        "time": "Historically evolved, formalized by IAU in 2012"
+      },
+      {
+        "event": "Maintained",
+        "time": "Continuously refined by astronomical observations"
+      }
+    ]
+  }
+}

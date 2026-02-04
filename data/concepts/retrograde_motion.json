@@ -1,0 +1,138 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 102
+    },
+    "name": "Retrograde Motion",
+    "type": "astronomical phenomenon",
+    "definition": "The apparent motion of a planet in a direction opposite to that of other bodies within its system, as observed from a particular vantage point. In the Solar System, this is typically observed from Earth and refers to the apparent westward motion of a planet against the background stars."
+  },
+  "GROUNDING": {
+    "chain": [
+      "Observation of planetary movement",
+      "Establishment of heliocentric model",
+      "Understanding of relative motion"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "mathematical"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Extensive astronomical observations over centuries, precise measurements of planetary positions, and the development of accurate mathematical models (e.g., Kepler's laws) provide strong evidence for retrograde motion. The understanding of relative motion within a heliocentric framework explains the apparent reversal in a planet's path."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Astronomy",
+      "Celestial Mechanics",
+      "Planetary Motion",
+      "Apparent Motion"
+    ],
+    "siblings": [
+      "Prograde Motion",
+      "Orbital Resonance",
+      "Opposition"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Planets",
+              "ref": "planet"
+            },
+            {
+              "name": "Stars",
+              "ref": "star"
+            },
+            {
+              "name": "Observer's Position",
+              "ref": "observer"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "N/A (relational)",
+        "size": {
+          "value": 1000000000000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "Sun"
+      },
+      "parts": [
+        {
+          "name": "Planet",
+          "relative_to": "Sun",
+          "position": {
+            "x": 14960000000,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Earth",
+          "relative_to": "Sun",
+          "position": {
+            "x": 10000000000,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Orbital speeds",
+      "Relative positions of celestial bodies"
+    ],
+    "produces": [
+      "Apparent change in direction of planetary motion",
+      "Misinterpretation without heliocentric model"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "causes",
+        "target": "Apparent Motion"
+      },
+      {
+        "relation": "explained_by",
+        "target": "Heliocentric Model"
+      },
+      {
+        "relation": "related_to",
+        "target": "Orbital Period"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "phase": "Start",
+        "event": "Planets align in specific configurations."
+      },
+      {
+        "phase": "Retrograde",
+        "event": "Planet appears to move westward against background stars."
+      },
+      {
+        "phase": "End",
+        "event": "Planet resumes eastward (prograde) motion."
+      }
+    ]
+  }
+}

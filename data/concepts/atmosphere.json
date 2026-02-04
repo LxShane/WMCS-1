@@ -1,332 +1,143 @@
 {
-  "name": "Atmosphere",
-  "type": "INANIMATE_OBJECT",
-  "id": {
-    "group": 20,
-    "item": 1002
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 789
+    },
+    "name": "Atmosphere",
+    "type": "environment.planetary",
+    "definition": "The envelope of gases surrounding a planet or other celestial body, held in place by gravity."
   },
-  "claims": [
-    {
-      "predicate": "IS_A",
-      "object": "Earth's Sphere (20, 2345)",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 1.0,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "DEFINED_AS",
-      "object": "The superhighway in the sky that moves water everywhere over the Earth",
-      "temporal": {
-        "valid_from": null,
-        "valid_until": null,
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "DEFINED_AS",
-      "object": "Planet's gaseous envelope",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "INTERACTS_WITH",
-      "object": "Lithosphere",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.95,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "EXCHANGES",
-      "object": "Energy (50, 1005)",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "EXCHANGES",
-      "object": "Matter (20, 4567)",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "PARTICIPATES_IN",
-      "object": "Carbon Cycle (50, 1234)",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "HAS_PART",
-      "object": "Carbon (20, 5678)",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.85,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "DEFINED_AS",
-      "object": "Layer of gases surrounding a planet",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "CAPABLE_OF",
-      "object": "Interacting with the hydrosphere",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IS_A",
-      "object": "Part of Earth's climate system",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "DEFINED_AS",
-      "object": "A mixture of gases",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "USED_FOR",
-      "object": "Providing air",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "USED_FOR",
-      "object": "Regulating the planet's temperature",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "INTERACTS_WITH",
-      "object": "Biosphere (20, 9012)",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "CONTAINS",
-      "object": "Oxygen (20, 1002)",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "CONTAINS",
-      "object": "Nitrogen (20, 1007)",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "CONTAINS",
-      "object": "Water vapor (20, 1237)",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "CONTAINS",
-      "object": "Carbon dioxide (20, 1008)",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "CONTAINS",
-      "object": "Trace gases",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "RELATED_TO",
-      "object": "planet (20, 1010)",
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "AUTO_GENERATED",
-        "source_type": "RELATION_BUILDER"
-      }
-    }
-  ],
-  "surface_layer": {
-    "definition": "The atmosphere is a mixture of gases surrounding a planet.",
-    "common_uses": []
+  "GROUNDING": {
+    "chain": [
+      "observation of air",
+      "measurement of gas composition"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "theoretical"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Atmospheric composition is directly measurable through spectroscopic analysis and in-situ sampling. Existence is perceptually obvious, and theoretical models accurately predict atmospheric behavior."
   },
-  "deep_layer": {
-    "mechanism": "The atmosphere is composed of various gases which influence temperature.",
-    "origin": "Formed from planetary outgassing."
-  },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "SPATIAL": {
-      "location": "Surrounding",
-      "connected_to": [
-        "Earth's surface",
-        "Troposphere",
-        "Stratosphere",
-        "Mesosphere",
-        "Thermosphere",
-        "Exosphere"
-      ],
-      "coordinates": []
-    }
-  },
-  "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://biologyinsights.com/how-does-the-biosphere-interact-with-the-atmosphere/",
-      "https://www.britannica.com/science/climate-meteorology/The-cycling-of-biogenic-atmospheric-gases"
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Planet",
+      "Environment",
+      "Gas Envelope"
+    ],
+    "siblings": [
+      "Stratosphere",
+      "Troposphere",
+      "Exosphere",
+      "Magnetosphere"
     ]
   },
-  "autocorrected": true
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Nitrogen",
+              "ref": "N2"
+            },
+            {
+              "name": "Oxygen",
+              "ref": "O2"
+            },
+            {
+              "name": "Argon",
+              "ref": "Ar"
+            }
+          ]
+        },
+        {
+          "depth": 1,
+          "name": "Trace",
+          "components": [
+            {
+              "name": "Carbon Dioxide",
+              "ref": "CO2"
+            },
+            {
+              "name": "Water Vapor",
+              "ref": "H2O"
+            },
+            {
+              "name": "Methane",
+              "ref": "CH4"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "sphere",
+        "size": {
+          "value": 1274200000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "planet_surface"
+      },
+      "parts": [
+        {
+          "name": "Troposphere",
+          "relative_to": "planet_surface",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 1200000
+          }
+        },
+        {
+          "name": "Stratosphere",
+          "relative_to": "planet_surface",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 5000000
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Gravity",
+      "Gaseous molecules"
+    ],
+    "produces": [
+      "Weather",
+      "Climate",
+      "Protection from radiation"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "type": "supports",
+        "target": "Life"
+      },
+      {
+        "type": "influences",
+        "target": "Temperature"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      "Formation",
+      "Evolution",
+      "Potential dissipation"
+    ]
+  }
 }

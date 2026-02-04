@@ -1,0 +1,170 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 789
+    },
+    "name": "Milky Way",
+    "type": "galaxy",
+    "definition": "The Milky Way is the galaxy that contains our Solar System, with the name describing the galaxy's appearance from Earth: a hazy band of light seen in the night sky formed from stars that cannot be individually distinguished by the naked eye."
+  },
+  "GROUNDING": {
+    "chain": [
+      "observation",
+      "astronomy",
+      "cosmology"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Extensive astronomical observations, including telescopic data, spectral analysis, and mapping of stellar distributions, support the current understanding of the Milky Way's structure and composition. Cosmological models further refine our understanding of its formation and evolution."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "astronomical object",
+      "galaxy",
+      "spiral galaxy",
+      "barred spiral galaxy"
+    ],
+    "siblings": [
+      "Andromeda Galaxy",
+      "Triangulum Galaxy",
+      "Large Magellanic Cloud",
+      "Small Magellanic Cloud"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Stars",
+              "ref": "star"
+            },
+            {
+              "name": "Gas (Hydrogen, Helium)",
+              "ref": "hydrogen"
+            },
+            {
+              "name": "Dust",
+              "ref": "cosmic dust"
+            },
+            {
+              "name": "Dark Matter",
+              "ref": "dark matter"
+            },
+            {
+              "name": "Plasma",
+              "ref": "plasma"
+            },
+            {
+              "name": "Supermassive Black Hole",
+              "ref": "black hole"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "spiral",
+        "size": {
+          "value": 1.5e+23,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "supermassive black hole (Sagittarius A*)"
+      },
+      "parts": [
+        {
+          "name": "Galactic Bulge",
+          "relative_to": "supermassive black hole (Sagittarius A*)",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Galactic Disk",
+          "relative_to": "supermassive black hole (Sagittarius A*)",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Spiral Arms",
+          "relative_to": "Galactic Disk",
+          "position": {
+            "x": 1e+23,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Galactic Halo",
+          "relative_to": "supermassive black hole (Sagittarius A*)",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 1e+23
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "gravitational interactions",
+      "initial density fluctuations in the early universe"
+    ],
+    "produces": [
+      "star formation",
+      "galactic rotation",
+      "gravitational lensing",
+      "heavy element synthesis"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "gravitationally bound to",
+        "target": "Local Group"
+      },
+      {
+        "relation": "contains",
+        "target": "Solar System"
+      },
+      {
+        "relation": "interacts with",
+        "target": "Magellanic Clouds"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "formation",
+        "duration": "billions of years"
+      },
+      {
+        "stage": "star formation era",
+        "duration": "billions of years"
+      },
+      {
+        "stage": "ongoing evolution",
+        "duration": "indefinite"
+      }
+    ]
+  }
+}

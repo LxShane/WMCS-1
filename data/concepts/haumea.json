@@ -1,0 +1,151 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 789
+    },
+    "name": "Haumea",
+    "type": "celestial.dwarf_planet",
+    "definition": "Haumea is a dwarf planet and the fastest-spinning known large object in the Solar System. It is located in the Kuiper belt and has a highly elongated shape."
+  },
+  "GROUNDING": {
+    "chain": [
+      "observation",
+      "measurement",
+      "modeling"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "mathematical"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Based on telescopic observations, spectral analysis, light curve variations, and orbital data. Confirmed by multiple independent research teams."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "celestial object",
+      "Kuiper belt object",
+      "dwarf planet",
+      "plutoid"
+    ],
+    "siblings": [
+      "Pluto",
+      "Eris",
+      "Makemake",
+      "Ceres"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Rock",
+              "ref": "silicates"
+            },
+            {
+              "name": "Ice",
+              "ref": "water_ice"
+            }
+          ]
+        },
+        {
+          "depth": 1,
+          "name": "Minor",
+          "components": [
+            {
+              "name": "Organic compounds",
+              "ref": "hydrocarbons"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "triaxial ellipsoid",
+        "size": {
+          "value": 192000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "core"
+      },
+      "parts": [
+        {
+          "name": "Surface",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Hi'iaka (moon)",
+          "relative_to": "Haumea",
+          "position": {
+            "x": 495000000,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Namaka (moon)",
+          "relative_to": "Haumea",
+          "position": {
+            "x": -393000000,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "gravitational_accretion",
+      "planetary_differentiation"
+    ],
+    "produces": [
+      "ellipsoidal_shape",
+      "rapid_rotation",
+      "satellite_formation"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "orbits",
+        "target": "Sun"
+      },
+      {
+        "relation": "has_moon",
+        "target": "Hi'iaka"
+      },
+      {
+        "relation": "has_moon",
+        "target": "Namaka"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "formation",
+        "time": "4.5 billion years ago"
+      },
+      {
+        "stage": "current",
+        "time": "present"
+      }
+    ]
+  }
+}

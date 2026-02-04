@@ -1,38 +1,148 @@
 {
-  "name": "Ozone layer",
-  "type": "INANIMATE_OBJECT",
-  "id": {
-    "group": 38,
-    "item": 1011
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 672
+    },
+    "name": "Ozone Layer",
+    "type": "atmospheric phenomenon",
+    "definition": "A region of Earth's stratosphere that absorbs most of the Sun's ultraviolet (UV) radiation."
   },
-  "claims": [
-    {
-      "predicate": "PROTECTS_FROM",
-      "object": "Harmful high-energy ultraviolet (UV) radiation",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
+  "GROUNDING": {
+    "chain": [
+      "Solar radiation",
+      "Ozone molecule formation and destruction",
+      "UV absorption",
+      "Stratospheric temperature"
+    ],
+    "base_types": [
+      "measurement",
+      "spectral analysis",
+      "chemical reaction"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Measurements of ozone concentration and UV radiation levels in the stratosphere, coupled with photochemical models, confirm the ozone layer's role in absorbing UV radiation."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Atmosphere",
+      "Stratosphere",
+      "Protective Layer"
+    ],
+    "siblings": [
+      "Troposphere",
+      "Mesosphere",
+      "Ionosphere"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Ozone (O3)",
+              "ref": "O3"
+            },
+            {
+              "name": "Oxygen (O2)",
+              "ref": "O2"
+            },
+            {
+              "name": "Nitrogen (N2)",
+              "ref": "N2"
+            }
+          ]
+        },
+        {
+          "depth": 1,
+          "name": "Minor",
+          "components": [
+            {
+              "name": "Nitrogen Oxides (NOx)",
+              "ref": "NOx"
+            },
+            {
+              "name": "Chlorofluorocarbons (CFCs)",
+              "ref": "CFCs"
+            },
+            {
+              "name": "Water Vapor (H2O)",
+              "ref": "H2O"
+            }
+          ]
+        }
+      ]
     }
-  ],
-  "surface_layer": {
-    "definition": "A region of Earth's stratosphere that absorbs most of the Sun's ultraviolet (UV) radiation.",
-    "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": "Absorbs UV radiation through chemical reactions.",
-    "origin": "Formed through photochemical reactions involving oxygen."
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "sphere",
+        "size": {
+          "value": 2000000000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "Earth's Core"
+      },
+      "parts": [
+        {
+          "name": "Ozone Maximum",
+          "relative_to": "Earth's Core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
   },
-  "instance_layer": [],
-  "facets": {},
-  "epistemic_metadata": {
-    "source": "Photosynthesis - Understanding Global Change",
-    "citations": []
+  "CAUSATION": {
+    "requires": [
+      "Solar UV radiation",
+      "Oxygen molecules"
+    ],
+    "produces": [
+      "Absorption of UV radiation",
+      "Stratospheric heating",
+      "Ozone-oxygen cycle"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "Protects",
+        "target": "Life on Earth"
+      },
+      {
+        "relation": "Affected by",
+        "target": "Chlorofluorocarbons (CFCs)"
+      },
+      {
+        "relation": "Located in",
+        "target": "Stratosphere"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "Formation",
+        "description": "Ozone is continuously formed through photochemical reactions."
+      },
+      {
+        "stage": "Destruction",
+        "description": "Ozone is continuously destroyed through photochemical reactions and reactions with trace gases."
+      },
+      {
+        "stage": "Dynamic Equilibrium",
+        "description": "Ozone concentration maintains a dynamic equilibrium due to balanced formation and destruction rates."
+      }
+    ]
   }
 }

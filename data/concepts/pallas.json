@@ -1,0 +1,117 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 789
+    },
+    "name": "Pallas",
+    "type": "asteroid",
+    "definition": "Pallas is a large asteroid in the asteroid belt. It is the second asteroid discovered (after Ceres) and is one of the largest asteroids in the Solar System. It is classified as a B-type asteroid, meaning it has a relatively high carbon content."
+  },
+  "GROUNDING": {
+    "chain": [
+      "observation",
+      "spectroscopy",
+      "orbital mechanics"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Pallas's existence is grounded in telescopic observation since its discovery. Its size and orbit are well-determined through astrometry and orbital mechanics. Spectroscopic data reveals its composition."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Solar System Object",
+      "Asteroid",
+      "Main Belt Asteroid",
+      "B-type Asteroid"
+    ],
+    "siblings": [
+      "Ceres",
+      "Vesta",
+      "Hygiea"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Carbonaceous Material",
+              "ref": "carbonaceous_material"
+            },
+            {
+              "name": "Silicates",
+              "ref": "silicates"
+            },
+            {
+              "name": "Water Ice",
+              "ref": "water_ice"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 544,
+          "unit": "km"
+        }
+      },
+      "center": {
+        "name": "geometric center"
+      },
+      "parts": [
+        {
+          "name": "crater",
+          "relative_to": "geometric center",
+          "position": {
+            "x": 100,
+            "y": 50,
+            "z": -75
+          }
+        },
+        {
+          "name": "feature",
+          "relative_to": "geometric center",
+          "position": {
+            "x": -80,
+            "y": -30,
+            "z": 60
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "solar nebula",
+      "accretion"
+    ],
+    "produces": [
+      "gravitational influence on other asteroids"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      "dynamically linked to other main belt asteroids through orbital resonances",
+      "potential target for future asteroid mining missions"
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      "formed during the early Solar System",
+      "underwent differentiation or partial differentiation",
+      "orbit has evolved over billions of years"
+    ]
+  }
+}

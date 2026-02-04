@@ -1,0 +1,148 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 742
+    },
+    "name": "Iapetus",
+    "type": "celestial.satellite",
+    "definition": "Iapetus is the third-largest natural satellite of Saturn, notable for its dramatic contrasts in albedo between its leading hemisphere (dark) and trailing hemisphere (bright)."
+  },
+  "GROUNDING": {
+    "chain": [
+      "observation",
+      "measurement",
+      "modeling"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Based on telescopic observations, spacecraft imagery (Cassini mission), and spectral analysis of surface composition and albedo variations."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "celestial body",
+      "satellite",
+      "moon",
+      "saturnian moon"
+    ],
+    "siblings": [
+      "Titan",
+      "Rhea",
+      "Dione",
+      "Tethys",
+      "Enceladus",
+      "Mimas",
+      "Hyperion",
+      "Phoebe"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Water Ice",
+              "ref": "H2O"
+            },
+            {
+              "name": "Silicates",
+              "ref": "SiO2"
+            },
+            {
+              "name": "Organic Compounds",
+              "ref": "CnHm"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "oblate spheroid",
+        "size": {
+          "value": 147000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "core"
+      },
+      "parts": [
+        {
+          "name": "Equatorial Ridge",
+          "relative_to": "center",
+          "position": {
+            "x": 0,
+            "y": 73500,
+            "z": 0
+          }
+        },
+        {
+          "name": "Dark Leading Hemisphere",
+          "relative_to": "center",
+          "position": {
+            "x": 73500,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Bright Trailing Hemisphere",
+          "relative_to": "center",
+          "position": {
+            "x": -73500,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [],
+    "produces": [
+      "tidal locking",
+      "albedo asymmetry"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "orbits",
+        "target": "Saturn"
+      },
+      {
+        "relation": "experiences",
+        "target": "tidal forces"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "Formation",
+        "description": "Accretion from Saturn's protoplanetary disk."
+      },
+      {
+        "stage": "Differentiation",
+        "description": "Separation of core and mantle."
+      },
+      {
+        "stage": "Bombardment",
+        "description": "Heavy cratering from early solar system impacts."
+      },
+      {
+        "stage": "Ongoing",
+        "description": "Slow geological processes and space weathering."
+      }
+    ]
+  }
+}

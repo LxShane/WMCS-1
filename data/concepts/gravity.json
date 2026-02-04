@@ -1,351 +1,111 @@
 {
-  "name": "Gravity",
-  "type": "ABSTRACT_CONCEPT",
-  "id": {
-    "group": 50,
-    "item": 1002
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 723
+    },
+    "name": "Gravity",
+    "type": "physical_phenomenon",
+    "definition": "The force of attraction between objects with mass or energy, causing them to accelerate towards each other. It is one of the four fundamental forces of nature."
   },
-  "claims": [
-    {
-      "predicate": "PREVENTS",
-      "object": "Upward movement",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IS_A",
-      "object": "Physical Law",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 1.0,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "PLAYS_ROLE",
-      "object": "Shaping ecosystems",
-      "temporal": {
-        "valid_from": null,
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "WEB"
-      }
-    },
-    {
-      "predicate": "CAUSES",
-      "object": "Influencing the distribution of matter",
-      "temporal": {
-        "valid_from": null,
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "WEB"
-      }
-    },
-    {
-      "predicate": "CAUSES",
-      "object": "Influencing energy flow",
-      "temporal": {
-        "valid_from": null,
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "WEB"
-      }
-    },
-    {
-      "predicate": "IS_A",
-      "object": "Fundamental Interaction",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 1.0,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "PRODUCES",
-      "object": "long-range forces",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 1.0,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "CAUSES",
-      "object": "curvature of spacetime",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 1.0,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IS_DESCRIBED_BY",
-      "object": "Einstein's general theory of relativity",
-      "temporal": {
-        "valid_from": "1915",
-        "valid_until": "PRESENT",
-        "event": "Publication of General Relativity"
-      },
-      "epistemic": {
-        "confidence": 1.0,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IS_DOMINANT_FORCE_OVER",
-      "object": "astronomical distances",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 1.0,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IS_RESPONSIBLE_FOR",
-      "object": "holding together the large scale structure in the universe, such as planets, stars, and galaxies",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 1.0,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "CAUSES",
-      "object": "Formation of galaxies and clusters",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "DEFINED_AS",
-      "object": "Primary driver for the large-scale structures in the universe",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "DEFINED_AS",
-      "object": "gravitational force acting on mass",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "CAUSES",
-      "object": "weight of body",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "INFLUENCES",
-      "object": "human movement patterns",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "INFLUENCES",
-      "object": "biomechanics",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "DEFINED_AS",
-      "object": "Gravitational force",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "CAUSES",
-      "object": "Weight",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IS_A",
-      "object": "Acceleration",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IS_A",
-      "object": "Fundamental force of nature",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 1.0,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "RELATED_TO",
-      "object": "Quantum Mechanics",
-      "temporal": {
-        "valid_from": "2025",
-        "valid_until": "PRESENT",
-        "event": "Publication of review"
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "HYPOTHETICAL",
-        "source_type": "ACADEMIC"
-      }
-    }
-  ],
-  "surface_layer": {
-    "definition": "The force that attracts a body towards the center of the earth, or towards any other physical body having mass.",
-    "common_uses": [
-      "Explaining planetary orbits",
-      "Understanding the formation of stars"
+  "GROUNDING": {
+    "chain": [
+      "Observation of falling objects",
+      "Newton's Law of Universal Gravitation",
+      "Einstein's Theory of General Relativity",
+      "Experimental verification of gravitational effects (e.g., gravitational lensing, gravitational waves)"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "theoretical"
+    ],
+    "confidence": 0.9999,
+    "evidence_summary": "Extensive experimental and observational evidence supports the existence and behavior of gravity, ranging from everyday experiences of falling objects to precise measurements of gravitational effects in astrophysics and cosmology. General Relativity is widely accepted as the most accurate current model."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Physics",
+      "Fundamental Force",
+      "Gravity"
+    ],
+    "siblings": [
+      "Electromagnetism",
+      "Strong Nuclear Force",
+      "Weak Nuclear Force"
     ]
   },
-  "deep_layer": {
-    "mechanism": "Described by general relativity as the curvature of spacetime.",
-    "origin": "Observed since ancient times; theorized by Newton and Einstein."
-  },
-  "instance_layer": {
-    "examples": [
-      "Earth's gravity",
-      "Black hole gravity"
-    ]
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Holding celestial bodies together",
-        "Influencing motion of objects"
-      ],
-      "capabilities": [
-        "Attracting objects with mass",
-        "Bending light"
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Spacetime Curvature",
+              "ref": "General Relativity"
+            }
+          ]
+        }
       ]
     }
   },
-  "epistemic_metadata": {
-    "source": "https://link.aps.org/doi/10.1103/RevModPhys.97.015003",
-    "citations": []
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "N/A",
+        "size": {
+          "value": 0,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "center_of_mass"
+      },
+      "parts": [
+        {
+          "name": "N/A",
+          "relative_to": "center_of_mass",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Mass or Energy"
+    ],
+    "produces": [
+      "Acceleration of objects",
+      "Orbital motion",
+      "Tidal forces",
+      "Spacetime Curvature"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "Inverse Square Law",
+        "target": "Distance"
+      },
+      {
+        "relation": "Proportional",
+        "target": "Mass"
+      },
+      {
+        "relation": "Manifestation",
+        "target": "Spacetime Curvature"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      "Present since the Big Bang"
+    ]
   }
 }

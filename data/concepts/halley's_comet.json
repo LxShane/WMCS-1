@@ -1,0 +1,174 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 723
+    },
+    "name": "Halley's Comet",
+    "type": "celestial.comet",
+    "definition": "A periodic comet visible from Earth approximately every 75-76 years. It is one of the brightest and best-known periodic comets."
+  },
+  "GROUNDING": {
+    "chain": [
+      "Observation of comet's trajectory and orbital period",
+      "Spectroscopic analysis of coma and tail composition",
+      "Mathematical modeling of orbit and future appearances"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "mathematical"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Extensive observational data from multiple apparitions (including 1910 and 1986), spectroscopic analysis confirming composition, and well-established orbital calculations."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Celestial Object",
+      "Comet",
+      "Periodic Comet",
+      "Halley-type Comet"
+    ],
+    "siblings": [
+      "Encke's Comet",
+      "Comet Hale-Bopp",
+      "Comet Hyakutake"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Water Ice",
+              "ref": "H2O"
+            },
+            {
+              "name": "Dust",
+              "ref": "Various Silicates and Carbonaceous materials"
+            },
+            {
+              "name": "Carbon Monoxide",
+              "ref": "CO"
+            },
+            {
+              "name": "Carbon Dioxide",
+              "ref": "CO2"
+            }
+          ]
+        },
+        {
+          "depth": 1,
+          "name": "Minor",
+          "components": [
+            {
+              "name": "Methane",
+              "ref": "CH4"
+            },
+            {
+              "name": "Ammonia",
+              "ref": "NH3"
+            },
+            {
+              "name": "Formaldehyde",
+              "ref": "CH2O"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 1500000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "nucleus"
+      },
+      "parts": [
+        {
+          "name": "coma",
+          "relative_to": "nucleus",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "ion tail",
+          "relative_to": "nucleus",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": -50000000
+          }
+        },
+        {
+          "name": "dust tail",
+          "relative_to": "nucleus",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": -30000000
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Gravitational influence of the Sun",
+      "Presence of volatile substances (ices)"
+    ],
+    "produces": [
+      "Coma formation due to sublimation",
+      "Tail formation due to solar wind and radiation pressure",
+      "Meteor showers (e.g., Orionids, Eta Aquariids)"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "Orbital Relationship",
+        "target": "Sun"
+      },
+      {
+        "relation": "Meteor Shower Source",
+        "target": "Orionids Meteor Shower"
+      },
+      {
+        "relation": "Meteor Shower Source",
+        "target": "Eta Aquariids Meteor Shower"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "Inner Solar System Approach",
+        "description": "Comet approaches the Sun, ices begin to sublimate."
+      },
+      {
+        "stage": "Perihelion Passage",
+        "description": "Comet reaches its closest point to the Sun."
+      },
+      {
+        "stage": "Outer Solar System Retreat",
+        "description": "Comet moves away from the Sun, activity decreases."
+      },
+      {
+        "stage": "Apohelion",
+        "description": "Comet reaches its farthest point from the Sun, minimal activity."
+      }
+    ]
+  }
+}

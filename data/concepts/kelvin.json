@@ -1,40 +1,117 @@
 {
-  "name": "Kelvin",
-  "type": "MATHEMATICAL_OBJECT",
-  "id": {
-    "group": 40,
-    "item": 1003
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 723
+    },
+    "name": "Kelvin",
+    "type": "measurement.temperature",
+    "definition": "The Kelvin (K) is the base unit of temperature in the International System of Units (SI). It is defined by taking the fixed numerical value of the Boltzmann constant k to be 1.380649 \u00d7 10\u221223 J K\u22121. One Kelvin is equal in magnitude to one degree Celsius."
   },
-  "claims": [
-    {
-      "predicate": "USED_FOR",
-      "object": "Measure plasma temperature",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
+  "GROUNDING": {
+    "chain": [
+      "thermodynamics",
+      "statistical mechanics"
+    ],
+    "base_types": [
+      "measurement",
+      "physical quantity"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "The Kelvin scale is based on thermodynamic principles and statistical mechanics, defining temperature relative to absolute zero. Experimental measurements and theoretical calculations consistently validate its accuracy and utility."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Physical Science",
+      "Thermodynamics",
+      "Temperature Scale",
+      "Absolute Temperature"
+    ],
+    "siblings": [
+      "Celsius",
+      "Fahrenheit",
+      "Rankine"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Conceptual",
+          "components": [
+            {
+              "name": "Energy",
+              "ref": "joule"
+            }
+          ]
+        }
+      ]
     }
-  ],
-  "surface_layer": {
-    "definition": "Unit of temperature.",
-    "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": null,
-    "origin": null
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "abstract",
+        "size": {
+          "value": 1,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "origin"
+      },
+      "parts": [
+        {
+          "name": "magnitude",
+          "relative_to": "origin",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
   },
-  "instance_layer": {
-    "examples": []
+  "CAUSATION": {
+    "requires": [
+      "energy transfer",
+      "statistical equilibrium"
+    ],
+    "produces": [
+      "heat flow",
+      "phase transitions"
+    ]
   },
-  "facets": {},
-  "epistemic_metadata": {
-    "source": "https://en.wikipedia.org/wiki/Plasma_(physics)",
-    "citations": []
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "is_unit_of",
+        "target": "temperature"
+      },
+      {
+        "relation": "related_to",
+        "target": "entropy"
+      },
+      {
+        "relation": "related_to",
+        "target": "boltzmann_constant"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "event": "establishment",
+        "time": "1848",
+        "description": "Proposed by William Thomson, 1st Baron Kelvin."
+      },
+      {
+        "event": "redefinition",
+        "time": "2019",
+        "description": "Redefined based on the Boltzmann constant."
+      }
+    ]
   }
 }

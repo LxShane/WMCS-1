@@ -1,0 +1,198 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 872
+    },
+    "name": "Drake Equation",
+    "type": "model.mathematical",
+    "definition": "A probabilistic argument used to estimate the number of active, communicative extraterrestrial civilizations in the Milky Way galaxy."
+  },
+  "GROUNDING": {
+    "chain": [
+      "astronomy",
+      "statistics",
+      "probability",
+      "exobiology"
+    ],
+    "base_types": [
+      "mathematical",
+      "estimation"
+    ],
+    "confidence": 0.75,
+    "evidence_summary": "The Drake Equation is based on a series of factors, some of which are well-constrained by observational data (e.g., the rate of star formation), while others are highly speculative (e.g., the fraction of planets that develop intelligent life). Its value lies in structuring the discussion about the likelihood of extraterrestrial intelligence."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "science",
+      "astronomy",
+      "exoplanets",
+      "astrobiology"
+    ],
+    "siblings": [
+      "Fermi Paradox",
+      "SETI",
+      "Rare Earth Hypothesis"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Rate of star formation (R*)",
+              "ref": "R*"
+            },
+            {
+              "name": "Fraction of stars with planets (fp)",
+              "ref": "fp"
+            },
+            {
+              "name": "Number of planets per star capable of supporting life (ne)",
+              "ref": "ne"
+            },
+            {
+              "name": "Fraction of planets where life arises (fl)",
+              "ref": "fl"
+            },
+            {
+              "name": "Fraction of planets with intelligent life (fi)",
+              "ref": "fi"
+            },
+            {
+              "name": "Fraction of communicating civilizations (fc)",
+              "ref": "fc"
+            },
+            {
+              "name": "Lifespan of communicating civilizations (L)",
+              "ref": "L"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 10,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "equation"
+      },
+      "parts": [
+        {
+          "name": "R*",
+          "relative_to": "equation",
+          "position": {
+            "x": -2,
+            "y": 1,
+            "z": 0
+          }
+        },
+        {
+          "name": "fp",
+          "relative_to": "equation",
+          "position": {
+            "x": -1,
+            "y": 1,
+            "z": 0
+          }
+        },
+        {
+          "name": "ne",
+          "relative_to": "equation",
+          "position": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+          }
+        },
+        {
+          "name": "fl",
+          "relative_to": "equation",
+          "position": {
+            "x": 1,
+            "y": 1,
+            "z": 0
+          }
+        },
+        {
+          "name": "fi",
+          "relative_to": "equation",
+          "position": {
+            "x": 2,
+            "y": 1,
+            "z": 0
+          }
+        },
+        {
+          "name": "fc",
+          "relative_to": "equation",
+          "position": {
+            "x": 3,
+            "y": 1,
+            "z": 0
+          }
+        },
+        {
+          "name": "L",
+          "relative_to": "equation",
+          "position": {
+            "x": 4,
+            "y": 1,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "observational astronomy",
+      "statistical analysis",
+      "exobiological theories"
+    ],
+    "produces": [
+      "estimation of N (number of civilizations)",
+      "framework for discussion on extraterrestrial life",
+      "justification for SETI research"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "influences",
+        "target": "Search for Extraterrestrial Intelligence (SETI)"
+      },
+      {
+        "relation": "related to",
+        "target": "Fermi Paradox"
+      },
+      {
+        "relation": "critiqued by",
+        "target": "Rare Earth Hypothesis"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "formulation",
+        "year": 1961,
+        "description": "Developed by Frank Drake"
+      },
+      {
+        "stage": "ongoing",
+        "description": "Continues to be used and debated in the context of astrobiology"
+      }
+    ]
+  }
+}

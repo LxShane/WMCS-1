@@ -1,0 +1,146 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 52
+    },
+    "name": "Mars",
+    "type": "celestial.planet",
+    "definition": "The fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury."
+  },
+  "GROUNDING": {
+    "chain": [
+      "observation",
+      "remote sensing",
+      "sample analysis"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "spectral"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Extensive telescopic observations, data from multiple Mars orbiters and landers, and analysis of Martian meteorites found on Earth provide strong evidence for the planet's characteristics."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "celestial body",
+      "planet",
+      "terrestrial planet"
+    ],
+    "siblings": [
+      "Earth",
+      "Venus",
+      "Mercury"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Iron",
+              "ref": "core"
+            },
+            {
+              "name": "Silicon",
+              "ref": "mantle"
+            },
+            {
+              "name": "Oxygen",
+              "ref": "crust"
+            }
+          ]
+        },
+        {
+          "depth": 1,
+          "name": "Atmosphere",
+          "components": [
+            {
+              "name": "Carbon Dioxide",
+              "ref": "atmosphere"
+            },
+            {
+              "name": "Nitrogen",
+              "ref": "atmosphere"
+            },
+            {
+              "name": "Argon",
+              "ref": "atmosphere"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "sphere",
+        "size": {
+          "value": 677900000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "core"
+      },
+      "parts": [
+        {
+          "name": "Olympus Mons",
+          "relative_to": "core",
+          "position": {
+            "x": 2000000,
+            "y": 1000000,
+            "z": 3000000
+          }
+        },
+        {
+          "name": "Valles Marineris",
+          "relative_to": "core",
+          "position": {
+            "x": -1500000,
+            "y": -500000,
+            "z": -2500000
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "gravitational collapse",
+      "planetary accretion"
+    ],
+    "produces": [
+      "seasonal variations",
+      "dust storms"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "orbits",
+        "target": "Sun"
+      },
+      {
+        "relation": "has moons",
+        "target": [
+          "Phobos",
+          "Deimos"
+        ]
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      "planetary formation",
+      "geological activity",
+      "atmospheric evolution",
+      "potential future terraforming"
+    ]
+  }
+}

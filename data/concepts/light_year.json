@@ -1,0 +1,110 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 823
+    },
+    "name": "Light Year",
+    "type": "measurement.distance",
+    "definition": "A unit of distance, specifically the distance that light travels in one year in a vacuum. It is approximately equal to 9.461 \u00d7 10^15 meters."
+  },
+  "GROUNDING": {
+    "chain": [
+      "speed of light",
+      "time",
+      "distance"
+    ],
+    "base_types": [
+      "measurement",
+      "physical"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "The light-year is defined based on the known speed of light in a vacuum and the duration of a Julian year (365.25 days)."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Units of Length",
+      "Astronomical Units",
+      "Distance Measures"
+    ],
+    "siblings": [
+      "Astronomical Unit",
+      "Parsec",
+      "Kilometer",
+      "Mile"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Vacuum",
+              "ref": "Space"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 9.461e+18,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "origin"
+      },
+      "parts": [
+        {
+          "name": "end_point",
+          "relative_to": "origin",
+          "position": {
+            "x": 9.461e+18,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Time",
+      "Speed of light"
+    ],
+    "produces": [
+      "Distance measurement"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "conversion",
+        "target": "Meters",
+        "value": "9.461e+15"
+      },
+      {
+        "relation": "used_in",
+        "target": "Astronomy",
+        "value": null
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "definition",
+        "duration": "instantaneous",
+        "description": "Defined by the International Astronomical Union."
+      }
+    ]
+  }
+}

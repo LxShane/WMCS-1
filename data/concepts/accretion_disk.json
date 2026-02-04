@@ -1,0 +1,127 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 789
+    },
+    "name": "Accretion Disk",
+    "type": "phenomenon.astrophysical",
+    "definition": "A structure formed by material orbiting a central body, typically a star or black hole, spiraling inward due to friction and angular momentum transfer."
+  },
+  "GROUNDING": {
+    "chain": [
+      "Observation of electromagnetic radiation",
+      "Spectroscopic analysis of emitted light",
+      "Mathematical modeling of orbital dynamics"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "mathematical"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Accretion disks are observed across various wavelengths, from radio waves to X-rays. Their spectral signatures reveal the composition and temperature of the gas. Theoretical models, validated by observations, explain the disk's formation and evolution."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Astrophysical Structures",
+      "Circumstellar Disks",
+      "Accretion Flows"
+    ],
+    "siblings": [
+      "Protoplanetary Disk",
+      "Debris Disk",
+      "Circumbinary Disk"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Hydrogen",
+              "ref": "H"
+            },
+            {
+              "name": "Helium",
+              "ref": "He"
+            },
+            {
+              "name": "Ions",
+              "ref": "Charged Particles"
+            },
+            {
+              "name": "Dust",
+              "ref": "Silicates and Carbon"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 10000000000000.0,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "Central Object"
+      },
+      "parts": [
+        {
+          "name": "Inner Rim",
+          "relative_to": "Central Object",
+          "position": {
+            "x": 10000000000.0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Outer Disk",
+          "relative_to": "Central Object",
+          "position": {
+            "x": 5000000000000.0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Central gravitating object (star, black hole)",
+      "Sufficient supply of gas and dust",
+      "Angular momentum"
+    ],
+    "produces": [
+      "Electromagnetic radiation (X-rays, UV, optical, infrared)",
+      "Jets (in some cases)",
+      "Heating of the disk",
+      "Star formation (in protoplanetary disks)"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      "Gravity: Central object gravitationally attracts disk material.",
+      "Friction: Friction between particles causes heating and inward spiraling.",
+      "Angular Momentum Transport: Angular momentum is transferred outwards, allowing material to accrete inwards."
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      "Formation: Material collapses towards central object.",
+      "Accretion: Material spirals inward, releasing energy.",
+      "Evolution: Disk thins and cools over time.",
+      "Dissipation: Material is either accreted or ejected, disk eventually dissipates."
+    ]
+  }
+}

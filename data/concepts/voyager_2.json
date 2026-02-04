@@ -1,0 +1,191 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 732
+    },
+    "name": "Voyager 2",
+    "type": "artifact.spacecraft.probe",
+    "definition": "A robotic space probe launched by NASA in 1977 to study the outer planets of the Solar System. It is a flyby mission designed to explore Jupiter, Saturn, Uranus, and Neptune."
+  },
+  "GROUNDING": {
+    "chain": [
+      "built by humans",
+      "launched into space",
+      "observed remotely"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "simulation"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Confirmed by telemetry data, scientific observations from Earth and the spacecraft itself, and detailed engineering schematics and reports from NASA."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "artifact",
+      "vehicle",
+      "spacecraft",
+      "space probe",
+      "robotic probe",
+      "Voyager program probe"
+    ],
+    "siblings": [
+      "Voyager 1",
+      "Pioneer 10",
+      "Pioneer 11",
+      "New Horizons"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Aluminum",
+              "ref": "Aluminum alloys"
+            },
+            {
+              "name": "Titanium",
+              "ref": "Titanium alloys"
+            },
+            {
+              "name": "Electronics",
+              "ref": "Various electronic components"
+            },
+            {
+              "name": "Hydrazine",
+              "ref": "Fuel"
+            },
+            {
+              "name": "Plutonium-238",
+              "ref": "Radioisotope thermoelectric generator (RTG)"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 370,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "central bus"
+      },
+      "parts": [
+        {
+          "name": "RTG",
+          "relative_to": "central bus",
+          "position": {
+            "x": 185,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "High-Gain Antenna",
+          "relative_to": "central bus",
+          "position": {
+            "x": -100,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Planetary Radio Astronomy Antenna",
+          "relative_to": "central bus",
+          "position": {
+            "x": -50,
+            "y": 100,
+            "z": 0
+          }
+        },
+        {
+          "name": "Science Instruments",
+          "relative_to": "central bus",
+          "position": {
+            "x": 0,
+            "y": -50,
+            "z": 50
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "rocket launch",
+      "stable power source",
+      "functional telemetry",
+      "working instruments"
+    ],
+    "produces": [
+      "scientific data about outer planets",
+      "radio signals",
+      "images of outer planets",
+      "exploration of outer solar system"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "part of",
+        "target": "Voyager program"
+      },
+      {
+        "relation": "sibling of",
+        "target": "Voyager 1"
+      },
+      {
+        "relation": "launched by",
+        "target": "NASA"
+      },
+      {
+        "relation": "studies",
+        "target": "Jupiter, Saturn, Uranus, Neptune, interstellar space"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "design",
+        "time": "1972-1977"
+      },
+      {
+        "stage": "launch",
+        "time": "August 20, 1977"
+      },
+      {
+        "stage": "Jupiter encounter",
+        "time": "July 9, 1979"
+      },
+      {
+        "stage": "Saturn encounter",
+        "time": "August 25, 1981"
+      },
+      {
+        "stage": "Uranus encounter",
+        "time": "January 24, 1986"
+      },
+      {
+        "stage": "Neptune encounter",
+        "time": "August 25, 1989"
+      },
+      {
+        "stage": "extended mission",
+        "time": "1989-present"
+      }
+    ]
+  }
+}

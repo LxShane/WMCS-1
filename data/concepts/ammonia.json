@@ -1,53 +1,145 @@
 {
-  "name": "Ammonia",
-  "type": "INANIMATE_OBJECT",
-  "id": {
-    "group": 30,
-    "item": 1003
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 789
+    },
+    "name": "Ammonia",
+    "type": "chemical compound",
+    "definition": "A compound of nitrogen and hydrogen with the formula NH3. It is a colorless gas with a characteristic pungent odor."
   },
-  "claims": [
-    {
-      "predicate": "DEFINED_AS",
-      "object": "NH 3",
-      "temporal": {
-        "valid_from": null,
-        "valid_until": null,
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 1.0,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "RELATED_TO",
-      "object": "hydrogen (20, 1005)",
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "AUTO_GENERATED",
-        "source_type": "RELATION_BUILDER"
-      }
-    },
-    {
-      "predicate": "RELATED_TO",
-      "object": "nitrogen (20, 1007)",
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "AUTO_GENERATED",
-        "source_type": "RELATION_BUILDER"
-      }
+  "GROUNDING": {
+    "chain": [
+      "observation of gas",
+      "chemical analysis",
+      "spectroscopic analysis"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Ammonia's existence and properties are well-established through numerous experiments and analytical techniques, including direct observation, mass spectrometry, and NMR spectroscopy. Its chemical formula and molecular structure are definitively determined."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "inorganic compound",
+      "nitrogen hydride",
+      "gas"
+    ],
+    "siblings": [
+      "Hydrazine",
+      "Nitrogen"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Nitrogen",
+              "ref": "N"
+            },
+            {
+              "name": "Hydrogen",
+              "ref": "H"
+            }
+          ]
+        }
+      ]
     }
-  ],
-  "surface_layer": {
-    "definition": "A compound of nitrogen and hydrogen.",
-    "common_uses": []
   },
-  "deep_layer": {},
-  "instance_layer": {},
-  "facets": {},
-  "epistemic_metadata": {
-    "source": "Nitrogen Fixation Context",
-    "citations": []
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "tetrahedral (molecular geometry)",
+        "size": {
+          "value": 3.8e-08,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "Nitrogen atom"
+      },
+      "parts": [
+        {
+          "name": "Hydrogen atom 1",
+          "relative_to": "Nitrogen atom",
+          "position": {
+            "x": 1e-08,
+            "y": 1e-08,
+            "z": 1e-08
+          }
+        },
+        {
+          "name": "Hydrogen atom 2",
+          "relative_to": "Nitrogen atom",
+          "position": {
+            "x": -1e-08,
+            "y": 1e-08,
+            "z": -1e-08
+          }
+        },
+        {
+          "name": "Hydrogen atom 3",
+          "relative_to": "Nitrogen atom",
+          "position": {
+            "x": 1e-08,
+            "y": -1e-08,
+            "z": -1e-08
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Nitrogen gas",
+      "Hydrogen gas",
+      "High temperature",
+      "High pressure",
+      "Catalyst (e.g., iron)"
+    ],
+    "produces": [
+      "Fertilizers",
+      "Cleaning agents",
+      "Explosives",
+      "Refrigerants"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "precursor to",
+        "target": "Nitric acid"
+      },
+      {
+        "relation": "dissolves in",
+        "target": "Water"
+      },
+      {
+        "relation": "reacts with",
+        "target": "Acids"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "formation",
+        "description": "Synthesized through Haber-Bosch process or naturally produced by decomposition of organic matter."
+      },
+      {
+        "stage": "usage",
+        "description": "Used in various industrial and agricultural applications."
+      },
+      {
+        "stage": "decomposition",
+        "description": "Can decompose back into nitrogen and hydrogen at high temperatures."
+      }
+    ]
   }
 }

@@ -1,0 +1,194 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 789
+    },
+    "name": "Uranus",
+    "type": "celestial.planet",
+    "definition": "Uranus is the seventh planet from the Sun. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System. It is a gas giant with an icy composition."
+  },
+  "GROUNDING": {
+    "chain": [
+      "astronomical observation",
+      "spectroscopic analysis",
+      "mathematical modeling"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Observations from Earth-based and space-based telescopes, data from Voyager 2 flyby, and ongoing research provide a detailed understanding of Uranus's properties and composition."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Planet",
+      "Gas Giant",
+      "Ice Giant",
+      "Uranian Planet"
+    ],
+    "siblings": [
+      "Jupiter",
+      "Saturn",
+      "Neptune"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Hydrogen",
+              "ref": "H2"
+            },
+            {
+              "name": "Helium",
+              "ref": "He"
+            },
+            {
+              "name": "Water Ice",
+              "ref": "H2O"
+            },
+            {
+              "name": "Methane Ice",
+              "ref": "CH4"
+            },
+            {
+              "name": "Ammonia Ice",
+              "ref": "NH3"
+            }
+          ]
+        },
+        {
+          "depth": 1,
+          "name": "Minor",
+          "components": [
+            {
+              "name": "Silicates",
+              "ref": "SiO2"
+            },
+            {
+              "name": "Nickel",
+              "ref": "Ni"
+            },
+            {
+              "name": "Iron",
+              "ref": "Fe"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "sphere",
+        "size": {
+          "value": 51118000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "core"
+      },
+      "parts": [
+        {
+          "name": "core",
+          "relative_to": "center",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "mantle",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "atmosphere",
+          "relative_to": "mantle",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "rings",
+          "relative_to": "center",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 70000000
+          }
+        },
+        {
+          "name": "moon_Umbriel",
+          "relative_to": "center",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 266000000
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "gravitational collapse of a protoplanetary disk",
+      "accretion of icy planetesimals"
+    ],
+    "produces": [
+      "magnetosphere",
+      "ring system",
+      "system of moons"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "orbits",
+        "target": "Sun"
+      },
+      {
+        "relation": "has moons",
+        "target": [
+          "Titania",
+          "Oberon",
+          "Umbriel",
+          "Ariel",
+          "Miranda",
+          "..."
+        ]
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "formation",
+        "duration": "millions of years"
+      },
+      {
+        "stage": "stable planetary existence",
+        "duration": "billions of years"
+      },
+      {
+        "stage": "eventual stellar engulfment",
+        "duration": "billions of years"
+      }
+    ]
+  }
+}

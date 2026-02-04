@@ -1,58 +1,141 @@
 {
-  "name": "Callisto",
-  "type": "INANIMATE_OBJECT",
-  "id": {
-    "group": 20,
-    "item": 1004
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 873
+    },
+    "name": "Callisto",
+    "type": "celestial.satellite",
+    "definition": "Callisto is the second-largest moon of Jupiter, and the third-largest moon in the Solar System. It is heavily cratered and geologically inactive, composed of roughly equal parts rock and ice."
   },
-  "claims": [
-    {
-      "predicate": "IS_A",
-      "object": "Satellite",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
+  "GROUNDING": {
+    "chain": [
+      "observed via telescope",
+      "confirmed by spacecraft missions (e.g., Galileo, Voyager)"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "spectral"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Extensive telescopic observations and data gathered from flyby missions, including high-resolution imagery, spectral analysis, and gravitational measurements, provide strong evidence for Callisto's physical properties and composition."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "celestial body",
+      "moon",
+      "Jovian satellite",
+      "Galilean moon"
+    ],
+    "siblings": [
+      "Io",
+      "Europa",
+      "Ganymede"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Water Ice",
+              "ref": "H2O"
+            },
+            {
+              "name": "Rock (Silicates)",
+              "ref": "SiO2"
+            }
+          ]
+        },
+        {
+          "depth": 1,
+          "name": "Minor",
+          "components": [
+            {
+              "name": "Organic Compounds",
+              "ref": "CnHm"
+            },
+            {
+              "name": "Hydrated Minerals",
+              "ref": "Complex"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "sphere",
+        "size": {
+          "value": 482100,
+          "unit": "cm"
+        }
       },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
+      "center": {
+        "name": "core"
+      },
+      "parts": [
+        {
+          "name": "Valhalla Impact Basin",
+          "relative_to": "core",
+          "position": {
+            "x": 100000,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Cratered Surface",
+          "relative_to": "core",
+          "position": {
+            "x": -50000,
+            "y": 50000,
+            "z": 50000
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "gravitational interactions with Jupiter",
+      "accretion during solar system formation"
+    ],
+    "produces": [
+      "cratering",
+      "possible subsurface ocean",
+      "weak magnetic field"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "orbits",
+        "target": "Jupiter"
+      },
+      {
+        "relation": "gravitationally interacts with",
+        "target": "Io, Europa, Ganymede"
       }
-    }
-  ],
-  "surface_layer": {
-    "definition": "A moon of Jupiter.",
-    "common_uses": []
+    ]
   },
-  "deep_layer": {
-    "mechanism": null,
-    "origin": null
-  },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
-  "epistemic_metadata": {
-    "source": "Orbital resonance - Wikipedia",
-    "citations": []
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "formation",
+        "time": "4.5 billion years ago"
+      },
+      {
+        "stage": "ongoing",
+        "time": "present",
+        "process": "gradual accumulation of surface craters"
+      }
+    ]
   }
 }

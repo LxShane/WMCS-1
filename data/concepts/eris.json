@@ -1,0 +1,155 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 672
+    },
+    "name": "Eris",
+    "type": "dwarf planet",
+    "definition": "Eris is a dwarf planet in the outer Solar System and the largest known dwarf planet that is not located in the asteroid belt. It is a trans-Neptunian object (TNO) and a member of the scattered disc."
+  },
+  "GROUNDING": {
+    "chain": [
+      "telescopic observation",
+      "spectroscopy",
+      "orbital mechanics"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Eris's existence and properties are supported by multiple independent observations including its orbital parameters, spectral analysis indicating a surface composition of nitrogen and methane ice, and size estimates derived from thermal emission and stellar occultation measurements."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "celestial object",
+      "planet",
+      "dwarf planet",
+      "trans-Neptunian object",
+      "scattered disc object"
+    ],
+    "siblings": [
+      "Pluto",
+      "Haumea",
+      "Makemake",
+      "Ceres"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Nitrogen Ice",
+              "ref": "N2"
+            },
+            {
+              "name": "Methane Ice",
+              "ref": "CH4"
+            },
+            {
+              "name": "Water Ice",
+              "ref": "H2O"
+            }
+          ]
+        },
+        {
+          "depth": 1,
+          "name": "Minor",
+          "components": [
+            {
+              "name": "Tholins",
+              "ref": "tholins"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "sphere",
+        "size": {
+          "value": 232600000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "core"
+      },
+      "parts": [
+        {
+          "name": "Surface Ice Layer",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Dysnomia",
+          "relative_to": "Eris",
+          "position": {
+            "x": 3700000000,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "gravitational accretion",
+      "planetary differentiation"
+    ],
+    "produces": [
+      "tidal locking (of its moon, Dysnomia)",
+      "scattering of other Kuiper belt objects"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "orbits",
+        "target": "Sun",
+        "properties": {
+          "semi-major axis": "67.7 AU",
+          "orbital period": "557 years"
+        }
+      },
+      {
+        "relation": "has moon",
+        "target": "Dysnomia",
+        "properties": {
+          "diameter": "700 km"
+        }
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "Formation",
+        "description": "Accretion of icy planetesimals in the early Solar System.",
+        "time_scale": "4.5 billion years ago"
+      },
+      {
+        "stage": "Differentiation",
+        "description": "Separation of internal layers based on density.",
+        "time_scale": "Early in its history"
+      },
+      {
+        "stage": "Ongoing",
+        "description": "Continuous orbital evolution and interaction with other TNOs.",
+        "time_scale": "Present"
+      }
+    ]
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 743
+    },
+    "name": "Hygiea",
+    "type": "organism.bacterium",
+    "definition": "A rod-shaped bacterium of the genus Bacillus, known for its robust growth and production of antimicrobial compounds, commonly found in soil environments."
+  },
+  "GROUNDING": {
+    "chain": [
+      "Gram stain positive",
+      "Spore formation observed",
+      "16S rRNA sequencing"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "genetic"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Observed under microscope with Gram stain showing positive reaction, exhibiting spore formation under nutrient-limited conditions. Genetic analysis through 16S rRNA sequencing confirms its placement within the Bacillus genus and its specific species identification."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Life",
+      "Bacteria",
+      "Firmicutes",
+      "Bacillales",
+      "Bacillaceae",
+      "Bacillus"
+    ],
+    "siblings": [
+      "Bacillus subtilis",
+      "Bacillus cereus",
+      "Bacillus anthracis"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Peptidoglycan",
+              "ref": "cell_wall"
+            },
+            {
+              "name": "Teichoic Acid",
+              "ref": "cell_wall"
+            },
+            {
+              "name": "Cytoplasmic Membrane",
+              "ref": "membrane"
+            },
+            {
+              "name": "DNA",
+              "ref": "genetic_material"
+            },
+            {
+              "name": "Ribosomes",
+              "ref": "protein_synthesis"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "rod",
+        "size": {
+          "value": 2,
+          "unit": "\u03bcm"
+        }
+      },
+      "center": {
+        "name": "cytoplasm"
+      },
+      "parts": [
+        {
+          "name": "cell_wall",
+          "relative_to": "cytoplasm",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "cytoplasmic_membrane",
+          "relative_to": "cytoplasm",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "nucleoid",
+          "relative_to": "cytoplasm",
+          "position": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Nutrients (e.g., sugars, amino acids)",
+      "Water",
+      "Suitable temperature",
+      "Absence of inhibitory substances"
+    ],
+    "produces": [
+      "Cell division",
+      "Spores (under stress)",
+      "Antimicrobial compounds",
+      "Carbon dioxide"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "symbiotic",
+        "target": "plant_roots",
+        "description": "May exhibit symbiotic relationships with plant roots, aiding in nutrient uptake."
+      },
+      {
+        "relation": "antagonistic",
+        "target": "other_bacteria",
+        "description": "Produces antimicrobial compounds that inhibit the growth of other bacteria."
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      "Vegetative growth (binary fission)",
+      "Sporulation (under stress)",
+      "Spore dormancy",
+      "Spore germination (under favorable conditions)"
+    ]
+  }
+}

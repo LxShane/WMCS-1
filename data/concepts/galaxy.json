@@ -1,121 +1,131 @@
 {
-  "name": "Galaxy",
-  "type": "INANIMATE_OBJECT",
-  "id": {
-    "group": 22,
-    "item": 1001
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 729
+    },
+    "name": "Galaxy",
+    "type": "celestial.astronomical_object",
+    "definition": "A massive, gravitationally bound system consisting of stars, stellar remnants, an interstellar medium of gas and dust, and dark matter."
   },
-  "claims": [
-    {
-      "predicate": "CAPABLE_OF",
-      "object": "Galactic Evolution",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "CAPABLE_OF",
-      "object": "Warping Distortions",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.7,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "CAUSES",
-      "object": "Exchange of gas and dust",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.6,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IS_A",
-      "object": "Inanimate Object",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "LOCATED_AT",
-      "object": "Observable Universe",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "HAS_PART",
-      "object": "Visible mass",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.7,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    }
-  ],
-  "surface_layer": {
-    "definition": "A massive, gravitationally bound system consisting of stars, stellar remnants, an interstellar medium of gas and dust, and dark matter.",
-    "common_uses": []
+  "GROUNDING": {
+    "chain": [
+      "observation",
+      "gravitational_modeling"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Galaxies are observed through telescopes across the electromagnetic spectrum. Their masses and structures are inferred from gravitational effects on observed matter and confirmed by simulations."
   },
-  "deep_layer": {
-    "mechanism": "Galaxies form through the gravitational collapse of dark matter halos.",
-    "origin": "Galaxies originated billions of years ago from density fluctuations in the early universe."
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "astronomical object",
+      "galaxy"
+    ],
+    "siblings": [
+      "star cluster",
+      "nebula",
+      "black hole"
+    ]
   },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "SPATIAL": {
-      "location": "Extragalactic space, within a galaxy cluster or group, or in relative isolation within the intergalactic medium",
-      "connected_to": [
-        "Other galaxies (via gravitational interaction)",
-        "Intergalactic medium",
-        "Dark matter halo"
-      ],
-      "coordinates": []
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Stars",
+              "ref": "star"
+            },
+            {
+              "name": "Interstellar Gas",
+              "ref": "gas"
+            },
+            {
+              "name": "Dust",
+              "ref": "dust"
+            },
+            {
+              "name": "Dark Matter",
+              "ref": "dark_matter"
+            },
+            {
+              "name": "Black Holes",
+              "ref": "black_hole"
+            }
+          ]
+        }
+      ]
     }
   },
-  "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "spiral/elliptical/irregular",
+        "size": {
+          "value": 9.461e+23,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "galactic_center"
+      },
+      "parts": [
+        {
+          "name": "spiral_arms",
+          "relative_to": "galactic_center",
+          "position": {
+            "x": 1e+23,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "galactic_halo",
+          "relative_to": "galactic_center",
+          "position": {
+            "x": 0,
+            "y": 1e+23,
+            "z": 0
+          }
+        }
+      ]
+    }
   },
-  "autocorrected": true
+  "CAUSATION": {
+    "requires": [
+      "gravity",
+      "initial_density_fluctuations"
+    ],
+    "produces": [
+      "star_formation",
+      "galactic_evolution"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "gravitational_interaction",
+        "target": "other_galaxies"
+      },
+      {
+        "relation": "orbital_relationship",
+        "target": "stars"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      "primordial_fluctuations",
+      "structure_formation",
+      "galactic_mergers",
+      "star_formation_cycle",
+      "eventual_heat_death"
+    ]
+  }
 }

@@ -1,77 +1,189 @@
 {
-  "name": "Mantle",
-  "type": "INANIMATE_OBJECT",
-  "id": {
-    "group": 29,
-    "item": 1236
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 872
+    },
+    "name": "Mantle",
+    "type": "geological.planetary_layer",
+    "definition": "The mantle is a layer inside a planetary body bounded below by a core and above by a crust. Mantles are made of rock or ice, and are generally the largest and most massive layer of the planetary body."
   },
-  "claims": [
-    {
-      "predicate": "IS_A",
-      "object": "Layer",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IS_A",
-      "object": "Solid Mantle",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "LOCATED_AT",
-      "object": "Beneath the crust, above the core",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
+  "GROUNDING": {
+    "chain": [
+      "seismic wave analysis",
+      "geochemical analysis of mantle xenoliths",
+      "high-pressure/temperature experiments"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "inference"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Evidence for the mantle's existence and properties comes from seismic waves, which change speed and direction as they pass through different layers. Mantle xenoliths, rocks brought to the surface by volcanic eruptions, provide direct samples. Laboratory experiments simulate mantle conditions to understand material behavior."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "geology",
+      "planetary science",
+      "planetary interiors",
+      "mantle"
+    ],
+    "siblings": [
+      "core",
+      "crust",
+      "lithosphere",
+      "asthenosphere"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Olivine",
+              "ref": "Mg,Fe)2SiO4"
+            },
+            {
+              "name": "Pyroxene",
+              "ref": "(Mg,Fe,Ca)2Si2O6"
+            },
+            {
+              "name": "Garnet",
+              "ref": "X3Y2(SiO4)3, X=Ca,Mg,Fe,Mn Y=Al,Fe,Cr"
+            },
+            {
+              "name": "Bridgmanite",
+              "ref": "MgSiO3"
+            }
+          ]
+        },
+        {
+          "depth": 1,
+          "name": "Trace",
+          "components": [
+            {
+              "name": "Calcium",
+              "ref": "Ca"
+            },
+            {
+              "name": "Aluminum",
+              "ref": "Al"
+            },
+            {
+              "name": "Sodium",
+              "ref": "Na"
+            },
+            {
+              "name": "Potassium",
+              "ref": "K"
+            }
+          ]
+        }
+      ]
     }
-  ],
-  "surface_layer": {
-    "definition": "The mostly-solid bulk of Earth's interior.",
-    "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": "Convection within the mantle drives plate tectonics.",
-    "origin": "Differentiation of the Earth's interior."
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "spherical shell",
+        "size": {
+          "value": 290000000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "core"
+      },
+      "parts": [
+        {
+          "name": "Upper Mantle",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "description": "Extends from the base of the crust to a depth of about 660 km"
+        },
+        {
+          "name": "Lower Mantle",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "description": "Extends from a depth of 660 km to the core-mantle boundary at approximately 2900 km"
+        },
+        {
+          "name": "Transition Zone",
+          "relative_to": "Upper Mantle",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "description": "Area between the upper and lower mantle, characterized by rapid changes in seismic wave velocities."
+        },
+        {
+          "name": "D'' Layer",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "description": "A region at the base of the mantle, above the core-mantle boundary, with unusual properties."
+        }
+      ]
+    }
   },
-  "instance_layer": {
-    "examples": []
+  "CAUSATION": {
+    "requires": [
+      "planetary differentiation",
+      "heat from core",
+      "gravitational forces"
+    ],
+    "produces": [
+      "mantle convection",
+      "plate tectonics",
+      "volcanism",
+      "geochemical cycling"
+    ]
   },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {}
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "influences",
+        "target": "crustal composition",
+        "description": "Mantle composition affects crustal rocks through volcanism and partial melting."
+      },
+      {
+        "relation": "affected_by",
+        "target": "core temperature",
+        "description": "Heat from the core drives mantle convection."
+      },
+      {
+        "relation": "interacts_with",
+        "target": "lithosphere",
+        "description": "The mantle underlies the lithosphere and drives plate tectonics."
+      }
+    ]
   },
-  "epistemic_metadata": {
-    "source": "Wikipedia",
-    "citations": []
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "formation",
+        "description": "Formed during planetary accretion and differentiation."
+      },
+      {
+        "stage": "evolution",
+        "description": "Continuously evolving through convection and geochemical cycling."
+      }
+    ]
   }
 }

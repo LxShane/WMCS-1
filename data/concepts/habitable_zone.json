@@ -1,0 +1,139 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 732
+    },
+    "name": "Habitable Zone",
+    "type": "astroclimate.zone",
+    "definition": "The region around a star where the temperature is suitable for liquid water to exist on the surface of a planet, considered a primary requirement for life as we know it."
+  },
+  "GROUNDING": {
+    "chain": [
+      "stellar properties",
+      "planetary distance",
+      "surface temperature",
+      "liquid water"
+    ],
+    "base_types": [
+      "measurement",
+      "observation",
+      "calculation"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Empirical observations of stellar luminosity and planetary albedo, combined with thermodynamic calculations, define the range of distances where liquid water can exist under standard atmospheric conditions. Confirmed by observations of Earth and limited observations of other exoplanets."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "astronomy",
+      "astrobiology",
+      "planetary science",
+      "stellar classification",
+      "climate zones"
+    ],
+    "siblings": [
+      "Goldilocks Zone",
+      "Circumstellar Habitable Zone",
+      "Conservative Habitable Zone",
+      "Optimistic Habitable Zone"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Radiation",
+              "ref": "electromagnetic radiation"
+            },
+            {
+              "name": "Planetary Atmospheres",
+              "ref": "gaseous envelope"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "spherical shell",
+        "size": {
+          "value": 149597870700,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "star"
+      },
+      "parts": [
+        {
+          "name": "inner boundary",
+          "relative_to": "star",
+          "position": {
+            "x": 107900000000,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "outer boundary",
+          "relative_to": "star",
+          "position": {
+            "x": 152100000000,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "stellar luminosity",
+      "planetary albedo",
+      "planetary atmospheric pressure"
+    ],
+    "produces": [
+      "liquid water",
+      "potential for life",
+      "stable climate"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "affects",
+        "target": "planetary surface temperature"
+      },
+      {
+        "relation": "supports",
+        "target": "liquid water existence"
+      },
+      {
+        "relation": "influences",
+        "target": "planetary climate"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "formation",
+        "description": "Established early in a star's life based on its luminosity."
+      },
+      {
+        "stage": "evolution",
+        "description": "Shifts outward as a star evolves and increases in luminosity."
+      },
+      {
+        "stage": "dissipation",
+        "description": "May disappear as a star enters its final stages of evolution."
+      }
+    ]
+  }
+}

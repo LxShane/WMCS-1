@@ -1,192 +1,129 @@
 {
-  "name": "Kuiper Belt",
-  "type": "INANIMATE_OBJECT",
-  "id": {
-    "group": 28,
-    "item": 1234
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 672
+    },
+    "name": "Kuiper Belt",
+    "type": "astronomical.belt",
+    "definition": "A circumstellar disc in the outer Solar System, extending from Neptune's orbit (at 30 AU) to approximately 50 AU from the Sun. It is similar to the asteroid belt, but is far larger\u201420 times as wide and 20 to 200 times as massive."
   },
-  "claims": [
-    {
-      "predicate": "LOCATED_AT",
-      "object": "Outer Solar System",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "HAS_PART",
-      "object": "Kuiper Belt Objects",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "CAUSES",
-      "object": "Orbital resonance due to Neptune",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "HAS_PART",
-      "object": "Compositions",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IS_A",
-      "object": "Region of the Solar System",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "LOCATED_AT",
-      "object": "Outer Solar System",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "HAS_PART",
-      "object": "Kuiper Belt Object",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "INFLUENCED_BY",
-      "object": "Jupiter",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "INFLUENCED_BY",
-      "object": "Neptune",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "HAS_PART",
-      "object": "Eccentric Orbits",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.7,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "HAS_PART",
-      "object": "Objects in resonance with Neptune",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.7,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
+  "GROUNDING": {
+    "chain": [
+      "observation",
+      "telescopic measurement",
+      "orbital calculation"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Extensive telescopic observations and orbital calculations of trans-Neptunian objects provide strong evidence for the existence and properties of the Kuiper Belt."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Solar System",
+      "Outer Solar System",
+      "Circumstellar Disc",
+      "Kuiper Belt"
+    ],
+    "siblings": [
+      "Asteroid Belt",
+      "Scattered Disc",
+      "Oort Cloud"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Ices (water, methane, ammonia)",
+              "ref": "water_ice"
+            },
+            {
+              "name": "Rock",
+              "ref": "silicates"
+            }
+          ]
+        },
+        {
+          "depth": 1,
+          "name": "Minor",
+          "components": [
+            {
+              "name": "Organic compounds",
+              "ref": "organics"
+            }
+          ]
+        }
+      ]
     }
-  ],
-  "surface_layer": {
-    "definition": "A region of the Solar System beyond the planets, extending from the orbit of Neptune.",
-    "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": "Gravitational interactions, protoplanetary disk dynamics.",
-    "origin": "Formation from planetesimals in the early Solar System."
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "torus",
+        "size": {
+          "value": 2997924580000000.0,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "Sun"
+      },
+      "parts": [
+        {
+          "name": "Inner Edge",
+          "relative_to": "Sun",
+          "position": {
+            "x": 449600000000000.0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Outer Edge",
+          "relative_to": "Sun",
+          "position": {
+            "x": 749500000000000.0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
   },
-  "instance_layer": {
-    "examples": []
+  "CAUSATION": {
+    "requires": [
+      "Protoplanetary disk",
+      "Gravitational interactions"
+    ],
+    "produces": [
+      "Trans-Neptunian objects",
+      "Short-period comets"
+    ]
   },
-  "facets": {
-    "SPATIAL": {
-      "location": "Outer Solar System",
-      "connected_to": [
-        "Oort Cloud",
-        "Neptune",
-        "Scattered Disc"
-      ],
-      "coordinates": []
-    },
-    "STRUCTURAL": {}
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "Source of",
+        "target": "Short-period comets"
+      },
+      {
+        "relation": "Influenced by",
+        "target": "Neptune's gravity"
+      }
+    ]
   },
-  "epistemic_metadata": {
-    "source": "Kuiper belt - Wikipedia",
-    "citations": []
-  },
-  "autocorrected": true
+  "TIME": {
+    "lifecycle": [
+      "Formation from protoplanetary disk",
+      "Ongoing gravitational interactions and collisions"
+    ]
+  }
 }

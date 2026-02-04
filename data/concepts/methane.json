@@ -1,54 +1,143 @@
 {
-  "name": "Methane",
-  "type": "INANIMATE_OBJECT",
-  "id": {
-    "group": 20,
-    "item": 1006
-  },
-  "claims": [
-    {
-      "predicate": "HAS_PROPERTY",
-      "object": "Tetrahedral Molecular Geometry",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 789
     },
-    {
-      "predicate": "HAS_PART",
-      "object": "H\u2013C\u2013H bond",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
+    "name": "Methane",
+    "type": "chemical.molecule",
+    "definition": "Methane is a chemical compound with the formula CH4. It is the simplest alkane and the main component of natural gas. Methane is a greenhouse gas."
+  },
+  "GROUNDING": {
+    "chain": [
+      "identify_odor",
+      "spectroscopic_analysis"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Methane's presence can be detected through its physical properties and spectral signatures. Spectroscopic analysis confirms its molecular composition (CH4)."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Organic compound",
+      "Alkane",
+      "Hydrocarbon",
+      "Gas"
+    ],
+    "siblings": [
+      "Ethane",
+      "Propane",
+      "Butane"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Carbon",
+              "ref": "C"
+            },
+            {
+              "name": "Hydrogen",
+              "ref": "H"
+            }
+          ]
+        }
+      ]
     }
-  ],
-  "surface_layer": {
-    "definition": "A chemical compound with the formula CH4.",
-    "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": null,
-    "origin": null
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "tetrahedral",
+        "size": {
+          "value": 4e-08,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "Carbon Atom"
+      },
+      "parts": [
+        {
+          "name": "Hydrogen Atom 1",
+          "relative_to": "Carbon Atom",
+          "position": {
+            "x": 2e-08,
+            "y": 2e-08,
+            "z": 2e-08
+          }
+        },
+        {
+          "name": "Hydrogen Atom 2",
+          "relative_to": "Carbon Atom",
+          "position": {
+            "x": -2e-08,
+            "y": -2e-08,
+            "z": 2e-08
+          }
+        },
+        {
+          "name": "Hydrogen Atom 3",
+          "relative_to": "Carbon Atom",
+          "position": {
+            "x": 2e-08,
+            "y": -2e-08,
+            "z": -2e-08
+          }
+        },
+        {
+          "name": "Hydrogen Atom 4",
+          "relative_to": "Carbon Atom",
+          "position": {
+            "x": -2e-08,
+            "y": 2e-08,
+            "z": -2e-08
+          }
+        }
+      ]
+    }
   },
-  "instance_layer": [],
-  "facets": {},
-  "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "masterorganicchemistry.com"
+  "CAUSATION": {
+    "requires": [
+      "Carbon",
+      "Hydrogen"
+    ],
+    "produces": [
+      "Carbon dioxide",
+      "Water",
+      "Energy"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "Is a component of",
+        "target": "Natural gas"
+      },
+      {
+        "relation": "Contributes to",
+        "target": "Greenhouse effect"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "Formation",
+        "description": "Methane is formed through various processes, including anaerobic decomposition of organic matter."
+      },
+      {
+        "stage": "Oxidation",
+        "description": "Methane can be oxidized to form carbon dioxide and water."
+      }
     ]
   }
 }

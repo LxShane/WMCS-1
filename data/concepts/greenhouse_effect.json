@@ -1,80 +1,133 @@
 {
-  "name": "Greenhouse Effect",
-  "type": "ABSTRACT_CONCEPT",
-  "id": {
-    "group": 50,
-    "item": 1234
-  },
-  "claims": [
-    {
-      "predicate": "DEFINED_AS",
-      "object": "Process through which heat is trapped near Earth's surface by greenhouse gases",
-      "temporal": {
-        "valid_from": null,
-        "valid_until": null,
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 789
     },
-    {
-      "predicate": "DEFINED_AS",
-      "object": "process through which heat is trapped near Earth's surface",
-      "temporal": {
-        "valid_from": null,
-        "valid_until": null,
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "REQUIRES",
-      "object": "Greenhouse Gases",
-      "temporal": {
-        "valid_from": null,
-        "valid_until": null,
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    }
-  ],
-  "surface_layer": {
-    "definition": "The greenhouse effect is the process through which heat is trapped near Earth's surface by greenhouse gases.",
-    "common_uses": []
+    "name": "Greenhouse Effect",
+    "type": "environmental_process",
+    "definition": "The process by which radiation from a planet's atmosphere warms the planet's surface to a temperature above what it would be without its atmosphere."
   },
-  "deep_layer": {
-    "mechanism": "Greenhouse gases trap heat.",
-    "origin": null
+  "GROUNDING": {
+    "chain": [
+      "Solar radiation enters Earth's atmosphere",
+      "Some radiation is reflected back into space",
+      "Remaining radiation is absorbed by the Earth's surface, warming it",
+      "The warmed surface emits infrared radiation",
+      "Greenhouse gases absorb some of the infrared radiation and re-emit it in all directions, warming the surface and lower atmosphere",
+      "More greenhouse gases trap more heat, further warming the planet"
+    ],
+    "base_types": [
+      "measurement",
+      "perceptual",
+      "scientific_model"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Observed increases in atmospheric greenhouse gas concentrations correlate with increases in global average temperatures. Climate models incorporating the greenhouse effect accurately predict historical temperature trends and future warming scenarios. Satellite measurements confirm that less infrared radiation is escaping into space at wavelengths absorbed by greenhouse gases."
   },
-  "instance_layer": {
-    "examples": []
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Atmospheric Processes",
+      "Climate Processes",
+      "Environmental Phenomena"
+    ],
+    "siblings": [
+      "Global Warming",
+      "Climate Change",
+      "Radiative Forcing"
+    ]
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Carbon Dioxide (CO2)",
+              "ref": "CO2"
+            },
+            {
+              "name": "Methane (CH4)",
+              "ref": "CH4"
+            },
+            {
+              "name": "Nitrous Oxide (N2O)",
+              "ref": "N2O"
+            },
+            {
+              "name": "Water Vapor (H2O)",
+              "ref": "H2O"
+            },
+            {
+              "name": "Ozone (O3)",
+              "ref": "O3"
+            }
+          ]
+        }
+      ]
     }
   },
-  "epistemic_metadata": {
-    "source": "https://science.nasa.gov/climate-change/faq/what-is-the-greenhouse-effect/",
-    "citations": []
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "sphere",
+        "size": {
+          "value": 1274200000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "Earth's Core"
+      },
+      "parts": [
+        {
+          "name": "Troposphere",
+          "relative_to": "Earth's Core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Solar Radiation",
+      "Atmosphere",
+      "Greenhouse Gases"
+    ],
+    "produces": [
+      "Warm Surface Temperature",
+      "Trapped Heat",
+      "Infrared Radiation Emission",
+      "Climate Regulation (to a certain extent)"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "causes",
+        "target": "Global Warming"
+      },
+      {
+        "relation": "influenced by",
+        "target": "Solar Activity"
+      },
+      {
+        "relation": "impacts",
+        "target": "Sea Level Rise"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      "Shortwave radiation enters the atmosphere",
+      "Absorption and emission of infrared radiation occur continuously",
+      "Concentration of greenhouse gases changes over time (anthropogenic influence)"
+    ]
   }
 }

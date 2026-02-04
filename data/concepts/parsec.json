@@ -1,0 +1,122 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 827
+    },
+    "name": "Parsec",
+    "type": "measurement.unit",
+    "definition": "A unit of length used in astronomy, equivalent to the distance at which one astronomical unit subtends an angle of one arcsecond. Approximately 3.26 light-years or 3.09 \u00d7 10^13 kilometers."
+  },
+  "GROUNDING": {
+    "chain": [
+      "distance",
+      "astronomy"
+    ],
+    "base_types": [
+      "measurement",
+      "conceptual"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "The parsec is defined geometrically using the astronomical unit (AU) and the concept of angular parallax. Its value is derived from trigonometric relationships and has been consistently measured through astronomical observations."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "physics",
+      "astronomy",
+      "measurement",
+      "distance unit"
+    ],
+    "siblings": [
+      "light-year",
+      "astronomical unit",
+      "kilometer",
+      "mile"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Conceptual",
+          "components": [
+            {
+              "name": "Distance",
+              "ref": "length"
+            },
+            {
+              "name": "Angle",
+              "ref": "arcsecond"
+            },
+            {
+              "name": "Astronomical Unit",
+              "ref": "AU"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "abstract",
+        "size": {
+          "value": 3.09e+18,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "origin"
+      },
+      "parts": [
+        {
+          "name": "endpoint",
+          "relative_to": "origin",
+          "position": {
+            "x": 3.09e+18,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "angle subtended",
+      "astronomical unit"
+    ],
+    "produces": [
+      "distance measurement",
+      "stellar parallax"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "used in calculating",
+        "target": "distance to stars"
+      },
+      {
+        "relation": "derived from",
+        "target": "astronomical unit and arcsecond"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "definition",
+        "time": "1913",
+        "event": "Coined as a contraction of 'parallax of one second'"
+      },
+      {
+        "stage": "usage",
+        "time": "present",
+        "event": "Used extensively in astronomy and astrophysics"
+      }
+    ]
+  }
+}

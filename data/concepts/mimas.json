@@ -1,0 +1,112 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 723
+    },
+    "name": "Mimas",
+    "type": "celestial.moon",
+    "definition": "Mimas is a moon of Saturn, notable for its small size and large impact crater, Herschel."
+  },
+  "GROUNDING": {
+    "chain": [
+      "observation",
+      "imaging",
+      "spectroscopy"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Data gathered from various space missions, including Voyager and Cassini, provide detailed images and measurements of Mimas' surface composition and dimensions."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "celestial body",
+      "natural satellite",
+      "moon",
+      "Saturnian moon"
+    ],
+    "siblings": [
+      "Enceladus",
+      "Tethys",
+      "Dione",
+      "Rhea",
+      "Titan",
+      "Iapetus"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Water Ice",
+              "ref": "H2O"
+            },
+            {
+              "name": "Rock",
+              "ref": "SiO2, Fe"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "sphere",
+        "size": {
+          "value": 396400,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "core"
+      },
+      "parts": [
+        {
+          "name": "Herschel Crater",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 100000,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Saturn's gravitational field"
+    ],
+    "produces": [
+      "tidal forces on Saturn",
+      "minor influence on Saturn's rings"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "orbits",
+        "target": "Saturn"
+      },
+      {
+        "relation": "gravitationally interacts with",
+        "target": "Saturn's rings"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      "formation from Saturn's protoplanetary disk",
+      "ongoing cratering events"
+    ]
+  }
+}

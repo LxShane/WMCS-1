@@ -1,114 +1,139 @@
 {
-  "name": "Core",
-  "type": "INANIMATE_OBJECT",
-  "id": {
-    "group": 29,
-    "item": 1237
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 672
+    },
+    "name": "Core",
+    "type": "organism.animal.organ",
+    "definition": "The central functional unit of an organ, structure or organism, essential for its survival and activity. This can represent a physical organ, an abstract functional element, or a central regulatory system."
   },
-  "claims": [
-    {
-      "predicate": "HAS_PART",
-      "object": "Fluxgate Sensor",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 1.0,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "LOCATED_AT",
-      "object": "Nucleus Accumbens",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IS_A",
-      "object": "Layer (24, 1003)",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "LOCATED_AT",
-      "object": "Center of the Earth",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "HAS_PART",
-      "object": "Outer Core",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "RELATED_TO",
-      "object": "layer (24, 1003)",
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "AUTO_GENERATED",
-        "source_type": "RELATION_BUILDER"
-      }
+  "GROUNDING": {
+    "chain": [
+      "identification by dissection",
+      "histological analysis"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "The core is identified by its location within an organism or structure, its distinct composition, and its vital function. It is a directly observable and measurable entity."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "biological component",
+      "central element"
+    ],
+    "siblings": [
+      "mantle",
+      "shell",
+      "husk"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Cells",
+              "ref": "Cell"
+            },
+            {
+              "name": "Extracellular Matrix",
+              "ref": "ECM"
+            },
+            {
+              "name": "Blood Vessels",
+              "ref": "Vascular Tissue"
+            }
+          ]
+        }
+      ]
     }
-  ],
-  "surface_layer": {
-    "definition": "The innermost layer of the Earth.",
-    "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": "Generates Earth's magnetic field.",
-    "origin": "Accretion and differentiation."
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 15,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "core"
+      },
+      "parts": [
+        {
+          "name": "Vascular network",
+          "relative_to": "core",
+          "position": {
+            "x": 2,
+            "y": 1,
+            "z": -1
+          }
+        },
+        {
+          "name": "Cell clusters",
+          "relative_to": "core",
+          "position": {
+            "x": -3,
+            "y": 0,
+            "z": 2
+          }
+        }
+      ]
+    }
   },
-  "instance_layer": {
-    "examples": []
+  "CAUSATION": {
+    "requires": [
+      "nutrients",
+      "oxygen",
+      "regulatory signals"
+    ],
+    "produces": [
+      "functional output",
+      "metabolic waste",
+      "regulatory signals"
+    ]
   },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {}
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "type": "input",
+        "target": "Core",
+        "process": "Regulation",
+        "description": "Receives regulatory signals from other organs or systems."
+      },
+      {
+        "type": "output",
+        "target": "Periphery",
+        "process": "Output",
+        "description": "Outputs functional products to the periphery."
+      }
+    ]
   },
-  "epistemic_metadata": {
-    "source": "Wikipedia",
-    "citations": []
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "Development",
+        "duration": "Varies",
+        "description": "Core develops from progenitor cells during organismal development."
+      },
+      {
+        "stage": "Maintenance",
+        "duration": "Life-long",
+        "description": "Core maintains its structure and function throughout life."
+      },
+      {
+        "stage": "Degradation",
+        "duration": "Variable",
+        "description": "Core degrades during aging or disease."
+      }
+    ]
   }
 }

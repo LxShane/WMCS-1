@@ -1,84 +1,150 @@
 {
-  "name": "Heliosphere",
-  "type": "PHYSICAL_OBJECT",
-  "id": {
-    "group": 23,
-    "item": 1004
-  },
-  "claims": [
-    {
-      "predicate": "LOCATED_AT",
-      "object": "The neighboring G-cloud",
-      "temporal": {
-        "valid_from": null,
-        "valid_until": null,
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.7,
-        "status": "HYPOTHETICAL",
-        "source_type": "ACADEMIC"
-      }
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 77
     },
-    {
-      "predicate": "CAPABLE_OF",
-      "object": "Being altered by the interstellar environment",
-      "temporal": {
-        "valid_from": null,
-        "valid_until": null,
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.6,
-        "status": "HYPOTHETICAL",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "DEFINED_AS",
-      "object": "The region of space surrounding the Sun that is influenced by the solar wind.",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    }
-  ],
-  "surface_layer": {
-    "definition": "The bubble-like region of space dominated by the Sun's magnetic field and solar wind.",
-    "common_uses": []
+    "name": "Heliosphere",
+    "type": "environment.astrophysical",
+    "definition": "The region of space dominated by the Sun's magnetic field and solar wind, extending far beyond the orbit of Pluto. It is the bubble-like region created in interstellar space by the outward flow of the solar wind."
   },
-  "deep_layer": {
-    "mechanism": "The heliosphere is formed by the interaction of the solar wind with the interstellar medium.",
-    "origin": "Result of the continuous outflow of plasma from the Sun."
+  "GROUNDING": {
+    "chain": [
+      "Solar wind emission",
+      "Interaction with interstellar medium"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Observations from spacecraft like Voyager 1 and 2, Ulysses, and IBEX have provided direct measurements of the heliosphere's boundaries, magnetic fields, particle populations, and interactions with the local interstellar medium. These measurements confirm the existence and properties of the heliosphere."
   },
-  "instance_layer": {
-    "examples": []
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Astrophysical Environment",
+      "Magnetosphere",
+      "Stellar Environment"
+    ],
+    "siblings": [
+      "Magnetosphere",
+      "Astrosphere",
+      "Bow Shock"
+    ]
   },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Plasma",
+              "ref": "Solar Wind"
+            },
+            {
+              "name": "Magnetic Field",
+              "ref": "Solar Magnetic Field"
+            }
+          ]
+        },
+        {
+          "depth": 1,
+          "name": "Minor",
+          "components": [
+            {
+              "name": "Energetic Particles",
+              "ref": "Cosmic Rays"
+            },
+            {
+              "name": "Neutral Atoms",
+              "ref": "Interstellar Neutral Atoms"
+            }
+          ]
+        }
+      ]
     }
   },
-  "epistemic_metadata": {
-    "source": "Multiple Scientific Articles",
-    "citations": [
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8166176/"
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 3000000000000000.0,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "Sun"
+      },
+      "parts": [
+        {
+          "name": "Inner Heliosphere",
+          "relative_to": "Sun",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Heliopause",
+          "relative_to": "Sun",
+          "position": {
+            "x": 1500000000000000.0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Bow Shock",
+          "relative_to": "Sun",
+          "position": {
+            "x": 2500000000000000.0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Solar Wind",
+      "Solar Magnetic Field"
+    ],
+    "produces": [
+      "Shielding from Interstellar Radiation",
+      "Regulation of Planetary Environments"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "Influenced by",
+        "target": "Interstellar Medium"
+      },
+      {
+        "relation": "Contains",
+        "target": "Solar System"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "Formation",
+        "description": "Forms continuously as the Sun emits solar wind."
+      },
+      {
+        "stage": "Interaction",
+        "description": "Interacts dynamically with the interstellar medium, shaping its boundaries."
+      },
+      {
+        "stage": "Evolution",
+        "description": "Evolves over solar cycles and longer timescales due to changes in solar activity and the interstellar environment."
+      }
     ]
   }
 }

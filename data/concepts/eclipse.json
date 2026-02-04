@@ -1,0 +1,154 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 876
+    },
+    "name": "Eclipse",
+    "type": "astronomical_event",
+    "definition": "An eclipse is an astronomical event that occurs when one celestial body obscures another. This can happen when a planet or moon passes between a star and another planet or moon, or when one celestial body casts a shadow on another."
+  },
+  "GROUNDING": {
+    "chain": [
+      "celestial mechanics",
+      "orbital dynamics",
+      "shadow formation"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "geometric"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Eclipses are predictable events based on well-established laws of physics and orbital mechanics. Observations of past eclipses and precise measurements of celestial body positions provide strong evidence."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "astronomy",
+      "celestial event",
+      "occultation"
+    ],
+    "siblings": [
+      "transit",
+      "occultation",
+      "syzygy"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Primary Objects",
+          "components": [
+            {
+              "name": "Sun",
+              "ref": "solar_star"
+            },
+            {
+              "name": "Earth",
+              "ref": "terrestrial_planet"
+            },
+            {
+              "name": "Moon",
+              "ref": "natural_satellite"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "linear alignment",
+        "size": {
+          "value": 150000000000.0,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "Earth"
+      },
+      "parts": [
+        {
+          "name": "Sun",
+          "relative_to": "Earth",
+          "position": {
+            "x": 15000000000000.0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Moon",
+          "relative_to": "Earth",
+          "position": {
+            "x": 38400000000.0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "alignment of celestial bodies",
+      "orbital mechanics"
+    ],
+    "produces": [
+      "shadow",
+      "decrease in light intensity",
+      "temperature change"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "orbits",
+        "subject": "Moon",
+        "object": "Earth"
+      },
+      {
+        "relation": "illuminates",
+        "subject": "Sun",
+        "object": "Earth"
+      },
+      {
+        "relation": "casts shadow on",
+        "subject": "Moon",
+        "object": "Earth during solar eclipse"
+      },
+      {
+        "relation": "casts shadow on",
+        "subject": "Earth",
+        "object": "Moon during lunar eclipse"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "Initiation",
+        "event": "Alignment begins"
+      },
+      {
+        "stage": "Partial Eclipse",
+        "event": "Celestial body partially obscured"
+      },
+      {
+        "stage": "Total Eclipse",
+        "event": "Celestial body fully obscured (if applicable)"
+      },
+      {
+        "stage": "Partial Eclipse",
+        "event": "Celestial body begins to emerge"
+      },
+      {
+        "stage": "Termination",
+        "event": "Alignment ends"
+      }
+    ]
+  }
+}

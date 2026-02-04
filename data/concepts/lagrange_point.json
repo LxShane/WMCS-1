@@ -1,0 +1,147 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 72
+    },
+    "name": "Lagrange Point",
+    "type": "celestial.orbital_region",
+    "definition": "A Lagrange point is a location in space where the gravitational forces of two large bodies, such as a star and a planet, balance each other. At these points, a smaller object, like a satellite, will tend to stay put relative to the two larger bodies."
+  },
+  "GROUNDING": {
+    "chain": [
+      "Newtonian gravity",
+      "Orbital mechanics",
+      "Perturbation theory"
+    ],
+    "base_types": [
+      "perceptual",
+      "mathematical"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Lagrange points are mathematically derived from the equations of motion under gravity. Their existence has been confirmed by the placement of numerous satellites at these points, demonstrating their stability or quasi-stability."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Physics",
+      "Astrophysics",
+      "Orbital Mechanics",
+      "Equilibrium Points"
+    ],
+    "siblings": [
+      "Equilibrium Point",
+      "Saddle Point",
+      "Gravitational Well"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Gravitational Field",
+              "ref": "Gravity"
+            },
+            {
+              "name": "Space-time Curvature",
+              "ref": "Spacetime"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 100000000000000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "Barycenter"
+      },
+      "parts": [
+        {
+          "name": "L1",
+          "relative_to": "Barycenter",
+          "position": {
+            "x": 1000000000,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "L2",
+          "relative_to": "Barycenter",
+          "position": {
+            "x": -1000000000,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "L3",
+          "relative_to": "Barycenter",
+          "position": {
+            "x": -1500000000,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "L4",
+          "relative_to": "Barycenter",
+          "position": {
+            "x": 500000000,
+            "y": 866000000,
+            "z": 0
+          }
+        },
+        {
+          "name": "L5",
+          "relative_to": "Barycenter",
+          "position": {
+            "x": 500000000,
+            "y": -866000000,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Two massive bodies with gravitational fields"
+    ],
+    "produces": [
+      "Regions of quasi-stable orbits",
+      "Accumulation of dust and debris",
+      "Locations for satellite placement"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "Affected by",
+        "target": "Gravitational forces of two massive bodies"
+      },
+      {
+        "relation": "Influences",
+        "target": "Orbital dynamics of small objects"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      "Formation during system formation",
+      "Continual existence as long as the two massive bodies exist",
+      "May shift position slightly due to orbital variations"
+    ]
+  }
+}

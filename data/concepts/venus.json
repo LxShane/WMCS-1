@@ -1,0 +1,158 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 789
+    },
+    "name": "Venus Flytrap",
+    "type": "organism.plant",
+    "definition": "The Venus flytrap (Dionaea muscipula) is a carnivorous plant native to subtropical wetlands on the East Coast of the United States in North Carolina and South Carolina. It catches its prey\u2014chiefly insects and arachnids\u2014with a trapping structure formed by the terminal portion of each of the plant's leaves, which is triggered by tiny hairs on their inner surfaces."
+  },
+  "GROUNDING": {
+    "chain": [
+      "observation",
+      "experimentation",
+      "taxonomy"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Extensive observation of morphology and behavior in natural habitats and controlled laboratory settings. Genetic analysis supports taxonomic classification."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Life",
+      "Eukaryotes",
+      "Plants",
+      "Tracheophytes",
+      "Angiosperms",
+      "Eudicots",
+      "Caryophyllales",
+      "Droseraceae",
+      "Dionaea",
+      "Dionaea muscipula"
+    ],
+    "siblings": [
+      "Other Droseraceae (sundews)"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Water",
+              "ref": "H2O"
+            },
+            {
+              "name": "Cellulose",
+              "ref": "C6H10O5"
+            },
+            {
+              "name": "Lignin",
+              "ref": "C9H10O2(OCH3)x(OH)y"
+            },
+            {
+              "name": "Proteins",
+              "ref": "amino_acid_chains"
+            },
+            {
+              "name": "Sugars",
+              "ref": "C6H12O6"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "rosette",
+        "size": {
+          "value": 15,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "root_base"
+      },
+      "parts": [
+        {
+          "name": "leaf",
+          "relative_to": "root_base",
+          "position": {
+            "x": 2,
+            "y": 5,
+            "z": 0
+          }
+        },
+        {
+          "name": "trap",
+          "relative_to": "leaf",
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 2
+          }
+        },
+        {
+          "name": "flower_stalk",
+          "relative_to": "root_base",
+          "position": {
+            "x": -3,
+            "y": 7,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "sunlight",
+      "water",
+      "nutrients (especially nitrogen from insects)",
+      "suitable soil"
+    ],
+    "produces": [
+      "energy (through photosynthesis)",
+      "offspring (through seeds)",
+      "captured insects"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "type": "symbiotic",
+        "target": "soil microbes",
+        "description": "Interactions with soil microbes help with nutrient absorption."
+      },
+      {
+        "type": "predatory",
+        "target": "insects",
+        "description": "Traps and digests insects for nutrients."
+      },
+      {
+        "type": "pollination",
+        "target": "insects",
+        "description": "Pollination by insects"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      "seed germination",
+      "vegetative growth",
+      "trap development",
+      "flowering",
+      "seed production",
+      "dormancy (in winter)"
+    ]
+  }
+}

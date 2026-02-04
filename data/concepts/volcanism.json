@@ -1,0 +1,180 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 723
+    },
+    "name": "Volcanism",
+    "type": "geological process",
+    "definition": "The phenomenon of eruption of molten rock (magma) onto the surface of the Earth or a solid-surface planet or moon, where lava, pyroclastics, and volcanic gases are discharged through a vent or fissure."
+  },
+  "GROUNDING": {
+    "chain": [
+      "magma generation",
+      "magma ascent",
+      "eruption",
+      "cooling/solidification"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "geophysical"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Observed volcanic eruptions, seismic data, geochemical analysis of volcanic rocks and gases, thermal measurements, satellite imagery, and geological mapping all provide strong evidence for volcanism."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "geology",
+      "geophysics",
+      "igneous processes",
+      "surface processes"
+    ],
+    "siblings": [
+      "plate tectonics",
+      "earthquakes",
+      "weathering",
+      "erosion"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Silicates",
+              "ref": "SiO2"
+            },
+            {
+              "name": "Aluminum Oxide",
+              "ref": "Al2O3"
+            },
+            {
+              "name": "Iron Oxide",
+              "ref": "FeO/Fe2O3"
+            },
+            {
+              "name": "Magnesium Oxide",
+              "ref": "MgO"
+            },
+            {
+              "name": "Calcium Oxide",
+              "ref": "CaO"
+            },
+            {
+              "name": "Sodium Oxide",
+              "ref": "Na2O"
+            },
+            {
+              "name": "Potassium Oxide",
+              "ref": "K2O"
+            },
+            {
+              "name": "Volcanic Gases",
+              "ref": "H2O, CO2, SO2"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 1000000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "magma chamber"
+      },
+      "parts": [
+        {
+          "name": "vent",
+          "relative_to": "magma chamber",
+          "position": {
+            "x": 0,
+            "y": 100000,
+            "z": 0
+          }
+        },
+        {
+          "name": "lava flow",
+          "relative_to": "vent",
+          "position": {
+            "x": 50000,
+            "y": -1000,
+            "z": 50000
+          }
+        },
+        {
+          "name": "pyroclastic cone",
+          "relative_to": "vent",
+          "position": {
+            "x": 10000,
+            "y": 20000,
+            "z": 10000
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "mantle convection",
+      "plate tectonics",
+      "magma generation",
+      "pressure release",
+      "density contrast"
+    ],
+    "produces": [
+      "lava flows",
+      "pyroclastic flows",
+      "ashfall",
+      "volcanic gases",
+      "volcanic landforms",
+      "changes in atmospheric composition"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "related to",
+        "target": "plate boundaries"
+      },
+      {
+        "relation": "influences",
+        "target": "climate"
+      },
+      {
+        "relation": "creates",
+        "target": "fertile soils"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "dormant",
+        "duration": "variable"
+      },
+      {
+        "stage": "pre-eruption",
+        "duration": "days to years"
+      },
+      {
+        "stage": "eruption",
+        "duration": "hours to years"
+      },
+      {
+        "stage": "post-eruption",
+        "duration": "years to millennia"
+      }
+    ]
+  }
+}

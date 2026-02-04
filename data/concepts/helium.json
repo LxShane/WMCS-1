@@ -1,42 +1,115 @@
 {
-  "name": "Helium",
-  "type": "INANIMATE_OBJECT",
-  "id": {
-    "group": 20,
-    "item": 1007
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 187
+    },
+    "name": "Helium",
+    "type": "chemical element",
+    "definition": "Helium is a chemical element with the symbol He and atomic number 2. It is a colorless, odorless, tasteless, non-toxic, inert, monatomic gas and the first in the noble gas group in the periodic table."
   },
-  "claims": [
-    {
-      "predicate": "MADE_OF",
-      "object": "Fusion",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 1.0,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
+  "GROUNDING": {
+    "chain": [
+      "identified in the Sun's spectrum",
+      "isolated on Earth",
+      "characterized by its properties"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "spectral"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Helium's existence was first inferred from spectral lines in the Sun's corona during a solar eclipse. It was later isolated on Earth and its properties, including its atomic mass, boiling point, and spectral lines, have been extensively measured and characterized using spectroscopic techniques."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "element",
+      "noble gas",
+      "group 18 element"
+    ],
+    "siblings": [
+      "Neon",
+      "Argon",
+      "Krypton",
+      "Xenon",
+      "Radon",
+      "Oganesson"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Elemental Composition",
+          "components": [
+            {
+              "name": "Helium",
+              "ref": "He"
+            }
+          ]
+        }
+      ]
     }
-  ],
-  "surface_layer": {
-    "definition": "A chemical element with the symbol He and atomic number 2.",
-    "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": null,
-    "origin": null
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "sphere",
+        "size": {
+          "value": 9.8e-08,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "nucleus"
+      },
+      "parts": [
+        {
+          "name": "electron cloud",
+          "relative_to": "nucleus",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
   },
-  "instance_layer": {
-    "examples": []
+  "CAUSATION": {
+    "requires": [
+      "nuclear fusion (in stars)",
+      "radioactive decay (on Earth)"
+    ],
+    "produces": [
+      "superfluidity (at low temperatures)",
+      "lift in balloons",
+      "cooling in MRI machines"
+    ]
   },
-  "facets": {},
-  "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "Nuclear Fusion Power"
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "used in",
+        "target": "cryogenics"
+      },
+      {
+        "relation": "component of",
+        "target": "stars"
+      },
+      {
+        "relation": "alternative to",
+        "target": "Hydrogen (in airships)"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      "produced in stars",
+      "dispersed into space",
+      "extracted from natural gas deposits (on Earth)"
     ]
   }
 }

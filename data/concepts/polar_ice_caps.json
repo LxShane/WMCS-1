@@ -1,0 +1,147 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 73
+    },
+    "name": "Polar Ice Caps",
+    "type": "geological.formation",
+    "definition": "Areas of landmass or ocean covered by ice near the North and South Poles, formed by accumulated snowfall and freezing temperatures over long periods."
+  },
+  "GROUNDING": {
+    "chain": [
+      "Satellite imagery of ice extent",
+      "Direct measurement of ice thickness and volume",
+      "Analysis of ice core samples"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "chemical"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Extensive satellite monitoring provides visual and quantitative data on ice cap extent. Ice core analysis reveals past climate conditions. Ground-based measurements validate satellite data and provide detailed information about ice thickness and composition."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Earth Science",
+      "Glaciology",
+      "Cryosphere"
+    ],
+    "siblings": [
+      "Glaciers",
+      "Ice Sheets",
+      "Permafrost",
+      "Sea Ice"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Water Ice (H2O)",
+              "ref": "H2O"
+            },
+            {
+              "name": "Air Bubbles",
+              "ref": "air"
+            },
+            {
+              "name": "Dust Particles",
+              "ref": "dust"
+            },
+            {
+              "name": "Salt",
+              "ref": "NaCl"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 10000000000000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "ice mass"
+      },
+      "parts": [
+        {
+          "name": "Ice Core",
+          "relative_to": "ice mass",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Surface Meltwater",
+          "relative_to": "ice mass",
+          "position": {
+            "x": 0,
+            "y": 1000,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Low Temperatures",
+      "High Precipitation (Snowfall)",
+      "Landmass or Ocean Surface"
+    ],
+    "produces": [
+      "Habitat for specialized organisms",
+      "Regulation of global sea levels",
+      "Reflection of solar radiation (albedo effect)",
+      "Storage of freshwater"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "affects",
+        "target": "Global Climate",
+        "description": "Ice caps influence global climate patterns through albedo and thermohaline circulation."
+      },
+      {
+        "relation": "is affected by",
+        "target": "Global Warming",
+        "description": "Increasing global temperatures cause ice caps to melt, contributing to sea-level rise."
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "Formation",
+        "process": "Accumulation of snow and ice over many years."
+      },
+      {
+        "stage": "Growth",
+        "process": "Continued accumulation of ice and expansion of the ice cap."
+      },
+      {
+        "stage": "Equilibrium",
+        "process": "Balance between accumulation and melting."
+      },
+      {
+        "stage": "Decline",
+        "process": "Increased melting due to rising temperatures, leading to shrinking size."
+      }
+    ]
+  }
+}

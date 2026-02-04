@@ -1,0 +1,158 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 734
+    },
+    "name": "Silicate Rock",
+    "type": "geological.rock",
+    "definition": "A rock primarily composed of silicate minerals, which are minerals containing silicon and oxygen, typically combined with other elements."
+  },
+  "GROUNDING": {
+    "chain": [
+      "observation",
+      "chemical analysis",
+      "mineral identification"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "chemical"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Silicate rocks are readily observable and identifiable through macroscopic and microscopic examination. Chemical analysis confirms the high concentration of silicon and oxygen. Mineral identification techniques (e.g., X-ray diffraction) reveal the specific silicate minerals present."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Rock",
+      "Igneous/Sedimentary/Metamorphic",
+      "Silicate Rock"
+    ],
+    "siblings": [
+      "Carbonate Rock",
+      "Igneous Rock",
+      "Sedimentary Rock",
+      "Metamorphic Rock"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Silicon Dioxide",
+              "ref": "SiO2"
+            },
+            {
+              "name": "Aluminum Oxide",
+              "ref": "Al2O3"
+            },
+            {
+              "name": "Iron Oxide",
+              "ref": "FeO/Fe2O3"
+            },
+            {
+              "name": "Magnesium Oxide",
+              "ref": "MgO"
+            },
+            {
+              "name": "Calcium Oxide",
+              "ref": "CaO"
+            },
+            {
+              "name": "Sodium Oxide",
+              "ref": "Na2O"
+            },
+            {
+              "name": "Potassium Oxide",
+              "ref": "K2O"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 25,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "core"
+      },
+      "parts": [
+        {
+          "name": "quartz grain",
+          "relative_to": "core",
+          "position": {
+            "x": 3,
+            "y": 1,
+            "z": -2
+          }
+        },
+        {
+          "name": "feldspar crystal",
+          "relative_to": "core",
+          "position": {
+            "x": -5,
+            "y": 2,
+            "z": 1
+          }
+        },
+        {
+          "name": "mica flake",
+          "relative_to": "core",
+          "position": {
+            "x": 1,
+            "y": -3,
+            "z": 4
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "silicate minerals",
+      "geological processes (e.g., volcanism, sedimentation, metamorphism)"
+    ],
+    "produces": [
+      "soil",
+      "sediment",
+      "building materials",
+      "mineral resources"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "forms",
+        "target": "mountains"
+      },
+      {
+        "relation": "underlies",
+        "target": "soil"
+      },
+      {
+        "relation": "source of",
+        "target": "silicon"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      "formation (millions/billions of years)",
+      "weathering and erosion (variable)",
+      "sedimentation (variable)",
+      "lithification (variable)",
+      "metamorphism (variable)"
+    ]
+  }
+}

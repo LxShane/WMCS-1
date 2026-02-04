@@ -1,0 +1,145 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 764
+    },
+    "name": "Enceladus",
+    "type": "celestial.satellite.moon",
+    "definition": "Enceladus is the sixth-largest moon of Saturn. It is primarily composed of ice and rock, and is known for its cryovolcanic activity, particularly the water vapor and ice particles ejected from its south polar region."
+  },
+  "GROUNDING": {
+    "chain": [
+      "observed by telescopes",
+      "Cassini mission data analysis"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "spectral"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Multiple observations by telescopes, including Hubble, and extensive data collected by the Cassini spacecraft, including images, spectral analyses, and gravitational measurements, confirm its composition, size, and geological activity."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Solar System",
+      "Saturnian moon",
+      "Mid-sized moon",
+      "Icy moon"
+    ],
+    "siblings": [
+      "Mimas",
+      "Tethys",
+      "Dione",
+      "Rhea",
+      "Titan",
+      "Iapetus"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Water Ice",
+              "ref": "H2O"
+            },
+            {
+              "name": "Silicates",
+              "ref": "SiO2"
+            }
+          ]
+        },
+        {
+          "depth": 1,
+          "name": "Minor",
+          "components": [
+            {
+              "name": "Ammonia",
+              "ref": "NH3"
+            },
+            {
+              "name": "Methane",
+              "ref": "CH4"
+            },
+            {
+              "name": "Sodium Chloride",
+              "ref": "NaCl"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "sphere",
+        "size": {
+          "value": 504000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "core"
+      },
+      "parts": [
+        {
+          "name": "South Polar Region",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": -252000,
+            "z": 0
+          }
+        },
+        {
+          "name": "Global Ocean",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Icy Crust",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Saturn's tidal forces",
+      "Internal heating mechanisms (e.g., radiogenic decay)"
+    ],
+    "produces": [
+      "Cryovolcanism",
+      "E-ring of Saturn",
+      "Subsurface ocean"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      "Orbital resonance with Dione",
+      "Source of Saturn's E-ring"
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      "Formation from Saturn's protoplanetary disk",
+      "Ongoing cryovolcanic activity",
+      "Tidal locking with Saturn"
+    ]
+  }
+}

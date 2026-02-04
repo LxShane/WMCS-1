@@ -1,0 +1,109 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 723
+    },
+    "name": "Escape Velocity",
+    "type": "physical.phenomenon",
+    "definition": "The minimum speed required for an object to escape the gravitational influence of a massive body, such as a planet or star, without further propulsion."
+  },
+  "GROUNDING": {
+    "chain": [
+      "Gravitational potential energy calculation",
+      "Kinetic energy calculation",
+      "Equating energies to find minimum velocity"
+    ],
+    "base_types": [
+      "measurement",
+      "mathematical"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Escape velocity is derived from fundamental physics principles (conservation of energy) and has been empirically verified through countless space missions."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Physics",
+      "Mechanics",
+      "Orbital Mechanics"
+    ],
+    "siblings": [
+      "Orbital Velocity",
+      "Delta-v",
+      "Gravitational Binding Energy"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Factors",
+          "components": [
+            {
+              "name": "Gravitational Constant",
+              "ref": "G"
+            },
+            {
+              "name": "Mass of Central Body",
+              "ref": "M"
+            },
+            {
+              "name": "Distance from Center of Body",
+              "ref": "r"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "scalar",
+        "size": {
+          "value": 0,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "N/A"
+      },
+      "parts": []
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Gravitational Field",
+      "Kinetic Energy exceeding Potential Energy"
+    ],
+    "produces": [
+      "Object Escaping Gravitational Field",
+      "Change in Orbital Trajectory"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "Determines",
+        "target": "Trajectory of object in gravitational field"
+      },
+      {
+        "relation": "Influenced by",
+        "target": "Mass of central body"
+      },
+      {
+        "relation": "Influenced by",
+        "target": "Distance from central body"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "Instantaneous",
+        "description": "Represents the velocity at a specific instant."
+      }
+    ]
+  }
+}

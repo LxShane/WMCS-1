@@ -1,0 +1,141 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 67
+    },
+    "name": "Ceres",
+    "type": "celestial.dwarf_planet",
+    "definition": "Ceres is the smallest dwarf planet in our solar system, located in the asteroid belt between Mars and Jupiter. It is composed of rock, ice, and salts."
+  },
+  "GROUNDING": {
+    "chain": [
+      "telescopic observation",
+      "spectroscopic analysis",
+      "spacecraft exploration (Dawn mission)"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "spectral"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Multiple independent observations from Earth-based telescopes, combined with data from the Dawn spacecraft, provide high-resolution images, chemical compositions, and measurements of Ceres's physical properties."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Solar System object",
+      "Asteroid belt object",
+      "Dwarf planet"
+    ],
+    "siblings": [
+      "Pluto",
+      "Eris",
+      "Haumea",
+      "Makemake"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Water Ice",
+              "ref": "H2O"
+            },
+            {
+              "name": "Silicates",
+              "ref": "SiO2"
+            },
+            {
+              "name": "Carbonates",
+              "ref": "CO3"
+            },
+            {
+              "name": "Ammonium Chloride",
+              "ref": "NH4Cl"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "sphere",
+        "size": {
+          "value": 94600000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "core"
+      },
+      "parts": [
+        {
+          "name": "Occator Crater",
+          "relative_to": "core",
+          "position": {
+            "x": 20000000,
+            "y": 20000000,
+            "z": 20000000
+          }
+        },
+        {
+          "name": "Ahuna Mons",
+          "relative_to": "core",
+          "position": {
+            "x": -10000000,
+            "y": -10000000,
+            "z": -10000000
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "gravitational accretion",
+      "planetary differentiation"
+    ],
+    "produces": [
+      "water ice deposits",
+      "cryovolcanism (Ahuna Mons)",
+      "bright salt deposits (Occator Crater)"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "orbital resonance",
+        "target": "Jupiter (indirectly)",
+        "description": "Shares the asteroid belt with other objects influenced by Jupiter's gravity."
+      },
+      {
+        "relation": "impact cratering",
+        "target": "asteroids",
+        "description": "Surface is heavily cratered due to impacts from other asteroids."
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "formation",
+        "description": "Accreted from planetesimals in the early solar system."
+      },
+      {
+        "stage": "differentiation",
+        "description": "Differentiated into a rocky core and icy mantle."
+      },
+      {
+        "stage": "present",
+        "description": "Current state as a dwarf planet in the asteroid belt."
+      }
+    ]
+  }
+}

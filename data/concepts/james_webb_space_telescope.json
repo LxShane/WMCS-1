@@ -1,37 +1,170 @@
 {
-  "name": "James Webb Space Telescope",
-  "type": "INANIMATE_OBJECT",
-  "id": {
-    "group": 30,
-    "item": 1005
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 72
+    },
+    "name": "James Webb Space Telescope",
+    "type": "artifact.instrument.telescope",
+    "definition": "The James Webb Space Telescope (JWST) is a space telescope designed primarily for infrared astronomy. As the largest optical telescope in space, its greatly improved infrared resolution and sensitivity allow it to view objects too old, distant, or faint for the Hubble Space Telescope."
   },
-  "claims": [
-    {
-      "predicate": "CAPABLE_OF",
-      "object": "Observing Cosmos",
-      "temporal": {
-        "valid_from": null,
-        "valid_until": null,
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "WEB"
-      }
+  "GROUNDING": {
+    "chain": [
+      "Electromagnetic radiation detection",
+      "Signal processing",
+      "Image reconstruction"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "JWST directly measures infrared radiation emitted by celestial objects. Data is processed to create images and spectra, which are then analyzed by scientists. Multiple peer-reviewed publications confirm its performance."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Astronomy",
+      "Space Exploration",
+      "Telescopes",
+      "Infrared Telescopes"
+    ],
+    "siblings": [
+      "Hubble Space Telescope",
+      "Spitzer Space Telescope",
+      "Nancy Grace Roman Space Telescope"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Beryllium",
+              "ref": "primary mirror substrate"
+            },
+            {
+              "name": "Gold",
+              "ref": "primary mirror coating"
+            },
+            {
+              "name": "Silicon",
+              "ref": "detectors"
+            },
+            {
+              "name": "Aluminum",
+              "ref": "structural components"
+            },
+            {
+              "name": "Kapton",
+              "ref": "sunshield layers"
+            }
+          ]
+        }
+      ]
     }
-  ],
-  "surface_layer": {
-    "definition": "A space telescope designed for infrared astronomy.",
-    "common_uses": []
   },
-  "deep_layer": {},
-  "instance_layer": [],
-  "facets": {},
-  "epistemic_metadata": {
-    "source": "The James Webb Space Telescope | Page 18 \u2022 Physics Forums",
-    "citations": [
-      "Page 18"
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 2000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "primary mirror"
+      },
+      "parts": [
+        {
+          "name": "Primary Mirror",
+          "relative_to": "center",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Sunshield",
+          "relative_to": "primary mirror",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": -200
+          }
+        },
+        {
+          "name": "NIRCam",
+          "relative_to": "primary mirror",
+          "position": {
+            "x": 100,
+            "y": 50,
+            "z": 50
+          }
+        },
+        {
+          "name": "Mid-Infrared Instrument (MIRI)",
+          "relative_to": "primary mirror",
+          "position": {
+            "x": -100,
+            "y": -50,
+            "z": 50
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Functional primary mirror",
+      "Operational detectors",
+      "Stable power supply",
+      "Functional communication system"
+    ],
+    "produces": [
+      "High-resolution infrared images",
+      "Spectroscopic data",
+      "Data for scientific analysis"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "Designed by",
+        "target": "NASA, ESA, CSA"
+      },
+      {
+        "relation": "Launched by",
+        "target": "Arianespace"
+      },
+      {
+        "relation": "Observes",
+        "target": "Distant galaxies, exoplanets, nebulae"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "Design",
+        "duration": "1996-2004"
+      },
+      {
+        "stage": "Construction",
+        "duration": "2004-2021"
+      },
+      {
+        "stage": "Launch",
+        "duration": "2021"
+      },
+      {
+        "stage": "Operation",
+        "duration": "2022-Present"
+      }
     ]
   }
 }

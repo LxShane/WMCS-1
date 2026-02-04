@@ -1,0 +1,148 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 873
+    },
+    "name": "Aurora",
+    "type": "atmospheric.optical_phenomenon",
+    "definition": "A natural light display in the sky, predominantly seen in the high-latitude regions (around the Arctic and Antarctic)."
+  },
+  "GROUNDING": {
+    "chain": [
+      "solar activity",
+      "magnetospheric disturbance",
+      "ionization/excitation of atmospheric constituents",
+      "photon emission"
+    ],
+    "base_types": [
+      "perceptual",
+      "electromagnetic",
+      "particle"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Observations and measurements of solar flares and coronal mass ejections correlate with aurora occurrence. Satellite data confirms the presence of charged particles entering the atmosphere during auroral events. Spectroscopic analysis identifies the elements responsible for the colors in auroras."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "natural phenomenon",
+      "atmospheric phenomenon",
+      "optical phenomenon"
+    ],
+    "siblings": [
+      "airglow",
+      "lightning",
+      "rainbow"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Nitrogen",
+              "ref": "N2"
+            },
+            {
+              "name": "Oxygen",
+              "ref": "O2"
+            },
+            {
+              "name": "Atomic Oxygen",
+              "ref": "O"
+            },
+            {
+              "name": "Electrons",
+              "ref": "e-"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 1000000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "Earth's magnetic field lines"
+      },
+      "parts": [
+        {
+          "name": "Auroral Arc",
+          "relative_to": "Earth's magnetic field lines",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 100000
+          }
+        },
+        {
+          "name": "Auroral Curtain",
+          "relative_to": "Earth's magnetic field lines",
+          "position": {
+            "x": 50000,
+            "y": 0,
+            "z": 120000
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "solar wind",
+      "Earth's magnetic field",
+      "atmosphere"
+    ],
+    "produces": [
+      "light emission",
+      "ionospheric heating",
+      "radio wave disturbances"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "caused by",
+        "target": "solar flare"
+      },
+      {
+        "relation": "influenced by",
+        "target": "geomagnetic storms"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "initiation",
+        "event": "solar activity increases"
+      },
+      {
+        "stage": "propagation",
+        "event": "charged particles travel to Earth"
+      },
+      {
+        "stage": "interaction",
+        "event": "particles collide with atmospheric gases"
+      },
+      {
+        "stage": "emission",
+        "event": "light is emitted"
+      },
+      {
+        "stage": "dissipation",
+        "event": "solar activity decreases"
+      }
+    ]
+  }
+}

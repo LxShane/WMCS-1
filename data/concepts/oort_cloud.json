@@ -1,0 +1,131 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 789
+    },
+    "name": "Oort Cloud",
+    "type": "celestial.stellar_structure",
+    "definition": "A theoretical spherical cloud of icy planetesimals that is hypothesized to surround the Sun at distances ranging from 2,000 to 200,000 astronomical units (AU). It is believed to be the source of long-period comets."
+  },
+  "GROUNDING": {
+    "chain": [
+      "Telescopic observations of cometary orbits",
+      "Mathematical modeling of solar system formation",
+      "Statistical analysis of comet trajectories"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "theoretical"
+    ],
+    "confidence": 0.9,
+    "evidence_summary": "The Oort Cloud is a theoretical construct, its existence is inferred from the observed distribution of long-period comets and models of solar system formation. Direct observation is currently impossible due to the vast distances involved."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Solar System",
+      "Circumstellar Disk",
+      "Cometary Reservoir"
+    ],
+    "siblings": [
+      "Kuiper Belt",
+      "Scattered Disc"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Water Ice",
+              "ref": "H2O"
+            },
+            {
+              "name": "Methane Ice",
+              "ref": "CH4"
+            },
+            {
+              "name": "Ammonia Ice",
+              "ref": "NH3"
+            },
+            {
+              "name": "Dust",
+              "ref": "SiO2"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "sphere",
+        "size": {
+          "value": 1.89e+18,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "Sun"
+      },
+      "parts": [
+        {
+          "name": "Inner Oort Cloud",
+          "relative_to": "Sun",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Outer Oort Cloud",
+          "relative_to": "Sun",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Formation of the Solar System",
+      "Gravitational interactions with giant planets"
+    ],
+    "produces": [
+      "Long-period comets",
+      "Potential impact events in the inner Solar System"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "target": "Sun",
+        "relation": "orbit"
+      },
+      {
+        "target": "Kuiper Belt",
+        "relation": "outer boundary"
+      },
+      {
+        "target": "Comets",
+        "relation": "source"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      "Formation during the early stages of the solar system",
+      "Continuous depletion due to gravitational perturbations",
+      "Possible replenishment from interstellar space"
+    ]
+  }
+}

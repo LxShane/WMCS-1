@@ -1,0 +1,143 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 723
+    },
+    "name": "Jupiter",
+    "type": "celestial.planet.gas_giant",
+    "definition": "The largest planet in the Solar System, a gas giant composed primarily of hydrogen and helium."
+  },
+  "GROUNDING": {
+    "chain": [
+      "observed via telescope",
+      "probed by spacecraft"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "spectral_analysis"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Extensive telescopic observations, data from the Galileo and Juno spacecraft, and spectral analysis confirm its size, composition, and atmospheric properties."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "celestial body",
+      "planet",
+      "gas giant"
+    ],
+    "siblings": [
+      "Saturn",
+      "Uranus",
+      "Neptune"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Hydrogen",
+              "ref": "H2"
+            },
+            {
+              "name": "Helium",
+              "ref": "He"
+            }
+          ]
+        },
+        {
+          "depth": 1,
+          "name": "Minor",
+          "components": [
+            {
+              "name": "Methane",
+              "ref": "CH4"
+            },
+            {
+              "name": "Ammonia",
+              "ref": "NH3"
+            },
+            {
+              "name": "Water",
+              "ref": "H2O"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "oblate spheroid",
+        "size": {
+          "value": 14298400,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "core"
+      },
+      "parts": [
+        {
+          "name": "Great Red Spot",
+          "relative_to": "surface",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Atmosphere",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 6500000
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "gravitational accretion",
+      "solar nebula"
+    ],
+    "produces": [
+      "magnetosphere",
+      "planetary rings",
+      "orbital influence on asteroids"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "orbits",
+        "target": "Sun"
+      },
+      {
+        "relation": "has moons",
+        "target": "Io, Europa, Ganymede, Callisto"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "formation",
+        "time": "4.5 billion years ago"
+      },
+      {
+        "stage": "current state",
+        "time": "present"
+      }
+    ]
+  }
+}

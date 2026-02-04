@@ -1,94 +1,149 @@
 {
-  "name": "Corona",
-  "type": "LOCATION",
-  "id": {
-    "group": 39,
-    "item": 1003
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 72
+    },
+    "name": "Corona",
+    "type": "organism.virus",
+    "definition": "A genus of viruses in the family Coronaviridae, characterized by a distinctive crown-like (corona) appearance due to the presence of spike glycoproteins on their surface. These viruses are known to cause respiratory and enteric diseases in mammals and birds."
   },
-  "claims": [
-    {
-      "predicate": "DEPENDS_ON",
-      "object": "Voltage difference between electrode and grounded plate",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "DEPENDS_ON",
-      "object": "Shape",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "DEPENDS_ON",
-      "object": "Size",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IS_A",
-      "object": "Regional Activity Center",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "LOCATED_AT",
-      "object": "California",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
+  "GROUNDING": {
+    "chain": [
+      "electron microscopy observation",
+      "genome sequencing",
+      "cell culture isolation"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "genetic"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Coronaviruses are visualized via electron microscopy, revealing their characteristic 'corona'. Genetic sequencing confirms their classification and evolutionary relationships. Cell culture allows for in vitro study of viral replication and pathogenesis."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Virus",
+      "Riboviria",
+      "Nidovirales",
+      "Cornidovirineae",
+      "Coronaviridae",
+      "Orthocoronavirinae",
+      "Betacoronavirus"
+    ],
+    "siblings": [
+      "Alphacoronavirus",
+      "Gammacoronavirus",
+      "Deltacoronavirus"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "RNA",
+              "ref": "single-stranded RNA genome"
+            },
+            {
+              "name": "Proteins",
+              "ref": "spike (S), envelope (E), membrane (M), nucleocapsid (N)"
+            },
+            {
+              "name": "Lipids",
+              "ref": "phospholipid bilayer envelope"
+            }
+          ]
+        }
+      ]
     }
-  ],
-  "surface_layer": {
-    "definition": "A regional activity center.",
-    "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": null,
-    "origin": null
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "sphere",
+        "size": {
+          "value": 0.00012,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "core"
+      },
+      "parts": [
+        {
+          "name": "spike proteins",
+          "relative_to": "envelope",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "RNA genome",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
   },
-  "instance_layer": [],
-  "facets": {},
-  "epistemic_metadata": {
-    "source": "PDF Regional Express Lane Network Concept of Operations, June 2022",
-    "citations": []
+  "CAUSATION": {
+    "requires": [
+      "host cell receptor",
+      "suitable environmental conditions",
+      "viral RNA polymerase"
+    ],
+    "produces": [
+      "viral replication",
+      "host cell damage",
+      "immune response"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "binds_to",
+        "target": "ACE2 receptor",
+        "type": "protein-protein interaction"
+      },
+      {
+        "relation": "infects",
+        "target": "epithelial cells",
+        "type": "tissue tropism"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "attachment",
+        "duration": "minutes"
+      },
+      {
+        "stage": "entry",
+        "duration": "minutes"
+      },
+      {
+        "stage": "replication",
+        "duration": "hours"
+      },
+      {
+        "stage": "assembly",
+        "duration": "hours"
+      },
+      {
+        "stage": "release",
+        "duration": "hours"
+      }
+    ]
   }
 }

@@ -1,0 +1,130 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 872
+    },
+    "name": "Deimos",
+    "type": "celestial.satellite",
+    "definition": "Deimos is the smaller and outermost of the two natural satellites of Mars. It is an irregularly shaped object with a heavily cratered surface, composed of rock rich in carbonaceous material."
+  },
+  "GROUNDING": {
+    "chain": [
+      "observation",
+      "imaging",
+      "spectroscopy",
+      "orbital mechanics"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "spectral"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "High-resolution images from Mars orbiters (e.g., Viking, Mars Global Surveyor, Mars Reconnaissance Orbiter) provide detailed surface characteristics. Spectral data indicates a composition similar to carbonaceous chondrite asteroids. Orbital parameters are precisely known."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "celestial object",
+      "natural satellite",
+      "Martian satellite"
+    ],
+    "siblings": [
+      "Phobos"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Carbonaceous Chondrite Material",
+              "ref": "carbonaceous_chondrite"
+            },
+            {
+              "name": "Silicates",
+              "ref": "silicates"
+            },
+            {
+              "name": "Ices (trace)",
+              "ref": "ices"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 15000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "core"
+      },
+      "parts": [
+        {
+          "name": "crater_Swift",
+          "relative_to": "core",
+          "position": {
+            "x": 5000,
+            "y": 2000,
+            "z": 1000
+          }
+        },
+        {
+          "name": "crater_Voltaire",
+          "relative_to": "core",
+          "position": {
+            "x": -3000,
+            "y": -4000,
+            "z": 2000
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "gravitational capture by Mars",
+      "accretion"
+    ],
+    "produces": [
+      "tidal forces on Mars (minimal)",
+      "influence on Martian ring system (if any)"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "orbits",
+        "target": "Mars"
+      },
+      {
+        "relation": "tidally locked",
+        "target": "Mars"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "formation",
+        "process": "accretion from Martian protoplanetary disk or capture of asteroid",
+        "duration": "unknown"
+      },
+      {
+        "stage": "orbital evolution",
+        "process": "tidal interactions with Mars",
+        "duration": "ongoing"
+      }
+    ]
+  }
+}

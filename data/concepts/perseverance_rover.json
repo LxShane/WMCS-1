@@ -1,0 +1,170 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 789
+    },
+    "name": "Perseverance Rover",
+    "type": "artifact.robotic_vehicle.rover",
+    "definition": "A robotic Mars rover designed to explore Jezero Crater on Mars as part of NASA's Mars 2020 mission, seeking signs of past microbial life, collecting samples, and paving the way for future human exploration."
+  },
+  "GROUNDING": {
+    "chain": [
+      "Images captured by Perseverance's cameras",
+      "Telemetry data from Perseverance's sensors and instruments",
+      "Scientific analysis of data collected by Perseverance's instruments"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "simulation"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Extensive visual and sensor data directly from the rover, corroborated by engineering models and scientific understanding of Martian environment and robotic vehicle behavior."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Artifact",
+      "Robotic Vehicle",
+      "Rover",
+      "Mars Rover",
+      "Perseverance Rover"
+    ],
+    "siblings": [
+      "Curiosity Rover",
+      "Opportunity Rover",
+      "Sojourner Rover",
+      "Spirit Rover"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Aluminum Alloy",
+              "ref": "Aluminum"
+            },
+            {
+              "name": "Titanium Alloy",
+              "ref": "Titanium"
+            },
+            {
+              "name": "Steel",
+              "ref": "Steel"
+            },
+            {
+              "name": "Electronics",
+              "ref": "Electronics"
+            },
+            {
+              "name": "Radioisotope Thermoelectric Generator (RTG)",
+              "ref": "RTG"
+            },
+            {
+              "name": "Sampling System Components",
+              "ref": "SamplingSystem"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 300,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "chassis"
+      },
+      "parts": [
+        {
+          "name": "Mastcam-Z",
+          "relative_to": "chassis",
+          "position": {
+            "x": 0,
+            "y": 150,
+            "z": 0
+          }
+        },
+        {
+          "name": "SuperCam",
+          "relative_to": "chassis",
+          "position": {
+            "x": 50,
+            "y": 130,
+            "z": 0
+          }
+        },
+        {
+          "name": "Wheel (x6)",
+          "relative_to": "chassis",
+          "position": {
+            "x": 0,
+            "y": -50,
+            "z": 80
+          }
+        },
+        {
+          "name": "Robotic Arm",
+          "relative_to": "chassis",
+          "position": {
+            "x": -80,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "MOXIE",
+          "relative_to": "chassis",
+          "position": {
+            "x": 20,
+            "y": -20,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Power (RTG)",
+      "Software",
+      "Communication with Earth",
+      "Operational Commands"
+    ],
+    "produces": [
+      "Martian rock and soil samples",
+      "Atmospheric data",
+      "Images and videos of Mars",
+      "Data on Martian geology and environment",
+      "Potential oxygen production (MOXIE)"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      "Communicates with Earth via satellites",
+      "Analyzes samples with onboard instruments",
+      "Traverses Martian terrain",
+      "Collects and stores samples for future retrieval"
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      "Launch from Earth",
+      "Travel to Mars",
+      "Landing on Mars",
+      "Exploration and sample collection (primary mission)",
+      "Extended mission (if applicable)",
+      "Decommissioning (end of mission)"
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 789
+    },
+    "name": "Solar Flare",
+    "type": "phenomenon.astrophysical",
+    "definition": "A sudden release of energy from the Sun's surface, typically observed as a brightening in X-rays and optical light."
+  },
+  "GROUNDING": {
+    "chain": [
+      "observation of electromagnetic radiation",
+      "measurement of energy release"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Solar flares are routinely observed and measured by ground-based and space-based telescopes. Their energy output and spectral characteristics are well-documented."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "astronomical phenomenon",
+      "solar activity",
+      "magnetic reconnection event"
+    ],
+    "siblings": [
+      "coronal mass ejection",
+      "solar prominence",
+      "sunspot"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Plasma",
+              "ref": "ionized gas"
+            },
+            {
+              "name": "Electromagnetic Radiation",
+              "ref": "photons across the spectrum"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 100000000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "source region on the Sun"
+      },
+      "parts": [
+        {
+          "name": "hot plasma loops",
+          "relative_to": "source region on the Sun",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "magnetic field lines",
+          "relative_to": "source region on the Sun",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "strong magnetic fields",
+      "magnetic reconnection"
+    ],
+    "produces": [
+      "increased X-ray flux",
+      "particle acceleration",
+      "radio emissions"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "causes",
+        "target": "coronal mass ejection (CME)",
+        "description": "Solar flares are often associated with CMEs."
+      },
+      {
+        "relation": "affected by",
+        "target": "sunspots",
+        "description": "Flares often originate near sunspots."
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "Initiation",
+        "duration": "seconds",
+        "description": "Magnetic reconnection triggers energy release."
+      },
+      {
+        "stage": "Peak",
+        "duration": "minutes",
+        "description": "Maximum energy output and brightness."
+      },
+      {
+        "stage": "Decay",
+        "duration": "hours",
+        "description": "Gradual decrease in energy output."
+      }
+    ]
+  }
+}

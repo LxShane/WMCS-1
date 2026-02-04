@@ -1,0 +1,170 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 723
+    },
+    "name": "Curiosity Rover",
+    "type": "artifact.robotic_vehicle.planetary_rover",
+    "definition": "The Curiosity rover is a car-sized robotic rover exploring Gale Crater on Mars as part of NASA's Mars Science Laboratory (MSL) mission."
+  },
+  "GROUNDING": {
+    "chain": [
+      "remote sensing",
+      "data analysis"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Data collected from Curiosity's instruments, including cameras, spectrometers, and environmental sensors, provide direct evidence of its existence, location, and activities on Mars. Independent verification through orbital imagery and mission telemetry corroborates this evidence."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "artifact",
+      "vehicle",
+      "robotic vehicle",
+      "planetary rover",
+      "Mars rover"
+    ],
+    "siblings": [
+      "Sojourner rover",
+      "Opportunity rover",
+      "Spirit rover",
+      "Perseverance rover"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Aluminum",
+              "ref": "element.aluminum"
+            },
+            {
+              "name": "Titanium",
+              "ref": "element.titanium"
+            },
+            {
+              "name": "Steel",
+              "ref": "alloy.steel"
+            },
+            {
+              "name": "Electronics",
+              "ref": "component.electronics"
+            },
+            {
+              "name": "Radioisotope Thermoelectric Generator (RTG)",
+              "ref": "device.rtg"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 300,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "chassis"
+      },
+      "parts": [
+        {
+          "name": "Mast",
+          "relative_to": "chassis",
+          "position": {
+            "x": 0,
+            "y": 150,
+            "z": 0
+          }
+        },
+        {
+          "name": "Wheels (6)",
+          "relative_to": "chassis",
+          "position": {
+            "x": 0,
+            "y": -50,
+            "z": 0
+          }
+        },
+        {
+          "name": "Radioisotope Thermoelectric Generator (RTG)",
+          "relative_to": "chassis",
+          "position": {
+            "x": 100,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Robotic Arm",
+          "relative_to": "chassis",
+          "position": {
+            "x": -50,
+            "y": 0,
+            "z": 50
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "electrical power",
+      "software control",
+      "telemetry communication"
+    ],
+    "produces": [
+      "scientific data",
+      "images of Mars",
+      "chemical analysis",
+      "environmental measurements"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "type": "communication",
+        "target": "NASA Deep Space Network",
+        "description": "Relays data and receives commands."
+      },
+      {
+        "type": "powered by",
+        "target": "Radioisotope Thermoelectric Generator (RTG)",
+        "description": "Provides electrical power for rover operations."
+      },
+      {
+        "type": "operated by",
+        "target": "NASA/JPL",
+        "description": "Earth-based team responsible for mission control."
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "Launch",
+        "date": "November 26, 2011"
+      },
+      {
+        "stage": "Landing",
+        "date": "August 6, 2012"
+      },
+      {
+        "stage": "Operational",
+        "date": "August 6, 2012 - Present"
+      }
+    ]
+  }
+}

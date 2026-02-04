@@ -1,0 +1,140 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 732
+    },
+    "name": "Magnetosphere",
+    "type": "phenomenon.astrophysical",
+    "definition": "The region of space surrounding a planet or other celestial body in which its magnetic field is the dominant effective magnetic field."
+  },
+  "GROUNDING": {
+    "chain": [
+      "Magnetic field measurement",
+      "Plasma detection",
+      "Spacecraft observation"
+    ],
+    "base_types": [
+      "measurement",
+      "perceptual"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Magnetosphere's existence and properties are confirmed through extensive in-situ measurements by spacecraft, remote sensing observations of auroras, and theoretical models validated by empirical data."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Physics",
+      "Plasma Physics",
+      "Space Physics"
+    ],
+    "siblings": [
+      "Bow shock",
+      "Magnetosheath",
+      "Radiation belts"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Plasma",
+              "ref": "ionized gas"
+            },
+            {
+              "name": "Magnetic Field Lines",
+              "ref": "magnetic field"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 1000000000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "planet"
+      },
+      "parts": [
+        {
+          "name": "Bow Shock",
+          "relative_to": "planet",
+          "position": {
+            "x": 100000000,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Magnetopause",
+          "relative_to": "planet",
+          "position": {
+            "x": 500000000,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Magnetotail",
+          "relative_to": "planet",
+          "position": {
+            "x": -1000000000,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Planetary magnetic field",
+      "Solar wind"
+    ],
+    "produces": [
+      "Auroras",
+      "Radiation belts",
+      "Space weather"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "shields",
+        "target": "Planet",
+        "description": "Shields the planet from harmful solar wind particles."
+      },
+      {
+        "relation": "interacts with",
+        "target": "Solar wind",
+        "description": "Interacts with the solar wind, shaping its structure."
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "Formation",
+        "description": "Forms due to the interaction of the planetary magnetic field and the solar wind."
+      },
+      {
+        "stage": "Dynamics",
+        "description": "Continuously changes shape and size due to variations in the solar wind."
+      },
+      {
+        "stage": "Dissipation",
+        "description": "May weaken or disappear if the planetary magnetic field weakens."
+      }
+    ]
+  }
+}

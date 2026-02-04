@@ -1,0 +1,138 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 772
+    },
+    "name": "Great Red Spot",
+    "type": "atmospheric phenomenon",
+    "definition": "A persistent high-pressure region in the atmosphere of Jupiter, producing an anticyclonic storm."
+  },
+  "GROUNDING": {
+    "chain": [
+      "Observation through telescopes",
+      "Spectroscopic analysis of atmospheric composition",
+      "Mathematical modeling of Jovian atmosphere"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "simulation"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "The Great Red Spot has been observed for centuries. Its atmospheric composition and behavior have been studied extensively through telescopes and spacecraft missions, including Voyager and Juno. Mathematical models support the understanding of its dynamics."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Planet",
+      "Gas Giant",
+      "Jupiter",
+      "Atmospheric Phenomenon",
+      "Storm",
+      "Anticyclone"
+    ],
+    "siblings": [
+      "Oval BA",
+      "Other Jovian storms"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Hydrogen",
+              "ref": "H2"
+            },
+            {
+              "name": "Helium",
+              "ref": "He"
+            },
+            {
+              "name": "Ammonia",
+              "ref": "NH3"
+            },
+            {
+              "name": "Ammonium Hydrosulfide",
+              "ref": "NH4SH"
+            },
+            {
+              "name": "Water Ice",
+              "ref": "H2O"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "oval",
+        "size": {
+          "value": 1300000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "storm center"
+      },
+      "parts": [
+        {
+          "name": "Outer Band",
+          "relative_to": "storm center",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 100000
+          }
+        },
+        {
+          "name": "Inner Core",
+          "relative_to": "storm center",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": -100000
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Jupiter's differential rotation",
+      "Convection currents",
+      "Coriolis effect"
+    ],
+    "produces": [
+      "High-pressure region",
+      "Anticyclonic winds",
+      "Atmospheric turbulence"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation_type": "location",
+        "target": "Jupiter",
+        "description": "Located in Jupiter's southern hemisphere"
+      },
+      {
+        "relation_type": "interaction",
+        "target": "Jovian jet streams",
+        "description": "Interacts with Jovian jet streams, influencing its shape and stability."
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      "Formation through atmospheric instability",
+      "Sustained by Jupiter's atmospheric dynamics",
+      "Gradual shrinking over time"
+    ]
+  }
+}

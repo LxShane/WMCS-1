@@ -1,0 +1,157 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 723
+    },
+    "name": "Water Ice",
+    "type": "matter.aggregate",
+    "definition": "Solid form of water (H2O) existing in various crystalline structures depending on temperature and pressure."
+  },
+  "GROUNDING": {
+    "chain": [
+      "visual identification",
+      "spectroscopic analysis"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Water ice is readily identifiable through visual observation (e.g., color, texture) and confirmed through spectroscopic analysis detecting the characteristic absorption bands of H2O in the infrared spectrum. Phase diagrams confirm stability under specific pressure/temperature conditions."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "matter",
+      "condensed matter",
+      "solid",
+      "crystalline solid",
+      "ice",
+      "water ice"
+    ],
+    "siblings": [
+      "dry ice",
+      "methane ice",
+      "ammonia ice"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "H2O",
+              "ref": "water"
+            }
+          ]
+        },
+        {
+          "depth": 1,
+          "name": "Minor",
+          "components": [
+            {
+              "name": "Dissolved Gases (e.g., N2, O2, Ar)",
+              "ref": "gas"
+            },
+            {
+              "name": "Dissolved Minerals",
+              "ref": "mineral"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 5,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "center of mass"
+      },
+      "parts": [
+        {
+          "name": "crystal grain 1",
+          "relative_to": "center of mass",
+          "position": {
+            "x": 1,
+            "y": 0.5,
+            "z": 0.2
+          }
+        },
+        {
+          "name": "crystal grain 2",
+          "relative_to": "center of mass",
+          "position": {
+            "x": -0.5,
+            "y": -1,
+            "z": -0.3
+          }
+        },
+        {
+          "name": "grain boundary",
+          "relative_to": "crystal grain 1",
+          "position": {
+            "x": 0.1,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Temperature below 273.15 K (at standard pressure)",
+      "Presence of water molecules"
+    ],
+    "produces": [
+      "Reflection of light",
+      "Change in albedo of a surface",
+      "Potential energy source (if melted)",
+      "Formation of glaciers/ice sheets"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "Phase transition",
+        "target": "Liquid water",
+        "condition": "Temperature above melting point"
+      },
+      {
+        "relation": "Sublimation",
+        "target": "Water vapor",
+        "condition": "Low pressure and temperature"
+      },
+      {
+        "relation": "Chemical Stability",
+        "target": "Stable, but can react with other materials"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "Formation",
+        "process": "Freezing of liquid water or deposition from water vapor"
+      },
+      {
+        "stage": "Persistence",
+        "process": "Stable at low temperatures; gradual melting or sublimation over time"
+      },
+      {
+        "stage": "Dissolution",
+        "process": "Melting into liquid water; sublimation into water vapor"
+      }
+    ]
+  }
+}

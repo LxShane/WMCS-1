@@ -1,58 +1,152 @@
 {
-  "name": "Neptune",
-  "type": "INANIMATE_OBJECT",
-  "id": {
-    "group": 20,
-    "item": 1008
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 742
+    },
+    "name": "Neptune",
+    "type": "celestial.planet.gas_giant",
+    "definition": "Neptune is the eighth and farthest known Solar planet from the Sun. It is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth and slightly more massive than its near-twin Uranus."
   },
-  "claims": [
-    {
-      "predicate": "CAUSES",
-      "object": "Destabilization of Kuiper Belt orbits",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
+  "GROUNDING": {
+    "chain": [
+      "observation.telescopic",
+      "measurement.spectroscopic",
+      "modeling.planetary"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "theoretical"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Grounding relies on telescopic observations across various wavelengths, spectroscopic analysis of its atmosphere, and complex planetary modeling. Voyager 2 flyby provided in-situ measurements."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "celestial object",
+      "planet",
+      "gas giant",
+      "ice giant"
+    ],
+    "siblings": [
+      "Jupiter",
+      "Saturn",
+      "Uranus"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Hydrogen",
+              "ref": "H2"
+            },
+            {
+              "name": "Helium",
+              "ref": "He"
+            },
+            {
+              "name": "Methane",
+              "ref": "CH4"
+            },
+            {
+              "name": "Water",
+              "ref": "H2O"
+            },
+            {
+              "name": "Ammonia",
+              "ref": "NH3"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "sphere",
+        "size": {
+          "value": 4924400,
+          "unit": "cm"
+        }
       },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
+      "center": {
+        "name": "core"
+      },
+      "parts": [
+        {
+          "name": "Atmosphere",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Mantle",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Core",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "gravitational collapse",
+      "accretion of matter"
+    ],
+    "produces": [
+      "planetary magnetic field",
+      "atmospheric weather patterns",
+      "rings"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "orbital relationship",
+        "target": "Sun",
+        "description": "Neptune orbits the Sun."
+      },
+      {
+        "relation": "satellite relationship",
+        "target": "Triton",
+        "description": "Triton is Neptune's largest moon."
       }
-    }
-  ],
-  "surface_layer": {
-    "definition": "The eighth and farthest known Solar planet from the Sun.",
-    "common_uses": []
+    ]
   },
-  "deep_layer": {
-    "mechanism": null,
-    "origin": null
-  },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
-  "epistemic_metadata": {
-    "source": "Kuiper belt - Wikipedia",
-    "citations": []
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "formation",
+        "process": "accretion within protoplanetary disk",
+        "duration": "millions of years"
+      },
+      {
+        "stage": "present",
+        "process": "stable orbit and atmospheric dynamics",
+        "duration": "billions of years"
+      }
+    ]
   }
 }

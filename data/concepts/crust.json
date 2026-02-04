@@ -1,118 +1,159 @@
 {
-  "name": "Crust",
-  "type": "INANIMATE_OBJECT",
-  "id": {
-    "group": 29,
-    "item": 1235
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 789
+    },
+    "name": "Crust",
+    "type": "material.geologic",
+    "definition": "The outermost solid layer of a rocky planet or moon, chemically and mechanically distinct from the underlying mantle."
   },
-  "claims": [
-    {
-      "predicate": "IS_A",
-      "object": "Layer (24, 1003)",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IS_A",
-      "object": "Silicate Crust",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "LOCATED_AT",
-      "object": "Outer Surface of Earth",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "MADE_OF",
-      "object": "Silicate",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "RELATED_TO",
-      "object": "layer (24, 1003)",
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "AUTO_GENERATED",
-        "source_type": "RELATION_BUILDER"
-      }
-    },
-    {
-      "predicate": "RELATED_TO",
-      "object": "planet (20, 1010)",
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "AUTO_GENERATED",
-        "source_type": "RELATION_BUILDER"
-      }
-    },
-    {
-      "predicate": "RELATED_TO",
-      "object": "solid (20, 1234)",
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "AUTO_GENERATED",
-        "source_type": "RELATION_BUILDER"
-      }
+  "GROUNDING": {
+    "chain": [
+      "observation",
+      "measurement",
+      "geological analysis"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "analytical"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Seismic data, rock samples, and remote sensing provide extensive evidence for the existence and composition of planetary crusts.  Chemical analysis of rock samples confirms compositional differences between the crust and mantle."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "geosphere",
+      "lithosphere",
+      "crust"
+    ],
+    "siblings": [
+      "mantle",
+      "core"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Silicates",
+              "ref": "silicate_minerals"
+            },
+            {
+              "name": "Feldspars",
+              "ref": "feldspar_minerals"
+            },
+            {
+              "name": "Quartz",
+              "ref": "quartz"
+            },
+            {
+              "name": "Iron Oxides",
+              "ref": "iron_oxides"
+            }
+          ]
+        },
+        {
+          "depth": 1,
+          "name": "Minor",
+          "components": [
+            {
+              "name": "Magnesium",
+              "ref": "magnesium"
+            },
+            {
+              "name": "Calcium",
+              "ref": "calcium"
+            },
+            {
+              "name": "Aluminum",
+              "ref": "aluminum"
+            }
+          ]
+        }
+      ]
     }
-  ],
-  "surface_layer": {
-    "definition": "The outermost solid layer of a planet.",
-    "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": "Formed through differentiation processes.",
-    "origin": "Crystallization of magma."
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "sphere",
+        "size": {
+          "value": 637100000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "planetary core"
+      },
+      "parts": [
+        {
+          "name": "continental crust",
+          "relative_to": "planetary core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "oceanic crust",
+          "relative_to": "planetary core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
   },
-  "instance_layer": {
-    "examples": []
+  "CAUSATION": {
+    "requires": [
+      "planetary accretion",
+      "differentiation"
+    ],
+    "produces": [
+      "tectonic plates",
+      "volcanism",
+      "weathering"
+    ]
   },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {}
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "overlies",
+        "target": "mantle"
+      },
+      {
+        "relation": "interacts with",
+        "target": "atmosphere"
+      },
+      {
+        "relation": "forms",
+        "target": "lithosphere"
+      }
+    ]
   },
-  "epistemic_metadata": {
-    "source": "Wikipedia",
-    "citations": []
+  "TIME": {
+    "lifecycle": [
+      {
+        "event": "formation",
+        "process": "planetary differentiation"
+      },
+      {
+        "event": "modification",
+        "process": "plate tectonics"
+      },
+      {
+        "event": "weathering",
+        "process": "erosion"
+      }
+    ]
   }
 }

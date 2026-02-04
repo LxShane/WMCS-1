@@ -1,0 +1,145 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 654
+    },
+    "name": "Nebula",
+    "type": "celestial.astronomical_object",
+    "definition": "An interstellar cloud of dust, hydrogen, helium and other ionized gases."
+  },
+  "GROUNDING": {
+    "chain": [
+      "observation",
+      "spectroscopy",
+      "imaging"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Nebulae are observed through telescopes and analyzed using spectroscopy to determine their composition and physical properties. Imaging provides visual representation and spatial information."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "astronomical object",
+      "interstellar medium",
+      "nebula"
+    ],
+    "siblings": [
+      "star cluster",
+      "galaxy",
+      "black hole"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Hydrogen",
+              "ref": "H"
+            },
+            {
+              "name": "Helium",
+              "ref": "He"
+            },
+            {
+              "name": "Dust",
+              "ref": "SiO2, C, Fe"
+            }
+          ]
+        },
+        {
+          "depth": 1,
+          "name": "Minor",
+          "components": [
+            {
+              "name": "Oxygen",
+              "ref": "O"
+            },
+            {
+              "name": "Nitrogen",
+              "ref": "N"
+            },
+            {
+              "name": "Other ionized gases",
+              "ref": "Various"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 100000000000000000000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "dense region"
+      },
+      "parts": [
+        {
+          "name": "Gas Cloud",
+          "relative_to": "dense region",
+          "position": {
+            "x": 1000000000000000000,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Dust filaments",
+          "relative_to": "dense region",
+          "position": {
+            "x": 0,
+            "y": 1000000000000000000,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "gravity",
+      "interstellar medium",
+      "energy source (e.g., star)"
+    ],
+    "produces": [
+      "star formation",
+      "planetary systems",
+      "emission of light"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "gravitational interaction",
+        "target": "nearby stars"
+      },
+      {
+        "relation": "radiation emission",
+        "target": "surrounding space"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      "Initial cloud formation",
+      "Gravitational collapse",
+      "Star formation",
+      "Supernova remnant (if applicable)",
+      "Dispersal"
+    ]
+  }
+}

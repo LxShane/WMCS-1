@@ -1,0 +1,167 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 742
+    },
+    "name": "Saturn's Rings",
+    "type": "celestial.planetary_ring",
+    "definition": "An extensive planetary ring system encircling the planet Saturn, composed of countless icy particles, dust, and debris."
+  },
+  "GROUNDING": {
+    "chain": [
+      "observation",
+      "spectroscopy",
+      "orbital_mechanics"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Observed through telescopes and space probes like Voyager and Cassini; spectral analysis confirms composition; orbital mechanics explain ring stability."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "celestial object",
+      "planetary ring system"
+    ],
+    "siblings": [
+      "Uranus' rings",
+      "Neptune's rings",
+      "Jupiter's rings"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Water Ice",
+              "ref": "H2O"
+            },
+            {
+              "name": "Dust",
+              "ref": "SiO2"
+            },
+            {
+              "name": "Organic Compounds",
+              "ref": "CH4"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular disc",
+        "size": {
+          "value": 282000000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "Saturn"
+      },
+      "parts": [
+        {
+          "name": "Ring A",
+          "relative_to": "Saturn",
+          "position": {
+            "x": 136777000,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Ring B",
+          "relative_to": "Saturn",
+          "position": {
+            "x": 114000000,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Ring C",
+          "relative_to": "Saturn",
+          "position": {
+            "x": 92000000,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Ring D",
+          "relative_to": "Saturn",
+          "position": {
+            "x": 7450000,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Ring E",
+          "relative_to": "Saturn",
+          "position": {
+            "x": 480000000,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Ring F",
+          "relative_to": "Saturn",
+          "position": {
+            "x": 140180000,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "G Ring",
+          "relative_to": "Saturn",
+          "position": {
+            "x": 170000000,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Saturn's gravity",
+      "Roche Limit"
+    ],
+    "produces": [
+      "light reflection",
+      "tidal effects on Saturn's moons"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "orbits",
+        "target": "Saturn"
+      },
+      {
+        "relation": "influenced by",
+        "target": "Saturn's moons"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      "Formation (likely from disrupted moons/comets)",
+      "Ongoing replenishment from micrometeoroid impacts",
+      "Gradual decay due to Saturn's gravity"
+    ]
+  }
+}

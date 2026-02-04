@@ -1,0 +1,115 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 723
+    },
+    "name": "Metallic Hydrogen",
+    "type": "material.elemental_matter",
+    "definition": "A phase of hydrogen in which it behaves as an electrically conductive metal. It is predicted to exist at extremely high pressures, such as those found in the cores of gas giant planets."
+  },
+  "GROUNDING": {
+    "chain": [
+      "High-pressure experiment",
+      "Theoretical physics calculation"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "computational"
+    ],
+    "confidence": 0.9,
+    "evidence_summary": "Metallic hydrogen has been experimentally produced under extreme pressures, but its properties are difficult to measure directly. Theoretical models predict its behavior."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Element",
+      "Alkali Metal (under pressure)",
+      "Condensed Matter"
+    ],
+    "siblings": [
+      "Solid Hydrogen",
+      "Liquid Hydrogen",
+      "Gaseous Hydrogen"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Hydrogen",
+              "ref": "H"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 1,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "Bulk Material"
+      },
+      "parts": [
+        {
+          "name": "Hydrogen Atom",
+          "relative_to": "Bulk Material",
+          "position": {
+            "x": 5e-08,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Extreme Pressure ( > 400 GPa )"
+    ],
+    "produces": [
+      "Electrical Conductivity",
+      "Superconductivity (potential)",
+      "Novel Material Properties"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "type": "Precursor",
+        "target": "Molecular Hydrogen",
+        "relation": "Formed from"
+      },
+      {
+        "type": "Environment",
+        "target": "Gas Giant Cores",
+        "relation": "Exists in"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "Formation",
+        "conditions": "Application of Extreme Pressure to Hydrogen",
+        "duration": "Instantaneous"
+      },
+      {
+        "stage": "Stability",
+        "conditions": "Sustained Extreme Pressure",
+        "duration": "Dependent on pressure maintenance"
+      }
+    ]
+  }
+}

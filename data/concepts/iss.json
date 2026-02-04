@@ -1,0 +1,178 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 876
+    },
+    "name": "ISS",
+    "type": "artifact.structure.space_station",
+    "definition": "The International Space Station (ISS) is a modular space station (habitable artificial satellite) in low Earth orbit. It is a multinational collaborative project involving five participating space agencies: NASA (United States), Roscosmos (Russia), JAXA (Japan), ESA (Europe), and CSA (Canada)."
+  },
+  "GROUNDING": {
+    "chain": [
+      "artificial satellite",
+      "space station",
+      "low Earth orbit"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "operational"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Visual observation from Earth and space, orbital tracking data, telemetry and operational logs from participating space agencies."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Artificial Object",
+      "Spacecraft",
+      "Space Station"
+    ],
+    "siblings": [
+      "Mir",
+      "Skylab",
+      "Tiangong Space Station"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Aluminum Alloys",
+              "ref": "aluminum"
+            },
+            {
+              "name": "Stainless Steel",
+              "ref": "steel"
+            },
+            {
+              "name": "Composite Materials",
+              "ref": "composites"
+            },
+            {
+              "name": "Solar Panels",
+              "ref": "solar_panels"
+            },
+            {
+              "name": "Electronic Components",
+              "ref": "electronics"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 10900,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "Unity Module"
+      },
+      "parts": [
+        {
+          "name": "Zarya Module",
+          "relative_to": "Unity Module",
+          "position": {
+            "x": -4000,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Zvezda Module",
+          "relative_to": "Unity Module",
+          "position": {
+            "x": 4000,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Solar Arrays",
+          "relative_to": "Unity Module",
+          "position": {
+            "x": 0,
+            "y": 5000,
+            "z": 0
+          }
+        },
+        {
+          "name": "Columbus Module",
+          "relative_to": "Unity Module",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 2000
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Launch vehicle",
+      "Life support systems",
+      "Power generation",
+      "Communication systems"
+    ],
+    "produces": [
+      "Scientific research data",
+      "Technological advancements",
+      "Educational outreach",
+      "Space exploration capabilities"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "operated by",
+        "target": "NASA"
+      },
+      {
+        "relation": "operated by",
+        "target": "Roscosmos"
+      },
+      {
+        "relation": "operated by",
+        "target": "JAXA"
+      },
+      {
+        "relation": "operated by",
+        "target": "ESA"
+      },
+      {
+        "relation": "operated by",
+        "target": "CSA"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "Construction",
+        "start": "1998",
+        "end": "2011"
+      },
+      {
+        "stage": "Operation",
+        "start": "2000",
+        "end": "2030"
+      },
+      {
+        "stage": "Decommissioning",
+        "start": "2030",
+        "end": "TBD"
+      }
+    ]
+  }
+}

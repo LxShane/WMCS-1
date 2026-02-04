@@ -1,200 +1,116 @@
 {
-  "name": "Mercury",
-  "type": "INANIMATE_OBJECT",
-  "id": {
-    "group": 20,
-    "item": 1005
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 789
+    },
+    "name": "Mercury",
+    "type": "element.metal",
+    "definition": "A silvery-white, dense, liquid metal at room temperature, known for its high surface tension and ability to dissolve many other metals."
   },
-  "claims": [
-    {
-      "predicate": "DEFINED_AS",
-      "object": "Chemical element",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 1.0,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "HAS_PART",
-      "object": "Symbol Hg",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 1.0,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "HAS_PART",
-      "object": "Atomic number 80",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 1.0,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IS_A",
-      "object": "Quicksilver",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 1.0,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IS_A",
-      "object": "Heavy element",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 1.0,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IS_A",
-      "object": "Silvery element",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 1.0,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IS_A",
-      "object": "d-block element",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 1.0,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IS_A",
-      "object": "Metallic element",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 1.0,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "CAPABLE_OF",
-      "object": "Existing as a liquid at standard temperature and pressure",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 1.0,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IS_A",
-      "object": "chemical element",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "PART_OF",
-      "object": "Marine biogeochemical cycles",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    }
-  ],
-  "surface_layer": {
-    "definition": "A chemical element.",
-    "common_uses": []
+  "GROUNDING": {
+    "chain": [
+      "observation of physical properties",
+      "chemical analysis"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "chemical"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Mercury's properties are well-documented through centuries of observation, chemical analysis using techniques like mass spectrometry, and spectroscopic studies. Its liquid state at room temperature, density, and reactivity are consistently observed."
   },
-  "deep_layer": {
-    "mechanism": null,
-    "origin": null
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "element",
+      "metal",
+      "transition metal"
+    ],
+    "siblings": [
+      "Cadmium",
+      "Zinc"
+    ]
   },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Mercury",
+              "ref": "Hg"
+            }
+          ]
+        }
+      ]
     }
   },
-  "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "Marine biogeochemical cycles - Wikipedia"
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "sphere",
+        "size": {
+          "value": 1,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "core"
+      },
+      "parts": [
+        {
+          "name": "surface atom 1",
+          "relative_to": "core",
+          "position": {
+            "x": 0.2,
+            "y": 0.2,
+            "z": 0.2
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "heat (to vaporize)",
+      "source of mercury ore (cinnabar)"
+    ],
+    "produces": [
+      "mercury vapor",
+      "amalgams (when mixed with other metals)"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "dissolves",
+        "target": "gold",
+        "type": "chemical"
+      },
+      {
+        "relation": "forms",
+        "target": "amalgam",
+        "type": "chemical"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "extraction",
+        "process": "heating cinnabar ore"
+      },
+      {
+        "stage": "use",
+        "process": "in thermometers, batteries, etc."
+      },
+      {
+        "stage": "disposal",
+        "process": "regulated disposal due to toxicity"
+      }
     ]
   }
 }

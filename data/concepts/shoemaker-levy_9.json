@@ -1,0 +1,155 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 543
+    },
+    "name": "Shoemaker-Levy 9",
+    "type": "celestial.comet",
+    "definition": "A comet that broke apart and collided with Jupiter in July 1994, providing the first direct observation of an extraterrestrial collision of two Solar System objects."
+  },
+  "GROUNDING": {
+    "chain": [
+      "Observed trajectory and fragmentation",
+      "Impact events on Jupiter"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "spectral analysis"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Direct telescopic observations of the comet's fragmentation and subsequent impacts on Jupiter, confirmed by multiple independent observatories and spectral analysis of the impact plumes."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Celestial Object",
+      "Comet",
+      "Disintegrated Comet"
+    ],
+    "siblings": [
+      "Hale-Bopp",
+      "Hyakutake",
+      "Halley's Comet"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Water Ice",
+              "ref": "H2O"
+            },
+            {
+              "name": "Dust",
+              "ref": "SiO2 and Carbon Compounds"
+            }
+          ]
+        },
+        {
+          "depth": 1,
+          "name": "Minor",
+          "components": [
+            {
+              "name": "Carbon Monoxide",
+              "ref": "CO"
+            },
+            {
+              "name": "Carbon Dioxide",
+              "ref": "CO2"
+            },
+            {
+              "name": "Other Volatiles",
+              "ref": "Trace Elements"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 2000000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "fragments"
+      },
+      "parts": [
+        {
+          "name": "Fragment A",
+          "relative_to": "fragments",
+          "position": {
+            "x": 100000,
+            "y": 50000,
+            "z": 20000
+          }
+        },
+        {
+          "name": "Fragment G",
+          "relative_to": "fragments",
+          "position": {
+            "x": -50000,
+            "y": -20000,
+            "z": 10000
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Gravitational forces",
+      "Tidal disruption"
+    ],
+    "produces": [
+      "Impact events on Jupiter",
+      "Atmospheric disturbances on Jupiter",
+      "Increased understanding of Jupiter's atmosphere"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "Orbiting",
+        "target": "Jupiter"
+      },
+      {
+        "relation": "Fragmentation due to",
+        "target": "Jupiter's Gravity"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "Formation",
+        "duration": "Unknown, potentially from the Kuiper Belt or Oort Cloud"
+      },
+      {
+        "stage": "Capture",
+        "duration": "Relatively short period prior to fragmentation"
+      },
+      {
+        "stage": "Fragmentation",
+        "duration": "Relatively short period prior to impact"
+      },
+      {
+        "stage": "Impact",
+        "duration": "July 1994"
+      },
+      {
+        "stage": "Dissipation",
+        "duration": "Post-impact, atmospheric settling"
+      }
+    ]
+  }
+}

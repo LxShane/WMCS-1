@@ -1,74 +1,116 @@
 {
-  "name": "Sunspot",
-  "type": "INANIMATE_OBJECT",
-  "id": {
-    "group": 25,
-    "item": 2006
-  },
-  "claims": [
-    {
-      "predicate": "LOCATED_AT",
-      "object": "Active Region",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 789
     },
-    {
-      "predicate": "LOCATED_AT",
-      "object": "Chromosphere",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    }
-  ],
-  "surface_layer": {
-    "definition": "A spot on the sun",
-    "common_uses": []
+    "name": "Sunspot",
+    "type": "phenomenon.astronomical",
+    "definition": "A temporary region on the Sun's photosphere exhibiting reduced surface temperature and intense magnetic activity."
   },
-  "deep_layer": {
-    "mechanism": null,
-    "origin": null
+  "GROUNDING": {
+    "chain": [
+      "observation of reduced light emission",
+      "measurement of magnetic field strength"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "spectral"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Sunspots are directly observable through telescopes with appropriate filters. Spectroscopic analysis confirms reduced temperatures and magnetic field measurements confirm their presence."
   },
-  "instance_layer": {
-    "examples": []
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "star",
+      "stellar surface feature",
+      "magnetic anomaly"
+    ],
+    "siblings": [
+      "solar flare",
+      "prominence",
+      "coronal mass ejection"
+    ]
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Plasma",
+              "ref": "stellar plasma"
+            }
+          ]
+        }
+      ]
     }
   },
-  "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "Solar Active Regions - d:\\"
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 50000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "umbra"
+      },
+      "parts": [
+        {
+          "name": "penumbra",
+          "relative_to": "umbra",
+          "position": {
+            "x": 10000,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "strong magnetic fields",
+      "differential rotation of the Sun"
+    ],
+    "produces": [
+      "reduced local temperature",
+      "suppressed convection",
+      "increased solar activity (flares, CMEs)"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "Associated with",
+        "target": "Solar cycle"
+      },
+      {
+        "relation": "Influences",
+        "target": "Space weather"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "Formation",
+        "duration": "days to weeks"
+      },
+      {
+        "stage": "Maturity",
+        "duration": "days to months"
+      },
+      {
+        "stage": "Dissipation",
+        "duration": "days to weeks"
+      }
     ]
   }
 }

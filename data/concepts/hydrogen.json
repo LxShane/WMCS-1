@@ -1,84 +1,121 @@
 {
-  "name": "Hydrogen",
-  "type": "INANIMATE_OBJECT",
-  "id": {
-    "group": 20,
-    "item": 5678
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 789
+    },
+    "name": "Hydrogen",
+    "type": "element.chemical",
+    "definition": "Hydrogen is the simplest and most abundant element in the universe. It is a colorless, odorless, tasteless, nonmetallic, highly flammable diatomic gas with the symbol H and atomic number 1."
   },
-  "claims": [
-    {
-      "predicate": "USED_FOR",
-      "object": "Fusion",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 1.0,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IS_A",
-      "object": "chemical element",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "PART_OF",
-      "object": "Marine biogeochemical cycles",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IS_A",
-      "object": "chemical element",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 1.0,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
+  "GROUNDING": {
+    "chain": [
+      "observation",
+      "experiment",
+      "spectroscopy",
+      "quantum_mechanics"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "theoretical"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Hydrogen's existence and properties are supported by extensive experimental data, spectroscopic analysis, and theoretical models rooted in quantum mechanics. Its unique spectral signature is readily observed in astrophysical contexts, confirming its abundance in space."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "element",
+      "nonmetal",
+      "diatomic_gas",
+      "group_1"
+    ],
+    "siblings": [
+      "Lithium",
+      "Sodium",
+      "Helium"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Hydrogen",
+              "ref": "H"
+            }
+          ]
+        }
+      ]
     }
-  ],
-  "surface_layer": {
-    "definition": "Hydrogen is a chemical element.",
-    "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": null,
-    "origin": null
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "sphere",
+        "size": {
+          "value": 1.06e-08,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "nucleus"
+      },
+      "parts": [
+        {
+          "name": "electron_cloud",
+          "relative_to": "nucleus",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
   },
-  "instance_layer": {
-    "examples": []
+  "CAUSATION": {
+    "requires": [
+      "nuclear_fusion",
+      "electrolysis"
+    ],
+    "produces": [
+      "water",
+      "energy",
+      "ammonia"
+    ]
   },
-  "facets": {},
-  "epistemic_metadata": {
-    "source": "Atomic Hydrogen in the Milky Way: A Stepping Stone in the ...",
-    "citations": [
-      "arxiv.org"
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "forms_bond_with",
+        "target": "Oxygen",
+        "description": "Forms water (H2O)"
+      },
+      {
+        "relation": "fuel_source_for",
+        "target": "Fuel Cell",
+        "description": "Used as a fuel in hydrogen fuel cells to generate electricity."
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "formation",
+        "process": "Big Bang nucleosynthesis or stellar nucleosynthesis"
+      },
+      {
+        "stage": "existence",
+        "process": "Exists as a diatomic gas (H2) or in compounds"
+      },
+      {
+        "stage": "transformation",
+        "process": "Reacts with other elements to form compounds or undergoes nuclear fusion in stars."
+      }
     ]
   }
 }

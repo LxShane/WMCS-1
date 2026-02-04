@@ -1,0 +1,151 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 73
+    },
+    "name": "The Moon",
+    "type": "celestial.satellite",
+    "definition": "The Moon is Earth's only natural satellite, and the fifth-largest satellite in the Solar System. It is a differentiated body, composed of a crust, mantle, and core."
+  },
+  "GROUNDING": {
+    "chain": [
+      "Observation of lunar phases",
+      "Measurement of lunar distance",
+      "Geological analysis of lunar samples"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "sample_analysis"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Extensive telescopic observations, radar measurements, laser ranging experiments, and analysis of lunar samples brought back by the Apollo missions provide a comprehensive understanding of the Moon's properties."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Celestial Object",
+      "Satellite",
+      "Natural Satellite",
+      "Lunar Satellite"
+    ],
+    "siblings": [
+      "Phobos",
+      "Deimos",
+      "Europa",
+      "Ganymede",
+      "Callisto",
+      "Titan"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Oxygen",
+              "ref": "O"
+            },
+            {
+              "name": "Silicon",
+              "ref": "Si"
+            },
+            {
+              "name": "Magnesium",
+              "ref": "Mg"
+            },
+            {
+              "name": "Iron",
+              "ref": "Fe"
+            },
+            {
+              "name": "Calcium",
+              "ref": "Ca"
+            },
+            {
+              "name": "Aluminum",
+              "ref": "Al"
+            },
+            {
+              "name": "Titanium",
+              "ref": "Ti"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "sphere",
+        "size": {
+          "value": 347420000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "core"
+      },
+      "parts": [
+        {
+          "name": "crust",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "mantle",
+          "relative_to": "crust",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Formation within protoplanetary disk or impact event",
+      "Gravitational interactions"
+    ],
+    "produces": [
+      "Tidal forces on Earth",
+      "Lunar phases",
+      "Eclipses"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "orbits",
+        "target": "Earth"
+      },
+      {
+        "relation": "experiences tidal locking with",
+        "target": "Earth"
+      },
+      {
+        "relation": "is influenced by",
+        "target": "Sun"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      "Formation approximately 4.51 billion years ago",
+      "Early period of intense bombardment",
+      "Volcanic activity",
+      "Gradual cooling and solidification",
+      "Continuing impact events"
+    ]
+  }
+}

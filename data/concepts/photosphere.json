@@ -1,177 +1,157 @@
 {
-  "name": "Photosphere",
-  "type": "INANIMATE_OBJECT",
-  "id": {
-    "group": 25,
-    "item": 1001
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 872
+    },
+    "name": "Photosphere",
+    "type": "celestial.star.layer",
+    "definition": "The photosphere is the luminous outer layer of a star, from which light is emitted. It is the part we see when we look at a star like the Sun."
   },
-  "claims": [
-    {
-      "predicate": "DEFINED_AS",
-      "object": "star's outer shell from which light is radiated",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "DEFINED_AS",
-      "object": "region of a luminous object that is transparent to photons of certain wavelengths",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "IS_A",
-      "object": "surface",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.7,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "HAS_PART",
-      "object": "gaseous layer",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.7,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "MADE_OF",
-      "object": "plasma",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.7,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "LOCATED_AT",
-      "object": "star's surface",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "DEFINED_AS",
-      "object": "visible surface of the Sun",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    },
-    {
-      "predicate": "CAPABLE_OF",
-      "object": "emitting the majority of the Sun's visible light and other electromagnetic radiation",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.8,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
-    }
-  ],
-  "surface_layer": {
-    "definition": "The photosphere is a star's outer shell from which light is radiated.",
-    "common_uses": [
-      "Studying solar radiation",
-      "Observing solar flares"
+  "GROUNDING": {
+    "chain": [
+      "observation",
+      "spectroscopy",
+      "modeling"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "theoretical"
+    ],
+    "confidence": 0.99,
+    "evidence_summary": "Direct observation of stellar surfaces, spectral analysis of emitted light, and theoretical models of stellar structure all support the existence and properties of the photosphere."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "star",
+      "stellar atmosphere",
+      "photosphere"
+    ],
+    "siblings": [
+      "chromosphere",
+      "corona",
+      "convection zone",
+      "radiative zone"
     ]
   },
-  "deep_layer": {
-    "mechanism": "Light is emitted as a result of the high temperatures and pressures within the star.",
-    "origin": "Formed as a star collapses under gravity and begins nuclear fusion."
-  },
-  "instance_layer": {
-    "examples": [
-      "The Sun's photosphere"
-    ]
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Radiator"
-      ],
-      "capabilities": [
-        "Emitting light",
-        "Emitting electromagnetic radiation"
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Hydrogen",
+              "ref": "H"
+            },
+            {
+              "name": "Helium",
+              "ref": "He"
+            }
+          ]
+        },
+        {
+          "depth": 1,
+          "name": "Minor",
+          "components": [
+            {
+              "name": "Oxygen",
+              "ref": "O"
+            },
+            {
+              "name": "Carbon",
+              "ref": "C"
+            },
+            {
+              "name": "Nitrogen",
+              "ref": "N"
+            },
+            {
+              "name": "Iron",
+              "ref": "Fe"
+            }
+          ]
+        }
       ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [
-        "Luminous",
-        "Gaseous"
-      ],
-      "shape": [
-        "Spherical"
-      ],
-      "composition": [
-        "Plasma"
-      ],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "Outer shell of a star",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": "Star"
     }
   },
-  "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://en.wikipedia.org/wiki/Photosphere",
-      "https://grokipedia.com/page/Photosphere",
-      "https://www.britannica.com/science/photosphere"
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "sphere",
+        "size": {
+          "value": 139200000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "stellar core"
+      },
+      "parts": [
+        {
+          "name": "granules",
+          "relative_to": "center",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "sunspots",
+          "relative_to": "center",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "stellar core fusion",
+      "convection"
+    ],
+    "produces": [
+      "light",
+      "heat",
+      "stellar wind"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "precedes",
+        "target": "chromosphere"
+      },
+      {
+        "relation": "is heated by",
+        "target": "stellar core"
+      },
+      {
+        "relation": "emits radiation",
+        "target": "space"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "formation",
+        "description": "Forms as star ignites nuclear fusion."
+      },
+      {
+        "stage": "stable state",
+        "description": "Persists throughout the star's main sequence lifetime."
+      },
+      {
+        "stage": "evolution",
+        "description": "Changes in size and temperature as the star evolves."
+      }
     ]
   }
 }

@@ -1,55 +1,155 @@
 {
-  "name": "Plate Tectonics",
-  "type": "ABSTRACT_CONCEPT",
-  "id": {
-    "group": 50,
-    "item": 5001
-  },
-  "claims": [
-    {
-      "predicate": "DEFINED_AS",
-      "object": "Principle that lithosphere exists as separate and distinct tectonic plates which ride on a fluid-like solid",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 782
     },
-    {
-      "predicate": "CAPABLE_OF",
-      "object": "Formation of Mountains",
-      "temporal": {
-        "valid_from": null,
-        "valid_until": null,
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
+    "name": "Plate Tectonics",
+    "type": "geological process",
+    "definition": "A scientific theory describing the large-scale motion of seven large plates and the movements of a larger number of smaller plates of the Earth's lithosphere, since tectonic processes began on Earth between 3.3 and 3.5 billion years ago. The relative motion of these plates causes earthquakes, volcanic eruptions, mountain-building, and other geological phenomena."
+  },
+  "GROUNDING": {
+    "chain": [
+      "Observation of geological features",
+      "Measurement of seismic activity",
+      "Analysis of magnetic anomalies",
+      "GPS tracking of plate movement"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "The theory of plate tectonics is supported by a vast body of evidence, including the distribution of earthquakes and volcanoes, the fit of continental coastlines, the similarity of rock formations on different continents, paleomagnetic data, and direct measurements of plate movement using GPS."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Geology",
+      "Geophysics",
+      "Earth Science",
+      "Planetary Science"
+    ],
+    "siblings": [
+      "Continental Drift",
+      "Seafloor Spreading",
+      "Volcanism",
+      "Earthquakes"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Lithosphere",
+              "ref": "Earth's crust and uppermost mantle"
+            },
+            {
+              "name": "Asthenosphere",
+              "ref": "Upper mantle below the lithosphere"
+            }
+          ]
+        }
+      ]
     }
-  ],
-  "surface_layer": {
-    "definition": "A theory explaining the structure of the earth's crust and many associated phenomena as resulting from the interaction of rigid lithospheric plates that move slowly over the underlying mantle.",
-    "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": null,
-    "origin": null
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "sphere",
+        "size": {
+          "value": 1274200000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "core"
+      },
+      "parts": [
+        {
+          "name": "Pacific Plate",
+          "relative_to": "core",
+          "position": {
+            "x": -100000000,
+            "y": 500000000,
+            "z": 0
+          }
+        },
+        {
+          "name": "North American Plate",
+          "relative_to": "core",
+          "position": {
+            "x": 300000000,
+            "y": 600000000,
+            "z": 0
+          }
+        },
+        {
+          "name": "Eurasian Plate",
+          "relative_to": "core",
+          "position": {
+            "x": 400000000,
+            "y": 400000000,
+            "z": 0
+          }
+        }
+      ]
+    }
   },
-  "instance_layer": [],
-  "facets": {
-    "FUNCTION": {},
-    "STRUCTURAL": {}
+  "CAUSATION": {
+    "requires": [
+      "Mantle convection",
+      "Thermal energy from Earth's interior"
+    ],
+    "produces": [
+      "Earthquakes",
+      "Volcanic eruptions",
+      "Mountain building",
+      "Seafloor spreading",
+      "Continental drift",
+      "Formation of trenches"
+    ]
   },
-  "epistemic_metadata": {
-    "source": "https://www.facebook.com/groups/1525654134404363/posts/2604086066561159/",
-    "citations": []
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "affects",
+        "target": "Climate",
+        "description": "Plate tectonics influences long-term climate patterns by affecting ocean currents and the distribution of landmasses."
+      },
+      {
+        "relation": "causes",
+        "target": "Earthquakes",
+        "description": "The movement and collision of tectonic plates are the primary cause of earthquakes."
+      },
+      {
+        "relation": "creates",
+        "target": "Mountains",
+        "description": "The collision of continental plates leads to the formation of mountain ranges."
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "Initiation",
+        "duration": "3.5 billion years ago",
+        "events": [
+          "Onset of mantle convection",
+          "Formation of early plate boundaries"
+        ]
+      },
+      {
+        "stage": "Active Phase",
+        "duration": "Present",
+        "events": [
+          "Continuous plate movement",
+          "Ongoing geological activity"
+        ]
+      }
+    ]
   }
 }

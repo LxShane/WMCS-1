@@ -1,38 +1,137 @@
 {
-  "name": "Transit",
-  "type": "ABSTRACT_CONCEPT",
-  "id": {
-    "group": 50,
-    "item": 1004
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 789
+    },
+    "name": "Transit",
+    "type": "process.transport",
+    "definition": "The movement of people or goods from one location to another."
   },
-  "claims": [
-    {
-      "predicate": "CAPABLE_OF",
-      "object": "Travel",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
-      },
-      "epistemic": {
-        "confidence": 0.7,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
-      }
+  "GROUNDING": {
+    "chain": [
+      "identification of origin and destination",
+      "selection of a mode of transport",
+      "execution of movement along a chosen route"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Transit is a readily observable phenomenon confirmed through direct observation and measurable parameters such as time, distance, speed, and cost. The efficiency and impact of various transit systems are extensively studied and documented in numerous research papers and logistical reports."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Movement",
+      "Transportation",
+      "Logistics"
+    ],
+    "siblings": [
+      "Communication",
+      "Energy Transfer",
+      "Information Flow"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Passengers",
+              "ref": "human.passenger"
+            },
+            {
+              "name": "Goods",
+              "ref": "object.goods"
+            },
+            {
+              "name": "Vehicle",
+              "ref": "vehicle.transit"
+            },
+            {
+              "name": "Route",
+              "ref": "route.path"
+            }
+          ]
+        }
+      ]
     }
-  ],
-  "surface_layer": {
-    "definition": "The conveyance of people or goods from one place to another.",
-    "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": null,
-    "origin": null
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "irregular",
+        "size": {
+          "value": 1000,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "vehicle"
+      },
+      "parts": [
+        {
+          "name": "origin",
+          "relative_to": "vehicle",
+          "position": {
+            "x": -500,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "destination",
+          "relative_to": "vehicle",
+          "position": {
+            "x": 500,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
   },
-  "instance_layer": [],
-  "facets": {},
-  "epistemic_metadata": {
-    "source": "PDF Regional Express Lane Network Concept of Operations, June 2022",
-    "citations": []
+  "CAUSATION": {
+    "requires": [
+      "origin",
+      "destination",
+      "motivation to move",
+      "suitable transport medium"
+    ],
+    "produces": [
+      "relocation of passengers or goods",
+      "change in spatial distribution",
+      "economic activity",
+      "environmental impact"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "depends on",
+        "target": "infrastructure"
+      },
+      {
+        "relation": "impacts",
+        "target": "economy"
+      },
+      {
+        "relation": "requires",
+        "target": "energy"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      "Planning of journey",
+      "Embarkation",
+      "Travel",
+      "Disembarkation",
+      "Arrival at destination"
+    ]
   }
 }

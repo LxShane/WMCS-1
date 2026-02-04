@@ -1,0 +1,172 @@
+{
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 772
+    },
+    "name": "Hubble Space Telescope",
+    "type": "artifact.instrument.telescope",
+    "definition": "A space telescope launched into low Earth orbit in 1990 and still in operation. It provides high-resolution images of celestial objects."
+  },
+  "GROUNDING": {
+    "chain": [
+      "observation of celestial objects",
+      "data processing",
+      "image production"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "spatial"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Hubble's observations are validated by multiple independent astronomical measurements and theoretical models. Its position and data are continuously monitored."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "artifact",
+      "instrument",
+      "telescope",
+      "space telescope"
+    ],
+    "siblings": [
+      "James Webb Space Telescope",
+      "Spitzer Space Telescope",
+      "Chandra X-ray Observatory"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Optical Telescope Assembly",
+              "ref": "telescope_assembly"
+            },
+            {
+              "name": "Scientific Instruments",
+              "ref": "instruments"
+            },
+            {
+              "name": "Support Systems",
+              "ref": "support_systems"
+            },
+            {
+              "name": "Solar Arrays",
+              "ref": "solar_arrays"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "cylinder",
+        "size": {
+          "value": 1320,
+          "unit": "cm"
+        }
+      },
+      "center": {
+        "name": "Optical Telescope Assembly"
+      },
+      "parts": [
+        {
+          "name": "Optical Telescope Assembly",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Scientific Instruments",
+          "relative_to": "core",
+          "position": {
+            "x": 100,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Support Systems",
+          "relative_to": "core",
+          "position": {
+            "x": -100,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Solar Arrays",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 500,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "electrical power",
+      "stable orbit",
+      "functioning optics",
+      "communication link"
+    ],
+    "produces": [
+      "high-resolution images of celestial objects",
+      "spectroscopic data",
+      "astronomical discoveries",
+      "data for scientific research"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "orbits",
+        "target": "Earth"
+      },
+      {
+        "relation": "communicates with",
+        "target": "Ground Stations"
+      },
+      {
+        "relation": "supplies data to",
+        "target": "Astronomers"
+      }
+    ]
+  },
+  "TIME": {
+    "lifecycle": [
+      {
+        "stage": "Development",
+        "duration": "1970s-1990"
+      },
+      {
+        "stage": "Launch",
+        "duration": "1990"
+      },
+      {
+        "stage": "Operation",
+        "duration": "1990-Present"
+      },
+      {
+        "stage": "Servicing Missions",
+        "duration": "1993-2009"
+      },
+      {
+        "stage": "Decommissioning",
+        "duration": "TBD"
+      }
+    ]
+  }
+}

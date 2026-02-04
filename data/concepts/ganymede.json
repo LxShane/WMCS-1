@@ -1,58 +1,172 @@
 {
-  "name": "Ganymede",
-  "type": "INANIMATE_OBJECT",
-  "id": {
-    "group": 20,
-    "item": 1003
+  "CORE": {
+    "id": {
+      "group": 20,
+      "item": 652
+    },
+    "name": "Ganymede",
+    "type": "celestial.moon.jovian",
+    "definition": "Ganymede is the largest moon in the Solar System, and the only moon known to have a magnetic field. It is the seventh moon of Jupiter and the largest satellite in the Solar System, larger than the planet Mercury."
   },
-  "claims": [
-    {
-      "predicate": "IS_A",
-      "object": "Satellite",
-      "temporal": {
-        "valid_from": "ORIGIN",
-        "valid_until": "PRESENT",
-        "event": null
+  "GROUNDING": {
+    "chain": [
+      "observation with telescopes",
+      "data from spacecraft missions (Voyager, Galileo, Juno)"
+    ],
+    "base_types": [
+      "perceptual",
+      "measurement",
+      "spectral analysis"
+    ],
+    "confidence": 0.98,
+    "evidence_summary": "Data collected from telescopic observations, flyby missions such as Voyager, and orbital missions such as Galileo and Juno provide detailed information about Ganymede's size, composition, surface features, and magnetic field."
+  },
+  "CLASSIFICATION": {
+    "categorical_chain": [
+      "Celestial Body",
+      "Satellite",
+      "Natural Satellite",
+      "Jovian Moon",
+      "Galilean Moon"
+    ],
+    "siblings": [
+      "Io",
+      "Europa",
+      "Callisto"
+    ]
+  },
+  "SUBSTANCE": {
+    "composition": {
+      "levels": [
+        {
+          "depth": 0,
+          "name": "Major",
+          "components": [
+            {
+              "name": "Water Ice",
+              "ref": "H2O"
+            },
+            {
+              "name": "Silicate Rock",
+              "ref": "SiO2"
+            },
+            {
+              "name": "Iron",
+              "ref": "Fe"
+            }
+          ]
+        },
+        {
+          "depth": 1,
+          "name": "Minor",
+          "components": [
+            {
+              "name": "Magnesium Sulfate",
+              "ref": "MgSO4"
+            },
+            {
+              "name": "Sodium Chloride",
+              "ref": "NaCl"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ARRANGEMENT": {
+    "structure_spatial": {
+      "overall": {
+        "shape": "sphere",
+        "size": {
+          "value": 5268000,
+          "unit": "cm"
+        }
       },
-      "epistemic": {
-        "confidence": 0.9,
-        "status": "SETTLED",
-        "source_type": "ACADEMIC"
+      "center": {
+        "name": "core"
+      },
+      "parts": [
+        {
+          "name": "Iron Core",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Rocky Mantle",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Ice Layer",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Ocean",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Crust",
+          "relative_to": "core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  },
+  "CAUSATION": {
+    "requires": [
+      "Formation within the protoplanetary disk of Jupiter",
+      "Gravitational capture and orbital resonance with other Galilean moons"
+    ],
+    "produces": [
+      "Magnetic field generation due to a convecting iron core",
+      "Tidal heating of its interior, although to a lesser extent than Io and Europa",
+      "Surface features such as grooves, craters, and tectonic structures"
+    ]
+  },
+  "CONNECTIONS": {
+    "relational": [
+      {
+        "relation": "orbits",
+        "target": "Jupiter"
+      },
+      {
+        "relation": "orbital resonance",
+        "target": "Europa, Io"
+      },
+      {
+        "relation": "part of",
+        "target": "Jovian System"
       }
-    }
-  ],
-  "surface_layer": {
-    "definition": "A moon of Jupiter.",
-    "common_uses": []
+    ]
   },
-  "deep_layer": {
-    "mechanism": null,
-    "origin": null
-  },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
-  "epistemic_metadata": {
-    "source": "Orbital resonance - Wikipedia",
-    "citations": []
+  "TIME": {
+    "lifecycle": [
+      "Formation during the early Solar System",
+      "Differentiation into core, mantle, and icy crust",
+      "Geological activity (past and present)",
+      "Tidal interactions with Jupiter"
+    ]
   }
 }
