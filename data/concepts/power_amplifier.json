@@ -2,22 +2,121 @@
   "name": "Power Amplifier",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 30,
-    "item": 7357
+    "group": 20,
+    "item": 1234
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "electronic amplifier designed to increase the magnitude of power of a given input signal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "driving loads of output devices like speakers, headphones, RF transmitters etc.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "boosting power",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "amplifying PWM signals in electronic control systems for high-power motors or actuators",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "input signal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "An electronic amplifier that increases the power of a signal.",
-    "common_uses": []
+    "definition": "A power amplifier is an electronic amplifier designed to increase the magnitude of power of a given input signal.",
+    "common_uses": [
+      "driving speakers",
+      "driving headphones",
+      "driving RF transmitters",
+      "boosting power"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Boosts the signal strength for transmission over long distances.",
-    "origin": "Used in various electronic systems."
+    "mechanism": "The power of the input signal is increased to a level high enough to drive loads of output devices.",
+    "origin": "Electronic engineering."
   },
-  "instance_layer": [],
-  "facets": {},
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Amplifier"
+      ],
+      "capabilities": [
+        "Increase power of input signal",
+        "Drive output devices"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "An X-Band CMOS Digital Phased Array Radar from Hardware to ... - NIH",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.electronicshub.org/power-amplifier/",
+      "https://www.geeksforgeeks.org/electronics-engineering/power-amplifier/",
+      "https://www.analog.com/en/resources/analog-dialogue/articles/power-amplifier-control-in-base-stations.html"
+    ]
   }
 }

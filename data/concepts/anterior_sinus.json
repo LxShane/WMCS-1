@@ -1,0 +1,77 @@
+{
+  "name": "Anterior Sinus",
+  "type": "BODY_PART",
+  "id": {
+    "group": 21,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Coronary Artery Ostium",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "anterior (50, 1238)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "heart (32, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A sinus located in the anterior aspect of the heart.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Part of the heart's anatomy.",
+    "origin": "Develops during embryogenesis."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Anterior heart",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Heart"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Sources",
+    "citations": [
+      "Origins of the Coronary Arteries and Their Significance"
+    ]
+  }
+}

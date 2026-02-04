@@ -1,0 +1,63 @@
+{
+  "name": "Ubiquitination reaction",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 2345
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "First step catalyzed by Ubiquitin-activating enzyme",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "protein degradation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A reaction that can target a protein for degradation.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Involves covalent bonding of ubiquitin or ubiquitin-like proteins.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/E1_enzyme",
+      "https://en.wikipedia.org/wiki/Ubiquitin-activating_enzyme",
+      "https://biofargo.com/blogs/news/ubiquitin-activating-enzyme-e1-function-and-disease"
+    ]
+  }
+}

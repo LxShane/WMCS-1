@@ -1,9 +1,9 @@
 {
   "name": "Erosion",
-  "type": "ABSTRACT_CONCEPT",
+  "type": "PROCESS",
   "id": {
-    "group": 50,
-    "item": 1003
+    "group": 60,
+    "item": 7891
   },
   "claims": [
     {
@@ -19,34 +19,84 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Geological Process",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Margins to the deep basins",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PROPERTY",
+      "object": "Intense",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The removal and transportation of weathered rock fragments by natural forces like water, wind, and ice."
+    "definition": "The wearing away of the land surface by natural agents, in this case, occurring intensely from margins to deep basins.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Natural forces transport weathered rock.",
-    "origin": "Breakdown of rocks and their subsequent transport."
+    "mechanism": "Natural agents like water and wind remove sediment and rock from the land surface.",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
     "FUNCTION": {
-      "roles": [
-        "Geomorphic Process"
-      ],
-      "capabilities": [
-        "transporting weathered rock"
-      ]
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://www.britannica.com/science/geomorphology",
-      "https://www.nextias.com/blog/geomorphic-processes/",
-      "https://sustainability-directory.com/fundamentals/geomorphological-processes-fundamentals/"
+      "https://www.bsgf.fr/articles/bsgf/full_html/2026/01/bsgf240042/bsgf240042.html"
     ]
   }
 }

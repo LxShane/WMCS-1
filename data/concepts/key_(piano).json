@@ -1,53 +1,9 @@
 {
-  "name": "Key (Piano)",
+  "name": "Key (piano)",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 9012
-  },
-  "surface_layer": {
-    "definition": "A lever on a piano that is pressed to initiate the piano action.",
-    "common_uses": []
-  },
-  "deep_layer": {
-    "mechanism": "Pressing the key triggers the piano action.",
-    "origin": "Piano design"
-  },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "INPUT_DEVICE"
-      ],
-      "capabilities": [
-        "Initiating the piano action"
-      ]
-    },
-    "EQUIVALENCE": {
-      "fills_role": [
-        "INPUT_DEVICE"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "MECHANISM": [],
-    "PROCESS_DATA": {},
-    "PROPERTY_DATA": {},
-    "ABSTRACT_DATA": {}
-  },
-  "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://www.frederickcollection.org/works.html",
-      "https://www.yamaha.com/en/musical_instrument_guide/piano/mechanism/mechanism003.html"
-    ]
+    "group": 30,
+    "item": 1003
   },
   "claims": [
     {
@@ -67,6 +23,84 @@
         "status": "SETTLED",
         "source_type": "MIGRATE_LEGACY"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Seesaw",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Capstan",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Rising capstan lifts the wippen",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
-  ]
+  ],
+  "surface_layer": {
+    "definition": "A lever that is depressed by the player.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Key movement activates the hammer.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {},
+    "FUNCTION": {
+      "roles": [
+        "Initiates sound production"
+      ],
+      "capabilities": [
+        "Depressed by player",
+        "Lifts capstan"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Action (piano) - Wikipedia"
+    ]
+  }
 }

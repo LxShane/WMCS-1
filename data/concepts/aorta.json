@@ -2,8 +2,8 @@
   "name": "Aorta",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 31,
-    "item": 1111
+    "group": 22,
+    "item": 1003
   },
   "claims": [
     {
@@ -75,58 +75,91 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "FUNCTION",
+      "object": "Receives oxygenated blood from the left ventricle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Retroperitoneum",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "artery (21, 1242)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "blood (31, 1238)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The largest artery in the body.",
+    "definition": "The main artery of the body, supplying oxygenated blood to the circulatory system.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Transports blood from the heart to the rest of the body.",
+    "mechanism": "Carries oxygenated blood from the heart to the rest of the body.",
     "origin": "Develops during embryonic development."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Main blood transporter"
-      ],
-      "capabilities": []
-    },
     "STRUCTURAL": {
-      "visual_features": [],
+      "visual_features": [
+        "Tubular",
+        "Red"
+      ],
       "shape": [
-        "Tubelike"
+        "Cylinder"
       ],
       "composition": [
-        "Elastic tissue",
-        "Muscle"
+        "Arterial tissue"
       ],
-      "parts": [
-        "Ascending aorta",
-        "Aortic arch",
-        "Thoracic aorta",
-        "Abdominal aorta"
-      ],
+      "parts": [],
       "relations": []
     },
     "SPATIAL": {
-      "location": "From the heart through the chest and abdomen",
+      "location": "Retroperitoneal space",
       "coordinates": [],
-      "connected_to": [
-        "Heart",
-        "Other arteries"
-      ],
-      "contained_in": null
+      "connected_to": [],
+      "contained_in": "Thorax and Abdomen"
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://www.kenhub.com/en/library/anatomy/major-arteries-veins-and-nerves-of-the-body",
-      "https://www.ncbi.nlm.nih.gov/books/NBK547743/"
+      "Extraperitoneal: retroperitoneal, subperitoneal, preperitoneal"
     ]
   }
 }

@@ -1,0 +1,81 @@
+{
+  "name": "Grid Point",
+  "type": "MATHEMATICAL_OBJECT",
+  "id": {
+    "group": 42,
+    "item": 1122
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Theoretical location",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Area divided into a grid",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A single point in a grid system used for spatial referencing.",
+    "common_uses": [
+      "Mapping",
+      "Navigation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Provides a discrete coordinate within a continuous space.",
+    "origin": "Developed alongside grid-based mapping systems."
+  },
+  "instance_layer": {
+    "examples": [
+      "GIS grid point",
+      "Navigation grid point"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Spatial Reference"
+      ],
+      "capabilities": [
+        "Defining location",
+        "Indexing data"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Abstract point"
+      ],
+      "shape": [
+        "Point"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Position on grid"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "EP1126787B1",
+    "citations": []
+  }
+}

@@ -2,8 +2,8 @@
   "name": "Fibroblastic reticular cell",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 31,
-    "item": 1238
+    "group": 21,
+    "item": 1003
   },
   "claims": [
     {
@@ -19,23 +19,52 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "crucial part of the stromal cell infrastructure",
+      "temporal": {
+        "valid_from": "2021",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "secondary lymphoid organs",
+      "temporal": {
+        "valid_from": "2021",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A specialized fibroblast found in lymphoid organs.",
+    "definition": "A crucial part of the stromal cell infrastructure of secondary lymphoid organs.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Supports the architecture of lymphoid organs and regulates immune responses.",
-    "origin": "Develops from mesenchymal cells."
+    "mechanism": null,
+    "origin": null
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://www.cell.com/trends/immunology/fulltext/S1471-4906(25)00029-8",
-      "https://www.cell.com/trends/immunology/fulltext/S1471-4906(21)00120-4?rss=yes"
+      "lymphoid organ fibroblastic reticular cell and conduit networks"
     ]
   }
 }

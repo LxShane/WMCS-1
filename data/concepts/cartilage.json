@@ -1,9 +1,9 @@
 {
-  "name": "Cartilage",
-  "type": "BODY_PART",
+  "name": "cartilage",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 23,
-    "item": 1004
+    "group": 31,
+    "item": 1007
   },
   "claims": [
     {
@@ -33,32 +33,119 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "connective tissue",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "absorbing impact",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "keeping bones from grinding together",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "strong, flexible tissue that acts like a shock absorber in joints",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Connective tissue",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "tissue (21, 1007)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A flexible connective tissue found in joints.",
+    "definition": "A type of connective tissue.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Reduces friction in joints and provides support.",
-    "origin": "Develops during embryonic development."
+    "mechanism": null,
+    "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
     "STRUCTURAL": {
       "visual_features": [],
       "shape": [],
       "composition": [],
-      "parts": []
+      "parts": [],
+      "relations": []
     },
-    "SPATIAL": {}
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Tissue (Anatomy) - an overview | ScienceDirect Topics",
     "citations": [
-      "Module 6: Articulations \u2013 Anatomy 337 eReader"
+      "https://www.sciencedirect.com/topics/medicine-and-dentistry/tissue-anatomy"
     ]
   }
 }

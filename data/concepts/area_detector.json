@@ -1,0 +1,109 @@
+{
+  "name": "Area Detector",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Pixel (30, 2346)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Detector",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Depositing photon energy in a single pixel",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "radiation (20, 1004)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A detector that measures radiation over a two-dimensional area.",
+    "common_uses": [
+      "X-ray imaging",
+      "Particle detection"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Radiation interacts with the detector material, producing a signal that is measured by the pixels.",
+    "origin": "Developed for various scientific and industrial applications requiring spatial information of radiation."
+  },
+  "instance_layer": {
+    "examples": [
+      "Pixel array detectors"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Radiation detection",
+        "Spatial measurement"
+      ],
+      "capabilities": [
+        "X-ray imaging",
+        "Particle tracking"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Flat",
+        "Rectangular",
+        "Pixelated"
+      ],
+      "shape": [
+        "Planar"
+      ],
+      "parts": [
+        "Pixels",
+        "Readout electronics"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "Detector Geometry - LCLS Data Analysis - SLAC Confluence"
+    ]
+  }
+}

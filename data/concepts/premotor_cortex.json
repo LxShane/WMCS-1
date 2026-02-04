@@ -2,26 +2,72 @@
   "name": "Premotor Cortex",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 23,
-    "item": 1009
+    "group": 22,
+    "item": 1001
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Area of the Motor Cortex",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Frontal Lobe of the Brain",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Anterior to the Primary Motor Cortex",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "Area of the brain involved in motor planning.",
+    "definition": "The premotor cortex is an area of the motor cortex lying within the frontal lobe of the brain just anterior to the primary motor cortex.",
     "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": "Involved in planning and sequencing of movements.",
-    "origin": "Part of the brain."
+  "deep_layer": {},
+  "instance_layer": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Anterior",
+      "connected_to": [
+        "Primary Motor Cortex"
+      ],
+      "contained_in": "Frontal Lobe"
+    }
   },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Premotor cortex - Wikipedia",
     "citations": [
-      "https://www.kenhub.com/en/library/anatomy/afferent-and-efferent-pathways-of-the-cerebellum"
+      "Wikipedia Article"
     ]
   }
 }

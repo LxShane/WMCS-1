@@ -1,0 +1,95 @@
+{
+  "name": "Aryl Hydrocarbon Receptor (AHR)",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "chemosensory protein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "therapeutic target (50, 1007)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": "emerging"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "receptor (20, 1002)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "ligand-driven receptor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "protein (22, 1000)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A chemosensory protein and emerging therapeutic target.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Activation depends on the type and quantity of ligand present.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.nature.com/articles/s41467-025-56574-7",
+      "https://www.sciencedirect.com/science/article/pii/S0006295223002174",
+      "https://pubmed.ncbi.nlm.nih.gov/40057435/"
+    ]
+  }
+}

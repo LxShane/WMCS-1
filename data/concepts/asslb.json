@@ -8,7 +8,7 @@
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "Lithium-ion Battery",
+      "object": "Lithium-ion Battery (20, 4567)",
       "temporal": {
         "valid_from": "2018",
         "valid_until": "PRESENT",
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Inorganic Solid Electrolyte",
+      "object": "Inorganic Solid Electrolyte (20, 1234)",
       "temporal": {
         "valid_from": "2018",
         "valid_until": "PRESENT",
@@ -32,6 +32,42 @@
         "confidence": 0.9,
         "status": "SETTLED",
         "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "battery (23, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "ion (20, 1236)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "lithium-ion (20, 4321)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "solid (20, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
       }
     }
   ],

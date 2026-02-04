@@ -1,0 +1,68 @@
+{
+  "name": "ACE2",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "protein (22, 1000)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "protein (22, 1000)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A protein that binds to the spike glycoprotein of coronaviruses.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Binds to the RBD of the spike protein.",
+    "origin": "Expressed by host cells."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Receptor"
+      ],
+      "capabilities": [
+        "Binding"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "The Spike Protein | Totality of Evidence",
+      "ACE2 Receptor Usage across Animal Species by SARS-CoV-2"
+    ]
+  }
+}

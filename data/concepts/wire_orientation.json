@@ -1,0 +1,70 @@
+{
+  "name": "Wire Orientation",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Property",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Direction of wire entry into a terminal block",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The direction in which a wire enters a terminal block.",
+    "common_uses": [
+      "Describing terminal block types",
+      "Selecting appropriate terminal blocks"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Affects ease of installation and space requirements.",
+    "origin": "Developed to accommodate various installation constraints."
+  },
+  "instance_layer": {
+    "examples": [
+      "Horizontal wire orientation",
+      "Vertical wire orientation"
+    ]
+  },
+  "facets": {
+    "ABSTRACT_DATA": {
+      "domain": "Engineering",
+      "related_concepts": [
+        "Direction",
+        "Angle"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Simcona",
+    "citations": [
+      "https://simcona.com/blog/terminal-block-types"
+    ]
+  }
+}

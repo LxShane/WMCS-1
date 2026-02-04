@@ -1,9 +1,9 @@
 {
   "name": "Exocytosis",
-  "type": "LIVING_SYSTEM",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 30,
-    "item": 1003
+    "group": 50,
+    "item": 6666
   },
   "claims": [
     {
@@ -75,42 +75,48 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "PRECEDES",
+      "object": "Melanosomes",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Membrane Transport",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A form of active transport where vesicles fuse with the cell membrane, releasing their contents outside the cell.",
+    "definition": "The process where a cell directs the contents of secretory vesicles out of the cell membrane and into the extracellular space.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Vesicles containing intracellular material migrate to the cell membrane and fuse, releasing their contents into the extracellular space.",
-    "origin": "Evolutionary adaptation for cellular secretion and waste removal."
+    "mechanism": "Vesicles containing cellular products fuse with the cell membrane and release their contents into the extracellular space.",
+    "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
+  "instance_layer": [],
+  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": [
-      "Active transport - Wikipedia"
-    ]
+    "citations": []
   }
 }

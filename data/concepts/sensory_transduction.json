@@ -2,8 +2,8 @@
   "name": "Sensory Transduction",
   "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 51,
-    "item": 1002
+    "group": 50,
+    "item": 4567
   },
   "claims": [
     {
@@ -33,15 +33,71 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "The process where a stimulus is detected by a receptor which generates a graded signal.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Sensory Receptor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "sensory receptor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "mechanical stimuli to electrical signals",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Sensory transduction is the process by which sensory receptors convert stimuli into electrical signals for transmission by the nervous system.",
+    "definition": "The process by which sensory receptors convert stimuli into electrical signals that can be transmitted to the nervous system.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Stimuli alter the permeability of ion channels in sensory receptor membranes, leading to changes in membrane potential and the generation of action potentials.",
-    "origin": "Sensory transduction occurs at the interface between sensory receptors and the environment."
+    "mechanism": "Involves a series of biochemical and electrical events that amplify and convert the energy of the stimulus into a change in membrane potential.",
+    "origin": "Sensory organs."
   },
   "instance_layer": {
     "examples": []
@@ -52,16 +108,16 @@
         "Signal Conversion"
       ],
       "capabilities": [
-        "Converting stimuli to electrical signals"
+        "Electrophysiology",
+        "Amplification"
       ]
     }
   },
   "epistemic_metadata": {
-    "source": "Multiple Web Sources",
+    "source": "Set Automatically",
     "citations": [
-      "Kenhub",
-      "biologynotesonline.com",
-      "open.oregonstate.education"
+      "Stimulus (physiology) - Wikipedia",
+      "Sensory Transduction - an overview | ScienceDirect Topics"
     ]
   }
 }

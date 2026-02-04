@@ -2,8 +2,8 @@
   "name": "Elastin",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 9012
+    "group": 22,
+    "item": 1001
   },
   "claims": [
     {
@@ -68,10 +68,122 @@
         "status": "SETTLED",
         "source_type": "MIGRATE_LEGACY"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Protein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Extracellular Matrix",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Protein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Connective tissue",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Providing elasticity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "endowing soft tissues with low stiffness",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "endowing soft tissues with high and fully reversible extensibility",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "efficient elastic\u2013energy storage",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Elastin is a highly elastic protein in connective tissue.",
+    "definition": "A protein that endows soft tissues with low stiffness, high and fully reversible extensibility, and efficient elastic\u2013energy storage.",
     "common_uses": []
   },
   "deep_layer": {
@@ -82,18 +194,26 @@
     "examples": []
   },
   "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
     "STRUCTURAL": {
       "visual_features": [],
       "shape": [],
       "composition": [],
       "parts": [],
       "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://www.sciencedirect.com/science/article/pii/S0079642524001191"
-    ]
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10046833/",
+    "citations": []
   }
 }

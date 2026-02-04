@@ -1,0 +1,86 @@
+{
+  "name": "Radiographer",
+  "type": "SOCIAL_CONSTRUCT",
+  "id": {
+    "group": 61,
+    "item": 3001
+  },
+  "claims": [
+    {
+      "predicate": "FILLS_ROLE",
+      "object": "Medical Professional",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Guiding patient placement",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Aligning X-ray machine",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A healthcare professional who specializes in taking radiographs.",
+    "common_uses": [
+      "Operating X-ray equipment",
+      "Positioning patients for imaging"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Trained to ensure accurate and safe imaging procedures.",
+    "origin": "Evolved with the development of radiographic technology."
+  },
+  "instance_layer": {
+    "examples": [
+      "Radiographer assisting with a chest X-ray",
+      "Radiographer performing a mammogram"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Medical imaging technician"
+      ],
+      "capabilities": [
+        "Operating X-ray equipment",
+        "Ensuring patient safety"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Manual",
+    "citations": [
+      "https://www.sciencedirect.com/science/article/pii/S0141938225001118"
+    ]
+  }
+}

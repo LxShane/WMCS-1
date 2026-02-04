@@ -1,9 +1,9 @@
 {
-  "name": "Lacunosum-Molecular Layer",
-  "type": "LIVING_SYSTEM",
+  "name": "Lacunosum-molecular layer",
+  "type": "BODY_PART",
   "id": {
-    "group": 21,
-    "item": 1239
+    "group": 23,
+    "item": 4571
   },
   "claims": [
     {
@@ -33,10 +33,38 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "CA3",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RECEIVES_INPUT_FROM",
+      "object": "Layer II neuron of the entorhinal cortex",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A layer of the CA3 region.",
+    "definition": "A layer in the CA3 region of monkeys and rats.",
     "common_uses": []
   },
   "deep_layer": {
@@ -46,11 +74,20 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Superficial layer of the hippocampus",
+      "connected_to": [
+        "Stratum radiatum",
+        "Molecular layer",
+        "Hippocampal fissure"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": [
-      "5 Aug 2025"
-    ]
-  }
+    "citations": []
+  },
+  "autocorrected": true
 }

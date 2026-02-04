@@ -1,9 +1,9 @@
 {
   "name": "Dorsal Body Cavity",
-  "type": "INANIMATE_OBJECT",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 37,
-    "item": 1235
+    "group": 36,
+    "item": 5678
   },
   "claims": [
     {
@@ -61,22 +61,57 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Body Cavity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Posterior Aspect of Human Body",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "One of the two largest human body cavities.",
+    "definition": "The dorsal body cavity is a body cavity in the posterior aspect of the human body.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "The dorsal body cavity houses the brain and spinal cord.",
+    "origin": "Embryological development."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Posterior",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Human Body"
+    }
+  },
   "epistemic_metadata": {
-    "source": "Body cavity - Wikipedia",
+    "source": "1.7 Major Body Regions and Their Subdivisions",
     "citations": []
   }
 }

@@ -1,8 +1,8 @@
 {
   "name": "Cell Spreading",
-  "type": "ABSTRACT_CONCEPT",
+  "type": "SOCIAL_CONSTRUCT",
   "id": {
-    "group": 50,
+    "group": 60,
     "item": 1234
   },
   "claims": [
@@ -33,42 +33,77 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Regulation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Cell (21, 1001)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cell (21, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "process (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "substrate (30, 7890)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The process through which newly attached cells encounter and engage the extracellular matrix.",
+    "definition": "The process by which a cell increases its area of contact with a substrate.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Newly attached cells encounter and engage the extracellular matrix.",
+    "mechanism": "Involves mechanical regulation, plasma membrane, focal adhesions, and intracellular signaling pathways.",
     "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
+  "instance_layer": [],
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Extracellular Matrix Geometry and Initial Adhesive Position",
+    "source": "Feeling Things Out: Bidirectional Signaling of the Cell-ECM",
     "citations": [
-      "https://www.cell.com/cell-reports/fulltext/S2211-1247(19)30500-5"
+      "PMC7274903"
     ]
   }
 }

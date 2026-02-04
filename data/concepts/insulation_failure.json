@@ -1,0 +1,41 @@
+{
+  "name": "Insulation Failure",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 2345
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Fault",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A breakdown of the insulating material surrounding electrical conductors.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Allows current to leak to ground or other conductors, potentially causing short circuits or electric shock.",
+    "origin": "Results from aging, damage, or contamination of the insulation."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "epistemic_metadata": {
+    "source": "mrcet.ac",
+    "citations": [
+      "R22 III-II EEE PSP DIGITAL NOTES"
+    ]
+  }
+}

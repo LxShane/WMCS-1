@@ -1,8 +1,8 @@
 {
   "name": "Electron Transport Chain",
-  "type": "LIVING_SYSTEM",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 20,
+    "group": 50,
     "item": 1234
   },
   "claims": [
@@ -509,37 +509,112 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "series of protein complexes and other molecules",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "transferring electrons from electron donors to electron acceptors",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "redox reactions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "transferring protons across a membrane",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "biological process",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The electron transport chain is a series of protein complexes that transfers electrons from electron donors to electron acceptors via redox reactions, and couples this electron transfer with the transfer of protons (H+) across a membrane.",
+    "definition": "A series of protein complexes and other molecules which transfer electrons from electron donors to electron acceptors.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Electrons are passed from one molecule to another, and energy released in these transfers is used to form an electrochemical gradient. The energy stored in the gradient is then used to make ATP.",
-    "origin": "Evolved as a mechanism for energy generation in cellular respiration."
+    "mechanism": "Electrons are passed from one component to the next in the chain, releasing energy that is used to pump protons across a membrane, creating an electrochemical gradient that drives ATP synthesis.",
+    "origin": "Evolved in early life forms to harness energy from redox reactions."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
     "FUNCTION": {
-      "roles": [
-        "Energy Generation"
-      ],
-      "capabilities": [
-        "Electron Transfer",
-        "Proton Pumping",
-        "ATP Synthesis"
-      ]
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Electron transport chain - Wikipedia",
     "citations": [
-      "Electron transport chain - Wikipedia",
-      "Biochemistry, Oxidative Phosphorylation - StatPearls - NCBI",
-      "Electron Transport Chain | Biology for Majors I - Lumen Learning"
+      "https://en.wikipedia.org/wiki/Electron_transport_chain"
     ]
   }
 }

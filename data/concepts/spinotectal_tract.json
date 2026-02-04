@@ -1,9 +1,9 @@
 {
-  "name": "Spinotectal Tract",
+  "name": "Spinotectal tract",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 22,
-    "item": 1001
+    "group": 20,
+    "item": 4567
   },
   "claims": [
     {
@@ -411,48 +411,85 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Tract",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "spinovisual reflexes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Ascending tract",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Spinal cord",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The spinotectal tract is an ascending tract in the spinal cord that projects to the midbrain and is involved in the processing of pain and visceral sensations.",
+    "definition": "An ascending tract in the spinal cord.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The spinotectal tract carries pain sensation from nociceptors to the spinal cord, ultimately projecting to the midbrain for further processing.",
-    "origin": "Evolves as part of the somatosensory system to process and react to harmful stimuli."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Sensory Transmission"
-      ],
-      "capabilities": [
-        "Transmitting pain signals to the brain"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "Spinal Cord",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
+    "FUNCTION": {},
+    "STRUCTURAL": {},
+    "SPATIAL": {}
   },
   "epistemic_metadata": {
-    "source": "Multiple Web Sources",
+    "source": "Set Automatically",
     "citations": [
-      "https://en.wikipedia.org/wiki/Spinotectal_tract",
-      "https://en.wikipedia.org/wiki/Spinothalamic_tract",
-      "https://loonylabs.org/2020/03/01/spinotectal-tract/"
+      "https://en.wikipedia.org/wiki/Spinomesencephalic_tract",
+      "https://en.wikipedia.org/wiki/Spinomesencephalic_pathway"
     ]
   }
 }

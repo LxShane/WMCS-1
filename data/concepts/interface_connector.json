@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 20,
-    "item": 1237
+    "item": 1003
   },
   "claims": [
     {
@@ -19,22 +19,57 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Connector",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Physically and electrically connecting sensor's cable end to a corresponding receptacle",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Hardware that connects network devices.",
+    "definition": "A critical link that physically and electrically connects the sensor's cable end to a corresponding receptacle.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Electrical connection for data transfer.",
-    "origin": "Early computing."
+    "mechanism": "Provides physical support and electrical conductivity between two parts.",
+    "origin": "Evolved from the need for reliable electrical connections."
   },
-  "instance_layer": [],
-  "facets": {},
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Connectors 101 - Interface Force Measurement Solutions",
     "citations": [
-      "Introduction to communication networks for electrical distribution"
+      "https://www.interfaceforce.com/connectors-101/"
     ]
   }
 }

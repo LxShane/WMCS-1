@@ -8,7 +8,7 @@
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "Beam Pipe",
+      "object": "Beam Pipe (32, 1004)",
       "temporal": {
         "valid_from": "2021",
         "valid_until": "PRESENT",
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "MADE_OF",
-      "object": "Aluminium Alloy",
+      "object": "Aluminium Alloy (33, 1011)",
       "temporal": {
         "valid_from": "2021",
         "valid_until": "PRESENT",
@@ -36,7 +36,7 @@
     },
     {
       "predicate": "PREVENTS",
-      "object": "Induced Radioactivity",
+      "object": "Induced Radioactivity (51, 1013)",
       "temporal": {
         "valid_from": "2021",
         "valid_until": "PRESENT",
@@ -46,6 +46,15 @@
         "confidence": 0.8,
         "status": "SETTLED",
         "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "beam (30, 1005)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
       }
     }
   ],

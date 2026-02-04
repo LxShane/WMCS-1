@@ -1,0 +1,49 @@
+{
+  "name": "Plasma-facing components (PFCs)",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 3456
+  },
+  "claims": [
+    {
+      "predicate": "INTERACTS_WITH",
+      "object": "High-energy plasma",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Components directly exposed to plasma.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {
+    "SPATIAL": {
+      "location": "Inner surface of the vacuum vessel",
+      "connected_to": [
+        "Vacuum vessel",
+        "Divertor",
+        "Blanket modules"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Plasma-Materials Interaction - an overview | ScienceDirect Topics",
+    "citations": []
+  },
+  "autocorrected": true
+}

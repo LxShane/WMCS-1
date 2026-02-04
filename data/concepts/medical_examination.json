@@ -1,0 +1,79 @@
+{
+  "name": "Medical Examination",
+  "type": "SOCIAL_CONSTRUCT",
+  "id": {
+    "group": 60,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Instrument",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "visual inspection",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "photographical inspection",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An investigation of the body for diagnostic purposes.",
+    "common_uses": [
+      "Diagnosis",
+      "Monitoring health"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Various methods for examining different aspects of the body.",
+    "origin": "Evolved with medical knowledge and technology."
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Diagnostic procedure"
+      ],
+      "capabilities": [
+        "Identify diseases",
+        "Assess health"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "US20100069783A1",
+    "citations": []
+  }
+}

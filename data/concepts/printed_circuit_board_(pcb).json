@@ -1,0 +1,44 @@
+{
+  "name": "Printed Circuit Board (PCB)",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Circuit Board",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A board used to mechanically support and electrically connect electronic components using conductive pathways, tracks or signal traces etched from copper sheets laminated onto a non-conductive substrate.",
+    "common_uses": [
+      "Connecting electronic components",
+      "Supporting electronic components"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Etching conductive pathways on a substrate allows for electrical connections between components.",
+    "origin": "Developed in the 20th century as a replacement for point-to-point wiring."
+  },
+  "instance_layer": [
+    "Motherboard",
+    "Graphics card"
+  ],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Multiple Web Sources",
+    "citations": []
+  }
+}

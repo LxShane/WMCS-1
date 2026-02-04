@@ -1,0 +1,156 @@
+{
+  "name": "Brake Pedal",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Pedal",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Applying force to the hydraulic brake system",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Input mechanism",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Driver's side floorboard",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Activating the brakes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONNECTED_TO",
+      "object": "Master Cylinder Rod",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "driver (20, 1008)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "vehicle (30, 1006)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A foot-operated lever in a vehicle that allows the driver to control the braking system.",
+    "common_uses": [
+      "Slowing down or stopping a vehicle"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The brake pedal applies force to the master cylinder, which then pressurizes the hydraulic fluid in the braking system.",
+    "origin": "Evolved with the development of hydraulic braking systems."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metal",
+        "Flat surface for foot",
+        "Hinged"
+      ],
+      "shape": [
+        "Lever"
+      ],
+      "SPATIAL": {
+        "location": "Driver Side Floorboard"
+      }
+    },
+    "FUNCTION": {
+      "roles": [
+        "Input Mechanism"
+      ],
+      "capabilities": [
+        "Apply force to master cylinder"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "See URLs",
+    "citations": [
+      "https://schematron.org/brake-pedal-assembly-diagram.html",
+      "https://phys420.phas.ubc.ca/p420_12/mark/PHYS+420/The_Hydraulic_Braking_System/Theory.html",
+      "http://soaraperformance.com/wp-content/uploads/2017/01/Stop-Tech-physics-of-braking-system.pdf"
+    ]
+  }
+}

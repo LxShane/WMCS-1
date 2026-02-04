@@ -1,9 +1,9 @@
 {
   "name": "Distributed System",
-  "type": "INANIMATE_OBJECT",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 20,
-    "item": 4567
+    "group": 50,
+    "item": 1237
   },
   "claims": [
     {
@@ -61,37 +61,56 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "nodes",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Clock Synchronization",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A computer system whose inter-communicating components are located on different networked computers.",
-    "common_uses": []
+    "definition": "A distributed system is a system in which components located on networked computers communicate and coordinate their actions by passing messages.",
+    "common_uses": [
+      "Cloud Computing",
+      "Peer-to-peer networks"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Components communicate and coordinate their actions by passing messages to one another in order to achieve a common goal.",
-    "origin": null
+    "mechanism": "Nodes communicate and coordinate their actions by passing messages.",
+    "origin": "To improve performance, availability, and scalability."
   },
   "instance_layer": {
     "examples": [
-      "SOA-based systems",
-      "microservices",
-      "massively multiplayer online games",
-      "peer-to-peer applications"
+      "Cloud-based service",
+      "Blockchain network"
     ]
   },
-  "facets": {
-    "SPATIAL": {
-      "location": "Networked, non-centralized",
-      "connected_to": [],
-      "coordinates": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": [
-      "https://en.wikipedia.org/wiki/Distributed_computing",
-      "https://aws.amazon.com/what-is/distributed-computing/"
-    ]
-  },
-  "autocorrected": true
+    "citations": []
+  }
 }

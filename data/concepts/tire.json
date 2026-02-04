@@ -1,0 +1,120 @@
+{
+  "name": "Tire",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 24,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Supporting the vehicle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Damping out road irregularities",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Providing the longitudinal and lateral forces necessary to change the speed and direction of the vehicle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Deformation where it contacts the road during acceleration, braking, and cornering",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A circular component of a vehicle that contacts the road.",
+    "common_uses": [
+      "Vehicle support",
+      "Force transfer"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Deforms to generate forces.",
+    "origin": "Manufactured for vehicle use."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Support",
+        "Force Transfer"
+      ],
+      "capabilities": [
+        "Deformation",
+        "Force Generation"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Black",
+        "Round",
+        "Rubber"
+      ],
+      "shape": [
+        "Circular"
+      ],
+      "composition": [
+        "Rubber",
+        "Steel"
+      ],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "The tire model - Stanford University"
+    ]
+  }
+}

@@ -1,9 +1,9 @@
 {
   "name": "Gyrus",
-  "type": "LIVING_SYSTEM",
+  "type": "BODY_PART",
   "id": {
-    "group": 33,
-    "item": 1001
+    "group": 23,
+    "item": 1002
   },
   "claims": [
     {
@@ -61,36 +61,50 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Convolution",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Cerebral Cortex",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A gyrus is a ridge on the cerebral cortex.",
+    "definition": "The crest of a single convolution of the cerebral cortex.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Gyri and sulci create the folded appearance of the brain.",
-    "origin": "Forms from cerebral cortices of the cerebral hemispheres, beginning six to nine months of development."
+    "mechanism": "Increases surface area of the cerebral cortex.",
+    "origin": "Develops during brain development."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "Cerebral Cortex",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": "Cerebral Hemispheres"
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Gyrus - Wikipedia",
+    "source": "Britannica",
     "citations": []
   }
 }

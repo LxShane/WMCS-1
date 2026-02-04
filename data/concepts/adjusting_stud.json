@@ -1,0 +1,70 @@
+{
+  "name": "Adjusting Stud",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 23,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Engine Mount",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Alignment variations",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "engine (25, 1009)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A component of the engine mount that allows for slight adjustments in alignment.",
+    "common_uses": [
+      "Fine-tuning engine position",
+      "Correcting minor misalignments"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The adjusting stud allows mechanics to precisely position the engine during installation and maintenance.",
+    "origin": "Automotive engineering"
+  },
+  "instance_layer": {
+    "examples": [
+      "Adjusting the stud on an engine mount during a repair."
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://isoflextech.com/news/engine-mount-installation-tips/"
+    ]
+  }
+}

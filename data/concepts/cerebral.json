@@ -5,7 +5,26 @@
     "group": 32,
     "item": 1005
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "RELATED_TO",
+      "object": "brain (20, 3456)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cerebrum (23, 7890)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
   "surface_layer": {
     "definition": "Pertaining to the cerebrum or brain.",
     "common_uses": []
@@ -28,14 +47,18 @@
       "relations": []
     },
     "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+      "location": "Superior",
+      "connected_to": [
+        "Brainstem",
+        "Diencephalon",
+        "Cerebellum"
+      ],
+      "coordinates": []
     }
   },
   "epistemic_metadata": {
     "source": "Fluid transport in the brain - PMC - NIH",
     "citations": []
-  }
+  },
+  "autocorrected": true
 }

@@ -1,8 +1,8 @@
 {
-  "name": "Engine block",
+  "name": "Engine Block",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
+    "group": 25,
     "item": 4567
   },
   "claims": [
@@ -201,40 +201,81 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Crankshaft Bearing Bridges",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The main structure of an internal combustion engine containing the cylinders.",
-    "common_uses": []
+    "definition": "The main structural component of an internal combustion engine, housing the cylinders and crankshaft.",
+    "common_uses": [
+      "Supports engine components"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Provides the foundational structure for the engine components.",
-    "origin": "Mechanical engineering design."
+    "mechanism": "Provides a rigid frame for the engine and contains the cylinders in which combustion occurs.",
+    "origin": "Developed alongside early internal combustion engines."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "The engine block in a car engine."
+    ]
   },
   "facets": {
     "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
+      "visual_features": [
+        "Metallic",
+        "Solid"
+      ],
+      "shape": [
+        "Blocky",
+        "Cylindrical bores"
+      ],
+      "composition": [
+        "Cast iron",
+        "Aluminum"
+      ],
+      "parts": [
+        "Cylinders",
+        "Water jackets"
+      ],
       "relations": []
     },
-    "SPATIAL": {
-      "location": "Central to engine assembly",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": "Engine compartment"
-    },
     "FUNCTION": {
-      "roles": [],
-      "capabilities": []
+      "roles": [
+        "Structural Support",
+        "Housing"
+      ],
+      "capabilities": [
+        "Supports engine components",
+        "Contains cylinders"
+      ]
+    },
+    "SPATIAL": {
+      "location": "In vehicle",
+      "coordinates": [],
+      "connected_to": [
+        "Transmission",
+        "Cylinder Head"
+      ],
+      "contained_in": "Vehicle chassis"
     }
   },
   "epistemic_metadata": {
-    "source": "Engine block - Wikipedia",
-    "citations": []
+    "source": "See SOURCE URLs",
+    "citations": [
+      "studedu.org"
+    ]
   }
 }

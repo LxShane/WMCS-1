@@ -1,0 +1,79 @@
+{
+  "name": "Splenic Vein",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 30,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Vein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Confluence that forms the portal vein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A vein that joins with the superior mesenteric vein to form the portal vein.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Drains blood from the spleen.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Blood Transporter"
+      ],
+      "capabilities": [
+        "Draining blood from the spleen"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Page 1",
+      "Section 2.3"
+    ]
+  }
+}

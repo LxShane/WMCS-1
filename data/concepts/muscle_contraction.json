@@ -1,9 +1,9 @@
 {
   "name": "Muscle Contraction",
-  "type": "SOCIAL_CONSTRUCT",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 61,
-    "item": 1003
+    "group": 31,
+    "item": 9123
   },
   "claims": [
     {
@@ -131,24 +131,77 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Myosin",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Actin",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "ATP",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Muscle contraction involves the interaction of the protein filaments myosin and actin.",
+    "definition": "Muscle contraction is the process of muscle shortening, powered by the interaction of actin and myosin.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Myosin heads bind to actin, pull the actin filaments, and then release, resulting in muscle shortening.  ATP provides the energy for this process.",
+    "origin": "Evolved to facilitate movement and force generation."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "PROCESS_DATA": {}
+    "PROCESS_DATA": {
+      "roles": [
+        "Muscle Function"
+      ],
+      "capabilities": [
+        "Shortening Muscles"
+      ]
+    }
   },
   "epistemic_metadata": {
-    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6887992/",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "Special Issue: The Actin-Myosin Interaction in Muscle: Background and ...",
+      "ATP and Muscle Contraction | Biology for Majors II",
+      "Sliding Filament Theory: Muscle Contraction Explained"
+    ]
   }
 }

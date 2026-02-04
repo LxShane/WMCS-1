@@ -1,0 +1,57 @@
+{
+  "name": "Leukocyte Traffic",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 62,
+    "item": 1240
+  },
+  "claims": [
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "endothelium",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REGULATED_BY",
+      "object": "expression modulation of apical adhesion or surrogate molecules",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The movement of leukocytes within the body.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Regulated by adhesion molecules and chemokines.",
+    "origin": "Essential for immune surveillance and response."
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Extracellular matrices regulate extravasation journey of",
+    "citations": []
+  }
+}

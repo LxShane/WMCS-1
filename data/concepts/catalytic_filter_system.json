@@ -1,0 +1,86 @@
+{
+  "name": "Catalytic Filter System",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 24,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Catalysis",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Filtering (50, 1005)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "filtering (50, 1005)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A system that performs both catalysis and filtering.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "The system combines catalytic reactions with filtering processes.",
+    "origin": "Engineered for combined catalytic and filtering operations."
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Catalyst",
+        "Filter"
+      ],
+      "capabilities": [
+        "Facilitating chemical reactions",
+        "Removing unwanted substances"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "US9504958B2",
+    "citations": []
+  }
+}

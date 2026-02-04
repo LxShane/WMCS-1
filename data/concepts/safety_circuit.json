@@ -1,0 +1,117 @@
+{
+  "name": "Safety Circuit",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 2468
+  },
+  "claims": [
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Managing undervoltage",
+      "temporal": {
+        "valid_from": "2024",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Managing overvoltage",
+      "temporal": {
+        "valid_from": "2024",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Managing over-temperature",
+      "temporal": {
+        "valid_from": "2024",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Managing under-temperature",
+      "temporal": {
+        "valid_from": "2024",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Managing overcurrent conditions",
+      "temporal": {
+        "valid_from": "2024",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A circuit designed to protect against unsafe electrical conditions.",
+    "common_uses": [
+      "undervoltage protection",
+      "overvoltage protection",
+      "over-temperature protection",
+      "under-temperature protection",
+      "overcurrent protection"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Safety circuits monitor electrical conditions and take corrective action when unsafe conditions are detected.",
+    "origin": "Engineered electronic components."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Protection"
+      ],
+      "capabilities": [
+        "undervoltage protection",
+        "overvoltage protection",
+        "over-temperature protection",
+        "under-temperature protection",
+        "overcurrent protection"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Comprehensive Guide to BMS and Protection Circuit Modules",
+    "citations": []
+  }
+}

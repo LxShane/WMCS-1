@@ -1,0 +1,67 @@
+{
+  "name": "Gating",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 3456
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Mechanism for opening and closing a gate located in a pore domain",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Voltage-dependent potassium channels",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The process of opening and closing a channel or gate.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Conformational changes in the channel protein that control the opening and closing of the pore.",
+    "origin": "Evolved to regulate the flow of ions across cell membranes."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Regulator"
+      ],
+      "capabilities": [
+        "Controlling ion flow"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6359393/"
+    ]
+  }
+}

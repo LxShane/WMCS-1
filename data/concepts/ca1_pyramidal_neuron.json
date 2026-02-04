@@ -1,0 +1,140 @@
+{
+  "name": "CA1 pyramidal neuron",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 33,
+    "item": 3456
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "neuron (24, 1004)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "CA1",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Pyramidal neuron",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Hippocampus (24, 1002)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RECEIVES",
+      "object": "Synaptic input from CA3 pyramidal neurons",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "hippocampus (24, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "neuron (24, 1004)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A type of pyramidal neuron located in the CA1 region of the hippocampus.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "CA1 pyramidal neurons play a key role in spatial learning and memory.",
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Located in the CA1 region of the hippocampus, specifically within the stratum pyramidale. Apical dendrites extend through the stratum radiatum and stratum lacunosum-moleculare. Basal dendrites extend into the stratum oriens.",
+      "connected_to": [
+        "Other CA1 pyramidal neurons (via synapses)",
+        "CA3 pyramidal neurons (via Schaffer collaterals)",
+        "Subiculum",
+        "Entorhinal cortex",
+        "Interneurons within the hippocampus",
+        "Oligodendrocytes",
+        "Astrocytes",
+        "Microglia",
+        "Blood vessels"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Extracted from text",
+    "citations": []
+  },
+  "autocorrected": true
+}

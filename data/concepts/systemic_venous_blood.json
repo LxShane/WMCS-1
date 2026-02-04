@@ -1,0 +1,68 @@
+{
+  "name": "Systemic Venous Blood",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Blood",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Blood Returning From Peripheral Circulation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PROPERTY",
+      "object": "Much of the oxygen has been used by the cells of the body",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Blood returning from the peripheral circulation, where much of the oxygen has been used by the cells of the body.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Oxygen is consumed by cells in the peripheral tissues, resulting in a decrease in oxygen concentration in the venous blood.",
+    "origin": "Metabolic processes within cells."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "The Respiratory System | Basicmedical Key",
+    "citations": []
+  }
+}

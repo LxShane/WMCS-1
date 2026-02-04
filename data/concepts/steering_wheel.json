@@ -1,0 +1,63 @@
+{
+  "name": "Steering Wheel",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Transmitter",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Transmit driver's steering effort",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The circular device that the driver manipulates to steer the vehicle.",
+    "common_uses": [
+      "Steering"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Circular"
+      ],
+      "shape": [
+        "Circular"
+      ],
+      "parts": [
+        "Transmitter"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Quizlet",
+    "citations": [
+      "Quiz 4 - Steering System Theory Flashcards | Quizlet"
+    ]
+  }
+}

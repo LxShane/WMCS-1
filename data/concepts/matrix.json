@@ -1,9 +1,9 @@
 {
-  "name": "Matrix",
+  "name": "matrix",
   "type": "MATHEMATICAL_OBJECT",
   "id": {
-    "group": 41,
-    "item": 9012
+    "group": 40,
+    "item": 1235
   },
   "claims": [
     {
@@ -131,40 +131,50 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "spatial grey level difference",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "256 by 1 one channel",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A rectangular array of numbers, symbols, or expressions, arranged in rows and columns.",
-    "common_uses": [
-      "Representing linear transformations",
-      "Solving systems of equations",
-      "Data organization"
-    ]
+    "definition": "A rectangular array of numbers or other mathematical objects.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Rows and columns define relationships between elements.",
-    "origin": "Developed in the field of linear algebra."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
-    "examples": [
-      "Adjacency matrix in graph theory",
-      "Coefficient matrix in linear equations"
-    ]
+    "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Representation",
-        "Organization"
-      ],
-      "capabilities": [
-        "Data storage",
-        "Mathematical operations"
-      ]
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Tek.com",
+    "source": "man im_glds_matrix (3)",
     "citations": []
   }
 }

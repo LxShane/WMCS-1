@@ -1,0 +1,58 @@
+{
+  "name": "Plasma conversion sensors",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "monitoring plasma",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "part of electro-plasma system",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Sensors used to measure the properties of plasma.",
+    "common_uses": [
+      "Monitoring plasma temperature, pressure, and composition."
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Sensors use various physical principles to measure plasma properties and convert them into electrical signals.",
+    "origin": "Starship design"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Extracted from web pages",
+    "citations": [
+      "https://memory-alpha.fandom.com/wiki/Electro-plasma_system"
+    ]
+  }
+}

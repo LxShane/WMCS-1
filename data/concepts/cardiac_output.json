@@ -1,9 +1,9 @@
 {
   "name": "Cardiac Output",
-  "type": "ABSTRACT_CONCEPT",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 50,
-    "item": 1003
+    "group": 20,
+    "item": 1002
   },
   "claims": [
     {
@@ -19,15 +19,47 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Volume of blood pumped by the heart per unit time",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "blood (31, 1238)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "heart (32, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Cardiac output is the volume of blood pumped by the heart per minute.",
+    "definition": "The volume of blood pumped by the heart per minute.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Cardiac output is determined by heart rate and stroke volume.",
-    "origin": "A physiological measure of heart function."
+    "mechanism": "Heart rate times stroke volume.",
+    "origin": "Physiological function."
   },
   "instance_layer": {
     "examples": []
@@ -35,8 +67,6 @@
   "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": [
-      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3530036/"
-    ]
+    "citations": []
   }
 }

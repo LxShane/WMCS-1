@@ -1,0 +1,49 @@
+{
+  "name": "Cell Shape",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Cellular Characteristic",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cell (21, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The physical form of a cell.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Cell shape is determined by the cytoskeleton and interactions with the extracellular matrix.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

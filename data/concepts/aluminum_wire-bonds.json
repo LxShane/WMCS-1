@@ -8,7 +8,7 @@
   "claims": [
     {
       "predicate": "MADE_OF",
-      "object": "Aluminum",
+      "object": "Aluminum (30, 1235)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "USED_FOR",
-      "object": "Connection",
+      "object": "Connection (30, 1111)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -32,6 +32,15 @@
         "confidence": 0.8,
         "status": "SETTLED",
         "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "aluminum (30, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
       }
     }
   ],

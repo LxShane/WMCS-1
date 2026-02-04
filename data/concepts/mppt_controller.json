@@ -1,0 +1,93 @@
+{
+  "name": "MPPT Controller",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Solar Charge Controller",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "maximizing current",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USES",
+      "object": "DC-DC converter",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A Maximum Power Point Tracking (MPPT) controller optimizes the match between the solar array and the battery bank.",
+    "common_uses": [
+      "Solar power systems",
+      "Battery charging"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "It adjusts the voltage and current of the solar panel to operate at its maximum power point.",
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Power Optimizer"
+      ],
+      "capabilities": [
+        "Maximum power point tracking",
+        "Voltage regulation",
+        "Current limiting"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://m.alibaba.com/showroom/solar-charge-cotroller.html",
+    "citations": []
+  }
+}

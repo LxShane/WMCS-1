@@ -1,25 +1,56 @@
 {
   "name": "Phagocytosis",
-  "type": "SOCIAL_CONSTRUCT",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 60,
-    "item": 3450
+    "group": 21,
+    "item": 1235
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Macrophage",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "the engulfment of cells or particles by phagocytes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "The process by which a cell uses its plasma membrane to engulf a large particle, giving rise to an internal compartment called the phagosome.",
+    "definition": "Process of engulfing cells or particles.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Cellular process",
+    "origin": "Biological process"
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Intracellular Trafficking of MHC Class II Molecules - Springer",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3564380/"
+    ]
   }
 }

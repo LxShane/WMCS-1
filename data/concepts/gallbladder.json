@@ -1,0 +1,85 @@
+{
+  "name": "Gallbladder",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 30,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "storing bile",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "concentrating bile",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The gallbladder stores and concentrates bile produced by the liver.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Absorbs water from bile, increasing its concentration.",
+    "origin": "Develops as an outpouching from the bile duct during embryonic development."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Bile storage",
+        "Bile concentrator"
+      ],
+      "capabilities": [
+        "Bile concentration",
+        "Bile release"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [
+        "Pear-shaped"
+      ],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": [],
+      "coordinates": [],
+      "connected_to": [
+        "Cystic duct"
+      ],
+      "contained_in": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Physiology, Biliary - StatPearls - NCBI Bookshelf",
+      "Understanding Bile Production: The Liver's Vital Role Explained"
+    ]
+  }
+}

@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 30,
-    "item": 1237
+    "item": 1239
   },
   "claims": [
     {
@@ -117,6 +117,104 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Width",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Performance",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "switching the flow of electric current on and off",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "circuit component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Acting as a switch",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Forming logic gates",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Amplifying or switching electronic signals",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
@@ -126,13 +224,41 @@
       "Switching"
     ]
   },
-  "deep_layer": {},
-  "instance_layer": {},
-  "facets": {},
-  "epistemic_metadata": {
-    "source": "Active-pixel sensor - Wikipedia",
-    "citations": [
-      "Page 1"
+  "deep_layer": {
+    "mechanism": "Current flow between two terminals is controlled by a third terminal.",
+    "origin": "Developed for amplification and switching applications."
+  },
+  "instance_layer": {
+    "examples": [
+      "BJT in an amplifier circuit",
+      "MOSFET in a switching power supply"
     ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Small package with multiple leads",
+        "Various shapes and sizes"
+      ],
+      "shape": [
+        "TO-92",
+        "SOT-23"
+      ],
+      "composition": [
+        "Silicon",
+        "Germanium"
+      ],
+      "parts": [
+        "Base/Gate",
+        "Collector/Drain",
+        "Emitter/Source",
+        "Case"
+      ],
+      "relations": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
   }
 }

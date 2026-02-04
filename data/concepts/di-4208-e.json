@@ -1,0 +1,109 @@
+{
+  "name": "DI-4208-E",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1007
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Data Acquisition System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "USB Interface",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Ethernet Interface",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Analog Input Channels",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "data (50, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "DI-4208-E is a high-speed data acquisition system.",
+    "common_uses": [
+      "Data Acquisition"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The device acquires analog data via its input channels and converts it to digital data for processing via USB or Ethernet.",
+    "origin": "Designed and manufactured by DATAQ Instruments."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "connected_to": [],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "DI-4208-E High Speed USB/Ethernet Data Acquisition - DATAQ Instruments",
+    "citations": [
+      "https://www.dataq.com/products/di-4208-e/?srsltid=AfmBOop8vsUYuM04vKKQhAfjy59W70KcCtccjZdAxNJWh0cACtUzvf1a"
+    ]
+  },
+  "autocorrected": true
+}

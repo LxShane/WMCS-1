@@ -1,0 +1,53 @@
+{
+  "name": "Digital Single Lens Reflex Camera",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 22,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Camera",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "sensor (20, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A camera using a digital sensor and a mirror to reflect the image to the viewfinder.",
+    "common_uses": [
+      "Taking photos",
+      "Recording videos"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Light passes through the lens, reflects off a mirror, and is focused onto a digital sensor.",
+    "origin": null
+  },
+  "instance_layer": [
+    "Nikon D850",
+    "Canon EOS 5D Mark IV"
+  ],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "AnotherPhotographyBook v618M PDF",
+    "citations": []
+  }
+}

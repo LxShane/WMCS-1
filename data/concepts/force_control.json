@@ -1,0 +1,56 @@
+{
+  "name": "Force control",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Robotic control strategy",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Force/torque sensors",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A robotic control strategy that regulates the force exerted by the robot on its environment.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Force control uses force sensors and control algorithms to maintain a desired force or torque.",
+    "origin": "Developed with advancements in force sensing and control theory."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "PDF Overview Of Sensors For Robotics"
+    ]
+  }
+}

@@ -2,8 +2,8 @@
   "name": "Selectin",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 30,
-    "item": 1238
+    "group": 21,
+    "item": 2222
   },
   "claims": [
     {
@@ -61,11 +61,27 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Cell adhesion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": null,
-    "common_uses": []
+    "definition": "Selectins are involved in cell adhesion.",
+    "common_uses": [
+      "Cell adhesion"
+    ]
   },
   "deep_layer": {
     "mechanism": null,
@@ -76,7 +92,9 @@
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
+    "source": "Integrin - Wikipedia",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Integrin"
+    ]
   }
 }

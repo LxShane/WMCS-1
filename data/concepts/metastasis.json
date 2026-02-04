@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1236
+    "item": 3456
   },
   "claims": [
     {
@@ -75,25 +75,48 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Challenge in cancer treatment",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "GOVERNED_BY",
+      "object": "Interaction between Tumor Cells and Tumor Microenvironment",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The spread of cancer cells from the primary tumor to other parts of the body.",
+    "definition": "The spread of cancer cells to distant sites in the body.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Detachment of tumor cells, entry into the bloodstream, and colonization of distant organs.",
+    "origin": "Complex process involving multiple steps and factors."
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": [
-      "https://aacrjournals.org/cancerdiscovery/article/14/8/1375/746505/The-Interplay-between-Extracellular-Matrix",
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12117852/"
-    ]
+    "citations": []
   }
 }

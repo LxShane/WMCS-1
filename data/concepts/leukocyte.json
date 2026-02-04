@@ -2,8 +2,8 @@
   "name": "Leukocyte",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 24,
-    "item": 1237
+    "group": 21,
+    "item": 1234
   },
   "claims": [
     {
@@ -19,21 +19,90 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "white blood cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "type of cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "White blood cell",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "White Blood Cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Trafficking in Lymphatic Vessels",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A type of white blood cell.",
+    "definition": "A type of white blood cell that is involved in the immune system.",
     "common_uses": []
   },
-  "deep_layer": {},
-  "instance_layer": {
-    "examples": []
+  "deep_layer": {
+    "mechanism": "Leukocytes migrate through blood and lymphatic vessels to reach sites of infection or inflammation.",
+    "origin": "Produced in the bone marrow."
   },
+  "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
-    "source": "A guide to chemokines and their receptors - PMC",
-    "citations": [
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6120486/"
-    ]
+    "source": "Leukocyte Trafficking in Lymphatic Vessels - PMC - NIH",
+    "citations": []
   }
 }

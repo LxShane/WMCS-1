@@ -1,9 +1,9 @@
 {
   "name": "Cloud Storage",
-  "type": "INANIMATE_OBJECT",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 30,
-    "item": 1004
+    "group": 50,
+    "item": 5678
   },
   "claims": [
     {
@@ -61,22 +61,75 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "storing data in multiple locations",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "sensitivity of the data",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "data (50, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "storage (50, 1236)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A model of computer data storage in which data is stored remotely in logical pools and is accessible to users over a network.",
+    "definition": "Cloud storage involves storing data in multiple locations depending on the sensitivity of the data.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Data is stored across multiple servers and accessed via the internet.",
-    "origin": "Advancements in networking and virtualization."
+    "mechanism": "Data is stored on remote servers accessible over a network.",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Remote, distributed across data centers globally",
+      "connected_to": [],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "Cloud storage - Wikipedia",
+    "source": "Cloud Storage Explained: Benefits, Features & Best Providers - BuzzClan",
     "citations": []
-  }
+  },
+  "autocorrected": true
 }

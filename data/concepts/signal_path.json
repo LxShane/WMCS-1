@@ -1,29 +1,74 @@
 {
   "name": "Signal Path",
-  "type": "INANIMATE_OBJECT",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 30,
-    "item": 5678
+    "group": 50,
+    "item": 4321
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Conductive Traces",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Components",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Interconnects",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "The physical route a signal travels.",
-    "common_uses": []
+    "definition": "The pathway through which electrical signals travel on a PCB, including conductive traces, components, and interconnects.",
+    "common_uses": [
+      "Signal transmission",
+      "Circuit routing"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Electrical signals move through the PCB along conductive traces and pass through components and interconnects to reach their destination.",
+    "origin": "Determined by the layout and design of the PCB."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Signal paths connecting a microcontroller to memory",
+      "Signal paths connecting a sensor to a processing unit"
+    ]
   },
-  "facets": {
-    "FUNCTION": {},
-    "STRUCTURAL": {},
-    "SPATIAL": {}
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Multiple Web Sources",
+    "source": "How does the circuit board transmit signals ? \u2013 PCB HERO",
     "citations": []
   }
 }

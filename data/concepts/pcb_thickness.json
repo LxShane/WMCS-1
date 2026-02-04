@@ -1,0 +1,67 @@
+{
+  "name": "PCB thickness",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "AFFECTS",
+      "object": "Thermal performance",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "AFFECTS",
+      "object": "Mechanical stability",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The overall thickness of the printed circuit board.",
+    "common_uses": [
+      "Specifying manufacturing requirements"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Thickness impacts heat dissipation and structural integrity",
+    "origin": "Determined during PCB design and manufacturing"
+  },
+  "instance_layer": {
+    "examples": [
+      "0.8mm",
+      "1.6mm"
+    ]
+  },
+  "facets": {
+    "PROPERTY_DATA": {
+      "domain": "Physical Dimensions",
+      "antonym": "PCB thinness"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Web Sources",
+    "citations": [
+      "https://www.pcba-manufacturers.com/pcb-thickness/",
+      "https://www.wevolver.com/article/pcbs-thickness-understanding-thickness-variations"
+    ]
+  }
+}

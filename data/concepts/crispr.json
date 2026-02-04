@@ -1,0 +1,75 @@
+{
+  "name": "CRISPR",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 3456
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "clustered regularly interspaced short palindromic repeats",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "prokaryotic immune technology",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "gene (50, 1237)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A technology used for gene editing.",
+    "common_uses": [
+      "Gene editing",
+      "Gene regulation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Uses Cas enzymes guided by RNA to cut DNA at specific locations.",
+    "origin": "Derived from a naturally occurring system in bacteria."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "PMC7614092",
+      "S2162253125002719",
+      "S1097-2765(16)30813-9"
+    ]
+  }
+}

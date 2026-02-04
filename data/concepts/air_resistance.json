@@ -1,0 +1,63 @@
+{
+  "name": "Air Resistance",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 20,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Friction (50, 2424)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Damping",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "force (50, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Force opposing motion through air.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Collision of the string with air molecules.",
+    "origin": "Motion in air"
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Physics Stack Exchange",
+    "citations": [
+      "https://physics.stackexchange.com/questions/798040/vibrating-string-and-damping"
+    ]
+  }
+}

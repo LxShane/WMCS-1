@@ -1,0 +1,58 @@
+{
+  "name": "Cryomodule",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Superconducting Cavity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "module (20, 9012)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "temperatures (50, 8901)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A module containing superconducting cavities, designed to operate at cryogenic temperatures.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Provides the necessary environment for superconducting cavities to operate efficiently.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "The Continuous Electron Beam Accelerator Facility at 12 GeV",
+    "citations": []
+  }
+}

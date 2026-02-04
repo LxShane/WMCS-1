@@ -1,0 +1,42 @@
+{
+  "name": "Lung adenocarcinoma",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 1122
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "tumor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A type of lung cancer.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Uncontrolled growth of lung cells.",
+    "origin": "Genetic mutations."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.cell.com/cell-systems/fulltext/S2405-4712(25)00094-8"
+    ]
+  }
+}

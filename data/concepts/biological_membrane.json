@@ -1,0 +1,64 @@
+{
+  "name": "Biological Membrane",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 2930
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "aggregates of molecules",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "membrane (20, 9012)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A membrane found inside cells.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Lipids self-assemble into a bilayer.",
+    "origin": "Self-assembly of lipids."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "SPATIAL": {
+      "location": "Encapsulating, surrounding, bordering",
+      "connected_to": [
+        "Cytoskeleton",
+        "Extracellular matrix",
+        "Other membranes",
+        "Intracellular organelles",
+        "Membrane proteins"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.eng.uc.edu/~beaucag/Classes/AdvancedMaterialsThermodynamics/Books/Jacob+N.+Israelachvili+-+Intermolecular+and+Surface+Forces,+Third+Edition_+Revised+Third+Edition-Academic+Press+(2011).pdf"
+    ]
+  },
+  "autocorrected": true
+}

@@ -1,9 +1,9 @@
 {
-  "name": "Interference fit",
-  "type": "SOCIAL_CONSTRUCT",
+  "name": "Interference Fit",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 60,
-    "item": 1236
+    "group": 50,
+    "item": 1246
   },
   "claims": [
     {
@@ -33,35 +33,47 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Mechanical Fit",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Securing Subcells",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A type of fit where two parts are joined with an intentional slight difference in size, requiring force to assemble.",
-    "common_uses": []
-  },
-  "deep_layer": {
-    "mechanism": "Parts are joined by thermal expansion/contraction or force.",
-    "origin": "Unknown."
-  },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Joining parts",
-        "Creating a strong joint"
-      ],
-      "capabilities": [
-        "Transferring torque",
-        "Preventing slippage"
-      ]
-    }
+    "definition": "A fit between two parts where one part is slightly larger than the other, requiring force to assemble them.",
+    "common_uses": [
+      "Securing parts together",
+      "Creating a press fit"
+    ]
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://en.wikipedia.org/wiki/Interference_fit"
+      "Page 57"
     ]
   }
 }

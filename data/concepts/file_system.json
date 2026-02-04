@@ -1,0 +1,73 @@
+{
+  "name": "File System",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "System",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Access limited to serial port",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PREVENTS",
+      "object": "OTA Support",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A system for organizing and storing computer files.",
+    "common_uses": [
+      "Storing data",
+      "Organizing files"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The file system uses directories and files to organize data on a storage device.",
+    "origin": "Developed with early computer systems."
+  },
+  "instance_layer": [
+    "NTFS",
+    "ext4"
+  ],
+  "epistemic_metadata": {
+    "source": "Digi XBee\u00ae RR Zigbee RF Module User Guide - Support Resources",
+    "citations": [
+      "Page 2"
+    ]
+  }
+}

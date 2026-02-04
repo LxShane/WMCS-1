@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 30,
-    "item": 1001
+    "item": 4567
   },
   "claims": [
     {
@@ -75,42 +75,93 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "IBS processes",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Dual-chamber structure",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Sputtering",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Components",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A system designed to remove gases and particles from a contained volume to create a vacuum.",
+    "definition": "A vacuum system is an apparatus designed to create and maintain a vacuum.",
     "common_uses": [
       "Scientific research",
       "Industrial processes"
     ]
   },
   "deep_layer": {
-    "mechanism": "Pumps and other components work together to reduce the pressure inside a chamber.",
-    "origin": "Developed for various scientific and industrial applications."
+    "mechanism": "Vacuum systems use pumps to remove gas molecules from a sealed chamber.",
+    "origin": "Evolved from early air pumps."
   },
-  "instance_layer": {
-    "examples": [
-      "LIGO vacuum system",
-      "Large Hadron Collider vacuum system"
-    ]
-  },
+  "instance_layer": [
+    "Vacuum chamber in a lab",
+    "Vacuum pump in a semiconductor fab"
+  ],
   "facets": {
     "FUNCTION": {
       "roles": [
-        "Pressure regulator"
+        "Vacuum creation"
       ],
       "capabilities": [
-        "Maintaining low pressure",
-        "Removing contaminants"
+        "Maintaining low pressure"
       ]
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Geneseo Textbook",
     "citations": [
-      "Chapter 3: An Introduction to Vacuum Systems - Geneseo",
-      "Vacuum system and Chamber - FIB - myscope.training",
-      "Ultra-High Vacuum | LIGO Lab | Caltech"
+      "CHAPTER 3: An Introduction to Vacuum Systems - Geneseo"
     ]
   }
 }

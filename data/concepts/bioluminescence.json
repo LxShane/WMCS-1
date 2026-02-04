@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 4567
+    "item": 1002
   },
   "claims": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "process",
+      "object": "process (50, 1234)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -36,7 +36,7 @@
     },
     {
       "predicate": "REQUIRES",
-      "object": "ATP",
+      "object": "ATP (31, 1005)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -50,7 +50,7 @@
     },
     {
       "predicate": "REQUIRES",
-      "object": "luciferin",
+      "object": "luciferin (50, 1234)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -176,7 +176,7 @@
     },
     {
       "predicate": "PERFORMED_BY",
-      "object": "luciferase",
+      "object": "luciferase (50, 4444)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -190,7 +190,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Luciferase",
+      "object": "Luciferase (50, 4444)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -204,7 +204,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Luciferin",
+      "object": "Luciferin (50, 1234)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -215,24 +215,84 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Camouflage",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Schooling",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Recognition of Movement of Predators",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "light (20, 9991)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Production and emission of light by a living organism.",
+    "definition": "The production and emission of light by a living organism.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Enzyme-catalyzed reaction of luciferin with molecular oxygen.",
-    "origin": "Biological process."
+    "mechanism": "Chemical reactions within the organism.",
+    "origin": "Evolutionary adaptation."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "Luciferin - Wikipedia"
+      "https://en.wikipedia.org/wiki/Bioluminescence",
+      "https://www.ekac.in/online/attendence/classnotes/files/1727148982.pdf",
+      "https://www.researchgate.net/figure/Bioluminescence-anatomical-position-and-structure-of-the-light-organs-in-the-splitfin_fig2_313487094"
     ]
   }
 }

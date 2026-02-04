@@ -1,9 +1,9 @@
 {
-  "name": "Respiratory system",
+  "name": "Respiratory System",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 22,
-    "item": 1005
+    "group": 21,
+    "item": 4567
   },
   "claims": [
     {
@@ -33,10 +33,80 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Delivering oxygen to cells",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Removing carbon dioxide",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Nasal cavity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Trachea",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Lungs",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The system of organs and tissues involved in the exchange of oxygen and carbon dioxide between an organism and its environment.",
+    "definition": "The primary function of the respiratory system is to deliver oxygen to the cells of the body's tissues and remove carbon dioxide, a cell waste product.",
     "common_uses": []
   },
   "deep_layer": {
@@ -46,28 +116,13 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "SPATIAL": {
-      "location": "Thoracic cavity, Head",
-      "connected_to": [
-        "Mouth",
-        "Nasal cavity",
-        "Pharynx",
-        "Larynx",
-        "Trachea",
-        "Diaphragm",
-        "Rib cage",
-        "Pulmonary blood vessels",
-        "Alveoli"
-      ],
-      "coordinates": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "Bird anatomy - Wikipedia"
+      "3.3 Circulatory and Respiratory Systems - Human Biology",
+      "Circulatory and Respiratory Anatomy Explained: Definition, Examples ...",
+      "11.3 Circulatory and Respiratory Systems - Concepts of Biology - 1st ..."
     ]
-  },
-  "autocorrected": true
+  }
 }

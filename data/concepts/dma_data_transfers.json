@@ -1,0 +1,69 @@
+{
+  "name": "DMA data transfers",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Data transfers via Direct Memory Access",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "high-bandwidth data subsystem",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "data (50, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Data transfer technique.",
+    "common_uses": [
+      "High-speed communication"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Accesses memory directly.",
+    "origin": "Developed for efficient data handling."
+  },
+  "instance_layer": {
+    "examples": [
+      "Moving data between USB and memory"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.infineon.com/dgdl/Infineon-Reference_manual_EZ_USB_FX10_device_controller_architecture-UserManual-v01_00-EN.pdf?fileId=8ac78c8c956a0a470195aa3c2e2c79b8"
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Ball Screw",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 2222
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Linear Motion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Converting rotary motion to linear motion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "friction (50, 2424)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A screw that uses ball bearings to reduce friction and convert rotary motion into linear motion.",
+    "common_uses": [
+      "High-precision automation",
+      "CNC machines"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Rotation of the screw causes linear movement of a nut along the screw's axis, facilitated by ball bearings.",
+    "origin": "Mechanical design for high-efficiency linear actuation."
+  },
+  "instance_layer": [],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Helical"
+      ],
+      "shape": [
+        "Cylindrical"
+      ],
+      "composition": [
+        "Metal",
+        "Ball bearings"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Rotary to Linear Motion: The Ultimate Guide for Engineers",
+    "citations": [
+      "Rotary to Linear Motion: The Ultimate Guide for Engineers"
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "name": "Shielding",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 21,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Minimizing electromagnetic interference (EMI)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Minimizing radio frequency interference (RFI)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Directing unwanted electrical noise away from sensitive components",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PREVENTS",
+      "object": "Signal degradation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A barrier that minimizes electromagnetic and radio frequency interference.",
+    "common_uses": [
+      "Protecting sensitive electronic components",
+      "Maintaining signal integrity"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Shielding redirects electromagnetic energy, preventing it from affecting nearby components.",
+    "origin": "Engineered for electromagnetic compatibility."
+  },
+  "instance_layer": {
+    "examples": [
+      "Shielding in a mobile phone",
+      "Shielding in a computer"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Protector"
+      ],
+      "capabilities": [
+        "Electromagnetic interference reduction",
+        "Radio frequency interference reduction"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic",
+        "Conductive"
+      ],
+      "shape": [
+        "Sheet",
+        "Enclosure"
+      ],
+      "composition": [
+        "Metal",
+        "Conductive material"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://softhandtech.com/should-shielding-be-grounded/",
+      "https://www.ico-optics.org/rf-shielding-and-grounding-practices/",
+      "https://www.next.gr/tutorials/electromagnetic-interference-emi/grounding-and-shielding-techniques-tutorial"
+    ]
+  }
+}

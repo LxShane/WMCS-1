@@ -2,13 +2,13 @@
   "name": "Chipset",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 30,
-    "item": 9012
+    "group": 20,
+    "item": 1236
   },
   "claims": [
     {
       "predicate": "LOCATED_AT",
-      "object": "Motherboard",
+      "object": "Motherboard (24, 1238)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Northbridge",
+      "object": "Northbridge (30, 3456)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": null,
@@ -36,7 +36,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Southbridge",
+      "object": "Southbridge (30, 1234)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": null,
@@ -47,33 +47,117 @@
         "status": "HISTORICAL",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Computer Component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Interconnecting Components",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Northbridge (30, 3456)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Southbridge (30, 1234)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A set of electronic components in an integrated circuit that manages the data flow between the processor, memory and peripherals.",
+    "definition": "A chipset is a group of integrated circuits designed to work together.",
     "common_uses": [
-      "Managing data flow",
-      "Controlling peripherals"
+      "Data processing",
+      "Managing data flow"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Chipsets facilitate high bandwidth data transfer between various components of a computer system.",
+    "origin": "Part of the hardware in personal computers."
+  },
+  "instance_layer": {
+    "examples": [
+      "Specific chipset models from different manufacturers"
     ]
   },
   "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Data processing"
+      ],
+      "capabilities": [
+        "Data transfer",
+        "Component communication"
+      ]
+    },
     "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
+      "visual_features": [
+        "Electronic component"
+      ],
+      "shape": [
+        "Rectangular chip"
+      ],
+      "composition": [
+        "Silicon",
+        "Metal"
+      ],
+      "parts": [
+        "Integrated circuits"
+      ],
       "relations": []
     },
     "SPATIAL": {
-      "location": null,
+      "location": "On the motherboard",
       "coordinates": [],
       "connected_to": [],
-      "contained_in": null
+      "contained_in": "Computer case"
     }
   },
   "epistemic_metadata": {
-    "source": "https://en.wikipedia.org/wiki/Chipset",
+    "source": "Multiple Web Sources",
     "citations": [
+      "GeeksforGeeks",
       "Wikipedia"
     ]
   }

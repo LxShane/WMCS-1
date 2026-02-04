@@ -1,9 +1,9 @@
 {
   "name": "Lamina I",
-  "type": "BODY_PART",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 29,
-    "item": 1235
+    "group": 20,
+    "item": 4567
   },
   "claims": [
     {
@@ -33,38 +33,91 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "axons",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "dendritic processes",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "rat",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "spinal cord layer",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "marginal nucleus of spinal cord or posteromarginal nucleus",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Lamina I is one of the ten layers of the Rexed laminae in the spinal cord.",
+    "definition": "Lamina I is the marginal nucleus of the spinal cord.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Nociceptive neurons process pain signals.",
-    "origin": "Part of Rexed's original classification."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "Spinal Cord",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": "Spinal Cord"
-    }
-  },
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": [
-      "A) Rexed laminae of the spinal cord."
-    ]
+    "citations": []
   }
 }

@@ -3,12 +3,12 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 21,
-    "item": 1005
+    "item": 3456
   },
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "T Cell",
+      "object": "T Cell (21, 9012)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "CAPABLE_OF",
-      "object": "Differentiation",
+      "object": "Differentiation (20, 1239)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -50,7 +50,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "CD4",
+      "object": "CD4 (22, 1006)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -64,7 +64,7 @@
     },
     {
       "predicate": "CAPABLE_OF",
-      "object": "Regulated Secretion",
+      "object": "Regulated Secretion (50, 1004)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -78,7 +78,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "T cell",
+      "object": "T cell (21, 9012)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -89,31 +89,130 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "T cell (21, 9012)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "\"helper cells\"",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "activating memory B cells",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "activating cytotoxic T cells",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cd4 (22, 1006)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "function (50, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "memory (20, 7890)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A type of T cell that expresses the CD4 protein.",
+    "definition": "CD4+ T cells, also known as helper cells, function by further activating memory B cells and cytotoxic T cells, which leads to a larger immune response.",
     "common_uses": []
   },
-  "deep_layer": {},
-  "instance_layer": [],
+  "deep_layer": {
+    "mechanism": "CD4+ T cells activate other immune cells by releasing cytokines and providing co-stimulatory signals.",
+    "origin": "Differentiation from T cells."
+  },
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {
-    "SPATIAL": {
-      "location": "Circulating throughout the body, found in lymphoid tissues (e.g., lymph nodes, spleen, thymus), and sites of inflammation",
-      "connected_to": [
-        "Antigen-presenting cells (via MHC class II and T cell receptor)",
-        "B cells (via CD40L)",
-        "Macrophages (via cytokines)",
-        "Other T cells (via cytokines and cell-cell contact)"
+    "FUNCTION": {
+      "roles": [
+        "Helper Cell"
       ],
-      "coordinates": []
+      "capabilities": [
+        "activating B cells",
+        "activating cytotoxic T cells"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
-    "source": "Enhancing and inhibitory motifs regulate CD4 activity | eLife",
+    "source": "Set Automatically",
     "citations": [
-      "https://elifesciences.org/articles/79508"
+      "https://en.wikipedia.org/wiki/T_cell"
     ]
-  },
-  "autocorrected": true
+  }
 }

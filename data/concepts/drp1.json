@@ -1,0 +1,51 @@
+{
+  "name": "Drp1",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 1238
+  },
+  "claims": [
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "MTFP1",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Dynamin-related protein 1",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Regulated by MTFP1.",
+    "origin": "Expressed by gene"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "regulator"
+      ],
+      "capabilities": [
+        "regulate mitochondrial fission"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2025.1646072/full"
+    ]
+  }
+}

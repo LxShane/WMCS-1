@@ -8,7 +8,7 @@
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "Protein",
+      "object": "Protein (22, 1000)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "ENCODED_BY",
-      "object": "AHR Gene",
+      "object": "AHR Gene (30, 5678)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -36,7 +36,7 @@
     },
     {
       "predicate": "DEFINED_AS",
-      "object": "Transcription factor",
+      "object": "Transcription factor (32, 5678)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -117,37 +117,240 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "cytoplasm (21, 1007)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "nucleus (25, 9012)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": "activation by an agonist"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "transcriptional control",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "activation",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INTERACTS_WITH",
+      "object": "aryl hydrocarbon receptor nuclear translocator (ARNT)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": "activation by an agonist"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INTERACTS_WITH",
+      "object": "hypoxia-inducible factor 1\u03b2 (HIF-1\u03b2)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": "activation by an agonist"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INTERACTS_WITH",
+      "object": "xenobiotic response elements (XREs)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": "Upon complex formation with ARNT or HIF-1\u03b2"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "controlling the expression of key genes",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": "Interaction with XREs"
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INTERACTS_WITH",
+      "object": "transcription factors",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INTERACTS_WITH",
+      "object": "coregulators",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "AFFECTS",
+      "object": "transcriptional activity",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": "interacting with transcription factors and coregulators"
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RESPONDS_TO",
+      "object": "endogenous ligands",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RESPONDS_TO",
+      "object": "exogenous ligands",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "protein (22, 1000)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "transcription (21, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The aryl hydrocarbon receptor is a protein that functions as a transcription factor and regulates gene expression.",
+    "definition": "A protein that functions as a transcription factor.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The aryl hydrocarbon receptor is activated by ligands and then regulates the expression of several genes.",
-    "origin": null
+    "mechanism": "Upon ligand binding, AHR translocates to the nucleus, dimerizes with ARNT or HIF-1\u03b2, and binds to XREs to regulate gene expression.",
+    "origin": "Evolved to respond to environmental toxins."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Transcription Factor"
+    "SPATIAL": {
+      "location": "Intracellular, Nuclear",
+      "connected_to": [
+        "HSP90",
+        "XAP2",
+        "p23",
+        "ARNT (HIF-1\u03b2)",
+        "DNA (DRE sequences)",
+        "AhR-interacting protein (AIP)"
       ],
-      "capabilities": [
-        "Regulating gene expression"
-      ]
-    },
-    "STRUCTURAL": {},
-    "SPATIAL": {}
+      "coordinates": []
+    }
   },
   "epistemic_metadata": {
-    "source": "Multiple Web Sources",
+    "source": "Set Automatically",
     "citations": [
-      "Aryl hydrocarbon receptor - Wikipedia",
-      "The aryl hydrocarbon receptor: structure, signaling ... - PubMed",
-      "The aryl hydrocarbon receptor: A comparative perspective"
+      "https://www.nature.com/articles/s41392-025-02500-8",
+      "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2024.1421346/full",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7828596/"
     ]
-  }
+  },
+  "autocorrected": true
 }

@@ -1,0 +1,103 @@
+{
+  "name": "Charge Transfer",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Transfer of electrical charge between two materials",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Increase in population in the 2p orbitals of selected carbon atoms in graphene",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": null,
+        "event": "Discovery"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Contact between two materials with different work functions",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Graphene",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "charge (50, 1004)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The transfer of electrical charge between two materials.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Driven by differences in work functions, causing electron movement.",
+    "origin": "Arises from fundamental electromagnetic interactions between materials."
+  },
+  "instance_layer": {
+    "examples": [
+      "Graphene in contact with \u03b1-RuCl3",
+      "Charge-Transfer Complex (CTC) monolayer with graphene"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "PMC10510581",
+      "S0169433224018890",
+      "acsnano.1c01430"
+    ]
+  }
+}

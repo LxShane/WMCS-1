@@ -36,7 +36,7 @@
     },
     {
       "predicate": "LOCATED_AT",
-      "object": "Chicken",
+      "object": "Chicken (21, 1234)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -50,7 +50,7 @@
     },
     {
       "predicate": "REQUIRES",
-      "object": "cardiovascular system",
+      "object": "cardiovascular system (30, 1234)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -64,7 +64,7 @@
     },
     {
       "predicate": "REQUIRES",
-      "object": "nervous system",
+      "object": "nervous system (20, 1234)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -78,7 +78,7 @@
     },
     {
       "predicate": "REQUIRES",
-      "object": "muscular system",
+      "object": "muscular system (21, 1004)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -102,6 +102,15 @@
         "confidence": 0.9,
         "status": "SETTLED",
         "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "organ (21, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
       }
     }
   ],

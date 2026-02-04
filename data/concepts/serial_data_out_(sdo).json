@@ -1,0 +1,59 @@
+{
+  "name": "Serial Data Out (SDO)",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1237
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Pin",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Controller In, Peripheral Out (CIPO)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Serial Data Out (SDO) is a pin on the SPI bus used for transmitting data from the controller to the peripheral.",
+    "common_uses": [
+      "Data transmission in SPI communication"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "SDO pin transmits data serially, one bit at a time, synchronized with the clock signal (SCK).",
+    "origin": "Part of the SPI protocol specification."
+  },
+  "instance_layer": {
+    "examples": [
+      "Transmitting data from a microcontroller to an external sensor via SDO"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://itp.nyu.edu/physcomp/resources/microcontroller-pin-functions/"
+    ]
+  }
+}

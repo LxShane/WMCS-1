@@ -1,0 +1,54 @@
+{
+  "name": "Maternal blood supply",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 29,
+    "item": 9014
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Blood supply",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Placenta",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The flow of blood from the mother to the placenta, providing oxygen and nutrients to the developing fetus.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Established by the remodeling of maternal spiral arteries by invasive trophoblasts.",
+    "origin": "Begins early in pregnancy with the implantation of the blastocyst."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

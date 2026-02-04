@@ -1,0 +1,101 @@
+{
+  "name": "Ductwork",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Air movement",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Galvanized iron (GI) sheet metal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Flexible ducts",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A network of ducts used to distribute air in a building.",
+    "common_uses": [
+      "Air distribution in HVAC systems"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Channels air from the air handling unit to various parts of the building.",
+    "origin": "Evolved from simpler ventilation systems."
+  },
+  "instance_layer": {
+    "examples": [
+      "Rectangular ducts",
+      "Round ducts"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic",
+        "Often rectangular or circular"
+      ],
+      "shape": [
+        "Rectangular",
+        "Circular"
+      ],
+      "composition": [
+        "Galvanized iron",
+        "Aluminum",
+        "Flexible materials"
+      ],
+      "parts": [
+        "Main ducts",
+        "Runouts"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Air transport"
+      ],
+      "capabilities": [
+        "Channeling airflow"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

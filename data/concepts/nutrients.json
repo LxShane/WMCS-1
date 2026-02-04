@@ -1,9 +1,9 @@
 {
   "name": "Nutrients",
-  "type": "PHYSICAL",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 21,
-    "item": 1006
+    "group": 30,
+    "item": 1003
   },
   "claims": [
     {
@@ -19,6 +19,20 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "accessibility and activity of nutrient-specific transporters",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
@@ -26,16 +40,15 @@
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Chemical uptake",
+    "mechanism": "Nutrient flux across placental gradients is dependent on the accessibility and activity of nutrient-specific transporters.",
     "origin": null
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "Climate change and harmful benthic microalgae - ScienceDirect.com",
-      "Microalgae cultivation in raceway ponds: Advances, challenges, and ..."
-    ]
+    "source": "Maternal\u2013Fetal Nutrient Transport in Pregnancy Pathologies",
+    "citations": []
   }
 }

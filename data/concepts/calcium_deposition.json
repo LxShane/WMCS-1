@@ -1,0 +1,74 @@
+{
+  "name": "Calcium Deposition",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 2345
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Gradual accumulation of calcium",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Contrast in a moving display of blood and muscle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "calcium (30, 2346)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "process (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The process of calcium accumulating over time.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Calcium ions bind to collagen.",
+    "origin": "Natural aging process."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Collagen - Wikipedia",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Collagen"
+    ]
+  }
+}

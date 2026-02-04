@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 20,
-    "item": 7890
+    "item": 1234
   },
   "claims": [
     {
@@ -36,7 +36,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Piston",
+      "object": "Piston (25, 5678)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -64,7 +64,7 @@
     },
     {
       "predicate": "LOCATED_AT",
-      "object": "Engine block",
+      "object": "Engine block (21, 1234)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -75,40 +75,57 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "any cylindrical object",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Actuator (21, 1003)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "CONTESTED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A hollow cylindrical space inside the engine block where the piston moves.",
+    "definition": "A cylindrical object.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Provides a sealed space for combustion and piston movement.",
-    "origin": "Mechanical engineering design."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
     "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
+      "shape": [
+        "Cylindrical"
+      ]
     },
-    "SPATIAL": {
-      "location": "Within the engine block",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": "Engine block"
-    },
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    }
+    "SPATIAL": {}
   },
   "epistemic_metadata": {
-    "source": "What Are The Parts of Cylinder Block? \u2013 MyMROmarts",
+    "source": "Quora",
     "citations": []
   }
 }

@@ -1,9 +1,9 @@
 {
-  "name": "Receptor protein",
-  "type": "LIVING_SYSTEM",
+  "name": "Receptor Protein",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 30,
-    "item": 1005
+    "group": 20,
+    "item": 3456
   },
   "claims": [
     {
@@ -33,22 +33,56 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "linking cargo proteins with the general transport machinery",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A protein that binds to a ligand, altering its conformation and functional state.",
+    "definition": "Proteins that link cargo proteins with transport machinery.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Ligand binding alters the conformation by affecting the three-dimensional shape orientation.",
-    "origin": "Produced by cellular processes."
+    "mechanism": null,
+    "origin": null
   },
-  "instance_layer": [],
-  "facets": {},
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    },
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "Binding affinity",
+    "source": "Set Automatically",
     "citations": [
-      "https://en.wikipedia.org/wiki/Binding_affinity"
+      "Editorial: Targeting signals in protein trafficking and transport"
     ]
   }
 }

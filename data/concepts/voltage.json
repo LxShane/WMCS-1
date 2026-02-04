@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1009
+    "item": 7891
   },
   "claims": [
     {
@@ -159,31 +159,196 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Principle of electricity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Frequency",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Peak Voltage",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSED_BY",
+      "object": "Electromagnetic Induction",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Electrical potential difference",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Electrical potential difference",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "electrical pressure that pushes electrons",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DETERMINES",
+      "object": "how much power the battery can deliver",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "amount of potential energy between two points on a circuit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MEASURED_IN",
+      "object": "volts",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "ANALOGOUS_TO",
+      "object": "pressure at the end of a hose",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A measure of electrical potential difference.",
+    "definition": "Electrical pressure that pushes electrons.",
     "common_uses": [
-      "Powering circuits",
-      "Transmitting signals"
+      "Powering devices",
+      "Analyzing electrical circuits"
     ]
   },
   "deep_layer": {
-    "mechanism": "Related to the flow of electric charge.",
-    "origin": "Fundamental concept in electromagnetism."
+    "mechanism": "Difference in charge between two points in a circuit, measured in volts.",
+    "origin": "Fundamental property of electric circuits."
   },
   "instance_layer": {
     "examples": [
-      "Household voltage",
-      "Battery voltage"
+      "Voltage of a battery",
+      "Voltage across a resistor"
     ]
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Energy Carrier"
+      ],
+      "capabilities": [
+        "Deliver power",
+        "Push electrons"
+      ]
+    }
+  },
   "epistemic_metadata": {
-    "source": "Standard and Common Voltage Levels in the US and CA - NEC, Voltage Classifications Explained: What They Mean and Why They Matter",
+    "source": "Set Automatically",
     "citations": [
-      "https://www.electricaltechnology.org/2023/03/standard-voltage-levels-in-us.html",
-      "https://missioncriticalengineers.com/voltage-classifications/"
+      "https://energylast.com/technical-information/battery-voltage-current/",
+      "https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law/all",
+      "https://web.mit.edu/evt/summary_battery_specifications.pdf"
     ]
   }
 }

@@ -1,0 +1,60 @@
+{
+  "name": "Area Moment of Inertia",
+  "type": "MATHEMATICAL_OBJECT",
+  "id": {
+    "group": 42,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A measure of a cross-section's resistance to bending",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Calculating deflection under load",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A geometrical property of an area that shows how its points are distributed with regard to an axis.",
+    "common_uses": [
+      "Beam deflection calculations",
+      "Column buckling analysis"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Represents the resistance of a cross-section to bending about a given axis.",
+    "origin": "Calculated based on the shape and dimensions of the cross-section."
+  },
+  "instance_layer": {
+    "examples": [
+      "0.034 in^4 for a 1-inch nominal diameter schedule 40 steel tube"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "ASTM Steel Tube Pipe Section Properties - Engineers Edge"
+    ]
+  }
+}

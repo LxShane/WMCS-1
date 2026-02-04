@@ -1,0 +1,111 @@
+{
+  "name": "Phagosome",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 32,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "MADE_OF",
+      "object": "Cell membrane",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PRECEDES",
+      "object": "Fusion with organelles",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "subcellular structure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "compartment with a license to kill",
+      "temporal": {
+        "valid_from": "2007",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "killing",
+      "temporal": {
+        "valid_from": "2007",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A subcellular structure with the capability to kill.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Phagosome biogenesis starts with the formation of a phagocytic cup from specialized plasma membrane domains.",
+    "origin": "Born before our very eyes."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "SPATIAL": {
+      "location": "Within the cytoplasm of phagocytic cells",
+      "connected_to": [
+        "Phagocytic cell membrane",
+        "Lysosomes",
+        "Endoplasmic reticulum",
+        "Mitochondria"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://onlinelibrary.wiley.com/doi/10.1111/j.1600-0854.2006.00531.x",
+      "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1600-0854.2006.00531.x"
+    ]
+  },
+  "autocorrected": true
+}

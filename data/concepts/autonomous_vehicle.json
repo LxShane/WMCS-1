@@ -3,43 +3,63 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 30,
-    "item": 4567
+    "item": 1006
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Sensor (20, 1003)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "environment (39, 1009)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "vehicle (30, 1006)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "A vehicle capable of sensing its environment and navigating without human input.",
-    "common_uses": []
+    "definition": "A vehicle that is capable of sensing its environment and navigating without human input.",
+    "common_uses": [
+      "Transportation",
+      "Delivery"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Autonomous vehicles use sensors and algorithms to perceive their surroundings and make decisions.",
+    "origin": "Developed in the late 20th century."
   },
   "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
+    "examples": [
+      "Self-driving Car",
+      "Autonomous Drone"
+    ]
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "sciencedirect.com",
     "citations": [
-      "https://arxiv.org/pdf/2507.20399"
+      "https://www.sciencedirect.com/science/article/pii/S0924271622003367"
     ]
   }
 }

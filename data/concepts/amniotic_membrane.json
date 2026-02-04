@@ -2,8 +2,8 @@
   "name": "Amniotic Membrane",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 2005
+    "group": 20,
+    "item": 1011
   },
   "claims": [
     {
@@ -19,17 +19,47 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Extracellular Matrix (20, 1234)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "layer (24, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The innermost membrane that encloses the embryo.",
+    "definition": "The innermost layer of the fetal membranes.",
     "common_uses": []
   },
-  "deep_layer": {},
-  "instance_layer": {},
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {},
   "epistemic_metadata": {
-    "source": "https://ldh.la.gov/assets/medicaid/MCPP/9_11_2025/222_UHC_skin_soft_tissue_substitutes_la_cs1_redline_V3.pdf",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://link.springer.com/chapter/10.1007/978-94-017-9975-1_3"
+    ]
   }
 }

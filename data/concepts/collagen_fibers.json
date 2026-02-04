@@ -1,38 +1,153 @@
 {
-  "name": "Collagen Fibers",
+  "name": "Collagen fibers",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 8901
+    "group": 24,
+    "item": 1002
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Basic building blocks of a ligament",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Parallel bundles",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PROPERTY",
+      "object": "Strong",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PROPERTY",
+      "object": "Flexible",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Resisting damage from pulling stresses",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Resisting damage from compressing stresses",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "collagen (30, 1005)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "proteins (20, 1236)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "strength (50, 7913)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "Collagen fibers are the main component of connective tissue, providing strength and support.",
+    "definition": "Collagen fibers are fibrous proteins that provide strength and flexibility to connective tissues.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Collagen fibers consist of triple helical structures formed by amino acid chains, cross-linked to provide tensile strength.",
+    "origin": "Collagen fibers are synthesized by fibroblasts within the extracellular matrix."
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {
     "STRUCTURAL": {
       "visual_features": [],
-      "shape": [
-        "fibrous"
-      ],
+      "shape": [],
       "composition": [],
       "parts": [],
       "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    },
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://www.nature.com/articles/s41419-024-06697-4",
-      "https://www.sciencedirect.com/science/article/pii/S0079642524001191"
-    ]
+    "source": "Ligament - Physiopedia",
+    "citations": []
   }
 }

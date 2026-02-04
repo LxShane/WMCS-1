@@ -1,0 +1,86 @@
+{
+  "name": "F1CAM",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 22,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Cell Adhesion Molecule",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Intracellular Domain",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INTERACTS_WITH",
+      "object": "Actin Cytoskeleton",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Cell adhesion molecule with intracellular domains that interact with the actin cytoskeleton.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Unknown",
+    "origin": "Unknown"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Cell Membrane",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Cell"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Role of cell adhesions in neural development - Wikipedia",
+    "citations": []
+  }
+}

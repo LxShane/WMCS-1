@@ -22,7 +22,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "Krebs Cycle",
+      "object": "Krebs Cycle (20, 1002)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -36,7 +36,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "TCA Cycle",
+      "object": "TCA Cycle (30, 1236)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -50,7 +50,7 @@
     },
     {
       "predicate": "PERFORMED_BY",
-      "object": "Enzymes",
+      "object": "Enzymes (21, 1002)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -92,7 +92,7 @@
     },
     {
       "predicate": "LOCATED_AT",
-      "object": "Mitochondrial Matrix",
+      "object": "Mitochondrial Matrix (24, 2002)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -176,7 +176,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "Krebs Cycle",
+      "object": "Krebs Cycle (20, 1002)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -204,7 +204,7 @@
     },
     {
       "predicate": "OFTEN_TAUGHT_WITH",
-      "object": "Electron Transport Chain",
+      "object": "Electron Transport Chain (20, 1234)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -218,7 +218,7 @@
     },
     {
       "predicate": "OFTEN_TAUGHT_WITH",
-      "object": "ATP Synthase",
+      "object": "ATP Synthase (20, 1002)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -242,6 +242,24 @@
         "confidence": 0.7,
         "status": "SETTLED",
         "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "pyruvate (20, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "reactions (50, 1004)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
       }
     }
   ],

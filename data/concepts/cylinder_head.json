@@ -117,38 +117,233 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Part",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Engine Cylinder Head",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Integral part",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Passages",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Chambers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "End of Engine",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Above cylinders",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Forming the roof of the combustion chamber",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Critical stationary component in internal combustion engines",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Cylinder cover",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "combustion (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cylinder (23, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A cylinder head is a component of an engine that integrates multiple critical systems.",
+    "definition": "The cylinder head sits above the cylinders, forming the roof of the combustion chamber.",
     "common_uses": [
-      "Powertrain downsizing",
-      "Light weighting"
+      "Sealing the open ends of the cylinders",
+      "Housing components like spark plugs and valves"
     ]
   },
   "deep_layer": {
-    "mechanism": "Finite element structural simulation is used to align the project time plan, considering structural loads like interferences, bolt pre-loads, temperatures, and peak firing pressure.",
-    "origin": "Part of engines"
+    "mechanism": "Seals the cylinder to contain combustion and houses essential engine components.",
+    "origin": "Machined metal block."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Sidevalve engine cylinder head",
+      "Overhead valve engine cylinder head"
+    ]
   },
   "facets": {
     "STRUCTURAL": {
-      "composition": [],
-      "parts": []
+      "visual_features": [
+        "Metallic"
+      ],
+      "shape": [
+        "Block-shaped"
+      ],
+      "composition": [
+        "Metal"
+      ],
+      "parts": [
+        "Spark plugs",
+        "Heat dissipation fins",
+        "Inlet passages",
+        "Exhaust passages",
+        "Coolant passages",
+        "Valvetrain components",
+        "Fuel injectors"
+      ],
+      "relations": []
     },
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
+    "SPATIAL": {
+      "location": "Top of engine block",
+      "coordinates": [],
+      "connected_to": [
+        "Engine block"
+      ],
+      "contained_in": "Engine"
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Multiple Web Sources",
     "citations": [
       "https://en.wikipedia.org/wiki/Cylinder_head",
-      "https://www.volgenpower.com/what-is-a-cylinder-head/",
-      "https://www.sae.org/publications/technical-papers/content/2017-01-1723/"
+      "https://grokipedia.com/page/Cylinder_head"
     ]
   }
 }

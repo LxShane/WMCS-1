@@ -2,13 +2,13 @@
   "name": "Amygdala",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 23,
-    "item": 6789
+    "group": 21,
+    "item": 1238
   },
   "claims": [
     {
       "predicate": "LOCATED_AT",
-      "object": "Brain",
+      "object": "Brain (20, 3456)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -19,10 +19,47 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CONNECTED_TO",
+      "object": "Hippocampus (24, 1002)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Feeling fear",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "brain (20, 3456)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A roughly almond-shaped mass of gray matter inside each cerebral hemisphere, involved with the experiencing of emotions.",
+    "definition": "The amygdala is a part of the brain primarily associated with emotional processes.",
     "common_uses": []
   },
   "deep_layer": {
@@ -32,9 +69,27 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
   "epistemic_metadata": {
-    "source": "Implicit from context",
+    "source": "Set Automatically",
     "citations": []
   }
 }

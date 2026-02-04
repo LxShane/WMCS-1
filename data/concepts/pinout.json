@@ -1,9 +1,9 @@
 {
   "name": "Pinout",
-  "type": "INANIMATE_OBJECT",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 24,
-    "item": 1235
+    "group": 50,
+    "item": 1003
   },
   "claims": [
     {
@@ -159,24 +159,53 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Configuration of pins in a connector",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Data transfer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "An arrangement of pins on a connector.",
-    "common_uses": []
+    "definition": "The specific arrangement and function of each pin in a connector.",
+    "common_uses": [
+      "Understanding connector functionality",
+      "Troubleshooting connection issues"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Provides electrical connections for data and power.",
-    "origin": "Determined during the design of the connector."
+    "mechanism": "Each pin is assigned a specific role (e.g., power, ground, data transmission).",
+    "origin": "Part of the connector design to ensure standardized connectivity."
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
-    "source": "Peripheral Component Interconnect - Wikipedia",
+    "source": "Automatically set from input sources.",
     "citations": [
-      "https://en.wikipedia.org/wiki/Peripheral_Component_Interconnect"
+      "https://pinoutdiagrams.com/connector/usb-b-connector-pinout"
     ]
   }
 }

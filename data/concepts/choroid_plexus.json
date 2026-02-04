@@ -1,9 +1,9 @@
 {
   "name": "Choroid Plexus",
-  "type": "BODY_PART",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 25,
-    "item": 1236
+    "group": 21,
+    "item": 9012
   },
   "claims": [
     {
@@ -19,10 +19,98 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "ependymal cells",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "CSF secretion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "FILLS_ROLE",
+      "object": "CSF-secreting tissue",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONTROLS",
+      "object": "movement of solutes between blood and CSF",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "FORMS",
+      "object": "anatomical barrier between the blood and the CSF",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "blood (31, 1238)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "tissue (21, 1007)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The choroid plexus is a highly vascular structure located within the fourth ventricle.",
+    "definition": "Tissue responsible for CSF secretion and barrier between blood and CSF.",
     "common_uses": []
   },
   "deep_layer": {
@@ -32,17 +120,9 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {},
-    "STRUCTURAL": {},
-    "SPATIAL": {
-      "contained_in": "Fourth Ventricle"
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Multiple Web Sources",
-    "citations": [
-      "Kenhub"
-    ]
+    "source": "Cerebrospinal fluid production by the choroid plexus: a century of barrier ...",
+    "citations": []
   }
 }

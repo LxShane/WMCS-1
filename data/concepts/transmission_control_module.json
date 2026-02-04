@@ -1,0 +1,60 @@
+{
+  "name": "Transmission Control Module",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Control System",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "sending signals to actuators",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A control system for transmissions, often electronic.",
+    "common_uses": [
+      "controlling transmissions",
+      "managing clutches",
+      "regulating hydraulic pressure"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The TCM uses sensors to monitor the state of the transmission and then sends electrical signals to actuators that control the transmission's operation.",
+    "origin": "Automotive engineering."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Facebook",
+    "citations": [
+      "https://www.facebook.com/groups/521001902330400/posts/1207161143714469/"
+    ]
+  }
+}

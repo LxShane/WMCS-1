@@ -1,0 +1,70 @@
+{
+  "name": "Adenylyl Cyclase 3 (AC3)",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 31,
+    "item": 1237
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Enzyme (21, 5678)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "producing cAMP",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "atp (31, 1005)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "enzyme (21, 5678)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An enzyme that catalyzes the conversion of ATP to cAMP.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Activated by G-proteins.",
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "13.7: Signal Transduction - Vision and Olfaction - Biology LibreTexts",
+    "citations": []
+  }
+}

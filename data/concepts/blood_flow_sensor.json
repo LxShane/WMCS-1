@@ -1,0 +1,76 @@
+{
+  "name": "Blood Flow Sensor",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Sensing Blood Flow",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Interfacing with blood flow",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "blood (31, 1238)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "flow (20, 2345)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A device used to measure the flow of blood.",
+    "common_uses": [
+      "Measuring blood flow rate"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Utilizes various signal transduction mechanisms to convert flow into a measurable signal.",
+    "origin": "Developed to monitor blood flow in clinical settings."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Recent progress in blood flow sensing",
+    "citations": [
+      "Jun 1, 2025"
+    ]
+  }
+}

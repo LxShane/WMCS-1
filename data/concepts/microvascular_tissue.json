@@ -1,0 +1,52 @@
+{
+  "name": "Microvascular Tissue",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Tissue",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Microvasculature",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Tissue containing a network of microvessels.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Exchange of nutrients and waste at the cellular level.",
+    "origin": "Natural biological development or biofabrication."
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Advances in the Model Structure of In Vitro Vascularized Organ-on-a-Chip",
+    "citations": []
+  }
+}

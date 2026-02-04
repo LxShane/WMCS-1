@@ -1,0 +1,115 @@
+{
+  "name": "Lateral Line",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Sensory System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Close range detection",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "FOUND_IN",
+      "object": "Fish",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Sensing Hydrodynamic Trail",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A sensory system primarily for close range detection in aquatic animals.",
+    "common_uses": [
+      "Detecting prey",
+      "Sensing environmental stimuli"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Mechanosensory receptors detect water displacement.",
+    "origin": "Evolved in aquatic vertebrates for hydrodynamic sensing."
+  },
+  "instance_layer": {
+    "examples": [
+      "Lateral line of a trout"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Sensory Input",
+        "Detection"
+      ],
+      "capabilities": [
+        "Detect water movement",
+        "Detect pressure changes"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Along the body of the fish",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3607791/",
+      "https://www.sciencedirect.com/science/chapter/bookseries/pii/S1546509806250106",
+      "https://link.springer.com/content/pdf/10.1007/2506_2013_18.pdf"
+    ]
+  }
+}

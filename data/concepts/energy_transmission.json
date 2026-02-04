@@ -1,0 +1,54 @@
+{
+  "name": "Energy Transmission",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 20,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Energy Transfer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Damping",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Transfer of energy from the string to surrounding materials.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Vibrations of the string cause vibrations in connected bodies.",
+    "origin": "Mechanical Coupling"
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Physics Stack Exchange",
+    "citations": [
+      "https://physics.stackexchange.com/questions/798040/vibrating-string-and-damping"
+    ]
+  }
+}

@@ -22,7 +22,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Battery Pack",
+      "object": "Battery Pack (30, 1234)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -32,6 +32,15 @@
         "confidence": 0.8,
         "status": "SETTLED",
         "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "battery (23, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
       }
     }
   ],

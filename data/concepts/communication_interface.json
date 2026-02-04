@@ -1,9 +1,9 @@
 {
   "name": "Communication Interface",
-  "type": "ABSTRACT_CONCEPT",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 50,
-    "item": 4321
+    "group": 20,
+    "item": 3003
   },
   "claims": [
     {
@@ -19,24 +19,66 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Interoperable Integration with Control Systems",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "mechanism (24, 6543)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A means by which different components of a DAQ system exchange data.",
+    "definition": "A system or mechanism used to connect and allow communication between different devices or systems.",
     "common_uses": [
-      "Data transfer"
+      "Data Transfer",
+      "Control Systems"
     ]
   },
   "deep_layer": {
-    "mechanism": "Establishes a protocol for data communication.",
-    "origin": "Computer science."
+    "mechanism": "Enables data exchange and control signals between devices.",
+    "origin": "Evolved to facilitate communication between diverse technologies."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Serial port",
+      "Ethernet",
+      "API"
+    ]
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Data Communication"
+      ],
+      "capabilities": [
+        "Transferring data",
+        "Enabling control signals"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
   "epistemic_metadata": {
-    "source": "Keysight",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://restservice.epri.com/publicdownload/000000003002019424/0/Product"
+    ]
   }
 }

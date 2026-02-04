@@ -1,9 +1,9 @@
 {
-  "name": "Brain-Computer Interface",
+  "name": "Brain-computer interface",
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 30,
-    "item": 5010
+    "item": 1001
   },
   "claims": [
     {
@@ -19,17 +19,101 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "interface allowing direct communication between the brain and external controllers",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "compensating for lost functions",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "electronic device",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "brain (20, 3456)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A device that allows communication or control through brain activity.",
-    "common_uses": []
+    "definition": "A device that allows direct communication between the brain and external controllers.",
+    "common_uses": [
+      "compensating for lost functions"
+    ]
   },
-  "deep_layer": {},
-  "instance_layer": {},
-  "facets": {},
+  "deep_layer": {
+    "mechanism": "Brain activity is measured and translated into commands for external devices.",
+    "origin": "Evolved from electroencephalography (EEG) technology."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Communication Interface"
+      ],
+      "capabilities": [
+        "Translating brain activity into external device control"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Implanted in brain",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Brain"
+    }
+  },
   "epistemic_metadata": {
-    "source": "Neuroimaging - Wikipedia",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Brain\u2013computer_interface",
+      "https://pubmed.ncbi.nlm.nih.gov/39505863/",
+      "https://www.nature.com/articles/natrevmats201776"
+    ]
   }
 }

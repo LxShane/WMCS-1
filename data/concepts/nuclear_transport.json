@@ -1,0 +1,50 @@
+{
+  "name": "Nuclear transport",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "fundamental cellular process",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REGULATES",
+      "object": "localization of many macromolecules",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A fundamental cellular process that regulates the localization of many macromolecules within the nuclear or cytoplasmic compartments."
+  },
+  "deep_layer": {},
+  "instance_layer": {},
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.nature.com/articles/s41392-023-01649-4"
+    ]
+  }
+}

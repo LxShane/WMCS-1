@@ -1,0 +1,165 @@
+{
+  "name": "Trailer Axle",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Trailer Bed",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "CONTESTED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Axle Beam",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Axle Beam",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Brakes",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Correct Side",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Camber",
+      "temporal": {
+        "valid_from": "2023",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Mechanical Component",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A structural component of a trailer, supporting the wheels.",
+    "common_uses": [
+      "Supporting trailer weight",
+      "Enabling trailer movement"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Transfers load from the trailer bed to the wheels, allowing rotation.",
+    "origin": "Manufactured from metal alloys, designed based on load requirements."
+  },
+  "instance_layer": {
+    "examples": [
+      "Single axle trailer",
+      "Tandem axle trailer"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Cylindrical",
+        "Metallic"
+      ],
+      "shape": [
+        "Straight Beam",
+        "Bent Beam"
+      ],
+      "composition": [
+        "Steel",
+        "Aluminum"
+      ],
+      "parts": [
+        "Axle Beam",
+        "Spindle",
+        "Bearings",
+        "Brakes"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Underneath the trailer bed",
+      "coordinates": [],
+      "connected_to": [
+        "Wheels",
+        "Trailer Frame"
+      ],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Extracted from multiple web sources",
+    "citations": [
+      "https://mechanicalelements.com/trailer-axle-position/?srsltid=AfmBOopXLDUuJjrr06W37x6pRHqugCp1LRXwkB07myL_VGb-6Zyrw-cL",
+      "https://support.lci1.com/documents/ti-073-axle-mounting-orientation",
+      "https://www.gdrvowners.com/forum/operation/suspension-amp-brakes/104984-axle-orientation-right-from-left-and-install-tips"
+    ]
+  }
+}

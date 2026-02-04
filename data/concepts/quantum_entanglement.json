@@ -3,40 +3,83 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1234
+    "item": 1007
   },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "entangled qubits in a given state",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "O-dimension model",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": "Observed on Facebook"
+      },
+      "epistemic": {
+        "confidence": 0.5,
+        "status": "HYPOTHETICAL",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "Dark matter",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": "Observed on Facebook"
+      },
+      "epistemic": {
+        "confidence": 0.5,
+        "status": "HYPOTHETICAL",
+        "source_type": "WEB"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "A quantum mechanical phenomenon in which the quantum states of two or more objects are linked together in such a way that one object instantaneously influences the state of the other(s), no matter how far apart they are.",
-    "common_uses": []
+    "definition": "A quantum mechanical phenomenon in which the quantum states of two or more objects are linked together in such a way that one object's properties cannot be described without also referring to the other object's properties, even when the objects are separated by a large distance.",
+    "common_uses": [
+      "Quantum computing",
+      "Quantum teleportation"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Linking of quantum states, potentially involving shared history or interaction.",
-    "origin": "Quantum mechanical laws."
+    "mechanism": "Based on superposition and correlation of quantum states.",
+    "origin": "First described by Einstein, Podolsky, and Rosen (EPR)."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Entangled photons",
+      "Entangled electrons"
+    ]
   },
   "facets": {
-    "ABSTRACT_DATA": {
-      "domain": [
-        "Quantum Physics"
+    "FUNCTION": {
+      "roles": [
+        "Enabling quantum communication",
+        "Providing correlations between distant particles"
       ],
-      "core_premise": [
-        "Linked quantum states"
-      ],
-      "contrasting_concepts": [
-        "Quantum decoherence",
-        "Classical mechanics"
+      "capabilities": [
+        "Creating secure communication channels",
+        "Performing quantum computations"
       ]
     }
   },
   "epistemic_metadata": {
-    "source": "physics.stackexchange.com, quantumzeitgeist.com, facebook.com",
-    "citations": [
-      "physics.stackexchange.com: N/A",
-      "quantumzeitgeist.com: N/A",
-      "facebook.com: N/A"
-    ]
-  },
-  "claims": []
+    "source": "https://www.facebook.com/groups/1685507044817357/posts/25899655022975888/",
+    "citations": []
+  }
 }

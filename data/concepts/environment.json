@@ -1,9 +1,9 @@
 {
   "name": "Environment",
-  "type": "PHYSICAL",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 39,
-    "item": 1009
+    "group": 50,
+    "item": 1234
   },
   "claims": [
     {
@@ -19,38 +19,144 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A specific configuration of hardware, software, and network resources used for development, testing, or production",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Configuration",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Hardware Resources",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Software Resources",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Network Resources",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Development",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Testing",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Production",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The surroundings or conditions in which a person, animal, or plant lives or operates.",
+    "definition": "A specific configuration of hardware, software, and network resources.",
     "common_uses": [
-      "Providing context",
-      "Influencing a system"
+      "Software Development",
+      "Infrastructure Management"
     ]
   },
-  "deep_layer": {},
-  "instance_layer": {},
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Context Provider"
-      ],
-      "capabilities": [
-        "Influencing the vehicle and driver"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [
-        "Trees",
-        "Buildings"
-      ],
-      "shape": []
-    }
+  "deep_layer": {
+    "mechanism": "Environments provide an isolated space to develop, test, and deploy software applications.",
+    "origin": "Evolved from the need to separate development and production systems to prevent interference and ensure stability."
   },
+  "instance_layer": {
+    "examples": [
+      "Development Environment",
+      "Testing Environment",
+      "Production Environment"
+    ]
+  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Active Safety Control for Automobiles - IEEE Control Systems Society",
+    "source": "Set Automatically",
     "citations": [
-      "https://ieeecss.org/sites/ieeecss/files/2019-06/SuccessStoriesforControlCompilation.pdf"
+      "https://www.sitepoint.com/managing-infrastructure-across-multiple-environments/",
+      "https://www.supportadventure.com/managing-multiple-client-environments-through-outsourced-system-administrators/"
     ]
   }
 }

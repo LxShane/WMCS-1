@@ -1,0 +1,82 @@
+{
+  "name": "Hepatocytes",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 30,
+    "item": 1006
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "liver's primary cells",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "synthesizing bile",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Hepatocytes are the liver's primary cells responsible for synthesizing bile.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Convert cholesterol and other precursors into bile acids and other components of bile.",
+    "origin": "Differentiate from hepatoblast cells during liver development."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Bile synthesis"
+      ],
+      "capabilities": [
+        "Bile acid production",
+        "Cholesterol metabolism",
+        "Detoxification"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": [],
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": [
+        "Liver"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Understanding Bile Production: The Liver's Vital Role Explained"
+    ]
+  }
+}

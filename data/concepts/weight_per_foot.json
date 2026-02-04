@@ -1,0 +1,60 @@
+{
+  "name": "Weight per Foot",
+  "type": "MATHEMATICAL_OBJECT",
+  "id": {
+    "group": 41,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Weight of the steel tube for every foot of length",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Calculating the total weight of a steel tube section",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The weight of the steel tube for a given length, typically one foot.",
+    "common_uses": [
+      "Calculating total weight",
+      "Material cost estimation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Represents the mass per unit length of the steel tube.",
+    "origin": "Derived from the density and cross-sectional area of the steel tube."
+  },
+  "instance_layer": {
+    "examples": [
+      "2.72 lbs/ft for a 1.315\" OD x 0.133\" wall thickness steel tube"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "ASTM Steel Tube Pipe Section Properties - Engineers Edge"
+    ]
+  }
+}

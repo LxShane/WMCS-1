@@ -1,0 +1,70 @@
+{
+  "name": "Spherical Joint",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1237
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Kinematic Joint",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "point in the moving body remain stationary in the fixed body",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "SYNONYMOUS_WITH",
+      "object": "ball and socket joint",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A joint that requires a point in the moving body to remain stationary in the fixed body.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "A spherical joint allows rotational movement around a fixed point.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Kinematic_pair"
+    ]
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "name": "Dermatome",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 33,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "area served by a spinal nerve",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Spinal Nerve (21, 1314)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Area of skin supplied by fibers from a single nerve root",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Area of skin receiving sensory innervation from a single spinal nerve dorsal root",
+      "temporal": {
+        "valid_from": "2023",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Specific area of skin",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Sensory nerves emerging from a single spinal nerve root",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "nerve (31, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A dermatome is an area of skin supplied by fibers from a single nerve root.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Nerve fibers from a single nerve root innervate a specific region of the skin, creating a dermatome.",
+    "origin": "Arises from the development and organization of the nervous system."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Sensory Input"
+      ],
+      "capabilities": [
+        "Transmit sensory information from the skin"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Segmental; follows a specific pattern on the skin surface corresponding to spinal nerve root innervation",
+      "connected_to": [
+        "Spinal nerve",
+        "Spinal cord",
+        "Skin",
+        "Dorsal root ganglion"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Academic Sources",
+    "citations": [
+      "https://www.sciencedirect.com/topics/immunology-and-microbiology/dermatome",
+      "https://www.ncbi.nlm.nih.gov/books/NBK535401/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12097171/"
+    ]
+  },
+  "autocorrected": true
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Load Voltage",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 22,
+    "item": 1006
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Voltage",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Voltage across the load",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The voltage measured across the load in an electrical circuit.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "The amount of voltage that an electrical component experiences when connected to a circuit",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "[PDF] Data Acquisition Handbook - Logicbus",
+    "citations": []
+  }
+}

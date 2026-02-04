@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1234
+    "item": 3456
   },
   "claims": [
     {
@@ -33,45 +33,55 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Transportation of magma in dyke",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "fluid (30, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "water (20, 1237)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The upward force exerted by a fluid that opposes the weight of an immersed object.",
+    "definition": "The ability or tendency to float in water or air or some other fluid.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Buoyancy arises from the pressure difference of the fluid at different depths.",
-    "origin": "Based on Archimedes' principle."
+    "mechanism": null,
+    "origin": null
   },
-  "instance_layer": {
-    "examples": [
-      "A boat floating on water",
-      "A balloon rising in the air"
-    ]
-  },
+  "instance_layer": [],
   "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
+    "ABSTRACT_DATA": {},
+    "SPATIAL": {}
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://sciencenotes.org/buoyancy-in-physics-definition-formula-examples/"
-    ]
+    "source": "https://en.wikipedia.org/wiki/Volcanic_and_igneous_plumbing_systems",
+    "citations": []
   }
 }

@@ -1,0 +1,70 @@
+{
+  "name": "Multi-cloud network",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 3456
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Network",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A network spanning multiple cloud computing environments.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A network infrastructure utilizing multiple cloud services from different providers.",
+    "common_uses": [
+      "Data storage",
+      "Application hosting"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Combines resources from different cloud platforms to achieve redundancy, scalability, and cost optimization.",
+    "origin": "Emerged as a response to the limitations of single-cloud environments."
+  },
+  "instance_layer": {
+    "examples": [
+      "A company using AWS for compute and Azure for storage."
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Data transport",
+        "Resource aggregation"
+      ],
+      "capabilities": [
+        "Inter-cloud connectivity",
+        "Cloud resource management"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "US11695661B1",
+    "citations": []
+  }
+}

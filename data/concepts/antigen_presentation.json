@@ -1,14 +1,14 @@
 {
-  "name": "antigen presentation",
+  "name": "Antigen Presentation",
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1003
+    "item": 8765
   },
   "claims": [
     {
       "predicate": "REQUIRES",
-      "object": "Antigen-presenting cell",
+      "object": "Antigen-presenting cell (21, 3456)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -19,22 +19,80 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "contribute to tumour immune evasion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Dendritic Cell",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "FOR",
+      "object": "T cell activation (21, 1004)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "antigen (21, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "process (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The process of displaying an antigen bound by major histocompatibility complex (MHC) proteins on the surface of a cell.",
+    "definition": "The process by which cells display antigen complexed with MHC on their surfaces.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
+    "mechanism": "MHC molecules present antigens to T cells to initiate an immune response.",
     "origin": null
   },
-  "instance_layer": {},
+  "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://en.wikipedia.org/wiki/Antigen-presenting_cell"
-    ]
+    "source": "Dendritic cells steering antigen and leukocyte traffic in lymph nodes",
+    "citations": []
   }
 }

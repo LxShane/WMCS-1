@@ -2,8 +2,8 @@
   "name": "Nutrient Vein",
   "type": "BODY_PART",
   "id": {
-    "group": 34,
-    "item": 5679
+    "group": 22,
+    "item": 4567
   },
   "claims": [
     {
@@ -47,15 +47,57 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Blood Vessel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Nutrient Foramen",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "ACCOMPANIES",
+      "object": "Nutrient Artery",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Vein accompanying the nutrient artery.",
+    "definition": "Vein that accompanies the nutrient artery.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Drains blood from the bone marrow and surrounding bone tissue.",
-    "origin": null
+    "mechanism": "Drains blood away from the bone.",
+    "origin": "Develops alongside the nutrient artery."
   },
   "instance_layer": {
     "examples": []
@@ -65,18 +107,12 @@
       "visual_features": [],
       "shape": [],
       "composition": [],
-      "parts": [],
-      "relations": []
+      "parts": []
     },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": "Bone"
-    }
+    "SPATIAL": {}
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Multiple Web Sources",
     "citations": [
       "https://en.wikipedia.org/wiki/Nutrient_foramina"
     ]

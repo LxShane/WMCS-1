@@ -2,8 +2,8 @@
   "name": "Sarcomere",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 33,
-    "item": 1001
+    "group": 22,
+    "item": 1234
   },
   "claims": [
     {
@@ -61,22 +61,246 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "smallest functional unit of striated muscle tissue",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "repeating unit between two Z-lines",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "muscle fibers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "myofibrils",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "APPEARS_AS",
+      "object": "alternating dark and light bands",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "long, fibrous proteins as filaments",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "sliding past each other",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONNECTED_TO",
+      "object": "costamere",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONNECTED_TO",
+      "object": "sarcolemma",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "myosin",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "actin",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Z-line",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONFERS_PROPERTY",
+      "object": "striated appearance",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Sarcomere is the basic unit controlling changes in muscle length.",
+    "definition": "A sarcomere is the smallest functional unit of striated muscle tissue.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
+    "mechanism": "Sarcomeres are composed of filaments that slide past each other when a muscle contracts or relaxes, enabling muscle movement.",
     "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Contractile Unit"
+      ],
+      "capabilities": [
+        "muscle contraction",
+        "muscle relaxation"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "repeating sections",
+        "alternating dark and light bands"
+      ],
+      "shape": [
+        "tubular"
+      ],
+      "composition": [
+        "proteins",
+        "myosin",
+        "actin"
+      ],
+      "parts": [
+        "Z-line",
+        "myosin filaments",
+        "actin filaments"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Within myofibrils of muscle fibers",
+      "coordinates": [],
+      "connected_to": [
+        "Z-lines"
+      ],
+      "contained_in": "myofibrils"
+    }
+  },
   "epistemic_metadata": {
-    "source": "https://www.nature.com/scitable/topicpage/the-sliding-filament-theory-of-muscle-contraction-14567666/",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Sarcomere",
+      "https://www.differencebetween.com/difference-between-myofibrils-and-sarcomeres/",
+      "https://www.bionity.com/en/encyclopedia/Sarcomere.html"
+    ]
   }
 }

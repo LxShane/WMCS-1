@@ -1,0 +1,98 @@
+{
+  "name": "Brake Master Cylinder",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Converting mechanical force from the brake pedal into hydraulic pressure",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cylinder (23, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "force (50, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "pressure (20, 8765)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A cylinder that converts mechanical force from the brake pedal into hydraulic pressure.",
+    "common_uses": [
+      "Converting pedal force to hydraulic pressure"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The pedal force moves a piston inside the cylinder to create hydraulic pressure.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Force Converter"
+      ],
+      "capabilities": [
+        "Converts mechanical to hydraulic force"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Engine compartment",
+      "coordinates": [],
+      "connected_to": [
+        "Brake pedal",
+        "Brake lines"
+      ],
+      "contained_in": "Vehicle"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://4lifetimelines.com/blogs/knowledge-garage/all-about-hydraulic-brake-systems?srsltid=AfmBOoojcQCju5dJdzxbb5R34Sm47pVvnrPJXRwghoUmFNoApxFMoOrW",
+      "https://www.r1concepts.com/blog/understanding-the-mechanics-how-does-the-brake-system-work/?srsltid=AfmBOooQPTDhNRflaQ6-JIrYDqTORuKpMpYFyGR8ldZIXk17_osH4sZ9",
+      "https://speedalpharetta.com/brake-system-anatomy-exploring-brake-master-cylinders/"
+    ]
+  }
+}

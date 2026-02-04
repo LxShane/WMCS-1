@@ -2,8 +2,8 @@
   "name": "Sear (firearm)",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 25,
-    "item": 1006
+    "group": 30,
+    "item": 1001
   },
   "claims": [
     {
@@ -33,28 +33,120 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "part of the trigger mechanism",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "FUNCTION",
+      "object": "holds the hammer, striker, or bolt back",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "FUNCTION",
+      "object": "releases the hammer, striker, or bolt",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "surface incorporated into the trigger",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "separate part",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The sear is a part of the trigger mechanism that holds back the hammer, striker, or bolt until the trigger is pulled.",
+    "definition": "The sear is the part of the trigger mechanism that holds the hammer, striker, or bolt back until the correct amount of pressure has been applied to the trigger.",
     "common_uses": [
-      "Holding back the hammer/striker/bolt"
+      "firearms"
     ]
   },
   "deep_layer": {
-    "mechanism": "The sear engages with the hammer/striker/bolt, preventing it from moving forward until the trigger is pulled, disengaging the sear.",
-    "origin": "Firearms design"
+    "mechanism": "The sear engages with the hammer, striker, or bolt and disengages upon trigger pull, releasing the firing mechanism.",
+    "origin": "Designed as part of the trigger mechanism to provide controlled release of the firing pin/striker."
   },
   "instance_layer": {
     "examples": [
-      "AR-15 sear"
+      "Sear in a revolver action",
+      "Sear in a rifle"
     ]
   },
-  "facets": {},
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Internal",
+      "connected_to": [
+        "Trigger",
+        "Hammer",
+        "Firing pin",
+        "Sear spring"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "Sear (firearm) - Wikipedia",
+    "source": "Set Automatically",
     "citations": [
-      "https://en.wikipedia.org/wiki/Sear_(firearm)"
+      "Wikipedia",
+      "TheGunZone",
+      "American Rifleman"
     ]
-  }
+  },
+  "autocorrected": true
 }

@@ -1,0 +1,56 @@
+{
+  "name": "Animal Tissue",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Tissue (21, 1007)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Animal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A collection of similar cells performing specific functions in an animal.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Cell-cell communication and extracellular matrix interactions.",
+    "origin": "Developmental biology"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "3.15"
+    ]
+  }
+}

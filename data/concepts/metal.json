@@ -1,9 +1,9 @@
 {
   "name": "Metal",
-  "type": "PHYSICAL",
+  "type": "INANIMATE_OBJECT",
   "id": {
     "group": 20,
-    "item": 6789
+    "item": 9012
   },
   "claims": [
     {
@@ -19,6 +19,62 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Engineering material",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Metal Atom",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PROPERTY",
+      "object": "Malleability",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PROPERTY",
+      "object": "Ductility",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
@@ -26,27 +82,15 @@
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Free electrons allow metals to conduct electricity.",
-    "origin": "Geology"
+    "mechanism": "Metallic bonding allows for the free movement of electrons, contributing to conductivity and malleability.",
+    "origin": "Formed through various geological and industrial processes."
   },
-  "instance_layer": [
-    "Copper",
-    "Aluminum",
-    "Iron"
-  ],
-  "facets": {
-    "STRUCTURAL": {
-      "material_properties": {
-        "rigidity": "High",
-        "state": "Solid",
-        "conductivity": "Elec"
-      }
-    }
+  "instance_layer": {
+    "examples": []
   },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Multiple",
-    "citations": [
-      "Understanding and Calculating Electrical Conductivity - Sensorex"
-    ]
+    "source": "https://pressbooks.online.ucf.edu/chemistryfundamentals/chapter/lattice-structures-in-crystalline-solids-2/",
+    "citations": []
   }
 }

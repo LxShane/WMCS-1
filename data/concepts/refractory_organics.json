@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 20,
-    "item": 1002
+    "item": 1234
   },
   "claims": [
     {
@@ -33,22 +33,55 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Organic pollutants resistant to degradation",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Diseases like cancer, cardiovascular conditions, and reproductive issues",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Refractory organics are organic compounds that can withstand high temperatures.",
+    "definition": "Complex organic compounds that are difficult to break down naturally.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Complex molecular structures resist enzymatic breakdown.",
+    "origin": "Industrial and agricultural processes, natural decomposition."
   },
-  "instance_layer": {
-    "examples": []
+  "instance_layer": [],
+  "facets": {
+    "SPATIAL": {
+      "location": null,
+      "connected_to": [],
+      "coordinates": []
+    }
   },
-  "facets": {},
   "epistemic_metadata": {
-    "source": "A broad set of solar and cosmochemical data indicates high",
+    "source": "Set Automatically",
     "citations": []
-  }
+  },
+  "autocorrected": true
 }

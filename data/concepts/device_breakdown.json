@@ -1,0 +1,62 @@
+{
+  "name": "Device Breakdown",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Failure of a device to operate correctly",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "function (50, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A state where a device ceases to function as intended.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Excessive voltage, current, or temperature can damage components leading to failure.",
+    "origin": "Result of overstress or degradation."
+  },
+  "instance_layer": {
+    "examples": [
+      "Dielectric breakdown in a capacitor"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "State"
+      ],
+      "capabilities": [
+        "Not functioning correctly"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Interface Engineering of Electrical Contacts | Phys. Rev. Applied"
+    ]
+  }
+}

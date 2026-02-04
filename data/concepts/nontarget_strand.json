@@ -1,0 +1,42 @@
+{
+  "name": "Nontarget Strand",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "PRECEDES",
+      "object": "Target Strand",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The DNA strand not directly targeted by CRISPR/Cas.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "First strand to be cleaved in some CRISPR mechanisms.",
+    "origin": "DNA structure"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Conformational dynamics of CRISPR\u2013Cas type IF-HNH inform nickase ...",
+    "citations": [
+      "https://academic.oup.com/nar/article/54/3/gkag053/8443087"
+    ]
+  }
+}

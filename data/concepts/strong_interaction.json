@@ -89,25 +89,50 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "gluons",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "AFFECTS",
+      "object": "quarks",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The fundamental interaction carried by the gluon.",
+    "definition": "The fundamental force that binds quarks together within hadrons.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Mediated by gluons.",
+    "origin": "Fundamental force of nature."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://en.wikipedia.org/wiki/Fundamental_Forces",
-      "https://en.wikipedia.org/wiki/Fundamental_interaction"
-    ]
+    "source": "Quantum chromodynamics - Wikipedia",
+    "citations": []
   }
 }

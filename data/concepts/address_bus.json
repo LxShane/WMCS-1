@@ -1,0 +1,175 @@
+{
+  "name": "Address Bus",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 24,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Computer Bus",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Transmitting Address",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Internal communications pathway",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "specifies the source address",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "specifies the target address",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "memory reads",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "memory writes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "bus (20, 9018)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "memory (20, 7890)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The address bus is an internal communication pathway that specifies the source and target addresses for memory reads and writes.",
+    "common_uses": [
+      "Memory address specification",
+      "Data retrieval and storage"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The address bus transmits signals representing memory addresses, allowing the CPU to locate and access specific data in memory.",
+    "origin": "Part of the computer architecture from its inception."
+  },
+  "instance_layer": {
+    "examples": [
+      "32-bit address bus",
+      "64-bit address bus"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Parallel lines",
+        "Electrical conductors"
+      ],
+      "shape": [
+        "Linear",
+        "Planar"
+      ],
+      "composition": [
+        "Copper",
+        "Silicon"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Address specifier",
+        "Memory locator"
+      ],
+      "capabilities": [
+        "Memory addressing",
+        "Data routing"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Chapter 3 Flashcards | Quizlet",
+    "citations": [
+      "https://quizlet.com/227886289/chapter-3-flash-cards/"
+    ]
+  }
+}

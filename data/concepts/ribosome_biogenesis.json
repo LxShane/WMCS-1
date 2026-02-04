@@ -1,9 +1,9 @@
 {
-  "name": "Ribosome Biogenesis",
+  "name": "Ribosome biogenesis",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 1001
+    "group": 21,
+    "item": 1235
   },
   "claims": [
     {
@@ -47,17 +47,75 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "process of making ribosomes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "synthesis of around 200 proteins",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "processing of ribosomal RNAs",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "assembling ribosomal RNAs with ribosomal proteins",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The process of creating ribosomes.",
+    "definition": "The process of making ribosomes.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Complex biochemical pathways involving RNA and protein synthesis.",
-    "origin": "Occurs in cells."
+    "mechanism": "Involves synthesis of around 200 proteins in the processing of ribosomal RNAs and assembling them with ribosomal proteins to make the ribosomes subunits.",
+    "origin": "Unknown"
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {
     "FUNCTION": {
       "roles": [],
@@ -71,14 +129,14 @@
       "relations": []
     },
     "SPATIAL": {
-      "location": "Within cells",
+      "location": null,
       "coordinates": [],
       "connected_to": [],
-      "contained_in": "Cell"
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
-    "source": "https://pubmed.ncbi.nlm.nih.gov/33171110/",
+    "source": "Ribosome - Wikipedia",
     "citations": []
   }
 }

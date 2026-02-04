@@ -2,8 +2,8 @@
   "name": "Actin",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 9123
+    "group": 31,
+    "item": 4567
   },
   "claims": [
     {
@@ -64,7 +64,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "Protein",
+      "object": "Protein (22, 1000)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -134,7 +134,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "Protein",
+      "object": "Protein (22, 1000)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -176,7 +176,7 @@
     },
     {
       "predicate": "USED_FOR",
-      "object": "Muscle Contraction",
+      "object": "Muscle Contraction (21, 9013)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -218,7 +218,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Active site",
+      "object": "Active site (24, 1234)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -260,7 +260,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "Protein",
+      "object": "Protein (22, 1000)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -299,24 +299,206 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "protein (22, 1000)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "FORMS",
+      "object": "thin filament",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONNECTED_TO",
+      "object": "Z-line",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Component of Cytoskeleton",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Protein (22, 1000)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Muscle (21, 1002)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Binding Site",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Binding to Myosin",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Muscle Contraction (21, 9013)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "contraction (50, 1242)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "muscle (21, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "protein (22, 1000)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A protein that forms microfilaments in cells.",
+    "definition": "Actin is a protein in muscles that interacts with myosin to cause muscle contraction.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Polymerizes to drive cell motility.",
-    "origin": null
+    "mechanism": "Actin filaments are pulled inwards by myosin heads, causing muscle shortening.",
+    "origin": "Synthesized within muscle cells."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Structural Protein"
+      ],
+      "capabilities": [
+        "Muscle Contraction",
+        "Myosin Binding"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [
+        "Binding Site"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Muscle",
+      "coordinates": [],
+      "connected_to": [
+        "Myosin"
+      ],
+      "contained_in": null
+    }
+  },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "S0065277608000011"
+      "Special Issue: The Actin-Myosin Interaction in Muscle: Background and ...",
+      "ATP and Muscle Contraction | Biology for Majors II",
+      "Sliding Filament Theory: Muscle Contraction Explained"
     ]
   }
 }

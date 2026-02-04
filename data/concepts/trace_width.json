@@ -1,0 +1,82 @@
+{
+  "name": "Trace Width",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Physical Dimension",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Determining Current Carrying Capacity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Lower impedance",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The width of a conductive path on a PCB.",
+    "common_uses": [
+      "Current carrying capacity",
+      "Impedance control"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Affects the inductance and capacitance of the trace.",
+    "origin": "Designed during PCB layout."
+  },
+  "instance_layer": {
+    "examples": [
+      "10 mil trace width"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Manual",
+    "citations": [
+      "https://pcbandassembly.com/blog/pcb-impedance-control-what-it-is-and-how-to-calculate/"
+    ]
+  }
+}

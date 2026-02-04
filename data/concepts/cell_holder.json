@@ -1,0 +1,62 @@
+{
+  "name": "Cell Holder",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 22,
+    "item": 1006
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "EV Battery Pack",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Thermal Management (50, 1004)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Plastic",
+        "Structured"
+      ],
+      "composition": [
+        "Polymer"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Battery Cell Support"
+      ],
+      "capabilities": [
+        "Mechanical Support",
+        "Thermal Dissipation"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "EV Battery Packaging to Prevent Thermal Runaway",
+    "citations": []
+  }
+}

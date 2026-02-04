@@ -2,8 +2,8 @@
   "name": "USB",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 1234
+    "group": 30,
+    "item": 1001
   },
   "claims": [
     {
@@ -299,46 +299,145 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Universal Serial Bus",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "standardize the connection of peripherals to computers",
+      "temporal": {
+        "valid_from": "1996",
+        "valid_until": "PRESENT",
+        "event": "Introduction"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REPLACED",
+      "object": "serial ports",
+      "temporal": {
+        "valid_from": "1996",
+        "valid_until": "PRESENT",
+        "event": "Introduction"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REPLACED",
+      "object": "various interfaces",
+      "temporal": {
+        "valid_from": "1996",
+        "valid_until": "PRESENT",
+        "event": "Introduction"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Standardized connection of peripherals to computers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": "Introduction"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Connecting peripherals to computers",
+      "temporal": {
+        "valid_from": "1996",
+        "valid_until": "PRESENT",
+        "event": "Introduction"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REPLACES",
+      "object": "Serial ports",
+      "temporal": {
+        "valid_from": "1996",
+        "valid_until": "PRESENT",
+        "event": "Introduction"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PRECEDES",
+      "object": "Present Computer Peripheral Interfaces",
+      "temporal": {
+        "valid_from": "1996",
+        "valid_until": "PRESENT",
+        "event": "Introduction"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Universal Serial Bus (USB) is an industry standard that establishes specifications for connectors, cables, and protocols for communication.",
+    "definition": "A standardized interface for connecting peripherals to a computer.",
     "common_uses": [
-      "Connecting peripherals to computers",
-      "Data transfer",
-      "Powering devices"
+      "Connecting keyboards",
+      "Connecting mice",
+      "Connecting printers",
+      "Data transfer"
     ]
   },
   "deep_layer": {
-    "mechanism": "USB devices communicate with a host controller using a specific protocol.",
-    "origin": "Developed to standardize the connection of computer peripherals."
+    "mechanism": "Transmits data and power between a computer and peripherals.",
+    "origin": "Designed to replace various older interfaces."
   },
   "instance_layer": {
     "examples": [
       "USB flash drive",
-      "USB keyboard",
-      "USB mouse"
+      "USB mouse",
+      "USB keyboard"
     ]
   },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "USB - Wikipedia",
     "citations": [
-      "https://www.geeksforgeeks.org/computer-networks/universal-serial-bus-usb/"
+      "Introduction"
     ]
   }
 }

@@ -1,14 +1,14 @@
 {
   "name": "Cell-Matrix Adhesion",
-  "type": "LIVING_SYSTEM",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 21,
-    "item": 3456
+    "group": 50,
+    "item": 4567
   },
   "claims": [
     {
       "predicate": "PERFORMED_BY",
-      "object": "Integrin",
+      "object": "Integrin (30, 1004)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -19,19 +19,72 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Binding of cells to the ECM",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "adhesion (50, 7890)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "binding (50, 1236)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cell (21, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "matrix (29, 2001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Adhesion between a cell and the extracellular matrix.",
+    "definition": "Cell-matrix or cell-substratum adhesion refers to the binding of cells to the ECM.",
     "common_uses": []
   },
-  "deep_layer": {},
-  "instance_layer": {},
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "Molecular mechanisms of mechanotransduction in integrin ..."
-    ]
+    "source": "Cell Adhesion and the Extracellular Matrix - ScienceDirect",
+    "citations": []
   }
 }

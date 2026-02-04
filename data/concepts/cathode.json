@@ -1,14 +1,14 @@
 {
-  "name": "Cathode",
+  "name": "cathode",
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 30,
-    "item": 1006
+    "item": 1236
   },
   "claims": [
     {
       "predicate": "functional_roles",
-      "object": "ELECTRODE",
+      "object": "ELECTRODE (21, 4567)",
       "epistemic": {
         "confidence": 1.0,
         "status": "SETTLED",
@@ -17,7 +17,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "Electrode",
+      "object": "Electrode (21, 4567)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -45,7 +45,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "Electrode",
+      "object": "Electrode (21, 4567)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -56,40 +56,59 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "electron source",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "current (20, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "electrode (21, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The negative electrode in an electrical circuit.",
-    "common_uses": []
+    "definition": "The electrode from which a conventional current leaves an electrical device.",
+    "common_uses": [
+      "electron emission"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Attracts positive charge.",
-    "origin": "Physics"
+    "mechanism": "Emits electrons through thermionic emission or other processes.",
+    "origin": "Part of a vacuum tube or other electronic device."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Cathode in a vacuum tube",
+      "Cathode in an ion gauge"
+    ]
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Multiple Web Sources",
+    "source": "High, Ultra-high & Extreme High Vacuum:",
     "citations": []
   }
 }

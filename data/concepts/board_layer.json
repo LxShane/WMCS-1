@@ -1,0 +1,83 @@
+{
+  "name": "Board Layer",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Materials",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Layer Stack-Up Parameters",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "circuit (30, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "layer (24, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A single layer within a circuit board.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Multiple layers are stacked together to form a complete board.",
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {
+    "SPATIAL": {
+      "location": "Between electronic components and other board layers",
+      "connected_to": [
+        "Electronic components",
+        "Other board layers",
+        "Solder",
+        "Traces",
+        "Vias"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "PCBI Manual",
+    "citations": []
+  },
+  "autocorrected": true
+}

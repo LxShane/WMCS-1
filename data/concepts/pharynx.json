@@ -1,9 +1,9 @@
 {
   "name": "Pharynx",
-  "type": "LIVING_SYSTEM",
+  "type": "BODY_PART",
   "id": {
-    "group": 20,
-    "item": 7890
+    "group": 24,
+    "item": 1001
   },
   "claims": [
     {
@@ -33,24 +33,160 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Muscular Tube",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Posterior to the oronasal cavity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Posterior to the larynx",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Between the oral cavity and the esophagus",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Oropharynx",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Nasopharynx",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Laryngopharynx",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A structure composed of three major sections.",
+    "definition": "The pharynx is a muscular tube that connects the oral and nasal cavities to the esophagus and larynx.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
+    "mechanism": "The pharynx functions as a passageway for air and food, and plays a role in speech.",
     "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Posterior to oral and nasal cavities and larynx.",
+      "coordinates": [],
+      "connected_to": [
+        "Oral cavity",
+        "Nasal cavity",
+        "Larynx",
+        "Esophagus"
+      ],
+      "contained_in": null
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Muscular"
+      ],
+      "shape": [
+        "Tube",
+        "Column"
+      ],
+      "composition": [
+        "Muscle"
+      ],
+      "parts": [
+        "Oropharynx",
+        "Nasopharynx",
+        "Laryngopharynx"
+      ],
+      "relations": []
+    },
+    "FUNCTION": {
+      "roles": [
+        "Passageway"
+      ],
+      "capabilities": [
+        "Swallowing",
+        "Breathing",
+        "Speaking"
+      ]
+    }
+  },
   "epistemic_metadata": {
-    "source": "Lumen Learning",
-    "citations": [
-      "Organs and Structures of the Respiratory System"
-    ]
+    "source": "Set Automatically",
+    "citations": []
   }
 }

@@ -1,0 +1,61 @@
+{
+  "name": "Heating Event",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 61,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "CAUSES",
+      "object": "Eruption",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Magma",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A localized increase in temperature.",
+    "common_uses": [
+      "Studying volcanic activity",
+      "Analyzing geothermal systems"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Transfer of thermal energy from a source to a surrounding environment.",
+    "origin": "Magmatic activity."
+  },
+  "instance_layer": {
+    "examples": [
+      "Heating of groundwater by magma",
+      "Local increase in temperature prior to a volcanic eruption"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Localised heating and intensive magmatic conditions prior to",
+    "citations": [
+      "https://link.springer.com/article/10.1007/s00445-019-1280-2"
+    ]
+  }
+}

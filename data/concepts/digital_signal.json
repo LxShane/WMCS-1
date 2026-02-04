@@ -33,29 +33,100 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Signal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Pulses",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Audio",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Images",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Sensor Data",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A signal that represents data as a sequence of discrete values.",
+    "definition": "A representation of information in the form of discrete numerical values.",
     "common_uses": [
-      "Data communication",
-      "Data storage"
+      "Audio processing",
+      "Image processing",
+      "Data analysis"
     ]
   },
   "deep_layer": {
-    "mechanism": "Digital signals use binary digits (bits) to represent information.",
-    "origin": "Developed for reliable data transmission and processing."
+    "mechanism": "Represents continuous signals using discrete values at specific points in time.",
+    "origin": "Developed in the field of digital electronics and information theory."
   },
   "instance_layer": {
     "examples": [
-      "Audio signals",
-      "Video signals"
+      "Digital audio recordings",
+      "Digital photographs"
     ]
   },
   "epistemic_metadata": {
-    "source": "Data Encoding Techniques - Online Tutorials Library",
+    "source": "Signal Processing Algorithm - an overview | ScienceDirect Topics",
     "citations": [
-      "https://www.tutorialspoint.com/digital_communication/digital_communication_data_encoding_techniques.htm"
+      "ScienceDirect Topics"
     ]
   }
 }

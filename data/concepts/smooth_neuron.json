@@ -1,0 +1,72 @@
+{
+  "name": "Smooth Neuron",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1006
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Inhibitory Neuron",
+      "temporal": {
+        "valid_from": "2005",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PREVENTS",
+      "object": "Excitation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An inhibitory neuron without spines on its dendrites.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Inhibits other neurons",
+    "origin": "Develops during neurogenesis."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Smooth"
+      ],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4290578/"
+    ]
+  }
+}

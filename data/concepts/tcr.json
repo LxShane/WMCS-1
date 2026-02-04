@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 21,
-    "item": 1240
+    "item": 8901
   },
   "claims": [
     {
@@ -75,22 +75,30 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CONFERS",
+      "object": "binding specificity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
-  "surface_layer": {
-    "definition": "A molecule found on the surface of T cells, responsible for recognizing antigens bound to major histocompatibility complex (MHC) molecules.",
-    "common_uses": []
-  },
-  "deep_layer": {
-    "mechanism": null,
-    "origin": null
-  },
-  "instance_layer": [],
+  "surface_layer": {},
+  "deep_layer": {},
+  "instance_layer": {},
   "facets": {},
   "epistemic_metadata": {
-    "source": "Ingestion Engine",
+    "source": "Set Automatically",
     "citations": [
-      "Immunological synapse: structures, molecular mechanisms and ..."
+      "PMC9953819"
     ]
   }
 }

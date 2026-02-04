@@ -1,9 +1,9 @@
 {
-  "name": "Min system",
+  "name": "Min System",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 22,
-    "item": 1003
+    "group": 20,
+    "item": 7891
   },
   "claims": [
     {
@@ -47,36 +47,82 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "PREVENTS",
+      "object": "FtsZ ring placement outside mid-cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "spatial regulatory mechanism",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INVOLVED_IN",
+      "object": "linking size increases to FtsZ polymerization",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DIRECTS",
+      "object": "FtsZ ring to mid-cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "System involved in spatial regulation of cell division.",
+    "definition": "A system that regulates the placement of the FtsZ ring in bacteria.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Oscillatory mechanism driven by MinD and MinE regulates MinC localization.",
+    "mechanism": "The Min system proteins oscillate, creating a concentration gradient that inhibits FtsZ polymerization except at the mid-cell.",
     "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": []
+    "citations": [
+      "https://en.wikipedia.org/wiki/Min_System",
+      "https://diventura.biologie.uni-freiburg.de/?p=12",
+      "https://www.researchgate.net/publication/359975106_How_Do_MinC-D_Copolymers_Act_on_Z-Ring_Localization_Regulation_A_New_Model_of_Bacillus_subtilis_Min_System"
+    ]
   }
 }

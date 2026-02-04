@@ -1,9 +1,9 @@
 {
   "name": "T-cell receptor (TCR)",
-  "type": "LIVING_SYSTEM",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 21,
-    "item": 1242
+    "group": 24,
+    "item": 5678
   },
   "claims": [
     {
@@ -19,24 +19,70 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "cell surface",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "distinguishing T cells from other lymphocytes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A protein complex found on the surface of T cells, that is responsible for recognizing antigens bound to major histocompatibility complex (MHC) molecules.",
+    "definition": "A T-cell receptor (TCR) is a molecule found on the surface of T cells that is responsible for recognizing antigens bound to major histocompatibility complex (MHC) molecules.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
+    "mechanism": "The TCR interacts with MHC-antigen complexes, triggering a signaling cascade that leads to T cell activation and immune responses.",
     "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Cell Surface",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://en.wikipedia.org/wiki/CD28"
+      "https://en.wikipedia.org/wiki/T_cell"
     ]
   }
 }

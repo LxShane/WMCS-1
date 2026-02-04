@@ -2,7 +2,7 @@
   "name": "Plant",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 22,
+    "group": 21,
     "item": 1003
   },
   "claims": [
@@ -47,18 +47,57 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Providing oxygen",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Removing carbon dioxide",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Transpiration",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A multicellular organism of the kingdom Plantae.",
-    "common_uses": [
-      "Food source",
-      "Oxygen production"
-    ]
+    "definition": "A multicellular organism that produces its own food through photosynthesis.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Plants interact with soil microbes through root exudates and nutrient uptake.",
-    "origin": "Evolutionary origin in green algae."
+    "mechanism": "Plants use sunlight to convert carbon dioxide and water into sugars and oxygen.",
+    "origin": "Evolved from green algae."
   },
   "instance_layer": {
     "examples": []
@@ -67,7 +106,7 @@
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://www.mdpi.com/2073-4441/17/21/3054"
+      "https://acgc.eoas.fsu.edu/research/atmosphere-biosphere-interactions/"
     ]
   }
 }

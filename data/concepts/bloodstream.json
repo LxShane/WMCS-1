@@ -1,0 +1,51 @@
+{
+  "name": "Bloodstream",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 20,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Circulating leukocytes",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "blood (31, 1238)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The circulation of blood within the body.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Getting Leukocytes to the Site of Inflammation - PMC",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3628536/"
+    ]
+  }
+}

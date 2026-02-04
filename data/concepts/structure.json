@@ -1,9 +1,9 @@
 {
   "name": "Structure",
-  "type": "INANIMATE_OBJECT",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 30,
-    "item": 8765
+    "group": 50,
+    "item": 1002
   },
   "claims": [
     {
@@ -271,38 +271,41 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Arrangement of parts",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A constructed entity.",
+    "definition": "The arrangement of and relations between the parts or elements of something complex.",
     "common_uses": [
-      "Providing shelter",
-      "Supporting weight"
+      "Engineering Design",
+      "Architectural Planning"
     ]
   },
   "deep_layer": {
-    "mechanism": "Arrangement of interconnected parts.",
-    "origin": "Construction processes"
+    "mechanism": "Structure dictates function.",
+    "origin": "Arose from the need to describe complex systems."
   },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Support",
-        "Enclosure"
-      ],
-      "capabilities": [
-        "Resisting loads",
-        "Protecting inhabitants"
-      ]
-    }
-  },
+  "instance_layer": [
+    "Protein structure",
+    "Building structure"
+  ],
   "epistemic_metadata": {
-    "source": "Structural Safety and Stability of Buildings - MDPI",
+    "source": "Macromolecular Crystallography",
     "citations": [
-      "https://mdpi-res.com/bookfiles/book/11342/Structural_Safety_and_Stability_of_Buildings.pdf?v=1755318683"
+      "https://www-ssrl.slac.stanford.edu/content/techniques/macromolecular-crystallography"
     ]
   }
 }

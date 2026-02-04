@@ -2,8 +2,8 @@
   "name": "Protective Equipment",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 29,
-    "item": 9014
+    "group": 23,
+    "item": 1005
   },
   "claims": [
     {
@@ -33,22 +33,140 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Relays",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Circuit Breakers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Relays",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Circuit Breakers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Relays and Circuit Breakers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Equipment that protects the Electrical Substation.",
-    "common_uses": []
+    "definition": "Devices used to detect and isolate faults in an electrical power system, preventing damage to equipment and maintaining grid stability.",
+    "common_uses": [
+      "Fault detection",
+      "Circuit interruption"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Unknown.",
-    "origin": null
+    "mechanism": "Protective relays detect abnormal conditions, such as overcurrent or undervoltage, and trigger circuit breakers to interrupt the flow of current, isolating the fault.",
+    "origin": "Developed to protect electrical equipment from damage due to faults and maintain grid stability."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Circuit breakers in substations",
+      "Protective relays monitoring transmission lines"
+    ]
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Fault detection",
+        "Circuit interruption"
+      ],
+      "capabilities": [
+        "Detect overcurrent",
+        "Detect undervoltage",
+        "Interrupt fault current"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Circuit breakers with large contacts",
+        "Protective relays with electronic components"
+      ],
+      "shape": [
+        "Enclosed or open-frame devices"
+      ],
+      "composition": [
+        "Steel",
+        "Copper",
+        "Insulating materials"
+      ],
+      "parts": [
+        "Contacts",
+        "Trip mechanism",
+        "Sensing circuits",
+        "Control circuits"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "In substations or along transmission lines",
+      "coordinates": [],
+      "connected_to": [
+        "Power circuits",
+        "Control systems"
+      ],
+      "contained_in": null
+    }
+  },
   "epistemic_metadata": {
-    "source": "PDF How It Works: Electric Transmission & Distribution and Protective Measures",
+    "source": "Multiple Sources",
     "citations": []
   }
 }

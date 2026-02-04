@@ -1,0 +1,160 @@
+{
+  "name": "Bolted Joint",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 32,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Joint (22, 9012)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Joint Connection",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Bolt Preload",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PREVENTS",
+      "object": "Joint Separation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Member Stiffness",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "connection (30, 1111)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "joint (22, 9012)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A bolted joint is a type of joint connection that utilizes bolts to clamp members together.",
+    "common_uses": [
+      "Connecting machine parts",
+      "Structural connections"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Bolts are pre-tensioned to create a clamp force that holds the joint together. The stiffness of the members influences the load distribution.",
+    "origin": "Mechanical engineering design"
+  },
+  "instance_layer": {
+    "examples": [
+      "Connecting steel beams in a bridge",
+      "Attaching engine components"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Fastener"
+      ],
+      "capabilities": [
+        "Clamping force",
+        "Load transfer"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Cylindrical",
+        "Threaded"
+      ],
+      "shape": [
+        "Circular",
+        "Bolted"
+      ],
+      "composition": [
+        "Metal",
+        "Steel"
+      ],
+      "parts": [
+        "Bolt",
+        "Nut",
+        "Washer"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Interface between connected parts",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://notes.alv.cx/notes/uni/mmme/2044_design_manufacture_and_project/lecture_slides/Lecture+8+Bolted+joints_v1.1.pdf",
+      "https://engineeringlibrary.org/reference/bolted-joint-design-analysis-sandia",
+      "https://innovationspace.ansys.com/courses/wp-content/uploads/sites/5/2022/12/Mechanics_of_Bolted_Connections.pdf"
+    ]
+  }
+}

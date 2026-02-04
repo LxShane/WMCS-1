@@ -2,8 +2,8 @@
   "name": "Immune Cells",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 1003
+    "group": 30,
+    "item": 1004
   },
   "claims": [
     {
@@ -33,10 +33,80 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Ventricular Myocardium",
+      "temporal": {
+        "valid_from": "2022",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Inflammatory Microenvironment",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Tissue Healing",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Mutual regulation with the extracellular matrix",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Cells of the immune system.",
+    "definition": "Cells of the immune system, such as lymphocytes and macrophages.",
     "common_uses": []
   },
   "deep_layer": {
@@ -48,10 +118,7 @@
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Ingestion Engine",
-    "citations": [
-      "https://www.sciencedirect.com/science/article/pii/S2211124725002037",
-      "https://www.cell.com/cancer-cell/fulltext/S1535-6108(23)00044-2"
-    ]
+    "source": "Set Automatically",
+    "citations": []
   }
 }

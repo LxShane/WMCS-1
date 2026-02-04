@@ -1,0 +1,68 @@
+{
+  "name": "Insulated Crimp Connector",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1237
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Electrical Connector",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Insulating Sleeve",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An electrical connector that uses crimping to secure the wire, with an insulating sleeve.",
+    "common_uses": [
+      "Connecting wires with insulation protection."
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Crimping the connector to the wire creates a secure connection and the sleeve provides insulation.",
+    "origin": "Developed with electrical technology."
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Crimped area"
+      ],
+      "shape": [
+        "Cylindrical"
+      ],
+      "composition": [
+        "Metal",
+        "Plastic"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Electrical connector - Wikipedia",
+    "citations": [
+      "Page 1"
+    ]
+  }
+}

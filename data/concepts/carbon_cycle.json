@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 4567
+    "item": 1003
   },
   "claims": [
     {
@@ -61,6 +61,135 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Connection (30, 1111)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INVOLVES",
+      "object": "Atmosphere (21, 1122)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INVOLVES",
+      "object": "Lithosphere",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INVOLVES",
+      "object": "Land (22, 3344)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INVOLVES",
+      "object": "Ocean (23, 5566)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "AFFECTS",
+      "object": "Earth's climate",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.85,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "atmosphere (21, 1122)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "biosphere (20, 9012)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "carbon (20, 5678)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "geosphere (20, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "hydrosphere (20, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
@@ -68,15 +197,22 @@
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The carbon cycle involves processes such as photosynthesis, respiration, decomposition, and combustion, which move carbon between different reservoirs.",
-    "origin": "Natural process."
+    "mechanism": "Complex interactions among different earth systems.",
+    "origin": "Evolution of Earth system"
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "ABSTRACT_DATA": {
+      "domain": "Earth Science"
+    }
+  },
   "epistemic_metadata": {
-    "source": "How Well Do We Understand the Land\u2010Ocean\u2010Atmosphere Carbon",
-    "citations": []
+    "source": "Extracted from text",
+    "citations": [
+      "https://pimaopen.pressbooks.pub/cas120/chapter/earth-systems-interactions-analysis-atmosphere-and-lithosphere/",
+      "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle/"
+    ]
   }
 }

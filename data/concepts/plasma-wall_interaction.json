@@ -1,9 +1,9 @@
 {
-  "name": "Plasma-wall interaction",
+  "name": "Plasma-Wall Interaction",
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 4321
+    "item": 1234
   },
   "claims": [
     {
@@ -75,20 +75,52 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Interaction between plasma and the wall of a containment vessel.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Area of research and development",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Plasma interaction with the walls of a container.",
+    "definition": "The interaction between plasma and the material surfaces that confine it.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Particles leave the plasma, hit the wall and are re-emitted or wall material enters the plasma.",
-    "origin": null
+    "mechanism": "Involves particle and energy exchange between the plasma and the wall, leading to erosion, fuel retention, and material modification.",
+    "origin": "Arises in plasma-based fusion reactors."
   },
-  "instance_layer": [],
-  "facets": {},
+  "instance_layer": {
+    "examples": []
+  },
   "epistemic_metadata": {
-    "source": "https://link.springer.com/book/10.1007/978-1-4757-0067-1",
-    "citations": []
+    "source": "ScienceDirect.com, SciSpace",
+    "citations": [
+      "Plasma-wall interaction impact of the ITER re-baseline",
+      "Ion beam analysis of fusion plasma-facing materials"
+    ]
   }
 }

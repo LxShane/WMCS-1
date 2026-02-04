@@ -1,9 +1,9 @@
 {
   "name": "Laminin",
-  "type": "LIVING_SYSTEM",
+  "type": "INANIMATE_OBJECT",
   "id": {
     "group": 20,
-    "item": 5678
+    "item": 3456
   },
   "claims": [
     {
@@ -33,15 +33,85 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Protein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Extracellular Matrix",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Basement Membrane",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Self-Assembly",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Glycoprotein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Laminins are a family of glycoproteins that are an integral part of the structural scaffolding in almost every tissue of an organism.",
+    "definition": "A glycoprotein present in basement membranes.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Forms networks",
+    "origin": "Produced by cells."
   },
   "instance_layer": {
     "examples": []
@@ -56,9 +126,9 @@
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Basement Membrane Type IV Collagen and Laminin: An Overview of Their ...",
     "citations": [
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11430160/"
+      "https://anatomypubs.onlinelibrary.wiley.com/doi/epdf/10.1002/ar.23567"
     ]
   }
 }

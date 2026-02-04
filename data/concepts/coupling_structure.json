@@ -1,9 +1,9 @@
 {
-  "name": "Coupling Structure",
+  "name": "Coupling structure",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 30,
-    "item": 1002
+    "group": 20,
+    "item": 1006
   },
   "claims": [
     {
@@ -19,10 +19,33 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Tip of robot arm",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "connection (30, 1111)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A structure designed to transport radio frequency energy without radiating it.",
+    "definition": "A structural element enabling connection of parts.",
     "common_uses": []
   },
   "deep_layer": {
@@ -33,26 +56,15 @@
     "examples": []
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
     "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+      "location": "Tip",
+      "connected_to": [
+        "robot arm"
+      ]
     }
   },
   "epistemic_metadata": {
-    "source": "Radio-frequency engineering - Wikipedia",
+    "source": "KR100974464B1",
     "citations": []
   }
 }

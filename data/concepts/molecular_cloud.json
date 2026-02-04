@@ -2,8 +2,8 @@
   "name": "Molecular Cloud",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 25,
-    "item": 1003
+    "group": 28,
+    "item": 9012
   },
   "claims": [
     {
@@ -89,27 +89,52 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "vast aggregations of molecules",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "galactic disks",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A type of interstellar cloud, the density and size of which permit the formation of molecules, most commonly molecular hydrogen (H2).",
+    "definition": "Molecular clouds are vast aggregations of molecules residing in the galactic disks.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Gravitational collapse leads to star formation.",
-    "origin": "Arises from density fluctuations in the interstellar medium."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
-  },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": []
-    }
+    "source": "Origin of the Chemical Elements - T. Rauscher & A. Patkos",
+    "citations": [
+      "ned.ipac.caltech.edu"
+    ]
   }
 }

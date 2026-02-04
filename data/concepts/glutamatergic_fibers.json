@@ -1,0 +1,83 @@
+{
+  "name": "Glutamatergic Fibers",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1006
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "nerve fiber",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "glutamate",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Glutamatergic fibers are nerve fibers that use glutamate.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": [
+        "transmit signals"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [
+        "glutamate"
+      ],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Throughout the nervous system, concentrated in brain regions like the hippocampus, cortex, and cerebellum",
+      "connected_to": [
+        "Glutamatergic neurons",
+        "Synapses",
+        "Target neurons (e.g., GABAergic neurons, pyramidal neurons)",
+        "Extracellular space"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Perforant path - Wikipedia",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Perforant_path"
+    ]
+  },
+  "autocorrected": true
+}

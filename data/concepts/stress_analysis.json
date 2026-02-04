@@ -103,29 +103,98 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Analyzing angle bracket sizing",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Calculating Von Mises stress",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Calculating principal stress",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Calculating total deformation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Stress analysis is the process of determining the stresses and strains in a material or structure subjected to external loads.",
+    "definition": "Process of determining the stresses and strains in a solid material subjected to forces or loads.",
     "common_uses": [
-      "Designing safe and reliable structures",
-      "Evaluating the performance of materials"
+      "Structural analysis",
+      "Mechanical design"
     ]
   },
   "deep_layer": {
-    "mechanism": "Stress analysis involves applying principles of mechanics and materials science to calculate the distribution of stresses within a structure.",
-    "origin": "Stress analysis has its roots in the development of solid mechanics and the need to understand the behavior of materials under load."
+    "mechanism": "Applies principles of mechanics and material science to calculate internal stresses and strains.",
+    "origin": "Developed from mechanics and material science."
   },
   "instance_layer": {
     "examples": [
-      "Finite element analysis of a bridge",
-      "Experimental stress analysis using strain gauges"
+      "Stress analysis of a bridge under load.",
+      "Stress analysis of an aircraft wing during flight."
     ]
   },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Analysis"
+      ],
+      "capabilities": [
+        "Stress Calculation",
+        "Deformation Prediction"
+      ]
+    }
+  },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Angle Bracket Sizing and Stress Analysis - Stress Ebook LLC.",
     "citations": [
-      "https://www.xometry.com/resources/materials/stress/"
+      "https://www.stressebook.com/angle-bracket-sizing-stress-analysis/",
+      "https://avestia.com/MCM2023_Proceedings/files/paper/ICMIE/ICMIE_149.pdf",
+      "https://www.comsol.com/model/bracket-structural-mechanics-tutorials-10314"
     ]
   }
 }

@@ -2,13 +2,13 @@
   "name": "AMPK",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1004
+    "group": 20,
+    "item": 1234
   },
   "claims": [
     {
       "predicate": "DEFINED_AS",
-      "object": "AMP-activated protein kinase",
+      "object": "AMP-activated protein kinase (21, 1001)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "AMPK Subunits",
+      "object": "AMPK Subunits (21, 1235)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -50,7 +50,7 @@
     },
     {
       "predicate": "LOCATED_AT",
-      "object": "Cellular Compartments",
+      "object": "Cellular Compartments (23, 1236)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -120,7 +120,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "Protein Kinase",
+      "object": "Protein Kinase (21, 1005)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -134,7 +134,7 @@
     },
     {
       "predicate": "FULL_NAME",
-      "object": "AMP-activated Protein Kinase",
+      "object": "AMP-activated Protein Kinase (21, 1001)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -162,7 +162,7 @@
     },
     {
       "predicate": "INFLUENCES",
-      "object": "Cellular homeostasis",
+      "object": "Cellular homeostasis (50, 1235)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -176,7 +176,7 @@
     },
     {
       "predicate": "INFLUENCES",
-      "object": "Aging",
+      "object": "Aging (20, 1236)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -190,7 +190,7 @@
     },
     {
       "predicate": "INFLUENCES",
-      "object": "Development",
+      "object": "Development (20, 1237)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -204,7 +204,7 @@
     },
     {
       "predicate": "INFLUENCES",
-      "object": "Host-pathogen interactions",
+      "object": "Host-pathogen interactions (60, 1238)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -218,7 +218,7 @@
     },
     {
       "predicate": "INFLUENCES",
-      "object": "Differentiation",
+      "object": "Differentiation (20, 1239)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -232,7 +232,7 @@
     },
     {
       "predicate": "INFLUENCES",
-      "object": "Cell",
+      "object": "Cell (21, 1001)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -246,7 +246,7 @@
     },
     {
       "predicate": "INTERACTS_WITH",
-      "object": "Has1",
+      "object": "Has1 (21, 1240)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -260,7 +260,7 @@
     },
     {
       "predicate": "INTERACTS_WITH",
-      "object": "Elemicin",
+      "object": "Elemicin (30, 1241)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -285,24 +285,274 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Signaling complex",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "access proper targets",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "generate appropriate responses",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "lysosomes (21, 1004)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "mitochondria (20, 1005)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "endoplasmic reticulum (20, 1005)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "AMP-activated protein kinase (21, 1001)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": "Discovery"
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "centralized regulator of metabolism",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": "Discovery"
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "acting at cellular and physiological levels to circumvent the metabolic stress by restoring energy balance",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "reprogramming cellular metabolism from anabolism to catabolism",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONTROLS",
+      "object": "cell growth",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONTROLS",
+      "object": "lipid metabolism",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONTROLS",
+      "object": "glucose metabolism",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONTROLS",
+      "object": "autophagy (21, 1004)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "SENSES",
+      "object": "nutrients (21, 1006)",
+      "temporal": {
+        "valid_from": "2026",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REGULATES",
+      "object": "metabolic activity",
+      "temporal": {
+        "valid_from": "2026",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "metabolism (20, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "AMP-activated protein kinase, a sensor of cellular energy levels.",
+    "definition": "AMPK functions as a centralized regulator of metabolism and can reprogramme cellular metabolism.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Regulates various metabolic pathways in response to energy stress.",
+    "mechanism": "AMPK gets activated allosterically or by multiple non-canonical upstream kinases.",
     "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Cytoplasm, Nucleus, Mitochondria, Lysosomes, Peroxisomes, Endoplasmic Reticulum",
+      "connected_to": [
+        "STRADA",
+        "MO25",
+        "LKB1",
+        "Axin",
+        "mTORC1",
+        "Raptor",
+        "TSC1/2"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "AMPK Signal | AMPK is formed by \u03b1, \u03b2, and \u03b3 subunits | Page 3",
+    "source": "Set Automatically",
     "citations": [
-      "https://ampk-signal.com/page/3"
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5780224/",
+      "https://www.sciencedirect.com/science/article/pii/S0014482723001611",
+      "https://www.nature.com/articles/s42255-025-01442-3"
     ]
-  }
+  },
+  "autocorrected": true
 }

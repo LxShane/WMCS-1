@@ -2,8 +2,8 @@
   "name": "Power Grid",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 25,
-    "item": 1007
+    "group": 20,
+    "item": 5678
   },
   "claims": [
     {
@@ -33,24 +33,80 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Electric Power System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Reliable Transmission of Power Grid Information",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Advanced Operations",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Electrical Infrastructure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A network for distributing electricity.",
+    "definition": "A network for transmitting electricity from power plants to consumers.",
     "common_uses": [
-      "Distributing electricity"
+      "Electricity distribution"
     ]
   },
   "deep_layer": {
-    "mechanism": "Power grids transmit electricity from generation to consumers.",
-    "origin": "Developed in the late 19th century."
+    "mechanism": "Transmission and distribution of electrical energy.",
+    "origin": "Evolved from early electrical distribution systems."
   },
-  "instance_layer": [
-    "National power grid"
-  ],
+  "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
-    "source": "Enabling Cyber-Resilient Distribution Systems With DERs:",
-    "citations": []
+    "source": "Conduit for Learning - TCU Magazine",
+    "citations": [
+      "https://magazine.tcu.edu/winter-2023/power-grid-engineering-science/"
+    ]
   }
 }

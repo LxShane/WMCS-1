@@ -19,6 +19,33 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "calcium (30, 2346)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "ions (20, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "process (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
@@ -32,11 +59,24 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Intracellular, Extracellular (Blood, Interstitial Fluid)",
+      "connected_to": [
+        "Parathyroid gland",
+        "Kidney",
+        "Bone",
+        "Intestine",
+        "Cell membrane"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
     "source": "PubMed article",
     "citations": [
       "https://pubmed.ncbi.nlm.nih.gov/27734150/"
     ]
-  }
+  },
+  "autocorrected": true
 }

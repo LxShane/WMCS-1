@@ -1,0 +1,75 @@
+{
+  "name": "Digital Ground (DGND)",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1236
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Ground Plane (30, 7890)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Digital Circuits",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The ground plane dedicated to digital circuits in a mixed-signal system.",
+    "common_uses": [
+      "Digital signal return",
+      "Digital noise reduction"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Conductive",
+        "Planar"
+      ],
+      "shape": [
+        "Flat",
+        "Rectangular"
+      ],
+      "composition": [
+        "Copper"
+      ]
+    }
+  },
+  "deep_layer": {
+    "mechanism": "Provides a low impedance path for return currents from digital components.",
+    "origin": "Electronics industry, specific to mixed-signal designs."
+  },
+  "instance_layer": {
+    "examples": [
+      "Digital ground on a microcontroller board"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.andwinpcb.com/pcb-layout-considerations-for-split-digital-and-analog-grounds/"
+    ]
+  }
+}

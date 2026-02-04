@@ -1,0 +1,76 @@
+{
+  "name": "CSF",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 20,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Cerebrospinal Fluid (20, 9012)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "brain (20, 3456)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "fluid (30, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Fluid surrounding the brain and spinal cord.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Provides cushioning and nutrients to the brain.",
+    "origin": "Biological fluid"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Clear, colorless"
+      ],
+      "shape": [
+        "Liquid"
+      ],
+      "composition": [
+        "Water, electrolytes, proteins"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Surrounding brain and spinal cord",
+      "contained_in": "Ventricles"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "133830/Evaluating-the-dependence-of-ADC-fMRI-on"
+    ]
+  }
+}

@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1234
+    "item": 1005
   },
   "claims": [
     {
@@ -159,24 +159,80 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "how data is physically transmitted between devices",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "cables",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "connectors",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "signals",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The physical layer is the lowest layer in the OSI model and is responsible for the physical transmission of data.",
+    "definition": "The Physical Layer defines how data is physically transmitted between devices.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The physical layer encodes and transmits raw bits over a communication channel, handling the electrical and physical characteristics of the connection.",
-    "origin": "Part of the Open Systems Interconnection (OSI) model, developed to standardize network protocols."
+    "mechanism": "Defines the physical medium and signalling used for data transmission.",
+    "origin": "Networking standards"
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "351cs51 data communication & networking",
+    "source": "ScienceDirect Topics",
     "citations": [
-      "351CS51 DATA COMMUNICATION NETWORKING. 6"
+      "Electrical Interconnects - an overview"
     ]
   }
 }

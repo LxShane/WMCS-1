@@ -1,14 +1,14 @@
 {
-  "name": "Annulus Fibrosus",
+  "name": "annulus fibrosus",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 23,
-    "item": 5678
+    "group": 21,
+    "item": 2348
   },
   "claims": [
     {
       "predicate": "HAS_PART",
-      "object": "AF Tissue",
+      "object": "AF Tissue (23, 9012)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -19,10 +19,24 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_PART_OF",
+      "object": "intervertebral discs",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Tissue within the annulus fibrosus.",
+    "definition": "Part of the intervertebral discs.",
     "common_uses": []
   },
   "deep_layer": {
@@ -32,9 +46,15 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {},
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
   "epistemic_metadata": {
-    "source": "Sci-Hub: Modulation of extracellular matrix by annulus fibrosus cells...",
-    "citations": []
+    "source": "Spinal nerve T1 - e-Anatomy - IMAIOS",
+    "citations": [
+      "e-Anatomy - IMAIOS"
+    ]
   }
 }

@@ -1,0 +1,88 @@
+{
+  "name": "Capillary Action",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 30,
+    "item": 9876
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "physical phenomenon",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONTRIBUTE_TO",
+      "object": "Interfacial Adhesion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "flow (20, 2345)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "gravity (20, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "liquid (20, 5679)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Ability of a liquid to flow in narrow spaces without the assistance of, or even in opposition to, external forces like gravity.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Cohesion between liquid molecules and adhesion between liquid and surface molecules.",
+    "origin": "Arises from the interplay of cohesive and adhesive forces."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "Interfacial adhesion in flexible electronics: Materials, structures and ..."
+    ]
+  }
+}

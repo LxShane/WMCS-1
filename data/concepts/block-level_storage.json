@@ -1,9 +1,9 @@
 {
-  "name": "Block-Level Storage",
-  "type": "INANIMATE_OBJECT",
+  "name": "Block-level storage",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 30,
-    "item": 1006
+    "group": 50,
+    "item": 1001
   },
   "claims": [
     {
@@ -47,22 +47,236 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A concept in cloud-hosted data persistence where cloud services emulate the behaviour of a traditional block device.",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Data storage architecture",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Block storage",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Organizing information into fixed-size blocks",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Blocks",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Concept",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Cloud-hosted data persistence where cloud services emulate the behavior of a traditional block device.",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Emulating the behavior of a traditional block device.",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Blocks",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "File storage",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Database storage",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Virtual machine file system",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "data (50, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "level (20, 9876)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "storage (50, 1236)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A concept in cloud-hosted data persistence where cloud services emulate the behaviour of a traditional block device.",
-    "common_uses": []
+    "definition": "Block-level storage is a concept in cloud-hosted data persistence where cloud services emulate the behavior of a traditional block device.",
+    "common_uses": [
+      "File storage",
+      "Database storage",
+      "Virtual machine file system"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Data is organized in blocks, similar to a physical hard drive.",
-    "origin": "Cloud computing infrastructure."
+    "mechanism": "Storage is organized as blocks to emulate traditional disks or tape storage. Server accesses a volume that has been created (via zoning). The server then takes that volume and formats it and allows you to use it for storage.",
+    "origin": "Cloud-hosted data persistence"
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Data Storage"
+      ],
+      "capabilities": [
+        "Emulating block device behavior",
+        "Allowing virtual machines across an organization",
+        "Developing and formatting block-based storage volumes"
+      ]
+    }
+  },
   "epistemic_metadata": {
-    "source": "Computer data storage - Wikipedia",
-    "citations": []
+    "source": "Multiple Sources",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Block-level_storage",
+      "https://www.reddit.com/r/storage/comments/lwln1v/i_cant_understand_the_logic_behind_file_storage/",
+      "https://www.educba.com/block-level-storage/"
+    ]
   }
 }

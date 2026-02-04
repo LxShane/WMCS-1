@@ -1,0 +1,117 @@
+{
+  "name": "Cable Tray",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 27,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Open Support System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Exposed Cables",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Special Cable Insulation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Cable Installation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Ease of Cable Installation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An open support system for cables.",
+    "common_uses": [
+      "Supporting electrical cables",
+      "Facilitating cable installation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Provides a structured and accessible pathway for cables, simplifying maintenance and modifications.",
+    "origin": "Evolved as a practical alternative to conduit in industrial and commercial settings."
+  },
+  "instance_layer": {
+    "examples": [
+      "Cable trays used in a factory to support power and data cables."
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Open framework",
+        "Metallic"
+      ],
+      "shape": [
+        "Typically rectangular or ladder-shaped"
+      ],
+      "composition": [
+        "Steel",
+        "Aluminum"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Electrical Signal and Control Wiring",
+    "citations": [
+      "https://control.com/textbook/instrument-connections/electrical-signal-and-control-wiring/"
+    ]
+  }
+}

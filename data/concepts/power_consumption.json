@@ -1,0 +1,59 @@
+{
+  "name": "Power Consumption",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "The rate at which electrical energy is used.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The amount of electrical energy used over a period of time.",
+    "common_uses": [
+      "Measuring energy usage"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Electrical appliances draw energy to perform tasks.",
+    "origin": "Development of electrical appliances."
+  },
+  "instance_layer": [
+    "Household electricity usage"
+  ],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Energy Use"
+      ],
+      "capabilities": [
+        "Measure energy demand"
+      ]
+    },
+    "ABSTRACT_DATA": {
+      "domain": "Energy",
+      "properties": [
+        "Electrical"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Energy Sources | Springer Nature Link"
+    ]
+  }
+}

@@ -1,9 +1,9 @@
 {
   "name": "Broad Ligament",
-  "type": "LIVING_SYSTEM",
+  "type": "BODY_PART",
   "id": {
-    "group": 21,
-    "item": 3434
+    "group": 25,
+    "item": 1004
   },
   "claims": [
     {
@@ -33,10 +33,107 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Peritoneal Reflection",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "FORMING",
+      "object": "Mesentery (23, 1001)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "FOR",
+      "object": "Ovaries",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "FOR",
+      "object": "Fallopian Tubes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "FOR",
+      "object": "Posterior Myometrium",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "mesentery (23, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "posterior (50, 1237)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "reflection (50, 7890)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The broad ligament is a peritoneal fold that supports the uterus.",
+    "definition": "A peritoneal reflection forming the mesentery for the ovaries, fallopian tubes, and posterior myometrium.",
     "common_uses": []
   },
   "deep_layer": {
@@ -47,11 +144,17 @@
     "examples": []
   },
   "facets": {
-    "STRUCTURAL": {},
-    "SPATIAL": {}
+    "SPATIAL": {
+      "location": "Pelvis",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
   },
   "epistemic_metadata": {
-    "source": "https://anyassignment.com/biology/anatomy-of-the-female-reproductive-system-assignment-39492/",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.clinicalradiologyonline.net/article/S0009-9260(12)00485-0/fulltext"
+    ]
   }
 }

@@ -1,0 +1,81 @@
+{
+  "name": "Device",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "providing patency to, or preventing collapsing of (body parts)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Electronic Device",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "function (50, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "mechanism (24, 6543)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A piece of equipment or mechanism designed to serve a specific purpose or perform a specific function.",
+    "common_uses": [
+      "Data transfer",
+      "Control signals"
+    ]
+  },
+  "deep_layer": {},
+  "instance_layer": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Variable, depends on the specific device and its application. Could be internal (e.g., implanted device) or external (e.g., wearable device).",
+      "connected_to": [
+        "Varies greatly depending on the device. Examples include: specific organs, bones, tissues, external power sources, communication networks, other devices."
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "USB communications - Wikipedia",
+    "citations": [
+      "https://en.wikipedia.org/wiki/USB_communications"
+    ]
+  },
+  "autocorrected": true
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Declarative Query",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 3003
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Query",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Interacting with networks",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "data (50, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A type of query that specifies what data is needed, without specifying how to retrieve it.",
+    "common_uses": [
+      "Data retrieval",
+      "Database interaction"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Abstract query representation allows for optimization of data retrieval strategies.",
+    "origin": "Developed in the field of database management."
+  },
+  "instance_layer": {
+    "examples": [
+      "SQL queries"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Data Retrieval"
+      ],
+      "capabilities": [
+        "Specifying data requirements"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Manual",
+    "citations": [
+      "Model-Driven Data Acquisition in Sensor Networks"
+    ]
+  }
+}

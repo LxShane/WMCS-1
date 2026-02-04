@@ -2,8 +2,8 @@
   "name": "Blood-Brain Barrier",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1234
+    "group": 22,
+    "item": 1001
   },
   "claims": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "LOCATED_AT",
-      "object": "Brain",
+      "object": "Brain (20, 3456)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -106,7 +106,7 @@
     },
     {
       "predicate": "LOCATED_AT",
-      "object": "Central nervous system",
+      "object": "Central nervous system (32, 7890)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -190,7 +190,7 @@
     },
     {
       "predicate": "LOCATED_AT",
-      "object": "Brain",
+      "object": "Brain (20, 3456)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -330,7 +330,7 @@
     },
     {
       "predicate": "MADE_OF",
-      "object": "endothelial cells",
+      "object": "endothelial cells (31, 9123)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -341,53 +341,110 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "BBB",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Endothelial Junctional Complexes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "BBB Transporters",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "barrier between blood and brain",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "controlling the passage of substances from the blood into the brain",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "blood (31, 1238)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "brain (20, 3456)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The blood-brain barrier (BBB) is a selective semi-permeable membrane that regulates the passage of substances between the blood and the brain.",
-    "common_uses": [
-      "therapeutic research",
-      "drug target"
-    ]
+    "definition": "A barrier between the blood and the brain that controls the passage of substances.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The BBB's endothelial cells are tightly locked, preventing the free passage of substances into the brain, while allowing essential nutrients to pass through.",
-    "origin": "Formed by specialized cells in the brain vasculature."
+    "mechanism": "Regulates the movement of ions, molecules, and cells between the blood and the brain.",
+    "origin": "Biological structure."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Protective Barrier",
-        "Regulator of Transport"
-      ],
-      "capabilities": [
-        "Selective Permeability",
-        "Defense against toxins"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "Between blood and interstitium of the brain",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": "Brain"
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Multiple Web Sources",
-    "citations": [
-      "Blood\u2013brain barrier - Wikipedia",
-      "Blood-Brain Barrier (BBB): What It Is and Function - Cleveland Clinic",
-      "Anatomy, Head and Neck: Blood Brain Barrier - StatPearls - NCBI Bookshelf"
-    ]
+    "source": "New Concepts of a Blood-Brain Barrier - Springer Link",
+    "citations": []
   }
 }

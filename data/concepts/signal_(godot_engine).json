@@ -1,0 +1,83 @@
+{
+  "name": "Signal (Godot Engine)",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Reacting to selected events",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Nodes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Event",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A mechanism in the Godot game engine that allows nodes to react to specific events.",
+    "common_uses": [
+      "Event handling in game development"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Nodes emit signals when certain events occur, and other nodes can connect to these signals to receive notifications.",
+    "origin": "Part of the Godot Engine's architecture."
+  },
+  "instance_layer": {
+    "examples": [
+      "A button emitting a signal when it is pressed.",
+      "An object emitting a signal when it collides with another object."
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Event Handler"
+      ],
+      "capabilities": [
+        "Allows nodes to react to specific events"
+      ]
+    },
+    "ABSTRACT_DATA": {}
+  },
+  "epistemic_metadata": {
+    "source": "docs.godotengine.org/en/stable/getting_started/step_by_step/ signals ....",
+    "citations": []
+  }
+}

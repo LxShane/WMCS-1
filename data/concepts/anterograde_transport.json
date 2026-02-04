@@ -1,0 +1,94 @@
+{
+  "name": "Anterograde Transport",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 30,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Kinesin",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "transport outward from the soma",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "axon (24, 1005)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cell (21, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "movement (50, 1240)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The movement of materials from the cell body towards the axon terminal.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Kinesin proteins move cargo along microtubule tracks.",
+    "origin": "Cells"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Cellular Transport"
+      ],
+      "capabilities": [
+        "Moving substances"
+      ]
+    },
+    "PROCESS_DATA": {
+      "agent": "Kinesin",
+      "affected": "Cargo"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Axonal Transport: Cargo-Specific Mechanisms",
+    "citations": []
+  }
+}

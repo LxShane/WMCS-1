@@ -1,9 +1,9 @@
 {
   "name": "Lumen Formation",
-  "type": "LIVING_SYSTEM",
+  "type": "SOCIAL_CONSTRUCT",
   "id": {
-    "group": 20,
-    "item": 1003
+    "group": 60,
+    "item": 1004
   },
   "claims": [
     {
@@ -19,38 +19,62 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Cell polarization",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Apical-basal polarity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Tight junctions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The process of forming a central cavity within a blood vessel.",
+    "definition": "Process of creating the hollow space in a vessel.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Involves cell polarization and apical membrane formation.",
-    "origin": "Occurs during angiogenesis."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": []

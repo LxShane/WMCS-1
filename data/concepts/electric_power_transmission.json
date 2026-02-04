@@ -1,9 +1,9 @@
 {
   "name": "Electric Power Transmission",
-  "type": "SOCIAL_CONSTRUCT",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 60,
-    "item": 4567
+    "group": 22,
+    "item": 1001
   },
   "claims": [
     {
@@ -47,20 +47,123 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "bulk movement of electrical energy from a generating site to an electrical substation",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Electricity Delivery",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "High-voltage Transmission Lines",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "High Voltages",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Efficient long-distance transmission of electric power",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The process of moving power over long distances via high-voltage power lines.",
-    "common_uses": []
+    "definition": "The process of transporting bulk electric power over long distances.",
+    "common_uses": [
+      "Delivering electricity from generation sources to distribution networks.",
+      "Interconnecting various regions and demand centers."
+    ]
   },
   "deep_layer": {
-    "mechanism": "Utilizes high voltage to minimize losses over long distances.",
-    "origin": null
+    "mechanism": "Electric power transmission uses high-voltage transmission lines to minimize power loss during long-distance transport.",
+    "origin": "Evolved to efficiently deliver electricity from centralized generation facilities."
   },
-  "instance_layer": [],
-  "facets": {},
+  "instance_layer": {
+    "examples": [
+      "The US electric power transmission network"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Distributor"
+      ],
+      "capabilities": [
+        "Transports electric power."
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Across regions and demand centers.",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
   "epistemic_metadata": {
-    "source": "PDF How It Works: Electric Transmission & Distribution and Protective Measures",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "Electric power transmission - Wikipedia",
+      "US Electric Power Transmission Lines Interactive Map - Explore America ...",
+      "PDF How It Works: Electric Transmission & Distribution and Protective Measures"
+    ]
   }
 }

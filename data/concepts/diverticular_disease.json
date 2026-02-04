@@ -2,8 +2,8 @@
   "name": "Diverticular Disease",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 7788
+    "group": 30,
+    "item": 1234
   },
   "claims": [
     {
@@ -19,10 +19,75 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "disease considering the risk factors and description of structural and functional alterations",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Anatomy (50, 4567)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Pathogenesis",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Bowel",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "disease (21, 2011)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A condition characterized by the presence of diverticula in the colon that causes symptoms.",
+    "definition": "A disease considering the risk factors and description of structural and functional alterations",
     "common_uses": []
   },
   "deep_layer": {
@@ -32,29 +97,9 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "Colon",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": "Abdomen"
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://en.wikipedia.org/wiki/Diverticulosis"
-    ]
+    "source": "bowel diverticular disease: Topics by Science.gov",
+    "citations": []
   }
 }

@@ -1,0 +1,88 @@
+{
+  "name": "Network interface controller",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "computer hardware component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "connecting a computer to a computer network",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A network interface controller is a computer hardware component that connects a computer to a computer network.",
+    "common_uses": [
+      "connecting a computer to a network"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Allows data transfer between a computer and a network.",
+    "origin": "Computer hardware design and manufacturing."
+  },
+  "instance_layer": [
+    "Intel Ethernet Controller",
+    "Realtek Network Adapter"
+  ],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Network Adapter"
+      ],
+      "capabilities": [
+        "Data transfer",
+        "Network communication"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Circuit board",
+        "Ports"
+      ],
+      "shape": [
+        "Rectangular"
+      ],
+      "composition": [
+        "Silicon",
+        "Metal",
+        "Plastic"
+      ],
+      "parts": [
+        "Chipset",
+        "Connectors"
+      ],
+      "relations": [
+        "Connects to motherboard"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://en.wikipedia.org/wiki/Network_interface_controller",
+    "citations": []
+  }
+}

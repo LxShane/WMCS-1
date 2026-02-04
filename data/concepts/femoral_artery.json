@@ -75,15 +75,57 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Artery",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Superficial Femoral Artery",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Occlusion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The femoral artery is a major artery in the lower limb, responsible for the majority of the arterial supply to the lower limb.",
+    "definition": "A major artery in the thigh.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Carries oxygenated blood from the heart to the lower limb.",
-    "origin": "Part of the circulatory system."
+    "mechanism": "Carries blood to the lower leg.",
+    "origin": "Develops during embryonic stages."
   },
   "instance_layer": {
     "examples": []
@@ -93,28 +135,18 @@
       "visual_features": [],
       "shape": [],
       "composition": [],
-      "parts": []
+      "parts": [],
+      "relations": []
     },
     "SPATIAL": {
-      "location": null,
+      "location": "Thigh",
       "coordinates": [],
       "connected_to": [],
       "contained_in": null
-    },
-    "FUNCTION": {
-      "roles": [
-        "Blood Supplier"
-      ],
-      "capabilities": [
-        "Oxygen transport"
-      ]
     }
   },
   "epistemic_metadata": {
-    "source": "Ingestion Engine",
-    "citations": [
-      "Femoral artery - Wikipedia",
-      "The Femoral Triangle - Borders - Contents - TeachMeAnatomy"
-    ]
+    "source": "Left Superficial Femoral Artery Occlusion in a Patient With an",
+    "citations": []
   }
 }

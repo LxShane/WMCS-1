@@ -2,7 +2,7 @@
   "name": "Cable Insulation",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
+    "group": 26,
     "item": 1003
   },
   "claims": [
@@ -33,40 +33,124 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Protective Covering",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Protecting Cables",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Resisting Ultraviolet Light",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Resisting Moisture",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Resisting Environmental Wear Factors",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "layer (24, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Material used to protect wires and cables.",
-    "common_uses": []
+    "definition": "A protective layer surrounding electrical cables.",
+    "common_uses": [
+      "Protecting cables from damage",
+      "Insulating electrical wires"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Insulation provides a barrier between electrical conductors and the environment.",
-    "origin": null
+    "mechanism": "Prevents electrical shorts, protects against environmental factors, and enhances cable longevity.",
+    "origin": "Developed to ensure safe and reliable operation of electrical cables in diverse environments."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "PVC insulation",
+      "Rubber insulation"
+    ]
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
     "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+      "visual_features": [
+        "Flexible",
+        "Color-coded"
+      ],
+      "shape": [
+        "Tubular"
+      ],
+      "composition": [
+        "PVC",
+        "Rubber",
+        "Other polymers"
+      ]
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
+    "source": "Electrical Signal and Control Wiring",
+    "citations": [
+      "https://control.com/textbook/instrument-connections/electrical-signal-and-control-wiring/"
+    ]
   }
 }

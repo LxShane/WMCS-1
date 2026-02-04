@@ -22,7 +22,7 @@
     },
     {
       "predicate": "LOCATED_AT",
-      "object": "Diaphragm",
+      "object": "Diaphragm (23, 1237)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -120,7 +120,7 @@
     },
     {
       "predicate": "GIVES_PASSAGE_TO",
-      "object": "Thoracic duct",
+      "object": "Thoracic duct (32, 1003)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -200,6 +200,33 @@
         "confidence": 1.0,
         "status": "SETTLED",
         "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "diaphragm (23, 1237)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "posterior (50, 1237)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "veins (31, 1008)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
       }
     }
   ],

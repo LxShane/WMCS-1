@@ -8,7 +8,7 @@
   "claims": [
     {
       "predicate": "HAS_PART",
-      "object": "Outer Membrane",
+      "object": "Outer Membrane (32, 1003)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Inner Membrane",
+      "object": "Inner Membrane (22, 8642)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -32,6 +32,24 @@
         "confidence": 0.9,
         "status": "SETTLED",
         "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "chloroplast (22, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "membrane (20, 9012)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
       }
     }
   ],
@@ -46,9 +64,20 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Surrounding the chloroplast",
+      "connected_to": [
+        "Intermembrane space",
+        "Thylakoid membrane",
+        "Stroma"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": []
-  }
+  },
+  "autocorrected": true
 }

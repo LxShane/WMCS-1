@@ -1,0 +1,121 @@
+{
+  "name": "Substrate material",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 32,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Material",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Manufacturing PCBs",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "AFFECTS",
+      "object": "PCB's ability to withstand thermal stress",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "AFFECTS",
+      "object": "PCB's ability to withstand mechanical impact",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The non-conductive base material on which the conductive circuitry of a PCB is fabricated.",
+    "common_uses": [
+      "Providing insulation between conductive layers",
+      "Supporting the components on the board"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Provides mechanical support and electrical isolation",
+    "origin": "Development of PCB technology"
+  },
+  "instance_layer": {
+    "examples": [
+      "FR-4 epoxy",
+      "Polyimide"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Varies depending on material",
+        "Often smooth"
+      ],
+      "shape": [
+        "Flat"
+      ],
+      "composition": [
+        "Varies depending on material"
+      ],
+      "parts": [],
+      "relations": []
+    },
+    "FUNCTION": {
+      "roles": [
+        "Insulator",
+        "Support"
+      ],
+      "capabilities": [
+        "Providing electrical insulation",
+        "Providing structural support"
+      ]
+    },
+    "SPATIAL": {
+      "location": null,
+      "connected_to": [],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Web Sources",
+    "citations": [
+      "https://www.wevolver.com/article/pcbs-thickness-understanding-thickness-variations"
+    ]
+  },
+  "autocorrected": true
+}

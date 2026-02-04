@@ -1,9 +1,9 @@
 {
-  "name": "Optical fiber",
+  "name": "Optical Fiber",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 30,
-    "item": 1237
+    "group": 23,
+    "item": 1004
   },
   "claims": [
     {
@@ -33,17 +33,98 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "light propagation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "optical fiber core",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PROPERTY",
+      "object": "light-loss properties",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "right material",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Real-time monitoring of temperature and strain",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A flexible, transparent fiber made of glass or plastic.",
+    "definition": "A flexible, transparent fiber made of glass or plastic used to transmit light.",
     "common_uses": []
   },
-  "deep_layer": {},
-  "instance_layer": {},
-  "facets": {},
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "EP0081412A2",
+    "source": "Set Automatically",
     "citations": []
   }
 }

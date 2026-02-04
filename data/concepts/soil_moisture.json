@@ -3,7 +3,7 @@
   "type": "PHYSICAL",
   "id": {
     "group": 20,
-    "item": 1234
+    "item": 1005
   },
   "claims": [
     {
@@ -131,32 +131,60 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "AFFECTED_BY",
+      "object": "Extreme Precipitation Events (EPEs)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The water content present in the soil.",
+    "definition": "The water content of the soil.",
     "common_uses": [
-      "Agricultural planning",
-      "Climate modeling"
+      "Agriculture",
+      "Environmental monitoring"
     ]
   },
   "deep_layer": {
-    "mechanism": "Water held in the spaces between soil particles, influencing plant growth and affecting heat transfer.",
-    "origin": "Precipitation, irrigation, and groundwater."
+    "mechanism": "Balance between water input (precipitation, irrigation) and output (evaporation, drainage).",
+    "origin": "Natural hydrological cycle."
   },
-  "instance_layer": {
-    "examples": [
-      "Arid soil in the Sahara Desert",
-      "Moist soil in a rainforest"
-    ]
+  "instance_layer": [
+    "Dry soil",
+    "Saturated soil"
+  ],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Dark when wet",
+        "Light when dry"
+      ],
+      "shape": [
+        "Granular",
+        "Varied particle size"
+      ],
+      "composition": [
+        "Mineral particles",
+        "Organic matter",
+        "Water"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Surface of the Earth",
+      "contained_in": "Soil horizons"
+    }
   },
-  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://www.sciencedirect.com/science/article/pii/S0048969724047326",
-      "https://www.nature.com/articles/s41467-020-18631-1",
-      "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2023WR034861"
-    ]
+    "source": "https://www.tandfonline.com/doi/full/10.1080/02626667.2023.2192874",
+    "citations": []
   }
 }

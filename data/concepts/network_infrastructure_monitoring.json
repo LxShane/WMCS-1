@@ -1,0 +1,88 @@
+{
+  "name": "Network Infrastructure Monitoring",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "the process of continuously observing and analyzing the performance, health, and security of network components, such as devices, connections , and data flows",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "detect and resolve issues before they escalate",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "minimizing downtime",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Continuously observing network components for performance and security.",
+    "common_uses": [
+      "Detecting network issues",
+      "Maintaining network security"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Analyzing network data to identify potential problems.",
+    "origin": "Evolved from the need for proactive network management."
+  },
+  "instance_layer": {
+    "examples": [
+      "Using network monitoring tools",
+      "Analyzing network traffic"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Observing",
+        "Analyzing"
+      ],
+      "capabilities": [
+        "Analyzing the performance",
+        "Analyzing the health",
+        "Analyzing the security"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Web Sources",
+    "citations": [
+      "https://trailhead.salesforce.com/content/learn/modules/infrastructure-support/get-to-know-infrastructure-support"
+    ]
+  }
+}

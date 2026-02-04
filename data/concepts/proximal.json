@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1241
+    "item": 1240
   },
   "claims": [
     {
@@ -19,29 +19,38 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Closer to origin",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "An anatomical term describing location.",
+    "definition": "Nearer to the center of the body or the point of attachment.",
     "common_uses": [
-      "Describing the position of structures closer to the trunk"
+      "Describes location on limbs or blood vessels"
     ]
   },
   "deep_layer": {
-    "mechanism": "Describes relative position in anatomy.",
-    "origin": "Latin"
+    "mechanism": "Spatial reference related to origin or point of attachment.",
+    "origin": "Anatomical science"
   },
-  "instance_layer": [],
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Descriptor"
-      ],
-      "capabilities": [
-        "Spatial Localization"
-      ]
-    }
+  "instance_layer": {
+    "examples": [
+      "The elbow is proximal to the wrist."
+    ]
   },
+  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [

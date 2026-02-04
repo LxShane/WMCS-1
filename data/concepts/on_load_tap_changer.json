@@ -1,0 +1,71 @@
+{
+  "name": "On Load Tap Changer",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Tap Changer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Changing taps under load",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A tap changer that can switch between tap positions while the transformer is energized.",
+    "common_uses": [
+      "Continuous voltage regulation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "OLTCs use a diverter switch to briefly transfer the load current to a separate impedance during tap changes, preventing interruption of power.",
+    "origin": "Evolved from off-load tap changers."
+  },
+  "instance_layer": {
+    "examples": [
+      "OLTC in a grid transformer"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Voltage Regulator"
+      ],
+      "capabilities": [
+        "Live Adjustment"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Tap_changer",
+      "https://electricalampere.com/tap-changer-in-transformer/",
+      "https://www.reinhausen.com/fileadmin/downloadcenter/company/publikationen/f0126405_on-load_tap-changers_for_power_transformers.pdf"
+    ]
+  }
+}

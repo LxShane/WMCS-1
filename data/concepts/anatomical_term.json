@@ -47,47 +47,84 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Term used to describe anatomy unambiguously",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Descriptive term",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "ORIGIN",
+      "object": "Latin or Greek roots",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "anatomy (50, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A term used to describe the location of structures in anatomy.",
+    "definition": "A term used to describe anatomy unambiguously, often derived from Latin or Greek.",
     "common_uses": [
       "Describing location of body parts",
-      "Anatomical studies"
+      "Medical communication"
     ]
   },
   "deep_layer": {
-    "mechanism": "Used to unambiguously describe the anatomy of humans and other animals.",
-    "origin": "Developed for consistent anatomical descriptions."
+    "mechanism": "Provides a standardized vocabulary to avoid confusion in anatomical descriptions.",
+    "origin": "Evolved from the need for precise anatomical communication, drawing on Latin and Greek etymology."
   },
-  "instance_layer": [
-    "Medial",
-    "Lateral",
-    "Anterior",
-    "Posterior",
-    "Superior",
-    "Inferior",
-    "Proximal",
-    "Distal",
-    "Dorsal",
-    "Ventral"
-  ],
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Descriptor"
-      ],
-      "capabilities": [
-        "Spatial Localization"
-      ]
-    }
+  "instance_layer": {
+    "examples": [
+      "Anterior",
+      "Posterior",
+      "Dorsal",
+      "Ventral"
+    ]
   },
+  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
       "Anatomical terms of location - Wikipedia",
-      "Anatomical Location | Anatomy and Physiology I - Lumen Learning",
-      "Anatomical Terms of Location - TeachMeAnatomy"
+      "Anatomical Terms of Location: Anterior vs Posterior and Dorsal vs Ventral"
     ]
   }
 }

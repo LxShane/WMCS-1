@@ -1,0 +1,72 @@
+{
+  "name": "Network Time Protocol (NTP)",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "protocol",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "synchronizing clocks over a network",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "one of the oldest and most widely used protocols for synchronizing clocks over a network",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "NTP is a protocol used for synchronizing clocks over a network.",
+    "common_uses": [
+      "Synchronizing computer clocks"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Uses a hierarchical system of time servers to propagate time information.",
+    "origin": "Early internet protocols."
+  },
+  "instance_layer": {
+    "examples": [
+      "Used on many internet servers to maintain accurate time."
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

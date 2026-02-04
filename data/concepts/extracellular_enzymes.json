@@ -1,0 +1,62 @@
+{
+  "name": "Extracellular enzymes",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 31,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Calcium ion (Ca 2+)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Enzyme",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Extracellular enzymes are enzymes located outside of cells.",
+    "common_uses": [
+      "Digestion",
+      "Cell communication"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Extracellular enzymes catalyze reactions in the extracellular space.",
+    "origin": "Synthesized within cells and secreted."
+  },
+  "instance_layer": {
+    "examples": [
+      "Amylase",
+      "Lipase"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Chemistry LibreTexts"
+    ]
+  }
+}

@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 20,
-    "item": 1234
+    "item": 1005
   },
   "claims": [
     {
@@ -131,10 +131,38 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "chemical element",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PART_OF",
+      "object": "Marine biogeochemical cycles",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Mercury is a chemical element with symbol Hg and atomic number 80, commonly known as quicksilver.",
+    "definition": "A chemical element.",
     "common_uses": []
   },
   "deep_layer": {
@@ -145,20 +173,28 @@
     "examples": []
   },
   "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
     "STRUCTURAL": {
-      "visual_features": [
-        "Silvery"
-      ],
+      "visual_features": [],
       "shape": [],
       "composition": [],
       "parts": [],
       "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "Mercury (element) - Wikipedia"
+      "Marine biogeochemical cycles - Wikipedia"
     ]
   }
 }

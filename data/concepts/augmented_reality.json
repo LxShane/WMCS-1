@@ -8,7 +8,7 @@
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "Military Technology",
+      "object": "Military Technology (30, 1234)",
       "temporal": {
         "valid_from": "2000",
         "valid_until": "PRESENT",
@@ -18,6 +18,15 @@
         "confidence": 0.7,
         "status": "SETTLED",
         "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "computer (30, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
       }
     }
   ],

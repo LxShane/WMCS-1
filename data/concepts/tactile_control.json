@@ -1,0 +1,56 @@
+{
+  "name": "Tactile control",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1006
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Robotic control strategy",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Tactile sensors",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A robotic control strategy that uses tactile feedback to control robot interactions with its environment.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Tactile control uses tactile sensors to detect contact and surface properties, and control algorithms to respond to these inputs.",
+    "origin": "Developed with advancements in tactile sensing and robotics."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "PDF Overview Of Sensors For Robotics"
+    ]
+  }
+}

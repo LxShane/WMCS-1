@@ -1,9 +1,9 @@
 {
   "name": "Extracellular Matrix (ECM)",
-  "type": "LIVING_SYSTEM",
+  "type": "INANIMATE_OBJECT",
   "id": {
     "group": 20,
-    "item": 6767
+    "item": 1003
   },
   "claims": [
     {
@@ -61,28 +61,125 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Matrix",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Proteins",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Tissue",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Glycoproteins",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Cell Adhesion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Support for Tissues",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A gel-like structure surrounding cells, containing various molecules.",
+    "definition": "The extracellular matrix (ECM) is a collection of extracellular molecules secreted by cells that provides structural and biochemical support to the surrounding cells.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Provides structural and biochemical support to surrounding cells.",
-    "origin": null
+    "mechanism": "The ECM interacts with cells via integrins and other receptors to regulate cell behavior.",
+    "origin": "Produced by cells."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
     "STRUCTURAL": {
-      "shape": [
+      "visual_features": [
+        "Fibrous",
         "Gel-like"
-      ]
+      ],
+      "shape": [
+        "Variable, depending on tissue"
+      ],
+      "composition": [
+        "Proteins",
+        "Glycoproteins",
+        "Proteoglycans"
+      ],
+      "parts": [],
+      "relations": []
     }
   },
   "epistemic_metadata": {
-    "source": "Cell adhesion - Wikipedia",
-    "citations": []
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11853369/"
+    ]
   }
 }

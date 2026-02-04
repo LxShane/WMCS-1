@@ -1,0 +1,83 @@
+{
+  "name": "Strain Gauge Test",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Assess Strain on PCB",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "PCB Placed Under Stress",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MEASURES",
+      "object": "Flexion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A test to measure the strain on a PCB by placing it under stress and measuring its flexion.",
+    "common_uses": [
+      "Assessing PCB Strain"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Measures deformation under applied force.",
+    "origin": "Engineering testing methodology."
+  },
+  "instance_layer": {
+    "examples": [
+      "Quality control of PCBs."
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Quality Control",
+        "Stress Testing"
+      ],
+      "capabilities": [
+        "Measure strain",
+        "Detect weak points"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

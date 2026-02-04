@@ -1,0 +1,96 @@
+{
+  "name": "Signal ground",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 21,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Ground (electricity)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Return paths for signals",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Return paths for power",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A ground that serves as a return path for signals and power at extra-low voltages.",
+    "common_uses": [
+      "Providing a return path for signals in electronic equipment",
+      "Providing a return path for power in electronic equipment"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Signal grounds provide a low-impedance path for signals to return to the source.",
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Signal Return"
+      ],
+      "capabilities": [
+        "Signal transmission"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Typically distributed throughout a circuit or system",
+      "connected_to": [
+        "Ground plane",
+        "Chassis ground",
+        "Power supply ground",
+        "Electronic components"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://en.wikipedia.org/wiki/Ground_(electricity)",
+    "citations": []
+  },
+  "autocorrected": true
+}

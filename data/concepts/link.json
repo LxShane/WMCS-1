@@ -2,8 +2,8 @@
   "name": "Link",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 21,
-    "item": 5678
+    "group": 30,
+    "item": 9123
   },
   "claims": [
     {
@@ -47,43 +47,165 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Body",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Movement",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "BETWEEN",
+      "object": "microbes and their environment",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_FUNDAMENTAL_TO",
+      "object": "understanding soil and sediment",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_FUNDAMENTAL_TO",
+      "object": "microbial ecology",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_FUNDAMENTAL_TO",
+      "object": "microbial",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A body in a mechanical linkage",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Rigid Body",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "element of a communication network",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A rigid body forming part of a mechanical linkage.",
-    "common_uses": []
+    "definition": "A connection between two network nodes.",
+    "common_uses": [
+      "Transmitting data between nodes",
+      "Establishing communication paths"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Transmits force and motion.",
-    "origin": "Engineered component"
+    "mechanism": "Provides a physical or logical pathway for data transfer.",
+    "origin": "Developed with the need for interconnected network devices."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Ethernet cable",
+      "Wireless connection",
+      "Fiber optic cable"
+    ]
   },
   "facets": {
-    "STRUCTURAL": {
-      "visual_features": [
-        "Rigid",
-        "Varies in shape and size"
-      ],
-      "shape": [
-        "Varies"
-      ],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
     "SPATIAL": {
-      "location": "Within a Mechanical Linkage",
-      "coordinates": [],
+      "location": "Between two anatomical structures",
       "connected_to": [],
-      "contained_in": null
+      "coordinates": []
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Multiple Web Sources",
     "citations": [
-      "https://en.wikipedia.org/wiki/Mechanical_linkage"
+      "Network topology - Wikipedia",
+      "Network Topology - an overview | ScienceDirect Topics"
     ]
-  }
+  },
+  "autocorrected": true
 }

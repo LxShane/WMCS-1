@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1237
+    "item": 5678
   },
   "claims": [
     {
@@ -19,34 +19,82 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Principle of electricity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "opposition to the flow of current",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "ANALOGOUS_TO",
+      "object": "narrow pipe restricting water flow",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Opposition to the flow of electric current in a conductor.",
+    "definition": "Opposition to the flow of electrical current.",
     "common_uses": [
-      "Circuit analysis",
-      "Controlling current flow"
+      "Controlling current in circuits",
+      "Dissipating power"
     ]
   },
   "deep_layer": {
-    "mechanism": "Collisions of electrons with atoms in the conductor.",
-    "origin": "Atomic structure and imperfections in the material."
+    "mechanism": "Impedance to electron flow due to material properties.",
+    "origin": "Intrinsic property of materials."
   },
   "instance_layer": {
     "examples": [
-      "High resistance in a thin wire"
+      "Resistance of a resistor",
+      "Resistance of a wire"
     ]
   },
   "facets": {
-    "PROPERTY_DATA": {
-      "domain": "Electricity",
-      "antonym": "Conductance"
+    "FUNCTION": {
+      "roles": [
+        "Current Limiter"
+      ],
+      "capabilities": [
+        "Restrict current",
+        "Dissipate power"
+      ]
     }
   },
   "epistemic_metadata": {
-    "source": "https://electricalacademia.com/basic-electrical/conductors-insulators-semiconductors-theory-examples/",
+    "source": "Set Automatically",
     "citations": [
-      "Various sections"
+      "https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law/all"
     ]
   }
 }

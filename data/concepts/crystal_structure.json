@@ -1,9 +1,9 @@
 {
-  "name": "Crystal structure",
+  "name": "Crystal Structure",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 32,
-    "item": 1002
+    "group": 30,
+    "item": 1235
   },
   "claims": [
     {
@@ -19,20 +19,57 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "revealing molecular mechanisms",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Atoms",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The arrangement of atoms in a crystalline solid.",
+    "definition": "Arrangement of atoms in space.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Atoms arrange according to energy minimization principles.",
+    "origin": "Natural processes during crystallization"
   },
-  "instance_layer": [],
-  "facets": {},
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
   "epistemic_metadata": {
-    "source": "https://f1000research.com/articles/6-1724",
+    "source": "Property Relationships Bonding, Structure, and Structure ...",
     "citations": []
   }
 }

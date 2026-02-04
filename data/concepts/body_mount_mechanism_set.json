@@ -1,0 +1,91 @@
+{
+  "name": "Body Mount Mechanism Set",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 29,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Replacement Parts",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Mounting body",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "vehicle (30, 1006)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A set of parts used to mount the body of a vehicle.",
+    "common_uses": [
+      "Attaching vehicle body",
+      "Securing vehicle body"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Mechanism allows the body to be securely attached to the chassis.",
+    "origin": "Designed for specific vehicle models."
+  },
+  "instance_layer": {
+    "examples": [
+      "ARA-1516 Body Mount Mechanism Set"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Attachment"
+      ],
+      "capabilities": [
+        "Secure mounting",
+        "Easy removal"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Varies depending on application; typically inferior aspect of the vehicle body.",
+      "connected_to": [
+        "Vehicle chassis",
+        "Vehicle body",
+        "Engine (in some cases)",
+        "Transmission (in some cases)"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "ARA-1516 Body Mount Mechanism Set",
+    "citations": [
+      "https://www.hobbyprosdepot.com/product-p/ara-1516.htm"
+    ]
+  },
+  "autocorrected": true
+}

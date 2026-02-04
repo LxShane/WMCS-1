@@ -1,0 +1,51 @@
+{
+  "name": "Carbohydrate",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Organic Molecule",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "sugar (20, 1240)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A sugar or starch.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Energy storage and structural support.",
+    "origin": "Photosynthesis."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://mistersyracuse.com/mistersyracuse/oldharddrive/Regents+Biology+Lab+Manual/biomolecules+tests.pdf"
+    ]
+  }
+}

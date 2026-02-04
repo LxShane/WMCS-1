@@ -1,9 +1,9 @@
 {
   "name": "Endosteum",
-  "type": "LIVING_SYSTEM",
+  "type": "BODY_PART",
   "id": {
-    "group": 34,
-    "item": 9876
+    "group": 24,
+    "item": 1002
   },
   "claims": [
     {
@@ -19,22 +19,188 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Membrane",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Lines the center of bones",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONTAINS",
+      "object": "Bone marrow",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONTAINS",
+      "object": "Osteoblasts",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONTAINS",
+      "object": "Osteoclasts",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONTAINS",
+      "object": "Osteoprogenitor cells",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Bone development",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Remodeling of bone",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Boundary between cortical bone and cancellous bone",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A thin membrane",
+    "definition": "The endosteum is a membrane lining the inner surfaces of bones, containing bone marrow and cells essential for bone development and remodeling.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
+    "mechanism": "The endosteum facilitates internal bone maintenance and regeneration through its population of stem cells, contributing to bone remodeling and repair.",
     "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Bone Maintainer",
+        "Bone Regenerator",
+        "Bone Developer",
+        "Bone Remodeler"
+      ],
+      "capabilities": [
+        "Bone Maintenance",
+        "Bone Regeneration",
+        "Bone Development",
+        "Bone Remodeling"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Delicate"
+      ],
+      "shape": [
+        "Membrane"
+      ],
+      "composition": [
+        "Osteoblasts",
+        "Osteoclasts",
+        "Osteoprogenitor cells"
+      ],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Inside of bones",
+      "coordinates": [],
+      "connected_to": [
+        "Cortical bone",
+        "Cancellous bone",
+        "Bone marrow"
+      ],
+      "contained_in": "Bone cavity"
+    }
+  },
   "epistemic_metadata": {
-    "source": "Anatomy and functions of bones - Facebook",
+    "source": "Set Automatically",
     "citations": []
   }
 }

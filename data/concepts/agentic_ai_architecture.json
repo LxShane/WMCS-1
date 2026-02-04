@@ -8,7 +8,7 @@
   "claims": [
     {
       "predicate": "REQUIRES",
-      "object": "Memory System",
+      "object": "Memory System (50, 1234)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -50,7 +50,7 @@
     },
     {
       "predicate": "LOCATED_AT",
-      "object": "Agentic AI System",
+      "object": "Agentic AI System (50, 1234)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -60,6 +60,15 @@
         "confidence": 0.8,
         "status": "SETTLED",
         "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "structure (50, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
       }
     }
   ],

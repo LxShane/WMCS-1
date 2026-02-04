@@ -1,0 +1,68 @@
+{
+  "name": "Windaq Software",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Data Processing",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Data Acquisition",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "DI-4208-E Data Acquisition System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Software used with the DI-4208 high-speed USB and Ethernet Data Acquisition System.",
+    "common_uses": [
+      "Data acquisition"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Processes and displays data acquired by the DI-4208.",
+    "origin": "Developed for use with Dataq Instruments products."
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "DI-4208-E High Speed USB/Ethernet Data Acquisition",
+    "citations": []
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Deflecting Plate",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 22,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Directing electron beams",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A component used to control the trajectory of charged particles.",
+    "common_uses": [
+      "Control electron beams",
+      "Steer particle beams"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Apply electric fields to deflect charged particles.",
+    "origin": "Used in particle accelerators and CRT displays."
+  },
+  "instance_layer": {
+    "examples": [
+      "Deflection plates in oscilloscopes"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Beam Steering"
+      ],
+      "capabilities": [
+        "Electron beam directing",
+        "Particle beam steering"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Rectangular",
+        "Metallic"
+      ],
+      "shape": [
+        "Plate",
+        "Parallel"
+      ],
+      "composition": [
+        "Metal"
+      ],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Inside CRT",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "CRT"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Manual",
+    "citations": [
+      "https://ebeammachine.com/how-electron-beam-deflection-works-in-fields/"
+    ]
+  }
+}

@@ -1,9 +1,9 @@
 {
-  "name": "DNA Repair",
+  "name": "DNA repair",
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 5678
+    "item": 1001
   },
   "claims": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "process",
+      "object": "process (50, 1234)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -33,26 +33,105 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "repair enzymes",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "repetitive regions",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "mechanism for genome maintenance",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "biological feature of cells",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "genome (21, 1005)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "maintenance (60, 1004)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "mechanism (24, 6543)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Processes by which cells repair damaged DNA.",
+    "definition": "A mechanism for genome maintenance within cells.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Mechanisms of DNA repair can be divided into direct reversal and removal/replacement.",
-    "origin": null
+    "mechanism": "Various enzymatic processes.",
+    "origin": "Evolutionary adaptation"
   },
-  "instance_layer": [],
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {}
+  "instance_layer": {
+    "examples": []
   },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3478884/",
     "citations": []
   }
 }

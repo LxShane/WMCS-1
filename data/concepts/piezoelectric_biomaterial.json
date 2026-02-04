@@ -1,0 +1,60 @@
+{
+  "name": "Piezoelectric Biomaterial",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1007
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Biomaterial",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Piezoelectric properties",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A biomaterial that exhibits piezoelectricity.",
+    "common_uses": [
+      "Sensors",
+      "Actuators"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Transducer",
+        "Energy Conversion"
+      ],
+      "capabilities": [
+        "Piezoelectric properties"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://pubs.acs.org/doi/10.1021/acs.chemrev.5c00399",
+    "citations": []
+  }
+}

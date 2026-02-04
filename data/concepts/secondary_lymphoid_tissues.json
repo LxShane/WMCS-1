@@ -1,9 +1,9 @@
 {
   "name": "Secondary lymphoid tissues",
-  "type": "LIVING_SYSTEM",
+  "type": "PHYSICAL",
   "id": {
-    "group": 21,
-    "item": 1003
+    "group": 33,
+    "item": 1004
   },
   "claims": [
     {
@@ -19,10 +19,24 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CONTAINS",
+      "object": "remaining naive lymphocytes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A type of tissue.",
+    "definition": "Tissues where immune responses are initiated.",
     "common_uses": []
   },
   "deep_layer": {
@@ -32,11 +46,34 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Throughout the body, at sites of potential pathogen entry",
+      "connected_to": [
+        "Lymphatic vessels",
+        "Blood vessels"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "Multiple Sources",
+    "source": "Lymphocyte Recirculation - an overview | ScienceDirect Topics; Lymphocyte Differentiation and Effector Functions - PMC; Lymphocyte Recirculation: A Brief Review - ijbm.org",
     "citations": [
-      "https://www.nature.com/articles/s41590-023-01731-7"
+      "ScienceDirect Topics",
+      "PMC",
+      "ijbm.org"
     ]
-  }
+  },
+  "autocorrected": true
 }

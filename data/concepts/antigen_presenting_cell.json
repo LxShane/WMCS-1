@@ -8,7 +8,7 @@
   "claims": [
     {
       "predicate": "LOCATED_AT",
-      "object": "Lymph Node",
+      "object": "Lymph Node (28, 1234)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "DEFINED_AS",
-      "object": "APC",
+      "object": "APC (21, 1005)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -32,6 +32,15 @@
         "confidence": 0.9,
         "status": "SETTLED",
         "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "antigen (21, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
       }
     }
   ],

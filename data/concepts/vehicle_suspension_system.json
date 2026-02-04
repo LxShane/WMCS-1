@@ -1,0 +1,101 @@
+{
+  "name": "Vehicle Suspension System",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 31,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Improving ride quality",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "PDF"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Handling",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "PDF"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Lower Control Arm",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Lower Control Arm Bushing",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A system in a vehicle that controls movement and stability.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "SPATIAL": {
+      "location": "Between the vehicle chassis/body and the wheels/axles",
+      "connected_to": [
+        "Vehicle chassis/body",
+        "Wheels/axles",
+        "Control arms",
+        "Steering Knuckle",
+        "Shock absorbers/Dampers",
+        "Springs",
+        "Anti-roll bar/Sway bar"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Engineer Fix, DiagramWeb, Schematron",
+    "citations": [
+      "https://diagramweb.net/lower-control-arm-diagram.html",
+      "https://schematron.org/control-arm-bushing-diagram.html",
+      "https://engineerfix.com/what-is-a-lower-control-arm-bushing/"
+    ]
+  },
+  "autocorrected": true
+}

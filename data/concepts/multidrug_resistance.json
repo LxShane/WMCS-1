@@ -1,0 +1,44 @@
+{
+  "name": "Multidrug Resistance",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 9123
+  },
+  "claims": [
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Resisting the effects of multiple drugs",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The ability of a cell to resist the effects of multiple drugs.",
+    "common_uses": [
+      "Cancer treatment"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Caused by various mechanisms, including increased drug efflux and decreased drug uptake.",
+    "origin": "Can develop spontaneously or be induced by drug exposure."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "WMCS Ingestion Engine",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11780529/"
+    ]
+  }
+}

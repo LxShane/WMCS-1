@@ -22,7 +22,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Oxidative phosphorylation",
+      "object": "Oxidative phosphorylation (50, 7890)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -64,7 +64,7 @@
     },
     {
       "predicate": "PERFORMED_BY",
-      "object": "ATP synthase",
+      "object": "ATP synthase (20, 1002)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -88,6 +88,15 @@
         "confidence": 0.9,
         "status": "SETTLED",
         "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "atp (31, 1005)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
       }
     }
   ],

@@ -1,9 +1,9 @@
 {
   "name": "Climate",
-  "type": "PHYSICAL",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 21,
-    "item": 3344
+    "group": 50,
+    "item": 1001
   },
   "claims": [
     {
@@ -19,22 +19,58 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "changes to water yield services",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "weather (50, 2468)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The prevailing weather conditions of a site.",
+    "definition": "The average weather conditions in a place over many years.",
     "common_uses": [
-      "Determining energy efficiency",
-      "Assessing natural light availability"
+      "Understanding long-term weather patterns",
+      "Predicting future environmental changes"
     ]
   },
-  "deep_layer": {},
-  "instance_layer": {
-    "examples": []
+  "deep_layer": {
+    "mechanism": "Complex interactions of atmospheric, oceanic, and terrestrial processes.",
+    "origin": "Natural phenomena and anthropogenic activities."
   },
-  "facets": {},
+  "instance_layer": [
+    "Global warming",
+    "El Nino"
+  ],
+  "facets": {
+    "ABSTRACT_DATA": {
+      "domain": "Environmental Science",
+      "related_concepts": [
+        "Weather",
+        "Ecosystem",
+        "Atmosphere"
+      ]
+    }
+  },
   "epistemic_metadata": {
-    "source": "Architecture Site Analysis Guide",
+    "source": "https://www.sciencedirect.com/science/article/pii/S2405844023073231",
     "citations": []
   }
 }

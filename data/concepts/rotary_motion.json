@@ -3,19 +3,87 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 7890
+    "item": 1234
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Circular movement",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Motion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Efficient Power Generation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
     "definition": "Circular movement around an axis.",
     "common_uses": [
-      "Engine output"
+      "Power generation",
+      "Driving rotational tools"
     ]
   },
+  "deep_layer": {
+    "mechanism": "Continuous angular displacement.",
+    "origin": "Natural forces (river water, animal movement) or machines (electric motors)."
+  },
+  "instance_layer": {
+    "examples": [
+      "Waterwheel turning",
+      "Donkey walking in a circle around a well"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Power source",
+        "Driver"
+      ],
+      "capabilities": [
+        "Turning",
+        "Rotating"
+      ]
+    }
+  },
   "epistemic_metadata": {
-    "source": "Connecting rod - Wikipedia",
+    "source": "Mechanical Library; MISUMI Mech Lab Blog; Rotary to Linear Motion: The Ultimate Guide for Engineers",
     "citations": [
-      "Wikipedia"
+      "Mechanical Library: Rotational To Linear",
+      "Rotary to Linear Motion | MISUMI Mech Lab Blog",
+      "Rotary to Linear Motion: The Ultimate Guide for Engineers"
     ]
   }
 }

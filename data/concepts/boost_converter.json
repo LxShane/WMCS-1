@@ -89,6 +89,33 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "module (20, 9012)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "power (50, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "voltage (20, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
@@ -138,6 +165,18 @@
         "Inductors"
       ],
       "relations": []
+    },
+    "SPATIAL": {
+      "location": "N/A",
+      "connected_to": [
+        "DC power source",
+        "Inductor",
+        "Switching element (e.g., MOSFET)",
+        "Diode",
+        "Capacitor",
+        "Load"
+      ],
+      "coordinates": []
     }
   },
   "epistemic_metadata": {
@@ -146,5 +185,6 @@
       "https://www.amazon.com/DWEII-Converter-Step-Up-Charging-Protection/dp/B09YD5C9QC",
       "https://www.eitkw.com/product/5v-boost-converter-step-up-power-module-lithium-battery-charging-protection-board/?srsltid=AfmBOoq6NHSiOpTSSeeWP-jBVfdSmzwLjxPpf3807UvMzjCJcLnuA7rg"
     ]
-  }
+  },
+  "autocorrected": true
 }

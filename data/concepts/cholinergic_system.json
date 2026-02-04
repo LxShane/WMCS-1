@@ -1,0 +1,50 @@
+{
+  "name": "Cholinergic System",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 30,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Immune Cells (21, 7890)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "acetylcholine (20, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A system involving acetylcholine and its receptors.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Uses acetylcholine to transmit signals.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "epistemic_metadata": {
+    "source": "See Text",
+    "citations": [
+      "S1347861317300695"
+    ]
+  }
+}

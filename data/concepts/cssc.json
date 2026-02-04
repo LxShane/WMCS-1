@@ -1,0 +1,78 @@
+{
+  "name": "CSSC",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Stellarator",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Plasma Confinement (50, 1234)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Magnetohydrodynamic (MHD) Stability",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "plasma (20, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "CSSC is a compact stellarator designed for plasma confinement and magnetohydrodynamic stability.",
+    "common_uses": [
+      "Plasma confinement research",
+      "Magnetohydrodynamic stability research"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "CSSC achieves plasma confinement and magnetohydrodynamic stability through direct variation of coil shapes.",
+    "origin": "Obtained through optimization of coil shapes."
+  },
+  "epistemic_metadata": {
+    "source": "Optimization of the Compact Stellarator with Simple Coils",
+    "citations": [
+      "https://arxiv.org/html/2510.26155v1"
+    ]
+  }
+}

@@ -8,7 +8,7 @@
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "Vehicle System",
+      "object": "Vehicle System (29, 1009)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "LOCATED_AT",
-      "object": "Vehicle",
+      "object": "Vehicle (30, 1006)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -32,6 +32,33 @@
         "confidence": 0.8,
         "status": "SETTLED",
         "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "engine (25, 1009)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "temperature (20, 5432)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "vehicle (30, 1006)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
       }
     }
   ],
@@ -59,6 +86,20 @@
         "Prevent overheating",
         "Maintain optimal temperature"
       ]
+    },
+    "SPATIAL": {
+      "location": "Varies depending on the specific system; typically distributed throughout the engine compartment and radiator area, potentially extending along the vehicle's chassis.",
+      "connected_to": [
+        "Engine block",
+        "Radiator",
+        "Water pump",
+        "Thermostat",
+        "Heater core",
+        "Coolant reservoir",
+        "Hoses",
+        "Cylinder head"
+      ],
+      "coordinates": []
     }
   },
   "epistemic_metadata": {
@@ -66,5 +107,6 @@
     "citations": [
       "US11694116B2 - Vehicle resiliency, driving feedback and risk"
     ]
-  }
+  },
+  "autocorrected": true
 }

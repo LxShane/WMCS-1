@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1012
+    "item": 1236
   },
   "claims": [
     {
@@ -19,30 +19,66 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "How strongly each atom is joined to another atom",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Energy to break the bond between the two atoms",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "energy (50, 1005)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A measure of the force required to break a bond.",
-    "common_uses": [
-      "Characterizing adhesion"
-    ]
+    "definition": "A measure of the energy required to break a bond between atoms.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Resistance to separation",
-    "origin": "Materials Science"
+    "mechanism": "Based on the electrostatic forces between atoms.",
+    "origin": "Atomic interactions"
   },
-  "instance_layer": [
-    "Tensile strength of an adhesive joint"
-  ],
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {
     "FUNCTION": {
-      "roles": [
-        "Measure of Joint Integrity"
-      ]
-    }
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
   },
   "epistemic_metadata": {
-    "source": "https://www.nature.com/articles/s43246-021-00168-5",
+    "source": "Property Relationships Bonding, Structure, and Structure ...",
     "citations": []
   }
 }

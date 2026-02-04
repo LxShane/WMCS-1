@@ -1,0 +1,53 @@
+{
+  "name": "Endocytic Receptor",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Receptor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A receptor involved in endocytosis.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Mediates the internalization of molecules.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Receptor"
+      ],
+      "capabilities": [
+        "Mediates endocytosis"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Extracted from text",
+    "citations": [
+      "https://www.sciencedirect.com/science/article/pii/S2211124724011197"
+    ]
+  }
+}

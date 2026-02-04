@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 2345
+    "item": 1234
   },
   "claims": [
     {
@@ -33,15 +33,99 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "metabolic pathway",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "metabolic pathway",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "anaerobic production of adenosine triphosphate ( ATP )",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "prokaryotes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "breakdown of glucose molecules",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "mechanism for ATP production",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The breakdown of glucose by enzymes, releasing energy and pyruvic acid.",
+    "definition": "Glycolysis is a metabolic pathway that produces ATP anaerobically from glucose.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Converts glucose into pyruvate through a series of enzymatic reactions.",
-    "origin": "Primary pathway for energy production in many organisms."
+    "mechanism": "Glucose is broken down into pyruvate, generating ATP and NADH.",
+    "origin": "Evolutionarily ancient pathway."
   },
   "instance_layer": {
     "examples": []
@@ -51,22 +135,14 @@
       "roles": [],
       "capabilities": []
     },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
+    "STRUCTURAL": {},
+    "SPATIAL": {}
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11605472/",
+      "https://www.sciencedirect.com/science/article/pii/S0309174022000961"
+    ]
   }
 }

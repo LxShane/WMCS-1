@@ -1,0 +1,56 @@
+{
+  "name": "Needle Stabilization Device",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 29,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Needle Stabilization",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PREVENTS",
+      "object": "Placement of another needle very close",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A device that stabilizes a needle during placement.",
+    "common_uses": [
+      "Medical procedures requiring precise needle placement"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The device physically restricts movement of the needle.",
+    "origin": "Medical device engineering"
+  },
+  "instance_layer": [
+    "A specific model described in US8613748B2"
+  ],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "US8613748B2",
+    "citations": []
+  }
+}

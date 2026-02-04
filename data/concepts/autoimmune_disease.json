@@ -1,9 +1,9 @@
 {
-  "name": "Autoimmune Disease",
+  "name": "Autoimmune disease",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 4567
+    "group": 21,
+    "item": 9012
   },
   "claims": [
     {
@@ -33,28 +33,50 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Aberrant B cell activation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Leakiness of central and/or peripheral tolerance mechanisms",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Disease in which the body's immune system attacks its own tissues.",
+    "definition": "A condition in which the immune system attacks the body's own tissues.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Immune system misidentifies self-antigens as foreign.",
-    "origin": "Combination of genetic and environmental factors."
+    "mechanism": "The immune system fails to distinguish between self and non-self antigens.",
+    "origin": "Caused by a combination of genetic and environmental factors."
   },
   "instance_layer": {
-    "examples": [
-      "Rheumatoid arthritis",
-      "Graves\u2019 disease"
-    ]
+    "examples": []
   },
   "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": [
-      "Mechanisms of Autoantibody-Induced Pathology - PMC",
-      "Autoantibodies in Autoimmune Disorders: Mechanisms Diagnostic ..."
-    ]
+    "citations": []
   }
 }

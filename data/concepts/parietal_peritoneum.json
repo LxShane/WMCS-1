@@ -1,9 +1,9 @@
 {
   "name": "Parietal Peritoneum",
-  "type": "LIVING_SYSTEM",
+  "type": "BODY_PART",
   "id": {
-    "group": 31,
-    "item": 1004
+    "group": 25,
+    "item": 1002
   },
   "claims": [
     {
@@ -19,10 +19,24 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LINES",
+      "object": "Abdominal Wall",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The portion of the peritoneum that lines the abdominal and pelvic cavities.",
+    "definition": "The parietal peritoneum lines the abdominal wall.",
     "common_uses": []
   },
   "deep_layer": {
@@ -34,16 +48,16 @@
   },
   "facets": {
     "SPATIAL": {
-      "location": "Lines the abdominal and pelvic cavities",
+      "location": "Abdominal Wall",
       "coordinates": [],
       "connected_to": [],
-      "contained_in": "Abdomen, Pelvis"
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://en.wikipedia.org/wiki/Retroperitoneal_space"
+      "https://link.springer.com/chapter/10.1007/978-88-470-2141-9_26"
     ]
   }
 }

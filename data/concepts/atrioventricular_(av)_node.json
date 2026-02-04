@@ -1,0 +1,92 @@
+{
+  "name": "Atrioventricular (AV) Node",
+  "type": "BODY_PART",
+  "id": {
+    "group": 23,
+    "item": 1236
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "atrioventricular septum",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "near the opening of the coronary sinus",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "delaying the impulses",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "node (42, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The atrioventricular node is located within the atrioventricular septum, near the opening of the coronary sinus.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "The AV node acts to delay the impulses by approximately 120ms, to ensure the atria have enough time to fully eject blood into the ventricles before ventricular systole.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": []
+    },
+    "SPATIAL": {
+      "location": "Atrioventricular septum",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Heart"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://teachmeanatomy.info/thorax/organs/heart/conducting-system/"
+    ]
+  }
+}

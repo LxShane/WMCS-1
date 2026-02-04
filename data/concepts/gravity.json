@@ -1,9 +1,9 @@
 {
   "name": "Gravity",
-  "type": "PHYSICAL",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 20,
-    "item": 1001
+    "group": 50,
+    "item": 1002
   },
   "claims": [
     {
@@ -243,24 +243,109 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Gravitational force",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Weight",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Acceleration",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Fundamental force of nature",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "Quantum Mechanics",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": "Publication of review"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A force that attracts a body toward the center of the earth, or toward any other physical body having mass.",
-    "common_uses": []
+    "definition": "The force that attracts a body towards the center of the earth, or towards any other physical body having mass.",
+    "common_uses": [
+      "Explaining planetary orbits",
+      "Understanding the formation of stars"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Attraction between two objects with mass.",
-    "origin": "Fundamental force of nature."
+    "mechanism": "Described by general relativity as the curvature of spacetime.",
+    "origin": "Observed since ancient times; theorized by Newton and Einstein."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Earth's gravity",
+      "Black hole gravity"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Holding celestial bodies together",
+        "Influencing motion of objects"
+      ],
+      "capabilities": [
+        "Attracting objects with mass",
+        "Bending light"
+      ]
+    }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://www.numberanalytics.com/blog/science-gravity-applications-biomechanics",
-      "https://pdhpe.net/how-do-biomechanical-principles-influence-movement/force/how-the-body-applies-force/"
-    ]
+    "source": "https://link.aps.org/doi/10.1103/RevModPhys.97.015003",
+    "citations": []
   }
 }

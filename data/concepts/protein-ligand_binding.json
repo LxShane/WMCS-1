@@ -1,9 +1,9 @@
 {
-  "name": "Protein-Ligand Binding",
+  "name": "Protein-ligand binding",
   "type": "SOCIAL_CONSTRUCT",
   "id": {
     "group": 60,
-    "item": 1235
+    "item": 4567
   },
   "claims": [
     {
@@ -89,29 +89,36 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Change of conformational isomerism (conformation) of the target protein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The interaction between a ligand and a protein.",
+    "definition": "The binding of a ligand to a protein.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "A ligand binds to a specific site on a target protein, often resulting in a conformational change of the protein.",
+    "mechanism": "The ligand binds to a site on a target protein, producing a signal and altering the protein's conformation.",
     "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "PROCESS_DATA": {
-      "roles": [],
-      "capabilities": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Binding affinities",
-    "citations": [
-      "https://en.wikipedia.org/wiki/Binding_affinities"
-    ]
+    "source": "Binding affinity",
+    "citations": []
   }
 }

@@ -2,7 +2,7 @@
   "name": "Voltage Regulator",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 21,
+    "group": 30,
     "item": 7890
   },
   "claims": [
@@ -120,16 +120,14 @@
     }
   ],
   "surface_layer": {
-    "definition": "A voltage regulator is an electronic component that maintains a stable voltage level.",
+    "definition": "Device that maintains a constant output voltage.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Uses feedback control systems to maintain a steady voltage.",
-    "origin": "Electrical engineering."
+    "mechanism": "Uses feedback control to adjust output voltage.",
+    "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {
     "STRUCTURAL": {
       "visual_features": [],
@@ -137,16 +135,12 @@
       "composition": [],
       "parts": [],
       "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
     }
   },
   "epistemic_metadata": {
-    "source": "https://www.allelcoelec.com/blog/switches-types-and-uses-explained.html",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://electronics.stackexchange.com/questions/712350/how-do-i-implement-a-usb-c-connector-onto-a-pcb-to-power-a-3-3v-raspberry-pi-pic"
+    ]
   }
 }

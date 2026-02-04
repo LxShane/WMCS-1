@@ -1,0 +1,92 @@
+{
+  "name": "Analog Front-End",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1112
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Electronic Component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Analog Signal Processing",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "process (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An electronic system designed to process analog signals.",
+    "common_uses": [
+      "Signal conditioning",
+      "Data acquisition"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Amplifies, filters, and converts analog signals.",
+    "origin": "Electronic engineering"
+  },
+  "instance_layer": {
+    "examples": [
+      "NAFE11388"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic",
+        "Small"
+      ],
+      "shape": [
+        "Chip",
+        "Module"
+      ],
+      "composition": [
+        "Silicon",
+        "Plastic"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Signal Processor"
+      ],
+      "capabilities": [
+        "Amplifying signals",
+        "Filtering signals"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Highly Configurable 8 Channel \u00b125 V Universal Input Analog",
+    "citations": []
+  }
+}

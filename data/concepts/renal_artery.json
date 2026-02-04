@@ -1,8 +1,8 @@
 {
   "name": "Renal Artery",
-  "type": "BODY_PART",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 22,
+    "group": 21,
     "item": 1005
   },
   "claims": [
@@ -47,25 +47,70 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Big Muscular Artery",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Main Branch of the Aorta",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The main blood supply to the kidney.",
+    "definition": null,
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Carries oxygenated blood from the abdominal aorta to the kidney.",
+    "mechanism": null,
     "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "STRUCTURAL": {},
-    "SPATIAL": {}
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    },
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    }
   },
   "epistemic_metadata": {
-    "source": "Anatomy, Retroperitoneum: Nerve Supply to the Kidneys - NCBI - NIH",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "Renal blood flow | Deranged Physiology"
+    ]
   }
 }

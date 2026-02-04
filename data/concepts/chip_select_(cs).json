@@ -1,0 +1,68 @@
+{
+  "name": "Chip Select (CS)",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1240
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Pin",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Selecting the peripheral to communicate with",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "bus (20, 9018)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Chip Select (CS) is a pin on the SPI bus used to select the specific peripheral device to communicate with when multiple devices are connected to the same SPI bus.",
+    "common_uses": [
+      "Peripheral selection in SPI communication"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "CS pin is typically active low, meaning the peripheral is selected when the pin is low.",
+    "origin": "Part of the SPI protocol specification."
+  },
+  "instance_layer": {
+    "examples": [
+      "Selecting a specific sensor for SPI communication when multiple sensors are connected."
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://itp.nyu.edu/physcomp/resources/microcontroller-pin-functions/"
+    ]
+  }
+}

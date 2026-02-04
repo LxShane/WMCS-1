@@ -2,8 +2,8 @@
   "name": "Smooth Muscle",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1002
+    "group": 20,
+    "item": 9012
   },
   "claims": [
     {
@@ -61,22 +61,52 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Muscle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Muscle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A type of muscle that is part of the musculoskeletal system.",
+    "definition": "A type of muscle tissue which is used to control pupillary size.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Smooth muscles contract involuntarily to regulate various bodily functions.",
-    "origin": "Develops from mesodermal cells during embryonic development."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Components of the Musculoskeletal System in Cats - Cat Owners - Merck Veterinary Manual",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://courses.lumenlearning.com/suny-ap1/chapter/divisions-of-the-autonomic-nervous-system/"
+    ]
   }
 }

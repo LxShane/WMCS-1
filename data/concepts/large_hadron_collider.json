@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 30,
-    "item": 1001
+    "item": 1003
   },
   "claims": [
     {
@@ -271,42 +271,143 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Particle Accelerator",
+      "temporal": {
+        "valid_from": "1998",
+        "valid_until": "PRESENT",
+        "event": "Construction"
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Near Geneva, Switzerland",
+      "temporal": {
+        "valid_from": "1998",
+        "valid_until": "PRESENT",
+        "event": "Construction"
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Collider accelerator",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Accelerate two beams of protons to an energy of 6.5 TeV",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Cause two beams of protons to collide head-on, creating center-of-mass energies of 13 TeV",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "CERN",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "proton-proton accelerator",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "CERN",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Geneva",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A particle accelerator at CERN.",
-    "common_uses": [
-      "Particle physics research"
-    ]
+    "definition": "The proton-proton accelerator which began operation in 2010 in the existing LEP tunnel at CERN in Geneva.",
+    "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": "Accelerates and collides particles to study fundamental physics.",
-    "origin": "Built and operated by CERN."
-  },
-  "instance_layer": [
-    "Located at CERN near Geneva"
-  ],
-  "facets": {
-    "SPATIAL": {
-      "location": "CERN, Geneva, Switzerland",
-      "connected_to": [
-        "Superconducting magnets",
-        "Cryogenic system",
-        "Vacuum system",
-        "Beam pipes",
-        "Detectors (ATLAS, CMS, ALICE, LHCb, etc.)",
-        "Radio frequency cavities",
-        "Injection system",
-        "Extraction system",
-        "Control system",
-        "Cooling system"
-      ],
-      "coordinates": []
-    }
-  },
+  "deep_layer": {},
+  "instance_layer": {},
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Large Hadron Collider - Wikipedia",
+    "source": "Set Automatically",
     "citations": []
-  },
-  "autocorrected": true
+  }
 }

@@ -1,0 +1,55 @@
+{
+  "name": "Software Interruption",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "transfer of control to the OS",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Function Call",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A software mechanism to trigger an interrupt, used to transfer control to the operating system or a specific handler.",
+    "common_uses": [
+      "System calls",
+      "Exception handling"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Triggers a change in the processor's execution flow to execute a predefined interrupt handler.",
+    "origin": "A fundamental mechanism in operating systems for handling exceptions and system calls."
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Microprocessor 5: Software and Hardware Aspects of Development",
+    "citations": []
+  }
+}

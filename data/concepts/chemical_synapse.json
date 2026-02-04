@@ -2,8 +2,8 @@
   "name": "Chemical Synapse",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 4567
+    "group": 31,
+    "item": 1235
   },
   "claims": [
     {
@@ -36,7 +36,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "synapse",
+      "object": "synapse (21, 4567)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -61,44 +61,59 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Neurotransmitter (20, 1234)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Receptor (20, 1002)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "synapse (21, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A chemical synapse is a biological junction where neurons communicate through neurotransmitters.",
+    "definition": "A synapse where communication occurs through the release of neurotransmitters.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Neurotransmitters released from the presynaptic neuron bind to receptors on the postsynaptic membrane.",
+    "mechanism": "A neurotransmitter is released from the neuron and binds to a receptor on the other cell.",
     "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": [
-        "Communicate via neurotransmitters"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Chemical synapse - Wikipedia",
-    "citations": [
-      "https://en.wikipedia.org/wiki/Chemical_synapse"
-    ]
+    "source": "12.4 Communication Between Neurons \u2013 Anatomy & Physiology 2e",
+    "citations": []
   }
 }

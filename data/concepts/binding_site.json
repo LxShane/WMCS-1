@@ -1,0 +1,72 @@
+{
+  "name": "Binding Site",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Antibody Surface",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Region of Antibody that binds to antigen",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "antibody (21, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "antigen (21, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The specific region of an antibody molecule that binds to an antigen.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Binding site structure is complementary to the antigen's shape.",
+    "origin": "Formed by variable regions of the heavy and light chains."
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://lifesciences.danaher.com/us/en/library/antibodies.html"
+    ]
+  }
+}

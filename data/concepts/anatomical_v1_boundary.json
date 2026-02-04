@@ -1,0 +1,65 @@
+{
+  "name": "anatomical V1 boundary",
+  "type": "BODY_PART",
+  "id": {
+    "group": 23,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "brain region boundary",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "brain (20, 3456)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "brain (20, 3456)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The physical border of the V1 region in the brain.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Defined by anatomical structures.",
+    "origin": "Development of the brain."
+  },
+  "instance_layer": [],
+  "facets": {
+    "SPATIAL": {
+      "location": "Posterior occipital lobe"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2712139/",
+    "citations": []
+  }
+}

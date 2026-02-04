@@ -2,13 +2,13 @@
   "name": "Collagen Fiber",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 21,
-    "item": 1235
+    "group": 22,
+    "item": 5678
   },
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "Fiber",
+      "object": "Fiber (23, 1001)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "MADE_OF",
-      "object": "Collagen",
+      "object": "Collagen (30, 1005)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -36,7 +36,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Fibril",
+      "object": "Fibril (20, 1122)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -50,7 +50,7 @@
     },
     {
       "predicate": "LOCATED_AT",
-      "object": "PDL",
+      "object": "PDL (24, 1237)",
       "temporal": {
         "valid_from": "2024",
         "valid_until": "PRESENT",
@@ -61,57 +61,78 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Collagenous Network",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Periodontal Ligament",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "collagen (30, 1005)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "structure (50, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A bundle of collagen fibrils.",
+    "definition": "A fibrous structure composed of collagen molecules.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Fibrils align and cross-link to form fibers.",
-    "origin": "Self-assembly of collagen molecules."
+    "mechanism": null,
+    "origin": null
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {
     "STRUCTURAL": {
-      "visual_features": [
-        "Long",
-        "Thin"
-      ],
-      "shape": [
-        "Cylindrical"
-      ],
+      "visual_features": [],
+      "shape": [],
       "composition": [
-        "Collagen"
+        "collagen"
       ],
-      "parts": [
-        "Fibrils"
-      ],
+      "parts": [],
       "relations": []
-    },
-    "FUNCTION": {
-      "roles": [
-        "Provide strength and support"
-      ],
-      "capabilities": []
-    },
-    "SPATIAL": {
-      "location": "Extracellular matrix",
-      "connected_to": [
-        "Fibroblasts",
-        "Other collagen fibers",
-        "Ground substance",
-        "Cells (via integrins and other adhesion molecules)"
-      ],
-      "coordinates": []
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://www.sciencedirect.com/science/article/abs/pii/S1742706124005324",
-      "https://pubmed.ncbi.nlm.nih.gov/39299626/"
-    ]
-  },
-  "autocorrected": true
+    "source": "https://www.sciencedirect.com/science/article/pii/S1742706124005324",
+    "citations": []
+  }
 }

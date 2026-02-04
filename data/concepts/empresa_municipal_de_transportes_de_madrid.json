@@ -1,0 +1,97 @@
+{
+  "name": "Empresa Municipal de Transportes de Madrid",
+  "type": "SOCIAL_CONSTRUCT",
+  "id": {
+    "group": 60,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "public transport operator",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Madrid",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "municipally owned public transport operator",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "providing bus services",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Empresa Municipal de Transportes de Madrid (EMT Madrid) is a municipally owned public transport operator providing bus services.",
+    "common_uses": [
+      "Public Transportation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Operates a fleet of buses to transport people within Madrid.",
+    "origin": "Established by the Madrid municipality."
+  },
+  "instance_layer": {
+    "examples": [
+      "EMT bus line in Madrid"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Transportation Provider"
+      ],
+      "capabilities": [
+        "Bus Operation"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "EMT Madrid"
+    ]
+  }
+}

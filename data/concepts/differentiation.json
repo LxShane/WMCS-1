@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1008
+    "item": 1005
   },
   "claims": [
     {
@@ -159,10 +159,47 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Cellular Process",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Extracellular Matrix (20, 1234)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "process (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The process of cells specializing.",
+    "definition": "The process by which cells become specialized.",
     "common_uses": []
   },
   "deep_layer": {
@@ -172,19 +209,11 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Manual",
+    "source": "Set Automatically",
     "citations": [
-      "Molecular identity of arteries, veins, and lymphatics"
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4883592/"
     ]
   }
 }

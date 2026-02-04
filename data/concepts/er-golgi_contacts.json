@@ -1,0 +1,75 @@
+{
+  "name": "ER-Golgi Contacts",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Endoplasmic Reticulum",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Golgi apparatus",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Maintaining cellular cholesterol distribution",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Physical locations where the endoplasmic reticulum (ER) and Golgi apparatus are in close proximity.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Facilitate lipid transport between the ER and Golgi.",
+    "origin": "Cellular organization for efficient transport."
+  },
+  "instance_layer": [],
+  "facets": {
+    "SPATIAL": {
+      "location": "Within the cytoplasm",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Cell"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.nature.com/articles/s41467-023-41213-w"
+    ]
+  }
+}

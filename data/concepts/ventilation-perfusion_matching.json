@@ -1,0 +1,99 @@
+{
+  "name": "Ventilation-perfusion matching",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "regional matching of the flow of fresh gas to flow of deoxygenated capillary blood",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "mechanism affecting the efficiency of pulmonary gas exchange",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "predict the effect that reduced alveolar ventilation has on the distribution of pulmonary blood flow",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "predict the effect that reduced pulmonary blood flow has on bronchiole diameter",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The regional matching of the flow of fresh gas to the flow of deoxygenated capillary blood.",
+    "common_uses": [
+      "predict the effect of reduced alveolar ventilation on pulmonary blood flow",
+      "predict the effect of reduced pulmonary blood flow on bronchiole diameter"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Ventilation-perfusion matching ensures that the amount of air reaching the alveoli is appropriately matched to the amount of blood perfusing the capillaries around those alveoli, maximizing gas exchange efficiency.",
+    "origin": "Physiological process in the lungs."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Gas Exchange Optimization"
+      ],
+      "capabilities": [
+        "Regulating alveolar ventilation",
+        "Regulating pulmonary blood flow"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8274320/",
+      "https://iu.pressbooks.pub/humanphys/chapter/ventilation-perfusion-matching/",
+      "https://publications.ersnet.org/content/erj/44/4/1023"
+    ]
+  }
+}

@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 21,
-    "item": 1003
+    "item": 5566
   },
   "claims": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "Neural pathway",
+      "object": "Neural pathway (20, 1234)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -50,7 +50,7 @@
     },
     {
       "predicate": "PERFORMED_BY",
-      "object": "Spinal Cord",
+      "object": "Spinal Cord (21, 1001)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -75,33 +75,112 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Tract",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "conduct motor commands",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "direction",
+      "object": "runs from the brain to the spinal cord",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RUNS_FROM",
+      "object": "Brain (20, 3456)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RUNS_TO",
+      "object": "Spinal Cord (21, 1001)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Tract",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "brain (20, 3456)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Descending tracts are groups of nerve fibers that carry motor commands from the brain to the body.",
+    "definition": "A tract that runs from the brain to the spinal cord.",
     "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": "Descending tracts transmit signals from the brain to muscles and glands, controlling movement and other functions.",
-    "origin": "Develop during the formation of the nervous system."
-  },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Motor Transmission"
-      ],
-      "capabilities": [
-        "Transmitting motor stimuli"
-      ]
-    }
-  },
+  "deep_layer": {},
+  "instance_layer": {},
+  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://www.kenhub.com/en/library/anatomy/ascending-and-descending-tracts-of-the-spinal-cord"
+      "Neural pathways and spinal cord tracts: Anatomy | Kenhub"
     ]
   }
 }

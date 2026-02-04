@@ -1,9 +1,9 @@
 {
-  "name": "Lymphatic Endothelial Cell",
+  "name": "Lymphatic endothelial cell",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 31,
-    "item": 1005
+    "group": 30,
+    "item": 1004
   },
   "claims": [
     {
@@ -33,15 +33,113 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Lymphatic Capillary",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Podoplanin",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "LYVE-1",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "PROX1",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Desmoplakin",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "VEGF-C receptor VEGFR-3",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Specialized endothelial cells that line lymphatic vessels.",
+    "definition": null,
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Regulate the formation and function of lymphatic vessels.",
-    "origin": "Forms during embryonic development."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
@@ -68,7 +166,9 @@
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://www.cell.com/cell-reports/fulltext/S2211-1247(14)00260-5"
+      "https://en.wikipedia.org/wiki/Lymphangiogenesis",
+      "https://grokipedia.com/page/lymphangiogenesis",
+      "https://www.cell.com/fulltext/S0092-8674(10)00115-7"
     ]
   }
 }

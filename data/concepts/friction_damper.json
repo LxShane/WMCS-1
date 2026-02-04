@@ -1,0 +1,82 @@
+{
+  "name": "Friction Damper",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Damper",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Imparting brake",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A damper that uses friction to absorb energy and reduce motion.",
+    "common_uses": [
+      "Vehicle braking systems",
+      "Vibration control in machinery"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Kinetic energy is converted to heat through friction between two surfaces.",
+    "origin": "Developed as a simple and reliable damping solution."
+  },
+  "instance_layer": [
+    "Bicycle brakes",
+    "Industrial machinery dampers"
+  ],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    },
+    "FUNCTION": {
+      "roles": [
+        "Energy Absorber",
+        "Motion Reducer"
+      ],
+      "capabilities": [
+        "Converting kinetic energy to heat",
+        "Slowing down or stopping motion"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

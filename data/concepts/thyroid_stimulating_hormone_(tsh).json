@@ -1,0 +1,52 @@
+{
+  "name": "Thyroid Stimulating Hormone (TSH)",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Hormone",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Thyroid",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A hormone produced by the thyroid gland.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Stimulates the thyroid gland.",
+    "origin": "Produced by the pituitary gland."
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Subcellular Organization of the cAMP Signaling Pathway - PMC",
+    "citations": []
+  }
+}

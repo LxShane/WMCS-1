@@ -2,22 +2,75 @@
   "name": "Lubricant",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 30,
-    "item": 1004
+    "group": 23,
+    "item": 5555
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Reduce friction",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Solid Lubricant",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "A substance used to reduce friction between moving surfaces.",
-    "common_uses": [
-      "engine lubrication",
-      "machine maintenance"
-    ]
+    "definition": "A substance used to reduce friction between surfaces in mutual contact.",
+    "common_uses": []
   },
-  "deep_layer": {},
-  "instance_layer": {},
-  "facets": {},
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": [
+        "Reduce friction"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://ntrs.nasa.gov/api/citations/19710027358/downloads/19710027358.pdf"
+    ]
   }
 }

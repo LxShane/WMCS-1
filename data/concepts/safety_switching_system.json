@@ -1,0 +1,54 @@
+{
+  "name": "Safety Switching System",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 5791
+  },
+  "claims": [
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Automatically shutting down or re-routing the voltage",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A system that automatically shuts down or re-routes voltage in response to unsafe conditions.",
+    "common_uses": [
+      "voltage shutdown",
+      "voltage re-routing"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Safety switching systems use relays or transistors to control voltage flow.",
+    "origin": "Engineered electronic components."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Protection"
+      ],
+      "capabilities": [
+        "Automatically shutting down or re-routing the voltage"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Microcontroller based over voltage and under voltage protection circuit | PDF",
+    "citations": []
+  }
+}

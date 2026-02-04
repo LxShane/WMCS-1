@@ -1,9 +1,9 @@
 {
   "name": "Soil",
-  "type": "INANIMATE_OBJECT",
+  "type": "PHYSICAL",
   "id": {
-    "group": 20,
-    "item": 1002
+    "group": 30,
+    "item": 4568
   },
   "claims": [
     {
@@ -131,6 +131,20 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "soxB gene",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
@@ -146,15 +160,29 @@
   },
   "facets": {
     "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
+      "visual_features": [
+        "Brown",
+        "granular"
+      ],
+      "shape": [
+        "Irregular"
+      ],
+      "composition": [
+        "Minerals",
+        "organic matter"
+      ],
       "parts": [],
       "relations": []
+    },
+    "SPATIAL": {
+      "location": "Surface of the earth",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
-    "source": "https://en.wikipedia.org/wiki/Stress_distribution_in_soil",
+    "source": "https://academic.oup.com/femsec/article/88/3/538/586123",
     "citations": []
   }
 }

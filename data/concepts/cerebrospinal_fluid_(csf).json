@@ -78,7 +78,7 @@
     },
     {
       "predicate": "PART_OF",
-      "object": "CSF system",
+      "object": "CSF system (21, 1002)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -92,7 +92,7 @@
     },
     {
       "predicate": "CIRCULATES_IN",
-      "object": "subarachnoid space",
+      "object": "subarachnoid space (24, 1003)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -102,6 +102,24 @@
         "confidence": 0.9,
         "status": "SETTLED",
         "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cns (21, 5678)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "fluid (30, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
       }
     }
   ],

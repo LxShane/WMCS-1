@@ -1,9 +1,9 @@
 {
   "name": "Abdominal Cavity",
-  "type": "INANIMATE_OBJECT",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 25,
-    "item": 8847
+    "group": 23,
+    "item": 1002
   },
   "claims": [
     {
@@ -33,34 +33,77 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Body Cavity (37, 1234)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Part of Abdominopelvic Cavity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "space bounded by the vertebrae, abdominal muscles, diaphragm, and pelvic floor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "diaphragm (23, 1237)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A large body cavity in humans and many other animals that contains many organs.",
+    "definition": "The abdominal cavity is the space bounded by the vertebrae, abdominal muscles, diaphragm, and pelvic floor.",
     "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": null,
-    "origin": null
-  },
-  "instance_layer": {
-    "examples": []
-  },
+  "deep_layer": {},
+  "instance_layer": {},
   "facets": {
-    "SPATIAL": {
-      "location": "Inferior to the thoracic cavity, superior to the pelvic cavity, anterior to the vertebral column, posterior to the abdominal wall.",
-      "connected_to": [
-        "Diaphragm",
-        "Pelvic Cavity",
-        "Abdominal Wall",
-        "Vertebral Column"
-      ],
-      "coordinates": []
-    }
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {}
   },
   "epistemic_metadata": {
-    "source": "https://en.wikipedia.org/wiki/Embryology_of_digestive_system_and_the_body_cavities",
+    "source": "https://en.wikipedia.org/wiki/Peritoneum",
     "citations": []
-  },
-  "autocorrected": true
+  }
 }

@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 30,
-    "item": 1004
+    "item": 1001
   },
   "claims": [
     {
@@ -47,33 +47,108 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Key",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Whippen / Jack",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Hammer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Key",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Whippen/Jack",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Hammer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A complex set of levers and hammers that transfers the motion of the keys to the strings.",
-    "common_uses": [
-      "Sound production",
-      "Playing music"
-    ]
+    "definition": "The mechanism in a piano that transfers the force from the key to the hammer, causing the hammer to strike the strings.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "When the piano key is pressed, it initiates a chain reaction that results in a hammer hitting the string.",
-    "origin": "Evolved during the late 18th century."
+    "mechanism": "When a key is pressed, it pivots and causes the whippen/jack to pivot, which then causes the hammer to strike the string.",
+    "origin": null
   },
-  "instance_layer": [],
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": []
-    },
-    "SPATIAL": {}
+  "instance_layer": {
+    "examples": []
   },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Kinematic Model of a Piano Action Mechanism",
     "citations": [
-      "https://recording-history.org/parts-of-a-piano/"
+      "Figure 1"
     ]
   }
 }

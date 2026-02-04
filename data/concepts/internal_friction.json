@@ -1,0 +1,54 @@
+{
+  "name": "Internal Friction",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 20,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Friction",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Damping",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Friction within the material of the string.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Conversion of mechanical energy into heat due to imperfections within the string material",
+    "origin": "Material properties"
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Physics Stack Exchange",
+    "citations": [
+      "https://physics.stackexchange.com/questions/798040/vibrating-string-and-damping"
+    ]
+  }
+}

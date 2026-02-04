@@ -1,0 +1,95 @@
+{
+  "name": "Torsion Bar",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Suspension Spring",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Steel tubes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Chassis and control arms",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A torsion bar is a suspension spring consisting of a steel tube mounted to the chassis at one end and to control arms at the other.",
+    "common_uses": [
+      "Absorbing shocks",
+      "Providing damping action through twisting"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Torsion bars work by twisting when vertical loads are applied.",
+    "origin": "Torsion bars were developed to offer a compact suspension solution."
+  },
+  "instance_layer": {
+    "examples": [
+      "Torsion bars in an SUV"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Tubular shape",
+        "Steel"
+      ],
+      "shape": [
+        "Cylindrical",
+        "Straight"
+      ],
+      "composition": [
+        "Steel"
+      ]
+    },
+    "SPATIAL": {
+      "connected_to": [
+        "Chassis",
+        "Control arm"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Web Sources",
+    "citations": [
+      "https://www.carid.com/articles/coil-leaf-and-torsion-bar-describing-the-3-different-kinds-of-springs.html"
+    ]
+  }
+}

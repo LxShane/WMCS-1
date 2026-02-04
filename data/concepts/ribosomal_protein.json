@@ -1,0 +1,71 @@
+{
+  "name": "Ribosomal Protein",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 31,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Basic Protein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Ribosome",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Ribosome-associated protein",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A protein that is a structural and functional part of a ribosome.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Contributes to the structure and catalytic activity of the ribosome.",
+    "origin": "Encoded by specific genes."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.sciencedirect.com/topics/neuroscience/ribosome-protein",
+      "https://www.cell.com/cell/fulltext/S0092-8674(17)30582-2"
+    ]
+  }
+}

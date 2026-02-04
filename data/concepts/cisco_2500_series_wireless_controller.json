@@ -1,0 +1,64 @@
+{
+  "name": "Cisco 2500 Series Wireless Controller",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "REQUIRES",
+      "object": "configuration of interfaces",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "PREVENTS",
+      "object": "configuration of interfaces on physical ports when an AP is connected to the port",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "controller (30, 4321)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A wireless controller device by Cisco.",
+    "common_uses": [
+      "Wireless network control",
+      "Access point management"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Centralized management of wireless access points.",
+    "origin": "Cisco Systems product."
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "https://www.cisco.com/c/en/us/td/docs/wireless/controller/2500/quick/guide/ctr2504-qs.html",
+    "citations": []
+  }
+}

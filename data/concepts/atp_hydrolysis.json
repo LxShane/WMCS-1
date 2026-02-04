@@ -1,9 +1,9 @@
 {
-  "name": "ATP Hydrolysis",
+  "name": "ATP hydrolysis",
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1234
+    "item": 1235
   },
   "claims": [
     {
@@ -36,7 +36,7 @@
     },
     {
       "predicate": "PERFORMED_BY",
-      "object": "enzymes",
+      "object": "enzymes (21, 1002)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -106,7 +106,7 @@
     },
     {
       "predicate": "CAUSES",
-      "object": "muscle contraction",
+      "object": "muscle contraction (21, 9013)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -204,7 +204,7 @@
     },
     {
       "predicate": "CAUSES",
-      "object": "Movement",
+      "object": "Movement (50, 1240)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -299,38 +299,156 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "conformational changes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "unidirectional motion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "The hydrolysis of ATP into ADP and inorganic phosphate.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Liberating useful energy",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Conformational changes in enzyme structure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Changes the angle of the myosin head into a 'cocked' position",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Storing potential energy",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Conformational changes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "atp (31, 1005)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "energy (50, 1005)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The process of breaking down ATP into ADP and inorganic phosphate, releasing energy.",
+    "definition": "The breakdown of ATP to release energy.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The cleavage of the phosphoanhydride bond in ATP releases energy that can be used to drive cellular processes.",
+    "mechanism": null,
     "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": {},
   "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    }
+    "FUNCTION": {},
+    "STRUCTURAL": {},
+    "SPATIAL": {}
   },
   "epistemic_metadata": {
-    "source": "Multiple",
+    "source": "Set Automatically",
     "citations": [
-      "https://www.sciencedirect.com/science/article/pii/S0301462208002822",
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5334417/",
-      "https://courses.lumenlearning.com/wm-biology2/chapter/atp-and-muscle-contraction/"
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8592121/"
     ]
   }
 }

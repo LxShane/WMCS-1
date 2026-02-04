@@ -1,0 +1,56 @@
+{
+  "name": "Ligand-Receptor Interaction",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "The binding of a ligand to a receptor.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Downstream signaling",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The process by which a ligand binds to its cognate receptor.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "The ligand binds to the receptor, causing a conformational change that activates downstream signaling pathways.",
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Multiple Sources",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10325966/",
+      "https://www.nature.com/articles/s42003-025-09413-w",
+      "http://soderlinglab.cellbio.duke.edu/s/Principles-Driving-the-Spatial-Organization-of-Rho-GTPase-Signaling-at-Synapses.pdf"
+    ]
+  }
+}

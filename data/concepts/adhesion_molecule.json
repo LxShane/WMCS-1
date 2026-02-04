@@ -1,14 +1,14 @@
 {
   "name": "Adhesion Molecule",
-  "type": "INANIMATE_OBJECT",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 32,
-    "item": 4567
+    "group": 50,
+    "item": 9012
   },
   "claims": [
     {
       "predicate": "USED_FOR",
-      "object": "Cell Adhesion",
+      "object": "Cell Adhesion (50, 2345)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "USED_FOR",
-      "object": "Cell Migration",
+      "object": "Cell Migration (50, 3456)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -33,24 +33,65 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Molecular Player",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "adhesion (50, 7890)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A molecule that mediates cell-cell or cell-matrix interactions.",
+    "definition": "A molecular player involved in adhesion.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Binds to ligands on other cells or the extracellular matrix.",
+    "mechanism": null,
     "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
   "epistemic_metadata": {
-    "source": "Ingestion Engine",
+    "source": "The various codes in the cell - Page 3",
     "citations": [
-      "https://pubmed.ncbi.nlm.nih.gov/14523388/"
+      "Page 3"
     ]
   }
 }

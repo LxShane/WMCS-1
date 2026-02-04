@@ -8,7 +8,7 @@
   "claims": [
     {
       "predicate": "DEFINED_AS",
-      "object": "Beam Pipe",
+      "object": "Beam Pipe (32, 1004)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -47,6 +47,24 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "beam (30, 1005)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "particle (20, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
@@ -62,10 +80,20 @@
       "shape": [
         "Cylindrical"
       ]
+    },
+    "SPATIAL": {
+      "location": "Along the beamline, surrounding the particle beam",
+      "connected_to": [
+        "Accelerator components",
+        "Vacuum pumps",
+        "Diagnostic instruments"
+      ],
+      "coordinates": []
     }
   },
   "epistemic_metadata": {
     "source": "LHC vacuum tube diameter [closed] - Physics Stack Exchange",
     "citations": []
-  }
+  },
+  "autocorrected": true
 }

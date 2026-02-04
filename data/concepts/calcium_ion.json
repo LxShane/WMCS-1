@@ -1,9 +1,9 @@
 {
-  "name": "Calcium ion",
+  "name": "Calcium Ion",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 21,
-    "item": 1007
+    "group": 30,
+    "item": 1920
   },
   "claims": [
     {
@@ -33,20 +33,57 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "PLAYS_ROLE",
+      "object": "Central role in excitation, contraction, transcription, and proliferation of vascular smooth muscle cells",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Precise regulation of intracellular Ca2+concentration",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "calcium (30, 2346)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A divalent cation that acts as a second messenger in cells.",
+    "definition": "Calcium (Ca2+) is a chemical element.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Binds to proteins and alters their conformation, leading to changes in activity.",
-    "origin": "Present in the extracellular environment and released from intracellular stores."
+    "mechanism": "A crucial signaling molecule for many processes.",
+    "origin": "Mineral within the body."
   },
   "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
-    "source": "Calcium signaling - Wikipedia",
+    "source": "Calcium Channels in Vascular Smooth Muscle - PMC",
     "citations": []
   }
 }

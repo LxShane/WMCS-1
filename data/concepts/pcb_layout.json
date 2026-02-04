@@ -1,0 +1,79 @@
+{
+  "name": "PCB Layout",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Printed Circuit Board Layout",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Manufacturing Process",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The process of arranging components and traces on a printed circuit board.",
+    "common_uses": [
+      "Circuit design",
+      "Electronics manufacturing"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Involves placing components and routing connections to achieve desired circuit functionality.",
+    "origin": "Electronics industry."
+  },
+  "instance_layer": {
+    "examples": [
+      "Single-sided PCB layout",
+      "Double-sided PCB layout",
+      "Multilayer PCB layout"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Layered",
+        "Traces",
+        "Pads"
+      ],
+      "shape": [
+        "Rectangular",
+        "Custom"
+      ],
+      "composition": [
+        "FR-4",
+        "Copper"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.andwinpcb.com/pcb-layout-considerations-for-split-digital-and-analog-grounds/"
+    ]
+  }
+}

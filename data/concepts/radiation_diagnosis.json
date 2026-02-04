@@ -1,0 +1,59 @@
+{
+  "name": "Radiation Diagnosis",
+  "type": "SOCIAL_CONSTRUCT",
+  "id": {
+    "group": 60,
+    "item": 8765
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Medical Scan",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Diagnosis",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Diagnosis using radiation-based imaging techniques.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "US20200381105A1 - Medical scan diagnosing system - Google",
+    "citations": []
+  }
+}

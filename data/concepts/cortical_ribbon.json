@@ -1,0 +1,81 @@
+{
+  "name": "Cortical Ribbon",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 31,
+    "item": 8901
+  },
+  "claims": [
+    {
+      "predicate": "HAS_RELATION",
+      "object": "ADC-fMRI spatial maps",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_CLOSE_TO",
+      "object": "CSF",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "layer (24, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Outer layer of the cerebral cortex.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Involved in higher cognitive functions.",
+    "origin": "Brain anatomy"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Thin, folded"
+      ],
+      "shape": [
+        "Ribbon-like"
+      ],
+      "composition": [
+        "Neurons, glial cells"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Outer surface of cerebrum",
+      "contained_in": "Brain"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "133830/Evaluating-the-dependence-of-ADC-fMRI-on"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "LVDS",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Differential Signaling System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Low-voltage differential signaling, or LVDS, also known as TIA/EIA-644, is a technical standard that specifies electrical characteristics of a differential, serial communications protocol.",
+    "common_uses": [
+      "High-speed data transmission",
+      "Reducing electromagnetic interference"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "LVDS transmits data using the difference between two voltage levels, making it less susceptible to noise.",
+    "origin": "Telecommunications Industry Association/Electronic Industries Alliance (TIA/EIA)"
+  },
+  "instance_layer": {
+    "examples": [
+      "Used in video cards to transmit data to display panels."
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Data Transmitter"
+      ],
+      "capabilities": [
+        "High-speed data transfer",
+        "Noise reduction"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Newark Electronics",
+    "citations": []
+  }
+}

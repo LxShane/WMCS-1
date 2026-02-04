@@ -2,8 +2,8 @@
   "name": "Resistive Plate Chamber",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 31,
-    "item": 1006
+    "group": 30,
+    "item": 1004
   },
   "claims": [
     {
@@ -33,17 +33,34 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Gaseous detector",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A type of gaseous particle detector used for triggering and muon identification.",
+    "definition": "A type of gaseous detector.",
     "common_uses": []
   },
-  "deep_layer": {},
-  "instance_layer": {},
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
-    "source": "Compact Muon Solenoid - Wikipedia",
+    "source": "https://arxiv.org/html/2512.00962v1",
     "citations": []
   }
 }

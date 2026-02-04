@@ -1,0 +1,60 @@
+{
+  "name": "Expansion Slot",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 21,
+    "item": 2468
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Computer Component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Adding Functionality",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A socket on a motherboard that allows additional hardware to be connected.",
+    "common_uses": [
+      "Adding graphics cards",
+      "Adding network cards"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Provides a physical and electrical interface for expansion cards.",
+    "origin": "Developed to increase system flexibility."
+  },
+  "instance_layer": {
+    "examples": [
+      "PCIe Slot",
+      "AGP Slot"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Computer Systems - Introduction - Academia.edu",
+    "citations": []
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Adiabatic Compression",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 6789
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Plasma Heating Method",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "plasma (20, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A method of heating plasma by compressing it adiabatically.",
+    "common_uses": [
+      "Heating plasma in fusion reactors"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Compressing the plasma increases its temperature.",
+    "origin": "A fundamental principle of thermodynamics applied to plasma heating."
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Heating"
+      ],
+      "capabilities": [
+        "Temperature increase via compression"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Plasma Heating - an overview | ScienceDirect Topics"
+    ]
+  }
+}

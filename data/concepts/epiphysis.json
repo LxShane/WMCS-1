@@ -2,8 +2,8 @@
   "name": "Epiphysis",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 31,
-    "item": 1006
+    "group": 33,
+    "item": 1003
   },
   "claims": [
     {
@@ -19,15 +19,43 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Cartilaginous epiphysis",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Just beyond the groove of Ranvier",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The end part of a long bone, initially separated from the shaft by a growth plate.",
+    "definition": "The epiphysis is the end part of a long bone, initially growing separately from the shaft.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Site of bone growth.",
+    "origin": "Develops as a separate ossification center."
   },
   "instance_layer": {
     "examples": []
@@ -37,12 +65,18 @@
       "visual_features": [],
       "shape": [],
       "composition": [],
-      "parts": []
+      "parts": [],
+      "relations": []
     },
-    "SPATIAL": {}
+    "SPATIAL": {
+      "location": "End of long bones",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": []
+    }
   },
   "epistemic_metadata": {
-    "source": "https://www.britannica.com/science/bone-anatomy/Vascular-supply-and-circulation",
+    "source": "The periosteum: what is it, where is it, and what mimics it in its ...",
     "citations": []
   }
 }

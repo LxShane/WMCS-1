@@ -1,0 +1,66 @@
+{
+  "name": "Uterine-Placental Interface",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 23,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Uterine Tissue",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Placental Tissue",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Interface between uterus and placenta.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {
+    "SPATIAL": {
+      "location": "Between the uterus and placenta",
+      "connected_to": [
+        "Uterus (Endometrium/Decidua)",
+        "Placenta (Chorionic Villi/Trophoblast)",
+        "Maternal Blood Vessels",
+        "Fetal Blood Vessels"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Congenital Viral Infection: Traversing the Uterine-Placental",
+    "citations": [
+      "https://www.annualreviews.org/content/journals/10.1146/annurev-virology-092917-043236"
+    ]
+  },
+  "autocorrected": true
+}

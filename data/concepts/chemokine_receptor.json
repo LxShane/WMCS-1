@@ -2,8 +2,8 @@
   "name": "Chemokine Receptor",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 22,
-    "item": 1002
+    "group": 20,
+    "item": 6543
   },
   "claims": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "Receptor",
+      "object": "Receptor (20, 1002)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -61,24 +61,88 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "G protein-linked transmembrane receptor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "cell surface",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "receptor (20, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A receptor that interacts with chemokines.",
+    "definition": "A type of transmembrane receptor that binds chemokines.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Mediates the effects of chemokines by binding to them.",
-    "origin": "Encoded by genes."
+    "mechanism": "Chemokine receptors signal through G proteins.",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Receptor"
+      ],
+      "capabilities": [
+        "Binds chemokines",
+        "Signals through G proteins"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [
+        "Heptahelical"
+      ],
+      "composition": [
+        "Protein"
+      ],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Cell surface",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Cell membrane"
+    }
+  },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Chemokine",
     "citations": [
-      "https://research.monash.edu/files/240065435/40032631_oa.pdf"
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6120486/"
     ]
   }
 }

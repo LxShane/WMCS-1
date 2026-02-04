@@ -1,0 +1,82 @@
+{
+  "name": "Infarction",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 30,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Tissue Death",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Stroke Syndrome",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Vascular Territory",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Deficits",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Tissue death due to inadequate blood supply.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Lack of blood flow deprives tissues of oxygen and nutrients, leading to cell death.",
+    "origin": "Occurs when a blood vessel is blocked or damaged."
+  },
+  "instance_layer": [],
+  "epistemic_metadata": {
+    "source": "Vascular territories of the Brain - The Radiology Assistant, Vascular Territories in the Brain: Mapping & Pathology Insights",
+    "citations": [
+      "https://radiologyassistant.nl/neuroradiology/brain-ischemia/vascular-territories",
+      "https://biologyinsights.com/vascular-territories-in-the-brain-mapping-pathology-insights/"
+    ]
+  }
+}

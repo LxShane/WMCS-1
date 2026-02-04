@@ -1,9 +1,9 @@
 {
-  "name": "Efferent Arteriole",
-  "type": "LIVING_SYSTEM",
+  "name": "Efferent arteriole",
+  "type": "PHYSICAL",
   "id": {
-    "group": 21,
-    "item": 1006
+    "group": 32,
+    "item": 1239
   },
   "claims": [
     {
@@ -36,29 +36,42 @@
     }
   ],
   "surface_layer": {
-    "definition": "An arteriole with a peritubular position.",
+    "definition": "Arteriole carrying blood away from the glomerulus.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Regulates blood flow out of the glomerulus, affecting GFR.",
+    "origin": "Part of the kidney's filtration system."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
     "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
+      "visual_features": [
+        "Small vessel"
+      ],
+      "shape": [
+        "Tubular"
+      ],
+      "composition": [
+        "Smooth muscle cells"
+      ],
       "parts": [],
       "relations": []
+    },
+    "SPATIAL": {
+      "location": "Leading away from the glomerulus",
+      "coordinates": [],
+      "connected_to": [
+        "Glomerular capillaries",
+        "Peritubular capillaries"
+      ],
+      "contained_in": "Kidney"
     }
   },
   "epistemic_metadata": {
-    "source": "Manual",
-    "citations": [
-      "Novel hemodynamic structures in the human glomerulus - PMC"
-    ]
+    "source": "https://en.wikipedia.org/wiki/Glomerular_filtration_rate",
+    "citations": []
   }
 }

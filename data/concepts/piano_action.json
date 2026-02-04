@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 30,
-    "item": 1004
+    "item": 7890
   },
   "claims": [
     {
@@ -83,62 +83,147 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Hammers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Hammer shanks",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Whippens",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Translating the force of fingers on keys into force to strike the strings",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Repetition Lever",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Key",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Lever",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Hammer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The intricate mechanism that controls the hammer and damper.",
-    "common_uses": [
-      "controlling hammer",
-      "controlling damper"
-    ]
+    "definition": "The mechanism in a piano that translates key presses into hammer strikes.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The piano action translates key presses into hammer strikes and damper movements.",
-    "origin": "Developed to improve the control and responsiveness of the piano."
+    "mechanism": "Complex system of levers that causes the hammer to hit the strings.",
+    "origin": null
   },
   "instance_layer": {
-    "examples": [
-      "Upright piano action",
-      "Grand piano action"
-    ]
+    "examples": []
   },
   "facets": {
     "STRUCTURAL": {
-      "visual_features": [
-        "Complex",
-        "Mechanical"
-      ],
-      "shape": [
-        "Variable depending on the type of piano"
-      ]
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
     },
-    "FUNCTION": {
-      "roles": [
-        "Control System"
-      ],
-      "capabilities": [
-        "Translating key presses",
-        "Moving hammers",
-        "Moving dampers"
-      ]
-    },
-    "SPATIAL": {
-      "location": "Within the piano, between the key and the hammer.",
-      "connected_to": [
-        "Key",
-        "Hammer",
-        "Wippen",
-        "Jack",
-        "Damper"
-      ],
-      "coordinates": []
-    }
+    "SPATIAL": {},
+    "FUNCTION": {}
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Manual",
     "citations": [
-      "https://www.explainthatstuff.com/piano.html"
+      "The Struck String and Fourier Series - Pennsylvania State University",
+      "Experimental investigation of the piano hammer-string interaction"
     ]
-  },
-  "autocorrected": true
+  }
 }

@@ -173,25 +173,96 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "all the components responsible for transferring the rotational movement of the camshaft into the opening and closing of the intake and exhaust valves",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "set of engine components",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Intake Valve",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Exhaust Valve",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Valve Tappet",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A valvetrain is a mechanical system that controls the operation of the intake and exhaust valves in an internal combustion engine.",
+    "definition": "The valvetrain consists of all the components responsible for transferring the rotational movement of the camshaft into the opening and closing of the intake and exhaust valves.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The valve train opens and closes valves to allow fuel and air in and push exhaust gases out.",
-    "origin": "ORIGIN"
+    "mechanism": "Transfers rotational movement of the camshaft into the opening and closing of the intake and exhaust valves.",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Ingestion Engine",
     "citations": [
-      "Page 1",
-      "Section 2.3"
+      "Valvetrain - Wikipedia",
+      "Valve Train: Keeping Your Engine In Perfect Sync",
+      "Valve Train - Intake Valve, Exhaust Valve"
     ]
   }
 }

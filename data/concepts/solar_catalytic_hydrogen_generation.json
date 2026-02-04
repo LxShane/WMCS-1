@@ -1,0 +1,75 @@
+{
+  "name": "Solar Catalytic Hydrogen Generation",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 24,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Hydrogen Generation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Solar Energy",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Catalysis",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A process of generating hydrogen using solar energy and catalysis.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Harnesses solar energy to drive catalytic reactions that produce hydrogen.",
+    "origin": "Developed for sustainable hydrogen production."
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Hydrogen Generator"
+      ],
+      "capabilities": [
+        "Producing hydrogen from solar energy"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "US20060048808A1",
+    "citations": []
+  }
+}

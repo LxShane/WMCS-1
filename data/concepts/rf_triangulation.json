@@ -1,0 +1,59 @@
+{
+  "name": "RF Triangulation",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A method that estimates the location of a tag using the angles at which RF signals arrive at multiple receivers.",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Estimating location of a tag",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A method that uses the angles of arrival of RF signals to estimate location.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "By measuring the angles at which RF signals arrive at multiple receivers, the location of the signal source (tag) can be estimated using geometric triangulation.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Real-time locating system - Wikipedia",
+    "citations": []
+  }
+}

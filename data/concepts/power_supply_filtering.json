@@ -1,0 +1,48 @@
+{
+  "name": "Power Supply Filtering",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Smooth out ripple voltage",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Power supply filtering is a process to reduce unwanted noise and ripple voltage in power supplies.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Power supply filtering uses components like capacitors and inductors to attenuate unwanted frequencies."
+  },
+  "instance_layer": [],
+  "facets": {
+    "ABSTRACT_DATA": {
+      "domain": "Electrical Engineering",
+      "related_concepts": [
+        "Power Supply",
+        "Filtering",
+        "Ripple Voltage"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.kynix.com/Blog/Capacitor-Selection-Guide-The-Ultimate-Engineers-Handbook.html"
+    ]
+  }
+}

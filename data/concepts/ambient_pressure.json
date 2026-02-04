@@ -1,0 +1,131 @@
+{
+  "name": "Ambient Pressure",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 30,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Pressure of the immediate, surrounding environment",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Pressure (20, 8765)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "INFLUENCED_BY",
+      "object": "Hydrostatic pressure",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "INFLUENCED_BY",
+      "object": "Atmospheric pressure (32, 7777)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "INCREASES_WITH",
+      "object": "Depth",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "environment (39, 1009)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "pressure (20, 8765)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The pressure of the immediate, surrounding environment.",
+    "common_uses": [
+      "Meteorology",
+      "Human physiology"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Ambient pressure is caused by the weight and motion of a fluid (gas or liquid).",
+    "origin": "Naturally occurring phenomenon"
+  },
+  "instance_layer": {
+    "examples": [
+      "Atmospheric pressure at sea level",
+      "Pressure at a certain depth in the ocean"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "material_properties": {
+        "rigidity": "Medium",
+        "state": "Variable",
+        "conductivity": "None"
+      }
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Ambient_pressure",
+      "https://biologyinsights.com/what-is-ambient-pressure-and-how-is-it-measured/"
+    ]
+  }
+}

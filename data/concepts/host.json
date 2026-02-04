@@ -2,8 +2,8 @@
   "name": "Host",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 1235
+    "group": 25,
+    "item": 1007
   },
   "claims": [
     {
@@ -47,22 +47,50 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "An organism that harbors a symbiont.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Device at the A connector end of a USB connection",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A computer or peripheral on a network.",
-    "common_uses": []
+    "definition": "A device that initiates communication on a USB bus.",
+    "common_uses": [
+      "Data transfer",
+      "Control signals"
+    ]
   },
-  "deep_layer": {
-    "mechanism": "Receives and transmits data on the network.",
-    "origin": "Computer network terminology."
-  },
-  "instance_layer": [],
+  "deep_layer": {},
+  "instance_layer": {},
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "USB communications - Wikipedia",
     "citations": [
-      "Computer network - Wikipedia"
+      "https://en.wikipedia.org/wiki/USB_communications"
     ]
   }
 }

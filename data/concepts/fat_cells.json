@@ -1,0 +1,66 @@
+{
+  "name": "Fat cells",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 5002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Adipocyte",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A cell specialized for the storage of fat.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Fat cells store triglycerides within their cytoplasm.",
+    "origin": "Differentiate from preadipocytes."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Large",
+        "Empty-looking"
+      ],
+      "shape": [
+        "Spherical"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Sources",
+    "citations": [
+      "rotel"
+    ]
+  }
+}

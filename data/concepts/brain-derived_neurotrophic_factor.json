@@ -1,0 +1,72 @@
+{
+  "name": "brain-derived neurotrophic factor",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 30,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "ligand of TrkB",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "brain (20, 3456)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "receptor (20, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Brain-derived neurotrophic factor (BDNF) is a neurotrophin that binds to the TrkB receptor.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Ligand"
+      ],
+      "capabilities": [
+        "bind to TrkB receptor"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Wikipedia",
+      "TrkB transmembrane domain: bridging structural understanding ..."
+    ]
+  }
+}

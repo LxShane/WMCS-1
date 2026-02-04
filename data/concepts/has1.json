@@ -1,13 +1,98 @@
 {
-  "name": "Has1",
+  "name": "HAS1",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1240
+    "group": 30,
+    "item": 1234
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Protein Coding gene",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "ASSOCIATED_WITH",
+      "object": "Lymphoplasmacytic Lymphoma",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "ASSOCIATED_WITH",
+      "object": "Posterolateral Myocardial Infarction",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO_PATHWAY",
+      "object": "Glycosaminoglycan metabolism",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO_PATHWAY",
+      "object": "Metabolism",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_FUNCTION",
+      "object": "hyaluronan synthase activity",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "Target of AMPK-Has1 complex formation",
+    "definition": "HAS1 (Hyaluronan Synthase 1) is a Protein Coding gene.",
     "common_uses": []
   },
   "deep_layer": {
@@ -19,7 +104,7 @@
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "thno.org",
+    "source": "GeneCards",
     "citations": []
   }
 }

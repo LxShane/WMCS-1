@@ -1,0 +1,59 @@
+{
+  "name": "F-actin",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Polymer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Actin monomers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Filamentous actin, a polymeric form of actin.",
+    "common_uses": [
+      "Providing structural support",
+      "Cell motility"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Actin monomers polymerize to form long filaments, which bundle together to form F-actin.",
+    "origin": "Formed from the polymerization of actin monomers."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "Turn-on protein switches for controlling actin binding in cells"
+    ]
+  }
+}

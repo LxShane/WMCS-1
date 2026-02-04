@@ -2,8 +2,8 @@
   "name": "Vascular Network",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 9123
+    "group": 23,
+    "item": 6789
   },
   "claims": [
     {
@@ -75,40 +75,67 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Endothelial cells",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Blood and lymphatic vascular system",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Brain Perfusion",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "An extensive and well-regulated network of blood vessels.",
+    "definition": null,
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The vascular network delivers oxygen and nutrients to tissues and removes waste products.",
-    "origin": "Evolved to efficiently transport blood throughout the body."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "Throughout the body",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": "Circulatory system"
-    },
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "https://www.sciencedirect.com/science/article/pii/S0031699725074605",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "Vasculogenesis and Angiogenesis - ScienceDirect",
+      "A systems biology view of blood vessel growth and remodelling"
+    ]
   }
 }

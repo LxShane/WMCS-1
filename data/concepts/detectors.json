@@ -36,7 +36,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "ATLAS",
+      "object": "ATLAS (30, 1002)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -50,7 +50,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "CMS",
+      "object": "CMS (30, 1003)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -64,7 +64,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "ALICE",
+      "object": "ALICE (30, 1001)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -78,7 +78,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "LHCb",
+      "object": "LHCb (22, 1357)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -88,6 +88,15 @@
         "confidence": 0.9,
         "status": "SETTLED",
         "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "particle (20, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
       }
     }
   ],

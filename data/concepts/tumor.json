@@ -1,0 +1,62 @@
+{
+  "name": "Tumor",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 3456
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Neoplasm",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Abnormal Cells",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An abnormal mass of tissue that forms when cells grow and divide more than they should or do not die when they should.",
+    "common_uses": [
+      "Cancer development",
+      "Growth"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Tumors arise from genetic mutations that disrupt normal cell cycle control, leading to uncontrolled cell proliferation.",
+    "origin": "Mutations disrupting cell cycle control."
+  },
+  "instance_layer": {
+    "examples": [
+      "Lung cancer tumor",
+      "Brain tumor"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Spatial_transcriptomics"
+    ]
+  }
+}

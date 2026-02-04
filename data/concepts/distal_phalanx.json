@@ -1,9 +1,9 @@
 {
-  "name": "Distal phalanx",
-  "type": "LIVING_SYSTEM",
+  "name": "Distal Phalanx",
+  "type": "BODY_PART",
   "id": {
     "group": 24,
-    "item": 1006
+    "item": 1007
   },
   "claims": [
     {
@@ -33,42 +33,51 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Interphalangeal Joint",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "bone (23, 5678)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "distal (50, 1242)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A distal phalanx is a phalanx bone.",
+    "definition": "Most distal bone of the thumb.",
     "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": null,
-    "origin": null
-  },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
+  "deep_layer": {},
+  "instance_layer": {},
+  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "Page 1"
+      "https://www.physio-pedia.com/Flexor_Pollicis_Longus"
     ]
   }
 }

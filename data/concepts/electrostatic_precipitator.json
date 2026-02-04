@@ -1,0 +1,54 @@
+{
+  "name": "Electrostatic Precipitator",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1237
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Ionizing Flue Gas",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Charging Dust",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A device that removes particles from a gas stream using electrostatic force.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Particles are charged and then collected on electrodes.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "https://aaqr.org/articles/aaqr-19-11-oa-0609",
+    "citations": []
+  }
+}

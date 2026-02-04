@@ -2,8 +2,8 @@
   "name": "Fascicle",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 31,
-    "item": 7890
+    "group": 21,
+    "item": 1007
   },
   "claims": [
     {
@@ -61,41 +61,148 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Bundle of nerve fibers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Nerve fibers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Bundle of axons",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Axon",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Peripheral Nerve",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Nerve fibers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Splitting",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Merging",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A fascicle is a bundle of nerve fibers (axons) within a nerve.",
+    "definition": "A bundle of nerve fibers.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Fascicles provide structural organization and support to the nerve fibers.",
-    "origin": "Formed during nerve development."
+    "mechanism": "Transmits electrical signals.",
+    "origin": "Part of the nervous system."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "SPATIAL": {
-      "location": "Within nerve",
-      "coordinates": [],
-      "connected_to": [
-        "nerve"
-      ],
-      "contained_in": "nerve"
-    },
     "STRUCTURAL": {
       "visual_features": [],
       "shape": [],
       "composition": [],
-      "parts": []
+      "parts": [],
+      "relations": []
     },
-    "FUNCTION": {}
+    "SPATIAL": {
+      "location": "Within nerves",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Nerve"
+    }
   },
   "epistemic_metadata": {
-    "source": "Multiple Web Sources",
-    "citations": [
-      "https://open.oregonstate.education/aandp/chapter/13-2-ganglia-and-nerves/",
-      "https://courses.lumenlearning.com/suny-dutchess-anatomy-physiology/chapter/the-peripheral-nervous-system/"
-    ]
+    "source": "Nerve and Blood Vessels - NYSORA",
+    "citations": []
   }
 }

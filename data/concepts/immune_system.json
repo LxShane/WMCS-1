@@ -2,8 +2,8 @@
   "name": "Immune System",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 5678
+    "group": 20,
+    "item": 1002
   },
   "claims": [
     {
@@ -61,21 +61,52 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "B cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Restoring homeostasis",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A complex network of cells, tissues, and organs that defends the body against harmful invaders.",
+    "definition": "A system of biological structures and processes within an organism that protects against disease.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Involves recognition of foreign antigens and activation of effector cells.",
-    "origin": "Evolved to protect organisms from pathogens."
+    "mechanism": "Detects and eliminates a wide range of pathogens and abnormal cells.",
+    "origin": "Evolved to protect organisms from harmful invaders."
   },
   "instance_layer": {
     "examples": []
   },
+  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": []
+    "citations": [
+      "https://medicine.yale.edu/news/yale-medicine-magazine/article/inflammation-a-double-edged-sword-for-the-immune-system/"
+    ]
   }
 }

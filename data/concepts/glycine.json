@@ -1,9 +1,9 @@
 {
   "name": "Glycine",
-  "type": "INANIMATE_OBJECT",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 20,
-    "item": 4567
+    "group": 50,
+    "item": 1236
   },
   "claims": [
     {
@@ -61,34 +61,48 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Neuroinhibitor",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Central Nervous System",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Glycine is an inhibitory neurotransmitter.",
+    "definition": "An inhibitory neurotransmitter in the central nervous system.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Glycine acts as an inhibitory neurotransmitter.",
-    "origin": "Produced in the brain."
+    "mechanism": "Opens chloride channels in neurons.",
+    "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Neurotransmitter"
-      ],
-      "capabilities": [
-        "Inhibitory signaling"
-      ]
-    }
-  },
+  "instance_layer": [],
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "PMC1760744",
-      "PMC5991458"
-    ]
+    "source": "Neuron - Wikipedia",
+    "citations": []
   }
 }

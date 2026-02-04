@@ -1,0 +1,105 @@
+{
+  "name": "Peripheral Axon",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 22,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Axon",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Sensory receptors",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Skin, muscles, and internal organs",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Sensory Neuron",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The peripheral axon is the portion of a sensory neuron that extends to the periphery and innervates sensory receptors.",
+    "common_uses": [
+      "innervating sensory receptors"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The peripheral axon transmits electrical signals from the sensory receptors to the cell body of the sensory neuron.",
+    "origin": "Grows out from the cell body during neuronal development."
+  },
+  "instance_layer": {
+    "examples": [
+      "axon extending to a touch receptor in the skin"
+    ]
+  },
+  "facets": {
+    "SPATIAL": {
+      "location": "Peripheral nervous system",
+      "connected_to": [
+        "Schwann cell",
+        "Myelin sheath",
+        "Node of Ranvier",
+        "Sensory receptor",
+        "Motor end plate",
+        "Spinal nerve",
+        "Cranial nerve",
+        "Dorsal root ganglion",
+        "Ventral root"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12123694/"
+    ]
+  },
+  "autocorrected": true
+}

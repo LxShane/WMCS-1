@@ -1,0 +1,82 @@
+{
+  "name": "Gastric Mucosal Chemoreceptors",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 5005
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Gastric Mucosa",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Vagal Afferent Fibers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Chemoreceptors located in the gastric mucosa.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Chemoreception"
+      ],
+      "capabilities": [
+        "Detecting chemical stimuli"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [
+        "Vagal Afferent Fibers"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Gastric Mucosa",
+      "coordinates": [],
+      "connected_to": [
+        "Vagal Afferent Fibers"
+      ],
+      "contained_in": "Stomach"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "ACADEMIC",
+    "citations": [
+      "Untitled"
+    ]
+  }
+}

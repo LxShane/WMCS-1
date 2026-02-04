@@ -2,8 +2,8 @@
   "name": "Radial Artery",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 30,
-    "item": 1010
+    "group": 20,
+    "item": 1007
   },
   "claims": [
     {
@@ -145,15 +145,66 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Artery",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "artery",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "providing blood supply to the remainder of the upper limb",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A major artery of the upper limb."
+    "definition": "An artery in the forearm.",
+    "common_uses": []
   },
+  "deep_layer": {
+    "mechanism": "Supplies blood to the forearm and hand.",
+    "origin": "Biological development"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Kenhub",
+    "source": "NCBI Bookshelf",
     "citations": [
-      "Upper limb: Arteries, veins and nerves"
+      "3"
     ]
   }
 }

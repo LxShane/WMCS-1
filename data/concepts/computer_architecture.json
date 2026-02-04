@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1238
+    "item": 9012
   },
   "claims": [
     {
@@ -61,24 +61,51 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "The design and organization of a computer system's hardware and software components.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "computer (30, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Defines how a computer's components communicate.",
-    "common_uses": []
+    "definition": "The blueprint for how a computer system operates.",
+    "common_uses": [
+      "Designing new computers",
+      "Understanding system performance"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Design principles and standards that govern the interactions within a computing system.",
-    "origin": null
+    "mechanism": "Defines the instruction set, memory organization, and input/output mechanisms.",
+    "origin": "Evolved from simple electromechanical calculators."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Von Neumann architecture",
+      "Harvard architecture"
+    ]
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "Computer Organization and Architecture Tutorial - GeeksforGeeks"
-    ]
+    "source": "Computer Systems - Introduction - Academia.edu",
+    "citations": []
   }
 }

@@ -1,9 +1,9 @@
 {
   "name": "Cerebrum",
-  "type": "BODY_PART",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 23,
-    "item": 7890
+    "group": 20,
+    "item": 1237
   },
   "claims": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "INTERACTS_WITH",
-      "object": "Basal nuclei",
+      "object": "Basal nuclei (22, 1241)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -75,22 +75,173 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Part of the central nervous system",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Uppermost part of the brain",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Basal ganglia (22, 1004)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Cerebral cortex (23, 6789)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Olfactory cortex",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Diencephalon (22, 9012)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Part of the brain",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "brain (20, 3456)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "level (20, 9876)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The largest part of the brain.",
-    "common_uses": []
+    "definition": "The largest part of the brain, responsible for higher-level cognitive functions.",
+    "common_uses": [
+      "Thinking",
+      "Memory",
+      "Language"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Controls sensory and motor functions.",
-    "origin": null
+    "mechanism": "Processes information from sensory organs and controls voluntary movements.",
+    "origin": "Develops from the forebrain."
   },
-  "instance_layer": [],
-  "facets": {},
+  "instance_layer": {
+    "examples": [
+      "Left hemisphere",
+      "Right hemisphere"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Highly convoluted",
+        "Two hemispheres"
+      ],
+      "shape": [
+        "Large, rounded"
+      ],
+      "composition": [
+        "Gray matter",
+        "White matter"
+      ],
+      "parts": [
+        "Cerebral cortex",
+        "Basal ganglia"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Superior part of the brain",
+      "connected_to": [
+        "Brainstem",
+        "Cerebellum"
+      ],
+      "contained_in": "Cranium"
+    }
+  },
   "epistemic_metadata": {
-    "source": "The Brain - Structure, Function",
+    "source": "Internet Archive",
     "citations": [
-      "https://www.pharmacy180.com/article/the-brain-3551/"
+      "Azzazi anaesthesia volume 2"
     ]
   }
 }

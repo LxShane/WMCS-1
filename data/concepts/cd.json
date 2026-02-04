@@ -1,0 +1,61 @@
+{
+  "name": "CD",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 1237
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "cluster of differentiation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PART_OF",
+      "object": "Inflammatory Response",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "differentiation (20, 1239)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Cluster of differentiation.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Cell surface markers for immune cells.",
+    "origin": "Expressed on various immune cells."
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Oncohema Key",
+    "citations": []
+  }
+}

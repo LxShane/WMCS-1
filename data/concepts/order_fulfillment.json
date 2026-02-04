@@ -1,0 +1,52 @@
+{
+  "name": "Order Fulfillment",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Activity",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Supply Chain Logistics",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The process of receiving, processing, and delivering customer orders.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Involves picking, packing, and shipping orders.",
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "https://nielseniq.com/global/en/info/logistics-distribution-and-supply-chain/",
+    "citations": []
+  }
+}

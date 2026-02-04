@@ -1,0 +1,85 @@
+{
+  "name": "Current sensor",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 6789
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "sensing signals",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Signal conditioning",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "current (20, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "sensors (30, 1007)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Current sensors measure current.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Uses physical effect proportional to current to generate a signal.",
+    "origin": "Basic measurement principle."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Current Measurer"
+      ],
+      "capabilities": [
+        "Measure current"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Web Sources",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Signal_conditioning"
+    ]
+  }
+}

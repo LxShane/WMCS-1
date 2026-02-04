@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 20,
-    "item": 1234
+    "item": 1003
   },
   "claims": [
     {
@@ -103,26 +103,38 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A passivation layer formed on electrode surfaces from decomposition products of electrolytes.",
+    "definition": "A layer that forms on the electrode surface in a battery.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The SEI allows Li+ transport while blocking electrons, influencing battery performance and degradation.",
-    "origin": "Formed from electrolyte decomposition during battery operation."
+    "mechanism": "Forms due to electrochemical reactions.",
+    "origin": "Battery operation."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "https://arxiv.org/html/2511.23005v1",
     "citations": [
-      "https://www.sciencedirect.com/science/article/pii/S2468606925002060",
-      "https://www.nature.com/articles/s41524-018-0064-0",
-      "https://link.springer.com/article/10.1007/s41918-022-00147-5"
+      "Toward Unified Interphase Engineering: The Solid\u2013Electrolyte"
     ]
   }
 }

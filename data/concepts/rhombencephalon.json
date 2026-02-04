@@ -1,0 +1,72 @@
+{
+  "name": "Rhombencephalon",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1237
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Brain Region",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Hindbrain",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The hindbrain region of the brain.",
+    "common_uses": [
+      "Motor control",
+      "Sensory processing"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Contains several nuclei and pathways for various functions.",
+    "origin": "Develops early during embryogenesis."
+  },
+  "instance_layer": {
+    "examples": [
+      "Pons",
+      "Medulla oblongata",
+      "Cerebellum"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Coordination",
+        "Motor control",
+        "Sensory processing"
+      ],
+      "capabilities": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://link.springer.com/content/pdf/10.1007/2506_2013_18.pdf"
+    ]
+  }
+}

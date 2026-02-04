@@ -1,0 +1,61 @@
+{
+  "name": "Sonar",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Sensor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "SLAM",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A technique that uses sound propagation to navigate, communicate with or detect objects on or under the surface of the water.",
+    "common_uses": [
+      "Navigation",
+      "Object Detection"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Sonar emits sound waves and measures the time it takes for the sound to return, calculating distance.",
+    "origin": "Developed in the early 20th century."
+  },
+  "instance_layer": {
+    "examples": [
+      "Active Sonar",
+      "Passive Sonar"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "papers.ssrn.com",
+    "citations": [
+      "https://papers.ssrn.com/sol3/Delivery.cfm/5396535.pdf?abstractid=5396535"
+    ]
+  }
+}

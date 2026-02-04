@@ -1,9 +1,9 @@
 {
   "name": "Inner Membrane",
-  "type": "LIVING_SYSTEM",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 22,
-    "item": 8642
+    "group": 32,
+    "item": 1004
   },
   "claims": [
     {
@@ -117,35 +117,69 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Cell Membrane",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Lipid Tails",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Mitochondrion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The inner membrane is the innermost membrane of the mitochondria.",
+    "definition": null,
     "common_uses": []
   },
   "deep_layer": {
     "mechanism": null,
     "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "SPATIAL": {}
+    "SPATIAL": {
+      "location": "Inner layer of the mitochondrion",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Mitochondrion"
+    }
   },
   "epistemic_metadata": {
-    "source": "Multiple Sources",
+    "source": "Wikipedia",
     "citations": []
   }
 }

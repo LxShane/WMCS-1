@@ -1,0 +1,84 @@
+{
+  "name": "Placental Malperfusion",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "CAUSES",
+      "object": "Maternal Oxidative Stress",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Placental Oxidative Stress",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Release of Proinflammatory Cytokines",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Stimulating Uterine Contractility",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Insufficient blood supply to the placenta.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Reduced blood flow to the placenta leading to oxidative stress and inflammation.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.ajog.org/article/S0002-9378(25)00519-8/fulltext"
+    ]
+  }
+}

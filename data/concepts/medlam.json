@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1006
+    "item": 1001
   },
   "claims": [
     {
@@ -75,22 +75,64 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "foundational localization model",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": "Introduction"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "identifying anatomical structure",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": "Introduction"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "identifying any anatomical structure within 3D medical images",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": "Introduction"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A model designed for localization and segmentation of medical images.",
+    "definition": "MedLAM is a foundational localization model for medical images.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Algorithm for medical image processing",
-    "origin": "Specific research paper"
+    "mechanism": "Unknown.",
+    "origin": "Developed as part of a research study."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "MedLSAM: Localize and segment anything model for 3D CT images",
     "citations": []
   }
 }

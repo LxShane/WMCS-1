@@ -1,9 +1,9 @@
 {
-  "name": "Metacarpophalangeal joint",
-  "type": "LIVING_SYSTEM",
+  "name": "Metacarpophalangeal Joint",
+  "type": "BODY_PART",
   "id": {
     "group": 24,
-    "item": 1001
+    "item": 1008
   },
   "claims": [
     {
@@ -145,42 +145,33 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Proximal Phalanx",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The metacarpophalangeal joints (MCP) are situated between the metacarpal bones and the proximal phalanges of the fingers.",
+    "definition": "Joint located in the proximal phalanx of the thumb.",
     "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": "The rounded heads of the metacarpal bones fit into shallow cavities on the proximal ends of the proximal phalanges allowing movement.",
-    "origin": null
-  },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
+  "deep_layer": {},
+  "instance_layer": {},
+  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "Page 1"
+      "https://www.physio-pedia.com/Flexor_Pollicis_Longus"
     ]
   }
 }

@@ -1,9 +1,9 @@
 {
-  "name": "Scaffold Protein",
+  "name": "Scaffold protein",
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 21,
-    "item": 1234
+    "item": 1001
   },
   "claims": [
     {
@@ -383,14 +383,98 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "molecular hubs for the docking of multiple proteins to organize efficient functional units for signaling cascades",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "localizing the signaling reaction to a specific area in the cell",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Protein",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PLAYS_ROLE",
+      "object": "regulating cell signals",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "ACTS_AS",
+      "object": "organizing efficient functional units for signaling cascades",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "ACTS_AS",
+      "object": "docking of multiple proteins",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Scaffold proteins are crucial regulators of many key signaling pathways.",
+    "definition": "Scaffold proteins localize signaling reactions and regulate cell signals.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Scaffold proteins interact with multiple members of a signaling pathway, tethering them into complexes to regulate signal transduction and localize pathway components.",
+    "mechanism": "Scaffold proteins organize efficient functional units for signaling cascades by docking multiple proteins.",
     "origin": null
   },
   "instance_layer": {
@@ -398,10 +482,7 @@
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://en.wikipedia.org/wiki/Scaffolding_protein",
-      "https://grokipedia.com/page/bacteriophage_scaffolding_proteins"
-    ]
+    "source": "Scaffold protein - Wikipedia, Understand the Functions of Scaffold Proteins in Cell ..., Scaffold proteins as dynamic integrators of biological processes",
+    "citations": []
   }
 }

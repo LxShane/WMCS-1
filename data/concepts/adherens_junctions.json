@@ -2,8 +2,8 @@
   "name": "Adherens Junctions",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 3434
+    "group": 21,
+    "item": 6789
   },
   "claims": [
     {
@@ -89,34 +89,68 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Junctional Complex",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Cell Junction (20, 1235)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cell (21, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "maintenance (60, 1004)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Cell-cell junctions that initiate, mature, and maintain contact.",
+    "definition": "Cell-cell junctions that are critical for the formation and maintenance of epithelial cell layers.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Mediated by transmembrane proteins and intracellular components.",
-    "origin": null
+    "mechanism": "Mediate cell-cell adhesion through cadherin proteins.",
+    "origin": "Evolved to provide mechanical stability and regulate cell signaling."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "SPATIAL": {
-      "location": "Lateral surface of epithelial and endothelial cells, below tight junctions",
-      "connected_to": [
-        "Actin cytoskeleton",
-        "Cadherins",
-        "Adjacent cells",
-        "Plasma membrane"
-      ],
-      "coordinates": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Adherens and Tight Junctions: Structure, Function and Connections to ...",
+    "source": "Understanding the Molecular and Cell Biological Mechanisms of ...",
     "citations": []
-  },
-  "autocorrected": true
+  }
 }

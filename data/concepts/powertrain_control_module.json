@@ -1,0 +1,133 @@
+{
+  "name": "Powertrain Control Module",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Automotive Component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Control Unit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A PCM from a 1996 Chevrolet Beretta",
+      "temporal": {
+        "valid_from": "1996",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "ABBREVIATED_AS",
+      "object": "PCM",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Engine Control Unit",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Transmission Control Unit",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Control of motor vehicles",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A powertrain control module (PCM) is an automotive component, a control unit, used on motor vehicles.",
+    "common_uses": [
+      "Control engine",
+      "Control transmission"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The PCM receives inputs from various sensors, processes the data, and controls actuators to manage engine and transmission functions.",
+    "origin": "Developed with the advent of electronic engine and transmission control systems."
+  },
+  "instance_layer": {
+    "examples": [
+      "PCM from a 1996 Chevrolet Beretta"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Powertrain control module - Wikipedia; OEM ECM Replacement or Repair - ECM, PCM & ECU Replacement; 6 Symptoms Of A Bad PCM & Replacement Cost - Mechanic Base",
+    "citations": [
+      "Wikipedia",
+      "ProTech Auto Systems",
+      "Mechanic Base"
+    ]
+  }
+}

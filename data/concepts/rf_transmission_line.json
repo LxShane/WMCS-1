@@ -1,0 +1,102 @@
+{
+  "name": "RF Transmission Line",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 21,
+    "item": 4321
+  },
+  "claims": [
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "directing RF signal from a source to a load",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "minimal loss",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "minimal distortion",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A specialized cable or structure designed to carry radio frequency (RF) signals with minimal loss and distortion.",
+    "common_uses": [
+      "Connecting RF components",
+      "Transmitting RF signals"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Uses a controlled impedance environment to guide electromagnetic waves carrying the RF signal.",
+    "origin": "Developed to address the challenges of transmitting high-frequency signals efficiently."
+  },
+  "instance_layer": {
+    "examples": [
+      "Coaxial cable",
+      "Microstrip line"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Signal Transmission"
+      ],
+      "capabilities": [
+        "Carries RF signals",
+        "Minimizes signal loss and distortion"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Cylindrical or flat",
+        "Metallic"
+      ],
+      "shape": [
+        "Varies depending on type (coaxial, microstrip, etc.)"
+      ],
+      "composition": [
+        "Conductors",
+        "Dielectric materials"
+      ],
+      "parts": [
+        "Conductor",
+        "Insulator",
+        "Shield (optional)"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "RF Coaxial Connectors - RF Connectors, Coaxial PCB Connector PCB-Transmission Line Design Guide, RF PCB Design Guidelines for Digital Engineers: Layout and ...",
+    "citations": []
+  }
+}

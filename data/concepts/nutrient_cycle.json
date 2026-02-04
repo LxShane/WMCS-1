@@ -1,9 +1,9 @@
 {
-  "name": "Nutrient cycle",
+  "name": "Nutrient Cycle",
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1234
+    "item": 7890
   },
   "claims": [
     {
@@ -47,20 +47,57 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Geochemical Cycle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "FOCUSES_ON",
+      "object": "movement of essential biological elements",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The movement and exchange of organic and inorganic matter back into the production of living matter.",
+    "definition": "Nutrient cycles focus on the movement of essential biological elements.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Nutrients are recycled through the ecosystem.",
-    "origin": "Natural process within ecosystems."
+    "mechanism": null,
+    "origin": null
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": [
+      "Carbon cycle",
+      "Nitrogen cycle",
+      "Phosphorus cycle",
+      "Sulfur cycle"
+    ]
+  },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Nutrient cycle - WikiMili, The Best Wikipedia Reader",
-    "citations": []
+    "source": "Geochemical cycle | Biogeochemical, Nutrient & Carbon ...",
+    "citations": [
+      "Britannica article on Geochemical cycle"
+    ]
   }
 }

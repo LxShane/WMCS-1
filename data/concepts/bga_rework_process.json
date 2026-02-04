@@ -1,0 +1,76 @@
+{
+  "name": "BGA Rework Process",
+  "type": "SOCIAL_CONSTRUCT",
+  "id": {
+    "group": 60,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Process (50, 1234)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "circuit (30, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "process (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A process for repairing or replacing Ball Grid Array (BGA) components on a circuit board.",
+    "common_uses": [
+      "Electronics Repair"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Involves removing a damaged BGA chip and replacing it with a new one.",
+    "origin": "Electronics manufacturing and repair."
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Repair"
+      ],
+      "capabilities": [
+        "Component Replacement"
+      ]
+    },
+    "PROCESS_DATA": {
+      "affected": [
+        "Ball Grid Array (BGA) components",
+        "Circuit Board"
+      ],
+      "performed_by": [
+        "Technician"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Complete BGA Rework Process Step-by-Step - TechSparks",
+    "citations": []
+  }
+}

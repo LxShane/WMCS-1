@@ -1,14 +1,14 @@
 {
   "name": "Basal Nuclei",
-  "type": "LIVING_SYSTEM",
+  "type": "BODY_PART",
   "id": {
-    "group": 22,
-    "item": 1241
+    "group": 25,
+    "item": 1004
   },
   "claims": [
     {
       "predicate": "LOCATED_AT",
-      "object": "Cerebrum",
+      "object": "Cerebrum (23, 7890)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -36,7 +36,7 @@
     },
     {
       "predicate": "INTERACTS_WITH",
-      "object": "Thalamus",
+      "object": "Thalamus (22, 4567)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -47,22 +47,59 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Neural Structure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "brain (20, 3456)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The basal nuclei in the cerebrum act as a functional group that forms a motor pathway and interact with the thalamus.",
+    "definition": "A group of nuclei in the brain.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The basal nuclei process information in two streams, receiving input from the cortex into the striatum, and outputting to the thalamus.",
-    "origin": "Located deep within the cerebrum."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
   "epistemic_metadata": {
-    "source": "Neuroanatomy, Reticular Formation - StatPearls - NCBI Bookshelf",
+    "source": "https://clinicalgate.com/the-cerebral-cortex-2/",
     "citations": []
   }
 }

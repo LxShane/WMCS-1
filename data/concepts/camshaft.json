@@ -2,13 +2,13 @@
   "name": "Camshaft",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 21,
-    "item": 1237
+    "group": 30,
+    "item": 4567
   },
   "claims": [
     {
       "predicate": "LOCATED_AT",
-      "object": "Cylinder Head",
+      "object": "Cylinder Head (21, 1234)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "PERFORMED_BY",
-      "object": "Valve Train",
+      "object": "Valve Train (21, 1236)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -33,27 +33,121 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Mechanical Component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Operating Valves",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "SYNCHRONIZED_WITH",
+      "object": "Crankshaft (25, 9012)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cams (20, 1009)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "engine (25, 1009)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A component often around the same length as the cylinder head.",
-    "common_uses": []
+    "definition": "A rotating shaft with cams that open and close engine valves.",
+    "common_uses": [
+      "Engine timing",
+      "Valve operation"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Driven by a belt or chain connected to the crankshaft.",
-    "origin": "Engine design"
+    "mechanism": "Rotates to actuate valves at specific times",
+    "origin": "Developed with internal combustion engines"
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Camshaft in a car engine"
+    ]
   },
   "facets": {
-    "STRUCTURAL": {},
-    "SPATIAL": {}
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic",
+        "Rotating"
+      ],
+      "shape": [
+        "Shaft with cams"
+      ],
+      "composition": [
+        "Steel",
+        "Iron"
+      ],
+      "parts": [
+        "Cams",
+        "Lobes"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Within the engine block, typically near the cylinder head.",
+      "connected_to": [
+        "Crankshaft (via timing belt or chain)",
+        "Valves",
+        "Cam followers (tappets or lifters)",
+        "Valve springs"
+      ],
+      "coordinates": []
+    }
   },
   "epistemic_metadata": {
-    "source": "Oily Bits: The cylinder head and valve train - CNET",
+    "source": "Multiple Web Sources",
     "citations": [
-      "CNET"
+      "Quora",
+      "Reddit",
+      "LinkedIn"
     ]
-  }
+  },
+  "autocorrected": true
 }

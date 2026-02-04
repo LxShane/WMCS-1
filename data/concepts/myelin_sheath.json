@@ -1,9 +1,9 @@
 {
-  "name": "Myelin Sheath",
+  "name": "Myelin sheath",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1234
+    "group": 32,
+    "item": 5678
   },
   "claims": [
     {
@@ -89,14 +89,84 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Lipid",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Multilayered structure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "membranous windings",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "protection to the axon",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "increase the conduction of action",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A sheath surrounding nerve axons.",
+    "definition": "A fatty insulating layer surrounding the axons of nerve cells.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Myelin insulates axons to facilitate faster signal transmission.",
+    "mechanism": "Myelin sheath provides insulation which allows nerve impulses to travel faster.",
     "origin": null
   },
   "instance_layer": {
@@ -104,22 +174,31 @@
   },
   "facets": {
     "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [
-        "Internode",
-        "Paranode",
-        "Juxtaparanode",
-        "Adaxonal membrane"
+      "visual_features": [
+        "White",
+        "Segmented"
       ],
+      "shape": [
+        "Cylindrical"
+      ],
+      "composition": [],
+      "parts": [],
       "relations": []
     },
     "SPATIAL": {
-      "location": null,
+      "location": "Surrounding axons",
       "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+      "connected_to": [
+        "Axon"
+      ],
+      "contained_in": "Nervous System"
+    },
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": [
+        "Insulation",
+        "Increased conduction velocity"
+      ]
     }
   },
   "epistemic_metadata": {

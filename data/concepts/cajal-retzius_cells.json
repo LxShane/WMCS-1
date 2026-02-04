@@ -1,0 +1,76 @@
+{
+  "name": "Cajal-Retzius Cells",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 6789
+  },
+  "claims": [
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Releasing Glutamate",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IMPACTS",
+      "object": "Hippocampal Circuits",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "CONTESTED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cell (21, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "glutamate (30, 6789)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A type of cell that releases glutamate.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "SPATIAL": {
+      "location": "Hippocampus"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://www.cell.com/cell-reports/fulltext/S2211-1247(22)00593-9",
+    "citations": []
+  }
+}

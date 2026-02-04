@@ -1,14 +1,14 @@
 {
   "name": "Cranial Nerve",
-  "type": "BODY_PART",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 24,
-    "item": 5678
+    "group": 22,
+    "item": 1002
   },
   "claims": [
     {
       "predicate": "LOCATED_AT",
-      "object": "Brain",
+      "object": "Brain (20, 3456)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -19,6 +19,24 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "brain (20, 3456)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "nerves (31, 1009)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
@@ -26,30 +44,16 @@
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Transmit signals to and from the brain.",
-    "origin": "Development of the nervous system"
+    "mechanism": "Relay sensory and motor information.",
+    "origin": "Develop during embryogenesis."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "Head",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": "Cranium"
-    },
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    }
+    "FUNCTION": {},
+    "STRUCTURAL": {},
+    "SPATIAL": {}
   },
   "epistemic_metadata": {
     "source": "Set Automatically",

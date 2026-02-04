@@ -1,0 +1,73 @@
+{
+  "name": "Home Assistant Community Store",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Custom integration",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Manage custom elements",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Discover custom elements",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A custom integration that lets you manage and discover custom elements for Home Assistant from the UI.",
+    "common_uses": [
+      "Managing custom elements",
+      "Discovering custom elements"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Allows users to publish custom elements, create shortcuts to repositories or issue trackers, and contribute to HACS.",
+    "origin": "Custom integration for Home Assistant"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "HACS",
+    "citations": [
+      "https://hacs.xyz/"
+    ]
+  }
+}

@@ -1,9 +1,9 @@
 {
-  "name": "Zinc",
+  "name": "zinc",
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 20,
-    "item": 1003
+    "item": 1002
   },
   "claims": [
     {
@@ -19,24 +19,31 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "neural death",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Zinc acts as a gatekeeper of immune function.",
+    "definition": "A metallic chemical element that contributes to neural death.",
     "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": null,
-    "origin": null
-  },
-  "instance_layer": {
-    "examples": []
-  },
+  "deep_layer": {},
+  "instance_layer": {},
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5748737/"
-    ]
+    "source": "NMDA receptor - Wikipedia",
+    "citations": []
   }
 }

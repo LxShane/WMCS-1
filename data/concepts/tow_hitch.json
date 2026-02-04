@@ -1,0 +1,164 @@
+{
+  "name": "Tow Hitch",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Device",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Towing",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Chassis of a vehicle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "tow bar or trailer hitch",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Tow ball",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Tow pin",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Tow hook",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A device attached to the chassis of a vehicle for towing.",
+    "common_uses": [
+      "Towing trailers",
+      "Towing aircraft"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The tow hitch connects the vehicle to the trailer, allowing it to be pulled. The tow ball, pin, or hook provides a pivoting point for articulation.",
+    "origin": "Likely evolved with the need to transport goods and materials using vehicles."
+  },
+  "instance_layer": {
+    "examples": [
+      "A truck with a tow hitch pulling a boat trailer"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic",
+        "Strong",
+        "Durable"
+      ],
+      "shape": [
+        "Variable, depending on type (ball, pin, hook)"
+      ],
+      "composition": [
+        "Steel"
+      ],
+      "parts": [
+        "Mounting plate",
+        "Ball/Pin/Hook",
+        "Fasteners"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Connector"
+      ],
+      "capabilities": [
+        "Towing"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Rear of the vehicle",
+      "connected_to": [
+        "Chassis"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Ball coupling",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Ball_coupling"
+    ]
+  }
+}

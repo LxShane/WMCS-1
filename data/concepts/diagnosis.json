@@ -1,0 +1,66 @@
+{
+  "name": "Diagnosis",
+  "type": "SOCIAL_CONSTRUCT",
+  "id": {
+    "group": 65,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "The process of identifying a disease or condition",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "problem (50, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The identification of the nature of an illness or other problem by examination of the symptoms.",
+    "common_uses": [
+      "Identifying diseases",
+      "Monitoring health"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Involves analysis of symptoms, medical history, and test results.",
+    "origin": "Ancient medical practices."
+  },
+  "instance_layer": {
+    "examples": [
+      "Diagnosing cancer",
+      "Diagnosing a cold"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Identification",
+        "Assessment"
+      ],
+      "capabilities": [
+        "Analyzing symptoms",
+        "Interpreting test results"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "US9095415B2, US9119703B2",
+    "citations": []
+  }
+}

@@ -8,7 +8,7 @@
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "Special Circulation",
+      "object": "Special Circulation (20, 1001)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Systemic Circulation",
+      "object": "Systemic Circulation (30, 2345)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -50,7 +50,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "Systemic Circulation",
+      "object": "Systemic Circulation (30, 2345)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -75,6 +75,15 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "lungs (23, 3456)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
@@ -88,9 +97,24 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Within the lung parenchyma, alongside the bronchi and bronchioles.",
+      "connected_to": [
+        "Aorta",
+        "Intercostal arteries",
+        "Pulmonary arteries",
+        "Bronchi",
+        "Bronchioles",
+        "Pulmonary veins",
+        "Left atrium"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
     "source": "SimpleMed",
     "citations": []
-  }
+  },
+  "autocorrected": true
 }

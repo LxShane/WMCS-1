@@ -1,14 +1,14 @@
 {
   "name": "Cytokine",
-  "type": "LIVING_SYSTEM",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 20,
-    "item": 1234
+    "group": 50,
+    "item": 4567
   },
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "Ligand",
+      "object": "Ligand (30, 9012)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -89,21 +89,108 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "soluble mediator",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Inflammatory Response",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "neutral term with respect to whether a molecule affects proliferation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "affecting proliferation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "having an inhibitory effect on cell growth",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "having an inhibitory effect on cell proliferation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Signaling molecules secreted by cells.",
+    "definition": "A neutral term with respect to whether a molecule affects proliferation.",
     "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": "Cytokines bind to receptors and initiate intracellular signaling cascades.",
-    "origin": "Synthesized by various cells, especially those of the immune system."
-  },
+  "deep_layer": {},
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "G-CSF",
+      "GM-CSF"
+    ]
   },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
+    "source": "Growth factor - Wikipedia",
+    "citations": [
+      "Wikipedia"
+    ]
   }
 }

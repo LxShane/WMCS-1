@@ -1,0 +1,79 @@
+{
+  "name": "Power Take-Off System",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 31,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Output Gear",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Converting Mechanical Energy",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A system that converts mechanical energy from waves into a form suitable for electricity generation.",
+    "common_uses": [
+      "Wave energy conversion"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The PTO system typically involves hydraulic or mechanical mechanisms to convert wave motion into rotary motion, which then drives a generator.",
+    "origin": "Developed as a critical component of wave energy converters."
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Energy Conversion"
+      ],
+      "capabilities": [
+        "Mechanical energy extraction",
+        "Rotary motion generation"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.researchgate.net/figure/The-main-components-of-the-designed-wave-energy-converter-A-Power-take-off-system-and_fig1_339774823"
+    ]
+  }
+}

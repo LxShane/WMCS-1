@@ -1,9 +1,9 @@
 {
-  "name": "Ultra-High Vacuum",
+  "name": "Ultra-high vacuum",
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 4004
+    "item": 1234
   },
   "claims": [
     {
@@ -19,25 +19,55 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "vacuum regime characterised by pressure lower than about 1 \u00d7 10 \u22129 torrs",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Pressure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Extremely low pressure.",
-    "common_uses": [
-      "Surface science",
-      "Particle physics"
+    "definition": "Vacuum regime characterised by pressure lower than about 1 \u00d7 10 \u22129 torrs.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Achieved by specific pumping and surface treatment methods to minimize outgassing.",
+    "origin": "Developed in the mid-20th century for surface science and particle physics."
+  },
+  "instance_layer": {
+    "examples": [
+      "Used in surface science experiments",
+      "Used in particle accelerators"
     ]
   },
-  "facets": {
-    "ABSTRACT_DATA": {
-      "domain": "Physics",
-      "properties": [
-        "low pressure"
-      ]
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Query",
-    "citations": []
+    "source": "Ultra-high vacuum - Wikipedia",
+    "citations": [
+      "1"
+    ]
   }
 }

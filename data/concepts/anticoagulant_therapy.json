@@ -1,0 +1,63 @@
+{
+  "name": "Anticoagulant therapy",
+  "type": "SOCIAL_CONSTRUCT",
+  "id": {
+    "group": 69,
+    "item": 1111
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Treating jugular vein thrombosis",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Reducing blood's ability to clot",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "blood (31, 1238)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Treatment involving drugs that reduce the blood's ability to clot.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Anticoagulants interfere with the clotting cascade, preventing the formation of new clots and reducing the growth of existing clots.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Multiple Web Sources",
+    "citations": []
+  }
+}

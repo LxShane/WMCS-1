@@ -1,9 +1,9 @@
 {
-  "name": "Warp Core",
+  "name": "Warp core",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 22,
-    "item": 1004
+    "group": 20,
+    "item": 1003
   },
   "claims": [
     {
@@ -33,26 +33,61 @@
         "status": "CONTESTED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Deuterium",
+      "temporal": {
+        "valid_from": "2260",
+        "valid_until": "PRESENT",
+        "event": "Star Trek Origin"
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A device that generates power, especially for spacecraft.",
-    "common_uses": []
+    "definition": "A fictional device used for propulsion in Star Trek"
   },
   "deep_layer": {
-    "mechanism": "Energy generation through controlled reactions or space-time manipulation.",
-    "origin": "Science Fiction (Star Trek)."
+    "mechanism": "A fictional device that uses deuterium and dilithium to generate faster than light travel.",
+    "origin": "From Star Trek."
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": [
+      "USS Enterprise Warp core"
+    ]
+  },
   "facets": {
     "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": []
+      "visual_features": [
+        "Glowing",
+        "Complex"
+      ],
+      "shape": [
+        "Cylindrical"
+      ],
+      "composition": [
+        "Deuterium",
+        "Dilithium"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Propulsion"
+      ],
+      "capabilities": [
+        "Faster than light travel"
+      ]
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
+    "source": "Facebook",
+    "citations": [
+      "Facebook Post 1"
+    ]
   }
 }

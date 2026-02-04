@@ -1,0 +1,65 @@
+{
+  "name": "Spatial Separation Pseudo-3D (SS-P3D) model",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 2222
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Model",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "3D medical landmark localization",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A specific pseudo-3D model employing spatial separation techniques for processing 3D data.",
+    "common_uses": [
+      "Medical image analysis"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Uses spatial separation of features to reduce complexity.",
+    "origin": "Designed to address the challenges of representing 3D structures with limited computational resources."
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Feature extraction"
+      ],
+      "capabilities": [
+        "Spatial feature separation"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.sciencedirect.com/science/article/pii/S0925231224015534"
+    ]
+  }
+}

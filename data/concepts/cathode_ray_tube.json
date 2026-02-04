@@ -47,6 +47,24 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cathode (30, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "electron (20, 9012)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
@@ -55,9 +73,23 @@
   },
   "deep_layer": {},
   "instance_layer": {},
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Within electronic devices; specific location varies by device design.",
+      "connected_to": [
+        "Electron gun",
+        "Deflection system (coils or plates)",
+        "Phosphor screen",
+        "Vacuum tube envelope",
+        "Base (pins for power and signal)",
+        "Anode"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
     "source": "Cathode ray tube - Wikipedia",
     "citations": []
-  }
+  },
+  "autocorrected": true
 }

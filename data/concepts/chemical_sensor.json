@@ -1,0 +1,67 @@
+{
+  "name": "Chemical Sensor",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Chemical detection",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Biocompatibility",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A device that detects the presence or concentration of a chemical substance.",
+    "common_uses": [
+      "Environmental monitoring",
+      "Medical diagnostics"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Senses chemical presence through a transducer.",
+    "origin": "Engineered device."
+  },
+  "instance_layer": [
+    "Glucose sensor",
+    "Oxygen sensor"
+  ],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Detector"
+      ],
+      "capabilities": [
+        "Chemical sensing"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6773264/",
+    "citations": []
+  }
+}

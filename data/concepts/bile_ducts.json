@@ -1,0 +1,111 @@
+{
+  "name": "Bile Ducts",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 30,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "tubes that transport bile from the liver and gallbladder to the duodenum",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "intrahepatic bile ducts",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "extrahepatic bile ducts",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "liver (23, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Bile ducts are tubes that transport bile from the liver and gallbladder to the duodenum.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Smooth muscle contractions and pressure gradients facilitate bile flow through the ducts.",
+    "origin": "Emerge from the liver and gallbladder."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Transporter"
+      ],
+      "capabilities": [
+        "Bile transport"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [
+        "Tubular"
+      ],
+      "composition": [
+        "Epithelial tissue",
+        "Smooth muscle"
+      ],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": [],
+      "coordinates": [],
+      "connected_to": [
+        "Liver",
+        "Gallbladder",
+        "Duodenum"
+      ],
+      "contained_in": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Physiology, Biliary - StatPearls - NCBI Bookshelf",
+      "Biliary System Anatomy and Functions - Johns Hopkins Medicine"
+    ]
+  }
+}

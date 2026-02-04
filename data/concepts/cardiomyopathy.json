@@ -1,0 +1,76 @@
+{
+  "name": "Cardiomyopathy",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 23,
+    "item": 3456
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Disease (21, 2011)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "AFFECTS",
+      "object": "Heart Muscle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "heart (32, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "muscle (21, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Diseases of the heart muscle.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Various mechanisms depending on the specific cardiomyopathy.",
+    "origin": "Genetic or acquired."
+  },
+  "instance_layer": {
+    "examples": [
+      "Ischemic conditions caused by restricted blood supply to the muscle such as angina, and myocardial infarction."
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Cardiac cell",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Cardiac_cell"
+    ]
+  }
+}

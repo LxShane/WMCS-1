@@ -1,9 +1,9 @@
 {
   "name": "Region of Interest",
-  "type": "PHYSICAL",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 35,
-    "item": 2468
+    "group": 50,
+    "item": 3344
   },
   "claims": [
     {
@@ -19,18 +19,55 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "ROI",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "measuring SNR",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A specific area within the brain that is being studied.",
-    "common_uses": []
+    "definition": "Selected subset of an image.",
+    "common_uses": [
+      "Medical imaging analysis",
+      "Object detection"
+    ]
   },
-  "deep_layer": {},
-  "instance_layer": [],
+  "deep_layer": {
+    "mechanism": "Regions of interest helps in narrowing focus during analysis",
+    "origin": "Analysis of areas"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Connectomics - Wikipedia",
+    "source": "Set Automatically",
     "citations": [
-      "https://en.wikipedia.org/wiki/Connectomics"
+      "US8169216B2"
     ]
   }
 }

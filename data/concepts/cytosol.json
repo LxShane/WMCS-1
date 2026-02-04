@@ -1,9 +1,9 @@
 {
-  "name": "Cytosol",
+  "name": "cytosol",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 5678
+    "group": 23,
+    "item": 8901
   },
   "claims": [
     {
@@ -33,27 +33,52 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cell (21, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "liquid (20, 5679)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The intracellular fluid present inside a cell.",
+    "definition": "The liquid inside a cell",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Site of many metabolic reactions.",
-    "origin": "Basic component of cells."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
     "SPATIAL": {
-      "location": "Inside the cell",
-      "contained_in": "Cell"
+      "location": "Intracellular, within the cell membrane and outside the nucleus and other organelles.",
+      "connected_to": [
+        "Cell membrane",
+        "Nuclear membrane",
+        "Organelles (e.g., mitochondria, endoplasmic reticulum, Golgi apparatus, lysosomes, peroxisomes)",
+        "Cytoskeleton"
+      ],
+      "coordinates": []
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": []
-  }
+  },
+  "autocorrected": true
 }

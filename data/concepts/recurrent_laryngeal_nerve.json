@@ -2,8 +2,8 @@
   "name": "Recurrent Laryngeal Nerve",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 22,
-    "item": 1001
+    "group": 21,
+    "item": 1014
   },
   "claims": [
     {
@@ -33,17 +33,90 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "PROVIDES",
+      "object": "motor innervation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "intrinsic muscles of the larynx",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PREVENTS",
+      "object": "innervation of cricothyroid muscle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "neuronal systems",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "nerve",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A branch of the vagus nerve that provides ipsilateral motor innervation to the intrinsic laryngeal muscles.",
+    "definition": "A branch of the vagus nerve that supplies the larynx; also known as the Inferior Laryngeal Nerve.",
     "common_uses": []
   },
-  "deep_layer": {},
-  "instance_layer": {},
+  "deep_layer": {
+    "mechanism": "Provides motor innervation to the larynx.",
+    "origin": "Biological development."
+  },
+  "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
-    "source": "https://www.sciencedirect.com/topics/neuroscience/recurrent-laryngeal-nerve",
+    "source": "International Journal of Molecular Medicine - Spandidos Publications",
     "citations": []
   }
 }

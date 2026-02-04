@@ -1,0 +1,75 @@
+{
+  "name": "Indoor Localization System",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Localization System",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Radio Badge",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Beacon",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A system used to determine the location of objects or people within an indoor environment.",
+    "common_uses": [
+      "Navigation",
+      "Asset tracking"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Uses radio signals to determine position.",
+    "origin": "Developed for indoor positioning where GPS is unavailable."
+  },
+  "instance_layer": {
+    "examples": [
+      "Indoor navigation in a mall"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "WO2012175352A1 - Localization system - Google Patents",
+    "citations": [
+      "US 2010/0134356 A1"
+    ]
+  }
+}

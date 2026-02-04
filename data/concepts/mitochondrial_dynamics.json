@@ -1,30 +1,112 @@
 {
-  "name": "Mitochondrial dynamics",
-  "type": "LIVING_SYSTEM",
+  "name": "Mitochondrial Dynamics",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 21,
-    "item": 1011
+    "group": 50,
+    "item": 1234
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "changing process of fission, fusion, mitophagy and transport",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "fission",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "fusion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "mitophagy",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "transport",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "optimal function in signal transduction",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "UNKNOWN",
+    "definition": "The changing process of fission, fusion, mitophagy, and transport in mitochondria.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Regulates mitochondrial function and shape.",
+    "origin": "Biological process within mitochondria."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
   "epistemic_metadata": {
-    "source": "Spatiotemporal roles of AMPK in PARP-1- and autophagy-dependent",
+    "source": "Set Automatically",
     "citations": [
-      "https://jbiomedsci.biomedcentral.com/articles/10.1186/s12929-023-00978-4"
-    ],
-    "ambiguity_notes": [
-      "Requires definition. Mitochondrial dynamics is not defined in the text."
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10480456/",
+      "https://www.sciencedirect.com/science/article/pii/S0968000420300864"
     ]
   }
 }

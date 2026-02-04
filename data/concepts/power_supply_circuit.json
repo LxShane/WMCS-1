@@ -1,0 +1,204 @@
+{
+  "name": "Power Supply Circuit",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A circuit that takes power input and converts it into a suitable current and voltage for the electrical load.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Supplying power to the load",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Cutting power in case of a short circuit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Filtering out unwanted noise",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Converting an input voltage into a desired output voltage",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Providing a stable power source for various electronic devices",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Transformer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Load resistor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Voltage divider",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A circuit designed to convert electrical power from a source into a usable form for a load.",
+    "common_uses": [
+      "Powering electronic devices",
+      "Converting voltage levels",
+      "Protecting circuits from faults"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Components work together to transform input voltage and current into desired output characteristics while maintaining stability and providing protection.",
+    "origin": "Evolved from early electrical power conversion methods to sophisticated electronic circuits."
+  },
+  "instance_layer": {
+    "examples": [
+      "AC-DC power supplies in computers",
+      "Battery chargers",
+      "DC-DC converters in mobile devices"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Power Converter",
+        "Voltage Regulator"
+      ],
+      "capabilities": [
+        "Voltage transformation",
+        "Current limiting",
+        "Short-circuit protection"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Wires",
+        "Electronic Components"
+      ],
+      "shape": [
+        "Planar",
+        "Boxy"
+      ],
+      "composition": [
+        "Copper",
+        "Silicon",
+        "Plastic"
+      ],
+      "parts": [
+        "Transformer",
+        "Capacitor",
+        "Resistor",
+        "Diode"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Inside electronic devices",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Manual",
+    "citations": [
+      "https://www.eleccircuit.com/power-supply-circuit/",
+      "https://diagramweb.net/power-supply-circuit-diagram-with-explanation.html",
+      "https://electricalacademia.com/electric-power/voltage-regulator-working-principle-circuit-diagram-voltage-regulator-power-supply/"
+    ]
+  }
+}

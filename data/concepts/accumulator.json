@@ -1,0 +1,127 @@
+{
+  "name": "Accumulator",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Reservoir",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A pressure storage reservoir in which hydraulic fluid is stored under pressure from an external source",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "storage of fluid under pressure in hydraulic systems",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "fluid (30, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "pressure (20, 8765)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "storage (50, 1236)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An accumulator is a pressure storage reservoir that stores hydraulic fluid under pressure.",
+    "common_uses": [
+      "storing hydraulic fluid under pressure"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Hydraulic fluid is pumped into the accumulator, compressing a gas or spring, thereby storing potential energy. This stored energy can then be released to provide a surge of power or to maintain pressure in the system.",
+    "origin": "Developed to improve the efficiency and responsiveness of hydraulic systems."
+  },
+  "instance_layer": {
+    "examples": [
+      "A hydraulic accumulator in a forklift to provide bursts of power for lifting heavy loads."
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Energy Storage"
+      ],
+      "capabilities": [
+        "Store pressurized hydraulic fluid",
+        "Provide surge of power",
+        "Maintain system pressure"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Cylindrical",
+        "Metallic"
+      ],
+      "shape": [
+        "Cylinder",
+        "Sphere"
+      ],
+      "composition": [
+        "Steel",
+        "Rubber",
+        "Nitrogen gas"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Engineering Library",
+    "citations": [
+      "Chapter 9: Reservoirs, Strainers, Filters, and Accumulators"
+    ]
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "name": "Hip Joint",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 24,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Ball and Socket Joint",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Head of Femur",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Acetabulum",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Weight-bearing through the lower extremities",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Stability",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Point of articulation between the head of the femur and the acetabulum of the pelvis",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The hip joint is a ball and socket joint.",
+    "common_uses": [
+      "walking",
+      "running",
+      "standing"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The ball-shaped head of the femur fits into the acetabulum of the pelvis, allowing for a wide range of motion while providing stability.",
+    "origin": "Develops during embryogenesis."
+  },
+  "instance_layer": {
+    "examples": [
+      "A healthy hip joint allows for pain-free movement."
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Weight Bearing",
+        "Locomotion"
+      ],
+      "capabilities": [
+        "Flexion",
+        "Extension",
+        "Abduction",
+        "Adduction",
+        "Rotation"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Rounded",
+        "Concave"
+      ],
+      "shape": [
+        "Ball and Socket"
+      ],
+      "parts": [
+        "Femoral Head",
+        "Acetabulum",
+        "Labrum",
+        "Ligaments"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Pelvic Region",
+      "connected_to": [
+        "Femur",
+        "Pelvis"
+      ],
+      "contained_in": "Lower Body"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Hip Anatomy - Physiopedia; Functional Anatomy of the Hip-Bones and Ligaments - Physiopedia",
+    "citations": []
+  }
+}

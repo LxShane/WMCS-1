@@ -2,8 +2,8 @@
   "name": "Transceiver",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 21,
-    "item": 1240
+    "group": 30,
+    "item": 1006
   },
   "claims": [
     {
@@ -159,22 +159,80 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Transmission lines",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Transmitters and receivers designed for 50\u03a9.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A transceiver is a combination of a radio transmitter and a receiver.",
+    "definition": "A device that transmits and receives signals.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
+    "mechanism": "Combines transmitter and receiver functionality into one unit.",
     "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Transmitter",
+        "Receiver"
+      ],
+      "capabilities": [
+        "Transmit signals",
+        "Receive signals"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [
+        "Transmitter",
+        "Receiver",
+        "Transmission Line"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
   "epistemic_metadata": {
-    "source": "Transceiver - Wikipedia",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "Antenna Theory and Matching - Texas Instruments"
+    ]
   }
 }

@@ -1,0 +1,71 @@
+{
+  "name": "Stress State",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Distribution of internal forces within a material",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Interface",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The condition of stress at a point within a body.",
+    "common_uses": [
+      "Stress analysis",
+      "Material testing"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Determined by applied loads, material properties, and geometry of the structure.",
+    "origin": "Developed from continuum mechanics principles to quantify internal forces."
+  },
+  "instance_layer": {
+    "examples": [
+      "The stress state at a crack tip",
+      "The stress state in a compressed beam"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Characterize load"
+      ],
+      "capabilities": [
+        "Quantify internal forces"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "User Query",
+    "citations": [
+      "https://ntrs.nasa.gov/api/citations/19720009235/downloads/19720009235.pdf"
+    ]
+  }
+}

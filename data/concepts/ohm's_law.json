@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1001
+    "item": 1235
   },
   "claims": [
     {
@@ -19,20 +19,36 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Law of physics",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A physical law stating that the current through a conductor between two points is directly proportional to the voltage across the two points.",
+    "definition": "A law stating that voltage across a resistor is directly proportional to the current flowing through it.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
+    "mechanism": "Governs the relationship between voltage, current, and resistance in DC circuits.",
     "origin": null
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Flow distribution in manifolds - Wikipedia",
+    "source": "Electrical impedance - Wikipedia",
     "citations": []
   }
 }

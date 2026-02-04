@@ -1,0 +1,47 @@
+{
+  "name": "Apoptotic Cell",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 4321
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Eat-me signals",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cell (21, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A cell undergoing programmed cell death.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Displays 'eat-me' signals to attract phagocytes for engulfment.",
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

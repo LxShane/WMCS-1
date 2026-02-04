@@ -1,9 +1,9 @@
 {
-  "name": "Aminoacylation",
-  "type": "ABSTRACT_CONCEPT",
+  "name": "aminoacylation",
+  "type": "SOCIAL_CONSTRUCT",
   "id": {
-    "group": 50,
-    "item": 1235
+    "group": 60,
+    "item": 2345
   },
   "claims": [
     {
@@ -19,24 +19,78 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "tRNA",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "nucleus (25, 9012)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "cytosol (21, 5678)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IMPLICATED_IN",
+      "object": "tRNA export",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Aminoacylation is the process of linking the appropriate amino acid to its corresponding tRNA molecule.",
+    "definition": "Addition of amino acid to tRNA",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The process involves aminoacyl-tRNA synthetases.",
-    "origin": "Biological process"
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "journals.sagepub.com",
-    "citations": [
-      "10.1089/dcbr.2025.0037"
-    ]
+    "source": "Set Automatically",
+    "citations": []
   }
 }

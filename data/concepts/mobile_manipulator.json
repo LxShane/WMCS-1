@@ -1,0 +1,69 @@
+{
+  "name": "Mobile Manipulator",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 21,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Wheeled Base",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Robot Manipulator",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A robot manipulator mounted on a mobile base.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Combines manipulation and mobility.",
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {
+    "STRUCTURAL": {},
+    "FUNCTION": {},
+    "SPATIAL": {
+      "location": "Variable, depends on the task and environment",
+      "connected_to": [
+        "Mobile Base",
+        "Manipulator Arm",
+        "End-Effector",
+        "Power Source",
+        "Controller"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Modern Robotics: Mechanics, Planning, and Control Textbook",
+    "citations": [
+      "Modern Robotics: Mechanics, Planning, and Control Textbook"
+    ]
+  },
+  "autocorrected": true
+}

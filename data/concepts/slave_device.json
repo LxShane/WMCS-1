@@ -1,0 +1,32 @@
+{
+  "name": "slave device",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 9012
+  },
+  "claims": [],
+  "surface_layer": {
+    "definition": "A device that receives commands from the master device in SPI communication.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Responds to the clock and chip select signals driven by the master device.",
+    "origin": null
+  },
+  "instance_layer": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Slave"
+      ],
+      "capabilities": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Serial_Peripheral_Interface"
+    ]
+  }
+}

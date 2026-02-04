@@ -1,0 +1,85 @@
+{
+  "name": "Brachiocephalic Trunk",
+  "type": "BODY_PART",
+  "id": {
+    "group": 22,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Artery (21, 1242)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Common Carotid Arteries",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Right Subclavian Artery",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "arteries (31, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "artery (21, 1242)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A single trunk from which the common carotid arteries and right subclavian artery arise.",
+    "common_uses": []
+  },
+  "deep_layer": {},
+  "instance_layer": [],
+  "facets": {
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "PMC",
+    "citations": [
+      "Aortic Development and Anomalies"
+    ]
+  }
+}

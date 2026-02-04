@@ -1,0 +1,82 @@
+{
+  "name": "Anaerobic Digestion",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Degradation of refractory organics",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "material (30, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "oxygen (20, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "process (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A biological process where microorganisms break down biodegradable material in the absence of oxygen.",
+    "common_uses": [
+      "Waste treatment",
+      "Biogas production"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Microbial consortia metabolize organic matter through a series of biochemical reactions.",
+    "origin": "Natural decomposition in oxygen-deprived environments."
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Decomposer"
+      ],
+      "capabilities": [
+        "Break down organic matter in anaerobic conditions"
+      ]
+    },
+    "PROCESS_DATA": {
+      "input": "Organic Matter",
+      "output": "Biogas and Digestate",
+      "agent": "Microbial Consortia"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

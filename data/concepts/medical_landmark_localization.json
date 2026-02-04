@@ -1,0 +1,100 @@
+{
+  "name": "Medical Landmark Localization",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Task",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "2D/3D images",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Critical task",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Medical imaging",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The process of identifying and marking specific anatomical points in medical images.",
+    "common_uses": [
+      "Medical image analysis",
+      "Diagnosis",
+      "Treatment planning"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Algorithms process images to identify locations corresponding to known anatomical structures.",
+    "origin": "Emerged from the need for precise measurements and localization in medical imaging."
+  },
+  "instance_layer": {
+    "examples": [
+      "Identifying the tip of the odontoid process in a CT scan of the cervical spine"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Identification",
+        "Measurement"
+      ],
+      "capabilities": [
+        "Precisely locate anatomical structures"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://arxiv.org/html/2501.10098v2"
+    ]
+  }
+}

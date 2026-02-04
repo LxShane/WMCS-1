@@ -8,7 +8,7 @@
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "Database",
+      "object": "Database (30, 1003)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -61,6 +61,24 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "data (50, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "database (30, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
@@ -74,9 +92,21 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Across multiple physical locations; networked",
+      "connected_to": [
+        "Network",
+        "Storage Nodes",
+        "Processing Nodes",
+        "Client Applications"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
     "source": "Distributed database - Wikipedia",
     "citations": []
-  }
+  },
+  "autocorrected": true
 }

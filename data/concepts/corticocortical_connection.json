@@ -3,12 +3,12 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 21,
-    "item": 7890
+    "item": 5566
   },
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "Connection",
+      "object": "Connection (30, 1111)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -33,34 +33,59 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Synaptic Connection",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Generating behavior commands",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "connection (30, 1111)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A neural pathway connecting different cortical regions.",
+    "definition": "A type of connection between different areas of the cortex.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Facilitates communication between different areas of the cortex.",
+    "mechanism": null,
     "origin": null
   },
-  "instance_layer": [],
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "Within the brain cortex",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": "Brain Cortex"
-    }
+  "instance_layer": {
+    "examples": []
   },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Ingestion Engine",
+    "source": "https://academic.oup.com/cercor/article/27/12/5755/4259744",
     "citations": []
   }
 }

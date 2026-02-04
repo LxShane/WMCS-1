@@ -1,9 +1,9 @@
 {
   "name": "Wavelength",
-  "type": "MATHEMATICAL",
+  "type": "PHYSICAL",
   "id": {
-    "group": 40,
-    "item": 1238
+    "group": 20,
+    "item": 6666
   },
   "claims": [
     {
@@ -12,6 +12,34 @@
       "temporal": {
         "valid_from": null,
         "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Energy",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Property of light",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
         "event": null
       },
       "epistemic": {
@@ -29,14 +57,32 @@
     "mechanism": null,
     "origin": null
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {
-    "FUNCTION": {},
-    "STRUCTURAL": {},
-    "SPATIAL": {}
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
   },
   "epistemic_metadata": {
-    "source": "6.4: Emission and Absorbance Spectra - Chemistry LibreTexts",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "Spectroscopy 101 \u2013 How Absorption and Emission Spectra Work"
+    ]
   }
 }

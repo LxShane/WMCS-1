@@ -1,9 +1,9 @@
 {
-  "name": "Vacuum Vessel",
+  "name": "vacuum vessel",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 25,
-    "item": 1234
+    "group": 31,
+    "item": 5678
   },
   "claims": [
     {
@@ -299,14 +299,70 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "all-metal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "96 ports",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "non-magnetic steel (304 LN)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "thickness",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A component of the ITER tokamak that contains the plasma.",
+    "definition": "The vacuum vessel of TJ-II is an all-metal component with a helical geometry.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "It provides a high-vacuum environment, improves radiation shielding and plasma stability, acts as the primary confinement barrier for radioactivity, and provides support for in-vessel components.",
+    "mechanism": null,
     "origin": null
   },
   "instance_layer": {
@@ -314,29 +370,15 @@
   },
   "facets": {
     "STRUCTURAL": {
-      "visual_features": [
-        "Steel",
-        "Double-walled"
-      ],
-      "shape": [],
-      "composition": [
-        "Steel",
-        "Cooling Water"
-      ],
-      "parts": [
-        "Ports"
-      ],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "ITER tokamak",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+      "shape": [
+        "helical geometry"
+      ]
     }
   },
   "epistemic_metadata": {
-    "source": "Vacuum Vessel - an overview | ScienceDirect Topics; Vacuum Vessel",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://fusionwiki.ciemat.es/wiki/TJ-II:Vacuum_system"
+    ]
   }
 }

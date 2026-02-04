@@ -1,0 +1,47 @@
+{
+  "name": "Adenoid Cystic Carcinoma",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Tumor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "glands (21, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A rare type of cancer that can occur in various locations, including salivary glands.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Uncontrolled cell growth in various tissues.",
+    "origin": "Genetic mutations."
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "cranial fossa tumors: Topics by Science.gov",
+    "citations": []
+  }
+}

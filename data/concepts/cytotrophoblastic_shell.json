@@ -1,0 +1,51 @@
+{
+  "name": "Cytotrophoblastic Shell",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 1007
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Placenta (20, 1234)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "layer (24, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The outer layer of cells of the trophoblast.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.ajog.org/article/S0002-9378(25)00519-8/fulltext"
+    ]
+  }
+}

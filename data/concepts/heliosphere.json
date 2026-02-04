@@ -1,9 +1,9 @@
 {
   "name": "Heliosphere",
-  "type": "INANIMATE_OBJECT",
+  "type": "PHYSICAL_OBJECT",
   "id": {
-    "group": 31,
-    "item": 5678
+    "group": 23,
+    "item": 1004
   },
   "claims": [
     {
@@ -33,22 +33,52 @@
         "status": "HYPOTHETICAL",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "The region of space surrounding the Sun that is influenced by the solar wind.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The region of space surrounding the Sun that is influenced by the solar wind.",
+    "definition": "The bubble-like region of space dominated by the Sun's magnetic field and solar wind.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "The heliosphere is formed by the interaction of the solar wind with the interstellar medium.",
+    "origin": "Result of the continuous outflow of plasma from the Sun."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
+    "source": "Multiple Scientific Articles",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8166176/"
+    ]
   }
 }

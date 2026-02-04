@@ -1,0 +1,78 @@
+{
+  "name": "Backward Localization",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Localization centered on reconfigurable intelligent surfaces (RISs)",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Reconfigurable intelligent surfaces (RISs)",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "localization (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A localization technique utilizing reconfigurable intelligent surfaces to illuminate and reconstruct a region of interest.",
+    "common_uses": [
+      "Spatial reconstruction",
+      "Sensing applications"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Spatial information is encoded into a sequence of measurements using diverse radiation patterns and subsequently processed to reconstruct the region of interest.",
+    "origin": "Emerges from advancements in reconfigurable intelligent surfaces and backward sensing paradigms."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Sensing paradigm"
+      ],
+      "capabilities": [
+        "Spatial reconstruction",
+        "Localization"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Source Localization and Power Estimation through RISs ...",
+    "citations": [
+      "arxiv.org/abs/2512.11420"
+    ]
+  }
+}

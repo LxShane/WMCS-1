@@ -2,8 +2,8 @@
   "name": "Middle Cerebral Artery",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 24,
-    "item": 1234
+    "group": 22,
+    "item": 1007
   },
   "claims": [
     {
@@ -61,24 +61,41 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Supply Lateral Cerebral Hemisphere",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "An artery that supplies blood to the lateral portion of the brain.",
+    "definition": "A blood vessel that supplies the lateral cerebral hemisphere.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Transports oxygenated blood to the lateral cerebral cortex.",
-    "origin": "Develops from the internal carotid artery during embryogenesis."
+    "mechanism": "Blood flow to brain.",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
   "epistemic_metadata": {
-    "source": "Circle of Willis - Wikipedia",
+    "source": "NCBI Bookshelf",
     "citations": [
-      "https://en.wikipedia.org/wiki/Circle_of_willis"
+      "https://www.ncbi.nlm.nih.gov/books/NBK526002/"
     ]
   }
 }

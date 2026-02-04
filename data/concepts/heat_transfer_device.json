@@ -1,0 +1,66 @@
+{
+  "name": "Heat Transfer Device",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Heat Transfer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Thermal Storage Enclosure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A device designed to transfer heat from one location to another.",
+    "common_uses": [
+      "Cooling electronic components",
+      "Heating applications"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Heat transfer through conduction, convection, or radiation.",
+    "origin": "Engineered devices."
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Heat Exchanger"
+      ],
+      "capabilities": [
+        "Heat transfer"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "US9606586B2 - Heat transfer device - Google Patents",
+    "citations": []
+  }
+}

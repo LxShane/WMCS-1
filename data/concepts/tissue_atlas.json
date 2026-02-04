@@ -1,0 +1,45 @@
+{
+  "name": "Tissue Atlas",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Human Proteome",
+      "temporal": {
+        "valid_from": "2020",
+        "valid_until": "PRESENT",
+        "event": "Discovery"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A section showing particular aspects of the human proteome.",
+    "common_uses": [
+      "Showing proteome information."
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Organized data from analysis of human protein expression."
+  },
+  "instance_layer": {
+    "examples": [
+      "Protein distribution by tissue type"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "The Human Protein Atlas",
+    "citations": [
+      "The Human Protein Atlas\u2014Spatial localization of the human proteome"
+    ]
+  }
+}

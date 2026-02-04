@@ -1,0 +1,97 @@
+{
+  "name": "Biosensor",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1357
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Sensor (20, 1003)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Biomaterial",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Implantable electronics",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": "Discovery",
+        "source": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsr.202500002"
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Serotonin detection",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "detection (50, 7890)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An analytical device used for the detection of an analyte by combining a biological component with a physical detector.",
+    "common_uses": [
+      "Environmental monitoring",
+      "Medical diagnostics"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The biological component interacts with the analyte, generating a signal detected by the physical transducer.",
+    "origin": "Developed from bioanalytical chemistry and sensor technology."
+  },
+  "instance_layer": {
+    "examples": [
+      "Glucose biosensor for diabetes management"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Recent advances of electrochemical and optical point-of-care biosensors ...",
+    "citations": []
+  }
+}

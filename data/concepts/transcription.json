@@ -1,9 +1,9 @@
 {
-  "name": "transcription",
-  "type": "LIVING_SYSTEM",
+  "name": "Transcription",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 21,
-    "item": 1003
+    "group": 50,
+    "item": 1004
   },
   "claims": [
     {
@@ -47,6 +47,90 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Cellular process",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Access to DNA",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Myc:Max",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Process of copying a segment of DNA into RNA",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Biological Process",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Enhancer-Promoter Contacts",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
@@ -54,26 +138,17 @@
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Involves RNA polymerase and transcription factors.",
-    "origin": "A fundamental process in gene expression."
+    "mechanism": "Transcription involves the binding of RNA polymerase to DNA and the synthesis of RNA.",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "DNA to RNA conversion"
-      ],
-      "capabilities": [
-        "Gene expression"
-      ]
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02867-3"
+      "PMC6314554"
     ]
   }
 }

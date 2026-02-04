@@ -33,6 +33,24 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "module (20, 9012)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "pixel (30, 2346)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
@@ -63,10 +81,21 @@
       "capabilities": [
         "Detecting particles"
       ]
+    },
+    "SPATIAL": {
+      "location": "Within detector systems, often near the interaction point",
+      "connected_to": [
+        "Readout electronics",
+        "Cooling systems",
+        "Support structures",
+        "Other detector modules"
+      ],
+      "coordinates": []
     }
   },
   "epistemic_metadata": {
     "source": "Interconnects and Assembly Technologies for Hybrid Pixel ...",
     "citations": []
-  }
+  },
+  "autocorrected": true
 }

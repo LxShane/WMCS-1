@@ -1,0 +1,93 @@
+{
+  "name": "CD86",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Ligand (30, 9012)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Binding to CTLA-4",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Binding to CD28",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "ligand (30, 9012)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "CD86 is a ligand that binds to CTLA-4 and CD28.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "CD86 binds to CTLA-4 and CD28 to regulate T-cell activity.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Ligand"
+      ],
+      "capabilities": [
+        "Binds CTLA-4",
+        "Binds CD28"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Extracted from text",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5296272/",
+      "https://www.sciencedirect.com/science/article/pii/S2211124724011197",
+      "https://www.mdpi.com/1422-0067/25/2/1274"
+    ]
+  }
+}

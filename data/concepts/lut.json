@@ -1,0 +1,47 @@
+{
+  "name": "LUT",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1357
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "component in FPGA",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Look-Up Table, a type of memory used to implement logic functions.",
+    "common_uses": [
+      "Implementing combinatorial logic"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Maps input combinations to specific output values, enabling flexible logic implementation.",
+    "origin": "Used in programmable logic devices to implement arbitrary logic functions."
+  },
+  "instance_layer": {
+    "examples": [
+      "Xilinx LUT",
+      "Altera LUT"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Lecture 13 \u2013 Timing Analysis"
+    ]
+  }
+}

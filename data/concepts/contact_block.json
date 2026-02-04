@@ -1,0 +1,97 @@
+{
+  "name": "Contact Block",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1239
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Selector Switch",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Making or breaking electrical contact based on selector switch position.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "switch (20, 2222)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Electrical component that changes contact state based on switch position.",
+    "common_uses": [
+      "Industrial control systems",
+      "Mode selection"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Contacts are opened or closed based on switch selector position.",
+    "origin": "Electrical contact block for switch."
+  },
+  "instance_layer": {
+    "examples": [
+      "Normally open contact",
+      "Normally closed contact"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Electrical contact",
+        "Terminal",
+        "Switching Mechanism"
+      ],
+      "shape": [
+        "Rectangular",
+        "Square"
+      ],
+      "composition": [
+        "Plastic",
+        "Metal"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Electrical switching",
+        "Contacts"
+      ],
+      "capabilities": [
+        "Opening Contact",
+        "Closing Contact"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Sources",
+    "citations": [
+      "https://literature.rockwellautomation.com/idc/groups/literature/documents/td/800t-td006_-en-p.pdf"
+    ]
+  }
+}

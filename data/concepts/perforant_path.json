@@ -2,8 +2,8 @@
   "name": "Perforant Path",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1237
+    "group": 23,
+    "item": 6789
   },
   "claims": [
     {
@@ -47,10 +47,52 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Granule Cell Fibers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Entorhinal Cortex",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Transmitting signals to the Dentate Gyrus",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Major hippocampal intrinsic pathway.",
+    "definition": "The perforant path is a collection of granule cell fibers that transmit signals from the entorhinal cortex to the dentate gyrus.",
     "common_uses": []
   },
   "deep_layer": {
@@ -62,9 +104,9 @@
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Multiple Web Sources",
     "citations": [
-      "1 Jan 2025"
+      "https://en.wikipedia.org/wiki/Trisynaptic_circuit"
     ]
   }
 }

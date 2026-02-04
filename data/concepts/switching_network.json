@@ -1,0 +1,70 @@
+{
+  "name": "Switching network",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 4321
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Network",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Switching between different networks",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A network capable of switching connections between different network segments or environments.",
+    "common_uses": [
+      "Failover scenarios",
+      "Dynamic resource allocation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Uses protocols to dynamically re-route traffic through different network paths.",
+    "origin": "Evolved with the need for redundancy and adaptability in network systems."
+  },
+  "instance_layer": {
+    "examples": [
+      "A network that automatically switches to a backup internet connection if the primary connection fails."
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Network router",
+        "Connection manager"
+      ],
+      "capabilities": [
+        "Dynamic rerouting",
+        "Failover handling"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "US7848913B2",
+    "citations": []
+  }
+}

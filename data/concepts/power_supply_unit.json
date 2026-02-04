@@ -1,0 +1,74 @@
+{
+  "name": "Power Supply Unit",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Electrical Device",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Supplying electricity to components",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Electrical device that supplies electricity to components that use electric power",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An electrical device that supplies electricity to components.",
+    "common_uses": [
+      "Supplying power to electronic components"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Converts electrical energy from a source into a suitable form for use by a device or system.",
+    "origin": "Engineered device"
+  },
+  "instance_layer": {
+    "examples": [
+      "Power supply unit in a desktop computer"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Power Supply - an overview | ScienceDirect Topics",
+    "citations": [
+      "N/A"
+    ]
+  }
+}

@@ -3,35 +3,98 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 23,
-    "item": 1003
+    "item": 4567
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "place where we store a certain amount of energy and then release it",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "energy (50, 1005)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "A container consisting of one or more cells, in which chemical energy is converted into electricity and used as a source of power.",
-    "common_uses": []
+    "definition": "Device that stores chemical energy and converts it into electrical energy.",
+    "common_uses": [
+      "Powering electronic devices",
+      "Storing energy"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Electrochemical reactions convert chemical energy to electrical energy.",
+    "origin": "Developed in the late 18th century."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "AA battery",
+      "Lithium-ion battery"
+    ]
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
     "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
+      "visual_features": [
+        "Cylindrical",
+        "Metallic contacts",
+        "Various sizes"
+      ],
+      "shape": [
+        "Cylinder",
+        "Prism"
+      ],
+      "composition": [
+        "Metal",
+        "Plastic",
+        "Chemical electrolyte"
+      ],
+      "parts": [
+        "Anode",
+        "Cathode",
+        "Electrolyte",
+        "Separator"
+      ],
       "relations": []
+    },
+    "FUNCTION": {
+      "roles": [
+        "Energy Source"
+      ],
+      "capabilities": [
+        "Store energy",
+        "Provide voltage",
+        "Supply current"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Inside devices",
+      "coordinates": [],
+      "connected_to": [
+        "Circuit boards",
+        "Terminals"
+      ],
+      "contained_in": "Electronic devices"
     }
   },
   "epistemic_metadata": {
-    "source": "Multiple web sources",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law/all"
+    ]
   }
 }

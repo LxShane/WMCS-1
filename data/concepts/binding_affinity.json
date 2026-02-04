@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1237
+    "item": 9012
   },
   "claims": [
     {
@@ -64,7 +64,7 @@
     },
     {
       "predicate": "MEASURED_BY",
-      "object": "Biacore",
+      "object": "Biacore (20, 7890)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -78,7 +78,7 @@
     },
     {
       "predicate": "MEASURED_BY",
-      "object": "Isothermal Titration Calorimetry (ITC)",
+      "object": "Isothermal Titration Calorimetry (ITC) (20, 9123)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -92,7 +92,7 @@
     },
     {
       "predicate": "MEASURED_BY",
-      "object": "SPR experiment",
+      "object": "SPR experiment (50, 5555)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -131,29 +131,185 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Rate of binding",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Measurement that typifies a tendency or strength of effect",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "AFFECTED_BY",
+      "object": "Host-guest interactions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "AFFECTED_BY",
+      "object": "Solvent effects",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "the concentration of ligand required to occupy 50% of the targets at equilibrium",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REPRESENTED_BY",
+      "object": "dissociation constant",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "being drastically boosted by ligands with two specific binding domains",
+      "temporal": {
+        "valid_from": "2022",
+        "valid_until": "PRESENT",
+        "event": "Discovery"
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "being drastically boosted in specificity by ligands with two specific binding domains",
+      "temporal": {
+        "valid_from": "2022",
+        "valid_until": "PRESENT",
+        "event": "Discovery"
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "downshift in the working",
+      "temporal": {
+        "valid_from": "2022",
+        "valid_until": "PRESENT",
+        "event": "Discovery"
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Strength of the interaction between two or more molecules that bind reversibly",
+      "temporal": {
+        "valid_from": "2013",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Molecular Binding",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "strength (50, 7913)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The rate of binding or a measurement that typifies a tendency or strength of the effect.",
+    "definition": "The strength of reversible molecular interactions.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Binding affinity is determined by host-guest interactions and solvent effects.",
+    "mechanism": "Measured in dissociation constants.",
     "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "ABSTRACT_DATA": {
-      "domain": "biochemistry, pharmacology"
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Binding affinities, Ligand (biochemistry)",
-    "citations": [
-      "https://en.wikipedia.org/wiki/Binding_affinities",
-      "https://en.wikipedia.org/wiki/Ligand_(biochemistry)"
-    ]
+    "source": "https://royalsocietypublishing.org/rsif/article/10/79/20120835/64282/On-the-binding-affinity-of-macromolecular",
+    "citations": []
   }
 }

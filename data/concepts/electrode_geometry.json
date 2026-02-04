@@ -1,9 +1,9 @@
 {
-  "name": "Electrode geometry",
+  "name": "Electrode Geometry",
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1235
+    "item": 9012
   },
   "claims": [
     {
@@ -61,29 +61,60 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Configuration of electrodes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Complex under in vivo conditions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The shape of tool electrodes, such as square, rectangular, cylindrical, or circular.",
+    "definition": "The spatial arrangement and physical characteristics of electrodes in a system.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Electrode geometry influences the electrode wear ratio (EWR) and can enhance flushing conditions and overall performance in processes like micro-EDM.",
-    "origin": null
+    "mechanism": "Geometry influences electric field distribution and current flow.",
+    "origin": "Designed to optimize performance for specific applications."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Monopolar electrode",
+      "Bipolar electrode",
+      "Surface electrode",
+      "Needle electrode"
+    ]
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
+    "ABSTRACT_DATA": {
+      "domain": "Engineering",
+      "classification": "Spatial arrangement"
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": [
-      "https://www.sciencedirect.com/topics/engineering/electrode-geometry"
-    ]
+    "citations": []
   }
 }

@@ -1,0 +1,55 @@
+{
+  "name": "Microfluidic Device",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Device",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Fluid Control",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A device designed to manipulate fluids at the microscale.",
+    "common_uses": [
+      "Chemical analysis",
+      "Cell sorting"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Fluid flow through microchannels.",
+    "origin": "Engineering design."
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Advances in the Model Structure of In Vitro Vascularized Organ-on-a-Chip",
+    "citations": []
+  }
+}

@@ -57,12 +57,16 @@ class ActiveGardener:
 
     def audit_and_fix(self):
         """
-        Scans for gaps. Randomly chooses between SPATIAL, PHYSICS, and REGISTRY audits.
+        Scans for gaps. Randomly chooses between SPATIAL, PHYSICS, REGISTRY, and RELATIONS audits.
         """
-        audit_mode = random.choices(["SPATIAL", "PHYSICS", "REGISTRY"], weights=[40, 40, 20], k=1)[0]
+        audit_mode = random.choices(["SPATIAL", "PHYSICS", "REGISTRY", "RELATIONS"], weights=[30, 30, 15, 25], k=1)[0]
         
         if audit_mode == "REGISTRY":
             self.rebuild_registry()
+            return
+        
+        if audit_mode == "RELATIONS":
+            self._audit_relations()
             return
 
         print(colored(f"  [Gardener] Running Audit Mode: {audit_mode}...", "cyan"))
@@ -180,12 +184,69 @@ class ActiveGardener:
                                 d["facets"][facet_key] = facet_data
                                 
                             d["autocorrected"] = True
+                            
+                            # AUTO-ADD ID RELATIONS
+                            try:
+                                from system_a_cognitive.logic.relation_builder import get_builder
+                                builder = get_builder()
+                                relations_added = builder.auto_add_relations(d)
+                                if relations_added > 0:
+                                    print(colored(f"  [Gardener] Added {relations_added} ID-based relations", "cyan"))
+                            except Exception as e:
+                                print(colored(f"  [Gardener] RelationBuilder error: {e}", "yellow"))
+                            
                             with open(path, 'w', encoding='utf-8') as wf:
                                 json.dump(d, wf, indent=2)
                             print(colored(f"  [Gardener] SUCCESS: '{concept_name}' updated.", "green"))
                             return
                 except: pass
         print(colored(f"  [Gardener] Error: Could not file file for '{concept_name}'", "red"))
+
+    def _audit_relations(self):
+        """
+        Finds concepts missing ID-based relations and enriches them.
+        """
+        print(colored("  [Gardener] Running RELATIONS Audit...", "cyan"))
+        
+        from system_a_cognitive.logic.relation_builder import RelationBuilder
+        import re
+        
+        rb = RelationBuilder()
+        pattern = r'\(\d+,\s*\d+\)'
+        
+        files = [f for f in os.listdir(self.concepts_dir) if f.endswith('.json')]
+        random.shuffle(files)
+        
+        enriched = 0
+        
+        for fname in files[:50]:  # Limit to 50 per cycle
+            try:
+                path = os.path.join(self.concepts_dir, fname)
+                with open(path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                
+                # Check if already has ID-based relations
+                has_id_rel = any(
+                    re.search(pattern, str(c.get('object', '')))
+                    for c in data.get('claims', [])
+                )
+                
+                if not has_id_rel:
+                    added = rb.auto_add_relations(data)
+                    if added > 0:
+                        with open(path, 'w', encoding='utf-8') as f:
+                            json.dump(data, f, indent=2)
+                        print(colored(f"    + {data.get('name', fname)}: {added} relations", "green"))
+                        enriched += 1
+                        if enriched >= 5:  # Limit per run
+                            break
+            except:
+                continue
+        
+        if enriched > 0:
+            print(colored(f"  [Gardener] Enriched {enriched} concepts with relations.", "green"))
+        else:
+            print(colored("  [Gardener] All sampled concepts already have relations.", "green"))
 
 if __name__ == "__main__":
     gardener = ActiveGardener()

@@ -1,0 +1,111 @@
+{
+  "name": "Radio Beacon",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 29,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Beacon",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "radio transponders",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "direction finding",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A radio beacon is a radio transmitter that emits a signal on a specific frequency, used for navigation and direction finding.",
+    "common_uses": [
+      "navigation",
+      "direction finding"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "A radio beacon transmits a signal that can be detected by radio receivers, allowing users to determine the beacon's direction and location.",
+    "origin": "Radio beacons were developed in the early 20th century as a means of aiding navigation, particularly for aircraft."
+  },
+  "instance_layer": {
+    "examples": [
+      "Automatic direction finder (ADF) beacons",
+      "Non-directional beacons (NDB)"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Navigation Aid"
+      ],
+      "capabilities": [
+        "Emit radio signal",
+        "Provide direction information"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Antenna",
+        "Transmitter"
+      ],
+      "shape": [
+        "Varies depending on type"
+      ],
+      "composition": [
+        "Electronic components",
+        "Metal"
+      ],
+      "parts": [
+        "Antenna",
+        "Transmitter",
+        "Power supply"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Often at airports, near waterways",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Beacon"
+    ]
+  }
+}

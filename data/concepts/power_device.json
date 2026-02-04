@@ -1,0 +1,45 @@
+{
+  "name": "Power Device",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 22,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Power Subsystem",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A component within a power system that regulates or controls the flow of electrical power.",
+    "common_uses": [
+      "Regulating power",
+      "Switching power"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Uses semiconductor devices or other means to control electrical flow.",
+    "origin": "Designed to manage specific aspects of power flow."
+  },
+  "instance_layer": {
+    "examples": [
+      "Transistors",
+      "Diodes"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "US10691094B1",
+    "citations": []
+  }
+}

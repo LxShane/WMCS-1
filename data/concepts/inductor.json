@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 30,
-    "item": 1234
+    "item": 1237
   },
   "claims": [
     {
@@ -89,32 +89,62 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Storing energy in a magnetic field",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "An inductor is a passive component that stores energy in a magnetic field.",
+    "definition": "An electronic component that stores energy in a magnetic field when electric current flows through it.",
     "common_uses": [
-      "Energy storage in switched-mode power supplies",
-      "Filtering signals"
+      "Filtering",
+      "Energy storage"
     ]
   },
   "deep_layer": {
-    "mechanism": "Inductors store energy when current flows through them, creating a magnetic field. The energy is released when the current changes.",
-    "origin": "Manufactured electronic component."
+    "mechanism": "Energy is stored in the magnetic field created by the coil.",
+    "origin": "Developed to store energy and filter signals."
   },
   "instance_layer": {
     "examples": [
-      "Inductors in power supplies",
-      "Inductors in radio circuits"
+      "Ferrite core inductor in a switching power supply"
     ]
   },
-  "facets": {},
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Coil of wire",
+        "Cylindrical or toroidal shape"
+      ],
+      "shape": [
+        "Cylindrical",
+        "Toroidal"
+      ],
+      "composition": [
+        "Copper wire",
+        "Ferrite core"
+      ],
+      "parts": [
+        "Coil",
+        "Core",
+        "Leads"
+      ],
+      "relations": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "Multiple web sources",
-    "citations": [
-      "https://en.wikipedia.org/wiki/Inductor",
-      "https://www.capacitorconnect.com/similarities-and-differences-between-inductors-and-capacitors/",
-      "https://www.ersaelectronics.com/blog/how-inductors-store-energy"
-    ]
+    "source": "Set Automatically",
+    "citations": []
   }
 }

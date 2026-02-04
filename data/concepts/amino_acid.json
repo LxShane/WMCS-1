@@ -1,9 +1,9 @@
 {
-  "name": "Amino acid",
+  "name": "Amino Acid",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1237
+    "group": 22,
+    "item": 1007
   },
   "claims": [
     {
@@ -36,7 +36,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "linear chain",
+      "object": "linear chain (30, 1238)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -61,26 +61,59 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "building block",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "protein (22, 1000)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "proteins (20, 1236)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A molecule that is a building block of proteins.",
+    "definition": "Organic compounds that form proteins.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Unknown",
-    "origin": "Biological origin"
+    "mechanism": "Polymerize to form polypeptide chains.",
+    "origin": "Biochemistry"
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Multiple Academic Sources",
-    "citations": [
-      "PMC7373986",
-      "10.1089/dcbr.2025.0037",
-      "ScienceDirect Topics"
-    ]
+    "source": "Set Automatically",
+    "citations": []
   }
 }

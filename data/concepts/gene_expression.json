@@ -1,9 +1,9 @@
 {
   "name": "Gene Expression",
-  "type": "ABSTRACT_CONCEPT",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 50,
-    "item": 1237
+    "group": 30,
+    "item": 1012
   },
   "claims": [
     {
@@ -33,30 +33,148 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Functionally distinct anatomical domains",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Biological Process",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSED_BY",
+      "object": "Gene",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "requires more detailed knowledge of nuclear architecture and organization",
+      "temporal": {
+        "valid_from": "2001",
+        "valid_until": "PRESENT",
+        "event": "Discovery"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Process of producing a functional gene product",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Biological Process",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REGULATED_BY",
+      "object": "Spatial Regulation",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PLAYS_ROLE_IN",
+      "object": "Normal Development",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PLAYS_ROLE_IN",
+      "object": "Disease Pathogenesis",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The process by which information from a gene is used in the synthesis of a functional gene product.",
-    "common_uses": [
-      "Cellular differentiation",
-      "Response to environment"
-    ]
+    "definition": null,
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Involves transcription and translation.",
-    "origin": "Occurs in all living organisms."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
-    "examples": [
-      "Production of insulin in pancreatic cells"
-    ]
+    "examples": []
   },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Ingestion Engine",
-    "citations": [
-      "https://www.nature.com/articles/s44324-024-00047-w",
-      "https://www.sciencedirect.com/science/article/pii/S1096717624000247",
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11369697/"
-    ]
+    "source": "Set Automatically",
+    "citations": []
   }
 }

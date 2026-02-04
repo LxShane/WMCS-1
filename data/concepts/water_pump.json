@@ -1,9 +1,9 @@
 {
-  "name": "Water pump",
+  "name": "Water Pump",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 1237
+    "group": 23,
+    "item": 1008
   },
   "claims": [
     {
@@ -19,24 +19,47 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Ice Water Tank",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Pump",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A pump used to circulate coolant.",
+    "definition": "A pump that circulates water.",
     "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": null,
-    "origin": null
-  },
-  "instance_layer": {
-    "examples": []
-  },
+  "deep_layer": {},
+  "instance_layer": {},
   "facets": {},
   "epistemic_metadata": {
-    "source": "Coolant Circulation Pump - Application | Working and its Type",
+    "source": "With electrical component cooling patent application class",
     "citations": [
-      "https://www.groupkiron.com/blog/coolant-circulation-pump/"
+      "https://www.patentsencyclopedia.com/class/000419369"
     ]
   }
 }

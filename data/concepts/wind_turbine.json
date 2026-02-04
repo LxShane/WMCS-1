@@ -1,0 +1,116 @@
+{
+  "name": "Wind Turbine",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 22,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Harnessing wind power",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Wind Power Generation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Power Generation Device",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Blades",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A device that converts wind energy into electricity.",
+    "common_uses": [
+      "Electricity generation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Wind turns the blades, which rotate a generator to produce electricity.",
+    "origin": "Developed in the late 19th century."
+  },
+  "instance_layer": [
+    "Wind turbines in a wind farm"
+  ],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Energy Converter"
+      ],
+      "capabilities": [
+        "Converts wind energy into electrical energy"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Tall",
+        "Rotating blades"
+      ],
+      "shape": [
+        "Tower with blades"
+      ],
+      "composition": [
+        "Metal",
+        "Fiberglass"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Wind farms",
+      "coordinates": [],
+      "connected_to": [
+        "Electricity grid"
+      ],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Chapter: 3 Renewable Electricity Generation Technologies"
+    ]
+  }
+}

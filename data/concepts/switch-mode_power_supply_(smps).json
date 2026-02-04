@@ -1,0 +1,42 @@
+{
+  "name": "Switch-Mode Power Supply (SMPS)",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 23,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Inductors",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A power supply that uses switching devices to convert electrical power efficiently.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Switching regulation.",
+    "origin": "Electronics engineering."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.andwinpcb.com/the-correct-placement-of-inductors-in-pcb-design-for-switch-mode-power-supplies/"
+    ]
+  }
+}

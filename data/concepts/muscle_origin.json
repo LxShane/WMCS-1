@@ -2,8 +2,8 @@
   "name": "Muscle Origin",
   "type": "BODY_PART",
   "id": {
-    "group": 22,
-    "item": 5678
+    "group": 23,
+    "item": 1001
   },
   "claims": [
     {
@@ -47,35 +47,67 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "stationary attachment point of a muscle",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "attachment point",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The point where a muscle originates.",
+    "definition": "The stationary attachment point of a muscle.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Provides a stable base for muscle contraction.",
+    "origin": "Develops as part of the musculoskeletal system."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
     "SPATIAL": {
-      "location": "Proximal, Medial (generally relative to insertion)",
-      "connected_to": [
-        "Bone",
-        "Tendon",
-        "Aponeurosis",
-        "Fascia",
-        "Cartilage"
-      ],
-      "coordinates": []
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
-    "source": "Multiple Web Sources",
-    "citations": []
-  },
-  "autocorrected": true
+    "source": "Multiple Sources",
+    "citations": [
+      "https://www.pearson.com/channels/anp/learn/bruce/muscles/origin-and-insertion",
+      "https://3d4medical.com/fr/support/complete-anatomy/origin-insertion"
+    ]
+  }
 }

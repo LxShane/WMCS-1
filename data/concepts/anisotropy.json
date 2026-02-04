@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 3456
+    "item": 1234
   },
   "claims": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "OPPOSITE_OF",
-      "object": "Isotropy",
+      "object": "Isotropy (50, 9012)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -33,27 +33,113 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Structural property of non-uniformity in different directions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Property of substances or systems",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PROPERTY",
+      "object": "Direction-dependent variations in physical characteristics",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Quality of exhibiting properties with different values when measured along axes in different directions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "OPPOSITE_OF",
+      "object": "Isotropy (50, 9012)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "isotropy (50, 9012)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The property of a material exhibiting different properties when measured along different axes.",
+    "definition": "Anisotropy is the property of being directionally dependent, as opposed to isotropy, which implies identical properties in all directions.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Results from non-uniform microstructure or orientation.",
-    "origin": "Material processing or inherent structure."
+    "mechanism": "Differences in properties arise from the underlying structure of a material or system.",
+    "origin": "Arises from the Greek words 'aniso' (unequal) and 'tropos' (direction)."
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": [
+      "Light coming through a polarizer",
+      "Wood splitting along its grain",
+      "Single crystals of solid elements or compounds"
+    ]
+  },
   "facets": {
     "ABSTRACT_DATA": {
-      "domain": "Material Science",
-      "antonym": "Isotropy"
+      "domain": "Physics, Material Science"
     }
   },
   "epistemic_metadata": {
-    "source": "LECTURE #19 : 3.11 MECHANICS OF MATERIALS F03",
+    "source": "Set Automatically",
     "citations": [
-      "Lecture 19"
+      "https://en.wikipedia.org/wiki/Anisotropy",
+      "https://grokipedia.com/page/Anisotropy",
+      "https://www.britannica.com/science/anisotropy"
     ]
   }
 }

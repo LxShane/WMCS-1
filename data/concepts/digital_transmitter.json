@@ -75,6 +75,15 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "transmitter (30, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
@@ -86,9 +95,23 @@
     "origin": "Developed as part of digital communication systems."
   },
   "instance_layer": [],
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Variable, depending on the specific transmitter design and application (e.g., within a device, on a circuit board, external to a device)",
+      "connected_to": [
+        "Antenna",
+        "Power source",
+        "Modulator",
+        "Signal processor",
+        "Microcontroller",
+        "Enclosure"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
     "source": "Telemetry Systems Radio Frequency (RF) Handbook - DTIC",
     "citations": []
-  }
+  },
+  "autocorrected": true
 }

@@ -1,9 +1,9 @@
 {
   "name": "Strain",
-  "type": "PHYSICAL",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 20,
-    "item": 5678
+    "group": 50,
+    "item": 1240
   },
   "claims": [
     {
@@ -187,32 +187,89 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Deformation of a material caused by stress",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MEASURED_BY",
+      "object": "Optical Fiber",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "dimensionless quantity that quantifies relative deformation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "change in length per original length",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Essential information for designing materials and structures",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Deformation of a solid material due to stress.",
-    "common_uses": [
-      "Engineering analysis",
-      "Material testing"
-    ]
+    "definition": "Measure of deformation representing the displacement between particles in the body relative to a reference length.",
+    "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": "Stress applied to a material causes it to deform.",
-    "origin": "Application of force to a material."
-  },
-  "instance_layer": {
-    "examples": [
-      "Stretching a rubber band",
-      "Bending a metal beam"
-    ]
-  },
-  "facets": {},
+  "deep_layer": {},
+  "instance_layer": {},
   "epistemic_metadata": {
-    "source": "Ingestion Engine",
+    "source": "Set Automatically",
     "citations": [
-      "https://journals.aps.org/prresearch/pdf/10.1103/PhysRevResearch.6.023203",
-      "https://arxiv.org/abs/2309.08671",
-      "https://www.nature.com/articles/s41535-025-00796-x"
+      "Predicting stress, strain and deformation fields in materials ...",
+      "Ch10 Deformation - United States Naval Academy"
     ]
   }
 }

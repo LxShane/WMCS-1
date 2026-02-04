@@ -2,8 +2,8 @@
   "name": "Thermostat",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 33,
-    "item": 1001
+    "group": 30,
+    "item": 4567
   },
   "claims": [
     {
@@ -173,66 +173,111 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Component of heating systems",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Control center for temperature regulation",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Communicating directly with the heating system",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Maintaining the desired indoor climate efficiently",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A thermostat acts as an automatic temperature control valve to regulate fluid flow and maintain optimal operating temperatures.",
+    "definition": "A thermostat is a control center for temperature regulation.",
     "common_uses": [
-      "Temperature control in engines",
-      "Temperature control in industrial equipment",
-      "Temperature control in heating systems"
+      "Heating systems",
+      "Cooling systems"
     ]
   },
   "deep_layer": {
-    "mechanism": "The thermostat senses temperature changes and responds by opening or closing to control fluid flow.",
-    "origin": "Designed to regulate temperature automatically."
+    "mechanism": "It compares the measured temperature to a setpoint and activates the heating or cooling system to maintain the desired temperature.",
+    "origin": "Developed for controlling heating and cooling systems in buildings."
   },
   "instance_layer": {
     "examples": [
-      "Thermostat in a car engine",
-      "Thermostat in a home heating system"
+      "Mechanical thermostats",
+      "Digital thermostats",
+      "Smart thermostats"
     ]
   },
   "facets": {
     "FUNCTION": {
       "roles": [
-        "Temperature Regulator"
+        "Temperature Control"
       ],
       "capabilities": [
-        "Sensing temperature",
-        "Controlling fluid flow"
+        "Setting desired temperature",
+        "Activating heating/cooling systems"
       ]
     },
     "STRUCTURAL": {
       "visual_features": [
-        "Metallic",
-        "Small"
+        "Rectangular or square",
+        "Digital display or dial"
       ],
       "shape": [
-        "Valve-like"
+        "Box-shaped"
       ],
       "composition": [
+        "Plastic",
         "Metal",
-        "Plastic"
-      ],
-      "parts": [
-        "Temperature sensor",
-        "Valve"
-      ],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "Within thermal management systems",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+        "Electronics"
+      ]
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://btt-solutions.com/blogs/what-does-a-thermostat-do-in-thermal-management-systems/",
-      "https://www.energy.ca.gov/sites/default/files/2024-04/CEC-500-2024-032-AP.pdf"
+      "https://advancedheatingandac.com/understanding-10-key-components-of-a-heating-system/"
     ]
   }
 }

@@ -1,0 +1,56 @@
+{
+  "name": "Anaplastic Carcinoma",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Carcinoma",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Airway Compromise",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A rapidly growing and aggressive type of thyroid cancer.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Otolaryngology \u2013 Head and Neck Surgery Elective Syllabus",
+    "citations": [
+      "https://health.uconn.edu/graduate-medical-education/wp-content/uploads/sites/20/2020/08/Otolaryngology-Syllabus-for-MS4.pdf"
+    ]
+  }
+}

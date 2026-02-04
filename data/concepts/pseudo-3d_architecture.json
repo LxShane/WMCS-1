@@ -1,0 +1,115 @@
+{
+  "name": "Pseudo-3D Architecture",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Architecture",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "3D medical landmark localization",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Lightweight structure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "PA-P3D model",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "SS-P3D model",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A computer architecture designed to process data in a manner that simulates three dimensions, but is computationally less expensive than true 3D processing.",
+    "common_uses": [
+      "Medical imaging",
+      "Object recognition"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Employ strategies like plane-wise attention and spatial separation to extract 3D-like features from 2D images or shallow 3D representations.",
+    "origin": "Developed to balance accuracy and computational efficiency in 3D data processing."
+  },
+  "instance_layer": {
+    "examples": [
+      "PA-P3D model",
+      "SS-P3D model"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Feature extraction",
+        "Data processing"
+      ],
+      "capabilities": [
+        "Simulate 3D processing",
+        "Reduce computational cost"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.sciencedirect.com/science/article/pii/S0925231224015534"
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Protein Interaction Network",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Network of interactions between all proteins in an organism",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Interactome",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Understanding cellular pathways",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Developing effective therapies for the treatment of human diseases",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A network representing the interactions between proteins within a cell or organism.",
+    "common_uses": [
+      "Studying cellular pathways",
+      "Drug discovery"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Proteins interact through various mechanisms, including binding, signaling, and catalysis, forming complex networks.",
+    "origin": "Emerged from the field of proteomics and systems biology to understand cellular function."
+  },
+  "instance_layer": {
+    "examples": [
+      "The interactome of yeast",
+      "Protein interaction network in human cancer cells"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Fundamentals of protein interaction network mapping",
+    "citations": [
+      "https://link.springer.com/article/10.15252/msb.20156351"
+    ]
+  }
+}

@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 20,
-    "item": 1001
+    "item": 1002
   },
   "claims": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Switch",
+      "object": "Switch (20, 2222)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -61,40 +61,101 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "signal processing (50, 1234)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Signal conditioning",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "quantization levels",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "ADC",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "converting information from analog to digital domain",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "computer (30, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A device that converts a continuous analog signal to a discrete digital signal.",
-    "common_uses": [
-      "Signal processing",
-      "Data acquisition"
-    ]
+    "definition": "Analog-to-Digital Converters (ADCs) convert information from the analog domain to the digital domain so that it can be processed by a computer.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The converter samples the analog signal and quantizes it into a digital representation.",
-    "origin": "Developed for use in digital systems requiring analog input."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
-    "examples": [
-      "Audio recording equipment",
-      "Image sensors"
-    ]
+    "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Signal Converter"
-      ],
-      "capabilities": [
-        "Analog to Digital conversion"
-      ]
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "WO2014207870A1, US20150171878A1",
-    "citations": [
-      "Abstract",
-      "Introduction"
-    ]
+    "source": "Set Automatically",
+    "citations": []
   }
 }

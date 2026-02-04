@@ -1,0 +1,88 @@
+{
+  "name": "ESD Safe Conveyor Belt",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 24,
+    "item": 1102
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Conveyor Belt",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Preventing electrostatic discharge",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Part of PCB Conveyor System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A conveyor belt designed to prevent electrostatic discharge (ESD) to protect sensitive electronic components.",
+    "common_uses": [
+      "Transporting PCBs",
+      "Protecting components from ESD"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Made of materials that dissipate static electricity to prevent damage to electronic components.",
+    "origin": "Developed in response to the need to protect sensitive electronics during manufacturing."
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Transport",
+        "ESD Protection"
+      ],
+      "capabilities": [
+        "Dissipates static electricity"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.allpcb.com/allelectrohub/pcb-conveyor-systems-optimizing-workflow-in-electronics-manufacturing"
+    ]
+  }
+}

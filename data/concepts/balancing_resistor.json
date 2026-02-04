@@ -1,0 +1,71 @@
+{
+  "name": "Balancing Resistor",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Cell balancing",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "battery (23, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "voltage (20, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A resistor used to balance the voltage of cells in a battery pack.",
+    "common_uses": [
+      "cell balancing"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The resistor dissipates energy from higher voltage cells to balance them with lower voltage cells.",
+    "origin": "Engineered electronic components."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Balancer"
+      ],
+      "capabilities": [
+        "cell balancing"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Understanding BMS Connection Diagram: From MOSFET Control to Cell Balancing - AYAA TECHNOLOGY CO., LTD",
+    "citations": []
+  }
+}

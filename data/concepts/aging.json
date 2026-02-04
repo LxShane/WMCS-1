@@ -1,25 +1,66 @@
 {
   "name": "Aging",
-  "type": "LIVING_SYSTEM",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 20,
-    "item": 1236
+    "group": 50,
+    "item": 4567
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "CAUSES",
+      "object": "Affected MuSCs by Environmental Signals",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Pathogenesis",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "process (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
   "surface_layer": {
     "definition": "The process of growing old.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Accumulation of cellular and molecular damage.",
+    "origin": "Natural biological process."
   },
-  "instance_layer": {
-    "examples": []
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    }
   },
-  "facets": {},
   "epistemic_metadata": {
-    "source": "Creative BioMart",
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8052295/",
     "citations": []
   }
 }

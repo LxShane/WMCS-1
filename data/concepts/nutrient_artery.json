@@ -1,9 +1,9 @@
 {
   "name": "Nutrient Artery",
-  "type": "LIVING_SYSTEM",
+  "type": "BODY_PART",
   "id": {
-    "group": 31,
-    "item": 1002
+    "group": 22,
+    "item": 1234
   },
   "claims": [
     {
@@ -187,15 +187,71 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Blood Vessel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Nutrient Foramen",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Nourishing bone",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Branches",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Artery that supplies blood to the bone.",
+    "definition": "Artery that enters the bone through the nutrient foramen and provides nourishment.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Transports blood and nutrients to the bone marrow and bone tissue.",
+    "origin": "Develops alongside the bone during skeletal growth."
   },
   "instance_layer": {
     "examples": []
@@ -210,7 +266,10 @@
     "SPATIAL": {}
   },
   "epistemic_metadata": {
-    "source": "https://www.britannica.com/science/bone-anatomy/Vascular-supply-and-circulation",
-    "citations": []
+    "source": "Multiple Web Sources",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Nutrient_foramina",
+      "https://radiopaedia.org/articles/nutrient-foramen"
+    ]
   }
 }

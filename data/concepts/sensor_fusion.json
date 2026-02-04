@@ -1,9 +1,9 @@
 {
-  "name": "Sensor fusion",
+  "name": "Sensor Fusion",
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1234
+    "item": 1006
   },
   "claims": [
     {
@@ -117,43 +117,54 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Technique",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Sensor fusion is a process of combining data to reduce uncertainty and create comprehensive representations.",
-    "common_uses": [
-      "Indoor object localization",
-      "Creating robust systems"
-    ]
+    "definition": "The process of combining data from multiple sensors to improve accuracy and reliability.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Sensor fusion combines data from multiple sensors, leveraging each sensor's strengths to overcome individual weaknesses, resulting in a more accurate and reliable representation.",
-    "origin": "Emerged from the need to improve data accuracy and reliability in various applications."
+    "mechanism": "Sensor fusion algorithms can be based on statistical methods, machine learning, or other techniques.",
+    "origin": null
   },
   "instance_layer": {
-    "examples": [
-      "Stereoscopic vision",
-      "Combining video cameras and WiFi localization for indoor object tracking"
-    ]
+    "examples": []
   },
   "facets": {
     "FUNCTION": {
-      "roles": [
-        "Data Integration",
-        "Uncertainty Reduction"
-      ],
-      "capabilities": [
-        "Improving data accuracy",
-        "Enhancing system reliability"
-      ]
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
-    "source": "Sensor fusion",
-    "citations": [
-      "https://en.wikipedia.org/wiki/Sensor_fusion",
-      "https://grokipedia.com/page/Sensor_fusion",
-      "https://www.geeksforgeeks.org/electronics-engineering/concept-of-sensor-fusion-and-its-types/"
-    ]
+    "source": "A Comprehensive Review on Sensor Fusion Techniques for ...",
+    "citations": []
   }
 }

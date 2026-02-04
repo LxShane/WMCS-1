@@ -1,0 +1,65 @@
+{
+  "name": "Radio-Frequency Heating",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Plasma Heating Method",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Injecting waves of electron cyclotron resonance, ion cyclotron resonance, and lower hybrid resonance frequencies",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A method of heating plasma by injecting radio-frequency waves.",
+    "common_uses": [
+      "Heating plasma in fusion reactors"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Radio-frequency waves transfer energy to plasma particles, increasing their temperature.",
+    "origin": "Widely used in modern fusion research."
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Heating"
+      ],
+      "capabilities": [
+        "Energy transfer via RF waves"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Plasma Heating - an overview | ScienceDirect Topics"
+    ]
+  }
+}

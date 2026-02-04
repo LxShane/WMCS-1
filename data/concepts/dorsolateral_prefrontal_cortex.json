@@ -1,9 +1,9 @@
 {
-  "name": "Dorsolateral Prefrontal Cortex",
-  "type": "BODY_PART",
+  "name": "Dorsolateral prefrontal cortex",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 25,
-    "item": 1003
+    "group": 22,
+    "item": 1001
   },
   "claims": [
     {
@@ -33,48 +33,164 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "dlPFC",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Brain Region",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "spatial selective neurons",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "neural circuitry",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "carry out an integrated response",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "sensory input",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "retention in short-term memory",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "motor signaling",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONNECTED_TO",
+      "object": "superior temporal cortex",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONNECTED_TO",
+      "object": "posterior parietal cortex",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Part of the prefrontal cortex involved in higher-level cognitive functions.",
-    "common_uses": [
-      "Target for brain stimulation",
-      "Study of cognitive processes"
-    ]
+    "definition": "The dlPFC is historically defined by its connection to the superior temporal cortex and posterior parietal cortex and has a neural circuitry that encompasses the entire range of sub-functions necessary to carry out an integrated response.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Involved in working memory, planning, and decision-making.",
-    "origin": "Part of the brain's evolutionary development."
+    "mechanism": null,
+    "origin": null
   },
-  "instance_layer": [],
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "Prefrontal cortex",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": "Brain"
-    },
-    "FUNCTION": {
-      "roles": [
-        "Cognitive processing"
-      ],
-      "capabilities": [
-        "Working memory",
-        "Decision-making"
-      ]
-    }
+  "instance_layer": {
+    "examples": []
   },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "medRxiv",
+    "source": "Set Automatically",
     "citations": [
-      "Are we really targeting and stimulating DLPFC by placing tES electrodes"
+      "13"
     ]
   }
 }

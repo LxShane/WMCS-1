@@ -1,0 +1,108 @@
+{
+  "name": "Perirenal Adipose Afferent Nerves",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Nerve",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Afferent Nerve Fibers",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Perirenal Adipose Tissue",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Pathological High Blood Pressure",
+      "temporal": {
+        "valid_from": "2022",
+        "valid_until": "PRESENT",
+        "event": "Discovery"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Nerves located in the perirenal adipose tissue that have afferent fibers.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {
+    "SPATIAL": {
+      "location": "Within Perirenal Adipose Tissue",
+      "coordinates": [],
+      "connected_to": [
+        "Kidney",
+        "Spinal Cord"
+      ],
+      "contained_in": "Perirenal Adipose Tissue"
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "FUNCTION": {
+      "roles": [
+        "Sensory Receptor"
+      ],
+      "capabilities": [
+        "Transmit signals from kidney and surrounding tissue to the central nervous system"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple academic sources",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12187566/",
+      "https://journals.physiology.org/doi/10.1152/physrev.00035.2024"
+    ]
+  }
+}

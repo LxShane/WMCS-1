@@ -1,0 +1,72 @@
+{
+  "name": "Storage Area Network (SAN)",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "network that provides access to consolidated, block-level data storage",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "enhance storage devices, such as disk arrays, tape libraries, and optical jukeboxes accessible to servers",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "SAN provides access to consolidated data storage.",
+    "common_uses": [
+      "Enhancing storage devices",
+      "Centralized storage management"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "A network enabling access to data storage devices.",
+    "origin": "Developed to centralize storage resources."
+  },
+  "instance_layer": {
+    "examples": [
+      "EMC Symmetrix",
+      "IBM SAN Volume Controller"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Storage Network"
+      ],
+      "capabilities": [
+        "Centralized data storage",
+        "Enhanced storage device access"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Dataprise",
+    "citations": [
+      "An Overview of Storage Area Networks (SAN) and How SAN ..."
+    ]
+  }
+}

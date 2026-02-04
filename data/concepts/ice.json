@@ -5,17 +5,119 @@
     "group": 20,
     "item": 1235
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Solid phase of water",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Crystalline structure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Open spaces in the crystal lattice",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Water molecules",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Melting under pressure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Refreezing when pressure is reduced",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Expansion upon freezing",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
     "definition": "Water in its solid state.",
     "common_uses": []
   },
   "deep_layer": {
     "mechanism": "Water molecules form a crystalline structure.",
-    "origin": "Freezing of water"
+    "origin": "Freezing of water."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Ice cube",
+      "Glacier"
+    ]
   },
   "facets": {
     "FUNCTION": {
@@ -24,21 +126,37 @@
     },
     "STRUCTURAL": {
       "visual_features": [
-        "Translucent",
-        "Solid"
+        "Transparent",
+        "White"
       ],
       "shape": [
-        "Variable, often crystalline"
+        "Various shapes"
       ],
       "composition": [
-        "Water molecules (H2O)"
+        "Water"
       ],
       "parts": [],
       "relations": []
+    },
+    "SPATIAL": {
+      "location": "Variable; typically surface-level when formed on water bodies, can also be subsurface in permafrost regions or within glaciers.",
+      "connected_to": [
+        "Water (in frozen state)",
+        "Ground (in permafrost regions)",
+        "Glaciers",
+        "Icebergs",
+        "Atmosphere (via ice crystals)"
+      ],
+      "coordinates": []
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
-  }
+    "source": "Regelation",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Regelation",
+      "https://grokipedia.com/page/Regelation",
+      "https://www.vedantu.com/physics/regelation"
+    ]
+  },
+  "autocorrected": true
 }

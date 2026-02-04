@@ -1,14 +1,14 @@
 {
   "name": "ADP",
-  "type": "LIVING_SYSTEM",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 33,
-    "item": 1007
+    "group": 20,
+    "item": 9012
   },
   "claims": [
     {
       "predicate": "USED_FOR",
-      "object": "Oxidative phosphorylation",
+      "object": "Oxidative phosphorylation (50, 7890)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "RELEASED_FROM",
-      "object": "Active site",
+      "object": "Active site (24, 1234)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -36,7 +36,7 @@
     },
     {
       "predicate": "CAUSED_BY",
-      "object": "ATP Hydrolysis",
+      "object": "ATP Hydrolysis (50, 1234)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -47,10 +47,42 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Molecule",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "atp (31, 1005)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "hydrolysis (50, 1238)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": null,
+    "definition": "A molecule formed after ATP hydrolysis.",
     "common_uses": []
   },
   "deep_layer": {
@@ -60,9 +92,27 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
   "epistemic_metadata": {
-    "source": "https://biologyinsights.com/myosin-movement-how-this-motor-protein-works/",
+    "source": "ATP Hydrolysis Mechanism: A Detailed Look at How Cells Get Energy",
     "citations": []
   }
 }

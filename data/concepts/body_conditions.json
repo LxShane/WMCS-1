@@ -1,27 +1,38 @@
 {
   "name": "Body Conditions",
-  "type": "LIVING_SYSTEM",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 20,
+    "group": 50,
     "item": 1006
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "condition",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "Physical state of a body.",
+    "definition": "Conditions of the body.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Dependent upon biological processes.",
-    "origin": "Developmental and environmental factors."
+    "mechanism": "Disease processes.",
+    "origin": "Physiological conditions."
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "WO2012103296A2 - Systems and methods for monitoring the"
-    ]
+    "source": "CN106922125A",
+    "citations": []
   }
 }

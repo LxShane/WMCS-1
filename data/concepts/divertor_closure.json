@@ -1,0 +1,54 @@
+{
+  "name": "Divertor Closure",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 3333
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "optimizing particle flux exhaust",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "divertor (30, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "particle (20, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The degree to which the divertor region is enclosed, affecting particle confinement.",
+    "common_uses": [
+      "Fusion reactors"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Progress of Divertor Heat and Particle Flux Control in EAST for ...",
+    "citations": [
+      "https://link.springer.com/article/10.1007/s10894-021-00290-9"
+    ]
+  }
+}

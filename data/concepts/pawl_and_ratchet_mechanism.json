@@ -1,0 +1,80 @@
+{
+  "name": "Pawl and Ratchet Mechanism",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 31,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Mechanism",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Output Gear",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "One-Way Motion Transfer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A mechanism that allows motion in one direction only.",
+    "common_uses": [
+      "Preventing backward rotation",
+      "Indexing"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The pawl engages with the ratchet to allow forward motion but prevents reverse motion.",
+    "origin": "A traditional mechanical component used in various applications."
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Motion Control"
+      ],
+      "capabilities": [
+        "One-way motion transfer",
+        "Backlash prevention"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.researchgate.net/figure/The-main-components-of-the-designed-wave-energy-converter-A-Power-take-off-system-and_fig1_339774823"
+    ]
+  }
+}

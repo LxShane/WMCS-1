@@ -1,0 +1,56 @@
+{
+  "name": "Electrochemical interface",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 3456
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Electrode",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Electrolyte",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The boundary between an electrode and an electrolyte.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Multiple Sources",
+    "citations": [
+      "https://lampz.tugraz.at/~hadley/semi/echem/echem.php"
+    ]
+  }
+}

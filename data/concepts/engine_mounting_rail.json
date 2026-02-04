@@ -1,0 +1,113 @@
+{
+  "name": "Engine Mounting Rail",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 23,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Structural member",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Sides of the engine",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Mounting locations",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "C-channel beams (often)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A structural member mounted to the sides of the engine that incorporates mounting locations.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Provides a rigid structure for attaching the engine to the vehicle chassis.",
+    "origin": "Developed to provide a strong and reliable mounting point for engines."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [
+        "C-channel (often)"
+      ],
+      "composition": [],
+      "parts": [
+        "Mounting Locations"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Sides of the engine",
+      "coordinates": [],
+      "connected_to": [
+        "Engine",
+        "Vehicle Chassis"
+      ],
+      "contained_in": null
+    },
+    "FUNCTION": {
+      "roles": [
+        "Mounting"
+      ],
+      "capabilities": [
+        "Support"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://emc.cat.com/pubdirect.ashx?media_string_id=LEBW4974-"
+    ]
+  }
+}

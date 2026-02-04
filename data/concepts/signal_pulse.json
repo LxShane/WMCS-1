@@ -1,0 +1,51 @@
+{
+  "name": "Signal Pulse",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 3456
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Fixed Width",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Fixed Amplitude",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A burst of energy that represents a bit of information",
+    "common_uses": [
+      "Digital Communication",
+      "Telemetry"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Web Sources",
+    "citations": [
+      "https://scienceprog.com/encoding-and-modulation-of-digital-signals/"
+    ]
+  }
+}

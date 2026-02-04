@@ -2,8 +2,8 @@
   "name": "Arteries",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 31,
-    "item": 4567
+    "group": 21,
+    "item": 1237
   },
   "claims": [
     {
@@ -64,7 +64,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Blood",
+      "object": "Blood (31, 1238)",
       "temporal": {
         "valid_from": "PRESENT",
         "valid_until": null,
@@ -78,7 +78,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "Blood Vessel",
+      "object": "Blood Vessel (31, 1002)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -117,47 +117,103 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Blood Vasculature",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Carry",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "blood (31, 1238)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "heart (32, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Arteries are blood vessels that carry blood away from the heart.",
+    "definition": "Arteries are blood vessels that carry oxygenated blood away from the heart.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Blood pressure drives blood through the artery.",
-    "origin": null
+    "mechanism": "Arteries have thick, elastic walls that allow them to withstand the high pressure of blood pumped from the heart. They branch into smaller arterioles and then capillaries.",
+    "origin": "Arteries develop from the aortic arches during embryogenesis."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
     "FUNCTION": {
-      "roles": [],
-      "capabilities": []
+      "roles": [
+        "Oxygen Transport",
+        "Blood Pressure Regulation"
+      ],
+      "capabilities": [
+        "Vasoconstriction",
+        "Vasodilation",
+        "Pulsatile Flow"
+      ]
     },
     "STRUCTURAL": {
-      "visual_features": [],
+      "visual_features": [
+        "Thick Walls",
+        "Elastic"
+      ],
       "shape": [],
       "composition": [],
       "parts": [],
       "relations": []
     },
     "SPATIAL": {
-      "location": "Throughout the body, typically deep within tissues and organs, often alongside veins and nerves. Specific locations vary depending on the artery; e.g., the aorta is in the thorax and abdomen, while the radial artery is in the forearm.",
+      "location": "Throughout the body",
+      "coordinates": [],
       "connected_to": [
         "Heart",
-        "Arterioles",
-        "Capillaries",
-        "Other Arteries",
-        "Aorta",
-        "Pulmonary Artery"
+        "Arterioles"
       ],
-      "coordinates": []
+      "contained_in": "Vascular System"
     }
   },
   "epistemic_metadata": {
-    "source": "Vascular development, remodeling and maturation",
-    "citations": []
-  },
-  "autocorrected": true
+    "source": "Set Automatically",
+    "citations": [
+      "Vascular development, remodeling and maturation",
+      "Vascular development, remodeling and maturation - PubMed",
+      "Development of Blood Vessels and Fetal Circulation | Anatomy and ..."
+    ]
+  }
 }

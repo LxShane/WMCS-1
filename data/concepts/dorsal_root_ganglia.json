@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 21,
-    "item": 2222
+    "item": 2345
   },
   "claims": [
     {
@@ -19,35 +19,47 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Sensory Neurons",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Ganglia located in the dorsal roots of spinal nerves.",
+    "definition": "A cluster of neurons in a dorsal root of a spinal nerve.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Contains cell bodies of sensory neurons.",
-    "origin": "Development of the nervous system."
+    "mechanism": "Contains the cell bodies of sensory neurons.",
+    "origin": "Develops during embryonic development."
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Sensory Relay"
+    "SPATIAL": {
+      "location": "Posterior to the spinal cord, within the intervertebral foramina",
+      "connected_to": [
+        "Spinal cord",
+        "Dorsal root",
+        "Peripheral nerves"
       ],
-      "capabilities": [
-        "House sensory neuron cell bodies"
-      ]
-    },
-    "STRUCTURAL": {},
-    "SPATIAL": {}
+      "coordinates": []
+    }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "Dorsal column\u2013medial lemniscus pathway - Wikipedia"
+      "https://journals.biologists.com/dev/article/150/9/dev201164/309503/The-peripheral-nervous-system"
     ]
-  }
+  },
+  "autocorrected": true
 }

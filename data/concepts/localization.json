@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1234
+    "item": 5678
   },
   "claims": [
     {
@@ -201,42 +201,120 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Dynamic positioning of a substance within a specific area",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Rac1 protein",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "cadherins",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Means of adapting to different languages, regional peculiarities and technical requirements of a target locale",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Adapting a software application to a specific locale or market.",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "String localization",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The process of determining the position and orientation of an autonomous vehicle.",
-    "common_uses": []
+    "definition": "The process of adapting a software application to a specific locale or market.",
+    "common_uses": [
+      "adapting software",
+      "displaying different strings based on locale"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Involves using sensor data (e.g., lidar, cameras, GPS) and maps to estimate the vehicle's location.",
-    "origin": null
+    "mechanism": "Involves translating text, adapting date and time formats, and adjusting for cultural norms.",
+    "origin": "Evolved as software needed to cater to specific regional markets."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Translating a website into Japanese for the Japanese market."
+    ]
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+    "ABSTRACT_DATA": {
+      "domain": "Software Development",
+      "related_terms": [
+        "Internationalization"
+      ]
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Internationalization and localization - Wikipedia",
     "citations": [
-      "https://arxiv.org/pdf/2507.20399"
+      "Page 1"
     ]
   }
 }

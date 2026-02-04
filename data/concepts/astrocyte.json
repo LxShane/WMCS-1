@@ -3,12 +3,12 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 21,
-    "item": 1006
+    "item": 1001
   },
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "Glial cell",
+      "object": "Glial cell (21, 1001)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "Cell",
+      "object": "Cell (21, 1001)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -33,6 +33,52 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "integrating multiple synapses",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Astrocyte Leaflet",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "brain (20, 3456)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cell (21, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
@@ -40,15 +86,13 @@
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Supports neuronal function, regulates the extracellular environment, and contributes to the blood-brain barrier.",
+    "mechanism": null,
     "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
-    "source": "Transcriptomic cytoarchitecture reveals principles of human neocortex organization | Science",
+    "source": "Set Automatically",
     "citations": []
   }
 }

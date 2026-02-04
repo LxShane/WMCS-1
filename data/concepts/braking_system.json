@@ -2,13 +2,13 @@
   "name": "Braking System",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 29,
-    "item": 1006
+    "group": 30,
+    "item": 1003
   },
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "Vehicle System",
+      "object": "Vehicle System (29, 1009)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "LOCATED_AT",
-      "object": "Vehicle",
+      "object": "Vehicle (30, 1006)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -33,53 +33,64 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Crucial component of any vehicle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Slowing down or stopping the vehicle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "vehicle (30, 1006)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A system used to slow down or stop a vehicle.",
+    "definition": "A system in a vehicle responsible for slowing down or stopping the vehicle.",
     "common_uses": [
-      "Stopping a vehicle",
-      "Slowing down a vehicle"
+      "Decelerating",
+      "Stopping"
     ]
   },
   "deep_layer": {
-    "mechanism": "Applies friction to the wheels to reduce speed.",
-    "origin": null
+    "mechanism": "The braking system uses friction to slow down or stop the vehicle's wheels.",
+    "origin": "Developed alongside the automobile."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Deceleration"
-      ],
-      "capabilities": [
-        "Apply braking force",
-        "Reduce vehicle speed",
-        "Stop vehicle"
-      ]
-    },
-    "SPATIAL": {
-      "location": "Varies depending on the type of braking system. Disc brakes are located near the wheels, while drum brakes are integrated within the wheel hub. The master cylinder is typically located in the engine compartment, connected to the brake pedal.",
-      "connected_to": [
-        "Wheels",
-        "Brake pedal",
-        "Brake lines",
-        "Master cylinder",
-        "Calipers (disc brakes)",
-        "Brake shoes/pads",
-        "Brake rotors/drums",
-        "Axle"
-      ],
-      "coordinates": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "See URLs",
     "citations": [
-      "US11694116B2 - Vehicle resiliency, driving feedback and risk"
+      "https://schematron.org/brake-pedal-assembly-diagram.html"
     ]
-  },
-  "autocorrected": true
+  }
 }

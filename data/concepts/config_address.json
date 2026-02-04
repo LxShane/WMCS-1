@@ -1,0 +1,88 @@
+{
+  "name": "CONFIG_ADDRESS",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1236
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "I / O location",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "1993",
+        "event": "PCI 2.0 introduced"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "HISTORICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "the first location (0xCF8)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "1993",
+        "event": "PCI 2.0 introduced"
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "HISTORICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "specifies the configuration address that is required to be accessed",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "1993",
+        "event": "PCI 2.0 introduced"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "HISTORICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "i/o (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "pci (24, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The I/O location used to specify the configuration address for PCI devices (deprecated in PCI 2.0).",
+    "common_uses": [
+      "Specifying the configuration address"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Writing to this I/O location sets the address of the configuration register to be accessed.",
+    "origin": "Part of the PCI 1.0 specification."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "PCI - OSDev Wiki",
+    "citations": []
+  }
+}

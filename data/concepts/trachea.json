@@ -1,0 +1,86 @@
+{
+  "name": "Trachea",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 24,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Superior Mediastinum",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Trunk of the Tracheobronchial Tree",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Bifurcating",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Level of the Sternal Angle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The trachea is a tube in the mediastinum that connects the larynx to the bronchi.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "The trachea transports air to the lungs.",
+    "origin": "Develops from the foregut during embryogenesis."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "SPATIAL": {
+      "location": "Superior Mediastinum"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Respiratory system: Anatomy and functions - Kenhub",
+    "citations": []
+  }
+}

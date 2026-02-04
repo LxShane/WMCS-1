@@ -1,0 +1,81 @@
+{
+  "name": "Inferior Epigastric Vein",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 31,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "DRAINS_INTO",
+      "object": "external iliac vein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "ANASTOMOSES_FROM",
+      "object": "superior epigastric vein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A vein that drains into the external iliac vein and anastomoses from the superior epigastric vein.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Provides venous drainage from the epigastric region to the external iliac vein.",
+    "origin": "Develops within the abdominal wall."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Epigastric Drainer"
+      ],
+      "capabilities": [
+        "Drains blood from epigastric region"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Abdominal Wall",
+      "coordinates": [],
+      "connected_to": [
+        "external iliac vein",
+        "superior epigastric vein"
+      ],
+      "contained_in": "Abdominal Wall"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "NCBI Bookshelf"
+    ]
+  }
+}

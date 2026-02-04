@@ -1,0 +1,48 @@
+{
+  "name": "Air Balancing",
+  "type": "ABSTRACT",
+  "id": {
+    "group": 50,
+    "item": 9900
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Maintaining desired airflow",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Adjusting airflow rates in a system.",
+    "common_uses": [
+      "HVAC systems",
+      "Ventilation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Adjusting dampers and fan speeds to ensure even airflow.",
+    "origin": "Ensures optimal system performance."
+  },
+  "instance_layer": {
+    "examples": [
+      "Balancing airflow in a building's HVAC",
+      "Adjusting ventilation rates in a lab"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://mechbasic.com/hvac-air-balancing-and-pressure-drop-explained-in-simple-way/"
+    ]
+  }
+}

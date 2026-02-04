@@ -1,0 +1,101 @@
+{
+  "name": "Wind Power",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Energy Source",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "One of the cleanest, most environmentally friendly energy sources",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Power generated from wind using wind turbines.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Renewable Energy",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Electricity produced by harnessing the energy of the wind.",
+    "common_uses": [
+      "Electricity generation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Wind turns turbine blades connected to a generator.",
+    "origin": "Ancient windmills, modern wind turbines."
+  },
+  "instance_layer": [
+    "Wind farms provide electricity to the grid."
+  ],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Energy Source"
+      ],
+      "capabilities": [
+        "Power generation"
+      ]
+    },
+    "ABSTRACT_DATA": {
+      "domain": "Energy",
+      "properties": [
+        "Renewable"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Chapter: 3 Renewable Electricity Generation Technologies"
+    ]
+  }
+}

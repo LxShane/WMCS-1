@@ -1,0 +1,40 @@
+{
+  "name": "Offline Unit",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "provides electrical isolation between the primary power source and the critical technical load",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A unit that provides electrical isolation between power sources and loads.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Uses isolation transformers or other components to prevent electrical flow.",
+    "origin": "Electrical engineering."
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Auxiliary power - Wikipedia",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Auxiliary_power"
+    ]
+  }
+}

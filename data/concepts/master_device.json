@@ -1,0 +1,77 @@
+{
+  "name": "master device",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "orchestrates communication",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "driving the clock signal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "driving the chip select signal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The device that controls the SPI communication.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Drives the clock and chip select signals to control slave devices.",
+    "origin": null
+  },
+  "instance_layer": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Master"
+      ],
+      "capabilities": [
+        "Orchestrates communication"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Serial_Peripheral_Interface"
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Nuclear Plant",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 22,
+    "item": 1006
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Power Station",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Electricity Generation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Nuclear Fuel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A power plant that uses nuclear fission to generate electricity.",
+    "common_uses": [
+      "Electricity Generation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Nuclear fission heats water to create steam that drives turbines.",
+    "origin": "Mid 20th century."
+  },
+  "instance_layer": [
+    "Large nuclear power plant"
+  ],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Electricity Generator"
+      ],
+      "capabilities": [
+        "Converts nuclear energy into electrical energy"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Containment Structure",
+        "Cooling towers"
+      ],
+      "shape": [
+        "Industrial Complex"
+      ],
+      "composition": [
+        "Steel",
+        "Concrete"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Areas with water sources",
+      "coordinates": [],
+      "connected_to": [
+        "Uranium mines",
+        "Electricity Grid"
+      ],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Energy Sources | Springer Nature Link"
+    ]
+  }
+}

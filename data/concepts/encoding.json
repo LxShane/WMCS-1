@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1001
+    "item": 1234
   },
   "claims": [
     {
@@ -173,23 +173,65 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Process of converting data into a specific format",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Efficient transmission",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Efficient storage",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Encoding is the process of converting data into a specific format for transmission or storage.",
+    "definition": "Conversion of data into a specific format for transmission or storage.",
     "common_uses": [
       "Data transmission",
       "Data storage"
     ]
   },
   "deep_layer": {
-    "mechanism": "Encoding algorithms use mathematical transformations to represent data in a way that is optimized for the specific medium.",
-    "origin": "Developed for efficient and reliable data communication."
+    "mechanism": "Encoding algorithms define the format of the data.",
+    "origin": "Developed with the advent of digital communication."
   },
   "instance_layer": {
     "examples": [
-      "ASCII encoding",
-      "UTF-8 encoding"
+      "UTF-8 encoding for text",
+      "MP3 encoding for audio"
     ]
   },
   "facets": {
@@ -204,11 +246,11 @@
     }
   },
   "epistemic_metadata": {
-    "source": "Data Encoding Techniques - Online Tutorials Library, Signal Encoding Techniques - Washington University in St. Louis, Signal Encoding In Data Transmission: Types and Impact",
+    "source": "Multiple Web Sources",
     "citations": [
-      "https://www.tutorialspoint.com/digital_communication/digital_communication_data_encoding_techniques.htm",
-      "https://www.cse.wustl.edu/~jain//cse473-05/ftp/i_5cod.pdf",
-      "https://kce.ac.in/signal-encoding-in-data-transmission/"
+      "https://scienceprog.com/encoding-and-modulation-of-digital-signals/",
+      "https://cs.stackexchange.com/questions/13862/difference-between-encoding-and-modulation-in-transmission",
+      "https://www.differencebetween.com/difference-between-encoding-and-vs-modulation/"
     ]
   }
 }

@@ -1,0 +1,70 @@
+{
+  "name": "Excitation Controller",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 1236
+  },
+  "claims": [
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Adjusting DC Current",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Applicable Excitation Circuit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A controller that adjusts the DC current to the field winding.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Controls electrical energy flow to the field winding.",
+    "origin": "Part of Generator excitation system."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Generator"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "PSRC WG J20 Report",
+    "citations": [
+      "https://www.pes-psrc.org/kb/report/119.pdf"
+    ]
+  }
+}

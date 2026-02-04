@@ -1,9 +1,9 @@
 {
   "name": "Abdominopelvic Cavity",
-  "type": "INANIMATE_OBJECT",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 37,
-    "item": 1243
+    "group": 21,
+    "item": 6789
   },
   "claims": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Abdominal cavity",
+      "object": "Abdominal cavity (25, 8847)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -33,22 +33,118 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Body Cavity (37, 1234)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Abdominal Cavity (25, 8847)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Pelvic Cavity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Body Cavity (37, 1234)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Subdivision",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The largest cavity in the body, containing the abdominal cavity.",
+    "definition": "A cavity in the body that consists of the abdominal cavity and the pelvic cavity.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Houses and protects internal organs.",
+    "origin": "Develops during embryonic development."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Human Abdominopelvic Cavity"
+    ]
   },
-  "facets": {},
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Large",
+        "Hollow"
+      ],
+      "shape": [
+        "Complex"
+      ]
+    },
+    "SPATIAL": {
+      "contained_in": "Ventral Cavity"
+    },
+    "FUNCTION": {
+      "roles": [
+        "Protector"
+      ],
+      "capabilities": [
+        "Protect Organs",
+        "Provide Space for Organs"
+      ]
+    }
+  },
   "epistemic_metadata": {
-    "source": "Body Cavities, Serous Membranes, and Tissue Membranes",
-    "citations": []
+    "source": "Chapter 1. Body Structure \u2013 Human Anatomy and Physiology I",
+    "citations": [
+      "Chapter 1. Body Structure \u2013 Human Anatomy and Physiology I"
+    ]
   }
 }

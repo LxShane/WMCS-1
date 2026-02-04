@@ -1,0 +1,59 @@
+{
+  "name": "Cooling Performance",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Effectiveness of cooling system",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "heat (20, 3456)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Measure of how well a system removes heat.",
+    "common_uses": [
+      "Engineering analysis",
+      "System design"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Affected by coolant flow rate, heat source intensity, and channel geometry.",
+    "origin": "Thermodynamics"
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Performance metric"
+      ],
+      "capabilities": [
+        "Quantifying cooling effectiveness"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

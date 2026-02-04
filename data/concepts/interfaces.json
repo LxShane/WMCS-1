@@ -1,9 +1,9 @@
 {
-  "name": "interfaces",
-  "type": "ABSTRACT_CONCEPT",
+  "name": "Interfaces",
+  "type": "PHYSICAL",
   "id": {
-    "group": 50,
-    "item": 1002
+    "group": 30,
+    "item": 3333
   },
   "claims": [
     {
@@ -47,42 +47,38 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Boundary between two phases or materials.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A point where two systems, subjects, organizations, etc. meet and interact.",
-    "common_uses": [
-      "Data transfer",
-      "System integration"
-    ]
+    "definition": "A surface forming a common boundary of two bodies, spaces, or phases.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Allows separate systems to communicate by defining protocols.",
-    "origin": "System design."
+    "mechanism": "The interface acts as a region where properties change from one phase to another.",
+    "origin": "Forms wherever distinct phases are in contact."
   },
   "instance_layer": {
-    "examples": [
-      "USB port",
-      "API endpoint"
-    ]
+    "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Communication",
-        "Data transfer"
-      ],
-      "capabilities": [
-        "Establishing connection",
-        "Data exchange",
-        "Standardized protocol"
-      ]
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "https://www.monolithicpower.com/en/learning/mpscholar/automotive-electronics/automotive-sensing-and-actuators/integration-and-interfacing?srsltid=AfmBOorr1LSuyFAhx9G7hC2Eb3Bm838b1BEnUPRptBJxpr9SdJf32iZX",
+    "source": "Ingestion Engine",
     "citations": [
-      "Integration and Interfacing of Sensors and Actuators"
+      "Water at Interfaces: Its Behavior and Roles in Interfacial Phenomena ..."
     ]
   }
 }

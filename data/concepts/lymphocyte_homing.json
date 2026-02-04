@@ -1,0 +1,70 @@
+{
+  "name": "Lymphocyte homing",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "process involving adhesive and migrative molecules",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REGULATES",
+      "object": "lymphocyte homing",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "lymphocyte homing receptor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Lymphocyte homing is regulated by receptor expression.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Lymphocyte homing requires lymphocyte homing receptor and endothelial vascular addressin expression to colonize lymph nodes.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Homing and cellular traffic in lymph nodes - Nature",
+    "citations": [
+      "Homing and cellular traffic in lymph nodes - Nature"
+    ]
+  }
+}

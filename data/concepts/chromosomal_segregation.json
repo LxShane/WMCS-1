@@ -1,9 +1,9 @@
 {
-  "name": "Chromosomal Segregation",
+  "name": "Chromosomal segregation",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 7890
+    "group": 60,
+    "item": 1237
   },
   "claims": [
     {
@@ -19,6 +19,52 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Cellular process",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Access to DNA",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cell (21, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "process (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
@@ -26,17 +72,19 @@
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Involves complex mechanisms ensuring equal distribution of genetic material.",
-    "origin": "Essential for maintaining genetic stability."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "PROCESS_DATA": {}
+  },
   "epistemic_metadata": {
-    "source": "PubMed article",
+    "source": "Set Automatically",
     "citations": [
-      "https://pubmed.ncbi.nlm.nih.gov/27734150/"
+      "PMC9683059"
     ]
   }
 }

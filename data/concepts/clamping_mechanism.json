@@ -1,0 +1,57 @@
+{
+  "name": "Clamping Mechanism",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "REQUIRES",
+      "object": "Heat transfer devices",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "pressure (20, 8765)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A device that holds or fastens parts together, often using pressure."
+  },
+  "deep_layer": {
+    "mechanism": "Uses a physical force to maintain contact between components."
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Fastener"
+      ],
+      "capabilities": [
+        "Apply pressure",
+        "Secure components"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "[PDF] Thermal Interface Materials Selection and Application Guidelines - S3VI"
+    ]
+  }
+}

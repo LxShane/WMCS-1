@@ -1,9 +1,9 @@
 {
   "name": "Diffusion Coefficient",
-  "type": "ABSTRACT_CONCEPT",
+  "type": "MATHEMATICAL_OBJECT",
   "id": {
-    "group": 50,
-    "item": 2346
+    "group": 40,
+    "item": 3456
   },
   "claims": [
     {
@@ -19,29 +19,38 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "property",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A proportionality constant that relates the molar flux due to diffusion to the concentration gradient.",
+    "definition": "The diffusion coefficient is a measure of how quickly a substance diffuses.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Due to random molecular motion.",
-    "origin": "Thermodynamics and transport phenomena."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "ABSTRACT_DATA": {
-      "domain": "Thermodynamics",
-      "properties": [
-        "Fick's Laws of Diffusion"
-      ]
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "https://www.sciencedirect.com/science/article/pii/S0378381225001748",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://mriquestions.com/apparent-diffusion.html"
+    ]
   }
 }

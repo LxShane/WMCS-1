@@ -1,0 +1,72 @@
+{
+  "name": "PCI Controller",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "manages data transfer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "manages arbitration between devices on the PCI bus",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A component that manages data transfer and arbitration between devices on the PCI bus.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "The PCI controller manages the flow of data across the PCI bus, ensuring that devices do not interfere with each other.",
+    "origin": "Designed as part of the PCI standard."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "On motherboard",
+      "coordinates": [],
+      "connected_to": [
+        "PCI bus"
+      ],
+      "contained_in": "Computer"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Chapter 6 PCI - Linux Documentation Project"
+    ]
+  }
+}

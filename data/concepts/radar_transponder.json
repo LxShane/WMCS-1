@@ -1,0 +1,84 @@
+{
+  "name": "Radar Transponder",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 29,
+    "item": 7891
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Beacon",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A radar transponder is a device that emits a signal when it receives a radar signal.",
+    "common_uses": [
+      "identification",
+      "navigation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The transponder receives a radar signal and automatically transmits a coded signal in response. This helps the radar system to identify the transponder and its location more easily.",
+    "origin": "Radar transponders were developed during World War II as a means of identifying friendly aircraft."
+  },
+  "instance_layer": {
+    "examples": [
+      "SART (Search and Rescue Transponder)"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Identification",
+        "Navigation Aid"
+      ],
+      "capabilities": [
+        "Receives radar signal",
+        "Transmits coded signal"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Antenna",
+        "Electronic components"
+      ],
+      "shape": [
+        "Varies depending on type"
+      ],
+      "composition": [
+        "Electronic components",
+        "Metal"
+      ],
+      "parts": [
+        "Antenna",
+        "Receiver",
+        "Transmitter",
+        "Coder"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Attached to aircraft, ships, etc.",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Beacon"
+    ]
+  }
+}

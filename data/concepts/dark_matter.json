@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1234
+    "item": 1008
   },
   "claims": [
     {
@@ -36,7 +36,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "Matter",
+      "object": "Matter (20, 4567)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -64,7 +64,7 @@
     },
     {
       "predicate": "PROVIDES",
-      "object": "Gravitational influence",
+      "object": "Gravitational influence (20, 4567)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -75,36 +75,80 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "Quantum Entanglement (50, 1234)",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": "Observed on Facebook"
+      },
+      "epistemic": {
+        "confidence": 0.5,
+        "status": "HYPOTHETICAL",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "density (50, 7890)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "energy (50, 1005)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "matter (20, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A hypothetical form of matter that does not interact with light, making it invisible to telescopes.",
-    "common_uses": []
+    "definition": "A hypothetical form of matter that is thought to account for approximately 85% of the matter in the universe and about a quarter of its total mass\u2013energy density.",
+    "common_uses": [
+      "Explaining galaxy rotation curves",
+      "Understanding large-scale structure"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Dark matter interacts gravitationally, providing extra mass and gravity to hold galaxies and galaxy clusters together.",
-    "origin": "Hypothesized to have originated in the early universe."
+    "mechanism": "Unknown; various candidate particles have been proposed.",
+    "origin": "Inferred from gravitational effects on visible matter."
   },
   "instance_layer": {
     "examples": [
-      "The Bullet Cluster provides evidence for the existence of dark matter."
+      "Weakly interacting massive particles (WIMPs)",
+      "Axions"
     ]
   },
   "facets": {
     "FUNCTION": {
-      "roles": [],
+      "roles": [
+        "Providing missing mass in galaxies",
+        "Influencing galaxy formation"
+      ],
       "capabilities": [
-        "Providing gravitational influence",
-        "Providing gravitational scaffolding"
+        "Generating gravitational effects",
+        "Interacting weakly with ordinary matter"
       ]
     }
   },
   "epistemic_metadata": {
-    "source": "Multiple Web Sources",
-    "citations": [
-      "https://davidboulton.com/centraldynamic/",
-      "https://universewatcher.com/galactic-scale-exploration/",
-      "https://diversedaily.com/unraveling-the-cosmos-the-estimated-distribution-of-dark-matter-and-dark-energy-in-the-universe/"
-    ]
+    "source": "https://www.facebook.com/groups/1685507044817357/posts/25899655022975888/",
+    "citations": []
   }
 }

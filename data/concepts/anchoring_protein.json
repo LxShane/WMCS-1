@@ -2,8 +2,8 @@
   "name": "Anchoring Protein",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 7890
+    "group": 22,
+    "item": 1001
   },
   "claims": [
     {
@@ -117,56 +117,68 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Regulator of signaling pathways",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Cellular compartment",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "enzymes (21, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "protein (22, 1000)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Proteins that connect cells to their external environment or to other cells, providing mechanical stability and mediating adhesion.",
+    "definition": "A protein that regulates signaling pathways, often by segregating signaling enzymes in cellular compartments.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Enable specific binding, membrane anchoring, and interaction with the cell's internal structures.",
-    "origin": "Encoded in the genome"
+    "mechanism": "Anchoring proteins coordinate signal transduction by segregating signaling enzymes, ensuring activation only in the vicinity of the anchoring protein.",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Cell Adhesion"
-      ],
-      "capabilities": [
-        "Binding",
-        "Membrane anchoring",
-        "Interaction with cell internal structures"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [
-        "Extracellular domain",
-        "Transmembrane domain",
-        "Intracellular domain"
-      ],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "Cell membrane",
-      "coordinates": [],
-      "connected_to": [
-        "External environment",
-        "Other cells",
-        "Cell's internal structures"
-      ],
-      "contained_in": "Cell membrane"
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "gna.it.com"
-    ]
+    "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/22859670/",
+    "citations": []
   }
 }

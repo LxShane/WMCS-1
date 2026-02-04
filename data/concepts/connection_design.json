@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 3456
+    "item": 1004
   },
   "claims": [
     {
@@ -19,22 +19,88 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Process of designing and detailing points where structural elements meet",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Cornerstone of structural engineering",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Maintaining the structural integrity of a building",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "process (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The process of designing connections in structural engineering.",
+    "definition": "The process of designing and detailing connections between structural elements.",
     "common_uses": [
-      "Structural engineering"
+      "Ensuring structural stability",
+      "Transferring loads"
     ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Allows for safe load transfer and prevents structural failure.",
+    "origin": "Evolved from traditional building techniques to modern engineering practices."
   },
-  "instance_layer": [],
-  "facets": {},
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Structural Engineer"
+      ],
+      "capabilities": [
+        "Designing Connections",
+        "Detailing Connections"
+      ]
+    }
+  },
   "epistemic_metadata": {
-    "source": "https://strucalc.com/blog/learning/basics-of-connection-design/",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://strucalc.com/blog/learning/basics-of-connection-design/"
+    ]
   }
 }

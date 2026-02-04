@@ -1,0 +1,48 @@
+{
+  "name": "CLB",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "physical component in FPGA",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Configurable Logic Block, fundamental building block in FPGAs.",
+    "common_uses": [
+      "Implementing logic functions",
+      "Storing data"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Contains logic gates and flip-flops that can be configured to perform different functions.",
+    "origin": "Part of the architecture of Field-Programmable Gate Arrays."
+  },
+  "instance_layer": {
+    "examples": [
+      "Xilinx CLB",
+      "Altera CLB"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Lecture 13 \u2013 Timing Analysis"
+    ]
+  }
+}

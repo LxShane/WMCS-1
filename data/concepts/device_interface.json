@@ -1,0 +1,68 @@
+{
+  "name": "Device Interface",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 24,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "a component that controls the operation of a peripheral device according to commands from the computer processor",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "interface (20, 6543)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "processor (20, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A device interface controls a peripheral device based on commands from a processor.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "The device interface receives commands from the computer processor and translates them into signals that control the operation of the connected peripheral device."
+  },
+  "instance_layer": [],
+  "facets": {
+    "STRUCTURAL": {},
+    "FUNCTION": {
+      "roles": [
+        "Controller"
+      ],
+      "capabilities": [
+        "Control peripheral device operation"
+      ]
+    },
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Device Interface - an overview | ScienceDirect Topics"
+    ]
+  }
+}

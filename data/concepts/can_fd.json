@@ -22,7 +22,7 @@
     },
     {
       "predicate": "USED_FOR",
-      "object": "Vehicle Connection",
+      "object": "Vehicle Connection (50, 1014)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -50,7 +50,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "physical layer",
+      "object": "physical layer (50, 1234)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -74,6 +74,15 @@
         "confidence": 0.8,
         "status": "SETTLED",
         "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "data (50, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
       }
     }
   ],

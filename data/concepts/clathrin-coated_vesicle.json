@@ -1,0 +1,51 @@
+{
+  "name": "Clathrin-coated Vesicle",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 30,
+    "item": 1236
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Cargo Protein Sorting",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "protein (22, 1000)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Clathrin-coated vesicles are involved in cargo protein sorting.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Clathrin-coated vesicles mediate cargo protein sorting.",
+    "origin": "Eukaryotic cells"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.molbiolcell.org/doi/full/10.1091/mbc.e15-09-0621"
+    ]
+  }
+}

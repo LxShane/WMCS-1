@@ -1,0 +1,81 @@
+{
+  "name": "Catalytic Filter Module",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 24,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Module (20, 9012)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Catalysis",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "module (20, 9012)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A module that performs catalysis.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "The module facilitates chemical reactions through catalysis.",
+    "origin": "Engineered for catalytic processes."
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Catalyst"
+      ],
+      "capabilities": [
+        "Facilitating chemical reactions"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Inline within exhaust system",
+      "connected_to": [
+        "Exhaust manifold",
+        "Muffler",
+        "Tailpipe",
+        "Oxygen sensor"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "US9504958B2",
+    "citations": []
+  },
+  "autocorrected": true
+}

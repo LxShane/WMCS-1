@@ -1,0 +1,108 @@
+{
+  "name": "Dielectric Heating",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Heating caused by molecular dipole rotation within a dielectric at higher frequencies",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Cooking food in microwave ovens",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "frequency (40, 5678)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "material (30, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "process (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "radiation (20, 1004)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A process in which radio frequency (RF) electromagnetic radiation or microwave radiation heats a dielectric material.",
+    "common_uses": [
+      "Cooking",
+      "Industrial heating"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Molecular dipole rotation within the dielectric material causes the heating.",
+    "origin": "Application of RF or microwave radiation to dielectric material."
+  },
+  "instance_layer": {
+    "examples": [
+      "Microwave oven cooking food"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Heating Agent"
+      ],
+      "capabilities": [
+        "Heating dielectric materials",
+        "Causing molecular dipole rotation"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Dielectric heating - Wikipedia, Dielectric Heating - an overview | ScienceDirect Topics",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Dielectric_heating",
+      "https://www.sciencedirect.com/topics/medicine-and-dentistry/dielectric-heating"
+    ]
+  }
+}

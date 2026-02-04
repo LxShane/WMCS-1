@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 2222
+    "item": 4567
   },
   "claims": [
     {
@@ -33,39 +33,36 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "specification that defines how power is delivered over USB",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The process of supplying electrical power to a device.",
-    "common_uses": [
-      "Charging a phone via USB",
-      "Powering a USB fan"
-    ]
+    "definition": "Specification for delivering power over USB.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Involves transferring electrical energy from a source to a device.",
-    "origin": "A fundamental process for operating electronic devices."
+    "mechanism": "Uses specific protocols to negotiate voltage and current.",
+    "origin": "Defined by USB Power Delivery specifications."
   },
-  "instance_layer": {
-    "examples": [
-      "Powering an external hard drive with a USB cable",
-      "Charging a smartwatch with a USB charger"
-    ]
-  },
-  "facets": {
-    "ABSTRACT_DATA": {
-      "domain": "Electrical Engineering",
-      "properties": [
-        "Efficient",
-        "Safe"
-      ]
-    }
-  },
+  "instance_layer": [],
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Multiple Web Sources",
+    "source": "Set Automatically",
     "citations": [
-      "https://www.nextpcb.com/blog/usb-pinout",
-      "https://www.electronicshub.org/usb-pinout/"
+      "https://isolo.org/dokuwiki/knowledge_base/professional/usb_c"
     ]
   }
 }

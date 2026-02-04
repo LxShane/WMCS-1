@@ -1,9 +1,9 @@
 {
   "name": "Molecular Layer",
-  "type": "BODY_PART",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 23,
-    "item": 1241
+    "group": 21,
+    "item": 1005
   },
   "claims": [
     {
@@ -19,17 +19,36 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Part of the Dentate Gyrus",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A layer in the cerebellum.",
+    "definition": "A layer within the dentate gyrus.",
     "common_uses": []
   },
-  "deep_layer": {},
-  "instance_layer": {},
-  "facets": {},
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
   "epistemic_metadata": {
-    "source": "Mode and Tempo of Tangential Cell Migration in the Cerebellar External Granular Layer | Journal of Neuroscience",
+    "source": "Set Automatically",
     "citations": []
-  }
+  },
+  "facets": {}
 }

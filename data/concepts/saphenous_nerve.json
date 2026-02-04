@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 21,
-    "item": 7890
+    "item": 1003
   },
   "claims": [
     {
@@ -33,24 +33,50 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Cutaneous Nerve",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "innervate specific regions of the leg and foot",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A nerve that innervates the medial leg.",
+    "definition": "A cutaneous nerve that innervates specific regions of the leg and foot.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Transmits sensory information from the leg and foot.",
+    "origin": "Biological development"
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
     "FUNCTION": {
-      "roles": [
-        "Nerve"
-      ],
+      "roles": [],
       "capabilities": []
     },
     "STRUCTURAL": {
@@ -61,14 +87,16 @@
       "relations": []
     },
     "SPATIAL": {
-      "location": "Lower limb",
+      "location": null,
       "coordinates": [],
       "connected_to": [],
       "contained_in": null
     }
   },
   "epistemic_metadata": {
-    "source": "https://physical-therapy.us/sciatic-nerve/",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "Cutaneous Innervation - an overview | ScienceDirect Topics"
+    ]
   }
 }

@@ -1,0 +1,57 @@
+{
+  "name": "String Vibration",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 20,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Physical Phenomenon",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Damping",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Oscillatory motion of a string.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Vibration is due to the interplay of tension and mass along the string.",
+    "origin": "Excitation of string"
+  },
+  "instance_layer": [
+    "Guitar string vibration"
+  ],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Matt Dailis, Physics Stack Exchange",
+    "citations": [
+      "https://mattdailis.github.io/simulating-strings/resources/physics_of_vibrating_strings.pdf",
+      "https://physics.stackexchange.com/questions/798040/vibrating-string-and-damping"
+    ]
+  }
+}

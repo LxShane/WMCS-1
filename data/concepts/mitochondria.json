@@ -2,8 +2,8 @@
   "name": "Mitochondria",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 5678
+    "group": 21,
+    "item": 1238
   },
   "claims": [
     {
@@ -229,14 +229,70 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Organelle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Cytoplasm",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Mitochondria-Associated Membranes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Organelle",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Mitochondria are organelles responsible for energy production.",
+    "definition": "Organelle responsible for energy production.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "ATP generation via oxidative phosphorylation.",
+    "mechanism": "ATP production through oxidative phosphorylation.",
     "origin": "Endosymbiotic origin."
   },
   "instance_layer": {
@@ -263,8 +319,6 @@
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": [
-      "Membrane contact site - Wikipedia"
-    ]
+    "citations": []
   }
 }

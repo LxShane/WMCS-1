@@ -1,14 +1,14 @@
 {
   "name": "Bladder",
-  "type": "BODY_PART",
+  "type": "LIVING_SYSTEM",
   "id": {
     "group": 22,
-    "item": 1002
+    "item": 1010
   },
   "claims": [
     {
       "predicate": "LOCATED_AT",
-      "object": "Pelvic Floor",
+      "object": "Pelvic Floor (32, 1001)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -19,27 +19,59 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Subperitoneal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A hollow organ in the pelvis that stores urine.",
+    "definition": "A muscular sac in the pelvis that stores urine.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Stores urine until excretion.",
+    "origin": "Develops during embryonic development."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "STRUCTURAL": {},
-    "SPATIAL": {}
+    "STRUCTURAL": {
+      "visual_features": [
+        "Sac-like",
+        "Elastic"
+      ],
+      "shape": [
+        "Sac"
+      ],
+      "composition": [
+        "Muscle"
+      ],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Pelvis",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Pelvic cavity"
+    }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "Pelvic Floor Anatomy - Physiopedia"
+      "Extraperitoneal: retroperitoneal, subperitoneal, preperitoneal"
     ]
   }
 }

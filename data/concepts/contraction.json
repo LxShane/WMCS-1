@@ -2,27 +2,96 @@
   "name": "Contraction",
   "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 50,
-    "item": 1242
+    "group": 51,
+    "item": 1003
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Altering the Volume of the Thoracic Cavity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Altering the Volume of the Lungs",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Inspiration",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "muscle (21, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "tissue (21, 1007)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "The process of becoming smaller.",
+    "definition": "A shortening or tensing of a muscle or other tissue.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Actin and Myosin interaction",
+    "origin": "Biological process"
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "STRUCTURAL": {},
-    "SPATIAL": {}
+    "PROCESS_DATA": {
+      "roles": [
+        "Actuator"
+      ],
+      "capabilities": [
+        "Force generation"
+      ]
+    }
   },
   "epistemic_metadata": {
-    "source": "https://www.sdbonline.org/sites/fly/aimain/model-organisms-october2022.htm",
-    "citations": []
+    "source": "Ingestion Engine",
+    "citations": [
+      "Muscles of Respiration - Physiopedia"
+    ]
   }
 }

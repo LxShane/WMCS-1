@@ -1,0 +1,86 @@
+{
+  "name": "Cardiac Fibroblasts",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 4321
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Cell (21, 1001)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Ventricular Myocardium",
+      "temporal": {
+        "valid_from": "2022",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Coordinate all functional processes",
+      "temporal": {
+        "valid_from": "2022",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "fibroblasts (21, 1012)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "heart (32, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Fibroblasts found in the heart.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Orchestrates cellular crosstalk.",
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Fibroblasts orchestrate cellular crosstalk in the heart",
+    "citations": [
+      "s44161-022-00043-7"
+    ]
+  }
+}

@@ -2,8 +2,8 @@
   "name": "Lymph Vessel",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 1236
+    "group": 30,
+    "item": 1002
   },
   "claims": [
     {
@@ -47,14 +47,84 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Endothelial cells",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Smooth muscles",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Adventitia",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Valves",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Lymph movement",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A channel that is part of the lymphatic system.",
+    "definition": "Vessels lined by endothelial cells with smooth muscles and adventitia.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Lymph vessels transport lymph throughout the body.",
+    "mechanism": "Lymph movement occurs despite low pressure due to smooth muscle action, valves, and compression during contraction of adjacent skeletal muscle and arterial pulsation.",
     "origin": null
   },
   "instance_layer": {
@@ -82,9 +152,7 @@
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://en.wikipedia.org/wiki/Lymph_fluid",
-      "https://en.wikipedia.org/wiki/Lymph",
-      "https://en.wikipedia.org/wiki/Lymphatic_system"
+      "https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Anatomy_and_Physiology_(Boundless)/19:_Lymphatic_System/19.2:_Lymphatic_Vessels/19.2A:_Lymphatic_Vessel_Structure"
     ]
   }
 }

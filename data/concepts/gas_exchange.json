@@ -1,9 +1,9 @@
 {
   "name": "Gas Exchange",
-  "type": "LIVING_SYSTEM",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 23,
-    "item": 1006
+    "group": 50,
+    "item": 7890
   },
   "claims": [
     {
@@ -33,44 +33,73 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Respiratory System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Cardiovascular System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Alveoli",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Gas exchange is the process of moving oxygen and carbon dioxide between the body and the environment.",
+    "definition": "The process where oxygen and carbon dioxide are exchanged in the body.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Oxygen diffuses from the alveoli into the blood, and carbon dioxide diffuses from the blood into the alveoli.",
+    "mechanism": null,
     "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": "Lungs"
-    },
     "FUNCTION": {
       "roles": [],
-      "capabilities": [
-        "Gas Exchange"
-      ]
+      "capabilities": []
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "3.3 Circulatory and Respiratory Systems \u2013 Human Biology"
+      "3.3 Circulatory and Respiratory Systems - Human Biology",
+      "Circulatory and Respiratory Anatomy Explained: Definition, Examples ...",
+      "11.3 Circulatory and Respiratory Systems - Concepts of Biology - 1st ..."
     ]
   }
 }

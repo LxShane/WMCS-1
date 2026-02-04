@@ -1,9 +1,9 @@
 {
   "name": "Complex IV",
-  "type": "INANIMATE_OBJECT",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 30,
-    "item": 1357
+    "group": 20,
+    "item": 1237
   },
   "claims": [
     {
@@ -78,7 +78,7 @@
     },
     {
       "predicate": "LOCATED_AT",
-      "object": "Mitochondria",
+      "object": "Mitochondria (20, 1005)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -92,7 +92,7 @@
     },
     {
       "predicate": "LOCATED_AT",
-      "object": "Inner Membrane",
+      "object": "Inner Membrane (22, 8642)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -103,39 +103,45 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "electron (20, 9012)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Complex IV (cytochrome c oxidase) is the terminal complex in the electron transport chain.",
+    "definition": "Part of the mitochondrial electron transport chain.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Reduces oxygen to water.",
+    "origin": "Encoded by both mitochondrial and nuclear DNA."
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "FUNCTION": {
-      "roles": [
-        "Electron carrier"
+    "SPATIAL": {
+      "location": "Inner mitochondrial membrane",
+      "connected_to": [
+        "Complex III",
+        "Cytochrome c",
+        "Oxygen",
+        "Proton channel"
       ],
-      "capabilities": [
-        "Accepting electrons from cytochrome c"
-      ]
-    },
-    "SPATIAL": {}
+      "coordinates": []
+    }
   },
   "epistemic_metadata": {
-    "source": "Electron transport chain - Wikipedia",
-    "citations": []
-  }
+    "source": "Multiple Academic Sources",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7455186/",
+      "https://www.sciencedirect.com/science/article/pii/S0021925820753020",
+      "https://rupress.org/jcb/article/182/5/937/35051/Cardiolipin-defines-the-interactome-of-the-major"
+    ]
+  },
+  "autocorrected": true
 }

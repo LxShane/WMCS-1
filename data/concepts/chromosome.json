@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 21,
-    "item": 1001
+    "item": 1234
   },
   "claims": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "predicate": "CAPABLE_OF",
-      "object": "Chromosome organisation",
+      "object": "Chromosome organisation (50, 1003)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -64,7 +64,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Genomic contacts",
+      "object": "Genomic contacts (50, 1006)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -75,44 +75,84 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Biological Structure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Chromosome Territory",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Chromatin Domain",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "protein (22, 1000)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "structure (50, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A structure within the cell that contains DNA.",
+    "definition": "A structure of nucleic acids and protein that carries genetic information.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Carry genetic information.",
+    "mechanism": "Chromosomes contain genes which are the basic units of heredity.",
     "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "In cell nucleus",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": "Cell nucleus"
-    },
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    }
-  },
+  "instance_layer": [],
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Ingestion Engine",
+    "source": "Organization and Dynamics of Chromosomes, Chromatin Domains: The Unit of Chromosome Organization:, Live imaging and biophysical modeling support a button-based",
     "citations": [
-      "https://www.labmate-online.com/news/laboratory-products/3/breaking-news/scientists-find-physical-association-between-chromosomes/49808",
       "https://arxiv.org/html/2410.01219v1",
-      "https://epjnonlinearbiomedphys.springeropen.com/articles/10.1140/epjnbp/s40366-016-0029-5"
+      "https://www.cell.com/molecular-cell/fulltext/S1097-2765(16)30181-2",
+      "https://elifesciences.org/articles/64412"
     ]
   }
 }

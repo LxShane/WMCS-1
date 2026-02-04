@@ -3,12 +3,12 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 20,
-    "item": 7654
+    "item": 1004
   },
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "substrate",
+      "object": "substrate (30, 7890)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -33,15 +33,70 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "type I membrane protein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "cleaved by \u03b3-secretase into A\u03b2",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "membrane (20, 9012)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "protein (22, 1000)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "\u03b3-secretase (21, 3344)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "APP is a substrate of \u03b3-secretase.",
+    "definition": "A type I membrane protein that is cleaved by \u03b3-secretase into A\u03b2.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "APP is cleaved by \u03b3-secretase.",
-    "origin": "Naturally occurring protein."
+    "mechanism": "Cleaved by \u03b3-secretase.",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
@@ -49,9 +104,6 @@
   "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": [
-      "https://www.sciencedirect.com/science/article/pii/S108495211830274X",
-      "https://pubmed.ncbi.nlm.nih.gov/32423851/"
-    ]
+    "citations": []
   }
 }

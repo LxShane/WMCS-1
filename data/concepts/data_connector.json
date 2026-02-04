@@ -1,0 +1,118 @@
+{
+  "name": "Data Connector",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Connector (30, 1245)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Data transmission",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "connector (30, 1245)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "data (50, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A connector specifically designed for transmitting data signals.",
+    "common_uses": [
+      "Connecting computers to networks",
+      "Connecting storage devices to servers"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Facilitates data transfer through specific electrical or optical pathways.",
+    "origin": "Evolved from basic electrical connectors with the increasing demand for data communication."
+  },
+  "instance_layer": {
+    "examples": [
+      "Ethernet connector",
+      "Fiber optic connector"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Data Signal Transfer"
+      ],
+      "capabilities": [
+        "Transmitting data signals",
+        "Receiving data signals"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Shielded",
+        "High-density"
+      ],
+      "shape": [
+        "Rectangular",
+        "Circular"
+      ],
+      "composition": [
+        "Metal",
+        "Plastic"
+      ],
+      "parts": [
+        "Data pins",
+        "Housing",
+        "Shielding"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Between data transmitting devices",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Manual",
+    "citations": [
+      "https://www.belden.com/products/connectors/industrial-connectors/data-connectors",
+      "https://blog.hirose.com/smart-design-series-1",
+      "https://www.connectortips.com/connectors-and-cables-modernize-data-centers/"
+    ]
+  }
+}

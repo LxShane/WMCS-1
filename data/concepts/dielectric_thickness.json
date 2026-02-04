@@ -1,0 +1,56 @@
+{
+  "name": "Dielectric Thickness",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1006
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PROPERTY",
+      "object": "Minimum of 2.56",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "material (30, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "thickness (41, 1004)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The thickness of the insulating material between layers.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Affects capacitance and impedance.",
+    "origin": "Related to material properties."
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Multiple Web Sources",
+    "citations": []
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "name": "Sex Steroids",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "PRODUCED_BY",
+      "object": "Gonads",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "ACTS_IN",
+      "object": "Negative feedback loops",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "ACTS_IN",
+      "object": "Positive feedback loops",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REGULATES",
+      "object": "Reproductive function",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "EXERT",
+      "object": "Negative feedback regulation on HPG axis activity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Sex steroids are hormones produced by the gonads that regulate reproductive function.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Sex steroids influence the hypothalamus and pituitary glands through feedback loops.",
+    "origin": "Synthesized within the gonads from cholesterol."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "SPATIAL": {
+      "location": "Endocrine glands (e.g., ovaries, testes, adrenal glands), circulation",
+      "connected_to": [
+        "Endocrine glands",
+        "Blood vessels",
+        "Target tissues with receptors"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Extracted from PMC article",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6129417/",
+      "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2014.00001/full"
+    ]
+  },
+  "autocorrected": true
+}

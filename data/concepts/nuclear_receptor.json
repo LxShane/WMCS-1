@@ -1,0 +1,86 @@
+{
+  "name": "Nuclear Receptor",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 3456
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Cytoplasm",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Migrating to nucleus",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PRECEDES",
+      "object": "Migration to nucleus",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A receptor located in the cytoplasm that migrates to the nucleus after binding.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Upon ligand binding, the nuclear receptor undergoes a conformational change and translocates to the nucleus where it regulates gene expression.",
+    "origin": "Evolved as a means for cells to respond to steroid hormones and other lipophilic signaling molecules."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Cytoplasm, then Nucleus",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Cell"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Biology:Receptor (biochemistry) - HandWiki",
+    "citations": []
+  }
+}

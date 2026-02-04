@@ -1,9 +1,9 @@
 {
-  "name": "Cycle life",
+  "name": "Cycle Life",
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 9876
+    "item": 1004
   },
   "claims": [
     {
@@ -19,20 +19,51 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "battery (23, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "charge (50, 1004)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "discharge (50, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The number of charge-discharge cycles a battery can perform before its capacity falls below a specified level.",
+    "definition": "The number of charge-discharge cycles a battery can undergo before its performance degrades.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Degradation of battery components over time.",
-    "origin": "Repeated charging and discharging."
+    "mechanism": "Depends on battery chemistry and operating conditions.",
+    "origin": "Battery performance."
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Electrode\u2013Electrolyte Interface in Li-Ion Batteries: Current ...",
-    "citations": []
+    "source": "https://arxiv.org/html/2511.23005v1",
+    "citations": [
+      "Toward Unified Interphase Engineering: The Solid\u2013Electrolyte"
+    ]
   }
 }

@@ -1,0 +1,81 @@
+{
+  "name": "Overheating",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "CAUSES",
+      "object": "Performance Issues",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Component Failure",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Reduced Lifespan of Electronic Devices",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A condition where the temperature of a component or system exceeds its safe operating limits.",
+    "common_uses": [
+      "Describing thermal problems in electronics.",
+      "Identifying potential failure modes."
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Excessive heat generation due to inefficient energy conversion or inadequate heat dissipation.",
+    "origin": "Physical limitations of materials and designs."
+  },
+  "instance_layer": {
+    "examples": [
+      "CPU overheating in a computer.",
+      "Power amplifier overheating in a radio."
+    ]
+  },
+  "facets": {
+    "PROPERTY_DATA": {
+      "domain": "Thermal",
+      "antonym": "Cooling"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.allpcb.com/blog/pcb-assembly/thermal-aware-component-placement-a-guide-to-preventing-overheating-on-pcbs.html"
+    ]
+  }
+}

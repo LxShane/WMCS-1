@@ -3,27 +3,84 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 30,
-    "item": 5982
+    "item": 1002
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Protein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "GTP",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "GDP",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": null,
-    "common_uses": []
+    "definition": "A globular protein subunit of microtubules.",
+    "common_uses": [
+      "Microtubule formation"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Polymerizes to form microtubules.",
+    "origin": "Encoded by tubulin genes."
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": [
+      "Alpha-tubulin",
+      "Beta-tubulin"
+    ]
+  },
   "facets": {
-    "FUNCTION": {},
-    "STRUCTURAL": {},
+    "STRUCTURAL": {
+      "visual_features": [
+        "Globular"
+      ],
+      "shape": [
+        "Spherical"
+      ],
+      "composition": [
+        "Amino acids"
+      ]
+    },
     "SPATIAL": {}
   },
   "epistemic_metadata": {
-    "source": "Motor protein - Wikipedia",
-    "citations": [
-      "https://en.wikipedia.org/wiki/Motor_protein"
-    ]
+    "source": "Set Automatically",
+    "citations": []
   }
 }

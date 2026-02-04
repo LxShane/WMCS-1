@@ -1,0 +1,64 @@
+{
+  "name": "Antibiotic Resistance",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "CAUSED_BY",
+      "object": "Biofilm Formation",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Global health challenge",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "bacteria (21, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The ability of bacteria to resist the effects of an antibiotic.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Genetic mutations and horizontal gene transfer.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.sciencedirect.com/science/article/pii/S2211124725012884"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Surface Runoff",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 20,
+    "item": 1007
+  },
+  "claims": [
+    {
+      "predicate": "RETURNS",
+      "object": "to the atmosphere through evaporation",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Water that flows over the land surface.",
+    "common_uses": [
+      "Irrigation",
+      "Water supply"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Precipitation exceeding infiltration capacity.",
+    "origin": "Hydrological cycle."
+  },
+  "instance_layer": [
+    "Water flowing into a river",
+    "Water running off a roof"
+  ],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Flowing water",
+        "Can be clear or muddy"
+      ],
+      "shape": [
+        "Variable",
+        "Sheet flow or channel flow"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Land surface",
+      "connected_to": [
+        "Rivers",
+        "Lakes",
+        "Oceans"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/hydrologic-cycle",
+    "citations": []
+  }
+}

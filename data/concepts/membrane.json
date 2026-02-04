@@ -1,9 +1,9 @@
 {
   "name": "Membrane",
-  "type": "INANIMATE_OBJECT",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1001
+    "group": 23,
+    "item": 2001
   },
   "claims": [
     {
@@ -89,33 +89,122 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A thin, selective barrier.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Porous Silicon",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Liquid",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Part of Liquid Lens System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Cellular Structure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A membrane is a lipid bilayer that can be part of an organelle envelope or the outermost membrane of a single membrane-bound organelle.",
+    "definition": "A biological membrane that separates the interior of a cell from the outside environment.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Forms a barrier that regulates passage of substances in and out of cell",
+    "origin": "Evolved with first cells"
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [
-        "Lipids"
+    "FUNCTION": {
+      "roles": [
+        "Barrier"
+      ],
+      "capabilities": [
+        "Regulation of transport",
+        "Protection"
       ]
     },
-    "SPATIAL": {}
+    "STRUCTURAL": {
+      "visual_features": [
+        "Thin sheet"
+      ],
+      "shape": [
+        "Sheet"
+      ],
+      "composition": [
+        "Lipids",
+        "Proteins"
+      ],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Surrounds cell",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Cell"
+    }
   },
   "epistemic_metadata": {
-    "source": "Dataset - COMPARTMENTS Curated Protein Localization Evidence",
-    "citations": [
-      "https://maayanlab.cloud/Harmonizome/dataset/COMPARTMENTS+Curated+Protein+Localization+Evidence+Scores+2025"
-    ]
+    "source": "Set Automatically",
+    "citations": []
   }
 }

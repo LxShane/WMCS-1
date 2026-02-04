@@ -2,19 +2,100 @@
   "name": "Detector",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 31,
-    "item": 1013
+    "group": 20,
+    "item": 1001
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "determining the position of an object",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "longitudinal light sensors",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "transfer device",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "apparatus",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "A device or instrument used to detect, track, or measure particles or radiation.",
-    "common_uses": []
+    "definition": "A device used for determining the position of an object.",
+    "common_uses": [
+      "positioning",
+      "measurement"
+    ]
   },
-  "deep_layer": {},
-  "instance_layer": {},
-  "facets": {},
+  "deep_layer": {
+    "mechanism": "Detects electromagnetic or acoustic signals reflected or emitted by an object to determine its location.",
+    "origin": "Engineered device."
+  },
+  "instance_layer": [
+    "Laser rangefinder",
+    "Radar system"
+  ],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Sensor"
+      ],
+      "capabilities": [
+        "Detecting position"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
   "epistemic_metadata": {
-    "source": "Detector | CMS Experiment",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "JP7237024B2",
+      "CN106662636B",
+      "JP2020525936A"
+    ]
   }
 }

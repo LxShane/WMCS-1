@@ -1,0 +1,91 @@
+{
+  "name": "Vascular sprout",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 2222
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "vascular tip cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "sense environments",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "respond to environments",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Vascular sprouts, also known as vascular tip cells, are structures that allow vessels to sense and respond to their environments.",
+    "common_uses": [
+      "Vascular development",
+      "Angiogenesis"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Vascular sprouts extend and branch to form vascular networks.",
+    "origin": "Formed during angiogenesis."
+  },
+  "instance_layer": {
+    "examples": [
+      "Tip cell of a growing capillary"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Environmental sensing",
+        "Vessel guidance"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Adjacent to existing blood vessels",
+      "connected_to": [
+        "Blood vessel wall",
+        "Extracellular matrix"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Neuronal and Vascular Interactions - Pmc",
+    "citations": [
+      "PMC5729758"
+    ]
+  },
+  "autocorrected": true
+}

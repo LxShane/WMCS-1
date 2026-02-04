@@ -1,0 +1,97 @@
+{
+  "name": "Component Interface",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "description of what services are provided by a component and how to request those services, forming the basis for interaction between software components",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "interaction between software components",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "description",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PART_OF",
+      "object": "Software Engineering",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A description of what services are provided by a component and how to request those services.",
+    "common_uses": [
+      "Defining interaction between software components"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Provides a standardized way for software components to communicate.",
+    "origin": "Evolved with the need for modular and reusable software designs."
+  },
+  "instance_layer": {
+    "examples": [
+      "An API that allows a program to access the services of an operating system."
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Component Interface - an overview | ScienceDirect Topics",
+    "citations": [
+      "Introduction"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "INTERFACE"
+      ],
+      "capabilities": [
+        "Service Requesting"
+      ]
+    }
+  }
+}

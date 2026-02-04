@@ -47,36 +47,98 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Connect cell pins that are functionally or electrically equivalent",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Mapping of pins to specific functions or signals",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Connecting electronic components",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Board schematic",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The process of assigning a specific pin location to each signal (net) to improve the overall design.",
+    "definition": "A specification of how a pin on an electronic component is designated to perform a certain function.",
     "common_uses": [
-      "improve performance",
-      "reduce noise",
-      "optimize power consumption"
+      "Connecting LEDs",
+      "Wiring circuits"
     ]
   },
   "deep_layer": {
-    "mechanism": "Pin assignment optimizes the layout of a circuit by minimizing the length of connections.",
-    "origin": "Evolved from manual PCB layout to automated software tools."
+    "mechanism": "Pin assignment maps signals from one component to another, determining how they interact.",
+    "origin": "Evolved with the development of integrated circuits and PCBs."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Connecting an LED to a GPIO pin on an FPGA",
+      "Assigning a specific pin for UART communication"
+    ]
   },
   "facets": {
     "FUNCTION": {
       "roles": [
-        "Optimization"
+        "Signal Routing"
       ],
       "capabilities": [
-        "Placement",
-        "Routing"
+        "Mapping",
+        "Connection"
       ]
     }
   },
   "epistemic_metadata": {
-    "source": "https://www.techsimplifiedtv.in/2024/08/pin-assignment-power-ground-routing-in.html",
-    "citations": []
+    "source": "Manual",
+    "citations": [
+      "Pin assignments - Technical Documentation",
+      "How to produce list of pin assignments? - STMicroelectronics Community",
+      "Understanding pin assignments : r/FPGA - Reddit"
+    ]
   }
 }

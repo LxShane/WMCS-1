@@ -1,0 +1,67 @@
+{
+  "name": "Arterial Supply",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1008
+  },
+  "claims": [
+    {
+      "predicate": "CORRESPONDS_TO",
+      "object": "Embryological Origins (Foregut, Midgut, Hindgut)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "arteries (31, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "blood (31, 1238)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "network (50, 1236)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The network of arteries supplying blood to the gastrointestinal system.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "The arterial supply network sends blood to the foregut, midgut, and hindgut sections.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "https://www.kenhub.com/en/library/anatomy/neurovascular-supply-of-the-large-intestine",
+    "citations": []
+  }
+}

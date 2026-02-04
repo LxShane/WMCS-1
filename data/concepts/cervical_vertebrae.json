@@ -1,9 +1,9 @@
 {
   "name": "Cervical Vertebrae",
-  "type": "LIVING_SYSTEM",
+  "type": "BODY_PART",
   "id": {
-    "group": 21,
-    "item": 1234
+    "group": 24,
+    "item": 9012
   },
   "claims": [
     {
@@ -173,27 +173,104 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Posterior neck region",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Extension (50, 1243)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Rotation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Lateral bending",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Vertebra (23, 5566)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "C1-C7",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Cervical vertebrae are the vertebrae of the neck, immediately below the skull.",
+    "definition": "The cervical vertebrae are the vertebrae located in the neck, numbered C1 to C7.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The transverse foramen allows the vertebral artery, vertebral veins, and inferior cervical ganglion to pass through.",
-    "origin": null
+    "mechanism": "Support the skull and allow for neck movement.",
+    "origin": "Develops during embryonic development."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Support",
-        "Movement"
-      ],
-      "capabilities": []
-    },
     "STRUCTURAL": {
       "visual_features": [],
       "shape": [],
@@ -204,19 +281,14 @@
     "SPATIAL": {
       "location": "Neck",
       "coordinates": [],
-      "connected_to": [
-        "Skull",
-        "Thoracic Vertebrae"
-      ],
+      "connected_to": [],
       "contained_in": null
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://en.wikipedia.org/wiki/Cervical_vertebrae",
-      "https://grokipedia.com/page/Cervical_vertebrae",
-      "https://shrewsburylittleleague.com/article/the-cervical-vertebrae-anatomy-and-3d-illustrations"
+      "The Vertebral Column | Anatomy and Physiology I - Lumen Learning"
     ]
   }
 }

@@ -1,0 +1,96 @@
+{
+  "name": "Cell Balancing",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1237
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "energy handling method",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "active balancing",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "passive balancing",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "battery (23, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "charge (50, 1004)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Techniques to equalize the state of charge of individual battery cells in a pack.",
+    "common_uses": [
+      "Battery management systems"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Transfers charge between cells to maintain a uniform state of charge.",
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Battery Management"
+      ],
+      "capabilities": [
+        "Equalizing cell charge",
+        "Extending battery life"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://www.sciencedirect.com/science/article/pii/S2352484724002506",
+    "citations": []
+  }
+}

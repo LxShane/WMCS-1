@@ -19,6 +19,33 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "bone (23, 5678)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "fish (21, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "skeleton (20, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
@@ -32,11 +59,26 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Throughout the body, internal",
+      "connected_to": [
+        "Cartilage",
+        "Muscles",
+        "Tendons",
+        "Ligaments",
+        "Scales",
+        "Skin",
+        "Internal organs"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
       "Fish anatomy - Wikipedia"
     ]
-  }
+  },
+  "autocorrected": true
 }

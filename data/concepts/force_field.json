@@ -1,0 +1,91 @@
+{
+  "name": "Force Field",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A set of parameters and equations used to calculate the potential energy of a system of atoms or molecules.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PROPERTY",
+      "object": "Transferability",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "CONTESTED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Well-defined mixing rules to generate all cross interactions",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Molecular Dynamics",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A computational method to approximate the forces between atoms and molecules.",
+    "common_uses": [
+      "Molecular dynamics simulations",
+      "Energy minimization"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Force fields use a set of equations and parameters derived from either experimental data or quantum mechanical calculations to estimate the potential energy of a molecular system.",
+    "origin": "Developed in the 1960s for simulating biomolecules."
+  },
+  "instance_layer": {
+    "examples": [
+      "AMBER",
+      "CHARMM",
+      "GROMOS"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "https://mattermodeling.stackexchange.com/questions/9129/what-does-it-mean-by-transferable-in-the-case-of-a-force-field",
+    "citations": [
+      "N/A"
+    ]
+  }
+}

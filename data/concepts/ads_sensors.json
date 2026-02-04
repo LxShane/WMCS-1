@@ -1,0 +1,80 @@
+{
+  "name": "ADS Sensors",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1007
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Automated Driving System Sensors",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Automated Driving",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "environment (39, 1009)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "sensors (30, 1007)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Sensors used in automated driving systems to perceive the environment.",
+    "common_uses": [
+      "Automated Driving",
+      "Environmental Perception"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "ADS sensors collect data about the surroundings, which is processed by the automated driving system.",
+    "origin": "Developed in conjunction with automated driving technology."
+  },
+  "instance_layer": {
+    "examples": [
+      "Radar",
+      "Cameras",
+      "Lidar"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "sciencedirect.com",
+    "citations": [
+      "https://www.sciencedirect.com/science/article/pii/S0924271622003367"
+    ]
+  }
+}

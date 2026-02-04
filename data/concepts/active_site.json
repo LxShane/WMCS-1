@@ -1,14 +1,14 @@
 {
   "name": "Active Site",
-  "type": "LIVING_SYSTEM",
+  "type": "PHYSICAL",
   "id": {
-    "group": 21,
-    "item": 5678
+    "group": 29,
+    "item": 1237
   },
   "claims": [
     {
       "predicate": "HAS_PART",
-      "object": "Amino Acid",
+      "object": "Amino Acid (30, 1122)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -148,7 +148,7 @@
     },
     {
       "predicate": "LOCATED_AT",
-      "object": "Enzyme",
+      "object": "Enzyme (21, 5678)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -162,7 +162,7 @@
     },
     {
       "predicate": "CAPABLE_OF",
-      "object": "Binding",
+      "object": "Binding (50, 1236)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -173,50 +173,142 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "complex spatial arrangement",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "complementing the structure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Enzyme (21, 5678)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "specialized area on the enzyme that accelerates the most difficult step of the reaction",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "enzyme (21, 5678)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "binding the substrate",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Region",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "enzyme (21, 5678)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "substrate (30, 7890)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The specific region of an enzyme where the substrate binds and catalysis occurs.",
+    "definition": "The region of an enzyme where substrate molecules bind and undergo a chemical reaction",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The active site contains amino acid residues that participate in substrate binding and catalysis.",
-    "origin": "Formed by the specific folding of the enzyme's polypeptide chain."
+    "mechanism": null,
+    "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Binding Site",
-        "Catalytic Site"
-      ],
-      "capabilities": [
-        "Binds to substrates",
-        "Facilitates chemical reactions"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [
-        "Amino acid residues"
-      ],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "Specific region within the enzyme structure",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": "Enzyme"
-    }
+    "FUNCTION": {},
+    "STRUCTURAL": {},
+    "SPATIAL": {}
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Chemistry_for_Changing_Times_(Hill_and_McCreary)/16:_Biochemistry/16.05:_Structure_and_Function_of_Proteins"
+      "https://www.pnas.org/doi/10.1073/pnas.1319848111"
     ]
   }
 }

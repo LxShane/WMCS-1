@@ -1,0 +1,54 @@
+{
+  "name": "LHC accelerator",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "accelerator",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A particle accelerator located at CERN.",
+    "common_uses": [
+      "particle acceleration",
+      "scientific research"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Uses electromagnetic fields to accelerate particles to high speeds.",
+    "origin": "CERN"
+  },
+  "instance_layer": [
+    "LHC at CERN"
+  ],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Particle Accelerator"
+      ],
+      "capabilities": [
+        "Accelerates particles to high speeds"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "CERN - Wikipedia",
+    "citations": [
+      "https://en.wikipedia.org/wiki/CERN"
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "name": "Visual Sensor",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 21,
+    "item": 1010
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Sensor Modality",
+      "temporal": {
+        "valid_from": "2015",
+        "valid_until": "PRESENT",
+        "event": "Publication of review"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "EXAMPLE_OF",
+      "object": "Stereo Vision Sensor",
+      "temporal": {
+        "valid_from": "2015",
+        "valid_until": "PRESENT",
+        "event": "Publication of review"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A sensor that captures visual information, typically in the form of images or videos.",
+    "common_uses": [
+      "robotics",
+      "computer vision"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Visual sensors use lenses and image sensors to capture light and convert it into digital data.",
+    "origin": "Derived from photography and optics."
+  },
+  "instance_layer": {
+    "examples": [
+      "Camera",
+      "Webcam"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.sciencedirect.com/science/article/pii/S1877050915038375"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Sensor"
+      ],
+      "capabilities": [
+        "Image Capture",
+        "Object Detection"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Lens",
+        "Image Sensor"
+      ],
+      "shape": [
+        "Rectangular"
+      ]
+    }
+  }
+}

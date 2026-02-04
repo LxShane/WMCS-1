@@ -1,0 +1,62 @@
+{
+  "name": "Torso muscles",
+  "type": "BODY_PART",
+  "id": {
+    "group": 24,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "torso",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Body Part",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Muscles located in the trunk of the body.",
+    "common_uses": [
+      "core strength",
+      "stability"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Enable movement and support the spine.",
+    "origin": "Part of the human anatomy."
+  },
+  "instance_layer": [],
+  "facets": {
+    "SPATIAL": {
+      "location": "trunk of the body",
+      "contained_in": "human body"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "US20060264299A1"
+    ]
+  }
+}

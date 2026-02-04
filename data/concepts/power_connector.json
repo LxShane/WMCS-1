@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 31,
-    "item": 4004
+    "item": 1235
   },
   "claims": [
     {
@@ -19,61 +19,70 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Supplying power",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Connector",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A connector used to supply power to a device.",
+    "definition": "Connectors that supply power to components.",
     "common_uses": [
-      "Supplying power to computer components"
+      "Powering motherboard",
+      "Powering CPU"
     ]
   },
   "deep_layer": {
-    "mechanism": "Provides a physical connection for electrical current to flow.",
-    "origin": "Developed alongside power supply technology."
+    "mechanism": "Wires transmit electricity.",
+    "origin": "Electrical Engineering"
   },
   "instance_layer": [
-    "ATX power connector",
-    "EPS power connector"
+    "24-pin ATX power connector",
+    "8-pin CPU power connector"
   ],
   "facets": {
     "STRUCTURAL": {
-      "visual_features": [
-        "Rectangular",
-        "Pinned"
-      ],
-      "shape": [
-        "Compact",
-        "Multi-pinned"
-      ],
-      "composition": [
-        "Plastic",
-        "Metal"
-      ],
-      "parts": [
-        "Pins",
-        "Housing"
-      ]
-    },
-    "FUNCTION": {
-      "roles": [
-        "Power Supplier"
-      ],
-      "capabilities": [
-        "Power delivery",
-        "Electrical connection"
-      ]
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
     },
     "SPATIAL": {
-      "connected_to": [
-        "Power Supply",
-        "CPU"
-      ]
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "Computer Structure and Logic - Pearsoncmg.com"
+      "https://wiringpictures.net/motherboard-layout-diagram"
     ]
   }
 }

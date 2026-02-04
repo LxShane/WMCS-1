@@ -3,7 +3,7 @@
   "type": "MATHEMATICAL_OBJECT",
   "id": {
     "group": 40,
-    "item": 1234
+    "item": 5678
   },
   "claims": [
     {
@@ -78,7 +78,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Debye sphere",
+      "object": "Debye sphere (41, 5678)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -106,7 +106,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Debye screening wavenumber",
+      "object": "Debye screening wavenumber (42, 9012)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -131,30 +131,66 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Characteristic distance in a plasma",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONDITION",
+      "object": "Much smaller than the physical size of the plasma for bulk interactions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "charge (50, 1004)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "plasma (20, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Debye length is a measure of a charge carrier's net electrostatic effect in a solution and how far its electrostatic effect persists.",
-    "common_uses": [
-      "plasma physics",
-      "electrolytes",
-      "colloids"
-    ]
+    "definition": "A measure of charge carrier screening in a plasma.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Charges are increasingly electrically screened with each Debye length, and the electric potential decreases in magnitude by e.",
-    "origin": "Named after Peter Debye (1884\u20131966)"
+    "mechanism": null,
+    "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
-    "source": "Debye length",
-    "citations": [
-      "https://en.wikipedia.org/wiki/Debye_length",
-      "https://grokipedia.com/page/Debye_length",
-      "https://www.wolframcloud.com/objects/demonstrations/DebyeLengthInASymmetricElectrolyteSolution-source.nb"
-    ]
+    "source": "Plasma (physics) - Wikipedia",
+    "citations": []
   }
 }

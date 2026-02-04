@@ -2,8 +2,8 @@
   "name": "Pushrod",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 30,
-    "item": 3456
+    "group": 21,
+    "item": 1004
   },
   "claims": [
     {
@@ -19,44 +19,61 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Connecting brake pedal to the master cylinder piston",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A rod that is part of the valve train.",
-    "common_uses": []
+    "definition": "A rod that transmits force from the brake pedal to the master cylinder piston.",
+    "common_uses": [
+      "Transmitting force in braking systems"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Transmits motion from lifter to rocker arm.",
-    "origin": null
+    "mechanism": "The pushrod transfers the force applied to the brake pedal to the master cylinder piston.",
+    "origin": "Part of the brake pedal linkage system."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "The metal rod connecting the brake pedal to the master cylinder."
+    ]
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Transmitter"
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic",
+        "Rod-shaped"
       ],
-      "capabilities": [
-        "Transmits motion"
+      "shape": [
+        "Rod"
+      ],
+      "composition": [
+        "Metal"
       ]
     },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
     "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+      "connected_to": [
+        "Brake pedal",
+        "Master cylinder piston"
+      ]
     }
   },
   "epistemic_metadata": {
-    "source": "Engine Parts 101: Valve Train Components | Blog | Enginetech",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://hii-pumps.com/2024/10/08/how-brake-pumps-work-the-role-of-master-cylinders-in-braking-systems/"
+    ]
   }
 }

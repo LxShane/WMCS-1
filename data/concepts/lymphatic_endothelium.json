@@ -1,0 +1,52 @@
+{
+  "name": "Lymphatic Endothelium",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Endothelium",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Lymphatic Vessel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The inner lining of a lymphatic vessel.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Endothelial cells regulate the permeability of the vessel and interact with circulating cells.",
+    "origin": "Develops from endothelial progenitor cells."
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Leukocyte Trafficking in Lymphatic Vessels - PMC - NIH",
+    "citations": []
+  }
+}

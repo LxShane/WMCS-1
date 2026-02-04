@@ -1,9 +1,9 @@
 {
-  "name": "Pectoralis major",
+  "name": "Pectoralis Major",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 22,
-    "item": 1007
+    "group": 21,
+    "item": 1234
   },
   "claims": [
     {
@@ -299,10 +299,66 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "ORIGINATES_FROM",
+      "object": "Medial surface of clavicle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "ORIGINATES_FROM",
+      "object": "Anterior surface of sternum",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INSERTS_INTO",
+      "object": "Lateral lip of humerus",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Muscle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A large muscle in the upper chest.",
+    "definition": "A muscle originating from the clavicle and sternum, and inserting into the humerus.",
     "common_uses": []
   },
   "deep_layer": {
@@ -312,23 +368,11 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "SPATIAL": {
-      "location": "Anterior chest wall",
-      "connected_to": [
-        "Clavicle",
-        "Sternum",
-        "Costal cartilages (ribs 1-6 or 7)",
-        "Humerus (intertubercular groove)"
-      ],
-      "coordinates": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Pectoral Muscle - an overview | ScienceDirect Topics",
     "citations": [
-      "Pectoralis major : Origin , insertion , innervation, function | Kenhub"
+      "https://www.sciencedirect.com/topics/immunology-and-microbiology/pectoral-muscle"
     ]
-  },
-  "autocorrected": true
+  }
 }

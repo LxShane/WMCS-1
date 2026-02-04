@@ -1,9 +1,9 @@
 {
   "name": "Antigen",
-  "type": "LIVING_SYSTEM",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 21,
-    "item": 1002
+    "group": 30,
+    "item": 5678
   },
   "claims": [
     {
@@ -89,24 +89,64 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Molecule",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INTERACTED_WITH_BY",
+      "object": "Antibody (21, 1234)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Surface",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A substance that elicits an immune response, especially the production of antibodies.",
+    "definition": "A substance that elicits an immune response.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Antigens bind to antibodies, triggering an immune response.",
-    "origin": "External or internal sources."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://www.nature.com/articles/s41401-023-01207-2"
-    ]
+    "source": "Role of B cells as antigen presenting cells - PMC - NIH",
+    "citations": []
   }
 }

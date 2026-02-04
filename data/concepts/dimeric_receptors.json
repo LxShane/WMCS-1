@@ -1,0 +1,61 @@
+{
+  "name": "Dimeric Receptors",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "CAUSES",
+      "object": "tyrosine kinase activity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "cell signaling",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cell (21, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Receptors that dimerize and stimulate tyrosine kinase activity and cell signaling.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Stimulate tyrosine kinase activity and cell signaling upon dimerization.",
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Cell Signaling by Receptor Tyrosine Kinases: Cell",
+    "citations": []
+  }
+}

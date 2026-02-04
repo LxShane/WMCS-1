@@ -1,0 +1,70 @@
+{
+  "name": "Off Load Tap Changer",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 1236
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Tap Changer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "De-energizing the transformer before tap changing",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A tap changer that requires the transformer to be de-energized before switching between tap positions.",
+    "common_uses": [
+      "Infrequent voltage adjustments"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Off-load tap changers directly switch the tap connections without any provisions for handling load current.",
+    "origin": "Early type of tap changer."
+  },
+  "instance_layer": {
+    "examples": [
+      "Tap changer in a distribution transformer"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Voltage Regulator"
+      ],
+      "capabilities": [
+        "Adjustment with outage"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Tap_changer",
+      "https://electricalampere.com/tap-changer-in-transformer/"
+    ]
+  }
+}

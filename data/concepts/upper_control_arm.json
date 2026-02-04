@@ -1,0 +1,97 @@
+{
+  "name": "Upper Control Arm",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Suspension Component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Connect frame to steering knuckle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Allow suspension to cycle up and down",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A suspension component that connects the frame to the steering knuckle.",
+    "common_uses": [
+      "Vehicle suspension",
+      "Shock absorption"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Transfers forces between the vehicle frame and the wheel assembly.",
+    "origin": "Automotive engineering design for independent suspension systems."
+  },
+  "instance_layer": {
+    "examples": [
+      "Upper control arm in a Ford Mustang",
+      "Upper control arm in a Toyota Tacoma"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Suspension Link"
+      ],
+      "capabilities": [
+        "Connect frame to steering knuckle",
+        "Allow suspension movement"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

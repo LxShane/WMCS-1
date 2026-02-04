@@ -1,0 +1,80 @@
+{
+  "name": "PCB Substrate",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 32,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Mechanical Support",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Electrical Insulation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The base material of a PCB providing support and insulation.",
+    "common_uses": [
+      "PCB Manufacturing"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The substrate prevents short circuits and maintains the shape of the circuit board.",
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {
+    "STRUCTURAL": {},
+    "FUNCTION": {
+      "roles": [
+        "Support",
+        "Insulation"
+      ],
+      "capabilities": []
+    },
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://www.pcbasic.com/blog/pcb_materials_and_components.html"
+    ]
+  }
+}

@@ -3,12 +3,12 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1241
+    "item": 1008
   },
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "Military Technology",
+      "object": "Military Technology (30, 1234)",
       "temporal": {
         "valid_from": "2000",
         "valid_until": "PRESENT",
@@ -19,39 +19,72 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Reviewing mechanotransduction",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "computer (30, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "development (20, 1237)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The capability of a machine to imitate intelligent human behavior.",
-    "common_uses": [
-      "Autonomous systems",
-      "Data analysis"
-    ]
+    "definition": "The theory and development of computer systems able to perform tasks normally requiring human intelligence.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Uses algorithms and machine learning to perform tasks.",
-    "origin": "Developed over decades, with recent advances in deep learning leading to new applications."
+    "mechanism": "Algorithms and data processing.",
+    "origin": "Computer science"
   },
-  "instance_layer": [
-    "Autonomous drones",
-    "Predictive analytics"
-  ],
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {
     "FUNCTION": {
-      "roles": [
-        "Automation",
-        "Analysis"
-      ],
-      "capabilities": [
-        "Decision-making",
-        "Pattern recognition"
-      ]
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
-    "source": "orfonline.org",
-    "citations": [
-      "Future Warfare and Critical Technologies"
-    ]
+    "source": "https://www.nature.com/articles/s44341-025-00010-w",
+    "citations": []
   }
 }

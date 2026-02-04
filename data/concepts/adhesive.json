@@ -2,13 +2,13 @@
   "name": "Adhesive",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 30,
-    "item": 3456
+    "group": 24,
+    "item": 1244
   },
   "claims": [
     {
       "predicate": "USED_FOR",
-      "object": "Bonding",
+      "object": "Bonding (50, 1234)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -117,22 +117,57 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "securing the chip",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Fixing lenses in Subcell",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A substance used for sticking objects or materials together.",
-    "common_uses": []
+    "definition": "A sticky substance used for holding things together.",
+    "common_uses": [
+      "Bonding parts"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Creates a strong bond between surfaces through chemical adhesion.",
+    "origin": "Chemical synthesis."
   },
-  "instance_layer": {
-    "examples": []
+  "facets": {
+    "STRUCTURAL": {
+      "composition": [
+        "Polymer"
+      ]
+    }
   },
-  "facets": {},
   "epistemic_metadata": {
-    "source": "[PDF] Advances in the Experimentation and Numerical Modeling of Material ...",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "Page 57"
+    ]
   }
 }

@@ -1,0 +1,74 @@
+{
+  "name": "Oil-filled switchgear",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "contain arc energy",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "safely controlled arc energy",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Oil-filled switchgear is a type of switchgear that uses oil to contain and control arc energy.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Oil is used as an insulating and cooling medium to suppress the arc formed during switching operations.",
+    "origin": null
+  },
+  "instance_layer": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Arc Suppression"
+      ],
+      "capabilities": [
+        "Containing arc energy",
+        "Controlling arc energy"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Oil-filled"
+      ],
+      "shape": [],
+      "composition": [
+        "Oil"
+      ],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {},
+    "epistemic_metadata": {
+      "source": "https://en.wikipedia.org/wiki/Switchgear",
+      "citations": []
+    }
+  }
+}

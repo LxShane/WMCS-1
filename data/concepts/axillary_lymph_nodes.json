@@ -2,8 +2,8 @@
   "name": "Axillary Lymph Nodes",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 1238
+    "group": 24,
+    "item": 1001
   },
   "claims": [
     {
@@ -33,19 +33,126 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Armpit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Axillary Region",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RECEIVES",
+      "object": "Lymph (33, 7890)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PROCESSES",
+      "object": "Lymph (33, 7890)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Lymph Vessels (20, 2345)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "lymph (33, 7890)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Lymph nodes located in the axilla (armpit).",
+    "definition": "Lymph nodes located in the axilla (armpit) region.",
     "common_uses": []
   },
-  "deep_layer": {},
-  "instance_layer": {},
-  "facets": {},
+  "deep_layer": {
+    "mechanism": "Filters lymph fluid and plays a role in the immune response.",
+    "origin": "Develop during fetal development."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Lymph Filtration",
+        "Immune Response"
+      ],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Axilla",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Axilla"
+    }
+  },
   "epistemic_metadata": {
-    "source": "Klose Training",
+    "source": "Set Automatically",
     "citations": [
-      "PDF Anatomy and Physiology"
+      "NBK559188",
+      "Physiopedia: The Axillary Region",
+      "Anatomy Of The Armpit"
     ]
   }
 }

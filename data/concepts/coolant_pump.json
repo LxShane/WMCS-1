@@ -1,0 +1,68 @@
+{
+  "name": "Coolant Pump",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 23,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Pump",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "providing flow",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "cooling (50, 8008)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A pump used to circulate coolant.",
+    "common_uses": [
+      "cooling systems"
+    ]
+  },
+  "deep_layer": {},
+  "instance_layer": {},
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "COOLING SYSTEM - Patent application, With electrical component cooling patent application class",
+    "citations": [
+      "https://www.patentsencyclopedia.com/app/20110023797",
+      "https://www.patentsencyclopedia.com/class/000419369"
+    ]
+  }
+}

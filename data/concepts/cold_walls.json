@@ -8,7 +8,7 @@
   "claims": [
     {
       "predicate": "HAS_PROPERTY",
-      "object": "Cold",
+      "object": "Cold (50, 6789)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -32,6 +32,15 @@
         "confidence": 0.7,
         "status": "SETTLED",
         "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "temperature (20, 5432)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
       }
     }
   ],

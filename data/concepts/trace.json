@@ -2,8 +2,8 @@
   "name": "Trace",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 28,
-    "item": 4567
+    "group": 30,
+    "item": 5678
   },
   "claims": [
     {
@@ -75,24 +75,103 @@
         "status": "WEB",
         "source_type": "SETTLED"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Conductor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "PCB",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Carrying Electrical Signals",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Conductor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Metal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONTRIBUTES_TO",
+      "object": "Parasitic Inductance",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A thin conductive path used to connect split ground planes.",
+    "definition": "A conductive pathway on a printed circuit board.",
     "common_uses": [
-      "Connecting analog and digital sections",
-      "Connecting inputs and outputs of amplifiers"
+      "Carrying electrical signals"
     ]
   },
   "deep_layer": {
-    "mechanism": "Allows separation of sections while maintaining a close potential.",
-    "origin": "Used to isolate different parts of a circuit."
+    "mechanism": "Provides low resistance path for current flow.",
+    "origin": "Fabricated using etching or other deposition techniques."
   },
-  "instance_layer": {
-    "examples": [
-      "Trace connecting analog and digital ground planes."
-    ]
-  },
+  "instance_layer": {},
   "facets": {
     "STRUCTURAL": {
       "visual_features": [
@@ -100,19 +179,17 @@
         "Metallic"
       ],
       "shape": [
-        "Linear"
+        "Line"
       ],
       "composition": [
-        "Copper"
-      ],
-      "parts": [],
-      "relations": []
+        "Copper",
+        "Gold",
+        "Other metals"
+      ]
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://en.wikipedia.org/wiki/Ground_plane"
-    ]
+    "source": "EFFICIENT, FLEXIBLE GATE DRIVE POWER SOLUTIONS FOR IGBTS",
+    "citations": []
   }
 }

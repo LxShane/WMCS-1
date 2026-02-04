@@ -1,5 +1,5 @@
 {
-  "name": "Sensory Neurons",
+  "name": "sensory neurons",
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 21,
@@ -33,32 +33,52 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "receive stimulation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "activation of muscle cells",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Neurons responsible for transmitting sensory information.",
+    "definition": "Sensory neurons receive stimulation and in turn connect to other nerve cells that activate muscle cells.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Sensory neurons have specialized receptors that detect stimuli and convert them into electrical signals.",
-    "origin": "Developed to sense the environment."
+    "mechanism": null,
+    "origin": null
   },
-  "instance_layer": [],
-  "facets": {
-    "SPATIAL": {
-      "location": "Throughout the peripheral nervous system, dorsal root ganglia, cranial nerve ganglia",
-      "connected_to": [
-        "Sensory receptors",
-        "Spinal cord",
-        "Brainstem",
-        "Brain"
-      ],
-      "coordinates": []
-    }
+  "instance_layer": {
+    "examples": []
   },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Nervous System and the Senses \u2013 Introduction to Living Systems",
-    "citations": []
-  },
-  "autocorrected": true
+    "source": "Reflex arc | Description & Components | Britannica",
+    "citations": [
+      "https://www.britannica.com/science/reflex-arc"
+    ]
+  }
 }

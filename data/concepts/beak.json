@@ -1,9 +1,9 @@
 {
   "name": "Beak",
-  "type": "LIVING_SYSTEM",
+  "type": "BODY_PART",
   "id": {
-    "group": 22,
-    "item": 1006
+    "group": 23,
+    "item": 1234
   },
   "claims": [
     {
@@ -19,11 +19,73 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Transitional beak-small, lacking a palatal shelf and restricted to the tips of the jaws",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "palatal shelf",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "tips of the jaws",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "bird (22, 1005)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "feeding (50, 7890)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The projecting mouth of a bird.",
-    "common_uses": []
+    "definition": "A projecting part of the jaws of a bird used for feeding.",
+    "common_uses": [
+      "Feeding"
+    ]
   },
   "deep_layer": {
     "mechanism": null,
@@ -32,11 +94,27 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Anterior end of the head",
+      "coordinates": [],
+      "connected_to": [
+        "Jaws"
+      ],
+      "contained_in": "Head"
+    }
+  },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "Bird anatomy - Wikipedia"
+      "https://pubmed.ncbi.nlm.nih.gov/29720636/"
     ]
   }
 }

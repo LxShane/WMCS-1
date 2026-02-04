@@ -2,8 +2,8 @@
   "name": "Radial Nerve",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 31,
-    "item": 4567
+    "group": 21,
+    "item": 7890
   },
   "claims": [
     {
@@ -89,38 +89,109 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Nerve",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "ARISES_FROM",
+      "object": "Posterior Cord",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Posterior Interosseous Nerve",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Nerve",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Close proximity to median nerve and ulnar nerve",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Significantly away from brachial artery and basilic vein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A nerve that innervates muscles in the posterior arm and forearm, including the triceps brachii, and is located in the spiral groove of the humerus.",
+    "definition": "A nerve that is significantly away from the brachial artery and basilic vein.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Transmits nerve signals to control muscle movement and provide sensory information.",
-    "origin": "Develops from the brachial plexus."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Motor Control",
-        "Sensory Input"
-      ],
-      "capabilities": [
-        "Muscle innervation",
-        "Sensory perception"
-      ]
-    },
-    "STRUCTURAL": {},
-    "SPATIAL": {}
-  },
+  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://teachmeanatomy.info/upper-limb/nerves/radial-nerve/",
-      "https://www.sciencedirect.com/topics/neuroscience/radial-nerve"
+      "PMC8700752",
+      "PMC10323611"
     ]
   }
 }

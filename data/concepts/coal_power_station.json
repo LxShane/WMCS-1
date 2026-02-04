@@ -1,0 +1,130 @@
+{
+  "name": "Coal Power Station",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 22,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Power Station",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Electricity Generation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Coal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "electricity (50, 1238)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "plant (22, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "power (50, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A power plant that burns coal to generate electricity.",
+    "common_uses": [
+      "Electricity Generation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Burns coal to heat water, creating steam that drives turbines.",
+    "origin": "Industrial Revolution"
+  },
+  "instance_layer": [
+    "Large coal-fired power plant."
+  ],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Electricity Generator"
+      ],
+      "capabilities": [
+        "Converts chemical energy of coal to electrical energy"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Smokestacks",
+        "Cooling towers"
+      ],
+      "shape": [
+        "Industrial Complex"
+      ],
+      "composition": [
+        "Steel",
+        "Concrete"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Industrial areas",
+      "coordinates": [],
+      "connected_to": [
+        "Coal mines",
+        "Electricity Grid"
+      ],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Energy Sources | Springer Nature Link"
+    ]
+  }
+}

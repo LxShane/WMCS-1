@@ -1,0 +1,44 @@
+{
+  "name": "Intrapulmonary Lymph Node",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 24,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Main Bronchi",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Lymph nodes located within the lung tissue.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Filters lymph within the lungs.",
+    "origin": "Develops as part of the lymphatic system."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "SPATIAL": {
+      "location": "Along the main bronchi"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Chest and Mediastinum - PMC - NIH",
+    "citations": []
+  }
+}

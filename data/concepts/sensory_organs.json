@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 21,
-    "item": 1002
+    "item": 1006
   },
   "claims": [
     {
@@ -19,32 +19,56 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Nervous System Organ",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Body",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Organs that receive and transmit sensory information.",
+    "definition": "Sensory organs are organs that receive stimuli from the external environment and transmit the information to the brain.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Specialized cells transduce stimuli into electrical signals.",
-    "origin": "Biological evolution"
+    "mechanism": "Sensory organs convert stimuli into electrical signals that the brain can interpret.",
+    "origin": "Evolved to allow organisms to perceive their environment."
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
     "STRUCTURAL": {
       "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    }
+      "shape": []
+    },
+    "SPATIAL": {}
   },
   "epistemic_metadata": {
-    "source": "Neural Circuits and Algorithms",
+    "source": "Set Automatically",
     "citations": []
   }
 }

@@ -5,7 +5,17 @@
     "group": 21,
     "item": 1006
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "RELATED_TO",
+      "object": "hippocampus (24, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
   "surface_layer": {
     "definition": "CA fields are regions within the hippocampus.",
     "common_uses": []
@@ -17,11 +27,18 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "N/A",
+      "connected_to": [],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
     "source": "Ingestion Engine",
     "citations": [
       "https://en.wikipedia.org/wiki/Perforant_pathway"
     ]
-  }
+  },
+  "autocorrected": true
 }

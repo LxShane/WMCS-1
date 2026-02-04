@@ -1,0 +1,79 @@
+{
+  "name": "Cardiac Tissue Retractor",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 24,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Tissue Retraction",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Basket Type Configuration",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "PATENT"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "tissue (21, 1007)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A medical device used to retract cardiac tissue.",
+    "common_uses": [
+      "Cardiac surgery"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Mechanically holds tissue away from the surgical site.",
+    "origin": "Medical Engineering"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "shape": [
+        "Typically elongated with a grasping end."
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Retractor"
+      ],
+      "capabilities": [
+        "Tissue retraction"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "US20110046448A1 - Cardiac tissue retractor with associated",
+    "citations": []
+  }
+}

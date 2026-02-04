@@ -1,0 +1,84 @@
+{
+  "name": "Control Bus",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 27,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Computer Bus",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Transmitting Control Signals",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "bus (20, 9018)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "computer (30, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A control bus is a type of computer bus that transmits control signals.",
+    "common_uses": [
+      "Controlling data flow between components"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Control bus carries control signals to coordinate actions of computer components.",
+    "origin": "Developed for control communication in computers."
+  },
+  "instance_layer": [],
+  "facets": {
+    "STRUCTURAL": {},
+    "FUNCTION": {
+      "roles": [
+        "Signal Controller"
+      ],
+      "capabilities": [
+        "Control Signal Transmission"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.learncomputerscienceonline.com/computer-bus/"
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "name": "MHC",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 29,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Major histocompatibility complex",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Antigen presentation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A set of cell surface proteins essential for acquired immune system to recognize foreign molecules in vertebrates.",
+    "common_uses": [
+      "Antigen presentation",
+      "T cell activation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "MHC molecules bind peptide fragments derived from pathogens and display them on the cell surface for recognition by T cells.",
+    "origin": "Encoded by the MHC gene complex."
+  },
+  "instance_layer": {
+    "examples": [
+      "MHC class I",
+      "MHC class II"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Antigen presentation"
+      ],
+      "capabilities": [
+        "Peptide binding",
+        "T cell activation"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Transmembrane protein"
+      ],
+      "shape": [
+        "Globular"
+      ],
+      "composition": [
+        "Amino acids",
+        "Glycans"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "PMC5788015",
+      "PMC8356565",
+      "s41587-024-02248-6"
+    ]
+  }
+}

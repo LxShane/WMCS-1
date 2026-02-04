@@ -1,27 +1,56 @@
 {
   "name": "Cardiovascular Conditions",
-  "type": "LIVING_SYSTEM",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 20,
+    "group": 50,
     "item": 1005
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "condition",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "blood (31, 1238)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "heart (32, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "Diseases affecting the heart or blood vessels.",
+    "definition": "Conditions related to the heart and blood vessels.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Vary depending on specific condition.",
-    "origin": "Genetic and environmental factors."
+    "mechanism": "Disease processes.",
+    "origin": "Physiological conditions."
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "WO2012103296A2 - Systems and methods for monitoring the"
-    ]
+    "source": "CN106922125A",
+    "citations": []
   }
 }

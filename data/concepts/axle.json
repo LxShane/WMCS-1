@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 30,
-    "item": 1235
+    "item": 1234
   },
   "claims": [
     {
@@ -75,42 +75,261 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Automotive System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Vehicle's Drivetrain System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Transmitting forces",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Transmitting motion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Supporting loads",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Ensuring Stability",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Ensuring Performance",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Central shaft",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Transmitting torque from the differential to the wheels",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Supporting the weight of the vehicle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Allowing for smooth rotation of the wheels",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Connecting the wheels to the vehicle's chassis",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "chassis (23, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "vehicle (30, 1006)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A central shaft for a rotating wheel or gear.",
-    "common_uses": []
+    "definition": "The axle is a critical component in automotive systems, responsible for transmitting forces and motion between the vehicle\u2019s wheels and chassis.",
+    "common_uses": [
+      "transmit forces",
+      "transmit motion",
+      "support loads"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Transmits driving torque to the wheels.",
-    "origin": null
+    "mechanism": "Axles transmit torque and rotational motion from the engine to the wheels, enabling the vehicle to move.",
+    "origin": "Axles are manufactured from high-strength materials to withstand the stresses of torque transmission and weight bearing."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Front axle of a passenger car",
+      "Rear axle of a truck"
+    ]
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Torque Transmission"
-      ],
-      "capabilities": []
-    },
     "STRUCTURAL": {
       "visual_features": [
         "Cylindrical",
-        "Rotating"
+        "Metallic"
       ],
       "shape": [
-        "Rod-shaped"
+        "Shaft"
       ],
-      "composition": [],
-      "parts": [],
+      "composition": [
+        "Steel"
+      ],
+      "parts": [
+        "Shaft",
+        "Bearings"
+      ],
       "relations": []
     },
-    "SPATIAL": {}
+    "SPATIAL": {
+      "location": "Central, Transverse",
+      "connected_to": [
+        "Wheels",
+        "Vehicle Frame",
+        "Differential"
+      ],
+      "coordinates": []
+    }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": []
-  }
+    "citations": [
+      "https://chbrakecylinder.com/automotive-axle-functions-types-structures/",
+      "https://diversedaily.com/understanding-axles-the-structural-backbone-of-torque-transmission/",
+      "https://www.sciencefacts.net/wheel-and-axle.html"
+    ]
+  },
+  "autocorrected": true
 }

@@ -1,9 +1,9 @@
 {
   "name": "Peptides",
-  "type": "INANIMATE_OBJECT",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 1002
+    "group": 21,
+    "item": 7890
   },
   "claims": [
     {
@@ -47,19 +47,83 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Targeting tumor vasculature",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Targeting extracellular matrix",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Targeting lymphatic vessels",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Targeting cell membranes",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Peptides modulate cellular responses, promote cell adhesion, and influence ECM remodeling.",
-    "common_uses": []
+    "definition": "Short chains of amino acids.",
+    "common_uses": [
+      "Drug delivery",
+      "Cancer therapy"
+    ]
   },
-  "deep_layer": {},
-  "instance_layer": {},
+  "deep_layer": {
+    "mechanism": "Can be engineered to bind to specific targets in the body.",
+    "origin": "Naturally occurring molecules."
+  },
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "WMCS Ingestion Engine",
     "citations": [
-      "https://link.springer.com/article/10.1186/s13046-023-02926-4"
+      "https://link.springer.com/protocol/10.1007/978-1-0716-4554-3_10"
     ]
   }
 }

@@ -1,0 +1,59 @@
+{
+  "name": "Serial Clock (SCK)",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1239
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Pin",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Synchronizing data transmission",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Serial Clock (SCK) is a pin on the SPI bus that provides the clock signal for synchronizing data transmission between the controller and peripheral.",
+    "common_uses": [
+      "Clock signal in SPI communication"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "SCK pin generates a clock signal that is used to sample the data on the SDO and SDI pins.",
+    "origin": "Part of the SPI protocol specification."
+  },
+  "instance_layer": {
+    "examples": [
+      "Generating the clock signal for SPI communication"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://itp.nyu.edu/physcomp/resources/microcontroller-pin-functions/"
+    ]
+  }
+}

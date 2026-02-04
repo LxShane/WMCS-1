@@ -1,9 +1,9 @@
 {
-  "name": "Four-bar linkage",
+  "name": "Four-Bar Linkage",
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 30,
-    "item": 1237
+    "item": 1003
   },
   "claims": [
     {
@@ -19,47 +19,62 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Linkage",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Rigid rods",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Pin joints",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A planar mechanism consisting of four rigid bodies connected by joints.",
+    "definition": "A planar linkage consisting of four rigid rods connected by pin joints.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Consists of four links connected in a loop, with one link typically fixed to a base.",
-    "origin": ""
+    "mechanism": "Four rods connected by joints allow for constrained movement and force transmission.",
+    "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [
-        "Varies widely depending on the specific design and application"
-      ],
-      "shape": [
-        "Varies widely depending on the specific design and application"
-      ],
-      "composition": [
-        "Metals",
-        "Plastics"
-      ],
-      "parts": [
-        "Links",
-        "Joints",
-        "Actuators"
-      ],
-      "relations": []
-    }
-  },
+  "instance_layer": [],
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "Introduction to Spatial Kinematics - seas.gwu.edu"
-    ]
+    "source": "https://dynref.engr.illinois.edu/aml.html",
+    "citations": []
   }
 }

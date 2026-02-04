@@ -1,0 +1,90 @@
+{
+  "name": "Digital X-ray Photography",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 31,
+    "item": 2001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Imaging Technology",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Imaging common diseases",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An imaging technique that uses X-rays to create digital images of the body's internal structures.",
+    "common_uses": [
+      "Bone fracture detection",
+      "Pneumonia diagnosis"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "X-rays penetrate the body and are absorbed differently by various tissues, creating a contrast that is captured by a digital detector.",
+    "origin": "Developed as a digital alternative to traditional film X-ray."
+  },
+  "instance_layer": {
+    "examples": [
+      "Chest X-ray",
+      "Dental X-ray"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Diagnostic Tool"
+      ],
+      "capabilities": [
+        "Non-invasive imaging",
+        "Real-time visualization"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Flat panel",
+        "Digital display"
+      ],
+      "shape": [
+        "Rectangular"
+      ],
+      "composition": [
+        "Electronic components"
+      ],
+      "parts": [
+        "X-ray source",
+        "Detector",
+        "Image processor"
+      ],
+      "relations": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Manual",
+    "citations": [
+      "https://www.sciencedirect.com/science/article/pii/S0141938225001118"
+    ]
+  }
+}

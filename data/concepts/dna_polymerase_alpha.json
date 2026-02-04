@@ -1,0 +1,81 @@
+{
+  "name": "DNA polymerase alpha",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1006
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "DNA polymerase (30, 1003)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "dna (21, 1007)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "enzyme (21, 5678)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An enzyme involved in DNA replication.",
+    "common_uses": [
+      "Drug target",
+      "Research"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Synthesizes short RNA primers and initiates DNA replication.",
+    "origin": "Evolved to replicate DNA during cell division."
+  },
+  "instance_layer": {
+    "examples": [
+      "Human DNA polymerase alpha"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "DNA replication"
+      ],
+      "capabilities": [
+        "Initiates DNA synthesis",
+        "Synthesizes RNA primers"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Globular"
+      ],
+      "shape": [
+        "Complex protein structure"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "DNA polymerase alpha catalytic subunit | DrugBank",
+    "citations": []
+  }
+}

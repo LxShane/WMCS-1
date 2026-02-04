@@ -1,0 +1,87 @@
+{
+  "name": "Coupler",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Device or mechanism for connecting different elements",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Device",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Connecting elements",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "mechanism (24, 6543)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A device or mechanism for connecting different elements.",
+    "common_uses": [
+      "connecting shafts",
+      "extending ethernet cables"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Varies depending on the type of coupler. Shaft couplers use friction or mechanical linkages. RJ45 couplers use electrical contacts.",
+    "origin": "Evolves based on mechanical or electrical connection needs."
+  },
+  "instance_layer": {
+    "examples": [
+      "Shaft coupler",
+      "RJ45 coupler"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Coupler - Wikipedia",
+      "Shaft Couplers | McMaster-Carr",
+      "Amazon.com: Coupler"
+    ]
+  }
+}

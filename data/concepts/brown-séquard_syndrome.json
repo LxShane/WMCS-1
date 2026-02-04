@@ -1,43 +1,42 @@
 {
-  "name": "Brown-S\u00e9quard syndrome",
+  "name": "Brown-S\u00e9quard Syndrome",
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 21,
-    "item": 1007
+    "item": 1006
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Hemisection of the spinal cord",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": null,
+    "definition": "Brown-S\u00e9quard syndrome refers to a hemisection (one sided lesion) of the spinal cord.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Damage to one side of the spinal cord, leading to specific sensory and motor deficits.",
+    "origin": "Caused by injury or lesion to one side of the spinal cord."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": []
+    "citations": [
+      "https://teachmeanatomy.info/neuroanatomy/pathways/ascending-tracts-sensory/"
+    ]
   }
 }

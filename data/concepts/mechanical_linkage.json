@@ -2,7 +2,7 @@
   "name": "Mechanical Linkage",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
+    "group": 30,
     "item": 1234
   },
   "claims": [
@@ -75,58 +75,208 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Assembly of systems connected to manage forces and movement",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Link",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "An assembly of systems connected so as to manage forces and movement",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Mechanism",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Managing forces",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Managing movement",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Link",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Joint",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Changing direction",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Altering force",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Making things move in a certain way",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "An assembly of systems connected so as to manage forces and movement.",
+    "definition": "A mechanical linkage is an assembly of systems connected so as to manage forces and movement.",
     "common_uses": [
-      "transforming force",
-      "transforming movement"
+      "Mechanical products",
+      "Mechanical systems",
+      "Machinery"
     ]
   },
   "deep_layer": {
-    "mechanism": "Forces and movement are managed through rigid links connected by joints.",
-    "origin": "Engineered systems"
+    "mechanism": "Linkage mechanisms consist of a series of mechanical linkages that can change direction, alter force and make things move in a certain way.",
+    "origin": null
   },
   "instance_layer": {
-    "examples": [
-      "Four-bar linkages",
-      "Slider-crank mechanisms"
-    ]
+    "examples": []
   },
   "facets": {
     "FUNCTION": {
       "roles": [
-        "Force Transducer",
-        "Motion Transducer"
+        "Force manager",
+        "Movement manager"
       ],
       "capabilities": [
-        "Convert input force to output force",
-        "Convert input motion to output motion"
+        "Transmit force",
+        "Transmit movement"
       ]
     },
     "STRUCTURAL": {
-      "visual_features": [
-        "Varies based on design"
-      ],
-      "shape": [
-        "Varies based on design"
-      ],
-      "composition": [
-        "Varies based on design"
-      ],
-      "parts": [
-        "Links",
-        "Joints"
-      ],
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
       "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Multiple Web Sources",
     "citations": [
-      "https://en.wikipedia.org/wiki/Mechanical_linkage",
-      "https://www.reddit.com/r/engineering/comments/8800ba/where_and_how_can_i_learn_about_different/"
+      "https://en.wikipedia.org/wiki/Linkage_(mechanical)",
+      "https://uark.pressbooks.pub/mechanicaldesign/chapter/linkages-and-mechanisms/",
+      "https://engineerfix.com/a-complete-guide-to-linkage-mechanisms/"
     ]
   }
 }

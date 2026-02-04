@@ -22,7 +22,7 @@
     },
     {
       "predicate": "CAPABLE_OF",
-      "object": "Movement",
+      "object": "Movement (50, 1240)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -47,6 +47,15 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "organisms (20, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
@@ -60,11 +69,18 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Variable, depends on the specific biological structure",
+      "connected_to": [],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
     "source": "Ecological Mechanics: Principles of Life's Physical Interactions",
     "citations": [
       "Chapter 18"
     ]
-  }
+  },
+  "autocorrected": true
 }

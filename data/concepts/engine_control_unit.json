@@ -2,7 +2,7 @@
   "name": "Engine Control Unit",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 25,
+    "group": 20,
     "item": 1002
   },
   "claims": [
@@ -47,27 +47,38 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Component of Powertrain Control Module",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A device that controls a series of actuators on an internal combustion engine to ensure optimal engine performance.",
-    "common_uses": []
+    "definition": "A component of the Powertrain Control Module responsible for engine control.",
+    "common_uses": [
+      "Engine management"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "The ECU controls engine parameters such as fuel injection, ignition timing, and idle speed.",
+    "origin": "Part of the broader electronic control system in modern vehicles."
   },
-  "instance_layer": [],
-  "facets": {
-    "STRUCTURAL": {},
-    "SPATIAL": {}
-  },
+  "instance_layer": {},
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Powertrain control module - Wikipedia",
     "citations": [
-      "Facebook Post",
-      "Scribd Document",
-      "ArXiv Paper"
+      "Wikipedia"
     ]
   }
 }

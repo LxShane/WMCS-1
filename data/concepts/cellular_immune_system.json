@@ -2,8 +2,8 @@
   "name": "Cellular Immune System",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 1234
+    "group": 21,
+    "item": 1007
   },
   "claims": [
     {
@@ -33,36 +33,34 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Defense against external factors",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The immune system at the cellular level.",
+    "definition": "The part of the immune system that involves the cells",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Involves recognition and destruction of foreign pathogens.",
+    "mechanism": null,
     "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "SPATIAL": {
-      "location": "Throughout the body, concentrated in lymphoid organs (lymph nodes, spleen, thymus), blood, and tissues",
-      "connected_to": [
-        "Lymph nodes",
-        "Spleen",
-        "Thymus",
-        "Blood vessels",
-        "Tissues",
-        "Bone marrow"
-      ],
-      "coordinates": []
-    }
-  },
+  "instance_layer": [],
+  "facets": {},
   "epistemic_metadata": {
-    "source": "MHC class II transport at a glance - PMC",
+    "source": "https://www.nature.com/articles/s12276-018-0126-x",
     "citations": []
-  },
-  "autocorrected": true
+  }
 }

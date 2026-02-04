@@ -1,9 +1,9 @@
 {
   "name": "LHC Computing Grid",
-  "type": "INANIMATE_OBJECT",
+  "type": "SOCIAL_CONSTRUCT",
   "id": {
-    "group": 30,
-    "item": 1003
+    "group": 61,
+    "item": 1234
   },
   "claims": [
     {
@@ -89,20 +89,115 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Grid-based Computer Network Infrastructure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": "Construction"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Handle large amounts of data",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Computing Centres",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "2012",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "HISTORICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "35 countries",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "2012",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "HISTORICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "More than 40 countries",
+      "temporal": {
+        "valid_from": "2012",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Over 170 Computing Centres",
+      "temporal": {
+        "valid_from": "2012",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The LHC Computing Grid was constructed as part of the LHC design, to handle the large amounts of data expected for its collisions.",
-    "common_uses": []
+    "definition": "A grid-based computer network infrastructure designed to handle large amounts of data from LHC collisions.",
+    "common_uses": [
+      "Data processing",
+      "Data storage"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": "Constructed as part of the LHC design"
+    "mechanism": "The grid distributes computing tasks across numerous international centers.",
+    "origin": "Constructed as part of the LHC design."
   },
-  "instance_layer": {
-    "examples": []
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Data Processor",
+        "Data Storage"
+      ],
+      "capabilities": [
+        "Handles large amounts of LHC data"
+      ]
+    }
   },
-  "facets": {},
   "epistemic_metadata": {
     "source": "Large Hadron Collider - Wikipedia",
     "citations": []

@@ -1,0 +1,81 @@
+{
+  "name": "Z-line",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 22,
+    "item": 1011
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "borders of the sarcomere",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONNECTED_TO",
+      "object": "actin molecules",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The Z-line forms the borders of the sarcomere.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "The Z-line anchors actin molecules, defining the boundaries of the sarcomere.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Anchor"
+      ],
+      "capabilities": [
+        "actin binding",
+        "sarcomere boundary"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Ends of sarcomere",
+      "coordinates": [],
+      "connected_to": [
+        "Actin"
+      ],
+      "contained_in": "sarcomere"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Sarcomere"
+    ]
+  }
+}

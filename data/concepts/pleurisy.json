@@ -1,0 +1,138 @@
+{
+  "name": "Pleurisy",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 23,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "inflammation of the pleura",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "sharp chest pain during breathing",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "friction between the pleural layers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSED_BY",
+      "object": "infections",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSED_BY",
+      "object": "autoimmune disorders",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSED_BY",
+      "object": "trauma",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Pleurisy is inflammation of the pleura, causing chest pain during breathing.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Inflammation increases friction between pleural layers, causing pain.",
+    "origin": "Caused by infections, autoimmune disorders, or trauma."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Pathological state"
+      ],
+      "capabilities": [
+        "Impairs breathing"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Pleura",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Thoracic cavity"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Sources",
+    "citations": [
+      "Anatomy, Thorax, Lung Pleura And Mediastinum - StatPearls",
+      "The Pleurae - Visceral - Parietal - TeachMeAnatomy",
+      "Chapter 22: The pleurae and lungs - Dartmouth",
+      "Parietal pleura - Kenhub",
+      "Pleura - Structure, Layers, Function, Anatomy, Diagram"
+    ]
+  }
+}

@@ -2,8 +2,8 @@
   "name": "Thoracic Duct",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 1236
+    "group": 31,
+    "item": 1239
   },
   "claims": [
     {
@@ -145,31 +145,58 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Lymphatic Vessel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Thoracic Cavity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A major lymphatic vessel in the body.",
+    "definition": "The largest lymphatic vessel in the body.",
     "common_uses": []
   },
-  "deep_layer": {},
-  "instance_layer": {},
+  "deep_layer": {
+    "mechanism": "Drains lymph from the lower body and the left side of the upper body into the bloodstream.",
+    "origin": null
+  },
+  "instance_layer": [],
   "facets": {
-    "SPATIAL": {
-      "location": "Located in the thorax, extending from the abdomen to the root of the neck; Primarily on the left side of the body, near the vertebral column; Passes through the diaphragm at the aortic hiatus.",
-      "connected_to": [
-        "Cisterna chyli",
-        "Left subclavian vein",
-        "Left internal jugular vein",
-        "Lymph nodes (various thoracic and abdominal nodes)"
-      ],
-      "coordinates": []
-    }
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": []
+    },
+    "SPATIAL": {}
   },
   "epistemic_metadata": {
-    "source": "Biology LibreTexts",
+    "source": "Set Automatically",
     "citations": [
-      "18.1: Structure of the Lymphatic System"
+      "PMC6459625"
     ]
-  },
-  "autocorrected": true
+  }
 }

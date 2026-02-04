@@ -2,8 +2,8 @@
   "name": "GluN3B",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1241
+    "group": 30,
+    "item": 1234
   },
   "claims": [
     {
@@ -19,10 +19,108 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "NMDA Receptor Subunit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "presynaptic areas",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "postsynaptic areas",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "protein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "synaptic regions",
+      "temporal": {
+        "valid_from": "P7",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "synaptic sites",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "synaptic perimeter",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A subunit of the NMDA receptor.",
+    "definition": "GluN3B is a subunit of the NMDA receptor.",
     "common_uses": []
   },
   "deep_layer": {
@@ -32,9 +130,25 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {},
+    "STRUCTURAL": {},
+    "SPATIAL": {
+      "location": "Expressed primarily in the developing brain and spinal cord, with expression decreasing postnatally.",
+      "connected_to": [
+        "GluN1",
+        "GluN2 subunits"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
-  }
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://link.springer.com/article/10.1007/s12264-025-01523-z",
+      "https://pubmed.ncbi.nlm.nih.gov/26700428/",
+      "https://link.springer.com/content/pdf/10.1007/s12264-025-01523-z.pdf"
+    ]
+  },
+  "autocorrected": true
 }

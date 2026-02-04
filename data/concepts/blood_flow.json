@@ -1,14 +1,14 @@
 {
   "name": "Blood Flow",
-  "type": "LIVING_SYSTEM",
+  "type": "PHYSICAL",
   "id": {
     "group": 20,
-    "item": 1003
+    "item": 1001
   },
   "claims": [
     {
       "predicate": "PERFORMED_BY",
-      "object": "Pressure gradient",
+      "object": "Pressure gradient (30, 1234)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -33,6 +33,80 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Deflecting Leaflets",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Leaflets away from the center of the annulus",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Blood Flow Through",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Flow (20, 2345)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "blood (31, 1238)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "movement (50, 1240)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
@@ -40,20 +114,17 @@
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Blood flow through vascular beds is determined by the pressure gradient and the diameter of the precapillary resistance vessels.",
-    "origin": null
+    "mechanism": "Driven by the pressure gradient created by the heart.",
+    "origin": "Originates in the heart and circulates through blood vessels."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "PROCESS_DATA": {
-      "roles": [],
-      "capabilities": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Characteristics of special circulations - ScienceDirect",
-    "citations": []
+    "source": "Recent progress in blood flow sensing",
+    "citations": [
+      "Jun 1, 2025"
+    ]
   }
 }

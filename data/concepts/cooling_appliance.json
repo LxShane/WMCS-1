@@ -1,0 +1,49 @@
+{
+  "name": "Cooling Appliance",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 4321
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Therapeutic treatment of the human body",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cooling (50, 8008)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A device designed to generate cooling for therapeutic purposes.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "US11285040B2 - Combination treatment systems - Google Patents",
+    "citations": []
+  }
+}

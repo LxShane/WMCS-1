@@ -1,0 +1,135 @@
+{
+  "name": "C subunit ring",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 32,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Protein ring",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "ATP synthase subunit C",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Rotation of F1 complex gamma subunit rotor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PART_OF",
+      "object": "Rotor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "atp (31, 1005)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "ring (30, 1239)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "structure (50, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A ring-shaped structure composed of C subunits in ATP synthase that rotates.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Rotation is driven by proton flux and is coupled to the rotation of the F1 complex gamma subunit rotor.",
+    "origin": "Part of the ATP synthase complex."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [
+        "Ring-shaped"
+      ],
+      "composition": [],
+      "parts": [
+        "ATP synthase subunit C"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "In F-ATPases",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "ATP synthase"
+    },
+    "FUNCTION": {
+      "roles": [
+        "Rotary Motor"
+      ],
+      "capabilities": [
+        "Rotation"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "ATP synthase subunit C - Wikipedia, Subunit composition of ATP synthase | MRC Mitochondrial ..., Mitochondrial ATP synthase: architecture, function and ...",
+    "citations": []
+  }
+}

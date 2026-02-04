@@ -2,8 +2,8 @@
   "name": "Wheel",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 2345
+    "group": 30,
+    "item": 7890
   },
   "claims": [
     {
@@ -19,38 +19,50 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Axle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
     "definition": "A circular object that rotates on an axle.",
-    "common_uses": [
-      "Transportation",
-      "Moving objects"
-    ]
+    "common_uses": []
   },
-  "deep_layer": {},
-  "instance_layer": {},
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {
     "STRUCTURAL": {
       "visual_features": [
-        "Circular",
-        "Solid"
+        "Circular"
       ],
       "shape": [
-        "Round"
-      ]
-    },
-    "SPATIAL": {
-      "location": "Peripheral",
-      "connected_to": [],
-      "coordinates": []
+        "Disc"
+      ],
+      "composition": [],
+      "parts": [],
+      "relations": []
     }
   },
   "epistemic_metadata": {
-    "source": "Rotating locomotion in living systems",
+    "source": "Set Automatically",
     "citations": [
-      "https://en.wikipedia.org/wiki/Rotating_locomotion_in_living_systems"
+      "https://www.sciencefacts.net/wheel-and-axle.html"
     ]
-  },
-  "autocorrected": true
+  }
 }

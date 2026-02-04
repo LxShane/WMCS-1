@@ -8,7 +8,7 @@
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "Integrated Circuit",
+      "object": "Integrated Circuit (30, 1238)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -74,9 +74,23 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Surface-mounted on PCB, often near the battery pack or power management circuitry.",
+      "connected_to": [
+        "Battery pack",
+        "Power source",
+        "Load (e.g., microcontroller, display)",
+        "PCB traces for communication and power delivery",
+        "Temperature sensors",
+        "Voltage dividers"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
     "source": "https://www.infineon.com/knowledge-centre/what-is-battery-management-ic",
     "citations": []
-  }
+  },
+  "autocorrected": true
 }

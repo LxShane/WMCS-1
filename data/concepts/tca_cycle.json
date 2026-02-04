@@ -1,9 +1,9 @@
 {
-  "name": "TCA Cycle",
-  "type": "LIVING_SYSTEM",
+  "name": "TCA cycle",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 30,
-    "item": 1236
+    "group": 50,
+    "item": 4567
   },
   "claims": [
     {
@@ -19,14 +19,56 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "metabolic pathway",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "metabolic intermediates",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "oxidation of acetyl-CoA to carbon dioxide",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A series of chemical reactions that remove high-energy electrons and produce carbon dioxide and high-energy compounds ATP, NADH, and FADH2.",
+    "definition": "A metabolic pathway also known as the citric acid cycle.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Series of enzymatic reactions.",
+    "mechanism": "Oxidizes acetyl-CoA to carbon dioxide, regenerating intermediates on every turn.",
     "origin": null
   },
   "instance_layer": {
@@ -34,9 +76,10 @@
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Multiple web sources",
     "citations": [
-      "PMC5574030"
+      "https://www.sciencedirect.com/science/article/pii/S0021925820701109",
+      "https://pubmed.ncbi.nlm.nih.gov/34270333/"
     ]
   }
 }

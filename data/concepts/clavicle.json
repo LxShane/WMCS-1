@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 21,
-    "item": 1234
+    "item": 4567
   },
   "claims": [
     {
@@ -36,7 +36,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "Long bone",
+      "object": "Long bone (21, 1234)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -64,7 +64,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "Bone",
+      "object": "Bone (23, 5678)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -190,7 +190,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "Long Bone",
+      "object": "Long Bone (21, 1234)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -411,15 +411,52 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Bone (23, 5678)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Sternoclavicular joint",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "bone (23, 5678)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The clavicle, commonly known as the collarbone, is a long, slender bone that connects the shoulder girdle to the axial skeleton.",
+    "definition": "The clavicle is a bone in the pectoral girdle.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The clavicle acts as a strut, keeping the shoulder joint away from the rib cage and allowing for a greater range of motion.",
-    "origin": "Develops from intramembranous ossification."
+    "mechanism": "Connects the scapula to the sternum.",
+    "origin": "Develops from cartilage."
   },
   "instance_layer": {
     "examples": []
@@ -430,38 +467,36 @@
         "Support"
       ],
       "capabilities": [
-        "Connect shoulder girdle to axial skeleton",
-        "Facilitate arm movements"
+        "Connects arm to body"
       ]
     },
     "STRUCTURAL": {
       "visual_features": [
-        "Slender",
-        "S-shaped"
-      ],
-      "shape": [
-        "Sigmoid",
+        "Long",
         "Curved"
       ],
-      "composition": [
-        "Bone"
+      "shape": [
+        "S-shaped"
       ],
+      "composition": [],
       "parts": [],
       "relations": []
     },
     "SPATIAL": {
-      "location": "Anterior, Superior, Medial, Lateral",
+      "location": "Anterior shoulder",
+      "coordinates": [],
       "connected_to": [
         "Sternum",
-        "Scapula",
-        "Rib 1"
+        "Scapula"
       ],
-      "coordinates": []
+      "contained_in": "Shoulder"
     }
   },
   "epistemic_metadata": {
-    "source": "Multiple Web Sources",
-    "citations": []
-  },
-  "autocorrected": true
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Pectoral_girdle",
+      "https://courses.lumenlearning.com/suny-ap1/chapter/the-pectoral-girdle/"
+    ]
+  }
 }

@@ -5,65 +5,6 @@
     "group": 50,
     "item": 1234
   },
-  "surface_layer": {
-    "definition": "A DNA repair pathway that uses a homologous DNA template to accurately repair broken DNA.",
-    "common_uses": []
-  },
-  "deep_layer": {
-    "mechanism": "Uses homologous DNA sequence as template for repair.",
-    "origin": "Cellular DNA repair mechanisms"
-  },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "REPAIRER"
-      ],
-      "capabilities": [
-        "Accurately repairing double-strand DNA breaks using a template"
-      ]
-    },
-    "EQUIVALENCE": {
-      "fills_role": [
-        "REPAIRER"
-      ]
-    },
-    "ABSTRACT_DATA": {
-      "domain": [
-        "GENETICS",
-        "CELLULAR_BIOLOGY"
-      ],
-      "core_premise": [
-        "A homologous DNA template can be used to accurately repair broken DNA."
-      ],
-      "contrasting_concepts": [
-        "Non-homologous end joining"
-      ]
-    },
-    "PROCESS_DATA": {
-      "agent": [
-        "ENZYME"
-      ],
-      "patient": [
-        "DNA"
-      ],
-      "precondition": [
-        "Double-strand break in DNA, presence of homologous template"
-      ],
-      "effect": [
-        "DNA break repaired accurately"
-      ]
-    }
-  },
-  "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8187289/",
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8388126/"
-    ]
-  },
   "claims": [
     {
       "predicate": "functional_roles",
@@ -82,6 +23,283 @@
         "status": "SETTLED",
         "source_type": "MIGRATE_LEGACY"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Genetic Recombination",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Repairing DNA lesions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Chromosomal pairing",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Chromosomal exchange",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Mitosis",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Meiosis",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "a type of genetic recombination in which genetic information is exchanged between two similar or identical molecules of double-stranded or single-stranded nucleic acids",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "accurately repair harmful DNA breaks that occur on both strands of DNA, known as double-strand breaks (DSB)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PRODUCES",
+      "object": "new combinations of DNA sequences during meiosis",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "horizontal gene transfer to exchange genetic material between different strains and species of bacteria and viruses",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "nearly universal biological mechanism",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "resection",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "strand invasion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "DSBR (double-strand break repair) pathway",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "SDSA (synthesis-dependent strand annealing) pathway",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "highly conserved genetic process",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "gene targeting",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
-  ]
+  ],
+  "surface_layer": {
+    "definition": "Homologous recombination is a type of genetic recombination in which genetic information is exchanged between two similar or identical molecules of double-stranded or single-stranded nucleic acids.",
+    "common_uses": [
+      "DNA repair",
+      "genetic engineering",
+      "horizontal gene transfer"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "After a double-strand break occurs, sections of DNA around the 5' ends of the break are cut away in a process called resection. In the strand invasion step that follows, an overhanging 3' end of the broken DNA molecule then 'invades' a similar or identical DNA molecule that is not broken.",
+    "origin": "Conserved across all three domains of life as well as DNA and RNA viruses."
+  },
+  "instance_layer": {
+    "examples": [
+      "Used by cells to repair double-strand breaks (DSB).",
+      "Used in horizontal gene transfer to exchange genetic material between different strains and species of bacteria and viruses.",
+      "Used in gene targeting, a technique for introducing genetic changes into target organisms."
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "DNA Repair",
+        "Genetic Recombination"
+      ],
+      "capabilities": [
+        "Exchange of DNA sequences",
+        "Repair DNA breaks"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Homologous_recombination",
+      "https://grokipedia.com/page/Homologous_recombination",
+      "https://www.britannica.com/science/homologous-recombination"
+    ]
+  }
 }

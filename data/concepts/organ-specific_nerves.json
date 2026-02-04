@@ -1,0 +1,83 @@
+{
+  "name": "Organ-Specific Nerves",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Peripheral Nerves",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Specific Organs",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Nerves that specifically innervate particular organs.",
+    "common_uses": [
+      "Regulating organ function",
+      "Transmitting sensory information from organs"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Specialized to control and monitor the function of a specific organ.",
+    "origin": "Develop during organogenesis in coordination with organ development."
+  },
+  "instance_layer": {
+    "examples": [
+      "Vagus nerve (innervates the heart, lungs, and digestive system)",
+      "Phrenic nerve (innervates the diaphragm)"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Bundles of nerve fibers",
+        "Variable size depending on the organ"
+      ],
+      "shape": [
+        "Cylindrical"
+      ],
+      "composition": [
+        "Neurons",
+        "Glial cells",
+        "Connective tissue"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Within and around the specific organ",
+      "coordinates": [],
+      "connected_to": [
+        "Central nervous system",
+        "Cells within the organ"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

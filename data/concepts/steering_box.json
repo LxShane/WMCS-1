@@ -1,0 +1,50 @@
+{
+  "name": "Steering Box",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1236
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Downstream from Steering Wheel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RECEIVES_INPUT_FROM",
+      "object": "Steering Wheel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A component that receives input from the steering wheel and converts it into steering action.",
+    "common_uses": [
+      "Converting steering input"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Quizlet",
+    "citations": [
+      "Quiz 4 - Steering System Theory Flashcards | Quizlet"
+    ]
+  }
+}

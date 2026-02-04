@@ -2,13 +2,13 @@
   "name": "Copper",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 1235
+    "group": 30,
+    "item": 1236
   },
   "claims": [
     {
       "predicate": "USED_FOR",
-      "object": "RF shielding",
+      "object": "RF shielding (20, 4321)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -50,7 +50,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "Metal",
+      "object": "Metal (20, 6789)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -92,7 +92,7 @@
     },
     {
       "predicate": "HAS_PROPERTY",
-      "object": "Strength",
+      "object": "Strength (50, 7913)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -117,60 +117,65 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "matrix material",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "copper powders",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "metal (20, 6789)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A metallic element used as an electrical conductor.",
+    "definition": "A reddish-orange metal.",
     "common_uses": [
       "electrical wiring",
-      "electronics"
+      "heat sink"
     ]
   },
   "deep_layer": {
-    "mechanism": "Copper's atomic structure allows for free movement of electrons.",
-    "origin": "Mined from the earth."
+    "mechanism": "Provides thermal and electrical conductivity.",
+    "origin": "Mined from ore."
   },
   "instance_layer": {
     "examples": [
-      "Copper wire in household wiring"
+      "Copper powder"
     ]
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Electrical Conductor"
-      ],
-      "capabilities": [
-        "Conducting electricity"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [
-        "Reddish-brown",
-        "Metallic"
-      ],
-      "shape": [
-        "Wire",
-        "Sheet",
-        "Bar"
-      ],
-      "composition": [
-        "Copper"
-      ],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "In electrical wiring and circuits",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": "Electrical cables, devices"
-    }
-  },
   "epistemic_metadata": {
-    "source": "https://electricalacademia.com/basic-electrical/conductors-insulators-semiconductors-theory-examples/",
+    "source": "Set Automatically",
     "citations": [
-      "Various sections"
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7265306/"
     ]
   }
 }

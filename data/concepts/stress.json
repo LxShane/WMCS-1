@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1001
+    "item": 1239
   },
   "claims": [
     {
@@ -75,31 +75,61 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Force applied per unit area",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "force per unit area",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Essential information for designing materials and structures",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Stress is the force per unit area within a material that arises from externally applied forces.",
-    "common_uses": [
-      "Analyzing material behavior",
-      "Predicting structural performance"
-    ]
+    "definition": "Force per unit area acting on a material.",
+    "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": "Stress develops in a material when it is subjected to external loads or forces, causing internal forces and deformations.",
-    "origin": "Stress arises from the intermolecular forces within a material resisting the external forces acting on it."
-  },
-  "instance_layer": {
-    "examples": [
-      "Stress in a bridge due to traffic",
-      "Stress in an airplane wing during flight"
-    ]
-  },
+  "deep_layer": {},
+  "instance_layer": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://www.pearsonhighered.com/assets/samplechapter/0/1/3/4/0134441184.pdf",
-      "https://www.xometry.com/resources/materials/stress/",
-      "https://journals.sagepub.com/doi/10.1177/15280837241228268"
+      "Predicting stress, strain and deformation fields in materials ...",
+      "Ch10 Deformation - United States Naval Academy"
     ]
   }
 }

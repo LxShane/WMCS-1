@@ -2,8 +2,8 @@
   "name": "Sensory System",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 1001
+    "group": 21,
+    "item": 1238
   },
   "claims": [
     {
@@ -75,25 +75,39 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "RELAYED_THROUGH",
+      "object": "Nucleus",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A sensory system consists of sensory neurons, neural pathways, and parts of the brain involved in sensory perception and interoception.",
+    "definition": "Each sensory system is relayed through a particular nucleus in the thalamus.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Sensory receptors detect stimuli and transmit signals to the brain for processing.",
-    "origin": "Evolved to allow organisms to interact with their environment."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
-    "examples": [
-      "Vision",
-      "Hearing"
-    ]
+    "examples": []
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Sensory nervous system - Wikipedia",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://open.oregonstate.education/anatomy2e/chapter/sensory-motor-pathways/",
+      "https://courses.lumenlearning.com/suny-ap1/chapter/central-processing/"
+    ]
   }
 }

@@ -1,9 +1,9 @@
 {
-  "name": "Periodontal tissue",
+  "name": "Periodontal Tissue",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 22,
-    "item": 1006
+    "group": 20,
+    "item": 1234
   },
   "claims": [
     {
@@ -19,10 +19,52 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Periodontal Ligament",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Gingival Tissue",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Mouth",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The tissues that surround and support the teeth.",
+    "definition": "Tissues surrounding and supporting the teeth.",
     "common_uses": []
   },
   "deep_layer": {

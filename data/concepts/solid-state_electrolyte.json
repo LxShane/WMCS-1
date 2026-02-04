@@ -1,9 +1,9 @@
 {
-  "name": "Solid-state electrolyte",
+  "name": "Solid-State Electrolyte",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 23,
-    "item": 1003
+    "group": 20,
+    "item": 1006
   },
   "claims": [
     {
@@ -103,24 +103,38 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Superionic Conductivity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "An electrolyte in a solid state, as opposed to a liquid electrolyte.",
-    "common_uses": [
-      "Lithium-ion batteries"
-    ]
+    "definition": "A solid material that conducts ions.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Facilitates ion transport through a solid material.",
-    "origin": "Developed as an alternative to liquid electrolytes"
+    "mechanism": "Ion transport through the solid.",
+    "origin": "Material science."
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Solid-state electrolyte - Wikipedia",
+    "source": "https://arxiv.org/html/2510.18630v1",
     "citations": [
-      "https://en.wikipedia.org/wiki/Solid-state_electrolyte"
+      "Non-Arrhenius Li-ion transport and grain-size effects in"
     ]
   }
 }

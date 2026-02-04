@@ -1,0 +1,105 @@
+{
+  "name": "Bonding Wire",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "MADE_OF",
+      "object": "Gold",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Aluminum (30, 1235)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Wire bonding",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "bonding (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A thin wire used in wire bonding.",
+    "common_uses": [
+      "Creating electrical connections between a die and a substrate"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The wire provides a conductive path for electrical signals.",
+    "origin": "Used as a standard component in microelectronics packaging."
+  },
+  "instance_layer": {
+    "examples": [
+      "A gold wire connecting a microchip to a circuit board"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Electrical Conductor"
+      ],
+      "capabilities": [
+        "Conducting electricity"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Thin",
+        "Metallic"
+      ],
+      "shape": [
+        "Cylindrical"
+      ],
+      "composition": [
+        "Gold",
+        "Aluminum"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Bonding Wire - an overview | ScienceDirect Topics"
+    ]
+  }
+}

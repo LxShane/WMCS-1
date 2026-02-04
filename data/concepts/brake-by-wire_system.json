@@ -8,7 +8,7 @@
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "Vehicle System",
+      "object": "Vehicle System (29, 1009)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -50,7 +50,7 @@
     },
     {
       "predicate": "REQUIRES",
-      "object": "Regeneration Braking",
+      "object": "Regeneration Braking (50, 7890)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -172,6 +172,15 @@
         "confidence": 0.8,
         "status": "SETTLED",
         "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "vehicle (30, 1006)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
       }
     }
   ],

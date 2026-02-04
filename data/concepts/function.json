@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1237
+    "item": 1005
   },
   "claims": [
     {
@@ -33,38 +33,40 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "The purpose for which something is designed or exists.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The purpose or role something serves.",
-    "common_uses": []
+    "definition": "The natural purpose of something.",
+    "common_uses": [
+      "Engineering Design",
+      "Biology"
+    ]
   },
   "deep_layer": {
-    "mechanism": "The way something operates.",
-    "origin": "The intended use or design."
+    "mechanism": "Function is determined by structure.",
+    "origin": "Arises from the need to describe the purpose of objects or processes."
   },
-  "instance_layer": [],
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
+  "instance_layer": [
+    "The function of a heart is to pump blood"
+  ],
   "epistemic_metadata": {
-    "source": "Understanding brain networks and brain organization - PMC",
-    "citations": []
+    "source": "Macromolecular Crystallography",
+    "citations": [
+      "https://www-ssrl.slac.stanford.edu/content/techniques/macromolecular-crystallography"
+    ]
   }
 }

@@ -1,0 +1,82 @@
+{
+  "name": "PCB Circuit Tracing",
+  "type": "SOCIAL_CONSTRUCT",
+  "id": {
+    "group": 60,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "REQUIRES",
+      "object": "Identifying parts",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Looking at traces",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Using an ohmmeter",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The process of identifying the path of electrical signals on a Printed Circuit Board (PCB).",
+    "common_uses": [
+      "Troubleshooting",
+      "Reverse engineering",
+      "Design verification"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Visually following traces and using a multimeter to confirm continuity between points.",
+    "origin": "Developed to aid in the repair and analysis of electronic circuits."
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "How to trace a PCB circuit - Quora",
+    "citations": []
+  }
+}

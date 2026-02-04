@@ -1,0 +1,80 @@
+{
+  "name": "Logistics Network",
+  "type": "SOCIAL_CONSTRUCT",
+  "id": {
+    "group": 61,
+    "item": 4004
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Supply Chain",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Ports",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Transportation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A network of organizations and activities involved in the movement and storage of goods.",
+    "common_uses": [
+      "Supply Chain Management",
+      "Distribution"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Logistics networks ensure the efficient flow of goods from origin to consumption, coordinating various activities like transportation, warehousing, and inventory management.",
+    "origin": "Logistics networks have evolved with the increasing complexity of supply chains."
+  },
+  "instance_layer": [
+    "Amazon's logistics network."
+  ],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Distribution",
+        "Warehousing"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "Maritime connectivity, transport infrastructure expansion and economic"
+    ]
+  }
+}

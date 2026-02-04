@@ -1,47 +1,9 @@
 {
   "name": "Lithium Ion",
-  "type": "INANIMATE_OBJECT",
+  "type": "PHYSICAL",
   "id": {
-    "group": 30,
-    "item": 1004
-  },
-  "surface_layer": {
-    "definition": "An ion of lithium.",
-    "common_uses": []
-  },
-  "deep_layer": {},
-  "instance_layer": {},
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "CHARGE_CARRIER"
-      ],
-      "capabilities": []
-    },
-    "EQUIVALENCE": {
-      "fills_role": [
-        "CHARGE_CARRIER"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "MECHANISM": [],
-    "PROCESS_DATA": {},
-    "PROPERTY_DATA": {},
-    "ABSTRACT_DATA": {}
-  },
-  "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "Battery Talk Talk",
-      "BU-306",
-      "A review of lithium-ion battery safety concerns"
-    ]
+    "group": 20,
+    "item": 1111
   },
   "claims": [
     {
@@ -52,6 +14,71 @@
         "status": "SETTLED",
         "source_type": "MIGRATE_LEGACY"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Ion",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_CHARGE",
+      "object": "+1",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Lithium",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
-  ]
+  ],
+  "surface_layer": {
+    "definition": "A positively charged ion of lithium.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Forms when a lithium atom loses one electron.",
+    "origin": "Occurs naturally and can be produced in chemical reactions."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://mattermodeling.stackexchange.com/questions/11145/include-li-in-force-field-for-molecular-dynamics",
+    "citations": [
+      "N/A"
+    ]
+  }
 }

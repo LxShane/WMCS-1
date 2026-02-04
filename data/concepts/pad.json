@@ -1,0 +1,117 @@
+{
+  "name": "Pad",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Land Pattern",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Solder",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CONNECTED_TO",
+      "object": "Ground Plane",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CONNECTED_TO",
+      "object": "Trace",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A conductive area on a printed circuit board (PCB) to which electronic components are soldered.",
+    "common_uses": [
+      "Connecting electronic components",
+      "Providing electrical contact"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Pads provide a physical and electrical connection point for components on a PCB, allowing current to flow between them.",
+    "origin": "Pads are a fundamental element of PCB design, originating with the development of PCB manufacturing techniques."
+  },
+  "instance_layer": {
+    "examples": [
+      "A surface mount pad for a resistor."
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic",
+        "Small",
+        "Flat"
+      ],
+      "shape": [
+        "Rectangular",
+        "Circular",
+        "Square"
+      ],
+      "composition": [
+        "Copper",
+        "Solder"
+      ]
+    },
+    "SPATIAL": {
+      "location": "On PCB Surface",
+      "connected_to": [
+        "Electronic Components",
+        "Traces",
+        "Ground Plane"
+      ],
+      "contained_in": "PCB"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.protoexpress.com/blog/pcb-manufacturing-defects-caused-land-patterns/",
+      "https://electronics.stackexchange.com/questions/402385/usefull-0402-and-0603-solderbridge-footprints-compatible-with-machine-manufactur",
+      "https://electronics.stackexchange.com/questions/tagged/eagle"
+    ]
+  }
+}

@@ -2,8 +2,8 @@
   "name": "Pin",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 30,
-    "item": 7890
+    "group": 20,
+    "item": 4567
   },
   "claims": [
     {
@@ -33,29 +33,119 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Metal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Soldering to PCB landing pads",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Electrical Connector",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Contact point",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Metal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A pin is a terminal on a connector.",
+    "definition": "A conductive element used to connect to an electronic circuit.",
     "common_uses": [
-      "carrying electrical signals"
+      "Electrical connection",
+      "Signal transfer"
     ]
   },
   "deep_layer": {
-    "mechanism": "Pins facilitate the flow of electricity between components.",
-    "origin": "Integral part of electrical connectors."
+    "mechanism": "Conducts electricity from one point to another.",
+    "origin": "Development alongside electronic components."
   },
   "instance_layer": {
     "examples": [
-      "A pin on a DVI connector"
+      "GPIO pin on a microcontroller",
+      "Pin on a connector"
     ]
   },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Cylindrical",
+        "Metallic"
+      ],
+      "shape": [
+        "Cylinder"
+      ],
+      "composition": [
+        "Copper",
+        "Gold",
+        "Tin"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Surface of device",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
   "epistemic_metadata": {
-    "source": "Ingestion Engine",
-    "citations": [
-      "https://resources.altium.com/p/how-design-connector-pinout-your-pcb",
-      "https://www.pcb-hero.com/blogs/lickys-column/the-process-of-designing-connector-pins-for-your-pcb",
-      "https://www.raypcb.com/design-a-connector-pinout/"
-    ]
+    "source": "Manual",
+    "citations": []
   }
 }

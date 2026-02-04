@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 21,
-    "item": 1234
+    "item": 5678
   },
   "claims": [
     {
@@ -75,15 +75,89 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Intima",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Internal elastic lamina",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Media",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Adventitia",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "artery (21, 1242)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "layer (24, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The wall of an artery, responsible for transporting oxygenated blood.",
+    "definition": "The artery wall is the outer layer of the artery.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Artery walls maintain hemodynamic stability and vascular health through the structure of their layers.",
-    "origin": "Develops during vascular wall development."
+    "mechanism": "Provides structural support and regulates blood flow.",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
@@ -93,17 +167,25 @@
       "visual_features": [],
       "shape": [],
       "composition": [],
-      "parts": [],
+      "parts": [
+        "Intima",
+        "Internal elastic lamina",
+        "Media",
+        "Adventitia"
+      ],
       "relations": []
     },
-    "SPATIAL": {}
+    "SPATIAL": {
+      "location": "Outer layer of artery",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Artery"
+    }
   },
   "epistemic_metadata": {
-    "source": "Multiple web sources",
+    "source": "Set Automatically",
     "citations": [
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11113178/",
-      "https://anatomynote.com/detailed-guide-to-the-structure-of-an-artery-wall-anatomy-and-physiology/",
-      "https://quizlet.com/305212195/3-blood-vessels-flash-cards/"
+      "Artery Wall - an overview | ScienceDirect Topics"
     ]
   }
 }

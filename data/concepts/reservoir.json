@@ -1,0 +1,101 @@
+{
+  "name": "Reservoir",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "the component that holds the system fluid not currently in use in the system pump, control components, actuators, and lines",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "making up fluid lost in leakage during system operation",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "compensating for the varying volume between extension and retraction positions of cylinders",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A reservoir holds the fluid not currently in use in the hydraulic system.",
+    "common_uses": [
+      "Holding hydraulic fluid",
+      "Compensating for leakage",
+      "Accommodating volume changes in cylinders"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The reservoir provides a storage space for hydraulic fluid, allowing for system operation even with minor leaks or volume fluctuations in the actuators.",
+    "origin": "Essential component in hydraulic systems to ensure continuous operation."
+  },
+  "instance_layer": {
+    "examples": [
+      "The reservoir in a hydraulic power unit on a construction vehicle."
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Fluid Storage"
+      ],
+      "capabilities": [
+        "Store hydraulic fluid",
+        "Compensate for fluid loss",
+        "Buffer volume changes"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Tank-like",
+        "Often with sight glass"
+      ],
+      "shape": [
+        "Cylindrical",
+        "Rectangular"
+      ],
+      "composition": [
+        "Steel",
+        "Aluminum"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "G-W PDF",
+    "citations": [
+      "PDF 8 Fluid Storage and Distribution - G-W"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Terrestrial Ecosystem",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Ecosystem",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Land",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Contributing to the health of aquatic environments",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An ecosystem located on land.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Through exchange of resources and energy with aquatic ecosystems.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": [
+      "Forests",
+      "Grasslands",
+      "Deserts"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Multiple URLs",
+    "citations": [
+      "https://www.nature.com/articles/s41467-023-37232-2",
+      "https://www.pnnl.gov/terrestrial-aquatics",
+      "https://maweb.org/how-are-terrestrial-and-aquatic-ecosystems-connected/"
+    ]
+  }
+}

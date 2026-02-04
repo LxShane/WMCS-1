@@ -1,0 +1,75 @@
+{
+  "name": "Star Grounding",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1238
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Grounding Technique",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Analog and Digital Ground Separation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A grounding scheme where all ground connections converge at a single point.",
+    "common_uses": [
+      "Reducing ground loops",
+      "Minimizing noise"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Prevents circulating ground currents by providing a single reference point.",
+    "origin": "Electronics engineering."
+  },
+  "instance_layer": {
+    "examples": [
+      "Connecting multiple ground wires to a common point"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Point-like connection",
+        "Centralized grounding"
+      ],
+      "shape": [
+        "Radial"
+      ],
+      "composition": [
+        "Wire",
+        "Conductive material"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://resources.altium.com/p/how-to-use-a-star-point-for-analog-ground-digital-ground-connection"
+    ]
+  }
+}

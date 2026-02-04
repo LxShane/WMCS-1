@@ -1,0 +1,66 @@
+{
+  "name": "Laser Range Finder",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 21,
+    "item": 1009
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Sensor",
+      "temporal": {
+        "valid_from": "2015",
+        "valid_until": "PRESENT",
+        "event": "Publication of review"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A sensor that uses a laser beam to determine the distance to an object.",
+    "common_uses": [
+      "robotics",
+      "surveying"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Laser rangefinders measure the time it takes for a laser pulse to reach an object and return.",
+    "origin": "Derived from laser technology."
+  },
+  "instance_layer": {
+    "examples": [
+      "Time-of-flight laser rangefinder",
+      "Phase-shift laser rangefinder"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.sciencedirect.com/science/article/pii/S1877050915038375"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Sensor"
+      ],
+      "capabilities": [
+        "Range Finding"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Laser Emitter",
+        "Detector"
+      ],
+      "shape": [
+        "Box-like"
+      ]
+    }
+  }
+}

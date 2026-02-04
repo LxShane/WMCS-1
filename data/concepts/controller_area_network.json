@@ -1,9 +1,9 @@
 {
   "name": "Controller Area Network",
-  "type": "SOCIAL_CONSTRUCT",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 60,
-    "item": 9012
+    "group": 20,
+    "item": 1234
   },
   "claims": [
     {
@@ -33,28 +33,161 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "vehicle bus standard",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "efficient communication between electronic control units (ECUs)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "reducing complexity and cost of electrical wiring in automobiles through multiplexing",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "arbitration process",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "differential signaling",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "communication system",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "bus (20, 9018)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "controller (30, 4321)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "network (50, 1236)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "vehicle (30, 1006)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "An electronic communication bus defined by the ISO 11898 standards.",
-    "common_uses": []
+    "definition": "A controller area network (CAN) is a vehicle bus standard designed to enable efficient communication primarily between electronic control units (ECUs).",
+    "common_uses": [
+      "communication in automobiles",
+      "3D printing"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Broadcast-based, message-oriented protocol ensuring data integrity and prioritization through arbitration, allowing the highest priority device to continue transmitting while others back off. Reliability enhanced by differential signaling.",
+    "origin": "Originally developed to reduce the complexity and cost of electrical wiring in automobiles through multiplexing."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "FUNCTION": {},
     "STRUCTURAL": {},
+    "FUNCTION": {
+      "roles": [
+        "Data Communicator"
+      ],
+      "capabilities": [
+        "real-time data exchange",
+        "multi-master data exchange"
+      ]
+    },
     "SPATIAL": {}
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "CAN FD Protocol Tutorial - Kvaser - Advanced CAN Solutions"
+      "https://en.wikipedia.org/wiki/CAN_bus",
+      "https://grokipedia.com/page/CAN_bus",
+      "https://www.csselectronics.com/pages/can-bus-simple-intro-tutorial"
     ]
   }
 }

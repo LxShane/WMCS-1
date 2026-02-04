@@ -1,0 +1,121 @@
+{
+  "name": "Network Discovery",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A process that surveys networks to find network devices and collect details.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Listing IP addresses and devices",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Protocols like SNMP, CDP, and LLDP",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Finding network devices",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Collecting details like device type, IP addresses, hostnames, operating systems, opened ports, and MAC addresses",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Network discovery is a process to identify devices and gather information on a network.",
+    "common_uses": [
+      "Identifying network devices",
+      "Gathering network information",
+      "Vulnerability Management"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Network discovery tools send out requests using various protocols. The devices respond with their information, which is then collected and analyzed.",
+    "origin": "Evolved as networks became more complex and required automated management."
+  },
+  "instance_layer": {
+    "examples": [
+      "Using Nmap to scan a network",
+      "Using a commercial network discovery tool like Auvik"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Network Management",
+        "Security"
+      ],
+      "capabilities": [
+        "Device Identification",
+        "Inventory Management",
+        "Vulnerability Detection"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Auvik.com, ManageEngine.com, Microsoft Learn",
+    "citations": [
+      "https://www.auvik.com/franklyit/blog/what-is-network-discovery/",
+      "https://www.manageengine.com/network-monitoring/tech-topics/what-is-network-discovery.html",
+      "https://learn.microsoft.com/en-us/defender-endpoint/network-devices"
+    ]
+  }
+}

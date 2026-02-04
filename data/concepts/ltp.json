@@ -1,8 +1,8 @@
 {
   "name": "LTP",
-  "type": "LIVING_SYSTEM",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 61,
+    "group": 50,
     "item": 1003
   },
   "claims": [
@@ -19,40 +19,50 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "long-term potentiation",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "stronger excitatory LTP in young animals",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A persistent strengthening of synapses based on recent patterns of activity.",
+    "definition": "Long-term potentiation",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Various mechanisms including changes in receptor density and signaling.",
-    "origin": "Activity-dependent synaptic plasticity."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "GluN2A and GluN2B subunit-containing NMDA receptors in hippocampal plasticity - PMC",
+    "source": "GRIN2B - Wikipedia",
     "citations": []
   }
 }

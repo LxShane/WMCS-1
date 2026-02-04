@@ -1,0 +1,67 @@
+{
+  "name": "Blood Pressure (BP)",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "The force exerted by circulating blood on the walls of blood vessels",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "arteries (31, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "blood (31, 1238)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "pressure (20, 8765)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The pressure of blood against the walls of arteries.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Affected by cardiac output and systemic vascular resistance.",
+    "origin": "Physiological variable."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

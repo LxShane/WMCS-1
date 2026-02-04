@@ -1,0 +1,95 @@
+{
+  "name": "Sensor Network",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 24,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Network",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Sensors",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Data Acquisition",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A network composed of sensors.",
+    "common_uses": [
+      "Data Acquisition",
+      "Environmental monitoring"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Sensors collect data and transmit it through the network.",
+    "origin": "Evolved from traditional wired sensor systems."
+  },
+  "instance_layer": {
+    "examples": [
+      "Wireless sensor networks for environmental monitoring"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Data Collection",
+        "Data Transmission"
+      ],
+      "capabilities": [
+        "Sensing physical parameters",
+        "Wireless communication"
+      ]
+    },
+    "STRUCTURAL": {
+      "parts": [
+        "Sensor",
+        "Communication Module",
+        "Power Source"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Manual",
+    "citations": [
+      "Model-Driven Data Acquisition in Sensor Networks",
+      "Sensor data acquisition systems and architectures",
+      "Data, Signal and Image Processing and Applications in Sensors"
+    ]
+  }
+}

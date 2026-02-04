@@ -2,8 +2,8 @@
   "name": "Electric Power Transformer",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 29,
-    "item": 9013
+    "group": 31,
+    "item": 7890
   },
   "claims": [
     {
@@ -19,22 +19,51 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Adjusting voltage",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A device to adjust voltage.",
-    "common_uses": []
+    "definition": "A device used to increase or decrease voltage in an electrical circuit.",
+    "common_uses": [
+      "Voltage step-up",
+      "Voltage step-down"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Adjusts voltage to match varied voltage requirements.",
-    "origin": null
+    "mechanism": "Transformers use electromagnetic induction to transfer energy between circuits with different voltage levels.",
+    "origin": "Developed as a way to efficiently transmit and distribute electricity over long distances."
   },
-  "instance_layer": {
-    "examples": []
+  "instance_layer": [],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
   },
-  "facets": {},
   "epistemic_metadata": {
-    "source": "PDF How It Works: Electric Transmission & Distribution and Protective Measures",
+    "source": "https://www.energy.gov/sites/default/files/2023-11/FINAL_CESER+Electricity+Grid+Backgrounder_508.pdf",
     "citations": []
   }
 }

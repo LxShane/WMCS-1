@@ -2,8 +2,8 @@
   "name": "Thalamocortical Projections",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 1006
+    "group": 24,
+    "item": 1004
   },
   "claims": [
     {
@@ -47,14 +47,56 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Thalamus and Cortex",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "relaying sensory information from the periphery to the primary sensory cortices",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "TARGETS",
+      "object": "excitatory neurons in layer 4 (L4)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Nerve fibers connecting the thalamus to the cortex.",
+    "definition": "Nerve pathways that project from the thalamus to the cerebral cortex.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Transmit sensory and motor information between the thalamus and cortex.",
+    "mechanism": null,
     "origin": null
   },
   "instance_layer": {
@@ -63,6 +105,8 @@
   "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": []
+    "citations": [
+      "jneurosci.org"
+    ]
   }
 }

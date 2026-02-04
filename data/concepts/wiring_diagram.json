@@ -1,9 +1,9 @@
 {
   "name": "Wiring Diagram",
-  "type": "INANIMATE_OBJECT",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 22,
-    "item": 1005
+    "group": 50,
+    "item": 1237
   },
   "claims": [
     {
@@ -33,19 +33,88 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Connecting USB devices",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Visual representation of connections between electrical components",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Understanding electrical installations",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Troubleshooting electrical installations",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A diagram showing electrical connections.",
-    "common_uses": []
-  },
-  "deep_layer": {},
-  "instance_layer": {},
-  "facets": {},
-  "epistemic_metadata": {
-    "source": "Ingestion Engine",
-    "citations": [
-      "https://elecdiags.com/interconnect-diagram"
+    "definition": "A visual representation of the connections between electrical components.",
+    "common_uses": [
+      "Electrical design",
+      "Troubleshooting electrical circuits"
     ]
+  },
+  "deep_layer": {
+    "mechanism": "Wiring diagrams show how different electrical components are connected, allowing for easy understanding of circuit functionality.",
+    "origin": "Wiring diagrams are created to document electrical systems."
+  },
+  "instance_layer": {
+    "examples": [
+      "Schematic diagrams",
+      "Connection diagrams"
+    ]
+  },
+  "facets": {
+    "ABSTRACT_DATA": {
+      "domain": "Electrical engineering"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://elecschem.com/terminal-strip-wiring-diagram",
+    "citations": []
   }
 }

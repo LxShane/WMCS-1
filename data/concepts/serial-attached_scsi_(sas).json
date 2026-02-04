@@ -1,0 +1,70 @@
+{
+  "name": "Serial-Attached SCSI (SAS)",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1236
+  },
+  "claims": [
+    {
+      "predicate": "REQUIRES",
+      "object": "Connectors",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A data transfer interface.",
+    "common_uses": [
+      "Connecting storage devices to servers"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "A serial communication protocol used for connecting storage devices.",
+    "origin": "Evolved from parallel SCSI technology."
+  },
+  "instance_layer": {
+    "examples": [
+      "SAS Hard Drives",
+      "SAS Expanders"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Data Transfer Protocol"
+      ],
+      "capabilities": [
+        "Providing high-speed data transfer",
+        "Connecting storage devices"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Between devices",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Manual",
+    "citations": [
+      "https://www.connectortips.com/connectors-and-cables-modernize-data-centers/"
+    ]
+  }
+}

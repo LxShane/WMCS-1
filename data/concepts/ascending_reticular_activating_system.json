@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 21,
-    "item": 1234
+    "item": 1001
   },
   "claims": [
     {
@@ -64,7 +64,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "locus coeruleus",
+      "object": "locus coeruleus (21, 1237)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -134,7 +134,7 @@
     },
     {
       "predicate": "LOCATED_AT",
-      "object": "brainstem",
+      "object": "brainstem (22, 1234)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -159,14 +159,200 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PLAYS_ROLE",
+      "object": "Maintaining arousal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PLAYS_ROLE",
+      "object": "Maintaining consciousness",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Mediating transition between sleep and wakefulness",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Pathways connecting the brainstem to higher brain structures",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "System",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Brainstem (22, 1234)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Nuclei",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Producing activation seen in waking and dreaming states",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Changes in brain wave frequency and amplitude",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PROJECTS_TO",
+      "object": "Diencephalon (22, 9012)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PROJECTS_TO",
+      "object": "Cortex",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "brainstem (22, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "diencephalon (22, 9012)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The ascending reticular activating system (ARAS) is a system of brain nuclei that regulates waking, alertness, and attention.",
+    "definition": "The Ascending Reticular Activating System (ARAS) is defined as a diverse system in the brainstem that projects to the diencephalon and cortex.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Transmits sensory signals to the thalamus and cerebral cortex.",
+    "mechanism": "ARAS produces activation seen in waking and dreaming states through changes in brain wave frequency and amplitude.",
     "origin": null
   },
   "instance_layer": {
@@ -175,7 +361,11 @@
   "facets": {
     "FUNCTION": {
       "roles": [],
-      "capabilities": []
+      "capabilities": [
+        "Produce activation",
+        "Change brain wave frequency",
+        "Change brain wave amplitude"
+      ]
     },
     "STRUCTURAL": {
       "visual_features": [],
@@ -185,14 +375,27 @@
       "relations": []
     },
     "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+      "location": "Brainstem, spanning the medulla oblongata, pons, midbrain, and extending into the diencephalon (thalamus and hypothalamus)",
+      "connected_to": [
+        "Spinal cord",
+        "Sensory pathways (e.g., spinothalamic tract)",
+        "Cranial nerve nuclei",
+        "Cerebellum",
+        "Thalamus",
+        "Hypothalamus",
+        "Cerebral cortex"
+      ],
+      "coordinates": []
     }
   },
   "epistemic_metadata": {
-    "source": "Ascending Reticular Activating System - ScienceDirect, Functional connectivity disturbances of the ascending ..., Reticular Activating System - Anatomy, Function, Clinical ...",
-    "citations": []
-  }
+    "source": "Set Automatically",
+    "citations": [
+      "Encyclopedia of Behavioral Neuroscience, 2010",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8764482/",
+      "https://www.sciencedirect.com/topics/neuroscience/ascending-reticular-activating-system",
+      "https://www.nature.com/articles/s41598-023-35535-4"
+    ]
+  },
+  "autocorrected": true
 }

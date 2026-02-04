@@ -1,0 +1,73 @@
+{
+  "name": "Conveyor Speed Control",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 24,
+    "item": 1103
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Adjusting conveyor speed",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Part of PCB Conveyor System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A system for controlling the speed of a conveyor belt.",
+    "common_uses": [
+      "Adjusting PCB flow",
+      "Synchronizing with other processes"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Uses motors and feedback loops to maintain the desired speed.",
+    "origin": "Developed to improve efficiency and precision in manufacturing processes."
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Speed Regulation"
+      ],
+      "capabilities": [
+        "Adjust conveyor belt speed"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.allpcb.com/allelectrohub/pcb-conveyor-systems-optimizing-workflow-in-electronics-manufacturing"
+    ]
+  }
+}

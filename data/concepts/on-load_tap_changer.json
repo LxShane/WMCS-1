@@ -1,0 +1,72 @@
+{
+  "name": "On-Load Tap Changer",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Tap Changer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Shifting tap positions on the transformer winding while energized and under load",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A tap changer that can operate while the transformer is energized and under load.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Uses selector switches and a diverter switch to ensure continuous power supply during voltage adjustment.",
+    "origin": "Designed for applications requiring uninterrupted power."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Voltage Regulator"
+      ],
+      "capabilities": [
+        "Adjusting voltage under load"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": []
+    },
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://electricalampere.com/tap-changer-in-transformer/"
+    ]
+  }
+}

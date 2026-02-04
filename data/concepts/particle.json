@@ -1,44 +1,68 @@
 {
-  "name": "particle",
+  "name": "Particle",
   "type": "PHYSICAL",
   "id": {
     "group": 20,
-    "item": 1235
+    "item": 9012
   },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "An atom, molecule, or ion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "fundamental constituent of matter and energy",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "A minute portion of matter.",
-    "common_uses": []
+    "definition": "A minute fragment of matter or energy.",
+    "common_uses": [
+      "Building blocks of matter",
+      "Carrying energy and momentum",
+      "Interacting through fundamental forces"
+    ]
   },
   "deep_layer": {
-    "mechanism": "",
-    "origin": ""
+    "mechanism": "Particles can be elementary or composite, depending on whether they are made up of smaller particles.",
+    "origin": "The concept of particles has evolved over centuries, from early philosophical ideas to modern physics."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Electron",
+      "Proton",
+      "Neutron"
+    ]
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "EQUIVALENCE": {
-      "fills_role": []
-    },
     "STRUCTURAL": {
       "visual_features": [],
       "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "MECHANISM": [],
-    "PROCESS_DATA": null,
-    "PROPERTY_DATA": null,
-    "ABSTRACT_DATA": null
+      "composition": []
+    }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Facebook Group",
     "citations": []
-  },
-  "claims": []
+  }
 }

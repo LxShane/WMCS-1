@@ -1,69 +1,9 @@
 {
-  "id": {
-    "group": 23,
-    "item": 1
-  },
   "name": "Cat Paw",
-  "aliases": [
-    "cat's paw",
-    "feline paw",
-    "cat feet"
-  ],
-  "type": "BODY_PART",
-  "surface_layer": {
-    "definition": "The soft, padded foot of a cat, characterized by retractable claws and silence."
-  },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [
-        "Soft leathery pads",
-        "Retractable curved claws",
-        "Furry dorsal side"
-      ],
-      "shape": [
-        "Rounded",
-        "Compact",
-        "Digitigrade"
-      ],
-      "composition": [
-        "Keratin (claws)",
-        "Adipose tissue (pads)",
-        "Bone",
-        "Muscle"
-      ],
-      "parts": [
-        "Digital pads",
-        "Metacarpal pad",
-        "Dewclaw",
-        "Claws"
-      ]
-    },
-    "FUNCTION": {
-      "roles": [
-        "MANIPULATOR",
-        "LOCOMOTOR",
-        "WEAPON",
-        "SENSOR"
-      ],
-      "capabilities": [
-        "silent_approach",
-        "scratch/lacerate",
-        "grip",
-        "absorb_shock"
-      ]
-    },
-    "MECHANISM": [
-      "Elastic ligaments retract claws when muscles relax -> Claws stay sharp",
-      "Thick adipose pads absorb impact -> Silent movement"
-    ],
-    "EQUIVALENCE": {
-      "fills_role": [
-        "MANIPULATOR"
-      ],
-      "equivalent_to": [
-        "HUMAN_HAND"
-      ]
-    }
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1238
   },
   "claims": [
     {
@@ -140,7 +80,7 @@
     },
     {
       "predicate": "composition",
-      "object": "Bone",
+      "object": "Bone (23, 5678)",
       "epistemic": {
         "confidence": 1.0,
         "status": "SETTLED",
@@ -149,7 +89,7 @@
     },
     {
       "predicate": "composition",
-      "object": "Muscle",
+      "object": "Muscle (21, 1002)",
       "epistemic": {
         "confidence": 1.0,
         "status": "SETTLED",
@@ -194,7 +134,7 @@
     },
     {
       "predicate": "functional_roles",
-      "object": "MANIPULATOR",
+      "object": "MANIPULATOR (25, 1122)",
       "epistemic": {
         "confidence": 1.0,
         "status": "SETTLED",
@@ -221,7 +161,7 @@
     },
     {
       "predicate": "functional_roles",
-      "object": "SENSOR",
+      "object": "SENSOR (20, 1003)",
       "epistemic": {
         "confidence": 1.0,
         "status": "SETTLED",
@@ -281,6 +221,101 @@
         "status": "SETTLED",
         "source_type": "MIGRATE_LEGACY"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Paw Pads",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Retractable Claws",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Vital purpose in a cat's daily life",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cat (20, 1004)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
-  ]
+  ],
+  "surface_layer": {
+    "definition": "A component of a cat that serves a vital purpose in a cat's daily life.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Distal",
+      "connected_to": [
+        "Carpals",
+        "Metacarpals",
+        "Phalanges",
+        "Skin",
+        "Muscles",
+        "Tendons",
+        "Ligaments"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Understanding Cat Paw Anatomy: A Complete Guide",
+    "citations": [
+      "https://www.petscare.com/en-au/news/post/understanding-cat-paw-anatomy"
+    ]
+  },
+  "autocorrected": true
 }

@@ -1,0 +1,104 @@
+{
+  "name": "Myometrium",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 22,
+    "item": 1240
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Soft Tissue",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Smooth muscle cells",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Uterus",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The muscular outer layer of the uterus.",
+    "common_uses": [
+      "Medical research",
+      "Obstetrics"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Responsible for uterine contractions during labor.",
+    "origin": "Develops during fetal development."
+  },
+  "instance_layer": [],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Smooth",
+        "Pinkish-red color"
+      ],
+      "shape": [
+        "Layered",
+        "Muscular"
+      ],
+      "composition": [
+        "Smooth muscle cells",
+        "Connective tissue"
+      ],
+      "relations": [
+        "Connects to the endometrium and serosa"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Muscle"
+      ],
+      "capabilities": [
+        "Contraction"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Outer wall of the uterus",
+      "connected_to": [
+        "Endometrium",
+        "Serosa"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Rheological properties of myometrium: experimental"
+    ]
+  }
+}

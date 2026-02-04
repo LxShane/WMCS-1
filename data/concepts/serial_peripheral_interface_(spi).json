@@ -1,0 +1,89 @@
+{
+  "name": "Serial Peripheral Interface (SPI)",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1236
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Serial Data Out (SDO)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Serial Data In (SDI)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Serial Clock (SCK)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Chip Select (CS)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "SPI is a synchronous serial communication interface used for short-distance communication, primarily in embedded systems.",
+    "common_uses": [
+      "Connecting microcontrollers to peripherals",
+      "Data transfer between integrated circuits"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "SPI uses a master-slave architecture where the master initiates communication, and data is synchronized with a clock signal.",
+    "origin": "Developed as a simple serial communication protocol."
+  },
+  "instance_layer": {
+    "examples": [
+      "Connecting an SD card reader to a microcontroller using SPI",
+      "Communicating with a sensor using SPI"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://itp.nyu.edu/physcomp/resources/microcontroller-pin-functions/"
+    ]
+  }
+}

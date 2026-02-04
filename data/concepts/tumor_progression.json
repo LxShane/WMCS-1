@@ -1,18 +1,47 @@
 {
-  "name": "Tumor Progression",
+  "name": "Tumor progression",
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1235
+    "item": 3344
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "CAUSES",
+      "object": "ECM remodeling",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "immune escape",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "The process by which a tumor grows and develops.",
+    "definition": "The advancement or worsening of a tumor over time.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Involves cellular and molecular changes.",
+    "origin": "Driven by genetic and environmental factors."
   },
   "instance_layer": {
     "examples": []
@@ -21,8 +50,7 @@
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://aacrjournals.org/cancerdiscovery/article/14/8/1375/746505/The-Interplay-between-Extracellular-Matrix",
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12117852/"
+      "https://www.cell.com/cell-systems/fulltext/S2405-4712(25)00094-8"
     ]
   }
 }

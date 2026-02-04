@@ -1,0 +1,76 @@
+{
+  "name": "Cranio-cervical muscles",
+  "type": "BODY_PART",
+  "id": {
+    "group": 24,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "cranium",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "cervix",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Body Part",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Muscles located in the region of the cranium and cervix.",
+    "common_uses": [
+      "head movement",
+      "neck support"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Enable head movement and support the neck.",
+    "origin": "Part of the human anatomy."
+  },
+  "instance_layer": [],
+  "facets": {
+    "SPATIAL": {
+      "location": "region of the cranium and cervix",
+      "contained_in": "human body"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "WO2005028034A1"
+    ]
+  }
+}

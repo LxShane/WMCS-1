@@ -1,0 +1,84 @@
+{
+  "name": "Board Component",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 3456
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Component on a PCB",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "circuit (30, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An electronic component placed on a printed circuit board.",
+    "common_uses": [
+      "Electronics manufacturing",
+      "Circuit functionality"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Performs a specific function within an electronic circuit.",
+    "origin": "Electronics manufacturing processes."
+  },
+  "instance_layer": {
+    "examples": [
+      "Resistor, Capacitor, IC Chip"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Circuit Element",
+        "Signal processing"
+      ],
+      "capabilities": [
+        "Resisting current",
+        "Storing charge",
+        "Amplifying signals"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Various sizes and shapes",
+        "Color coded markings"
+      ],
+      "shape": [
+        "Cylindrical",
+        "Rectangular",
+        "Surface mount"
+      ],
+      "composition": [
+        "Ceramic",
+        "Metal",
+        "Plastic"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "PDF",
+    "citations": [
+      "PCB-RE Tools Techniques (Keng Tiong NG) (Z-Library)"
+    ]
+  }
+}

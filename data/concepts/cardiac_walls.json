@@ -1,0 +1,47 @@
+{
+  "name": "Cardiac Walls",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 22,
+    "item": 1008
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Cardiomyocytes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "heart (32, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The walls of the heart.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Provide structural support for the heart chambers.",
+    "origin": "Biological development"
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "The functional architecture of skeletal compared to cardiac musculature ...",
+    "citations": []
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Damping",
+  "type": "ABSTRACT",
+  "id": {
+    "group": 50,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Process (50, 1234)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Reduction in amplitude of string vibration.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "energy (50, 1005)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The dissipation of energy from a vibrating system.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Energy loss due to friction, air resistance, etc.",
+    "origin": "Interaction with environment"
+  },
+  "instance_layer": [],
+  "facets": {
+    "PROCESS_DATA": {
+      "affected": [
+        "String Vibration"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Matt Dailis, Physics Stack Exchange",
+    "citations": [
+      "https://mattdailis.github.io/simulating-strings/resources/physics_of_vibrating_strings.pdf",
+      "https://physics.stackexchange.com/questions/798040/vibrating-string-and-damping"
+    ]
+  }
+}

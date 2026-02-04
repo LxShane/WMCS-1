@@ -1,0 +1,58 @@
+{
+  "name": "Electrical Connection",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A connection between components that allows the flow of electricity.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A pathway for electrical current to flow between components.",
+    "common_uses": [
+      "Powering circuits",
+      "Signal transmission"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Electrons flow through a conductive path.",
+    "origin": "Principles of electrical engineering."
+  },
+  "instance_layer": {
+    "examples": [
+      "A wire connecting a battery to a light bulb."
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Power Transfer",
+        "Signal Transmission"
+      ],
+      "capabilities": [
+        "Conducting electricity",
+        "Providing a low-resistance path"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "PDF",
+    "citations": [
+      "Towards automated PCB routing: Leveraging machine learning and ..."
+    ]
+  }
+}

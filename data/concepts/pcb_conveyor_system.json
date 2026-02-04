@@ -1,0 +1,143 @@
+{
+  "name": "PCB Conveyor System",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 24,
+    "item": 1101
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Conveyor System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "PCB Handling",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "ESD Safe Conveyor Belt",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Conveyor Speed Control",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Essential component for modern production line",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Maintenance",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A conveyor system specifically designed for handling Printed Circuit Boards (PCBs) in manufacturing.",
+    "common_uses": [
+      "PCB handling",
+      "PCB assembly",
+      "Transporting PCBs through production line"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Uses belts and controlled speeds to move PCBs safely and efficiently between different stages of production.",
+    "origin": "Evolved from general conveyor systems to meet the specific needs of electronics manufacturing."
+  },
+  "instance_layer": {
+    "examples": [
+      "Flexlink PCB conveyor systems"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Transport",
+        "Positioning"
+      ],
+      "capabilities": [
+        "ESD safe",
+        "Speed Control",
+        "Synchronization"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [
+        "Belts",
+        "Motors",
+        "Control System"
+      ],
+      "relations": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.allpcb.com/allelectrohub/pcb-conveyor-systems-optimizing-workflow-in-electronics-manufacturing",
+      "https://www.anzer-usa.com/resources/conveyors-and-handling-systems/",
+      "https://www.flexlink.com/en/portfolio/conveyor-systems/PCB-handling"
+    ]
+  }
+}

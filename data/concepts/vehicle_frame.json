@@ -2,8 +2,8 @@
   "name": "Vehicle Frame",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 1234
+    "group": 30,
+    "item": 1003
   },
   "claims": [
     {
@@ -89,40 +89,68 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Supporting vehicle components",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "PDF"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A type of body/frame construction in which the body of the vehicle, its floor pan and chassis form a single structure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The main supporting structure of a motor vehicle.",
-    "common_uses": [
-      "supporting vehicle components",
-      "providing structural integrity"
-    ]
+    "definition": "The structural foundation of a vehicle.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Provides a rigid structure to which all other vehicle components are attached, distributing loads and maintaining shape.",
-    "origin": "Manufactured from metal, typically steel or aluminum, and designed to withstand various stresses."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
-    "examples": [
-      "Ladder frame in trucks",
-      "Unibody construction in cars"
-    ]
+    "examples": []
   },
   "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
     "STRUCTURAL": {
       "visual_features": [],
       "shape": [],
       "composition": [],
-      "parts": []
+      "parts": [],
+      "relations": []
     },
-    "SPATIAL": {}
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
   },
   "epistemic_metadata": {
-    "source": "Multiple Sources",
-    "citations": [
-      "https://en.wikipedia.org/wiki/Vehicle_frame",
-      "https://media.defense.gov/2014/Jun/20/2002655912/-1/-1/1/140620-N-ZZ182-6554.pdf",
-      "https://www.facebook.com/groups/5266897907/posts/10163464032632908/"
-    ]
+    "source": "Set Automatically",
+    "citations": []
   }
 }

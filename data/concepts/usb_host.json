@@ -2,8 +2,8 @@
   "name": "USB Host",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 25,
-    "item": 1238
+    "group": 24,
+    "item": 1003
   },
   "claims": [
     {
@@ -61,38 +61,75 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "controls the bus",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "initiates communication",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "a single host in any USB system",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A USB Host implements USB host applications.",
-    "common_uses": [
-      "USB Applications"
-    ]
+    "definition": "The USB host controls the bus and initiates communication in a USB system.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "N/A",
-    "origin": "Electronic design"
+    "mechanism": "The USB host acts as the central controller of the USB system, managing communication and power distribution between connected devices."
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {
+    "STRUCTURAL": {},
     "FUNCTION": {
-      "roles": [],
-      "capabilities": []
+      "roles": [
+        "Host"
+      ],
+      "capabilities": [
+        "Control USB bus",
+        "Initiate communication"
+      ]
     },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    }
+    "SPATIAL": {}
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://www.silabs.com/documents/public/application-notes/an0046-efm32-usb-hardware-design-guidelines.pdf"
+      "Basic USB Concepts and FAQs | Microchip Technology"
     ]
   }
 }

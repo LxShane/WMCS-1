@@ -1,0 +1,97 @@
+{
+  "name": "Blood-Cerebrospinal Fluid Barrier",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 22,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "fenestrated capillaries",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "FUNCTION",
+      "object": "filter solvent and solutes",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "central stroma of the choroid plexus",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "blood (31, 1238)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "fluid (30, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Barrier between blood and cerebrospinal fluid.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Filtration process between blood and cerebrospinal fluid.",
+    "origin": "Biological structure."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "SPATIAL": {
+      "location": "Between the blood and cerebrospinal fluid",
+      "connected_to": [
+        "Choroid Plexus",
+        "Ependymal Cells",
+        "Capillaries"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Fluid Physiology : A Handbook for Anaesthesia and Critical Care ...",
+    "citations": []
+  },
+  "autocorrected": true
+}

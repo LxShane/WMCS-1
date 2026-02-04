@@ -1,0 +1,63 @@
+{
+  "name": "Flow Control",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 9876
+  },
+  "claims": [
+    {
+      "predicate": "REQUIRES",
+      "object": "Arbitration.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "AFFECTS",
+      "object": "Resource allocation, contention resolution, channel sharing, data transfer.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Mechanisms for managing the flow of data packets within a network to prevent congestion and ensure fair resource allocation.",
+    "common_uses": [
+      "Network management",
+      "Data transmission"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Flow control algorithms regulate the rate and direction of data flow to prevent bottlenecks and ensure efficient use of network resources.",
+    "origin": "Developed to improve network performance and stability."
+  },
+  "instance_layer": {
+    "examples": [
+      "Backpressure flow control",
+      "Rate-based flow control",
+      "Credit-based flow control"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Interconnection Networks (Introductory Slides)",
+    "citations": [
+      "https://web.stanford.edu/class/cs349g/cs349g-pinkston.pdf"
+    ]
+  }
+}

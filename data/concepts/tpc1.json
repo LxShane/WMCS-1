@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 20,
-    "item": 9876
+    "item": 1001
   },
   "claims": [
     {
@@ -19,36 +19,114 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Two-pore channel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Cation channel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Endo-lysosomal organelles",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Endo-lysosomal trafficking (when overexpressed)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Efficient protein processing",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Two-pore channel 1.",
+    "definition": "TPC1 is a cation channel residing in endo-lysosomal organelles.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Unknown",
-    "origin": "Unknown"
+    "mechanism": "TPC1 influences endo-lysosomal trafficking and is required for efficient protein processing.",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
+    "FUNCTION": {
+      "roles": [
+        "Cation transporter"
+      ],
+      "capabilities": [
+        "Mediates ion homeostasis"
+      ]
     },
     "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+      "location": "Cell membrane",
+      "connected_to": [
+        "Lipid bilayer",
+        "Other membrane proteins"
+      ],
+      "coordinates": []
     }
   },
   "epistemic_metadata": {
-    "source": "PNAS",
-    "citations": []
-  }
+    "source": "Set Automatically",
+    "citations": [
+      "PMC4386455",
+      "ResearchGate figure 1",
+      "Nature article"
+    ]
+  },
+  "autocorrected": true
 }

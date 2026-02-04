@@ -1,9 +1,9 @@
 {
-  "name": "Alveolar bone",
+  "name": "Alveolar Bone",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 22,
-    "item": 1007
+    "group": 21,
+    "item": 3456
   },
   "claims": [
     {
@@ -19,10 +19,19 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "bone (23, 5678)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The bone that surrounds and supports the teeth.",
+    "definition": "The bone that supports the teeth.",
     "common_uses": []
   },
   "deep_layer": {

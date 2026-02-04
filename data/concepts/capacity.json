@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1002
+    "item": 9012
   },
   "claims": [
     {
@@ -19,32 +19,100 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "total Amp-hours available when the battery is discharged at a certain discharge current",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_CALCULATED_BY",
+      "object": "multiplying the discharge current (in Amps) by the discharge time (in hours)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DECREASES_WITH",
+      "object": "increasing C-rate",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "battery (23, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "charge (50, 1004)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The maximum amount that something can contain.",
+    "definition": "The total amount of charge a battery can store.",
     "common_uses": [
-      "Measuring storage space",
-      "Describing workload limits"
+      "Determining battery life",
+      "Comparing different batteries"
     ]
   },
   "deep_layer": {
-    "mechanism": "Determined by physical constraints or design specifications.",
-    "origin": "General English word."
+    "mechanism": "Number of charge carriers available for discharge.",
+    "origin": "Dependent on battery chemistry and size."
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": [
+      "Capacity of a phone battery",
+      "Capacity of a car battery"
+    ]
+  },
   "facets": {
     "FUNCTION": {
       "roles": [
-        "Storage Ability"
+        "Energy Storage"
       ],
       "capabilities": [
-        "Quantifying maximum load"
+        "Store charge",
+        "Deliver power over time"
       ]
     }
   },
   "epistemic_metadata": {
-    "source": "Electrical Transmission and Substation Structures 2015",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://web.mit.edu/evt/summary_battery_specifications.pdf"
+    ]
   }
 }

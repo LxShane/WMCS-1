@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1001
+    "item": 2222
   },
   "claims": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "REQUIRES",
-      "object": "Energy",
+      "object": "Energy (50, 1005)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -36,7 +36,7 @@
     },
     {
       "predicate": "PERFORMED_BY",
-      "object": "Transport Proteins",
+      "object": "Transport Proteins (32, 1005)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -134,7 +134,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Primary Active Transport",
+      "object": "Primary Active Transport (50, 4567)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -148,7 +148,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Secondary Active Transport",
+      "object": "Secondary Active Transport (50, 7890)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -232,7 +232,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Exocytosis",
+      "object": "Exocytosis (50, 7890)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -243,44 +243,63 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Membrane Transport",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "energy (50, 1005)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "membrane (20, 9012)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "movement (50, 1240)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The movement of molecules across a cell membrane against their concentration gradient, requiring energy.",
+    "definition": "Movement of molecules across a membrane with energy input.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Energy is used to move molecules against their concentration gradient.",
-    "origin": "Biological necessity for maintaining cellular environments."
+    "mechanism": "Movement against the concentration gradient, requires ATP.",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": [
-      "Active transport - Wikipedia",
-      "Membrane transport - Wikipedia",
-      "Membrane Trafficking and Subcellular Drug Targeting Pathways - PMC"
-    ]
+    "citations": []
   }
 }

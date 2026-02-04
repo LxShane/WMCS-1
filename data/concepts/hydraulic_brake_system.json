@@ -2,8 +2,8 @@
   "name": "Hydraulic Brake System",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 30,
-    "item": 1234
+    "group": 25,
+    "item": 1001
   },
   "claims": [
     {
@@ -47,30 +47,148 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Brake System",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "transmitting force",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Brake Pedal",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Brake Calipers",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Brake Fluid",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Brake Master Cylinder",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Brake Lines",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A critical component in modern vehicles that transmits force from the brake pedal to the wheels.",
+    "definition": "A brake system that uses hydraulic fluid to transmit force.",
     "common_uses": [
-      "Decelerating vehicles",
       "Stopping vehicles"
     ]
   },
   "deep_layer": {
-    "mechanism": "Force applied to the brake pedal is converted into hydraulic pressure, which is transmitted to the wheels to apply the brakes.",
-    "origin": "Automotive engineering"
+    "mechanism": "Force applied to the brake pedal moves hydraulic fluid, which then actuates the brake calipers.",
+    "origin": null
   },
   "instance_layer": {
-    "examples": [
-      "Hydraulic brake system in a Toyota Camry",
-      "Hydraulic brake system in a Ford F-150"
-    ]
+    "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Force Transducer"
+      ],
+      "capabilities": [
+        "Transmits force from pedal to calipers"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
   "epistemic_metadata": {
-    "source": "techschematic.com",
+    "source": "Set Automatically",
     "citations": [
-      "Understanding the Inner Workings of a Hydraulic Brake System"
+      "https://4lifetimelines.com/blogs/knowledge-garage/all-about-hydraulic-brake-systems?srsltid=AfmBOoojcQCju5dJdzxbb5R34Sm47pVvnrPJXRwghoUmFNoApxFMoOrW",
+      "https://www.r1concepts.com/blog/understanding-the-mechanics-how-does-the-brake-system-work/?srsltid=AfmBOooQPTDhNRflaQ6-JIrYDqTORuKpMpYFyGR8ldZIXk17_osH4sZ9",
+      "https://speedalpharetta.com/brake-system-anatomy-exploring-brake-master-cylinders/"
     ]
   }
 }

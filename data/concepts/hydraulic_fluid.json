@@ -1,0 +1,61 @@
+{
+  "name": "Hydraulic Fluid",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 21,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Transmitting pressure in braking systems",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A fluid used to transmit pressure in a hydraulic system.",
+    "common_uses": [
+      "Braking",
+      "Power steering"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The fluid transmits force applied at one point to another point through pressure.",
+    "origin": "Designed for hydraulic systems."
+  },
+  "instance_layer": {
+    "examples": [
+      "DOT 3 brake fluid",
+      "DOT 4 brake fluid"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Clear",
+        "Viscous"
+      ],
+      "shape": [
+        "Liquid"
+      ],
+      "composition": [
+        "Glycol-based compounds"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.autonationmobileservice.com/i/blog/brake-fluid-reservoir/"
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "name": "USB Type-B Connector",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 22,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Connector",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Facilitating communication",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Data transfer between devices",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Pins",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Wiring",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A type of connector used for facilitating communication and data transfer.",
+    "common_uses": [
+      "Connecting printers",
+      "Connecting scanners",
+      "Connecting legacy devices"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Data is transferred through pins and wiring within the connector.",
+    "origin": "Evolved as a standard connector for various devices."
+  },
+  "instance_layer": {
+    "examples": [
+      "Connecting a printer to a computer"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Data Transfer",
+        "Communication"
+      ],
+      "capabilities": [
+        "Provides a physical connection for data transmission"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Rectangular shape",
+        "Specific pin configuration"
+      ],
+      "shape": [
+        "Rectangular"
+      ],
+      "composition": [
+        "Plastic",
+        "Metal"
+      ],
+      "parts": [
+        "Pins",
+        "Housing"
+      ],
+      "relations": [
+        "Connects to USB port"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Automatically set from input sources.",
+    "citations": [
+      "https://www.romtronic.com/understanding-usb-type-b-functions-connector-types-and-applications/",
+      "https://signalwires.com/usb-type-b-wiring-diagram",
+      "https://pinoutdiagrams.com/connector/usb-b-connector-pinout"
+    ]
+  }
+}

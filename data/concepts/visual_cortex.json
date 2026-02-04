@@ -2,8 +2,8 @@
   "name": "Visual Cortex",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1234
+    "group": 22,
+    "item": 1003
   },
   "claims": [
     {
@@ -47,22 +47,87 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Cortex",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Cerebral Cortex",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "FUNCTION",
+      "object": "Visual Processing",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Part of the brain responsible for visual processing.",
+    "definition": "Part of the cerebral cortex involved in processing visual information.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Processes visual information through neural pathways.",
+    "mechanism": "Receives and interprets signals from the retina.",
     "origin": "Develops during brain development."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Posterior region of the cerebral cortex, primarily in the occipital lobe",
+      "connected_to": [
+        "Lateral geniculate nucleus (LGN) of the thalamus",
+        "Other cortical areas (e.g., parietal, temporal)",
+        "Superior colliculus",
+        "Pulvinar nucleus of the thalamus",
+        "Optic radiations"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": []
-  }
+    "citations": [
+      "https://www.nature.com/articles/s41467-025-58763-w",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6727359/"
+    ]
+  },
+  "autocorrected": true
 }

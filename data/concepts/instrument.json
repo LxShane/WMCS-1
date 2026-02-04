@@ -1,0 +1,98 @@
+{
+  "name": "Instrument",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Surgery or Diagnosis",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "performing medical examinations",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "device",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A tool or device used for a specific purpose.",
+    "common_uses": [
+      "Surgical procedures",
+      "Medical examinations"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Varies depending on the specific instrument.",
+    "origin": "Developed for specific medical or scientific needs."
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Diagnostic tool",
+        "Surgical tool"
+      ],
+      "capabilities": [
+        "Examination",
+        "Surgery"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Varies",
+        "Metallic"
+      ],
+      "shape": [
+        "Varies"
+      ],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "US20100069783A1",
+    "citations": []
+  }
+}

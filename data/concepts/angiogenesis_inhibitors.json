@@ -1,0 +1,70 @@
+{
+  "name": "Angiogenesis inhibitors",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "treatment of cancer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PREVENTS",
+      "object": "Angiogenesis",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Substances that inhibit angiogenesis.",
+    "common_uses": [
+      "Cancer treatment"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "They prevent the formation of new blood vessels.",
+    "origin": "Pharmaceutical development."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Therapeutic Agent"
+      ],
+      "capabilities": [
+        "Inhibiting angiogenesis"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {},
+    "PROCESS_DATA": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Angiogenesis"
+    ]
+  }
+}

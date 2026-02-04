@@ -1,0 +1,70 @@
+{
+  "name": "Transferability",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "The ability of a force field to accurately predict the properties of a system different from the one it was parameterized for.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_ANTONYM",
+      "object": "Poor Transferability",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Similar atoms or ions",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The degree to which a model can be applied to new systems or conditions.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Transferability depends on the similarity between the system used for parameterization and the new system. If the systems are too different, the force field may not be accurate.",
+    "origin": "Concept arises from the need to apply models to a wide range of systems."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "https://mattermodeling.stackexchange.com/questions/9145/is-it-possible-to-build-a-force-field-that-suits-all-elements-based-on-vasps-ma",
+    "citations": [
+      "N/A"
+    ]
+  }
+}

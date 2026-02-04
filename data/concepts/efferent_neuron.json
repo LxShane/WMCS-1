@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 21,
-    "item": 1004
+    "item": 7890
   },
   "claims": [
     {
@@ -33,22 +33,228 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Motor neuron",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Carrying signals from the brain to the peripheral nervous system",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Initiate an action",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Neuron",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Carrying motor information away from the central nervous system",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Carrying signals from the brain to initiate an action",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Regulating voluntary movement by skeletal muscles",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Regulating involuntary body responses like heart rate, blood pressure etc.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Inside ventral horn (cell bodies)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Axon leaving through ventral root",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONNECTED_TO",
+      "object": "Neuromuscular junction (synapses)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A neuron that transmits signals away from the central nervous system.",
-    "common_uses": []
+    "definition": "A neuron that carries motor information away from the central nervous system to initiate an action.",
+    "common_uses": [
+      "initiating muscle contraction",
+      "regulating autonomic functions"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Efferent neurons carry motor commands from the CNS to muscles and glands.",
-    "origin": "Develops as part of the nervous system from neural progenitor cells."
+    "mechanism": "Efferent neurons receive signals from interneurons in the CNS, which trigger an action potential that propagates along the axon to a muscle or gland, causing a response.",
+    "origin": "Develops from the neural tube during embryonic development."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Motor neuron stimulating muscle contraction in the arm.",
+      "Autonomic neuron regulating heart rate."
+    ]
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Motor Signal Transmitter",
+        "Regulatory Control"
+      ],
+      "capabilities": [
+        "Initiating muscle movement",
+        "Regulating autonomic functions"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Elongated cell body",
+        "Axon",
+        "Dendrites"
+      ],
+      "shape": [
+        "Varied depending on specific function and location"
+      ],
+      "composition": [
+        "Cell membrane",
+        "Cytoplasm",
+        "Organelles"
+      ],
+      "parts": [
+        "Cell body",
+        "Dendrites",
+        "Axon",
+        "Synaptic terminals"
+      ],
+      "relations": [
+        "Synapses with muscle cells or glands"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Peripheral nervous system",
+      "coordinates": [],
+      "connected_to": [
+        "Interneurons in the CNS",
+        "Muscle cells or glands"
+      ],
+      "contained_in": null
+    }
+  },
   "epistemic_metadata": {
-    "source": "https://en.wikipedia.org/wiki/Neuron",
-    "citations": []
+    "source": "AUTOMATIC",
+    "citations": [
+      "https://www.osmosis.org/answers/afferent-vs-efferent-neurons"
+    ]
   }
 }

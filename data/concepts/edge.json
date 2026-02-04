@@ -2,8 +2,8 @@
   "name": "Edge",
   "type": "MATHEMATICAL_OBJECT",
   "id": {
-    "group": 42,
-    "item": 1004
+    "group": 41,
+    "item": 1236
   },
   "claims": [
     {
@@ -33,22 +33,35 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Graph",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "An edge represents a connection between two nodes in a graph.",
-    "common_uses": []
+    "definition": "A line connecting two nodes in a graph, representing a relationship between them.",
+    "common_uses": [
+      "Representing relationships between entities"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Edges define the relationships between entities.",
-    "origin": "Edges originated in mathematics."
+    "mechanism": "Edges depict relationships and interactions between nodes in a graph.",
+    "origin": "Graph theory"
   },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {},
+  "instance_layer": [],
   "epistemic_metadata": {
-    "source": "Multiple Academic Sources",
+    "source": "https://jmlr.org/papers/volume26/23-1424/23-1424.pdf",
     "citations": []
   }
 }

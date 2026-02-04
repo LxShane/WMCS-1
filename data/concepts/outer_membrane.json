@@ -47,33 +47,55 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Cell Membrane",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Mitochondrion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The outer membrane of the chloroplast, permeable to most ions and metabolites.",
+    "definition": null,
     "common_uses": []
   },
   "deep_layer": {
     "mechanism": null,
     "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": []
-    },
     "SPATIAL": {
-      "location": "Outer layer",
+      "location": "Outer layer of the mitochondrion",
+      "coordinates": [],
       "connected_to": [],
-      "contained_in": "Chloroplast"
+      "contained_in": "Mitochondrion"
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Wikipedia",
     "citations": []
   }
 }

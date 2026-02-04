@@ -1,0 +1,80 @@
+{
+  "name": "MEMS Fuel Cell",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 24,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Fuel Cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Integrated Catalytic Fuel Processor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "MEMS",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A fuel cell constructed using Micro-Electro-Mechanical Systems (MEMS) technology.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Utilizes MEMS fabrication techniques to create a fuel cell with an integrated catalytic fuel processor.",
+    "origin": "Developed to miniaturize fuel cell technology."
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Power Source"
+      ],
+      "capabilities": [
+        "Generating electricity from fuel"
+      ]
+    },
+    "STRUCTURAL": {
+      "parts": [
+        "Integrated Catalytic Fuel Processor"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "JP2005532661A",
+    "citations": []
+  }
+}

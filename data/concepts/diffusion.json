@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1111
+    "item": 1415
   },
   "claims": [
     {
@@ -47,29 +47,100 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "HEPA filter",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "delay in passing gas molecules",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Mechanism of Interfacial Adhesion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "adhesion (50, 7890)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "mechanism (24, 6543)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The net movement of anything (for example, atoms, ions, molecules, energy) from a region of higher concentration to a region of lower concentration.",
-    "common_uses": [
-      "Understanding gas exchange in lungs",
-      "Predicting the spread of pollutants"
-    ]
+    "definition": "A mechanism of interfacial adhesion.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Driven by a concentration gradient.",
-    "origin": "Fundamental property of matter at non-zero temperature."
+    "mechanism": null,
+    "origin": null
   },
-  "instance_layer": {
-    "examples": [
-      "The smell of perfume spreading through a room."
-    ]
-  },
+  "instance_layer": [],
   "facets": {
-    "ABSTRACT_DATA": {}
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
   },
   "epistemic_metadata": {
-    "source": "Manual",
-    "citations": []
+    "source": "ScienceDirect Topics",
+    "citations": [
+      "https://www.sciencedirect.com/topics/engineering/interfacial-adhesion"
+    ]
   }
 }

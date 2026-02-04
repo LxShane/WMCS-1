@@ -1,8 +1,8 @@
 {
   "name": "Convection",
-  "type": "PHYSICAL",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 20,
+    "group": 50,
     "item": 1003
   },
   "claims": [
@@ -50,7 +50,7 @@
     },
     {
       "predicate": "PERFORMED_BY",
-      "object": "Water",
+      "object": "Water (20, 1237)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -61,29 +61,89 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Heat Transfer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Macroscopic transfer of heat energy",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Heat Transfer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "fluid (30, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "heat (20, 3456)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "movement (50, 1240)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The transfer of heat through a fluid (liquid or gas) by the movement of the fluid itself.",
+    "definition": "Heat transfer due to the movement of a fluid.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Heat transfer through bulk fluid motion.",
-    "origin": "Fluid density differences due to temperature."
+    "mechanism": "Transfer of heat due to bulk fluid motion.",
+    "origin": "Physics"
   },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "SPATIAL": {
-      "location": "Throughout a fluid or gas",
-      "connected_to": [],
-      "coordinates": []
-    }
-  },
+  "instance_layer": [],
+  "facets": {},
   "epistemic_metadata": {
-    "source": "https://www.gardenandgreenhouse.net/articles/november-december-2011/passive-solar-heating-for-greenhouse-operations/",
+    "source": "https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/01:_Temperature_and_Heat/1.07:_Mechanisms_of_Heat_Transfer",
     "citations": []
-  },
-  "autocorrected": true
+  }
 }

@@ -2,8 +2,8 @@
   "name": "Robot",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 25,
-    "item": 7890
+    "group": 21,
+    "item": 1002
   },
   "claims": [
     {
@@ -33,46 +33,53 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "being positioned within an environment",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
     "definition": "A machine capable of carrying out a complex series of actions automatically.",
     "common_uses": [
-      "Manufacturing",
-      "Exploration",
-      "Inspection"
+      "automation",
+      "manufacturing"
     ]
   },
   "deep_layer": {
-    "mechanism": "Operates using sensors, actuators, and control systems.",
-    "origin": "Originated in industrial automation."
+    "mechanism": "Robots use sensors and actuators to interact with the environment.",
+    "origin": "Evolved from industrial automation."
   },
   "instance_layer": {
     "examples": [
-      "Industrial robot arm"
+      "Industrial robot arm",
+      "Mobile robot for package delivery"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "http://asrl.utias.utoronto.ca/~tdb/slam/slamhandbook.pdf"
     ]
   },
   "facets": {
     "FUNCTION": {
       "roles": [
-        "Automation",
-        "Assistance"
+        "Automated System"
       ],
       "capabilities": [
-        "Automated tasks",
-        "Data collection"
+        "Perform tasks autonomously"
       ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
     }
-  },
-  "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
   }
 }

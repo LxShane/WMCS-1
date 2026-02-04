@@ -2,13 +2,13 @@
   "name": "Autonomic Ganglion",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 22,
-    "item": 1001
+    "group": 20,
+    "item": 4321
   },
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "Ganglion",
+      "object": "Ganglion (23, 1234)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -47,10 +47,42 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Neurons",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cell (21, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "nerve (31, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A ganglion associated with the autonomic nervous system.",
+    "definition": "A cluster of nerve cell bodies (neurons) in the autonomic nervous system.",
     "common_uses": []
   },
   "deep_layer": {
@@ -62,7 +94,7 @@
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Autonomic Ganglion - an overview | ScienceDirect Topics",
     "citations": []
   }
 }

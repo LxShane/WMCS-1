@@ -1,0 +1,82 @@
+{
+  "name": "Zone Damper",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Damper",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "HVAC control",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A damper used to control airflow in different zones of a building's HVAC system.",
+    "common_uses": [
+      "Regulating temperature",
+      "Saving energy"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "By adjusting damper position, airflow to a zone can be increased or decreased to maintain desired temperature.",
+    "origin": "Developed for improved building climate control."
+  },
+  "instance_layer": [
+    "Commercial buildings",
+    "Residential homes"
+  ],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    },
+    "FUNCTION": {
+      "roles": [
+        "Airflow Controller",
+        "Temperature Regulator"
+      ],
+      "capabilities": [
+        "Adjusting airflow",
+        "Balancing temperature"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

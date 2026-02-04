@@ -1,0 +1,60 @@
+{
+  "name": "Power Delivery (PD)",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 52,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "power management protocol",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "providing power to lower power laptops",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A USB standard that allows devices to draw more power from a USB connection.",
+    "common_uses": [
+      "Charging laptops and other devices"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Negotiates voltage and current levels between devices.",
+    "origin": "Developed to address the increasing power demands of USB devices."
+  },
+  "instance_layer": {
+    "examples": [
+      "Charging a laptop using a USB-C PD charger"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/USB_hardware"
+    ]
+  }
+}

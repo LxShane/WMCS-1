@@ -2,13 +2,13 @@
   "name": "Blood Vessels",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1010
+    "group": 22,
+    "item": 5678
   },
   "claims": [
     {
       "predicate": "PERFORMED_BY",
-      "object": "Visceral Motor System",
+      "object": "Visceral Motor System (20, 1234)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "Network",
+      "object": "Network (50, 1236)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -36,7 +36,7 @@
     },
     {
       "predicate": "LOCATED_AT",
-      "object": "Central Nervous System",
+      "object": "Central Nervous System (32, 7890)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -50,7 +50,7 @@
     },
     {
       "predicate": "MADE_OF",
-      "object": "Endothelial Cells",
+      "object": "Endothelial Cells (31, 9123)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -64,7 +64,7 @@
     },
     {
       "predicate": "MADE_OF",
-      "object": "Pericytes",
+      "object": "Pericytes (31, 1005)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -131,21 +131,71 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Undergoing control by sympathetic nerves",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Afferent sensory-motor C fibers",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Carrying sensory information to the CNS",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "blood (31, 1238)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A tubular structure carrying blood through the tissues and organs.",
+    "definition": "Tubes that carry blood.",
     "common_uses": []
   },
   "deep_layer": {
     "mechanism": null,
     "origin": null
   },
-  "instance_layer": [],
-  "facets": {
-    "STRUCTURAL": {},
-    "SPATIAL": {}
+  "instance_layer": {
+    "examples": []
   },
+  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": []

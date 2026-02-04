@@ -1,0 +1,84 @@
+{
+  "name": "Central Nervous System (CNS)",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 20,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "brain (20, 3456)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "spinal cord (21, 1001)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "nerve (31, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The complex of nerve tissues that controls bodily activities. ",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Integrates sensory information and coordinates bodily function.",
+    "origin": "Develops from the neural tube during embryogenesis."
+  },
+  "instance_layer": [],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Primarily within the cranial cavity and vertebral canal, with some components extending beyond.",
+      "connected_to": [
+        "Peripheral Nervous System (PNS)",
+        "Muscles (via motor neurons)",
+        "Sensory receptors (via sensory neurons)",
+        "Brainstem",
+        "Spinal Cord",
+        "Brain"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Mapping the rest of the human connectome: Atlasing the spinal cord and ...",
+    "citations": [
+      "Mapping the rest of the human connectome: Atlasing the spinal cord and ..."
+    ]
+  },
+  "autocorrected": true
+}

@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 20,
-    "item": 5555
+    "item": 5678
   },
   "claims": [
     {
@@ -47,49 +47,63 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Arrangement based on components connected by rotary or sliding interfaces",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Fixed link",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A mechanism formed by connecting two or more levers together.",
+    "definition": "A system of rigid links connected by joints.",
     "common_uses": [
-      "Changing the direction of force",
-      "Synchronizing movement of objects"
+      "Mechanical Systems",
+      "Robotics"
     ]
   },
   "deep_layer": {
-    "mechanism": "Levers connected in a specific configuration transmit and modify forces or motion.",
-    "origin": "Mechanical systems requiring controlled force or motion transfer."
+    "mechanism": "Transforms motion through interconnected links.",
+    "origin": "Mechanical Engineering"
   },
   "instance_layer": {
     "examples": [
-      "A car suspension system",
-      "A bicycle brake lever"
+      "Four-bar linkage",
+      "Slider-crank mechanism"
     ]
   },
   "facets": {
     "STRUCTURAL": {
-      "visual_features": [
-        "Connected levers"
-      ],
-      "shape": [
-        "Varies depending on the function"
-      ],
-      "composition": [
-        "Metal or plastic levers",
-        "Fasteners"
-      ]
-    },
-    "SPATIAL": {
-      "location": "Between two or more anatomical structures",
-      "connected_to": [],
-      "coordinates": []
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": []
     }
   },
   "epistemic_metadata": {
-    "source": "Different types of linkages - Firgelli Automations",
-    "citations": [
-      "Different types of linkages - Firgelli Automations"
-    ]
-  },
-  "autocorrected": true
+    "source": "Roy Mech",
+    "citations": []
+  }
 }

@@ -1,0 +1,47 @@
+{
+  "name": "Reflow Oven",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1008
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Heating PCB",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An oven used to heat PCBs for soldering.",
+    "common_uses": []
+  },
+  "deep_layer": {},
+  "instance_layer": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Enclosed chamber, typically found in manufacturing facilities",
+      "connected_to": [
+        "Conveyor belt",
+        "Control panel",
+        "Power supply",
+        "Exhaust system"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "MPCS, inc.",
+    "citations": []
+  },
+  "autocorrected": true
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Vascular Territory",
+  "type": "BODY_PART",
+  "id": {
+    "group": 34,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Brain Region",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Brain",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Region supplied by a specific blood vessel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Area of the brain supplied by a particular blood vessel.",
+    "common_uses": [
+      "Identifying infarctions",
+      "Differentiating infarctions from other pathology"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Blood vessels deliver oxygen and nutrients to specific brain regions. Blockage leads to ischemia and infarction in that territory.",
+    "origin": "Arises from the branching pattern of cerebral arteries."
+  },
+  "instance_layer": {
+    "examples": [
+      "Territory of the Posterior Cerebral Artery (PCA)"
+    ]
+  },
+  "facets": {
+    "SPATIAL": {
+      "location": "Specific region within the brain",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Brain"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Vascular territories of the Brain - The Radiology Assistant, Vascular Territories in the Brain: Mapping & Pathology Insights, The Posterior Cerebral Artery and its Main Cortical Branches Identified ...",
+    "citations": [
+      "https://radiologyassistant.nl/neuroradiology/brain-ischemia/vascular-territories",
+      "https://biologyinsights.com/vascular-territories-in-the-brain-mapping-pathology-insights/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5023222/"
+    ]
+  }
+}

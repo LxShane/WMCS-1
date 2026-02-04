@@ -1,9 +1,9 @@
 {
-  "name": "Afferent Arteriole",
-  "type": "LIVING_SYSTEM",
+  "name": "Afferent arteriole",
+  "type": "PHYSICAL",
   "id": {
-    "group": 21,
-    "item": 1005
+    "group": 32,
+    "item": 1238
   },
   "claims": [
     {
@@ -33,32 +33,63 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "blood (31, 1238)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "glomerulus (24, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "An arteriole that delivers blood to the glomerulus for filtering in the kidney.",
+    "definition": "Arteriole bringing blood to the glomerulus.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The afferent arteriole transports blood towards the glomerulus, enabling filtration.",
-    "origin": null
+    "mechanism": "Regulates blood flow into the glomerulus, affecting GFR.",
+    "origin": "Part of the kidney's filtration system."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
     "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
+      "visual_features": [
+        "Small vessel"
+      ],
+      "shape": [
+        "Tubular"
+      ],
+      "composition": [
+        "Smooth muscle cells"
+      ],
       "parts": [],
       "relations": []
+    },
+    "SPATIAL": {
+      "location": "Leading to the glomerulus",
+      "coordinates": [],
+      "connected_to": [
+        "Renal artery",
+        "Glomerular capillaries"
+      ],
+      "contained_in": "Kidney"
     }
   },
   "epistemic_metadata": {
-    "source": "Manual",
-    "citations": [
-      "Efferent vs. Afferent Arteriole | Differences & Function"
-    ]
+    "source": "https://en.wikipedia.org/wiki/Glomerular_filtration_rate",
+    "citations": []
   }
 }

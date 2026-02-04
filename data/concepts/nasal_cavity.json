@@ -1,9 +1,9 @@
 {
   "name": "Nasal Cavity",
-  "type": "BODY_PART",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 27,
-    "item": 1001
+    "group": 31,
+    "item": 1245
   },
   "claims": [
     {
@@ -131,19 +131,31 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Body Part",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The nasal cavity is responsible for humidifying, warming, and filtering inspired air.",
+    "definition": "The inside of the nose.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Air passes through the nasal cavity, where it is warmed and humidified by the mucosal lining. The lining also traps and removes particles and debris.",
-    "origin": "Develops during fetal development as part of the respiratory system."
+    "mechanism": "Warms, humidifies, and filters air.",
+    "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {
     "STRUCTURAL": {
       "visual_features": [],
@@ -156,7 +168,7 @@
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "Anatomy, Head and Neck, Nasal Cavity - StatPearls - NCBI Bookshelf"
+      "NCBI Bookshelf"
     ]
   }
 }

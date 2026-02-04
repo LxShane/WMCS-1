@@ -1,0 +1,73 @@
+{
+  "name": "Tetraloop Structure",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 9876
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Guide RNA",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "formation of sgRNA",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A loop structure in RNA consisting of four nucleotides.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Stabilizes RNA structure.",
+    "origin": "RNA folding"
+  },
+  "instance_layer": [],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [
+        "RNA"
+      ],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Within a nucleic acid structure",
+      "connected_to": [
+        "Stem region of hairpin loop",
+        "Loop region"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Guide RNA - Wikipedia",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Guide_RNA"
+    ]
+  },
+  "autocorrected": true
+}

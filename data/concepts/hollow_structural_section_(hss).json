@@ -1,0 +1,78 @@
+{
+  "name": "Hollow Structural Section (HSS)",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 22,
+    "item": 1122
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Steel Tube",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Structural engineering",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A type of steel section commonly used for structural applications.",
+    "common_uses": [
+      "Structural support",
+      "Construction"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "HSS sections provide high strength-to-weight ratio.",
+    "origin": "Manufactured through various processes."
+  },
+  "instance_layer": {
+    "examples": [
+      "Square HSS sections",
+      "Rectangular HSS sections",
+      "Round HSS sections"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Hollow",
+        "Metallic"
+      ],
+      "shape": [
+        "Square",
+        "Rectangular",
+        "Round"
+      ],
+      "composition": [
+        "Steel"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "PDF ASTM A1085 Specification for HSS - Steel Tube Institute"
+    ]
+  }
+}

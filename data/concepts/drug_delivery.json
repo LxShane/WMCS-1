@@ -1,0 +1,87 @@
+{
+  "name": "Drug Delivery",
+  "type": "SOCIAL_CONSTRUCT",
+  "id": {
+    "group": 61,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Medical Procedure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Drug",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Needle Insertion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The process of administering a pharmaceutical compound to achieve a therapeutic effect in humans or animals.",
+    "common_uses": [
+      "Treating illnesses",
+      "Preventing diseases"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Delivering a measured dose of medication to a specific location in the body to promote healing or manage symptoms.",
+    "origin": "Pharmaceutical science."
+  },
+  "instance_layer": {
+    "examples": [
+      "Vaccination",
+      "Chemotherapy"
+    ]
+  },
+  "facets": {
+    "PROCESS_DATA": {
+      "roles": [
+        "Administration",
+        "Treatment"
+      ],
+      "affected": [
+        "Patient"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Combined Text",
+    "citations": [
+      "https://patents.google.com/patent/WO2018156548A1/en",
+      "https://patents.google.com/patent/US11103636B2/en"
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "name": "Comet Assay",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A technique used to detect DNA damage in cells.",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Toxicology",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "dna (21, 1007)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A technique used to detect DNA damage in cells.",
+    "common_uses": [
+      "Assessing genotoxicity of chemicals",
+      "Monitoring DNA damage in environmental studies"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Involves embedding cells in agarose, lysing them to remove cellular components, and then electrophoresing the DNA. Damaged DNA migrates further, creating a 'comet' tail.",
+    "origin": "Developed in the late 20th century as a rapid and sensitive method for detecting DNA damage."
+  },
+  "instance_layer": {
+    "examples": [
+      "Assessing DNA damage caused by exposure to radiation",
+      "Evaluating the genotoxic effects of new drugs"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Diagnostic Tool"
+      ],
+      "capabilities": [
+        "Detect DNA damage",
+        "Assess genotoxicity"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Download The Comet Assay In Toxicology Issues In Toxicology 2009",
+    "citations": [
+      "Unknown"
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "name": "Vagal Afferent Neurons",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Stomach",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Small Intestine",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Sending information to brain stem",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "SENDS_INFORMATION_ABOUT",
+      "object": "Mechanical activity of muscle",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Neurons projecting from the stomach and small intestine to the brain stem.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Transmit sensory information about gut activity to the brain.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Sensory Neuron"
+      ],
+      "capabilities": [
+        "Signal transduction",
+        "Information transfer"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Gut to Brain Stem",
+      "connected_to": [
+        "Stomach",
+        "Small Intestine",
+        "Brain Stem"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "A History of Drug Discovery for Treatment of Nausea and Vomiting ..."
+    ]
+  }
+}

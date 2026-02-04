@@ -1,9 +1,9 @@
 {
   "name": "Bone Remodeling",
-  "type": "LIVING_SYSTEM",
+  "type": "SOCIAL_CONSTRUCT",
   "id": {
-    "group": 21,
-    "item": 1001
+    "group": 62,
+    "item": 1002
   },
   "claims": [
     {
@@ -159,15 +159,47 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "replaces old and damaged bone with new bone through a sequence of cellular events occurring on the same surface without any change in bone shape",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "bone (23, 5678)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "process (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Bone remodeling is the process of replacing old bone with new bone.",
+    "definition": "A process where old bone is replaced with new bone.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Resorptive and formative cell populations act together to replace old bone with new bone, ensuring the integrity of the skeleton.",
-    "origin": null
+    "mechanism": "A coordinated sequence of cellular events involving osteoblasts and osteoclasts.",
+    "origin": "occurs naturally within the bone tissue"
   },
   "instance_layer": {
     "examples": []
@@ -177,26 +209,13 @@
       "roles": [],
       "capabilities": []
     },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
+    "STRUCTURAL": {},
+    "SPATIAL": {}
   },
   "epistemic_metadata": {
-    "source": "User Query",
+    "source": "Set Automatically",
     "citations": [
-      "Cellular mechanisms of bone remodeling - PMC",
-      "Bone remodeling: an operational process ensuring survival and ...",
-      "Osteoblast-Osteoclast Communication and Bone Homeostasis"
+      "https://www.nature.com/articles/s41413-022-00219-8"
     ]
   }
 }

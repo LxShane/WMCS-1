@@ -1,0 +1,109 @@
+{
+  "name": "F1 complex gamma subunit rotor",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 32,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Protein subunit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONNECTED_TO",
+      "object": "C subunit ring",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Gamma subunit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Epsilon Subunit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A protein subunit of ATP synthase that rotates.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Rotation is driven by the C subunit ring.",
+    "origin": "Part of the ATP synthase complex."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [
+        "Gamma Subunit",
+        "Epsilon Subunit"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "In F-ATPases",
+      "coordinates": [],
+      "connected_to": [
+        "C subunit ring"
+      ],
+      "contained_in": "ATP synthase"
+    },
+    "FUNCTION": {
+      "roles": [
+        "Rotary Motor"
+      ],
+      "capabilities": [
+        "Rotation"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "ATP synthase subunit C - Wikipedia, Subunit composition of ATP synthase | MRC Mitochondrial ..., Mitochondrial ATP synthase: architecture, function and ...",
+    "citations": []
+  }
+}

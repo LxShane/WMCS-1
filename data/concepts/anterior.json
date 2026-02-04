@@ -3,12 +3,12 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1238
+    "item": 7890
   },
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "Anatomical Term",
+      "object": "Anatomical Term (50, 1234)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -19,29 +19,75 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "At the front of the body",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Anatomical Term (50, 1234)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "'Front'",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "structure (50, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "An anatomical term describing location.",
+    "definition": "Relating to or situated near the front of the body or of a structure.",
     "common_uses": [
-      "Describing the position of structures toward the front"
+      "Describing location of anatomical structures"
     ]
   },
   "deep_layer": {
-    "mechanism": "Describes relative position in anatomy.",
+    "mechanism": "Provides a reference point for anatomical descriptions.",
     "origin": "Latin"
   },
-  "instance_layer": [],
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Descriptor"
-      ],
-      "capabilities": [
-        "Spatial Localization"
-      ]
-    }
+  "instance_layer": {
+    "examples": [
+      "The sternum is anterior to the heart."
+    ]
   },
+  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [

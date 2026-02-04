@@ -1,0 +1,96 @@
+{
+  "name": "Power Generation",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Nuclear",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Geothermal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Natural Gas",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Fuel Cells",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The process of generating electrical power.",
+    "common_uses": [
+      "Supplying electricity"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Various methods like burning fossil fuels or harnessing renewable energy.",
+    "origin": "Started with the invention of generators."
+  },
+  "instance_layer": {
+    "examples": [
+      "Coal power plants",
+      "Solar farms"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Producer"
+      ],
+      "capabilities": [
+        "Generate electricity"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Powering Data Centers | Megawatts to Megabytes - Orrick",
+    "citations": []
+  }
+}

@@ -1,9 +1,9 @@
 {
-  "name": "Local Area Network",
-  "type": "SOCIAL_CONSTRUCT",
+  "name": "Local area network",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 60,
-    "item": 1002
+    "group": 20,
+    "item": 6543
   },
   "claims": [
     {
@@ -19,22 +19,66 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Network",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A computer network that interconnects computers within a limited area",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A network that connects computers and devices in a limited geographical area.",
+    "definition": "A computer network that interconnects computers within a limited area such as a residence, school, laboratory, or office building.",
     "common_uses": [
       "Sharing files",
-      "Connecting to the internet"
+      "Printing documents"
     ]
   },
-  "deep_layer": {},
-  "instance_layer": {},
-  "facets": {},
-  "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "Cisco Spanning Tree Protocol Guide"
+  "deep_layer": {
+    "mechanism": "Uses various network protocols and physical connections to facilitate communication between devices.",
+    "origin": "Developed to enable resource sharing and communication within limited geographic areas."
+  },
+  "instance_layer": {
+    "examples": [
+      "A home network with multiple computers and a printer."
     ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Communication facilitator",
+        "Resource sharer"
+      ],
+      "capabilities": [
+        "Data transmission",
+        "Resource access"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "US5444856A",
+    "citations": []
   }
 }

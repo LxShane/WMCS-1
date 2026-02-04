@@ -1,8 +1,8 @@
 {
-  "name": "Lithium-ion battery",
+  "name": "Lithium-ion Battery",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 31,
+    "group": 25,
     "item": 1001
   },
   "claims": [
@@ -513,42 +513,115 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Rechargeable Battery",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USES",
+      "object": "Reversible Intercalation of Li+ Ions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Solid Electrolyte Interphase (SEI)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "GOVERNS",
+      "object": "Cycle Life",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "GOVERNS",
+      "object": "Coulombic Efficiency",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "GOVERNS",
+      "object": "Safety",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A type of rechargeable battery using lithium ions as the primary electrochemical component.",
+    "definition": "A type of rechargeable battery that uses the reversible intercalation of Li+ ions.",
     "common_uses": [
-      "Portable electronics",
+      "Powering electronic devices",
       "Electric vehicles",
       "Energy storage"
     ]
   },
   "deep_layer": {
     "mechanism": "Lithium ions move from the negative electrode to the positive electrode during discharge and back when charging.",
-    "origin": "First developed in the 1970s, commercialized in the 1990s."
+    "origin": "Developed in the late 20th century."
   },
   "instance_layer": {
     "examples": [
-      "Tesla car battery",
-      "iPhone battery"
+      "Laptop batteries",
+      "Smartphone batteries"
     ]
   },
-  "facets": {
-    "SPATIAL": {
-      "location": "Contained within a device casing, often near the power input/output circuitry",
-      "connected_to": [
-        "Power terminals",
-        "Circuit board",
-        "Device casing",
-        "Temperature sensor (optional)",
-        "Battery Management System (BMS)"
-      ],
-      "coordinates": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Multiple Academic Sources",
-    "citations": []
-  },
-  "autocorrected": true
+    "source": "https://en.wikipedia.org/wiki/Lithium-ion_battery",
+    "citations": [
+      "Lithium-ion battery - Wikipedia"
+    ]
+  }
 }

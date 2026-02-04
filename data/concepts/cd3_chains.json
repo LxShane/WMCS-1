@@ -5,7 +5,26 @@
     "group": 30,
     "item": 1234
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "RELATED_TO",
+      "object": "cell (21, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "receptor (20, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
   "surface_layer": {
     "definition": "Part of the T-cell receptor complex.",
     "common_uses": []
@@ -14,11 +33,21 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Plasma membrane of T lymphocytes",
+      "connected_to": [
+        "T cell receptor (TCR)",
+        "CD3 complex subunits (CD3\u03b3, CD3\u03b4, CD3\u03b5, CD3\u03b6)"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
     "source": "Tyrosin-protein kinase Lck - Wikipedia",
     "citations": [
       "https://en.wikipedia.org/wiki/Lck"
     ]
-  }
+  },
+  "autocorrected": true
 }

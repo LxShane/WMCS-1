@@ -3,12 +3,12 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 20,
-    "item": 5678
+    "item": 9012
   },
   "claims": [
     {
       "predicate": "HAS_PART",
-      "object": "Valence Electron",
+      "object": "Valence Electron (20, 1003)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -106,7 +106,7 @@
     },
     {
       "predicate": "LOCATED_AT",
-      "object": "Atmosphere",
+      "object": "Atmosphere (21, 1122)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -120,7 +120,7 @@
     },
     {
       "predicate": "LOCATED_AT",
-      "object": "Land",
+      "object": "Land (22, 3344)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -134,10 +134,66 @@
     },
     {
       "predicate": "LOCATED_AT",
-      "object": "Ocean",
+      "object": "Ocean (23, 5566)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "chemical element",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PART_OF",
+      "object": "Marine biogeochemical cycles",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Quadrivalent Electron Configuration",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Forming Strong Bonds",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
         "event": null
       },
       "epistemic": {
@@ -148,28 +204,19 @@
     }
   ],
   "surface_layer": {
-    "definition": "A chemical element with symbol C and atomic number 6.",
-    "common_uses": []
+    "definition": "A chemical element with the symbol C and atomic number 6.",
+    "common_uses": [
+      "Fuel",
+      "Graphite",
+      "Diamonds"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Forms the backbone of organic molecules.",
-    "origin": "Stars"
+    "mechanism": "Carbon atoms can form stable covalent bonds with other carbon atoms and other elements, leading to diverse molecular structures.",
+    "origin": "Formed in stars through nuclear fusion."
   },
   "instance_layer": {
     "examples": []
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",

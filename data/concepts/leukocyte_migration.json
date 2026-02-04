@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 30,
-    "item": 1003
+    "item": 1004
   },
   "claims": [
     {
@@ -33,34 +33,48 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Process of white blood cells crossing the blood-brain barrier",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Participate in immune responses during pathological conditions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The migration of leukocytes.",
+    "definition": "The movement of leukocytes (white blood cells) from the bloodstream into tissues.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Chemokines direct leukocyte migration.",
+    "mechanism": null,
     "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "PROCESS_DATA": {
-      "roles": [
-        "Cause of immune response"
-      ],
-      "capabilities": [
-        "Movement of leukocytes"
-      ]
-    }
-  },
+  "instance_layer": [],
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Multiple Sources",
-    "citations": [
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6120486/",
-      "https://www.sciencedirect.com/science/article/pii/S2211124725013543"
-    ]
+    "source": "Leukocyte Migration - an overview | ScienceDirect Topics",
+    "citations": []
   }
 }

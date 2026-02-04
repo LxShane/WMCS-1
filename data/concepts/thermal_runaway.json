@@ -1,0 +1,53 @@
+{
+  "name": "Thermal Runaway",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 6789
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Uncontrollable increase in temperature",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A process where increasing temperature causes a further increase in temperature, leading to a destructive cycle.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Positive feedback loop where heat generation increases exponentially with temperature.",
+    "origin": "Various physical and chemical processes."
+  },
+  "instance_layer": {
+    "examples": [
+      "Thermal runaway in lithium-ion batteries"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Phenomenon"
+      ],
+      "capabilities": [
+        "Increasing Temperature Uncontrollably"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Interface Engineering of Electrical Contacts | Phys. Rev. Applied"
+    ]
+  }
+}

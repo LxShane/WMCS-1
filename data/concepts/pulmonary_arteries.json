@@ -1,0 +1,96 @@
+{
+  "name": "Pulmonary Arteries",
+  "type": "BODY_PART",
+  "id": {
+    "group": 24,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Lung",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "ORIGINATES_FROM",
+      "object": "Main pulmonary trunk",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CARRIES",
+      "object": "Deoxygenated blood",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "TO",
+      "object": "Lung",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Blood vessels that carry deoxygenated blood to the lungs.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Transport blood to the lungs for oxygenation.",
+    "origin": "Develops as part of the circulatory system."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Lung"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://grokipedia.com/page/Lung",
+    "citations": []
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Cross Section Area",
+  "type": "MATHEMATICAL_OBJECT",
+  "id": {
+    "group": 42,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Area of the cross section of the steel tube",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Calculating stress and strain",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The area of the shape formed when the steel tube is cut perpendicularly to its axis.",
+    "common_uses": [
+      "Stress analysis",
+      "Load-bearing capacity calculation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Determines the amount of material available to resist applied forces.",
+    "origin": "Calculated from the outer and inner diameters of the steel tube."
+  },
+  "instance_layer": {
+    "examples": [
+      "0.294 square inches for a 1-inch nominal diameter schedule 40 steel tube"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "ASTM Steel Tube Pipe Section Properties - Engineers Edge"
+    ]
+  }
+}

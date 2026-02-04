@@ -1,0 +1,58 @@
+{
+  "name": "BBB Transporters",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 3579
+  },
+  "claims": [
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Regulate BBB permeability",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "blood (31, 1238)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "brain (20, 3456)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Transporters located in the blood-brain barrier.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Transport substances across the BBB.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "ScienceDirect",
+    "citations": []
+  }
+}

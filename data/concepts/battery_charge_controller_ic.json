@@ -8,7 +8,7 @@
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "Integrated Circuit",
+      "object": "Integrated Circuit (30, 1238)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -61,6 +61,24 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "circuit (30, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "process (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
@@ -74,9 +92,27 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "On the circuit board, often near the battery connector",
+      "connected_to": [
+        "Battery",
+        "Solar panel (if applicable)",
+        "Load (e.g., device being powered)",
+        "Power source",
+        "Microcontroller (optional)",
+        "Voltage dividers (optional)",
+        "Current sensors (optional)",
+        "Heat sink (optional)",
+        "Connectors",
+        "PCB traces"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
     "source": "https://electronicssecret.wordpress.com/2024/12/10/battery-charge-controller-ics-the-cornerstone-of-modern-power-management/",
     "citations": []
-  }
+  },
+  "autocorrected": true
 }

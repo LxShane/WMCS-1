@@ -1,0 +1,80 @@
+{
+  "name": "Arctic Sea Ice",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1122
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Arctic",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Affects mean state and variability in the tropical Pacific",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "ice (20, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Sea ice located in the Arctic region.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Reflects solar radiation and influences ocean currents",
+    "origin": "Freezing of seawater in Arctic regions"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "White",
+        "Icy"
+      ],
+      "shape": [
+        "Flat",
+        "Variable"
+      ],
+      "composition": [
+        "Frozen seawater"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Arctic region"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Arctic sea ice\u2013air interactions weaken El Ni\u00f1o\u2013Southern ...",
+    "citations": []
+  }
+}

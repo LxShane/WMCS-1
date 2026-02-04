@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 20,
-    "item": 1001
+    "item": 1234
   },
   "claims": [
     {
@@ -47,22 +47,82 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Region of interaction between fetus and mother",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "The structure where the fetus and mother interact during pregnancy",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Chorionic villi",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Extravillous trophoblasts (EVTs)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The interface between the fetus and the mother during pregnancy.",
+    "definition": "The interface between the fetal and maternal systems during pregnancy.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Exchange of nutrients and waste products between the mother and fetus.",
-    "origin": "Develops during early pregnancy."
+    "mechanism": "Nutrient and waste exchange, immune regulation, hormone production.",
+    "origin": "Development during pregnancy."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11322133/",
-    "citations": []
+    "source": "Multiple Academic Sources",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11322133/",
+      "https://www.facebook.com/AJOGthegray/posts/ajog-expert-review-the-maternal-fetal-interface-at-single-cell-resolution-uncove/1073657821465327/",
+      "https://www.nature.com/articles/s41586-023-06298-9"
+    ]
   }
 }

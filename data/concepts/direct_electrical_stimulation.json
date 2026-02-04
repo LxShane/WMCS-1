@@ -1,0 +1,89 @@
+{
+  "name": "Direct Electrical Stimulation",
+  "type": "SOCIAL_CONSTRUCT",
+  "id": {
+    "group": 61,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Lesion-deficit analysis",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PROPERTY",
+      "object": "spatially controlled",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PROPERTY",
+      "object": "clinically informed",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "brain (20, 3456)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "function (50, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A method for analyzing brain function through controlled electrical stimulation.",
+    "common_uses": [
+      "research",
+      "clinical diagnosis"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Applying electrical current to specific brain regions.",
+    "origin": "Neuroscience research"
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "A probabilistic map of motor and cognitive functions",
+    "citations": [
+      "https://link.springer.com/article/10.1007/s00429-025-03015-2"
+    ]
+  }
+}

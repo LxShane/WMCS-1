@@ -1,0 +1,45 @@
+{
+  "name": "Firewall",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1007
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Network device",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.",
+    "common_uses": [
+      "Protecting networks from unauthorized access",
+      "Filtering network traffic"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Examines network packets and blocks those that do not meet security rules.",
+    "origin": "Developed to protect networks from malicious attacks."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "TechTarget",
+    "citations": [
+      "https://www.techtarget.com/searchnetworking/definition/What-is-network-mapping"
+    ]
+  }
+}

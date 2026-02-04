@@ -1,0 +1,72 @@
+{
+  "name": "Prosthesis",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Replacing a missing body part",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Device",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Replacing Missing Body Part",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An artificial device used to replace a missing body part.",
+    "common_uses": [
+      "Limb replacement",
+      "Joint replacement"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Replicates function of the missing part.",
+    "origin": "Manufactured to resemble and function like a body part."
+  },
+  "instance_layer": [
+    "Artificial leg",
+    "Artificial arm"
+  ],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "US20050222489A1",
+    "citations": []
+  }
+}

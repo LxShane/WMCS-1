@@ -2,8 +2,8 @@
   "name": "CaMKII",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1002
+    "group": 30,
+    "item": 6789
   },
   "claims": [
     {
@@ -92,7 +92,7 @@
     },
     {
       "predicate": "PERFORMED_BY",
-      "object": "Phosphorylation",
+      "object": "Phosphorylation (50, 1004)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -131,45 +131,38 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "calcium (30, 2346)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "protein (22, 1000)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A calcium/calmodulin-dependent protein kinase.",
+    "definition": "Calcium/calmodulin-dependent protein kinase II.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Phosphorylates target proteins upon activation by calcium and calmodulin.",
-    "origin": "Encoded by genes within the genome."
+    "mechanism": "A serine/threonine-selective protein kinase.",
+    "origin": "Biological origin"
   },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
+  "instance_layer": [],
+  "facets": {},
   "epistemic_metadata": {
-    "source": "GluN2A and GluN2B subunit-containing NMDA receptors in hippocampal plasticity - PMC",
-    "citations": [
-      "44",
-      "45",
-      "46",
-      "47"
-    ]
+    "source": "https://pdfs.semanticscholar.org/7e57/8402ec428ccd9d6a417ef47671f8957280d0.pdf",
+    "citations": []
   }
 }

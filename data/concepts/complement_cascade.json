@@ -1,0 +1,70 @@
+{
+  "name": "Complement Cascade",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 1236
+  },
+  "claims": [
+    {
+      "predicate": "CAUSES",
+      "object": "Cytotoxic effects",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cell (21, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "reactions (50, 1004)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A series of reactions that lead to cell lysis or opsonization.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Involves sequential activation of complement proteins.",
+    "origin": "Part of the innate immune system."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "SPATIAL": {
+      "location": "Extracellular fluid, cell membrane",
+      "connected_to": [
+        "Cell surface receptors",
+        "Complement proteins",
+        "Microbial surfaces",
+        "Antibodies"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  },
+  "autocorrected": true
+}

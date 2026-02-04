@@ -2,8 +2,8 @@
   "name": "Wall Thickness",
   "type": "MATHEMATICAL_OBJECT",
   "id": {
-    "group": 42,
-    "item": 1009
+    "group": 41,
+    "item": 4567
   },
   "claims": [
     {
@@ -47,19 +47,56 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Distance between the outer and inner surface of the steel tube wall",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Calculating cross section area and mechanical properties",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Thickness of the beam tube wall.",
-    "common_uses": []
+    "definition": "The radial thickness of the steel tube's wall.",
+    "common_uses": [
+      "Strength calculations",
+      "Pressure rating determination"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Thickness of the wall."
+    "mechanism": "Determines the structural capacity and resistance to deformation of the steel tube.",
+    "origin": "Set during the manufacturing process of the steel tube."
   },
-  "instance_layer": [],
-  "facets": {},
+  "instance_layer": {
+    "examples": [
+      "0.109 inches wall thickness for a 1-inch nominal diameter steel tube"
+    ]
+  },
   "epistemic_metadata": {
-    "source": "LHC vacuum tube diameter [closed] - Physics Stack Exchange",
-    "citations": []
+    "source": "Ingestion Engine",
+    "citations": [
+      "ASTM Steel Tube Pipe Section Properties - Engineers Edge"
+    ]
   }
 }

@@ -2,8 +2,8 @@
   "name": "Electrode Material",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 25,
-    "item": 1011
+    "group": 30,
+    "item": 1003
   },
   "claims": [
     {
@@ -19,36 +19,95 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Conductivity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Hardness",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Wear Resistance",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Electrochemical Sensing",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A material used in the construction of an electrode.",
-    "common_uses": []
+    "definition": "Material used to construct electrodes for electrochemical applications.",
+    "common_uses": [
+      "Electrochemical sensors",
+      "Batteries"
+    ]
   },
   "deep_layer": {
-    "mechanism": "",
-    "origin": ""
+    "mechanism": "The material facilitates the transfer of electrons between the analyte and the measurement circuitry.",
+    "origin": "Developed through materials science and electrochemistry."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Platinum",
+      "Gold",
+      "Carbon"
+    ]
   },
   "facets": {
     "FUNCTION": {
       "roles": [
-        "Electrode Component"
+        "Electron Conductor"
       ],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
+      "capabilities": [
+        "conduct electrons",
+        "catalyze reactions"
+      ]
     }
   },
   "epistemic_metadata": {
-    "source": "Multiple Sources",
+    "source": "https://pubs.acs.org/doi/10.1021/acs.analchem.2c04541",
     "citations": []
   }
 }

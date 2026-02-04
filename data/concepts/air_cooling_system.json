@@ -1,0 +1,61 @@
+{
+  "name": "Air Cooling System",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 5829
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Cooling System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Cooling (50, 8008)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cooling (50, 8008)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A cooling system that uses air as the coolant.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Heat is dissipated to the surrounding air via fins and convection.",
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

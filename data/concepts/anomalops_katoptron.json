@@ -1,0 +1,72 @@
+{
+  "name": "Anomalops katoptron",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Light Organ",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Subocular Position",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "fish (21, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A species of flashlight fish also known as a splitfin.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Has bioluminescent light organ beneath its eye.",
+    "origin": "Evolutionary adaptation."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.researchgate.net/figure/Bioluminescence-anatomical-position-and-structure-of-the-light-organs-in-the-splitfin_fig2_313487094"
+    ]
+  }
+}

@@ -1,9 +1,9 @@
 {
   "name": "Hydrothermal Circulation",
-  "type": "PHYSICAL_PROCESS",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 60,
-    "item": 7890
+    "group": 50,
+    "item": 3333
   },
   "claims": [
     {
@@ -33,42 +33,50 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Surrounding country rock",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Formation of mineral deposits",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The circulation of water driven by heat from the Earth's interior.",
-    "common_uses": [
-      "Geothermal energy",
-      "Mineral deposit formation"
-    ]
+    "definition": "The circulation of hot water within the Earth's crust.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Heat from magma drives convection of water through porous rocks.",
-    "origin": "Occurs in areas of high geothermal gradient."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
-    "examples": [
-      "Black smokers",
-      "Geothermal vents"
-    ]
+    "examples": []
   },
-  "facets": {
-    "PROCESS_DATA": {
-      "roles": [
-        "Heat Transfer",
-        "Fluid Transport"
-      ],
-      "capabilities": [
-        "Transfer heat",
-        "Transport fluids",
-        "Alter rock chemistry"
-      ]
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "2017GC007152"
-    ]
+    "source": "[PDF] Thermodynamic and Transport Properties of Silicate Melts and ...",
+    "citations": []
   }
 }

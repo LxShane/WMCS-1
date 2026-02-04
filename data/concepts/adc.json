@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 30,
-    "item": 9012
+    "item": 1004
   },
   "claims": [
     {
@@ -19,42 +19,133 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Analog-to-digital converter",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Apparent Diffusion Coefficient",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "VARIES_OVER",
+      "object": "Cardiac Cycle",
+      "temporal": {
+        "valid_from": "2022",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MAY_REFLECT",
+      "object": "Physiology (50, 7890)",
+      "temporal": {
+        "valid_from": "2022",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MAY_REFLECT",
+      "object": "Mixing of Interstitial Fluid",
+      "temporal": {
+        "valid_from": "2022",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Analog-to-Digital Converter",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "circuit (30, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Analog to digital converter.",
-    "common_uses": []
+    "definition": "An electronic circuit that converts a continuous analog signal to a discrete digital number.",
+    "common_uses": [
+      "Measuring physical quantities",
+      "Digital audio recording"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "An ADC samples the analog signal and quantizes it into a digital representation.",
+    "origin": "Requirement for digital processing of analog signals"
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Used in a temperature sensor to convert analog voltage to digital temperature reading."
+    ]
   },
   "facets": {
     "FUNCTION": {
-      "roles": [],
-      "capabilities": []
+      "roles": [
+        "Signal Conversion"
+      ],
+      "capabilities": [
+        "Converting analog signals to digital"
+      ]
     },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
+    "STRUCTURAL": {},
+    "SPATIAL": {}
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "LVDS to LVCMOS clock signal",
     "citations": [
-      "Data Acquisition Handbook"
+      "Page 1"
     ]
   }
 }

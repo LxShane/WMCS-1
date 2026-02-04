@@ -1,0 +1,79 @@
+{
+  "name": "Shear Stress Distribution",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 52,
+    "item": 4321
+  },
+  "claims": [
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Tire",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Contact Patch",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Stress Distribution",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The pattern of shear stress acting across the contact patch of a tire.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Caused by friction between the tire and the road surface during cornering.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "PROCESS_DATA": {
+      "roles": [],
+      "capabilities": []
+    },
+    "ABSTRACT_DATA": {
+      "domain": "Physics",
+      "antonym": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "PDF Documents",
+    "citations": [
+      "FINITE ELEMENT MODELING OF TIRE-TERRAIN DYNAMIC"
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "name": "Stomach",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Organ",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Expand",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Contract",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A muscular organ involved in digestion.",
+    "common_uses": [
+      "Digestion",
+      "Food Storage"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Chemically and mechanically breaks down food.",
+    "origin": "Develops from the foregut during embryonic development."
+  },
+  "instance_layer": {
+    "examples": [
+      "Human Stomach",
+      "Cow Stomach"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Muscular",
+        "Bag-like"
+      ],
+      "shape": [
+        "J-shaped"
+      ]
+    },
+    "SPATIAL": {
+      "contained_in": "Abdominal Cavity"
+    },
+    "FUNCTION": {
+      "roles": [
+        "Digester"
+      ],
+      "capabilities": [
+        "Store Food",
+        "Break Down Food",
+        "Secrete Digestive Enzymes"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Anatomical Terminology | Anatomy and Physiology I - Lumen Learning",
+    "citations": [
+      "Anatomical Terminology | Anatomy and Physiology I - Lumen Learning"
+    ]
+  }
+}

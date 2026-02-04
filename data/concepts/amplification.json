@@ -1,0 +1,78 @@
+{
+  "name": "Amplification",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "signal conditioning",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Operational amplifiers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "process (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Amplification is the process of increasing the amplitude of a signal.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Operational amplifiers increase signal strength.",
+    "origin": "Basic electronic principle."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Signal Booster"
+      ],
+      "capabilities": [
+        "Increase signal amplitude"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Web Sources",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Signal_conditioning",
+      "https://grokipedia.com/page/Signal_conditioning",
+      "https://www.howengineeringworks.com/questions/what-is-signal-conditioning-and-why-is-it-required/"
+    ]
+  }
+}

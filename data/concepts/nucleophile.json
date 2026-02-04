@@ -1,0 +1,63 @@
+{
+  "name": "Nucleophile",
+  "type": "CHEMICAL_SUBSTANCE",
+  "id": {
+    "group": 21,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Chemical species that donates an electron pair to an electrophile to form a chemical bond",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "electron (20, 9012)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A chemical species that donates an electron pair to an electrophile to form a chemical bond.",
+    "common_uses": [
+      "Organic Chemistry",
+      "Chemical Reactions"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Attacks the electrophile, forming a new chemical bond.",
+    "origin": "Chemical Reactions"
+  },
+  "instance_layer": {
+    "examples": [
+      "Hydroxide ion",
+      "Ammonia"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "material_properties": {
+        "state": "Ion/Molecule"
+      }
+    }
+  },
+  "epistemic_metadata": {
+    "source": "SN1 reaction - Wikipedia",
+    "citations": [
+      "https://en.wikipedia.org/wiki/SN1_reaction"
+    ]
+  }
+}

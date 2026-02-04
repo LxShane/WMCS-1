@@ -33,6 +33,15 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "membrane (20, 9012)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
@@ -44,9 +53,23 @@
     "origin": "cellular vesicles"
   },
   "instance_layer": [],
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Cytoplasm, near organelles targeted for degradation, often near the endoplasmic reticulum",
+      "connected_to": [
+        "Endoplasmic reticulum",
+        "Lysosomes",
+        "Mitochondria",
+        "Aggregates",
+        "Proteins marked for degradation",
+        "Other autophagosomes"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
     "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5300905/",
     "citations": []
-  }
+  },
+  "autocorrected": true
 }

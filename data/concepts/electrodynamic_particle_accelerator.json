@@ -1,0 +1,68 @@
+{
+  "name": "Electrodynamic Particle Accelerator",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 31,
+    "item": 1007
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Particle Accelerator",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Accelerate particles using changing electromagnetic fields",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A particle accelerator that uses changing electromagnetic fields to accelerate particles.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "SPATIAL": {
+      "location": "Confined within the accelerator tube/structure",
+      "connected_to": [
+        "Vacuum chamber",
+        "Electromagnetic coils/RF cavities",
+        "Beam focusing elements",
+        "Target/detector"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Particle accelerator",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Particle_accelerator"
+    ]
+  },
+  "autocorrected": true
+}

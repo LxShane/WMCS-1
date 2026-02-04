@@ -22,7 +22,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Battery Cells",
+      "object": "Battery Cells (30, 1235)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -50,7 +50,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Battery Cells",
+      "object": "Battery Cells (30, 1235)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -64,7 +64,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Structural Enclosures",
+      "object": "Structural Enclosures (30, 1236)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -78,7 +78,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Temperature Control System",
+      "object": "Temperature Control System (30, 1237)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -92,7 +92,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Battery Thermal Management System (BTMS)",
+      "object": "Battery Thermal Management System (BTMS) (30, 1238)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -120,7 +120,7 @@
     },
     {
       "predicate": "REQUIRES",
-      "object": "Thermal Management",
+      "object": "Thermal Management (50, 1004)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -144,6 +144,24 @@
         "confidence": 0.8,
         "status": "SETTLED",
         "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "energy (50, 1005)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "vehicle (30, 1006)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
       }
     }
   ],

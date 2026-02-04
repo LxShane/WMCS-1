@@ -1,0 +1,63 @@
+{
+  "name": "Liquid Lens System",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Actuator",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Membrane",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A lens system that utilizes liquid to focus light.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Actuators deform a membrane containing liquid, changing the lens's focal length.",
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Focuses light"
+      ],
+      "capabilities": [
+        "Adjustable focal length"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "EP2034338A1",
+    "citations": []
+  }
+}

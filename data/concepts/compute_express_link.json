@@ -8,7 +8,7 @@
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "interconnect",
+      "object": "interconnect (50, 7890)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -204,7 +204,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "CXL.io",
+      "object": "CXL.io (50, 1235)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -218,7 +218,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "CXL.mem",
+      "object": "CXL.mem (50, 1236)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -232,7 +232,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "CXL.cache",
+      "object": "CXL.cache (50, 1237)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -270,6 +270,24 @@
         "confidence": 0.9,
         "status": "SETTLED",
         "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "computer (30, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "interconnect (50, 7890)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
       }
     }
   ],

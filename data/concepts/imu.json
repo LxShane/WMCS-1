@@ -1,0 +1,103 @@
+{
+  "name": "IMU",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Sensor Data Fusion",
+      "temporal": {
+        "valid_from": "2024",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Inertial Measurement Unit",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Inertial Measurement Unit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Sensor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "SLAM",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An electronic device that measures and reports a body's specific force, angular rate, and sometimes the magnetic field surrounding the body.",
+    "common_uses": [
+      "Navigation",
+      "Motion Tracking"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "IMUs use accelerometers and gyroscopes to measure linear and angular motion.",
+    "origin": "Developed in the mid-20th century."
+  },
+  "instance_layer": {
+    "examples": [
+      "MEMS IMU",
+      "Fiber Optic Gyro IMU"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "papers.ssrn.com",
+    "citations": [
+      "https://papers.ssrn.com/sol3/Delivery.cfm/5396535.pdf?abstractid=5396535"
+    ]
+  }
+}

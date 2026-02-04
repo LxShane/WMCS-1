@@ -1,0 +1,118 @@
+{
+  "name": "Air Handling Unit (AHU)",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Device in an air conditioner that distributes filtered air from the return duct over the coil/heat exchanger.",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Supplying conditioned air to ductwork",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Thermally insulated sheet-metal barrier",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Device in an air conditioner that distributes filtered air.",
+    "common_uses": [
+      "Air conditioning",
+      "Ventilation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "AHU takes in air, filters it, conditions it (heats or cools), and distributes it through ductwork.",
+    "origin": "Developed to provide centralized air conditioning and ventilation in buildings."
+  },
+  "instance_layer": {
+    "examples": [
+      "AHU in a commercial office building"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Air conditioner"
+      ],
+      "capabilities": [
+        "Air filtering",
+        "Air distribution",
+        "Air conditioning"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic",
+        "Box-shaped"
+      ],
+      "shape": [
+        "Rectangular"
+      ],
+      "composition": [
+        "Metal",
+        "Insulation",
+        "Filters"
+      ],
+      "parts": [
+        "Filter",
+        "Coil",
+        "Fan",
+        "Ductwork connection"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Centralized location in building",
+      "coordinates": [],
+      "connected_to": [
+        "Return duct",
+        "Supply duct"
+      ],
+      "contained_in": "HVAC system"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Aggregated from multiple sources",
+    "citations": [
+      "US7059400B2",
+      "US7177776B2",
+      "https://innotech.com/Support/HVACGlossary.aspx"
+    ]
+  }
+}

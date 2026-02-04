@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 30,
-    "item": 1235
+    "item": 1003
   },
   "claims": [
     {
@@ -47,18 +47,59 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Access point",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Primary or secondary windings",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Adjust secondary voltage of power transformer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Access points on transformer windings.",
+    "definition": "Access points along transformer windings used for selecting different turn ratios.",
     "common_uses": [
-      "Adjusting voltage",
-      "Changing the number of turns in the circuit"
+      "Voltage adjustment"
     ]
   },
   "deep_layer": {
-    "mechanism": "Taps allow modification of the connection points on the transformer winding.",
-    "origin": "Transformer design"
+    "mechanism": "Provides connection points for changing the number of active turns in the winding.",
+    "origin": "Part of the tap changer mechanism."
   },
   "instance_layer": {
     "examples": []
@@ -69,18 +110,22 @@
         "Connection Point"
       ],
       "capabilities": [
-        "Voltage adjustment"
+        "Selecting turn ratios"
       ]
     },
-    "STRUCTURAL": {},
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": []
+    },
     "SPATIAL": {}
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
       "https://en.wikipedia.org/wiki/Tap_changer",
-      "https://www.monolithicpower.com/en/learning/mpscholar/ac-power/transformers/transformer-taps-and-tap-changers",
-      "https://www.maddox.com/resources/articles/transformer-tap-changers-and-voltage-adjustment-taps"
+      "https://voltage-disturbance.com/power-engineering/transformer-tap-changer-how-to-select-transformer-taps/"
     ]
   }
 }

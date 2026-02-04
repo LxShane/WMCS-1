@@ -1,0 +1,60 @@
+{
+  "name": "GPS-aided INS",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Inertial Navigation System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "GPS",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An inertial navigation system that uses GPS to improve accuracy.",
+    "common_uses": [
+      "Navigation",
+      "Guidance",
+      "Control"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "GPS provides absolute position updates to correct for drift in the inertial sensors.",
+    "origin": "Developed to improve the accuracy of INS."
+  },
+  "instance_layer": {
+    "examples": [
+      "Used in unmanned aerial vehicles."
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Instruments & Sensors for UAVs & Unmanned Vehicles",
+    "citations": []
+  }
+}

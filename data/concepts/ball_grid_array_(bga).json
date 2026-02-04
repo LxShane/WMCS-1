@@ -1,0 +1,129 @@
+{
+  "name": "Ball Grid Array (BGA)",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Electronic component package",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Ball terminal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Solder ball",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Routing electrical connections",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Handling hundreds or thousands of connections",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A Ball Grid Array (BGA) is a type of surface-mount packaging used for integrated circuits.",
+    "common_uses": [
+      "Interconnecting integrated circuits to printed circuit boards (PCBs)"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Solder balls on the BGA melt during assembly, creating electrical connections with copper pads on the PCB.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": [
+      "BGA packages used in computer processors",
+      "BGA packages used in mobile phone chipsets"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Array of solder balls",
+        "Compact"
+      ],
+      "shape": [
+        "Rectangular",
+        "Square"
+      ],
+      "composition": [],
+      "parts": [
+        "Solder balls"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Mounted on PCB",
+      "coordinates": [],
+      "connected_to": [
+        "PCB copper pads"
+      ],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Web Sources",
+    "citations": [
+      "https://www.andwinpcb.com/efficient-bga-signal-routing-techniques-in-pcb-design/",
+      "https://www.globalwellpcba.com/bga-routing-in-pcb-design/",
+      "https://resources.pcb.cadence.com/blog/2019-tips-for-routing-bga-packages-that-won-t-leave-you-puzzled"
+    ]
+  }
+}

@@ -1,9 +1,9 @@
 {
   "name": "I2C",
-  "type": "INANIMATE_OBJECT",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 20,
-    "item": 1234
+    "group": 50,
+    "item": 4321
   },
   "claims": [
     {
@@ -33,26 +33,64 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "communication protocol",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "synchronous serial communication protocol",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USES",
+      "object": "two-wire interface",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A communication protocol and bus system.",
-    "common_uses": [
-      "microfluidic control",
-      "sensor platform"
-    ]
+    "definition": "A synchronous serial communication protocol that uses a two-wire interface for communication between devices.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Serial communication with addressing.",
-    "origin": "Electronics Industry"
+    "mechanism": null,
+    "origin": null
   },
-  "instance_layer": [],
+  "instance_layer": {},
   "facets": {},
   "epistemic_metadata": {
-    "source": "Multiple Web Sources",
+    "source": "Set Automatically",
     "citations": [
-      "https://www.sciencedirect.com/science/article/am/pii/S2468067221000584",
-      "https://itp.nyu.edu/physcomp/category/components/"
+      "https://www.tencentcloud.com/techpedia/104359"
     ]
   }
 }

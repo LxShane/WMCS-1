@@ -2,7 +2,7 @@
   "name": "Data Transfer",
   "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 50,
+    "group": 51,
     "item": 1003
   },
   "claims": [
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "PERFORMED_BY",
-      "object": "USB",
+      "object": "USB (30, 2222)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -50,7 +50,7 @@
     },
     {
       "predicate": "PERFORMED_BY",
-      "object": "CPU",
+      "object": "CPU (20, 1238)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -61,32 +61,75 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "process (50, 1234)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "the process of transmitting data between devices",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "data (50, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "process (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Process of moving data between memory locations.",
+    "definition": "The process of moving data from one location to another.",
     "common_uses": [
-      "Reading data",
-      "Writing data"
+      "Copying files",
+      "Streaming video"
     ]
   },
   "deep_layer": {
-    "mechanism": "Involves requesting data and receiving data at specific addresses.",
-    "origin": "Computer architecture"
+    "mechanism": "Involves encoding data into electrical or optical signals and transmitting them over a communication channel.",
+    "origin": "A fundamental concept in computer science."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Copying a file from a USB drive to a computer"
+    ]
   },
-  "facets": {
-    "PROCESS_DATA": {
-      "roles": [],
-      "capabilities": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Chapter 5 Memory Hierarchy",
+    "source": "Set Automatically",
     "citations": [
-      "http://eceweb.ucsd.edu/~gert/ece30/CN5.pdf"
+      "https://www.bosstab.com/sg/resources/power-guides/usb-types"
     ]
   }
 }

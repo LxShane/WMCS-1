@@ -1,0 +1,60 @@
+{
+  "name": "Tube Radius",
+  "type": "MATHEMATICAL_OBJECT",
+  "id": {
+    "group": 41,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Half of the tube diameter",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Calculating various geometric properties",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The distance from the center of the tube to any point on its outer or inner surface.",
+    "common_uses": [
+      "Geometric calculations",
+      "Stress analysis"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "A fundamental dimension used in calculations involving circular objects.",
+    "origin": "Directly related to the diameter of the tube."
+  },
+  "instance_layer": {
+    "examples": [
+      "0.5 inch for a 1-inch nominal diameter steel tube"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "ASTM Steel Tube Pipe Section Properties - Engineers Edge"
+    ]
+  }
+}

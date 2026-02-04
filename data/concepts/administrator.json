@@ -1,0 +1,64 @@
+{
+  "name": "Administrator",
+  "type": "SOCIAL_CONSTRUCT",
+  "id": {
+    "group": 60,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Person responsible for managing a system or network",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "network (50, 1236)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A person responsible for managing a system or network.",
+    "common_uses": [
+      "Managing user accounts",
+      "Maintaining system security"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Oversees system functions, configures resources, and ensures optimal performance.",
+    "origin": "From organizational hierarchies."
+  },
+  "instance_layer": {
+    "examples": [
+      "Database administrator"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "System manager"
+      ],
+      "capabilities": [
+        "System configuration",
+        "Security maintenance"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "US11695661B1",
+    "citations": []
+  }
+}

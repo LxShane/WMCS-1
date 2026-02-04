@@ -2,8 +2,8 @@
   "name": "MinC",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 22,
-    "item": 1004
+    "group": 20,
+    "item": 6789
   },
   "claims": [
     {
@@ -19,36 +19,78 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "positioning main division protein FtsZ",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PREVENTS",
+      "object": "formation of FtsZ polymers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "FtsZ inhibitor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Inhibitor of FtsZ polymerization.",
+    "definition": "A protein involved in the Min system that inhibits FtsZ polymerization.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Inhibits the formation of the Z-ring by preventing FtsZ polymerization.",
+    "mechanism": null,
     "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
     "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+      "location": "Cell membrane, Cytoplasm",
+      "connected_to": [
+        "MinD",
+        "MinE",
+        "Cell membrane lipids"
+      ],
+      "coordinates": []
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": []
-  }
+    "citations": [
+      "https://en.wikipedia.org/wiki/Min_System",
+      "https://www.researchgate.net/publication/359975106_How_Do_MinC-D_Copolymers_Act_on_Z-Ring_Localization_Regulation_A_New_Model_of_Bacillus_subtilis_Min_System"
+    ]
+  },
+  "autocorrected": true
 }

@@ -1,0 +1,89 @@
+{
+  "name": "PCB Stack-up",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 21,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "DETERMINES",
+      "object": "power and ground access",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DETERMINES",
+      "object": "available space for routing signals",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The arrangement of conductive and insulating layers in a printed circuit board (PCB).",
+    "common_uses": [
+      "Defining power and ground distribution",
+      "Creating signal routing paths"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Affects signal integrity, impedance control, and electromagnetic compatibility (EMC) in PCB designs.",
+    "origin": "Evolved from early PCB manufacturing techniques to optimize performance and manufacturability."
+  },
+  "instance_layer": {
+    "examples": [
+      "4-layer PCB stack-up",
+      "6-layer PCB stack-up"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Signal Routing",
+        "Power Distribution"
+      ],
+      "capabilities": [
+        "Provides conductive paths for signals",
+        "Distributes power and ground",
+        "Controls impedance"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Layered",
+        "Flat"
+      ],
+      "shape": [
+        "Rectangular"
+      ],
+      "composition": [
+        "Copper",
+        "Dielectric material (e.g., FR-4)"
+      ],
+      "parts": [
+        "Copper layers",
+        "Insulating layers"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "RF Coaxial Connectors - RF Connectors, Coaxial PCB Connector PCB-Transmission Line Design Guide, RF PCB Design Guidelines for Digital Engineers: Layout and ...",
+    "citations": []
+  }
+}

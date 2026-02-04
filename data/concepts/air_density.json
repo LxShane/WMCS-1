@@ -1,14 +1,14 @@
 {
-  "name": "Air Density",
-  "type": "PHYSICAL",
+  "name": "Air density",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 30,
-    "item": 9012
+    "group": 50,
+    "item": 1004
   },
   "claims": [
     {
       "predicate": "AFFECTED_BY",
-      "object": "Pressure",
+      "object": "Pressure (20, 8765)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "AFFECTED_BY",
-      "object": "Temperature",
+      "object": "Temperature (20, 5432)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -75,14 +75,42 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "AFFECTED_BY",
+      "object": "Presence of water vapor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PROPERTY",
+      "object": "Decreased by humidity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The mass of air per unit volume.",
+    "definition": "Mass per unit volume of air.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Affects aerodynamic forces.",
+    "mechanism": "Related to the molecular weight and concentration of air components.",
     "origin": null
   },
   "instance_layer": {
@@ -90,7 +118,7 @@
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "https://journals.biologists.com/jeb/article/212/22/3633/19050/Adjustments-of-wingbeat-frequency-and-air-speed-to",
+    "source": "density of air",
     "citations": []
   }
 }

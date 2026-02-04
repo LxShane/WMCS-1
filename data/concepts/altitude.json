@@ -1,0 +1,72 @@
+{
+  "name": "Altitude",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "CAUSES",
+      "object": "Decrease in gravity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Distance from Earth's center",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "level (20, 9876)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The height of an object or point in relation to sea level or ground level.",
+    "common_uses": [
+      "Aviation",
+      "Geography"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Increased distance reduces gravitational force.",
+    "origin": "Measurement relative to a reference point."
+  },
+  "instance_layer": [],
+  "facets": {
+    "ABSTRACT_DATA": {
+      "domain": "Physics",
+      "related_concepts": [
+        "Height",
+        "Distance"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Gravity of Earth - Wikipedia, Does Gravity Change With Altitude? - Biology Insights",
+    "citations": []
+  }
+}

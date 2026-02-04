@@ -1,0 +1,104 @@
+{
+  "name": "Acoustic Modality Sensor",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 21,
+    "item": 1008
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Sensor Modality",
+      "temporal": {
+        "valid_from": "2015",
+        "valid_until": "PRESENT",
+        "event": "Publication of review"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "EXAMPLE_OF",
+      "object": "Ultrasonic Sensor",
+      "temporal": {
+        "valid_from": "2015",
+        "valid_until": "PRESENT",
+        "event": "Publication of review"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "EXAMPLE_OF",
+      "object": "Sonar Sensor",
+      "temporal": {
+        "valid_from": "2015",
+        "valid_until": "PRESENT",
+        "event": "Publication of review"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "sensor (20, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A type of sensor that uses acoustic waves to measure distances or detect objects.",
+    "common_uses": [
+      "robotics",
+      "navigation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Acoustic sensors emit sound waves and measure the time it takes for the waves to return.",
+    "origin": "Derived from sonar technology."
+  },
+  "instance_layer": {
+    "examples": [
+      "Ultrasonic rangefinder",
+      "Sonar depth sensor"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.sciencedirect.com/science/article/pii/S1877050915038375"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Sensor"
+      ],
+      "capabilities": [
+        "Range Finding",
+        "Object Detection"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Transducer",
+        "Housing"
+      ],
+      "shape": [
+        "Cylindrical"
+      ]
+    }
+  }
+}

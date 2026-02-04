@@ -1,0 +1,83 @@
+{
+  "name": "LINAC 3 linear accelerator",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "linear accelerator",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "generating low energy particles",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "providing heavy ions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A linear accelerator that generates low energy particles and provides heavy ions.",
+    "common_uses": [
+      "generating particles",
+      "providing heavy ions"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Uses a linear arrangement of accelerating structures.",
+    "origin": "CERN"
+  },
+  "instance_layer": [
+    "LINAC 3 at CERN"
+  ],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Linear Accelerator"
+      ],
+      "capabilities": [
+        "Generates low energy particles",
+        "Provides heavy ions"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "CERN - Wikipedia",
+    "citations": [
+      "https://en.wikipedia.org/wiki/CERN"
+    ]
+  }
+}

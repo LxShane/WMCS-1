@@ -1,0 +1,130 @@
+{
+  "name": "Application-Specific Integrated Circuit",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Integrated Circuit (30, 1238)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A type of integrated circuit designed to perform a specific task or function.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "enhancing performance and efficiency in embedded systems",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "customized for a particular application",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "circuit (30, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An Application-Specific Integrated Circuit (ASIC) is a type of integrated circuit designed for a specific use.",
+    "common_uses": [
+      "enhancing performance in embedded systems",
+      "increasing efficiency in embedded systems"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "ASICs are designed to optimize a specific function, improving speed and reducing power consumption compared to general-purpose ICs.",
+    "origin": "Originated as a way to improve the performance of specific electronic systems by creating custom ICs."
+  },
+  "instance_layer": {
+    "examples": [
+      "An ASIC designed for a mobile phone's graphics processing.",
+      "An ASIC designed for network packet processing."
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Signal Processing",
+        "Data Processing",
+        "Control"
+      ],
+      "capabilities": [
+        "High-speed computation",
+        "Low-power operation",
+        "Customized logic implementation"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Small",
+        "Rectangular",
+        "Metallic"
+      ],
+      "shape": [
+        "Flat",
+        "Planar"
+      ],
+      "composition": [
+        "Silicon",
+        "Metal",
+        "Insulator"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "ASIC Technology | Different Types, Design Flow, Applications; Designing Application-Specific Integrated Circuits - Utmel; ASIC Design Flow - ChipVerify",
+    "citations": [
+      "https://www.electronicshub.org/introduction-to-asic-technology/",
+      "https://www.utmel.com/blog/categories/integrated+circuit/designing-application-specific-integrated-circuits",
+      "https://www.chipverify.com/verilog/asic-soc-chip-design-flow"
+    ]
+  }
+}

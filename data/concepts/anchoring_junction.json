@@ -1,14 +1,14 @@
 {
-  "name": "Anchoring Junction",
+  "name": "Anchoring junction",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 30,
-    "item": 1003
+    "group": 21,
+    "item": 1006
   },
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "Structure",
+      "object": "Structure (50, 4567)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -117,27 +117,96 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Transmembrane adhesion protein",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Intracellular anchor protein",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Cell-cell contact site",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Cell-ECM contact site",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cell (21, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "matrix (29, 2001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Anchoring junctions are important structures that maintain the physical integrity and stability of tissues.",
-    "common_uses": [
-      "Connect cells",
-      "Provide mechanical strength"
-    ]
+    "definition": "Cell junctions that mechanically attach cells to their neighbors or to the extracellular matrix.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Anchoring junctions are formed by transmembrane proteins that link the cytoskeleton of adjacent cells or cells to the extracellular matrix.",
-    "origin": "Anchoring junctions develop during tissue formation to provide structural support."
+    "mechanism": "Anchoring junctions provide structural support and stability to tissues.",
+    "origin": "Various transmembrane proteins."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://biologyinsights.com/what-are-anchoring-junctions-and-how-do-they-work/"
-    ]
+    "source": "Cell junction - Wikipedia",
+    "citations": []
   }
 }

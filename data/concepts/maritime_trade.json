@@ -1,0 +1,81 @@
+{
+  "name": "Maritime Trade",
+  "type": "SOCIAL_CONSTRUCT",
+  "id": {
+    "group": 61,
+    "item": 2002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Economic Activity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Ports",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Maritime Traffic",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The exchange of goods and services between countries via sea routes.",
+    "common_uses": [
+      "International commerce",
+      "Global Supply Chains"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Maritime trade relies on ships to transport goods across oceans and seas, connecting different markets and economies.",
+    "origin": "Maritime trade has been a significant part of human history since ancient times."
+  },
+  "instance_layer": [
+    "Shipping goods from China to the US."
+  ],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Facilitates exchange",
+        "Drives economic growth"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "Maritime connectivity, transport infrastructure expansion and economic",
+      "Ports' criticality in international trade and global supply-chains"
+    ]
+  }
+}

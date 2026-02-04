@@ -1,0 +1,61 @@
+{
+  "name": "Magnetic Divertor",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "device involving creating a separatrix-bounded magnetic topology using special magnetic coils",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "diverting particles and heat diffusing outward from the main plasma",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A device that uses magnetic fields to divert particles and heat away from the main plasma in a fusion reactor.",
+    "common_uses": [
+      "Fusion reactors",
+      "Plasma research"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Special magnetic coils create a separatrix-bounded magnetic topology. Particles and heat diffusing outward from the main plasma are diverted and follow the 'open' magnetic field lines to strike dedicated plasma-facing components.",
+    "origin": "Developed for use in fusion reactors to manage heat and particle flux."
+  },
+  "instance_layer": {
+    "examples": [
+      "Divertor in the European DEMO",
+      "Divertor in the EAST tokamak"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Divertor - Wikipedia",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Divertor"
+    ]
+  }
+}

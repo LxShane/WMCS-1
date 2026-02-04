@@ -1,0 +1,104 @@
+{
+  "name": "PCI Configuration Space",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "a standardized memory-mapped address space through which PCI devices expose their configuration registers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "detect and configure PCI devices",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "memory region",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "configuration registers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "ACCESSIBLE_VIA",
+      "object": "host bridge",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.85,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A standardized memory-mapped address space that allows software to discover, identify, and configure PCI devices.",
+    "common_uses": [
+      "Detecting PCI devices",
+      "Configuring PCI devices",
+      "Accessing device-specific configuration space"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Configuration space registers are mapped to memory locations, allowing software to read and write configuration data. The host bridge provides access to these registers.",
+    "origin": "Defined by the PCI specification to provide a standardized way to configure PCI devices."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Multiple Web Sources",
+    "citations": [
+      "PCI configuration space - Wikipedia",
+      "PCI Configuration Space | pciutils/pciutils | DeepWiki",
+      "PCI - OSDev Wiki"
+    ]
+  }
+}

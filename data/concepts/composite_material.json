@@ -19,25 +19,114 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Material produced from two or more constituent materials",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Material (30, 1235)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Two or more constituent materials",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Forming an overall structure",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Constituent Materials",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Material made of two or more constituent materials with significantly different physical or chemical properties",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "material (30, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A material made from two or more constituent materials with significantly different physical or chemical properties.",
+    "definition": "A material made from two or more constituent materials with significantly different physical or chemical properties that, when combined, produce a material with characteristics different from the individual components.",
     "common_uses": [
-      "High-strength structural components",
-      "Lightweight applications"
+      "Construction",
+      "Aerospace"
     ]
   },
   "deep_layer": {
-    "mechanism": "Combining advantageous properties of different materials.",
-    "origin": "Engineered combination of materials."
+    "mechanism": "Components work together to achieve desirable structural or functional properties.",
+    "origin": "Developed to combine the best properties of different materials."
   },
   "instance_layer": {
-    "examples": [
-      "Carbon fiber reinforced polymer",
-      "Fiberglass",
-      "Concrete"
-    ]
+    "examples": []
   },
   "facets": {
     "STRUCTURAL": {
@@ -48,18 +137,16 @@
       "relations": []
     },
     "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    },
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
+      "location": "Interfacial region between constituent materials",
+      "connected_to": [
+        "Constituent materials (e.g., matrix, reinforcement)"
+      ],
+      "coordinates": []
     }
   },
   "epistemic_metadata": {
-    "source": "See sources",
+    "source": "https://www.sciencedirect.com/science/article/pii/S2666682024001208",
     "citations": []
-  }
+  },
+  "autocorrected": true
 }

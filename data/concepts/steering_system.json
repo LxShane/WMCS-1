@@ -1,0 +1,97 @@
+{
+  "name": "Steering System",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Vehicle Control",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Components",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A system of components that translates a driver's input into vehicle control.",
+    "common_uses": [
+      "Controlling direction of a vehicle"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Driver input is mechanically or hydraulically translated into steering motion.",
+    "origin": "Developed alongside the automobile."
+  },
+  "instance_layer": {
+    "examples": [
+      "Rack-and-pinion steering system",
+      "Center link steering system"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Vehicle Control"
+      ],
+      "capabilities": [
+        "Steering"
+      ]
+    },
+    "STRUCTURAL": {
+      "parts": [
+        "Steering Wheel",
+        "Steering Box",
+        "Pitman Arm",
+        "Idler Arm",
+        "Center Link",
+        "Axle",
+        "Rack and Pinion"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Web Sources",
+    "citations": [
+      "Quiz 4 - Steering System Theory Flashcards | Quizlet",
+      "How Automotive Steering System Works: Components and Types",
+      "Steering System Parts Diagram and Their Functions"
+    ]
+  }
+}

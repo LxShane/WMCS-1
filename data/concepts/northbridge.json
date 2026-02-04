@@ -2,8 +2,8 @@
   "name": "Northbridge",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 30,
-    "item": 3456
+    "group": 20,
+    "item": 1235
   },
   "claims": [
     {
@@ -89,34 +89,138 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CONNECTED_TO",
+      "object": "CPU chipset",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Chipset Architecture",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Motherboard",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Processing high bandwidth data transfer between the CPU, memory, and graphics",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A chipset that handles communications between the CPU, RAM, and PCI Express/AGP video cards.",
+    "definition": "The North Bridge is responsible for processing high bandwidth data transfer between the CPU, memory and graphics",
     "common_uses": [
-      "Facilitating high-speed data transfer",
-      "Managing memory access"
+      "Data processing",
+      "Managing data flow"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The Northbridge facilitates high bandwidth data transfer between various components of a computer system.",
+    "origin": "Part of the chipset architecture in personal computers."
+  },
+  "instance_layer": {
+    "examples": [
+      "Specific northbridge models from different manufacturers"
     ]
   },
   "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Data processor"
+      ],
+      "capabilities": [
+        "Data transfer",
+        "CPU communication"
+      ]
+    },
     "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
+      "visual_features": [
+        "Electronic component"
+      ],
+      "shape": [
+        "Rectangular chip"
+      ],
+      "composition": [
+        "Silicon",
+        "Metal"
+      ],
+      "parts": [
+        "Integrated circuits"
+      ],
+      "relations": [
+        "Connected to the southbridge"
+      ]
     },
     "SPATIAL": {
-      "location": null,
+      "location": "On the motherboard",
       "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+      "connected_to": [
+        "Southbridge",
+        "CPU",
+        "Memory",
+        "Graphics"
+      ],
+      "contained_in": "Computer case"
     }
   },
   "epistemic_metadata": {
-    "source": "https://en.wikipedia.org/wiki/Northbridge_(computing)",
+    "source": "Multiple Web Sources",
     "citations": [
-      "Wikipedia"
+      "GeeksforGeeks"
     ]
   }
 }

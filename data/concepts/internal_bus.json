@@ -1,0 +1,157 @@
+{
+  "name": "Internal Bus",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 24,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "System Bus",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "exclusive link",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Central Processing Unit (CPU)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "integrated cache memory",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "facilitating rapid access to instructions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "facilitating rapid access to data",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "immediate computation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The internal bus is the exclusive link between the CPU and its various levels of integrated cache memory, facilitating rapid access to instructions and data.",
+    "common_uses": [
+      "Rapid Data Access",
+      "Instruction Retrieval"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The internal bus is a high-speed connection optimized for data and instruction transfer between the CPU and cache memory, enabling faster processing speeds.",
+    "origin": "Integrated directly into the CPU architecture for high-speed access."
+  },
+  "instance_layer": {
+    "examples": [
+      "Front-side bus",
+      "Back-side bus"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Very thin wires",
+        "Integrated into CPU die"
+      ],
+      "shape": [
+        "Microscopic traces",
+        "Planar"
+      ],
+      "composition": [
+        "Silicon",
+        "Copper"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Data Pathway",
+        "Instruction Delivery"
+      ],
+      "capabilities": [
+        "High-speed transfer",
+        "Low latency"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "How the Internal Bus Moves Data Inside a Computer",
+    "citations": [
+      "https://engineerfix.com/how-the-internal-bus-moves-data-inside-a-computer/"
+    ]
+  }
+}

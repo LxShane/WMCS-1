@@ -2,13 +2,13 @@
   "name": "Atmosphere of Earth",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 38,
+    "group": 25,
     "item": 1001
   },
   "claims": [
     {
       "predicate": "HAS_PART",
-      "object": "Oxygen",
+      "object": "Oxygen (20, 1002)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "Atmosphere",
+      "object": "Atmosphere (21, 1122)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -33,6 +33,48 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Troposphere",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Stratosphere",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Mesosphere",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
@@ -40,13 +82,26 @@
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Complex interactions between biological, geological and chemical processes.",
-    "origin": "Formed through volcanic outgassing and biological activity."
+    "mechanism": "Complex interplay of physical and chemical processes.",
+    "origin": "Formed from volcanic outgassing and biological activity."
   },
-  "instance_layer": [],
-  "facets": {},
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "SPATIAL": {
+      "location": "Surrounding",
+      "connected_to": [
+        "Earth's Surface",
+        "Magnetosphere",
+        "Exosphere"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "Atmosphere of Earth - Wikipedia",
+    "source": "Atmosphere of Earth - Wikipedia, Earth:Atmosphere of Earth - HandWiki",
     "citations": []
-  }
+  },
+  "autocorrected": true
 }

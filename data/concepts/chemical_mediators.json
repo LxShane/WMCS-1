@@ -1,0 +1,58 @@
+{
+  "name": "Chemical Mediators",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 29,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "CAUSES",
+      "object": "Affect BBB permeability",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "blood (31, 1238)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "brain (20, 3456)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Chemicals influencing the blood-brain barrier.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Interact with BBB components to modulate permeability.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "ScienceDirect",
+    "citations": []
+  }
+}

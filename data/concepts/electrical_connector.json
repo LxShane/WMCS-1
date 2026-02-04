@@ -2,8 +2,8 @@
   "name": "Electrical Connector",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 23,
-    "item": 1001
+    "group": 27,
+    "item": 1002
   },
   "claims": [
     {
@@ -383,40 +383,182 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Connector",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Connecting electrical circuits",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Device for electrical contact",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Metal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Connector",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Optimizing Connectivity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Power Transmission",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Signal Transmission",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Data Transmission",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A device that creates a link between electrical and electronic modules.",
+    "definition": "A device used to connect electrical circuits or components.",
     "common_uses": [
-      "Connecting electrical components",
-      "Connecting electronic components"
+      "Joining wires",
+      "Connecting cables to devices"
     ]
   },
   "deep_layer": {
-    "mechanism": "Electrical connectors allow electrical current to flow between two points.",
-    "origin": "Evolved from early forms of electrical wiring and connections."
+    "mechanism": "Provides a secure and reliable physical connection between electrical components, ensuring signal or power transfer.",
+    "origin": "Developed to facilitate easy and reliable electrical connections in various applications."
   },
   "instance_layer": {
     "examples": [
-      "Automotive connector",
-      "Printed circuit board connector"
+      "USB connectors",
+      "Power plugs"
     ]
   },
   "facets": {
     "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
+      "visual_features": [
+        "Various shapes and sizes",
+        "Often metallic or plastic"
+      ],
+      "shape": [
+        "Rectangular",
+        "Circular",
+        "Other custom shapes"
+      ],
+      "composition": [
+        "Metal contacts",
+        "Plastic housing"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Connection Point"
+      ],
+      "capabilities": [
+        "Signal Transfer",
+        "Power Transfer"
+      ]
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Connectors: Wire Connectors and Electrical Connectors | TE Connectivity, Fundamentals of Connectors: What to Know About Power, Signal, and Data ...",
     "citations": [
-      "https://www.sciencedirect.com/science/article/pii/S1350630725001682",
-      "https://ieeexplore.ieee.org/abstract/document/8801871",
-      "https://hubbellcdn.com/ohwassets/HCE/burndy/PDFs/connectortheory_20180411.pdf"
+      "https://www.te.com/en/products/connectors.html",
+      "https://www.controlglobal.com/control/article/55294741/fundamentals-of-connectors-a-comprehensive-guide"
     ]
   }
 }

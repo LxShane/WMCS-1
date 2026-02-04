@@ -1,9 +1,9 @@
 {
-  "name": "Apical-basal polarity",
+  "name": "Apical-basal Polarity",
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1237
+    "item": 1006
   },
   "claims": [
     {
@@ -61,26 +61,50 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_ESSENTIAL_FOR",
+      "object": "epithelial cell form",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_ESSENTIAL_FOR",
+      "object": "epithelial cell function",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The organization of epithelial cells into distinct apical and basolateral domains.",
+    "definition": "The organization of cells into distinct apical and basal domains.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Involves complex protein trafficking and membrane organization.",
-    "origin": "Established during epithelial cell differentiation."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Ingestion Engine",
-    "citations": [
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4365982/",
-      "https://www.sciencedirect.com/science/article/pii/S100184172400192X",
-      "https://www.nature.com/articles/s41580-022-00465-y"
-    ]
+    "source": "Set Automatically",
+    "citations": []
   }
 }

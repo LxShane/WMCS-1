@@ -2,7 +2,7 @@
   "name": "Superior Vena Cava",
   "type": "BODY_PART",
   "id": {
-    "group": 22,
+    "group": 25,
     "item": 1001
   },
   "claims": [
@@ -61,22 +61,143 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DRAINS_INTO",
+      "object": "Right Atrium",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RECEIVES_BLOOD_FROM",
+      "object": "Head",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RECEIVES_BLOOD_FROM",
+      "object": "Neck",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RECEIVES_BLOOD_FROM",
+      "object": "Chest",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RECEIVES_BLOOD_FROM",
+      "object": "Shoulders",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RECEIVES_BLOOD_FROM",
+      "object": "Upper Limbs",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Thorax",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A large vein that returns systemic blood to the right atrium.",
+    "definition": "A large vein that carries deoxygenated blood from the upper half of the body to the heart's right atrium.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Collects blood from the upper body and delivers it to the heart.",
-    "origin": null
+    "mechanism": "Collects deoxygenated blood from systemic circulation above the diaphragm and delivers it to the right atrium.",
+    "origin": "Develops during embryogenesis as part of the systemic venous system."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "STRUCTURAL": {},
-    "SPATIAL": {}
+    "STRUCTURAL": {
+      "visual_features": [
+        "Large vein",
+        "Muscular walls"
+      ],
+      "shape": [
+        "Cylindrical"
+      ],
+      "composition": [
+        "Connective tissue",
+        "Smooth muscle"
+      ],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Superior mediastinum",
+      "coordinates": [],
+      "connected_to": [
+        "Right atrium",
+        "Brachiocephalic veins",
+        "Azygos vein"
+      ],
+      "contained_in": "Thorax"
+    }
   },
   "epistemic_metadata": {
     "source": "Circulatory Pathways | Anatomy and Physiology II",

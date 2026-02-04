@@ -1,0 +1,80 @@
+{
+  "name": "Power Sequencer",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Performing powering-up sequence",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Performing powering-down sequence",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Components",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A device that controls the order in which components are powered up and down.",
+    "common_uses": [
+      "Electronic devices",
+      "Computer systems"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The sequencer activates and deactivates power to components in a predetermined order to ensure stability.",
+    "origin": "Electronic engineering"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Controller"
+      ],
+      "capabilities": [
+        "Power sequencing"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "US20070101166A1",
+    "citations": []
+  }
+}

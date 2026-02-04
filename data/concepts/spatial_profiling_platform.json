@@ -1,0 +1,57 @@
+{
+  "name": "Spatial Profiling Platform",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Generating spatial transcriptomics data",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A technology used to measure gene expression levels and their spatial location within a tissue sample.",
+    "common_uses": [
+      "Spatial gene expression analysis"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Spatial profiling platforms use various methods, such as sequencing or imaging, to map the location of mRNA molecules within a tissue sample.",
+    "origin": "Developed to map mRNA"
+  },
+  "instance_layer": {
+    "examples": [
+      "Visium",
+      "Slide-seq"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Analysis tool"
+      ],
+      "capabilities": [
+        "Spatial mapping",
+        "RNA Sequencing"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03145-y"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "name": "Ethernet media",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 2109
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Network media",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "The physical medium used for Ethernet communication",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The physical medium used for Ethernet communication, typically cables or wireless signals.",
+    "common_uses": [
+      "Transmitting data over a network",
+      "Connecting network devices"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Uses electrical or optical signals to transmit data packets.",
+    "origin": "Developed as a standard for local area networks (LANs)."
+  },
+  "instance_layer": {
+    "examples": [
+      "Cat5e cable",
+      "Fiber optic cable"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Data carrier",
+        "Network connector"
+      ],
+      "capabilities": [
+        "Signal transmission",
+        "Device connection"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "US5444856A",
+    "citations": []
+  }
+}

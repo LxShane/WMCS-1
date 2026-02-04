@@ -1,0 +1,51 @@
+{
+  "name": "Member Stiffness",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Joint Stiffness",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A measure of the resistance of a structural member to deformation under load.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Member stiffness affects the distribution of load in a bolted joint, influencing the amount of load carried by the bolts versus the clamped members.",
+    "origin": "Structural Mechanics"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Load Distributor"
+      ],
+      "capabilities": [
+        "Resistance to Deformation"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://innovationspace.ansys.com/courses/wp-content/uploads/sites/5/2022/12/Mechanics_of_Bolted_Connections.pdf"
+    ]
+  }
+}

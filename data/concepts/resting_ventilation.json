@@ -1,0 +1,55 @@
+{
+  "name": "Resting Ventilation",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 51,
+    "item": 1009
+  },
+  "claims": [
+    {
+      "predicate": "REQUIRES",
+      "object": "Diaphragm",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "External Intercostal Muscles",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The normal breathing pattern at rest.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Alternating contraction and relaxation of respiratory muscles.",
+    "origin": "Physiological process"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "The Respiratory System \u2013 The Physiology of Exercise"
+    ]
+  }
+}

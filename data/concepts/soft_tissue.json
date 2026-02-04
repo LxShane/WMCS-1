@@ -2,8 +2,8 @@
   "name": "Soft Tissue",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 7890
+    "group": 22,
+    "item": 1241
   },
   "claims": [
     {
@@ -19,24 +19,39 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Tissues that connect, support, or surround other structures and organs of the body.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Tissue that is not hardened by mineralization processes.",
-    "common_uses": []
+    "definition": "Tissues that connect, support, or surround other structures and organs of the body.",
+    "common_uses": [
+      "Medical research",
+      "Clinical treatment"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Provides structural support and cushioning for organs and other body parts.",
+    "origin": "Develops from the mesoderm germ layer during embryonic development."
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://www.synthasome.com/"
+      "Rheological properties of myometrium: experimental"
     ]
   }
 }

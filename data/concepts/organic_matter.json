@@ -1,9 +1,9 @@
 {
   "name": "Organic Matter",
-  "type": "PHYSICAL",
+  "type": "INANIMATE_OBJECT",
   "id": {
     "group": 20,
-    "item": 1006
+    "item": 1004
   },
   "claims": [
     {
@@ -33,28 +33,36 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Carbon",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
     "definition": "Matter that has come from a recently living organism.",
-    "common_uses": [
-      "Fertilizer",
-      "Fuel"
-    ]
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Decomposition process.",
-    "origin": "Remains of organisms."
+    "mechanism": "Carbon compounds broken down by microbial processes",
+    "origin": null
   },
-  "instance_layer": [
-    "Dead Leaves",
-    "Animal Waste"
-  ],
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {},
   "epistemic_metadata": {
-    "source": "PMC",
-    "citations": [
-      "PMC9298831"
-    ]
+    "source": "Quantifying the degradation of organic matter in marine sediments: A review and synthesis - ScienceDirect",
+    "citations": []
   }
 }

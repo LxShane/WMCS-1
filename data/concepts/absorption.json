@@ -1,0 +1,87 @@
+{
+  "name": "Absorption",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 30,
+    "item": 9013
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Gastrointestinal Tract (20, 5678)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Attenuating electromagnetic waves",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "energy (50, 1005)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "process (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The process of converting electromagnetic energy into another form of energy.",
+    "common_uses": [
+      "Shielding",
+      "Heating"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Electromagnetic energy converted to heat.",
+    "origin": "A fundamental property of wave propagation."
+  },
+  "instance_layer": {
+    "examples": [
+      "Absorption of microwaves by water",
+      "Absorption of radio waves by a resistor"
+    ]
+  },
+  "facets": {
+    "SPATIAL": {
+      "location": "Cellular, Tissue, Organ",
+      "connected_to": [],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "PDF 1 Electromagnetic Interference and Shielding - Wiley-VCH",
+    "citations": [
+      "PDF 1 Electromagnetic Interference and Shielding - Wiley-VCH"
+    ]
+  },
+  "autocorrected": true
+}

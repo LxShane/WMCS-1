@@ -2,8 +2,8 @@
   "name": "Interconnect",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 1234
+    "group": 22,
+    "item": 1001
   },
   "claims": [
     {
@@ -187,68 +187,214 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A structure or mechanism that facilitates electrical connections between components.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Facilitating communication between components",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Line",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Via",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Bus",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Network-on-Chip",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "essential components of integrated circuits that transmit electrical signals between discrete devices",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "transmitting electrical signals between discrete devices",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "integrated circuits",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "metal",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "transmitting electrical signals through circuits",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "interconnect wires",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Interconnects are structures that connect two or more circuit elements together electrically in integrated circuits.",
+    "definition": "Interconnects are essential components of integrated circuits that transmit electrical signals between discrete devices.",
     "common_uses": [
-      "Connecting circuit elements in ICs",
-      "Routing PG/Clock/Signal paths"
+      "transmit electrical signals",
+      "create electrical connections among active devices",
+      "distribute signals and power"
     ]
   },
   "deep_layer": {
-    "mechanism": "Interconnects provide a physical pathway for electrical signals to travel between components within an integrated circuit.  Their material properties and geometry impact signal speed, power consumption, and signal integrity.",
-    "origin": "Fabricated as part of the integrated circuit manufacturing process."
+    "mechanism": "Metal interconnects use the conductive properties of metals to transmit electrical signals through semiconductor circuits.",
+    "origin": "Manufactured during the BEOL processing."
   },
   "instance_layer": {
-    "examples": [
-      "Metal layers in VLSI physical design"
-    ]
+    "examples": []
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Electrical Connector"
-      ],
-      "capabilities": [
-        "Signal routing",
-        "Power distribution"
-      ]
-    },
     "STRUCTURAL": {
-      "visual_features": [
-        "Metallic",
-        "Thin lines"
-      ],
-      "shape": [
-        "Lines",
-        "Planes"
-      ],
+      "visual_features": [],
+      "shape": [],
       "composition": [
-        "Metal (e.g., Copper, Aluminum)"
+        "metal"
       ],
       "parts": [
-        "Vias",
-        "Metal traces"
+        "wires"
       ],
       "relations": []
     },
-    "SPATIAL": {
-      "location": "Within the integrated circuit layers",
-      "coordinates": [],
-      "connected_to": [
-        "Transistors",
-        "Other circuit elements"
-      ],
-      "contained_in": "Integrated circuit"
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": [
+        "transmit electrical signals",
+        "create electrical connections",
+        "distribute signals and power"
+      ]
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": [
-      "Interconnect (integrated circuits) - Wikipedia",
-      "Lecture_13-interconnect - University of Texas at Austin",
-      "What is Metal Layers Stack in VLSI? | Role, Structure ..."
-    ]
+    "citations": []
   }
 }

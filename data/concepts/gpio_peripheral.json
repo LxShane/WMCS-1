@@ -1,0 +1,91 @@
+{
+  "name": "GPIO Peripheral",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Peripheral",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "General Purpose Input/Output",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "STM32 Microcontroller",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Being configured for various functions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "GPIO peripheral provides general purpose input/output pins that can be configured for different functionalities.",
+    "common_uses": [
+      "Interfacing with external devices",
+      "Controlling LEDs",
+      "Reading sensor data"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "GPIO pins can be configured as input or output, and their state can be read or written to control external devices.",
+    "origin": "Integrated within the STM32 microcontroller architecture."
+  },
+  "instance_layer": {
+    "examples": [
+      "Using a GPIO pin to control a motor",
+      "Reading the state of a button connected to a GPIO pin"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://wiki.st.com/stm32mpu/wiki/GPIO_internal_peripheral",
+      "https://www.compilenrun.com/docs/iot/stm32/stm32-fundamentals/stm32-pin-configuration/"
+    ]
+  }
+}

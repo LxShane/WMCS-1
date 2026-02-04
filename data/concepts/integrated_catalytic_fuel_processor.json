@@ -1,0 +1,61 @@
+{
+  "name": "Integrated Catalytic Fuel Processor",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 24,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Fuel Processor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Catalysis",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A fuel processor that uses catalysis to process fuel.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Uses catalytic reactions to convert fuel into a form usable by the fuel cell.",
+    "origin": "Engineered for fuel processing within a fuel cell."
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Fuel Processor"
+      ],
+      "capabilities": [
+        "Processing fuel via catalysis"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "JP2005532661A",
+    "citations": []
+  }
+}

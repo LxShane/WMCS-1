@@ -1,9 +1,9 @@
 {
   "name": "Current",
-  "type": "PHYSICAL",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 20,
-    "item": 1003
+    "group": 50,
+    "item": 1234
   },
   "claims": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "MEASURED_SIMULTANEOUSLY_WITH",
-      "object": "Voltage",
+      "object": "Voltage (20, 1001)",
       "temporal": {
         "valid_from": "2009",
         "valid_until": "PRESENT",
@@ -33,27 +33,166 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Principle of electricity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Flow of electrical charge",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PROPERTY",
+      "object": "Positive",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PROPERTY",
+      "object": "Negative",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "movement of electrons",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "flow of charge",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "ANALOGOUS_TO",
+      "object": "amount of water flowing through a hose",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "circuit (30, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "electrons (20, 1005)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "movement (50, 1240)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The rate of flow of electric charge past a point or region.",
+    "definition": "Movement of electrons in a circuit.",
     "common_uses": [
-      "Powering circuits",
-      "Signal transmission"
+      "Powering devices",
+      "Analyzing electrical circuits"
     ]
   },
   "deep_layer": {
-    "mechanism": "Movement of electrons or ions.",
-    "origin": "Potential difference."
+    "mechanism": "The flow of electric charge through a conductor.",
+    "origin": "Fundamental property of electric circuits."
   },
-  "instance_layer": [
-    "Amperes flowing through a wire."
-  ],
-  "facets": {},
+  "instance_layer": {
+    "examples": [
+      "Current in a wire",
+      "Current through a resistor"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Energy Transfer"
+      ],
+      "capabilities": [
+        "Carry charge",
+        "Deliver power"
+      ]
+    }
+  },
   "epistemic_metadata": {
-    "source": "Ingestion Engine",
+    "source": "Set Automatically",
     "citations": [
-      "US20100010769A1"
+      "https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law/all",
+      "https://energylast.com/technical-information/battery-voltage-current/"
     ]
   }
 }

@@ -1,9 +1,9 @@
 {
-  "name": "Interstitial Fluid",
-  "type": "LIVING_SYSTEM",
+  "name": "Interstitial fluid",
+  "type": "PHYSICAL",
   "id": {
-    "group": 30,
-    "item": 9012
+    "group": 20,
+    "item": 1002
   },
   "claims": [
     {
@@ -159,57 +159,134 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "excess plasma",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "between cells",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Capillary beds",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_IN",
+      "object": "Brain Tissue",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "fluid",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "lipoprotein",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PRODUCED_BY",
+      "object": "rhythmic alterations in arteriolar blood flow (vasomotion)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "movement of fluids",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The fluid that fills the spaces between cells in body tissues.",
-    "common_uses": [
-      "Tissue hydration",
-      "Nutrient transport"
-    ]
+    "definition": "Fluid thought to be produced as a result of rhythmic alterations in arteriolar blood flow.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Fluid is absorbed into lymph capillaries.",
-    "origin": "Derived from blood plasma."
+    "mechanism": "Rhythmic alterations in arteriolar blood flow (vasomotion) brings about movement of fluids",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Extracellular Fluid"
-      ],
-      "capabilities": [
-        "Maintaining tissue environment"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [
-        "Clear",
-        "Watery"
-      ],
-      "shape": [],
-      "composition": [
-        "Water",
-        "Ions",
-        "Nutrients",
-        "Proteins"
-      ],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "Between cells",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": "Tissue"
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "Lymph - Wikipedia"
-    ]
+    "source": "Interstitial Fluid - an overview | ScienceDirect Topics",
+    "citations": []
   }
 }

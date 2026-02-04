@@ -1,0 +1,127 @@
+{
+  "name": "Detector Geometry",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Precise description of the arrangement of area detectors with respect to the x-ray beam and interaction site",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Precise description of experimental geometry",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Reliably reconstruct tracks and LLP decay vertices",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Trace element detection in thick samples (90\u00b0 detector)",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Trace element detection in thin samples (180\u00b0 detector)",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "detectors (22, 5678)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The precise spatial arrangement of detectors in an experiment.",
+    "common_uses": [
+      "Imaging experiments",
+      "Particle detection",
+      "Trace element mapping"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Detector geometry dictates the efficiency and accuracy of detecting particles and radiation.",
+    "origin": "Arises from the specific requirements of the experiment."
+  },
+  "instance_layer": {
+    "examples": [
+      "CODEX-b detector geometry",
+      "LCLS detector geometry"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Detection",
+        "Measurement"
+      ],
+      "capabilities": [
+        "Particle tracking",
+        "Energy deposition measurement"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "Detector Geometry - LCLS Data Analysis - SLAC Confluence",
+      "Geometry Optimization for Long-lived Particle Detectors",
+      "Optimizing detector geometry for trace element mapping by X"
+    ]
+  }
+}

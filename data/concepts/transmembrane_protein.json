@@ -2,8 +2,8 @@
   "name": "Transmembrane Protein",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1005
+    "group": 20,
+    "item": 1235
   },
   "claims": [
     {
@@ -61,17 +61,47 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Protein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Cellular Membranes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A type of membrane protein that spans the entire cell membrane.",
+    "definition": "A protein located in cellular membranes.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Forms a channel or carrier system to facilitate the transport of molecules across the membrane.",
+    "mechanism": null,
     "origin": null
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {
     "STRUCTURAL": {
       "visual_features": [],
@@ -79,10 +109,20 @@
       "composition": [],
       "parts": [],
       "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    },
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
     }
   },
   "epistemic_metadata": {
-    "source": "Ion Permeability - an overview | ScienceDirect Topics",
+    "source": "Integral membrane proteins are found in all cellular membranes",
     "citations": []
   }
 }

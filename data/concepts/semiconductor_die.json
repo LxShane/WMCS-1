@@ -1,0 +1,90 @@
+{
+  "name": "Semiconductor Die",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Active Elements",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Passive Elements",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_CONTAINED_IN",
+      "object": "Package",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A small block of semiconducting material on which a functional circuit is fabricated.",
+    "common_uses": [
+      "Core component of integrated circuits",
+      "Foundation for electronic devices"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Semiconductor dies are created through photolithography and etching processes, where circuits are patterned onto a silicon wafer and then diced into individual dies.",
+    "origin": "Developed alongside the advancement of semiconductor technology in the mid-20th century."
+  },
+  "instance_layer": {
+    "examples": [
+      "CPU die",
+      "Memory die"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Small",
+        "Rectangular",
+        "Flat"
+      ],
+      "shape": [
+        "Rectangular Prism"
+      ],
+      "composition": [
+        "Silicon"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Packaging - Semiconductor Engineering"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Human Cytidine Deaminase",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Enzyme",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Intracellular space",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An enzyme that catalyzes the deamination of cytidine and deoxycytidine.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Catalyzes the hydrolytic deamination of cytidine to uridine.",
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://pubmed.ncbi.nlm.nih.gov/10497201/"
+    ]
+  }
+}

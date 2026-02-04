@@ -1,0 +1,86 @@
+{
+  "name": "Return Air System",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 2222
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Bringing air back to air handling equipment",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Air Duct System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A system that brings air back to the air handling unit.",
+    "common_uses": [
+      "HVAC systems"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Collects air from rooms and returns it for reconditioning.",
+    "origin": "Part of the closed-loop HVAC system."
+  },
+  "instance_layer": {
+    "examples": [
+      "Return air grilles",
+      "Return air plenums"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "parts": [
+        "Return air grilles",
+        "Return air ducts"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Air return"
+      ],
+      "capabilities": [
+        "Collecting air",
+        "Returning air to the AHU"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Typically located within the building's conditioned space, often near the ceiling or in walls.",
+      "connected_to": [
+        "Return air ducts",
+        "Air handling unit (AHU)",
+        "Return air plenum",
+        "Filters"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  },
+  "autocorrected": true
+}

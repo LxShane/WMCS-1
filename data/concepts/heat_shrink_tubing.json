@@ -2,8 +2,8 @@
   "name": "Heat Shrink Tubing",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 30,
-    "item": 1003
+    "group": 23,
+    "item": 1234
   },
   "claims": [
     {
@@ -33,22 +33,129 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Tubing",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Sealing",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Protection",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Heat-shrinkable",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Busbar insulation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "SUITABLE_FOR",
+      "object": "Long runs of rectangular or round busbars",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Tubing that shrinks in diameter when heated.",
-    "common_uses": []
+    "definition": "A type of tubing that shrinks in size when heated.",
+    "common_uses": [
+      "Electrical insulation",
+      "Cable bundling",
+      "Environmental protection"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "The tubing is made of a polymer that has been cross-linked and expanded. When heated, the polymer returns to its original shape, shrinking the tubing.",
+    "origin": "Developed by Raychem (TE Connectivity)."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Raychem heat shrink tubing"
+    ]
   },
-  "facets": {},
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Cylindrical",
+        "Flexible"
+      ],
+      "shape": [
+        "Hollow cylinder"
+      ],
+      "composition": [
+        "Polymer"
+      ]
+    }
+  },
   "epistemic_metadata": {
-    "source": "Raychem Tubing Products | PDF | Plastic | Chemistry - Scribd",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "HEAT SHRINK RAYCHEM PRODUCT - TE Connectivity",
+      "HEAT SHRINK MACHINES - TE's Raychem",
+      "Heat Shrink Insulation Tubing - Raychem RPG"
+    ]
   }
 }

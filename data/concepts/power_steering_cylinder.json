@@ -1,0 +1,98 @@
+{
+  "name": "Power Steering Cylinder",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 3456
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Cylinder",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Power Steering",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A hydraulic cylinder used in power steering systems to assist in steering a vehicle.",
+    "common_uses": [
+      "Assisting steering in vehicles"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Hydraulic pressure is applied to the cylinder, which then assists the driver in turning the steering wheel.",
+    "origin": "Developed alongside power steering systems."
+  },
+  "instance_layer": {
+    "examples": [
+      "Power steering cylinder in a car."
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic",
+        "Cylindrical"
+      ],
+      "shape": [
+        "Cylindrical",
+        "Rod-shaped"
+      ],
+      "composition": [
+        "Steel",
+        "Aluminum"
+      ],
+      "parts": [
+        "Piston",
+        "Hydraulic ports"
+      ],
+      "relations": []
+    },
+    "FUNCTION": {
+      "roles": [
+        "Steering Assistant"
+      ],
+      "capabilities": [
+        "Assists steering",
+        "Reduces steering effort"
+      ]
+    },
+    "SPATIAL": {
+      "location": "In vehicle",
+      "coordinates": [],
+      "connected_to": [
+        "Steering linkage",
+        "Hydraulic pump"
+      ],
+      "contained_in": "Vehicle chassis"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "See SOURCE URLs",
+    "citations": [
+      "maxpeedingrods.com"
+    ]
+  }
+}

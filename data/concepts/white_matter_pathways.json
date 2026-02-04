@@ -1,9 +1,9 @@
 {
-  "name": "White Matter Pathways",
-  "type": "PHYSICAL",
+  "name": "White matter pathways",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 4567
+    "group": 34,
+    "item": 5678
   },
   "claims": [
     {
@@ -33,39 +33,50 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Brain",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Pathways in the white matter of the brain.",
+    "definition": "Bundles of nerve fibers in the brain that connect different regions.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Axons transmit signals between neurons.",
+    "origin": "Develop during brain development."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
     "SPATIAL": {
-      "location": "Deep within the brain, surrounding the cerebral cortex and brainstem",
-      "connected_to": [
-        "Cerebral cortex",
-        "Brainstem",
-        "Thalamus",
-        "Basal ganglia",
-        "Cerebellum",
-        "Spinal cord",
-        "Other cortical regions"
-      ],
-      "coordinates": []
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": [
-      "PMC4503207"
-    ]
-  },
-  "autocorrected": true
+    "citations": []
+  }
 }

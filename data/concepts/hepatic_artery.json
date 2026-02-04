@@ -1,0 +1,128 @@
+{
+  "name": "Hepatic Artery",
+  "type": "BODY_PART",
+  "id": {
+    "group": 22,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Carry approximately 350ml/min of oxygenated blood to the liver",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Blood Vessel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Supplying oxygenated blood to the liver",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CARRIES",
+      "object": "Oxygenated blood",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CARRIES",
+      "object": "Nutrient-poor blood",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Hexagon corner of liver lobules",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A blood vessel that supplies oxygenated blood to the liver.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "The hepatic artery carries oxygenated blood from the aorta to the liver tissues.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Near liver",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Liver"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Extracted from text",
+    "citations": [
+      "https://biologyinsights.com/liver-vascular-anatomy-blood-flow-and-vessels/",
+      "https://teachmephysiology.com/cardiovascular-system/special-circulations/hepatic-circulation/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7531010/"
+    ]
+  }
+}

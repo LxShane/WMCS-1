@@ -1,9 +1,9 @@
 {
-  "name": "Cylinder block",
+  "name": "Cylinder Block",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 21,
-    "item": 4567
+    "group": 23,
+    "item": 1005
   },
   "claims": [
     {
@@ -19,40 +19,104 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "assembly matrix",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "component of the engine",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "water-cooled cylinder block",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "air-cooled cylinder block",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "engine (25, 1009)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A main structural component in an engine.",
+    "definition": "A main structural component of an engine.",
     "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": "Houses cylinders.",
-    "origin": null
-  },
-  "instance_layer": {
-    "examples": []
-  },
+  "deep_layer": {},
+  "instance_layer": {},
   "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
     "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+      "location": "Engine block's central region, surrounding the cylinders",
+      "connected_to": [
+        "Cylinder head",
+        "Crankcase",
+        "Engine mounts",
+        "Cooling system components (e.g., water pump, radiator hoses)",
+        "Lubrication system components (e.g., oil pump, oil filter)",
+        "Intake manifold",
+        "Exhaust manifold",
+        "Pistons (indirectly, via cylinder walls)",
+        "Connecting rods (indirectly, via crankshaft)",
+        "Crankshaft (indirectly, via connecting rods and pistons)",
+        "Engine sensors (e.g., temperature, pressure)"
+      ],
+      "coordinates": []
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "COOLING SYSTEM - Patent application",
     "citations": [
-      "Engine block - Wikipedia",
-      "Remanufactured Engines | Crankshaft | Cylinder Heads",
-      "Cylinder block | Tractor & Construction Plant Wiki | Fandom"
+      "https://www.patentsencyclopedia.com/app/20110023797",
+      "https://www.patentsencyclopedia.com/app/20110023799"
     ]
-  }
+  },
+  "autocorrected": true
 }

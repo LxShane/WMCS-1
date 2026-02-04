@@ -1,0 +1,69 @@
+{
+  "name": "Void",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1236
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Energetic Materials",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Defect",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Hot Spot Formation",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A small empty space within a solid material.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Collapse of voids concentrates energy, leading to localized heating.",
+    "origin": "Microstructural defect."
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://www.sciencedirect.com/science/article/pii/S0010218014003915",
+      "https://www.mdpi.com/2073-4352/16/1/27"
+    ]
+  }
+}

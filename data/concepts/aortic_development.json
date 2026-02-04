@@ -1,0 +1,80 @@
+{
+  "name": "Aortic Development",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 1006
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Complex process",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PRECEDES",
+      "object": "Formation of Aortic Arch",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "arch (30, 5678)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "process (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The process of the aortic arch forming",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Unknown",
+    "origin": "During the third week of gestation."
+  },
+  "instance_layer": [],
+  "facets": {
+    "PROCESS_DATA": {
+      "roles": [],
+      "capabilities": []
+    },
+    "FUNCTION": {},
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Radiopaedia.org",
+    "citations": [
+      "Variant anatomy of the aortic arch"
+    ]
+  }
+}

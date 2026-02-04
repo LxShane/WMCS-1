@@ -2,8 +2,8 @@
   "name": "Venous Drainage",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 1001
+    "group": 30,
+    "item": 1003
   },
   "claims": [
     {
@@ -103,44 +103,38 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Draining the deoxygenated blood and metabolic waste",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The process of removing deoxygenated blood from the brain.",
+    "definition": "The part of the systemic circulation responsible for removing deoxygenated blood and waste.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Blood flows from the brain's capillaries into cerebral and cerebellar veins, then into dural venous sinuses, and finally into the internal jugular veins.",
-    "origin": "Biological process within the brain."
+    "mechanism": "Deoxygenated blood flows from capillaries through veins back to the heart.",
+    "origin": "Evolutionary development of a closed circulatory system."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "Brain",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": "Cranial Cavity"
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Ingestion Engine",
+    "source": "Set Automatically",
     "citations": [
-      "Venous Drainage of the CNS - Cerebrum - TeachMeAnatomy",
-      "Venous Drainage of the Brain | Anatomy | Geeky Medics",
-      "Venous Drainage of the Brain \u2013 Introduction to Neuroscience"
+      "Anatomy, Shoulder and Upper Limb, Veins - StatPearls - NCBI Bookshelf"
     ]
   }
 }

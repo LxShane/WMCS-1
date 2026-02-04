@@ -1,0 +1,136 @@
+{
+  "name": "Electronic Skin",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 31,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Electronic Device",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Virtual Reality Applications",
+      "temporal": {
+        "valid_from": "2021",
+        "valid_until": "PRESENT",
+        "event": "Publication of Skin Electronics: Next\u2010Generation Device Platform for Virtual and ..."
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Augmented Reality Applications",
+      "temporal": {
+        "valid_from": "2021",
+        "valid_until": "PRESENT",
+        "event": "Publication of Skin Electronics: Next\u2010Generation Device Platform for Virtual and ..."
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Sensing",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Sensing Mechanisms",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An electronic device designed to mimic the properties of human skin.",
+    "common_uses": [
+      "Virtual Reality",
+      "Augmented Reality",
+      "Sensing"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Utilizes various sensing mechanisms (piezoresistive, ionic-electronic, capacitive) to detect and respond to stimuli.",
+    "origin": "Developed to emulate the functionalities of human skin."
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Sensor"
+      ],
+      "capabilities": [
+        "Sensing pressure",
+        "Sensing temperature",
+        "Sensing chemical changes"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Thin",
+        "Flexible",
+        "Conformal"
+      ],
+      "shape": [
+        "Sheet-like",
+        "Can be molded to surfaces"
+      ],
+      "composition": [],
+      "parts": [
+        "Sensors",
+        "Electrodes",
+        "Substrate"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "On the surface of objects or human body",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Manual",
+    "citations": [
+      "https://www.sciencedirect.com/science/article/pii/S2589965125000480",
+      "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202009602"
+    ]
+  }
+}

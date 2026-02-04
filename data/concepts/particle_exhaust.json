@@ -1,0 +1,78 @@
+{
+  "name": "Particle Exhaust",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 2222
+  },
+  "claims": [
+    {
+      "predicate": "INCLUDES",
+      "object": "fueling particles",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INCLUDES",
+      "object": "impurity particles",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "OPTIMIZED_BY",
+      "object": "full use of the divertor closure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "OPTIMIZED_BY",
+      "object": "plasma drifts in both scrape-off layer and divertor volume",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Removal of particles, including fuel and impurities, from the plasma.",
+    "common_uses": [
+      "Fusion reactors"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Progress of Divertor Heat and Particle Flux Control in EAST for ...",
+    "citations": [
+      "https://link.springer.com/article/10.1007/s10894-021-00290-9"
+    ]
+  }
+}

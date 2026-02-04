@@ -1,0 +1,181 @@
+{
+  "name": "Connectivity Issue",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1236
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "traffic cannot flow between two points",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "network outages",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "intermittent connectivity",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "slow data transfer",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "increased downtime",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAUSED_BY",
+      "object": "damaged cables",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAUSED_BY",
+      "object": "faulty connectors",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAUSED_BY",
+      "object": "malfunctioning hardware",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "data (50, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "flow (20, 2345)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "network (50, 1236)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A connectivity issue is when data cannot flow between two points in a network.",
+    "common_uses": [
+      "Troubleshooting network problems",
+      "Diagnosing communication failures"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Connectivity issues arise from hardware or software failures preventing data transmission.",
+    "origin": "Connectivity issues are inherent in complex network systems."
+  },
+  "instance_layer": {
+    "examples": [
+      "A computer unable to access the internet",
+      "Two servers failing to communicate"
+    ]
+  },
+  "facets": {
+    "ABSTRACT_DATA": {
+      "domain": "Computer Networks",
+      "related_concepts": [
+        "Network Protocols",
+        "Hardware Failure"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Common Types of Network Devices and Their Functions",
+    "citations": [
+      "netwrix.com"
+    ]
+  }
+}

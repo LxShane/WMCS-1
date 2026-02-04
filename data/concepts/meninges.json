@@ -1,9 +1,9 @@
 {
-  "name": "Meninges",
+  "name": "meninges",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 33,
-    "item": 1001
+    "group": 21,
+    "item": 2347
   },
   "claims": [
     {
@@ -467,63 +467,156 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Membrane",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Spinal Cord",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Protection",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "COVERS",
+      "object": "Spinal Cord",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Interface between the skull and brain",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Lymphatic Vasculature",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Skull Progenitor Cells (SPCs)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Central nervous system",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "protective coverings of the spinal cord",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The meninges are protective membranes that cover the brain and spinal cord.",
+    "definition": "Protective coverings of the spinal cord.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The meninges provide a physical barrier and immunological protection to the brain and spinal cord.",
-    "origin": "Biological development of the central nervous system."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Protector"
-      ],
-      "capabilities": [
-        "Physical protection",
-        "Immunological protection",
-        "Support",
-        "Containment of CSF"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [
-        "Membranous",
-        "Thin"
-      ],
-      "shape": [
-        "Layered"
-      ],
-      "composition": [],
-      "parts": [
-        "Dura Mater",
-        "Arachnoid Mater",
-        "Pia Mater"
-      ],
-      "relations": []
-    },
+    "FUNCTION": {},
+    "STRUCTURAL": {},
     "SPATIAL": {
-      "location": "Around brain and spinal cord",
-      "coordinates": [],
-      "connected_to": [
-        "Brain",
-        "Spinal Cord"
-      ],
-      "contained_in": null
+      "contained_in": "spinal cord"
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Spinal nerve T1 - e-Anatomy - IMAIOS",
     "citations": [
-      "https://en.wikipedia.org/wiki/Meninges",
-      "https://grokipedia.com/page/Meninges",
-      "https://my.clevelandclinic.org/health/articles/22266-meninges"
+      "e-Anatomy - IMAIOS"
     ]
   }
 }

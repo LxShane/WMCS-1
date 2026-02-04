@@ -1,9 +1,9 @@
 {
   "name": "Mechanical Stimuli",
-  "type": "ABSTRACT_CONCEPT",
+  "type": "PHYSICAL",
   "id": {
-    "group": 50,
-    "item": 1235
+    "group": 30,
+    "item": 1244
   },
   "claims": [
     {
@@ -19,24 +19,34 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Cellular Responses",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "General somatic senses in the form of touch, pressure, sound waves, stretching, or motion.",
+    "definition": "Mechanical cues that influence cell behavior.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Activate signaling pathways and alter gene expression.",
+    "origin": "Physical forces"
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "Mechanoreceptors: Merkel cells, Ruffini endings and more | Kenhub"
-    ]
+    "source": "Biomechanical Properties and Cellular Responses in Pulmonary ...",
+    "citations": []
   }
 }

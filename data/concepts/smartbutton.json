@@ -1,0 +1,100 @@
+{
+  "name": "SmartButton",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Temperature Data Logger",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "No External Connections",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "One-off studies",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A miniature temperature logger designed for quick and repeatable deployment.",
+    "common_uses": [
+      "Temperature monitoring in one-off studies"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The SmartButton records temperature data internally, eliminating the need for external connections. This allows for rapid setup and consistent data acquisition across multiple deployments.",
+    "origin": "ACR Data Solutions"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Data Logger"
+      ],
+      "capabilities": [
+        "Record temperature",
+        "Internal data storage",
+        "Quick deployment"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Miniature",
+        "Coin-sized"
+      ],
+      "shape": [
+        "Circular",
+        "Button-shaped"
+      ],
+      "composition": [],
+      "parts": [
+        "Internal temperature sensor",
+        "Data storage",
+        "Power source"
+      ],
+      "relations": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "ACR SmartButton Coin-Sized Temperature Data Logger \u2013 ACR",
+    "citations": [
+      "https://www.acrdatasolutions.com/products/smartbutton-miniature-temperature-logger"
+    ]
+  }
+}

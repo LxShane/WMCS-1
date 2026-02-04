@@ -1,0 +1,75 @@
+{
+  "name": "Antagonist",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 31,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "muscle (21, 1002)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "muscle (21, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Muscle that opposes the action of the prime mover.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Relaxes during prime mover activation",
+    "origin": "Muscles develop from mesodermal somites."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Opposer",
+        "Stabilizer"
+      ],
+      "capabilities": [
+        "Oppose the action of prime mover",
+        "Maintain joint stability"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Opposite side of the joint",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.visiblebody.com/learn/muscular/muscle-movements"
+    ]
+  }
+}

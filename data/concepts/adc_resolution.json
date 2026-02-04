@@ -1,0 +1,57 @@
+{
+  "name": "ADC resolution",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "number of steps in the ADC's characteristic curve",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "DETERMINES",
+      "object": "uniform steps",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The number of discrete values an ADC can produce over the range of analog input values.",
+    "common_uses": [
+      "Evaluating ADC performance",
+      "Designing ADC circuits"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Determines the precision of the digital representation of the analog signal.",
+    "origin": "A fundamental parameter of ADCs."
+  },
+  "instance_layer": {},
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.allaboutcircuits.com/technical-articles/adc-resolution-vs-adc-accuracy-subrange-adc-two-step-adc-and-total-unadjusted-error/"
+    ]
+  }
+}

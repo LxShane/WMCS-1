@@ -1,14 +1,14 @@
 {
   "name": "SN1 reaction",
-  "type": "ABSTRACT_CONCEPT",
+  "type": "CHEMICAL_REACTION",
   "id": {
     "group": 50,
-    "item": 1235
+    "item": 1003
   },
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "Mechanism 1",
+      "object": "Mechanism 1 (50, 1234)",
       "temporal": {
         "valid_from": "1935",
         "valid_until": "PRESENT",
@@ -61,34 +61,83 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Unimolecular nucleophilic substitution reaction in organic chemistry",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Leaving group",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Nucleophile",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The SN1 reaction, or Substitution Nucleophilic Unimolecular reaction, involves a two-step process with a carbocation intermediate.",
-    "common_uses": []
+    "definition": "A substitution reaction in organic chemistry where the rate-determining step is unimolecular.",
+    "common_uses": [
+      "Organic synthesis"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Involves the formation of a carbocation intermediate.",
+    "origin": "Organic chemistry research."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Reaction of tert-butyl chloride with water"
+    ]
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
+    "ACTION_SCHEMA": {
+      "domain": "CHEMICAL",
+      "preconditions": {
+        "substrate.state": "Dissolved",
+        "nucleophile.availability": "High"
+      },
+      "postconditions": {
+        "product.state": "Dissolved",
+        "leaving_group.state": "Dissolved"
+      },
+      "mechanics": "Rate depends only on substrate concentration."
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
+    "source": "SN1 reaction - Wikipedia",
+    "citations": [
+      "https://en.wikipedia.org/wiki/SN1_reaction"
+    ]
   }
 }

@@ -1,0 +1,54 @@
+{
+  "name": "Thyroid Hormone Receptor",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 30,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Target Tissues",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Signaling Receptor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A receptor that binds thyroid hormone and mediates its effects.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Mediates the effects of thyroid hormone through gene regulation.",
+    "origin": "Synthesized by cells."
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Thyroid hormone receptor localization in target tissues - PMC",
+    "citations": [
+      "PMC5843491"
+    ]
+  }
+}

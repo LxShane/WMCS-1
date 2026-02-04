@@ -1,9 +1,9 @@
 {
-  "name": "Electric charge",
+  "name": "Electric Charge",
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1003
+    "item": 1235
   },
   "claims": [
     {
@@ -47,30 +47,38 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Surface of plates in a capacitor",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
     "definition": "A physical property of matter that causes it to experience a force when placed in an electromagnetic field.",
-    "common_uses": [
-      "Understanding electromagnetism",
-      "Designing electrical circuits"
-    ]
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Fundamental property related to electromagnetic interactions.",
-    "origin": "Fundamental concept in physics."
+    "mechanism": "Charge is carried by subatomic particles, most notably electrons (negative charge) and protons (positive charge).",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "STRUCTURAL": {},
-    "SPATIAL": {}
+    "ABSTRACT_DATA": {}
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": [
-      "https://en.wikipedia.org/wiki/Electric_charge"
-    ]
+    "citations": []
   }
 }

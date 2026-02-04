@@ -1,9 +1,9 @@
 {
   "name": "Bone Marrow",
-  "type": "BODY_PART",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 23,
-    "item": 4567
+    "group": 22,
+    "item": 3344
   },
   "claims": [
     {
@@ -33,6 +33,15 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "tissue (21, 1007)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
@@ -43,16 +52,10 @@
     "mechanism": null,
     "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
-    "source": "Multiple Academic Sources",
-    "citations": [
-      "ScienceDirect",
-      "PubMed",
-      "Nature.com"
-    ]
+    "source": "The human subcellular proteome - The Human Protein Atlas",
+    "citations": []
   }
 }

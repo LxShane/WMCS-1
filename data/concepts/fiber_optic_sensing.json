@@ -1,0 +1,69 @@
+{
+  "name": "Fiber Optic Sensing",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 5005
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Sensing",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USES",
+      "object": "Fiber Optics",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Sensing using Fiber Optics.",
+    "common_uses": [
+      "Acquiring measurements"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Uses fiber optics to send and receive.",
+    "origin": "Alternative to wired sensing."
+  },
+  "instance_layer": {
+    "examples": [
+      "Temperature sensing using optical fibers"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Sensing"
+      ],
+      "capabilities": [
+        "Captures Measurements"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Manual",
+    "citations": [
+      "Sensor data acquisition systems and architectures"
+    ]
+  }
+}

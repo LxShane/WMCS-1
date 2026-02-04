@@ -2,8 +2,8 @@
   "name": "Nucleic Acid",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 1234
+    "group": 21,
+    "item": 1007
   },
   "claims": [
     {
@@ -75,25 +75,38 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Organic Molecule",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A complex molecule found in living cells.",
+    "definition": "DNA or RNA.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Information storage and transfer.",
+    "origin": "Synthesized by living organisms."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Multiple",
+    "source": "Set Automatically",
     "citations": [
-      "US20200224244A1",
-      "Nucleic Acid\u2013Protein Recognition"
+      "https://mistersyracuse.com/mistersyracuse/oldharddrive/Regents+Biology+Lab+Manual/biomolecules+tests.pdf"
     ]
   }
 }

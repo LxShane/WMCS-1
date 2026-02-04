@@ -1,14 +1,14 @@
 {
-  "name": "Cell lysis",
+  "name": "Cell Lysis",
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 9012
+    "item": 1236
   },
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "Process",
+      "object": "Process (50, 1234)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -19,25 +19,49 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cell (21, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "membrane (20, 9012)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "plasma (20, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The process of breaking down or destroying cells.",
-    "common_uses": [
-      "DNA extraction",
-      "Protein extraction"
-    ]
+    "definition": "The breakdown of a cell caused by damage to its plasma membrane.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Physical or chemical methods to disrupt the cell membrane.",
-    "origin": "Laboratory settings"
+    "mechanism": "Complement proteins can form a membrane attack complex (MAC) that creates pores in the cell membrane, leading to cell lysis.",
+    "origin": null
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {},
   "epistemic_metadata": {
-    "source": "CA2769320C",
-    "citations": [
-      "URL: https://patents.google.com/patent/CA2769320C/en"
-    ]
+    "source": "Complement System Effector Functions - Creative Biolabs",
+    "citations": []
   }
 }

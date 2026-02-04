@@ -1,0 +1,70 @@
+{
+  "name": "Accuracy",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1006
+  },
+  "claims": [
+    {
+      "predicate": "REQUIRES",
+      "object": "Accurate localization of the front surface planes of the two detector arms",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "correct (50, 9012)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "measurement (50, 7890)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The degree to which a measurement or calculation conforms to the correct value or a standard.",
+    "common_uses": [
+      "Scientific research",
+      "Engineering"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Accuracy is affected by systematic errors and random errors.",
+    "origin": "Fundamental concept"
+  },
+  "instance_layer": {
+    "examples": [
+      "Accuracy of a GPS system"
+    ]
+  },
+  "facets": {
+    "PROPERTY_DATA": {
+      "domain": "Measurement",
+      "antonym": "Inaccuracy"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Determination of calibration parameters of a VRX CT system ...",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2678843/"
+    ]
+  }
+}

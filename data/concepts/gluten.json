@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 20,
-    "item": 1001
+    "item": 7891
   },
   "claims": [
     {
@@ -117,27 +117,205 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "composed of mainly two types of proteins: glutenins and gliadins",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Protein complex",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Cereal grains",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Elastic network of wheat grain proteins (gliadin and glutenin)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Gliadin",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Glutenin",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Wheat flour",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Spelt",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Barley",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Rye",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "High deformability of dough",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A protein formed when flour is mixed with water.",
+    "definition": "Gluten is a structural protein complex naturally found in certain cereal grains, especially wheat.",
     "common_uses": [
-      "breadmaking",
-      "dough"
+      "Used in breadmaking for elasticity",
+      "Found in various cereal grains"
     ]
   },
   "deep_layer": {
-    "mechanism": "Gluten strands form a network that traps gases, allowing dough to rise.",
-    "origin": "Created through the hydration and manipulation of flour proteins."
+    "mechanism": "Forms an elastic network when mixed with water, contributing to dough structure.",
+    "origin": "Naturally occurs in cereal grains like wheat, rye, and barley."
   },
   "instance_layer": {
     "examples": [
-      "Gluten in bread dough"
+      "Wheat dough",
+      "Rye bread"
     ]
   },
-  "facets": {},
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Elastic",
+        "Network-forming"
+      ],
+      "shape": [
+        "Fibrous network"
+      ],
+      "composition": [
+        "Gliadin",
+        "Glutenin"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Extracellular",
+      "connected_to": [],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "https://www.kingarthurbaking.com/blog/2021/08/18/a-beginners-guide-to-gluten, https://breadtopia.com/gluten-development-for-artisan-bread/",
-    "citations": []
-  }
+    "source": "Set Automatically",
+    "citations": [
+      "Gluten - Wikipedia",
+      "Gluten-starch interface characteristics and wheat dough rheology"
+    ]
+  },
+  "autocorrected": true
 }

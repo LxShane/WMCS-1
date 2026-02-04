@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 7890
+    "item": 1237
   },
   "claims": [
     {
@@ -33,26 +33,47 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Cell-secreted proteases",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "process (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The process of breaking down a substance into smaller components.",
+    "definition": "The process of breaking down a substance.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Typically involves enzymatic reactions.",
-    "origin": "From Latin 'degradare'"
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {},
-    "STRUCTURAL": {},
-    "SPATIAL": {}
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "MMP7 - Wikipedia",
-    "citations": []
+    "source": "Manual Ingestion",
+    "citations": [
+      "https://web.stanford.edu/group/heilshorn/publications/2018/2018_MadlKatzHeilshorn.pdf"
+    ]
   }
 }

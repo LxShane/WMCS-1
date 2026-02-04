@@ -1,0 +1,141 @@
+{
+  "name": "ChannelStretchTM",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Approach to scaling analog and digital channel capacity in USB data acquisition (USB DAQ) applications.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Technology",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "DATAQ Instruments",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Synchronize multiple data acquisition instruments",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "WinDaq/Unlock option for DI-2008 when using WinDaq software",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Sync up to 16 DI-1120, -4108, or -4208 instruments",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "data (50, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "usb (30, 2222)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A technology for scaling analog and digital channel capacity in USB data acquisition applications.",
+    "common_uses": [
+      "Scaling analog channel capacity",
+      "Scaling digital channel capacity",
+      "Synchronizing data acquisition instruments"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Allows multiple data acquisition instruments to synchronize to within 10 micro-seconds between any two units.",
+    "origin": "Developed by DATAQ Instruments."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": [
+        "Scales analog channel capacity",
+        "Scales digital channel capacity",
+        "Synchronizes data acquisition instruments"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "PDF Channel Stretch (WinDaQ Unlock) - instrumentationdirect.co.uk, PDF DI-2008 Voltage and Thermocouple USB DAQ - Althen Sensors & Controls, PDF DI-4108 and DI-4208 USB DAQ Hardware Manual - DATAQ",
+    "citations": []
+  }
+}

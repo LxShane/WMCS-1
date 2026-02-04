@@ -1,9 +1,9 @@
 {
   "name": "Pericranium",
-  "type": "BODY_PART",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 23,
-    "item": 1006
+    "group": 33,
+    "item": 1002
   },
   "claims": [
     {
@@ -47,15 +47,29 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Periosteum that covers the outer surface of the bones of the skull",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The outermost layer of bone in the skull.",
+    "definition": "The pericranium is the periosteum specifically covering the skull.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Provides a protective layer for the skull.",
-    "origin": "Develops from the mesoderm."
+    "mechanism": "Similar function to periosteum, specific to the skull.",
+    "origin": "Develops with the skull bones."
   },
   "instance_layer": {
     "examples": []
@@ -69,18 +83,14 @@
       "relations": []
     },
     "SPATIAL": {
-      "location": "Outermost layer of the skull bones",
+      "location": "Outer surface of the skull bones",
       "coordinates": [],
-      "connected_to": [
-        "Skull bones"
-      ],
-      "contained_in": "Scalp"
+      "connected_to": [],
+      "contained_in": []
     }
   },
   "epistemic_metadata": {
-    "source": "Ingestion Engine",
-    "citations": [
-      "https://emedicine.medscape.com/article/834808-overview"
-    ]
+    "source": "Periosteum - Wikipedia",
+    "citations": []
   }
 }

@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 2345
+    "item": 1005
   },
   "claims": [
     {
@@ -33,28 +33,48 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "impact a delimited range of speeded response times",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "early transient signal such as the C1",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The process of extracting data from a memory or storage device, such as an image sensor.",
-    "common_uses": [
-      "Data retrieval",
-      "Image processing"
-    ]
+    "definition": "The process of extracting information from a system.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Involves addressing specific memory locations and transferring the stored data.",
-    "origin": "Fundamental to computer architecture and data acquisition systems."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": [],
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "https://elifesciences.org/reviewed-preprints/109046",
     "citations": []
   }
 }

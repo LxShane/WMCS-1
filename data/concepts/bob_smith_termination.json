@@ -1,0 +1,140 @@
+{
+  "name": "Bob Smith Termination",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "a circuit configuration designed to mitigate common-mode noise in Ethernet systems",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "INVOLVES",
+      "object": "connecting the center taps of Ethernet transformers to ground through a network of resistors and capacitors",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "reduce UTP cable emissions",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_IN",
+      "object": "Ethernet circuits",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Ethernet Termination",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "circuit (30, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A circuit configuration designed to mitigate common-mode noise in Ethernet systems.",
+    "common_uses": [
+      "Reducing UTP cable emissions",
+      "Mitigating common-mode noise in Ethernet systems"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Connects the center taps of Ethernet transformers to ground through a network of resistors and capacitors.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": [
+        "Mitigate common-mode noise",
+        "Reduce UTP cable emissions"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [
+        "Resistors",
+        "Capacitors"
+      ],
+      "parts": [
+        "Ethernet transformers",
+        "Network of resistors",
+        "Capacitors"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://resources.altium.com/p/bob-smith-termination-it-correct-ethernet",
+      "https://electronics.stackexchange.com/questions/161436/why-is-bob-smith-termination-for-ethernet-recommended-if-its-wrong",
+      "https://rigidflexpcb.org/bob-smith-termination-is-it-correct-for-ethernet/"
+    ]
+  }
+}

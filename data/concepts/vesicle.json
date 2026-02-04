@@ -2,8 +2,8 @@
   "name": "Vesicle",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 30,
-    "item": 1234
+    "group": 21,
+    "item": 1006
   },
   "claims": [
     {
@@ -145,52 +145,84 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Membrane Bound Structure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Trafficking",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DERIVED_FROM",
+      "object": "Endosome",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Protein delivery",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A small, enclosed structure within a cell, used for transport.",
-    "common_uses": [
-      "Transport of proteins",
-      "Transport of macromolecules"
-    ]
+    "definition": "A small, fluid-filled sac enclosed by a lipid bilayer.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Vesicles are formed by budding from a membrane, enclosing cargo, and then transporting it to another location.",
-    "origin": "Formed from the plasma membrane or other cellular membranes."
+    "mechanism": "Transports molecules within the cell.",
+    "origin": "Budding from cellular membranes."
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Cargo Transport"
-      ],
-      "capabilities": [
-        "Enclosing cargo",
-        "Moving cargo"
-      ]
-    },
     "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [
-        "Spherical"
-      ],
       "composition": [
         "Lipid bilayer"
-      ],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "Within the cell",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": "Cytoplasm"
+      ]
     }
   },
   "epistemic_metadata": {
-    "source": "Ingestion Engine",
-    "citations": []
+    "source": "https://bio.libretexts.org/Courses/University_of_California_Davis/BIS_2A:_Introductory_Biology_-_Molecules_to_Cell/BIS_2A:_Introductory_Biology_(Britt)/02:_Face-2-Face/2.08:_Protein_Localization",
+    "citations": [
+      "Section 2.8"
+    ]
   }
 }

@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 29,
-    "item": 1236
+    "item": 1234
   },
   "claims": [
     {
@@ -19,37 +19,56 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "measuring anatomical V1 boundaries",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "measuring functional V1 boundaries",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "MRI can be used to diagnose uterine cancer.",
+    "definition": "A medical imaging technique used to visualize internal body structures.",
     "common_uses": [
-      "Cancer Diagnosis"
+      "Medical diagnosis",
+      "Research"
     ]
   },
   "deep_layer": {
-    "mechanism": "Unknown",
-    "origin": "Unknown"
+    "mechanism": "Uses magnetic fields and radio waves to create detailed images of the organs and tissues in your body.",
+    "origin": "Developed in the 1970s"
   },
   "instance_layer": {
     "examples": [
-      "MRI scan for uterine cancer detection."
+      "Brain MRI",
+      "Spinal MRI"
     ]
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Diagnosis"
-      ],
-      "capabilities": [
-        "Cancer detection"
-      ]
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "Advanced MRI prediction model for anatomical site identification in ..."
-    ]
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2712139/",
+    "citations": []
   }
 }

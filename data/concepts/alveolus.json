@@ -1,8 +1,8 @@
 {
   "name": "Alveolus",
-  "type": "LIVING_SYSTEM",
+  "type": "BODY_PART",
   "id": {
-    "group": 23,
+    "group": 24,
     "item": 1001
   },
   "claims": [
@@ -50,7 +50,7 @@
     },
     {
       "predicate": "LOCATED_AT",
-      "object": "Lungs",
+      "object": "Lungs (23, 3456)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -61,14 +61,79 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "general anatomical term for a concave cavity or pit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Lungs (23, 3456)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Alveolar Wall",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "gas exchange",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "lungs (23, 3456)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "An alveolus is a small air sac in the lungs where gas exchange occurs.",
+    "definition": "A general anatomical term for a concave cavity or pit, specifically within the lungs.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Oxygen diffuses from the alveoli into the blood, and carbon dioxide diffuses from the blood into the alveoli.",
+    "mechanism": "Facilitates gas exchange in the lungs.",
     "origin": null
   },
   "instance_layer": {
@@ -77,28 +142,36 @@
   "facets": {
     "STRUCTURAL": {
       "visual_features": [],
-      "shape": [],
+      "shape": [
+        "Concave",
+        "Cavity",
+        "Pit"
+      ],
       "composition": [],
-      "parts": [],
+      "parts": [
+        "Alveolar Wall"
+      ],
       "relations": []
     },
     "SPATIAL": {
       "location": null,
       "coordinates": [],
       "connected_to": [],
-      "contained_in": "Lungs"
+      "contained_in": "Lung"
     },
     "FUNCTION": {
       "roles": [],
       "capabilities": [
-        "Gas Exchange"
+        "gas exchange"
       ]
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "3.3 Circulatory and Respiratory Systems \u2013 Human Biology"
+      "https://en.wikipedia.org/wiki/Alveolus",
+      "https://en.wikipedia.org/wiki/Pulmonary_alveolus",
+      "https://www.verywellhealth.com/what-are-alveoli-2249043"
     ]
   }
 }

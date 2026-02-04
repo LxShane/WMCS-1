@@ -1,0 +1,80 @@
+{
+  "name": "Forced Convection Heat Transfer",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 4321
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Enclosure Size (L/H = 0.5 to 2)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Inlet/Outlet Size (0.05m to 2m)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Inlet/Outlet Relative Height (0m to 3m)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Heat transfer enhanced by the forced movement of a fluid.",
+    "common_uses": [
+      "Cooling",
+      "Heating"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Heat transfer dependent on fluid flow rate and properties.",
+    "origin": "Physics."
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Heat Transfer Method"
+      ],
+      "capabilities": [
+        "Heat dissipation"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "A New Forced Convection Heat Transfer Correlation for 2D",
+    "citations": []
+  }
+}

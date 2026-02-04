@@ -1,0 +1,52 @@
+{
+  "name": "LLDP",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 3344
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Network discovery",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Link Layer Discovery Protocol used for Network discovery.",
+    "common_uses": [
+      "Network discovery",
+      "Network Management",
+      "Network Communication"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "LLDP is a protocol that can discover network devices.",
+    "origin": "IEEE developed LLDP for network management."
+  },
+  "instance_layer": {
+    "examples": [
+      "LLDP scans for identifying network devices"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {},
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Auvik.com",
+    "citations": [
+      "https://www.auvik.com/franklyit/blog/what-is-network-discovery/"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Message Signal",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Modulation Signal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "information bearing signal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "modifying a carrier wave",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The message signal is the information-bearing signal that modulates the carrier wave.",
+    "common_uses": [
+      "Audio signals in radio broadcasting",
+      "Data signals in digital communication"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The message signal alters the carrier wave's characteristics to embed the desired information.",
+    "origin": "Derived from the source information to be transmitted."
+  },
+  "instance_layer": {
+    "examples": [
+      "Speech signal in a telephone call",
+      "Digital data stream in a computer network"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Carrier wave",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Carrier_wave"
+    ]
+  }
+}

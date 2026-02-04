@@ -2,13 +2,13 @@
   "name": "CD3",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 30,
-    "item": 1007
+    "group": 20,
+    "item": 1235
   },
   "claims": [
     {
       "predicate": "HAS_PART",
-      "object": "CD3 chains",
+      "object": "CD3 chains (30, 1234)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -47,22 +47,76 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "immunotherapy",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "acidic residues",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "basic residues",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "tcr (22, 1005)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A protein complex found on T cells.",
-    "common_uses": []
+    "definition": "A component of the TCR-CD3 complex.",
+    "common_uses": [
+      "immunotherapy"
+    ]
   },
   "deep_layer": {
-    "mechanism": "CD3 functions as a T cell co-receptor that activates the T cell.",
-    "origin": "T cells"
+    "mechanism": null,
+    "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": []
+    "citations": [
+      "Modulating T Cell Responses by Targeting CD3 - PMC - NIH",
+      "Clinical Immunology: Principles and Practice, 3rd Edition - epdf.pub"
+    ]
   }
 }

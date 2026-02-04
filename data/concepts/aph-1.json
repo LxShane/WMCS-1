@@ -1,9 +1,9 @@
 {
-  "name": "APH-1",
-  "type": "INANIMATE_OBJECT",
+  "name": "Aph-1",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 1002
+    "group": 21,
+    "item": 1240
   },
   "claims": [
     {
@@ -117,21 +117,66 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Protein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Seven-pass transmembrane protein",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PLAYS_ROLE_IN",
+      "object": "Forming a stable complex with nicastrin",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "APH-1 plays a scaffolding role in the assembly, maturation and maintenance of the \u03b3-secretase complex.",
+    "definition": null,
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Unknown",
-    "origin": "Unknown"
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "A Conserved GXXXG Motif in APH-1 Is Critical for Assembly and Activity of ...",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.nature.com/articles/s12276-022-00754-8"
+    ]
   }
 }

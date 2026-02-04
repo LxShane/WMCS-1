@@ -1,0 +1,68 @@
+{
+  "name": "Hinge Assembly",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 32,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Dissipating Heat",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "First Electronic Component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An assembly providing hinged movement, while potentially dissipating heat.",
+    "common_uses": [
+      "Connecting parts",
+      "Heat dissipation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Heat transfer through material conduction away from component.",
+    "origin": "Engineered component."
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Connector",
+        "Heat Dissipator"
+      ],
+      "capabilities": [
+        "Connecting parts",
+        "Heat dissipation"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Thermal conduction; e.g., heat sink patent application class",
+    "citations": []
+  }
+}

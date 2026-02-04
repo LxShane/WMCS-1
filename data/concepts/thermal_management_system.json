@@ -2,8 +2,8 @@
   "name": "Thermal Management System",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 33,
-    "item": 1002
+    "group": 25,
+    "item": 1001
   },
   "claims": [
     {
@@ -19,15 +19,71 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "System for development and optimization of thermal control",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Component Design",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Component Sizing",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Material Properties",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A system that manages temperature.",
+    "definition": "A system designed for the development and optimization of thermal control.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Various components work together to regulate temperature.",
-    "origin": "Engineered to maintain temperature within specific ranges."
+    "mechanism": "Thermal management systems control the temperature of a system by transferring heat away from or towards it, using various techniques like conduction, convection, and radiation.",
+    "origin": "Evolved from needs in mechanical and electrical engineering"
   },
   "instance_layer": {
     "examples": []
@@ -35,8 +91,6 @@
   "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": [
-      "https://btt-solutions.com/blogs/what-does-a-thermostat-do-in-thermal-management-systems/"
-    ]
+    "citations": []
   }
 }

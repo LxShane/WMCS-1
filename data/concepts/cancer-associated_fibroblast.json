@@ -1,0 +1,47 @@
+{
+  "name": "Cancer-associated Fibroblast",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 5432
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_IN",
+      "object": "Tumor Microenvironment",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "fibroblasts (21, 1012)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Fibroblasts that are associated with cancer cells.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Support tumor growth and metastasis.",
+    "origin": "Activated by tumor-derived factors."
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

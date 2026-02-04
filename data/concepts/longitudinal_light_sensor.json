@@ -1,0 +1,82 @@
+{
+  "name": "Longitudinal Light Sensor",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 22,
+    "item": 2001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "sensor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "sensing light",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "detector",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A sensor that detects light along a longitudinal axis.",
+    "common_uses": [
+      "optical sensing",
+      "light detection"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Converts light into an electrical signal.",
+    "origin": "Engineered device."
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Light Sensor"
+      ],
+      "capabilities": [
+        "Detecting light"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "JP2020525936A"
+    ]
+  }
+}

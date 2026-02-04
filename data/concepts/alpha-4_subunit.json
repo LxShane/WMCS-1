@@ -1,0 +1,64 @@
+{
+  "name": "Alpha-4 Subunit",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Protein Subunit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "receptor (20, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A subunit of the alpha-4 beta-2 nicotinic receptor.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "SPATIAL": {
+      "location": "Cell membrane",
+      "connected_to": [
+        "GABA receptor",
+        "Beta subunit",
+        "Gamma subunit",
+        "Delta subunit",
+        "Epsilon subunit"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "See sources in claims",
+    "citations": [
+      "Alpha-4 beta-2 nicotinic receptor - Wikipedia"
+    ]
+  },
+  "autocorrected": true
+}

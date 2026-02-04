@@ -2,8 +2,8 @@
   "name": "Electrical Synapse",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 7890
+    "group": 22,
+    "item": 1008
   },
   "claims": [
     {
@@ -75,44 +75,46 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Gap Junction",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "An electrical synapse allows direct electrical coupling between neurons.",
+    "definition": "A type of synapse where cells are connected by gap junctions, allowing ions to flow directly between cells.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Ions flow directly between neurons through gap junctions.",
+    "mechanism": null,
     "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": [
-        "Direct electrical coupling"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
     "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+      "location": "Between pre- and post-synaptic neurons, at gap junctions",
+      "connected_to": [
+        "Pre-synaptic neuron membrane",
+        "Post-synaptic neuron membrane",
+        "Connexons",
+        "Gap junction channels"
+      ],
+      "coordinates": []
     }
   },
   "epistemic_metadata": {
-    "source": "Synapse - Wikipedia",
-    "citations": [
-      "https://en.wikipedia.org/wiki/Synapse"
-    ]
-  }
+    "source": "Set Automatically",
+    "citations": []
+  },
+  "autocorrected": true
 }

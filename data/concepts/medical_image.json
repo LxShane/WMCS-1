@@ -1,0 +1,83 @@
+{
+  "name": "Medical Image",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Anatomical Landmark Localization",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A visual representation of internal body structures acquired using medical imaging techniques.",
+    "common_uses": [
+      "Diagnosis",
+      "Treatment Planning"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Uses different energy sources (e.g., X-rays, magnetic fields, ultrasound) to create images.",
+    "origin": "Developed with advances in physics and computer science."
+  },
+  "instance_layer": {
+    "examples": [
+      "X-ray",
+      "MRI",
+      "CT Scan"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Grayscale",
+        "High-resolution"
+      ],
+      "shape": [
+        "2D",
+        "3D"
+      ],
+      "composition": [
+        "Digital data"
+      ],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Digital space",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    },
+    "FUNCTION": {
+      "roles": [
+        "Visualization",
+        "Analysis"
+      ],
+      "capabilities": [
+        "Display internal structures",
+        "Measure anatomical features"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://arxiv.org/html/2501.10098v2",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7610752/",
+      "https://www.sciencedirect.com/science/article/pii/S0141938225001118"
+    ]
+  }
+}

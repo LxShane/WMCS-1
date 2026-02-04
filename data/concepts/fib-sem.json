@@ -1,0 +1,63 @@
+{
+  "name": "FIB-SEM",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 22,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Microscope",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "TEM sample preparation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A type of microscope utilizing Focused Ion Beam and Scanning Electron Microscopy.",
+    "common_uses": [
+      "Material science",
+      "TEM sample preparation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Uses a focused ion beam to mill and shape samples, then uses scanning electron microscopy for imaging.",
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {
+    "STRUCTURAL": {},
+    "FUNCTION": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Web Sources",
+    "citations": [
+      "https://www.azom.com/article.aspx?ArticleID=22205",
+      "https://info.tescan.com/matsci-fib-sem/products/tem-autoprep",
+      "https://info.tescan.com/matsci-fib-sem/academy/tag/tem-specimen-preparation"
+    ]
+  }
+}

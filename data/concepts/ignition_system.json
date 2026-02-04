@@ -1,0 +1,205 @@
+{
+  "name": "Ignition System",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Electrical apparatus that generates a high-voltage spark to ignite the compressed air-fuel mixture within the engine",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Initiate combustion by igniting the fuel-air mixture in heat engines",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Battery",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Switch ignition distributor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Ignition coil",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Spark plugs",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Necessary wiring",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Battery ignition system",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Magneto ignition system",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Electronic Ignition System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An ignition system is an electrical apparatus that generates a high-voltage spark to ignite the compressed air-fuel mixture within the engine.",
+    "common_uses": [
+      "Initiate combustion in heat engines",
+      "Ignite fuel-air mixture in spark ignition internal combustion engines"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The ignition system generates a high-voltage surge of current to the spark plug, producing an electric spark at the spark plug gap, which ignites the compressed air-fuel mixture in the combustion chamber.",
+    "origin": "Evolved from early ignition magneto and trembler coil systems to distributor-based systems and then electronic ignition systems."
+  },
+  "instance_layer": {
+    "examples": [
+      "Ignition system in petrol engines",
+      "Ignition system in gas turbine engines"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Igniter"
+      ],
+      "capabilities": [
+        "Generating high-voltage spark",
+        "Igniting fuel-air mixture"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [
+        "Battery",
+        "Switch ignition distributor",
+        "Ignition coil",
+        "Spark plugs",
+        "Wiring"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "In an internal combustion engine",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Engine compartment"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Ignition_system",
+      "https://grokipedia.com/page/Ignition_system",
+      "https://www.theengineerspost.com/types-of-ignition-system/"
+    ]
+  }
+}

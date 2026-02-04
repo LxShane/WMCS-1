@@ -2,8 +2,8 @@
   "name": "Sternoclavicular Joint",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 28,
-    "item": 1007
+    "group": 21,
+    "item": 9101
   },
   "claims": [
     {
@@ -103,25 +103,55 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Anatomical Joint",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Each side of Axial skeleton",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The sternoclavicular joint is a diarthroidal joint between the medial clavicle and the clavicular notch of the sternum.",
+    "definition": "The Sternoclavicular Joint is a joint between the sternum and clavicle.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The sternoclavicular ligaments, costoclavicular ligaments, disc ligament, interclavicular ligament, and joint capsule reinforce the sternoclavicular joint.",
-    "origin": null
+    "mechanism": "Allows movement of the clavicle relative to the sternum.",
+    "origin": "Formed during skeletal development."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
     "FUNCTION": {
-      "roles": [],
+      "roles": [
+        "Articulation"
+      ],
       "capabilities": [
         "Connects clavicle to sternum",
-        "Provides stability to upper limb"
+        "Facilitates shoulder movement"
       ]
     },
     "STRUCTURAL": {
@@ -132,17 +162,20 @@
       "relations": []
     },
     "SPATIAL": {
-      "location": "Between medial clavicle and sternum",
+      "location": "Where clavicle meets sternum",
       "coordinates": [],
       "connected_to": [
         "Clavicle",
         "Sternum"
       ],
-      "contained_in": null
+      "contained_in": "Thorax"
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": []
+    "citations": [
+      "https://en.wikipedia.org/wiki/Pectoral_girdle",
+      "https://courses.lumenlearning.com/suny-ap1/chapter/the-pectoral-girdle/"
+    ]
   }
 }

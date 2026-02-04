@@ -2,26 +2,141 @@
   "name": "Compact Muon Solenoid",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 29,
-    "item": 1006
+    "group": 30,
+    "item": 1001
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Detector",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "OPERATES_AT",
+      "object": "Large Hadron Collider (30, 1001)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Study",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Detector",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Large Hadron Collider (30, 1001)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "CERN (60, 1007)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "study proton",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cern (60, 1007)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "A detector at the LHC experiments.",
+    "definition": "A detector operating at the Large Hadron Collider at CERN, conceived to study protons.",
     "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": "A detector",
-    "origin": "At the LHC experiments"
+  "deep_layer": {},
+  "instance_layer": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "CERN, Large Hadron Collider tunnel",
+      "connected_to": [
+        "LHC beam pipe",
+        "Hadron Calorimeter",
+        "Electromagnetic Calorimeter",
+        "Superconducting Solenoid Magnet",
+        "Muon detectors",
+        "Return Yoke"
+      ],
+      "coordinates": []
+    }
   },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {},
   "epistemic_metadata": {
-    "source": "Compact Muon Solenoid - Wikipedia",
-    "citations": [
-      "https://en.wikipedia.org/wiki/Compact_Muon_Solenoid"
-    ]
-  }
+    "source": "Set Automatically",
+    "citations": []
+  },
+  "autocorrected": true
 }

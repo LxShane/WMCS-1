@@ -1,9 +1,9 @@
 {
-  "name": "Postsynaptic Neuron",
+  "name": "Postsynaptic neuron",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1003
+    "group": 22,
+    "item": 1009
   },
   "claims": [
     {
@@ -47,47 +47,36 @@
         "status": "HYPOTHETICAL",
         "source_type": "UNKNOWN"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "initiating an action potential",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A neuron that receives neurotransmitters after they have crossed the synapse.",
+    "definition": "A neuron that receives signals from another neuron.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Receives and integrates signals from presynaptic neurons.",
-    "origin": "Biological development of nervous system."
+    "mechanism": null,
+    "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "parts": [],
-      "relations": [],
-      "visual_features": [],
-      "shape": [],
-      "composition": []
-    },
-    "SPATIAL": {
-      "location": "Postsynaptic to the presynaptic neuron, typically located on the dendrites, soma, or axon hillock of the neuron.",
-      "connected_to": [
-        "Presynaptic neuron (via synapse)",
-        "Neurotransmitter receptors",
-        "Ion channels",
-        "Intracellular signaling molecules",
-        "Other neurons (forming neural circuits)",
-        "Glial cells (astrocytes, microglia, oligodendrocytes)"
-      ],
-      "coordinates": []
-    }
+    "SPATIAL": {}
   },
   "epistemic_metadata": {
-    "source": "Essay // Biopsychology: How our Neurons work | dpurb . com",
+    "source": "Set Automatically",
     "citations": []
-  },
-  "autocorrected": true
+  }
 }

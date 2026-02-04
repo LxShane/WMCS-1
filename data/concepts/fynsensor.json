@@ -2,8 +2,8 @@
   "name": "FynSensor",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 25,
-    "item": 1234
+    "group": 30,
+    "item": 5678
   },
   "claims": [
     {
@@ -33,35 +33,196 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "biosensor",
+      "temporal": {
+        "valid_from": "2019",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "revealing cellular Fyn activity",
+      "temporal": {
+        "valid_from": "2019",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "imaging spatially-organized signaling clusters",
+      "temporal": {
+        "valid_from": "2019",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "revealing pulsatile kinase activity",
+      "temporal": {
+        "valid_from": "2019",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "tool for direct crosstalk observation between integrin and growth-factor-signaling",
+      "temporal": {
+        "valid_from": "2019",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "SHOWS",
+      "object": "presence of spatially localized signaling clusters sensitive to integrin and growth factor signaling",
+      "temporal": {
+        "valid_from": "2020",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "SENSITIVE_TO",
+      "object": "adhesion/integrin signaling",
+      "temporal": {
+        "valid_from": "2020",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "biosensor",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "revealing cellular Fyn activity",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "revealing spatially localized Fyn activity",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "revealing pulsatile Fyn activity",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "revealing Fyn activity sensitive to adhesion/integrin signaling",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A FRET biosensor used to reveal cellular Fyn activity.",
+    "definition": "A biosensor engineered to reveal cellular Fyn activity.",
     "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": "Based on fluorescence-resonance-energy-transfer (FRET).",
-    "origin": "Engineered using F29."
-  },
-  "instance_layer": {
-    "examples": []
-  },
+  "deep_layer": {},
+  "instance_layer": {},
   "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Biosensor"
+    "SPATIAL": {
+      "location": "Cell membrane",
+      "connected_to": [
+        "Plasma membrane proteins",
+        "Lipid rafts",
+        "Signaling complexes"
       ],
-      "capabilities": [
-        "Detecting Fyn activity"
-      ]
-    },
-    "STRUCTURAL": {},
-    "SPATIAL": {}
+      "coordinates": []
+    }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "PMC7225052"
-    ]
-  }
+    "source": "A Fyn - specific biosensor reveals localized, pulsatile ... - bioRxiv",
+    "citations": []
+  },
+  "autocorrected": true
 }

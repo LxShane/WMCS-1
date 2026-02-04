@@ -2,8 +2,8 @@
   "name": "Headphones",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 30,
-    "item": 1235
+    "group": 24,
+    "item": 1234
   },
   "claims": [
     {
@@ -19,42 +19,190 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "electroacoustic transducer",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "converting an electrical signal to a corresponding sound",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "letting a single user listen to an audio source",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Device",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Noise Isolation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Active Noise Reduction",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Enjoying music",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Enjoying podcasts",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Enjoying videos",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A pair of earphones typically joined by a band placed over the head, for listening to audio signals.",
-    "common_uses": []
+    "definition": "A device worn over the ears to listen to audio privately.",
+    "common_uses": [
+      "Listening to music",
+      "Noise cancellation",
+      "Audio monitoring"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Headphones use diaphragms to vibrate air and create sound waves.",
+    "origin": "First developed in the early 20th century."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Bose QuietComfort 35",
+      "Sony WH-1000XM4"
+    ]
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
     "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
+      "visual_features": [
+        "Earcups",
+        "Headband"
+      ],
+      "shape": [
+        "Oval",
+        "Round"
+      ],
+      "composition": [
+        "Plastic",
+        "Metal",
+        "Foam"
+      ],
+      "parts": [
+        "Earcups",
+        "Headband",
+        "Diaphragm",
+        "Loudspeaker"
+      ]
     },
     "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+      "location": "Superior, Lateral",
+      "connected_to": [
+        "Ears",
+        "Head (via headband or ear hooks)"
+      ],
+      "coordinates": []
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12746418/"
+      "https://www.codowl.com/article/the-science-behind-noise-isolation-in-headphones",
+      "https://patents.google.com/patent/US20180041828A1/en",
+      "https://www.ee.iitb.ac.in/~esgroup/es_mtech02_sem/es02_sem_rep_vikash.pdf"
     ]
-  }
+  },
+  "autocorrected": true
 }

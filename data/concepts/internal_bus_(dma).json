@@ -1,0 +1,87 @@
+{
+  "name": "Internal Bus (DMA)",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Components inside the DMA controller",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Communication and data passing",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Inside the DMA controller",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A communication pathway within a DMA controller.",
+    "common_uses": [
+      "Facilitating data transfer between components."
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Allows components within the DMA controller to exchange data and control signals.",
+    "origin": "Part of the DMA controller's architecture."
+  },
+  "instance_layer": {
+    "examples": [
+      "Data transfer between the memory controller and the I/O devices."
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Data Transfer"
+      ],
+      "capabilities": [
+        "Facilitates communication between DMA components."
+      ]
+    },
+    "STRUCTURAL": {
+      "composition": [
+        "Wires",
+        "Electronic components"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Direct Memory Access - GeeksforGeeks",
+    "citations": []
+  }
+}

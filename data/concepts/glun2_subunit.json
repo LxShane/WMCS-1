@@ -2,8 +2,8 @@
   "name": "GluN2 subunit",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 30,
-    "item": 1234
+    "group": 31,
+    "item": 5678
   },
   "claims": [
     {
@@ -229,38 +229,80 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "NMDA receptor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "conferring distinct ion channel properties to NMDARs",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "conferring intracellular trafficking pathways to NMDARs",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "subunit-specific interactions with various intracellular regulatory proteins",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A subunit of the NMDA receptor.",
+    "definition": "A subunit of the NMDA receptor that confers distinct ion channel properties and intracellular trafficking pathways.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Forms part of the NMDA receptor and contributes to its function.",
-    "origin": "Encoded by genes in the cell's DNA."
+    "mechanism": "Subunit-specific interactions with various intracellular regulatory proteins control regulated membrane trafficking of NMDARs.",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "SPATIAL": {
-      "location": "Synaptic membrane, postsynaptic density",
-      "connected_to": [
-        "GluN1 subunit",
-        "GluN2A subunit",
-        "GluN2B subunit",
-        "PSD-95",
-        "CaMKII",
-        "Other postsynaptic proteins"
-      ],
-      "coordinates": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
       "https://pmc.ncbi.nlm.nih.gov/articles/PMC7351600/"
     ]
-  },
-  "autocorrected": true
+  }
 }

@@ -1,0 +1,79 @@
+{
+  "name": "Maritime Traffic",
+  "type": "SOCIAL_CONSTRUCT",
+  "id": {
+    "group": 61,
+    "item": 5005
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Transportation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Oceans",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Ships",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The movement of vessels on waterways.",
+    "common_uses": [
+      "Transporting goods",
+      "Transporting people"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Maritime traffic involves ships moving across oceans and seas, carrying cargo or passengers.",
+    "origin": "Maritime traffic has been present since the invention of boats."
+  },
+  "instance_layer": [
+    "A container ship traveling from China to Europe"
+  ],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Transporter"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "Maritime Traffic as a Complex Network: a Systematic Review"
+    ]
+  }
+}

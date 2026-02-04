@@ -1,0 +1,76 @@
+{
+  "name": "Current Crowding",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Contact Edges",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "High concentration of electric current at the edges of an electrical contact",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "current (20, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A phenomenon where electric current concentrates at the edges of an electrical contact.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Caused by the geometry of the contact and the flow of current through a constricted area.",
+    "origin": "Arises from the physical principles of electricity and geometry."
+  },
+  "instance_layer": {
+    "examples": [
+      "Current crowding in nanoscale transistors"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Phenomenon"
+      ],
+      "capabilities": [
+        "Concentrating Current"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Interface Engineering of Electrical Contacts | Phys. Rev. Applied"
+    ]
+  }
+}

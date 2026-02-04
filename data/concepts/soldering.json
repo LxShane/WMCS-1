@@ -1,0 +1,63 @@
+{
+  "name": "Soldering",
+  "type": "SOCIAL_CONSTRUCT",
+  "id": {
+    "group": 60,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Process",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A process of joining two or more metal items together by melting and flowing a filler metal (solder) into the joint.",
+    "common_uses": [
+      "Electronics Assembly",
+      "Plumbing"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Uses heat to melt solder, which then cools and solidifies to form a bond.",
+    "origin": "Ancient metalworking techniques."
+  },
+  "instance_layer": [
+    "Attaching electronic components to a circuit board"
+  ],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Joining",
+        "Electrical Connection"
+      ],
+      "capabilities": [
+        "Creating conductive paths",
+        "Providing mechanical support"
+      ]
+    },
+    "PROCESS_DATA": {
+      "affected": [
+        "Metal Items"
+      ],
+      "performed_by": [
+        "Technician",
+        "Machine"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "US20070131661A1 - Solder ball placement system - Google Patents",
+    "citations": []
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Aortic Arches",
+  "type": "BODY_PART",
+  "id": {
+    "group": 24,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Foetus",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Connect the outflow",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "development (20, 1237)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Vascular structures present during fetal development that connect the outflow.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "SPATIAL": {
+      "location": "In a Foetus",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Foetus"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://docslib.org/doc/3962633/the-aortic-arches-and-the-foetal-circulation",
+    "citations": []
+  }
+}

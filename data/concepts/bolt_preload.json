@@ -1,0 +1,75 @@
+{
+  "name": "Bolt Preload",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Clamp Force",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "No Plastic Deformation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "tension (50, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The initial tension applied to a bolt during assembly.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Preload generates a clamping force between the connected parts, which contributes to the joint's strength and resistance to separation.",
+    "origin": "Mechanical Engineering"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Stress Generator"
+      ],
+      "capabilities": [
+        "Clamping",
+        "Load Bearing"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://innovationspace.ansys.com/courses/wp-content/uploads/sites/5/2022/12/Mechanics_of_Bolted_Connections.pdf"
+    ]
+  }
+}

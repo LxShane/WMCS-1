@@ -1,0 +1,66 @@
+{
+  "name": "Land Pattern",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Pads",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The arrangement of pads on a PCB designed to accommodate a specific component.",
+    "common_uses": [
+      "Mounting electronic components"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Land patterns facilitate the proper placement and soldering of components onto a PCB.",
+    "origin": "Land patterns evolved with surface mount technology to provide a standardized way to attach components."
+  },
+  "instance_layer": {
+    "examples": [
+      "SOIC-16 land pattern"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "shape": [
+        "Rectangular",
+        "Variable"
+      ],
+      "composition": [
+        "Copper",
+        "Solder"
+      ]
+    },
+    "SPATIAL": {
+      "location": "On PCB Surface",
+      "connected_to": [
+        "Components",
+        "Pads"
+      ],
+      "contained_in": "PCB"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.protoexpress.com/blog/pcb-manufacturing-defects-caused-land-patterns/",
+      "https://electronics.stackexchange.com/questions/tagged/eagle"
+    ]
+  }
+}

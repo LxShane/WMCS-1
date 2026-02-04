@@ -1,0 +1,56 @@
+{
+  "name": "TGN",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Organelle",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Golgi Apparatus",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Trans-Golgi Network: A network of interconnected tubules and vesicles at the trans face of the Golgi apparatus.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Functions in protein sorting and packaging.",
+    "origin": "Part of the Golgi apparatus."
+  },
+  "instance_layer": [],
+  "facets": {
+    "SPATIAL": {
+      "location": "trans face of the Golgi apparatus"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Subcellular Organization of the cAMP Signaling Pathway - PMC",
+    "citations": []
+  }
+}

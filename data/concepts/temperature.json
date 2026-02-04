@@ -1,9 +1,9 @@
 {
   "name": "Temperature",
-  "type": "PHYSICAL_PROPERTY",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1005
+    "item": 1006
   },
   "claims": [
     {
@@ -117,22 +117,53 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Physical parameter",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MEASURED_BY",
+      "object": "Optical Fiber",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": null,
+    "definition": "A measure of the average kinetic energy of the particles in a sample of matter.",
     "common_uses": []
   },
   "deep_layer": {
     "mechanism": null,
     "origin": null
   },
-  "instance_layer": {
-    "examples": []
+  "instance_layer": [],
+  "facets": {
+    "PROPERTY_DATA": {
+      "domain": "THERMAL",
+      "antonym": "COLD"
+    }
   },
-  "facets": {},
   "epistemic_metadata": {
-    "source": "Britannica",
+    "source": "Set Automatically",
     "citations": []
   }
 }

@@ -1,9 +1,9 @@
 {
   "name": "ITER",
-  "type": "INANIMATE_OBJECT",
+  "type": "SOCIAL_CONSTRUCT",
   "id": {
-    "group": 20,
-    "item": 9012
+    "group": 60,
+    "item": 5678
   },
   "claims": [
     {
@@ -159,30 +159,37 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "International Thermonuclear Experimental Reactor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "An international nuclear fusion research and engineering megaproject.",
-    "common_uses": [
-      "Fusion research"
-    ]
+    "definition": "A large international experimental fusion reactor.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Experimental tokamak reactor.",
+    "mechanism": "N/A",
     "origin": "International collaboration"
   },
-  "instance_layer": [],
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    }
+  "instance_layer": {
+    "examples": []
   },
   "epistemic_metadata": {
-    "source": "New way to measure the stability of next-generation magnetic",
-    "citations": []
+    "source": "ScienceDirect.com",
+    "citations": [
+      "Plasma-wall interaction impact of the ITER re-baseline"
+    ]
   }
 }

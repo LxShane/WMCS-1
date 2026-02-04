@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 30,
-    "item": 4567
+    "item": 1003
   },
   "claims": [
     {
@@ -61,50 +61,80 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "valve",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "allowing exhaust steam to escape",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Valve",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "opening and closing of the exhaust",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A valve that controls the flow of spent exhaust gases out of the combustion chamber.",
+    "definition": "A valve that controls the exhaust of gases from an engine.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Opens and closes to allow exhaust gases to exit the combustion chamber.",
+    "mechanism": null,
     "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Regulator"
-      ],
-      "capabilities": [
-        "Controls flow of exhaust gases"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "Cylinder head, near the exhaust port",
-      "connected_to": [
-        "Cylinder head",
-        "Exhaust manifold",
-        "Valve spring",
-        "Valve stem",
-        "Rocker arm (or cam follower)"
-      ],
-      "coordinates": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Valvetrain - Wikipedia",
-    "citations": []
-  },
-  "autocorrected": true
+    "source": "Ingestion Engine",
+    "citations": [
+      "Valve Train - Intake Valve, Exhaust Valve"
+    ]
+  }
 }

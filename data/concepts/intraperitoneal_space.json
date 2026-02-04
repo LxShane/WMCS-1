@@ -1,8 +1,8 @@
 {
   "name": "Intraperitoneal Space",
-  "type": "PHYSICAL",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 24,
+    "group": 23,
     "item": 1003
   },
   "claims": [
@@ -33,33 +33,54 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "within the abdominal cavity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "WRAPPED_IN",
+      "object": "Peritoneum",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The space located within the abdominal cavity but wrapped in peritoneum.",
+    "definition": "The intraperitoneal space is located within the abdominal cavity but wrapped in peritoneum.",
     "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": null,
-    "origin": null
-  },
-  "instance_layer": {
-    "examples": []
-  },
+  "deep_layer": {},
+  "instance_layer": {},
   "facets": {
-    "SPATIAL": {
-      "location": "within abdominal cavity",
-      "coordinates": [],
-      "connected_to": [
-        "peritoneum"
-      ],
-      "contained_in": "abdominal cavity"
-    }
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {}
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://en.wikipedia.org/wiki/Peritoneum"
-    ]
+    "source": "https://en.wikipedia.org/wiki/Peritoneum",
+    "citations": []
   }
 }

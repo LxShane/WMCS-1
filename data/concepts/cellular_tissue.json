@@ -1,0 +1,50 @@
+{
+  "name": "Cellular Tissue",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 6789
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Tissue (21, 1007)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "tissue (21, 1007)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Tissue containing cells.",
+    "common_uses": [
+      "Tissue engineering",
+      "Research"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Provides cells for tissue regeneration and repair.",
+    "origin": "Derived from various tissues."
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "https://allografts.com/category/blog/",
+    "citations": []
+  }
+}

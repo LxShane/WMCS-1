@@ -61,6 +61,24 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "arteries (31, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "artery (21, 1242)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
@@ -74,9 +92,16 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "At a point of division",
+      "connected_to": [],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
     "source": "https://teachmeanatomy.info/upper-limb/vessels/arteries/",
     "citations": []
-  }
+  },
+  "autocorrected": true
 }

@@ -2,7 +2,7 @@
   "name": "Glia",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
+    "group": 30,
     "item": 5678
   },
   "claims": [
@@ -47,24 +47,66 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Principal cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Central nervous system",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Non-neuronal cells in the central nervous system.",
+    "definition": "A cell that supports neurons.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Provide support and protection for neurons",
-    "origin": "Biological development"
+    "mechanism": "Glia provide structural and metabolic support to neurons.",
+    "origin": "Neural tube development."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "PMC",
     "citations": [
-      "Neurovascular unit - Wikipedia"
+      "PMC8142716"
     ]
   }
 }

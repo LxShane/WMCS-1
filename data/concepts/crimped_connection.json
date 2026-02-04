@@ -1,0 +1,80 @@
+{
+  "name": "Crimped Connection",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Electrical Connection",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "connection (30, 1111)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "connector (30, 1245)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A type of electrical connection formed by deforming a connector around a conductor.",
+    "common_uses": [
+      "Electrical wiring",
+      "Electronic circuits"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "A mechanical connection where the connector is deformed to create a tight seal around the conductor, providing electrical conductivity.",
+    "origin": "Developed for reliable electrical connections."
+  },
+  "instance_layer": {
+    "examples": [
+      "Wire connected to a terminal using a crimp connector"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Deformed metal",
+        "Tight seal around conductor"
+      ],
+      "shape": [
+        "Cylindrical",
+        "Deformed"
+      ],
+      "composition": [
+        "Metal",
+        "Conductor"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Connector Theory and Installation - ATIS Protection Engineers",
+    "citations": [
+      "Page 1"
+    ]
+  }
+}

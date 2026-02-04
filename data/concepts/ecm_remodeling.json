@@ -1,5 +1,5 @@
 {
-  "name": "ECM remodeling",
+  "name": "ECM Remodeling",
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
@@ -75,14 +75,126 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Process",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CRUCIAL_FOR",
+      "object": "Force transmission",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Process",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Dynamic structure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INVOLVED_IN",
+      "object": "Development",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INVOLVED_IN",
+      "object": "Fibrosis",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INVOLVED_IN",
+      "object": "Tissue repair",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INVOLVED_IN",
+      "object": "Tumor-associated desmoplasia",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "ECM remodeling is the change in the extracellular matrix structure.",
+    "definition": "Extracellular matrix (ECM) remodeling is a dynamic process where ECM components are deposited, degraded, or otherwise modified.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
+    "mechanism": "Includes synthesis, contraction and proteolytic degradation.",
     "origin": null
   },
   "instance_layer": {
@@ -90,14 +202,19 @@
   },
   "facets": {
     "FUNCTION": {
-      "roles": [],
-      "capabilities": []
+      "roles": [
+        "Tissue maintenance"
+      ],
+      "capabilities": [
+        "Adapting ECM composition to cellular needs"
+      ]
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Multiple Academic Sources",
     "citations": [
-      "https://febs.onlinelibrary.wiley.com/doi/full/10.1111/febs.70292"
+      "https://www.sciencedirect.com/science/article/pii/S0955067406001207",
+      "https://pubmed.ncbi.nlm.nih.gov/21917992/"
     ]
   }
 }

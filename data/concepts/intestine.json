@@ -1,0 +1,98 @@
+{
+  "name": "Intestine",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 9123
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Organ",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Expand",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Contract",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A tubular organ involved in digestion and absorption.",
+    "common_uses": [
+      "Digestion",
+      "Nutrient Absorption"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Absorbs nutrients and eliminates waste.",
+    "origin": "Develops from the midgut and hindgut during embryonic development."
+  },
+  "instance_layer": {
+    "examples": [
+      "Human Small Intestine",
+      "Human Large Intestine"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Tubular",
+        "Coiled"
+      ],
+      "shape": [
+        "Cylindrical"
+      ]
+    },
+    "SPATIAL": {
+      "contained_in": "Abdominal Cavity"
+    },
+    "FUNCTION": {
+      "roles": [
+        "Absorber"
+      ],
+      "capabilities": [
+        "Absorb Nutrients",
+        "Eliminate Waste"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Anatomical Terminology | Anatomy and Physiology I - Lumen Learning",
+    "citations": [
+      "Anatomical Terminology | Anatomy and Physiology I - Lumen Learning"
+    ]
+  }
+}

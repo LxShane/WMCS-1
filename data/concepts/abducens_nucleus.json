@@ -1,9 +1,9 @@
 {
   "name": "Abducens Nucleus",
-  "type": "BODY_PART",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 23,
-    "item": 1001
+    "group": 21,
+    "item": 1237
   },
   "claims": [
     {
@@ -36,7 +36,7 @@
     },
     {
       "predicate": "LOCATED_AT",
-      "object": "Pons",
+      "object": "Pons (21, 4567)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -120,7 +120,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "Nucleus",
+      "object": "Nucleus (25, 9012)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -190,7 +190,7 @@
     },
     {
       "predicate": "LOCATED_AT",
-      "object": "Pons",
+      "object": "Pons (21, 4567)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -274,7 +274,7 @@
     },
     {
       "predicate": "MADE_OF",
-      "object": "Motor Neurons",
+      "object": "Motor Neurons (21, 1003)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -288,7 +288,7 @@
     },
     {
       "predicate": "MADE_OF",
-      "object": "Interneurons",
+      "object": "Interneurons (21, 1002)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -369,20 +369,47 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "RECEIVES",
+      "object": "Vestibular signals",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "nucleus (25, 9012)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The abducens nucleus is the originating nucleus from which the abducens nerve (VI) emerges.",
+    "definition": "A nucleus that receives vestibular signals.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The abducens nucleus contains internuclear neurons that communicate with the nucleus for the contralateral medial rectus muscle in the oculomotor complex via the medial longitudinal fasciculus to control conjugate horizontal eye movements.",
+    "mechanism": null,
     "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
     "STRUCTURAL": {
       "visual_features": [],
       "shape": [],
@@ -391,26 +418,16 @@
       "relations": []
     },
     "SPATIAL": {
-      "location": "Pons, near the floor of the fourth ventricle",
-      "connected_to": [
-        "Facial Colliculus",
-        "Sixth cranial nerve (Abducens nerve)",
-        "Medial Longitudinal Fasciculus"
-      ],
-      "coordinates": []
-    },
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
-    "source": "Multiple Web Sources",
+    "source": "See citations",
     "citations": [
-      "Wikipedia",
-      "NCBI Bookshelf",
-      "ScienceDirect Topics"
+      "http://www.oculist.net/downaton502/prof/ebook/duanes/pages/v2/v2c010.html"
     ]
-  },
-  "autocorrected": true
+  }
 }

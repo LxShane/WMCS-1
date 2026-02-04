@@ -1,0 +1,48 @@
+{
+  "name": "Register",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 2468
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "component in FPGA",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A memory element used to store data in a digital circuit.",
+    "common_uses": [
+      "Storing intermediate results",
+      "Holding state information"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Consists of flip-flops that can store and retrieve data under clock control.",
+    "origin": "A fundamental building block in digital systems for storing information."
+  },
+  "instance_layer": {
+    "examples": [
+      "Flip-flop register",
+      "Shift register"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Lecture 13 \u2013 Timing Analysis"
+    ]
+  }
+}

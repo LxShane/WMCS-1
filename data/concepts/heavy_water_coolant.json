@@ -1,0 +1,43 @@
+{
+  "name": "Heavy Water Coolant",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 21,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Cooling",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Water containing a higher proportion of deuterium than ordinary water, used as a coolant.",
+    "common_uses": [
+      "Nuclear Reactors"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "High neutron absorption cross-section.",
+    "origin": "Nuclear engineering."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "epistemic_metadata": {
+    "source": "PDF Document",
+    "citations": [
+      "Heat Transport System - canteach candu"
+    ]
+  }
+}

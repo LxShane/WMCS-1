@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 30,
-    "item": 1234
+    "item": 1010
   },
   "claims": [
     {
@@ -101,31 +101,34 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Amplifying sound",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A resonant structure in musical instruments.",
-    "common_uses": [
-      "Piano",
-      "Guitar"
-    ]
+    "definition": "The soundboard amplifies sound.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Material properties and structure affect vibration.",
-    "origin": "Crafted from specific materials."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Resonator"
-      ],
-      "capabilities": [
-        "Amplifying sound"
-      ]
-    },
     "STRUCTURAL": {
       "visual_features": [],
       "shape": [],
@@ -133,19 +136,21 @@
       "parts": [],
       "relations": []
     },
-    "SPATIAL": {
-      "location": "N/A",
-      "connected_to": [],
-      "coordinates": []
+    "SPATIAL": {},
+    "FUNCTION": {
+      "roles": [
+        "Amplifier"
+      ],
+      "capabilities": [
+        "Amplifies sound"
+      ]
     }
   },
   "epistemic_metadata": {
-    "source": "Multiple Sources",
+    "source": "Set Automatically",
     "citations": [
-      "https://forum.pianoworld.com/ubbthreads.php/topics/3548933/are-you-smarter-than-chatgtp-regarding-soundboards.html",
-      "https://pdfs.semanticscholar.org/7a6c/e9963e982ad812fab23873c7f7dd0b88baef.pdf",
-      "https://www.academia.edu/111214166/Evolution_of_the_vibrational_behavior_of_a_guitar_soundboard_along_successive_construction_phases_by_means_of_the_modal_analysis_technique"
+      "Piano - Wikipedia",
+      "Anatomy of the Piano \u2013 The Masters Music School"
     ]
-  },
-  "autocorrected": true
+  }
 }

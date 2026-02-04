@@ -1,0 +1,71 @@
+{
+  "name": "Excitation Circuit",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Powering Field Winding",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Supply Transformer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Circuit that supplies current to the field winding.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Transfers electrical energy to field winding.",
+    "origin": "Part of Generator excitation system."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Generator"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "ScienceDirect Topics",
+    "citations": [
+      "https://www.sciencedirect.com/topics/engineering/excitation-condition",
+      "https://www.pes-psrc.org/kb/report/119.pdf"
+    ]
+  }
+}

@@ -1,9 +1,9 @@
 {
   "name": "Delamination",
-  "type": "ABSTRACT_CONCEPT",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 50,
-    "item": 6789
+    "group": 20,
+    "item": 9012
   },
   "claims": [
     {
@@ -19,42 +19,99 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "failure mechanism",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "weakening of composite",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "reduction of stiffness",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "promotion of further failures",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "mechanism (24, 6543)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The separation of one layer from another.",
+    "definition": "A failure mechanism in composites.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Driven by cell-cell interactions.",
-    "origin": "Developmental biology."
+    "mechanism": "Separation of layers in a composite material.",
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
     "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+      "visual_features": [
+        "Layered"
+      ],
+      "shape": [
+        "Planar"
+      ],
+      "composition": [
+        "Composite Material"
+      ]
     }
   },
   "epistemic_metadata": {
-    "source": "Adherens junctions stimulate and spatially guide integrin",
-    "citations": [
-      "https://www.cell.com/cell-reports/fulltext/S2211-1247(22)00893-2"
-    ]
+    "source": "Review on fiber composites for sustainable high strain rate ...",
+    "citations": []
   }
 }

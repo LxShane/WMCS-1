@@ -1,0 +1,69 @@
+{
+  "name": "Gate Driver IC",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 3456
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Integrated Circuit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Driving MOSFETs or IGBTs",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONTRIBUTES_TO",
+      "object": "Parasitic Inductance",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An integrated circuit designed to drive MOSFETs or IGBTs.",
+    "common_uses": [
+      "Switching power supplies",
+      "Motor control"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Provides the gate voltage to turn on/off power transistors.",
+    "origin": "Developed for efficient switching of power transistors."
+  },
+  "instance_layer": {},
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "EFFICIENT, FLEXIBLE GATE DRIVE POWER SOLUTIONS FOR IGBTS",
+    "citations": []
+  }
+}

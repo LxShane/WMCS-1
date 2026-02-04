@@ -1,0 +1,80 @@
+{
+  "name": "Data Path",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "32 bits",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "64 bits",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "computer (30, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "data (50, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The path along which data flows within a computer system.",
+    "common_uses": [
+      "Data transfer",
+      "Communication between components"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Data travels along a physical pathway with a specific number of bits.",
+    "origin": "Fundamental aspect of computer architecture."
+  },
+  "instance_layer": {
+    "examples": [
+      "32-bit data path",
+      "64-bit data path"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Internal Bus - an overview | ScienceDirect Topics",
+    "citations": [
+      "https://www.sciencedirect.com/topics/engineering/internal-bus"
+    ]
+  }
+}

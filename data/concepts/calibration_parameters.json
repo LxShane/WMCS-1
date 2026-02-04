@@ -1,0 +1,42 @@
+{
+  "name": "Calibration Parameters",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "RELATED_TO",
+      "object": "relationship (50, 1006)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A set of values that define the relationship between the coordinate system of a device and the real world.",
+    "common_uses": [
+      "Robotics",
+      "Computer vision"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Calibration parameters are determined by comparing the device's measurements with known reference values.",
+    "origin": "Technical necessity"
+  },
+  "instance_layer": {
+    "examples": [
+      "Camera calibration parameters"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Determination of calibration parameters of a VRX CT system ...",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2678843/"
+    ]
+  }
+}

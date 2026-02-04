@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1002
+    "item": 5678
   },
   "claims": [
     {
@@ -19,10 +19,24 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "The action of changing between states",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The process of turning a device on or off.",
+    "definition": "The action of changing between states.",
     "common_uses": []
   },
   "deep_layer": {
@@ -32,31 +46,9 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Multiple Web Sources",
-    "citations": [
-      "https://www.electronics-tutorials.ws/transistor/tran_7.html",
-      "https://www.electronicshub.org/mosfet-as-a-switch/",
-      "https://www.infineon.com/assets/row/public/documents/24/42/infineon-gate-drive-for-power-mosfets-in-switchtin-applications-applicationnotes-en.pdf?fileId=8ac78c8c80027ecd0180467c871b3622"
-    ]
+    "source": "IEEE Draft Recommended Practice for Design and ... - IEEE Xplore",
+    "citations": []
   }
 }

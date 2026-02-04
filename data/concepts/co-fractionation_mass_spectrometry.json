@@ -1,0 +1,70 @@
+{
+  "name": "Co-fractionation Mass Spectrometry",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Technique for mapping protein interactions",
+      "temporal": {
+        "valid_from": "2000",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.85,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Mapping protein interactions under physiological conditions",
+      "temporal": {
+        "valid_from": "2000",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "protein (22, 1000)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A mass spectrometry-based technique for identifying protein interactions by separating protein complexes.",
+    "common_uses": [
+      "Protein interaction mapping",
+      "Studying protein complexes"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Protein complexes are separated by chromatography, then analyzed by mass spectrometry to identify interacting proteins.",
+    "origin": "Developed to study protein interactions in a high-throughput manner."
+  },
+  "instance_layer": {
+    "examples": [
+      "CF-MS analysis of human cell lysates",
+      "Mapping protein interactions in yeast using CF-MS"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Mapping protein states and interactions across the tree of ...",
+    "citations": [
+      "https://www.nature.com/articles/s41467-023-44139-5"
+    ]
+  }
+}

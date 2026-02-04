@@ -1,0 +1,84 @@
+{
+  "name": "Operator",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1238
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Selector Switch",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Selecting position on the selector switch",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Component of selector switch used to control the position.",
+    "common_uses": [
+      "Industrial control systems",
+      "Mode selection"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Handle for selecting which contact on a switch will activate.",
+    "origin": "Human interface to control the switch."
+  },
+  "instance_layer": {
+    "examples": [
+      "Knob",
+      "Lever"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Rotary knob",
+        "Lever"
+      ],
+      "shape": [
+        "Circular"
+      ],
+      "composition": [
+        "Plastic",
+        "Metal"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Selection Device"
+      ],
+      "capabilities": [
+        "Selecting position on switch"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Sources",
+    "citations": [
+      "https://literature.rockwellautomation.com/idc/groups/literature/documents/td/800t-td006_-en-p.pdf"
+    ]
+  }
+}

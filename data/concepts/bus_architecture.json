@@ -1,0 +1,69 @@
+{
+  "name": "Bus Architecture",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 3456
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Computer Architecture (50, 1238)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Physical Structure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "computer (30, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The design of the communication pathways within a computer system.",
+    "common_uses": [
+      "Designing efficient data transfer",
+      "Optimizing system performance"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Defines how data is transmitted between different components of the system.",
+    "origin": "Evolved from simple parallel connections."
+  },
+  "instance_layer": {
+    "examples": [
+      "PCI Express",
+      "USB"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Technology trends in computing hardware and their impacts on high ...",
+    "citations": []
+  }
+}

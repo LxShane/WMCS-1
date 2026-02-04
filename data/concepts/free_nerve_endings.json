@@ -1,0 +1,72 @@
+{
+  "name": "Free Nerve Endings",
+  "type": "BODY_PART",
+  "id": {
+    "group": 25,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "DETECTS",
+      "object": "Changes in skin temperature",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_IN",
+      "object": "Skin",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Unencapsulated nerve endings that act as sensory receptors.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Detect temperature changes via ion channels that open at specific temperatures.",
+    "origin": "Develop from neural crest cells during embryogenesis."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [
+        "Sensory neurons"
+      ],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Epidermis and dermis of the skin",
+      "coordinates": [],
+      "connected_to": [
+        "Afferent nerve fibers"
+      ],
+      "contained_in": "Skin"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "BIOL 2010: Chapter 1 -- The Human Body: An Orientation",
+    "citations": []
+  }
+}

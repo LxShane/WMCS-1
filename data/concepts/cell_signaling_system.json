@@ -1,0 +1,63 @@
+{
+  "name": "Cell Signaling System",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Membrane Raft",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Actin Cytoskeleton",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cell (21, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A system of interacting molecules that govern cell functions.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Signaling molecules bind to receptors, triggering a cascade of events that alter cell behavior.",
+    "origin": "Evolved to allow cells to respond to their environment."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "The spatial structure of cell signaling systems - PMC - PubMed Central",
+    "citations": []
+  }
+}

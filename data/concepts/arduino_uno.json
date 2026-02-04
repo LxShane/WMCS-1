@@ -1,0 +1,68 @@
+{
+  "name": "Arduino Uno",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Analog Input Channel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "microcontroller (21, 1004)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A microcontroller board based on the ATmega328P.",
+    "common_uses": [
+      "Prototyping",
+      "Educational projects"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Executes code to control electronic components.",
+    "origin": "Arduino project"
+  },
+  "instance_layer": {
+    "examples": [
+      "Commonly used microcontroller board"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Green",
+        "Rectangular"
+      ],
+      "shape": [
+        "Board"
+      ],
+      "composition": [
+        "PCB",
+        "Electronic components"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Analog Input Channels on Arduino Uno - ProteShea",
+    "citations": []
+  }
+}

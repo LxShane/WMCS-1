@@ -2,8 +2,8 @@
   "name": "GluN3A",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 5001
+    "group": 30,
+    "item": 1007
   },
   "claims": [
     {
@@ -285,39 +285,36 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "NMDA Receptor Subunit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "GluN3A is an NMDA receptor subunit.",
+    "definition": "A subunit of the NMDA receptor.",
     "common_uses": []
   },
   "deep_layer": {
     "mechanism": null,
     "origin": null
   },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "SPATIAL": {
-      "location": "Primarily expressed in the forebrain, with high levels in the cerebral cortex, hippocampus, and striatum during early development. Expression decreases with age but remains in specific brain regions like the frontal cortex and certain interneurons.",
-      "connected_to": [
-        "GluN1",
-        "GluN2A",
-        "GluN2B",
-        "PSD-95",
-        "Synaptic scaffolding proteins"
-      ],
-      "coordinates": []
-    }
-  },
+  "instance_layer": [],
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "PMC",
     "citations": [
-      "GluN3A: An NMDA Receptor Subunit with Exquisite Properties and Functions - PMC",
-      "GluN3A and Excitatory Glycine Receptors in the Adult Hippocampus | Journal of Neuroscience",
-      "GluN3A and Excitatory Glycine Receptors in the Adult Hippocampus - PMC"
+      "PMC3872238"
     ]
-  },
-  "autocorrected": true
+  }
 }

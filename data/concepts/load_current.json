@@ -1,0 +1,54 @@
+{
+  "name": "Load Current",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 22,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Current",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Current flowing through the load",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The current that flows through the load in an electrical circuit.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "The amount of current that an electrical component draws when connected to a circuit",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "[PDF] Data Acquisition Handbook - Logicbus",
+    "citations": []
+  }
+}

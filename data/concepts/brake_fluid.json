@@ -1,0 +1,93 @@
+{
+  "name": "Brake Fluid",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 22,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Fluid (30, 4567)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Transmitting hydraulic pressure",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "fluid (30, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A specialized hydraulic fluid used in brake systems.",
+    "common_uses": [
+      "Hydraulic pressure transmission"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Incompressible fluid that transfers force applied at the pedal to the calipers.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Pressure Transmitter"
+      ],
+      "capabilities": [
+        "Transmits hydraulic pressure"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Liquid"
+      ],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Inside brake lines and master cylinder",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Brake System"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://4lifetimelines.com/blogs/knowledge-garage/all-about-hydraulic-brake-systems?srsltid=AfmBOoojcQCju5dJdzxbb5R34Sm47pVvnrPJXRwghoUmFNoApxFMoOrW",
+      "https://www.r1concepts.com/blog/understanding-the-mechanics-how-does-the-brake-system-work/?srsltid=AfmBOooQPTDhNRflaQ6-JIrYDqTORuKpMpYFyGR8ldZIXk17_osH4sZ9",
+      "https://speedalpharetta.com/brake-system-anatomy-exploring-brake-master-cylinders/"
+    ]
+  }
+}

@@ -2,13 +2,13 @@
   "name": "Diencephalon",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 22,
-    "item": 9012
+    "group": 20,
+    "item": 1238
   },
   "claims": [
     {
       "predicate": "HAS_PART",
-      "object": "Thalamus",
+      "object": "Thalamus (22, 4567)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -33,48 +33,102 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Thalamus (22, 4567)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Part of the brain",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "brain (20, 3456)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "thalamus (22, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The diencephalon is the caudal (posterior) part of the forebrain.",
-    "common_uses": []
+    "definition": "A region of the brain that includes the thalamus, hypothalamus, epithalamus, and subthalamus.",
+    "common_uses": [
+      "Relaying sensory information",
+      "Controlling autonomic functions"
+    ]
   },
   "deep_layer": {
-    "mechanism": "The diencephalon relays sensory information between brain regions and controls many autonomic functions of the peripheral nervous system.",
-    "origin": "Develops from the forebrain during embryonic development."
+    "mechanism": "Connects the midbrain to the forebrain; regulates vital functions.",
+    "origin": "Develops from the embryonic forebrain."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Thalamus",
+      "Hypothalamus"
+    ]
   },
   "facets": {
     "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
+      "visual_features": [
+        "Small region",
+        "Centrally located"
+      ],
+      "shape": [
+        "Irregular"
+      ],
+      "composition": [
+        "Gray matter",
+        "Nuclei"
+      ],
       "parts": [
         "Thalamus",
         "Hypothalamus"
-      ],
-      "relations": []
+      ]
     },
     "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    },
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": [
-        "Relaying sensory information",
-        "Controlling autonomic functions"
-      ]
+      "location": "Deep inside the brain",
+      "connected_to": [
+        "Cerebrum",
+        "Brainstem"
+      ],
+      "contained_in": "Brain"
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Internet Archive",
     "citations": [
-      "Brainstem and Spinal Cord - Introduction to Neurobiology"
+      "Azzazi anaesthesia volume 2"
     ]
   }
 }

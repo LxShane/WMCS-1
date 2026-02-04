@@ -1,9 +1,9 @@
 {
-  "name": "Plasma Cell",
+  "name": "Plasma cell",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 22,
-    "item": 1002
+    "group": 21,
+    "item": 8901
   },
   "claims": [
     {
@@ -369,42 +369,64 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Antibody-secreting cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DERIVED_FROM",
+      "object": "B cell",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A fully differentiated B cell that produces and secretes antibodies.",
+    "definition": "A differentiated B cell that produces large amounts of antibodies.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Antibody secretion neutralizes pathogens.",
-    "origin": "Differentiates from B cells."
+    "mechanism": "Plasma cells synthesize and secrete antibodies.",
+    "origin": "Differentiate from activated B cells."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    },
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "See Sources",
-    "citations": [
-      "https://anatomynote.com/lymph-node-sectional-anatomy-and-flow/"
-    ]
+    "source": "Set Automatically",
+    "citations": []
   }
 }

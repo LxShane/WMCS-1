@@ -2,19 +2,39 @@
   "name": "NTS",
   "type": "BODY_PART",
   "id": {
-    "group": 24,
-    "item": 7890
+    "group": 32,
+    "item": 1006
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "HSD2 neurons",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "Abbreviation for Nucleus Tractus Solitarius.",
+    "definition": "Nucleus of the solitary tract",
     "common_uses": []
   },
-  "deep_layer": {},
-  "instance_layer": [],
+  "deep_layer": {
+    "mechanism": "The NTS processes sensory information from the internal organs.",
+    "origin": "The NTS develops during embryonic development."
+  },
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {},
   "epistemic_metadata": {
-    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11211284/",
+    "source": "https://www.sciencedirect.com/science/article/pii/S0006899308012626",
     "citations": []
   }
 }

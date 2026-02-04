@@ -5,7 +5,26 @@
     "group": 50,
     "item": 9900
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "RELATED_TO",
+      "object": "hardware (20, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "software (50, 5678)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
   "surface_layer": {
     "definition": "The structural design of an autonomous driving system, encompassing software, hardware, and communication components.",
     "common_uses": []

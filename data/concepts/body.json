@@ -1,0 +1,84 @@
+{
+  "name": "Body",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 22,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Anterior Surface",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Posterior Surface",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "structure (50, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The physical structure of a human or animal.",
+    "common_uses": [
+      "Movement",
+      "Sensation",
+      "Reproduction"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Complex interaction of organ systems.",
+    "origin": "Biological development"
+  },
+  "instance_layer": {
+    "examples": [
+      "Human body",
+      "Animal body"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Chapter 1. Body Structure \u2013 Human Anatomy and Physiology I",
+    "citations": []
+  }
+}

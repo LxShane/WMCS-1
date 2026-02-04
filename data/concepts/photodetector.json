@@ -2,8 +2,8 @@
   "name": "Photodetector",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 30,
-    "item": 1236
+    "group": 22,
+    "item": 1002
   },
   "claims": [
     {
@@ -33,20 +33,93 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Semiconductor Detector",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "converting optical signals to electrical signals",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Fundamental element of optical receiver",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A sensor that detects light."
+    "definition": "A semiconductor detector that converts light into electrical current.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Converts light into an electrical signal."
+    "mechanism": "Photodetectors generate electron-hole pairs when exposed to photons, creating an electrical current proportional to the light intensity.",
+    "origin": null
   },
-  "instance_layer": {},
-  "facets": {},
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Light Detector",
+        "Signal Converter"
+      ],
+      "capabilities": [
+        "Converting optical signals to electrical signals"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [
+        "Semiconductor"
+      ],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
   "epistemic_metadata": {
-    "source": "Active-pixel sensor - Wikipedia",
+    "source": "Set Automatically",
     "citations": [
-      "Page 1"
+      "https://www.thefoa.org/tech/ref/appln/transceiver.html",
+      "https://www.cse.wustl.edu/~jain/tutorials/ftp/t_3opt.pdf",
+      "https://www.ecb.torontomu.ca/~courses/ele885/Pres5-receivers.pdf"
     ]
   }
 }

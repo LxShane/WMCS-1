@@ -1,0 +1,91 @@
+{
+  "name": "Anatomical Connection",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Brain (20, 3456)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Biological Structure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_IN",
+      "object": "Sensorimotor Cortical Areas",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_IN",
+      "object": "Association Cortical Areas",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "connection (30, 1111)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A connection between two anatomical structures.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Anatomical connections facilitate communication and interaction between different parts of the body.",
+    "origin": "Anatomical connections develop during embryonic development."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "https://elifesciences.org/reviewed-preprints/95018v2",
+    "citations": []
+  }
+}

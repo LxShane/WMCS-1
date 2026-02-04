@@ -1,9 +1,9 @@
 {
   "name": "Hand",
-  "type": "LIVING_SYSTEM",
+  "type": "BODY_PART",
   "id": {
-    "group": 31,
-    "item": 1005
+    "group": 24,
+    "item": 1011
   },
   "claims": [
     {
@@ -33,15 +33,47 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Small Structures",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Superficial Location",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The terminal part of the upper limb."
+    "definition": "The terminal part of the upper limb.",
+    "common_uses": []
   },
+  "deep_layer": {},
+  "instance_layer": {},
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Orthobullets",
+    "source": "Set Automatically",
     "citations": [
-      "Blood Supply to Hand"
+      "https://pubs.rsna.org/doi/pdf/10.1148/rg.230046"
     ]
   }
 }

@@ -2,8 +2,8 @@
   "name": "Chassis",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 23,
-    "item": 1234
+    "group": 22,
+    "item": 1001
   },
   "claims": [
     {
@@ -117,34 +117,97 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Mechanical Interface",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Mounting Blades",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Chassis Geometry",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "vehicle (30, 1006)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The load-bearing framework of a vehicle.",
+    "definition": "The structural framework of a vehicle, supporting the body and mechanical components.",
     "common_uses": [
-      "Support vehicle body",
-      "Mounting point for components"
+      "Supporting vehicle components",
+      "Providing structural integrity"
     ]
   },
   "deep_layer": {
-    "mechanism": "Distributes forces from road and payload.",
-    "origin": "Early vehicles required separate frame and body."
+    "mechanism": "Provides a base for mounting the engine, drivetrain, suspension, and body.",
+    "origin": "Evolved from carriage frames."
   },
-  "instance_layer": {
-    "examples": [
-      "Ladder chassis",
-      "Monocoque chassis"
-    ]
-  },
+  "instance_layer": [
+    "Automobile chassis",
+    "Truck chassis"
+  ],
   "facets": {
     "STRUCTURAL": {
       "visual_features": [
         "Rigid",
-        "Frame-like"
+        "Metallic"
       ],
       "shape": [
         "Rectangular",
-        "Tubular"
+        "Platform-like"
       ],
       "composition": [
         "Steel",
@@ -153,32 +216,22 @@
       "parts": [
         "Frame rails",
         "Crossmembers"
-      ]
-    },
-    "FUNCTION": {
-      "roles": [
-        "Support",
-        "Protection"
       ],
-      "capabilities": [
-        "Bearing load",
-        "Distributing force"
-      ]
+      "relations": []
     },
     "SPATIAL": {
       "location": "Underneath the vehicle body",
+      "coordinates": [],
       "connected_to": [
+        "Engine",
         "Suspension",
-        "Engine mounts"
-      ]
+        "Body"
+      ],
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
-    "source": "Extraction from Web Content",
-    "citations": [
-      "https://grokipedia.com/page/Chassis",
-      "https://www.projecttopics.info/Mechanical/single-seater-race-car-chassis-frame.php",
-      "https://patents.google.com/patent/US6923282B2/en"
-    ]
+    "source": "Set Automatically",
+    "citations": []
   }
 }

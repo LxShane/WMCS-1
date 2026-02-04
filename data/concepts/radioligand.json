@@ -1,9 +1,9 @@
 {
   "name": "Radioligand",
-  "type": "INANIMATE_OBJECT",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 20,
-    "item": 1002
+    "group": 50,
+    "item": 3344
   },
   "claims": [
     {
@@ -61,43 +61,53 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Radioisotope labeled compounds used in vivo as tracers in PET studies and for in vitro binding studies",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Compound",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A ligand that is radiolabeled.",
-    "common_uses": []
+    "definition": "Radioisotope labeled compounds used in vivo as tracers in PET studies and for in vitro binding studies.",
+    "common_uses": [
+      "Tracers in PET studies",
+      "In vitro binding studies"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Radiolabel allows for detection and quantification.",
-    "origin": "Chemical synthesis."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "STRUCTURAL": {
-      "composition": [
-        "Radioactive isotope"
-      ]
-    },
-    "SPATIAL": {
-      "location": "Extracellular; Intracellular; Membrane-bound",
-      "connected_to": [
-        "Receptor",
-        "Enzyme",
-        "Transporter",
-        "Ion channel",
-        "Target protein"
-      ],
-      "coordinates": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "Radioligand Receptor Binding - an overview | ScienceDirect Topics",
-      "Concepts for design and analysis of receptor radiopharmaceuticals"
-    ]
-  },
-  "autocorrected": true
+    "source": "Binding affinity",
+    "citations": []
+  }
 }

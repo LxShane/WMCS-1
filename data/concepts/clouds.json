@@ -1,0 +1,79 @@
+{
+  "name": "Clouds",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 6666
+  },
+  "claims": [
+    {
+      "predicate": "MADE_OF",
+      "object": "Condensed water vapor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "atmosphere (21, 1122)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "water (20, 1237)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Masses of condensed water vapor in the atmosphere.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Water vapor condenses around microscopic particles in the air.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "White",
+        "Fluffy"
+      ],
+      "shape": [],
+      "composition": [
+        "Water Vapor"
+      ],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Atmosphere",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://www.usgs.gov/water-science-school/science/atmosphere-and-water-cycle"
+    ]
+  }
+}

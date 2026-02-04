@@ -3,12 +3,12 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 5678
+    "item": 7890
   },
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "Chemical Bond",
+      "object": "Chemical Bond (50, 4567)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -50,7 +50,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "Interatomic Force",
+      "object": "Interatomic Force (20, 1237)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -89,24 +89,47 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "chemical bond (50, 4567)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "electron (20, 9012)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "An analogous effect to covalent binding is believed to occur in some nuclear systems.",
+    "definition": "A chemical bond that involves the sharing of electron pairs between atoms.",
     "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": "Shared fermions are quarks rather than electrons.",
-    "origin": "Sharing of fermions"
+  "deep_layer": {},
+  "instance_layer": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    }
   },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {},
   "epistemic_metadata": {
-    "source": "Covalent bond - Wikipedia",
+    "source": "Extraction from text",
     "citations": [
-      "Page 1"
+      "https://www.sciencedirect.com/topics/chemistry/bioconjugation"
     ]
   }
 }

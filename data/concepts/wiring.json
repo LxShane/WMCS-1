@@ -1,9 +1,9 @@
 {
   "name": "Wiring",
-  "type": "INANIMATE_OBJECT",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 30,
-    "item": 1234
+    "group": 50,
+    "item": 1005
   },
   "claims": [
     {
@@ -33,54 +33,38 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Dendritic and axonal morphogenesis and establishment of synapses.",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A system of wires used for electrical signal and control transmission.",
-    "common_uses": [
-      "Electrical power distribution",
-      "Control systems"
-    ]
+    "definition": "Dendritic and axonal morphogenesis and establishment of synapses.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Wiring allows electrical current to flow between components, enabling control and communication.",
-    "origin": "Developed with the advent of electrical power and control systems."
+    "mechanism": "Complex cellular process.",
+    "origin": null
   },
   "instance_layer": {
-    "examples": [
-      "Wiring in a household electrical system",
-      "Wiring in an industrial control panel"
-    ]
+    "examples": []
   },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [
-        "Insulated",
-        "Metallic"
-      ],
-      "shape": [
-        "Cylindrical",
-        "Stranded"
-      ],
-      "composition": [
-        "Copper",
-        "Aluminum",
-        "Insulating Material (PVC, etc.)"
-      ]
-    },
-    "FUNCTION": {
-      "roles": [
-        "Electrical Conductor"
-      ],
-      "capabilities": [
-        "Conducts electricity"
-      ]
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Electrical Signal and Control Wiring",
+    "source": "Set Automatically",
     "citations": [
-      "https://control.com/textbook/instrument-connections/electrical-signal-and-control-wiring/"
+      "https://www.sciencedirect.com/science/article/pii/S0896627318308973"
     ]
   }
 }

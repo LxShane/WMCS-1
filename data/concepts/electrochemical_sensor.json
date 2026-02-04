@@ -1,0 +1,68 @@
+{
+  "name": "Electrochemical Sensor",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Detection of analytes via electrochemical methods",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Electrode",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A sensor that uses electrochemical principles to detect and measure the concentration of a substance.",
+    "common_uses": [
+      "Environmental monitoring",
+      "Medical diagnostics"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The sensor measures changes in electrical current or potential in response to the presence of a specific analyte.",
+    "origin": "Evolved from electrochemical analysis techniques."
+  },
+  "instance_layer": {
+    "examples": [
+      "Glucose sensor in a blood glucose meter"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Detector"
+      ],
+      "capabilities": [
+        "detect chemical concentrations"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://pubs.acs.org/doi/10.1021/acs.analchem.2c04541",
+    "citations": []
+  }
+}

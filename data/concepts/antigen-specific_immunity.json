@@ -1,0 +1,47 @@
+{
+  "name": "Antigen-specific immunity",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 30,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "REQUIRES",
+      "object": "Regulated trafficking of T cells",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "antigen (21, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Immunity that is specific to a particular antigen.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Involves T cell trafficking to orchestrate lymphocyte development.",
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Emerging Understanding of Trafficking and Antigen-Specific Immunity - PMC",
+    "citations": []
+  }
+}

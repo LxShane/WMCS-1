@@ -1,0 +1,173 @@
+{
+  "name": "IGBT",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Transistor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "High-voltage applications",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Insulated Gate Bipolar Transistor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Power semiconductor device",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "High-speed switching",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "High-current",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "EXCELS_IN",
+      "object": "High-voltage scenarios",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Diode",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "USER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A power semiconductor device combining MOSFET and bipolar transistor characteristics.",
+    "common_uses": [
+      "High-voltage applications",
+      "High-power inverters"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Combines the high input impedance of a MOSFET with the low on-state voltage drop of a bipolar transistor.",
+    "origin": "Developed to handle high voltage and current applications more efficiently than traditional MOSFETs."
+  },
+  "instance_layer": {
+    "examples": [
+      "Used in variable frequency drives",
+      "Electric vehicles"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Switch",
+        "Amplifier"
+      ],
+      "capabilities": [
+        "High voltage handling",
+        "High current handling"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic",
+        "Small"
+      ],
+      "shape": [
+        "Rectangular",
+        "Flat"
+      ],
+      "composition": [
+        "Silicon",
+        "Metal"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Web Sources",
+    "citations": [
+      "https://www.linkedin.com/pulse/understanding-mosfets-vs-igbts-which-kb58f",
+      "https://www.infineon.com/knowledge-centre/difference-between-bjts-mosfets-and-igbts",
+      "https://www.reddit.com/r/AskElectronics/comments/wwgb1b/why_would_you_ever_use_a_mosfet_over_an_igbt_why/"
+    ]
+  }
+}

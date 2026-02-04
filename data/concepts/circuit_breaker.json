@@ -2,8 +2,8 @@
   "name": "Circuit Breaker",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 21,
-    "item": 6006
+    "group": 31,
+    "item": 2468
   },
   "claims": [
     {
@@ -47,20 +47,109 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Stopping the flow of electricity in the case of an overload or short circuit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Protecting the network and assuring safety",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "circuit (30, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "electricity (50, 1238)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "flow (20, 2345)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "network (50, 1236)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "safety (50, 1011)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "An automatically operated electrical switch designed to protect an electrical circuit from damage caused by excess current from an overload or short circuit.",
-    "common_uses": []
+    "definition": "Automatically stop the flow of electricity in the case of an overload or a short circuit , protecting the network and assuring safety.",
+    "common_uses": [
+      "protect electrical circuits"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Detects fault current and interrupts the circuit",
-    "origin": null
+    "mechanism": "Stops flow of electricity when a fault is detected",
+    "origin": "Unknown"
   },
   "instance_layer": [],
-  "facets": {},
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
   "epistemic_metadata": {
-    "source": "Electro-genesis",
+    "source": "https://www.monolithicpower.com/en/learning/mpscholar/ac-power/the-power-grid/power-distribution-systems",
     "citations": []
   }
 }

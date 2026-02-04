@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 30,
-    "item": 7491
+    "item": 1236
   },
   "claims": [
     {
@@ -61,34 +61,115 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Motor Protein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Motor Protein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "power movements on microtubules",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Motor Proteins",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Endocytosis",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "retrograde transport",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Microtubule motor that moves along microtubules.",
+    "definition": "A motor protein that drives retrograde transport.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Dynein interacts with tubulin to move along microtubules.",
-    "origin": null
+    "mechanism": "Dynein uses ATP hydrolysis to move along microtubule tracks.",
+    "origin": "Eukaryotic cells"
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {
     "FUNCTION": {
       "roles": [
-        "Movement Generator"
+        "Motor Protein"
       ],
       "capabilities": [
-        "Movement along microtubules"
+        "retrograde transport"
       ]
-    },
-    "STRUCTURAL": {},
-    "SPATIAL": {}
+    }
   },
   "epistemic_metadata": {
-    "source": "Motor protein - Wikipedia, Lecture 17 - Motor Proteins Flashcards",
-    "citations": [
-      "https://en.wikipedia.org/wiki/Motor_protein",
-      "https://quizlet.com/751701530/lecture-17-motor-proteins-flash-cards/"
-    ]
+    "source": "Axonal Transport: Cargo-Specific Mechanisms",
+    "citations": []
   }
 }

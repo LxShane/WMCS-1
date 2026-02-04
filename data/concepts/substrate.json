@@ -1,9 +1,9 @@
 {
   "name": "Substrate",
-  "type": "LIVING_SYSTEM",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 21,
-    "item": 9012
+    "group": 30,
+    "item": 1234
   },
   "claims": [
     {
@@ -47,56 +47,151 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Underlying substance or layer onto which something is applied.",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "molecule acted upon by an enzyme",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "converted into products",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "binding to the active site of an enzyme",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Place for interaction",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": "Introduction"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Influencing endothelial cell responses",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Manipulating objects of interest",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": "Introduction"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Surface structures",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A molecule upon which an enzyme acts.",
-    "common_uses": []
+    "definition": "A place for interaction where users can manipulate objects of interest.",
+    "common_uses": [
+      "Cell culture",
+      "Interactive systems"
+    ]
   },
   "deep_layer": {
-    "mechanism": "The substrate binds to the active site of an enzyme, forming an enzyme-substrate complex. This complex facilitates the chemical reaction.",
-    "origin": "Can be any molecule that interacts with an enzyme."
+    "mechanism": "Influence on endothelial cell responses through surface structures.",
+    "origin": null
   },
   "instance_layer": {
-    "examples": [
-      "Sucrose",
-      "Lactose"
-    ]
+    "examples": []
   },
   "facets": {
     "FUNCTION": {
       "roles": [
-        "Reactant"
+        "Interaction medium"
       ],
       "capabilities": [
-        "Undergoes chemical reaction",
-        "Binds to enzymes"
+        "Supports object manipulation",
+        "Influences cell behavior"
       ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "Variable; Depends on context. Could be basal, superficial, or internal relative to surrounding structures.",
-      "connected_to": [
-        "Adjacent cells",
-        "Extracellular matrix",
-        "Basement membrane",
-        "Enzymes",
-        "Receptors"
-      ],
-      "coordinates": []
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Chemistry_for_Changing_Times_(Hill_and_McCreary)/16:_Biochemistry/16.05:_Structure_and_Function_of_Proteins"
+      "https://www.sciencedirect.com/science/article/pii/S2590006424001194",
+      "https://dl.acm.org/doi/10.1145/3706598.3714006",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12152944/"
     ]
-  },
-  "autocorrected": true
+  }
 }

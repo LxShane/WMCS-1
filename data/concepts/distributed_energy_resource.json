@@ -2,8 +2,8 @@
   "name": "Distributed Energy Resource",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 23,
-    "item": 1003
+    "group": 20,
+    "item": 1001
   },
   "claims": [
     {
@@ -33,25 +33,176 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Energy Resource",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "provide numerous benefits to customers and the grid",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PROVIDES",
+      "object": "lower cost",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PROVIDES",
+      "object": "improved resilience",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Energy Resource",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Communication Interfaces",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Open Standard Communication Interfaces",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Interoperable Integration with Control Systems",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "energy (50, 1005)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Energy generation source located close to where the energy is used.",
+    "definition": "A resource that generates energy in a distributed manner, often close to the point of consumption.",
     "common_uses": [
-      "Local power generation"
+      "Power Generation",
+      "Grid Support"
     ]
   },
   "deep_layer": {
-    "mechanism": "Distributed energy resources convert renewable or fossil fuels into electricity.",
-    "origin": "Developed to increase energy efficiency and reduce transmission losses."
+    "mechanism": "DERs convert various energy sources into electricity and interface with the grid.",
+    "origin": "Emerged with the need for decentralized energy generation."
   },
-  "instance_layer": [
-    "Solar panel",
-    "Wind turbine"
-  ],
-  "facets": {},
+  "instance_layer": {
+    "examples": [
+      "Wind turbines",
+      "PV panels",
+      "Small hydropower"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Energy Provider"
+      ],
+      "capabilities": [
+        "Generating electricity",
+        "Supporting grid stability"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {
+      "location": "Decentralized, various locations within an electrical grid",
+      "connected_to": [
+        "Electrical grid",
+        "Local loads (e.g., homes, businesses)",
+        "Energy storage systems",
+        "Other DERs"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "Microgrid - Wikipedia",
-    "citations": []
-  }
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.nrel.gov/grid/ieee-standard-1547/overview-distributed-energy-resource-interconnection",
+      "https://restservice.epri.com/publicdownload/000000003002019424/0/Product",
+      "https://www.energy.gov/sites/default/files/2024-09/Draft+DER+Interconnection+Roadmap+for+RFI.pdf"
+    ]
+  },
+  "autocorrected": true
 }

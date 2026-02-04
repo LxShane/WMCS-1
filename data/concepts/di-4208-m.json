@@ -2,8 +2,8 @@
   "name": "DI-4208-M",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 1002
+    "group": 30,
+    "item": 1001
   },
   "claims": [
     {
@@ -75,34 +75,113 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Data Acquisition System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "USB Interface",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Ethernet Interface",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Windaq software",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Analog Input Channels",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "data (50, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A rugged, high-speed data acquisition system.",
-    "common_uses": []
+    "definition": "DI-4208-M is a rugged, high-speed data acquisition system.",
+    "common_uses": [
+      "Data Acquisition"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Unknown",
-    "origin": "Unknown"
+    "mechanism": "The device acquires analog data via its input channels and converts it to digital data for processing via USB or Ethernet.",
+    "origin": "Designed and manufactured by DATAQ Instruments."
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {
     "STRUCTURAL": {
-      "visual_features": [
-        "Rugged"
-      ],
+      "visual_features": [],
       "shape": [],
       "composition": [],
-      "parts": [
-        "USB",
-        "Ethernet",
-        "8 analog input channels"
-      ],
+      "parts": [],
       "relations": []
     }
   },
   "epistemic_metadata": {
-    "source": "https://www.dataq.com/products/di-4208-m/?srsltid=AfmBOorcQ5Kq9ptnM8Ea1IkBNqRRlZU59pXQLbQ3WQeHASCYOyxbJm7I",
-    "citations": []
+    "source": "DI-4208-M Rugged High Speed USB/Ethernet Data Acquisition",
+    "citations": [
+      "https://www.dataq.com/products/di-4208-m/?srsltid=AfmBOoovojJf-kUfovc6MJz_jjaoaDShVQnrN2O4P_gcPGl3vU_x0_ae"
+    ]
   }
 }

@@ -3,7 +3,7 @@
   "type": "BODY_PART",
   "id": {
     "group": 24,
-    "item": 1234
+    "item": 1001
   },
   "claims": [
     {
@@ -103,31 +103,34 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "SC neurons",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A layered structure in the midbrain involved in sensory integration and motor control, particularly eye movements.",
+    "definition": "A structure in the brain.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Receives sensory input from multiple sources and projects to motor areas to initiate movements.",
-    "origin": "Part of the tectum in vertebrates."
+    "mechanism": "Neural processing of sensory information.",
+    "origin": "Biological development."
   },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": []
-    },
-    "SPATIAL": {},
-    "FUNCTION": {}
-  },
+  "instance_layer": [],
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9723059/",
     "citations": []
   }
 }

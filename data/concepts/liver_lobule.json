@@ -1,0 +1,108 @@
+{
+  "name": "Liver Lobule",
+  "type": "BODY_PART",
+  "id": {
+    "group": 22,
+    "item": 1007
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Hepatic Artery",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Portal Vein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Bile Duct",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Central Vein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The structural and functional unit of the liver.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "The liver lobule is responsible for filtering blood and producing bile.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Prismatic volumes",
+        "Hexagonal cross section"
+      ],
+      "shape": [
+        "Hexagonal"
+      ],
+      "composition": [],
+      "parts": [
+        "Hepatic artery",
+        "Portal Vein",
+        "Bile Duct",
+        "Central Vein"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Liver",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Liver"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Extracted from text",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7531010/"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Emulator",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 8765
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Hardware or software that enables one computer system to behave like another computer system",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Providing network connectivity to a device",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A system that replicates the behavior of another system.",
+    "common_uses": [
+      "Running applications designed for a different OS",
+      "Testing software on various platforms"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Translates instructions and system calls to mimic the target environment.",
+    "origin": "From the need to run software on incompatible hardware."
+  },
+  "instance_layer": {
+    "examples": [
+      "An Android emulator on a Windows PC"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "System replicator",
+        "Environment simulator"
+      ],
+      "capabilities": [
+        "Instruction translation",
+        "System call emulation"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "US7848913B2",
+    "citations": []
+  }
+}

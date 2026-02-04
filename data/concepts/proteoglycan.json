@@ -2,8 +2,8 @@
   "name": "Proteoglycan",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 9012
+    "group": 20,
+    "item": 1240
   },
   "claims": [
     {
@@ -145,10 +145,38 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Protein",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Extracellular Matrix",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A molecule composed of a protein and a glycosaminoglycan.",
+    "definition": "Proteoglycans are crucial proteins in the extracellular matrix.",
     "common_uses": []
   },
   "deep_layer": {
@@ -158,29 +186,11 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "WMCS Ingestion Engine",
     "citations": [
-      "https://en.wikipedia.org/wiki/Golgi_apparatus"
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11594217/"
     ]
   }
 }

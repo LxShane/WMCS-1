@@ -1,0 +1,70 @@
+{
+  "name": "In-cabin Activities",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Activities occurring inside a vehicle cabin by the driver and passenger",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "BASED_ON",
+      "object": "Body position",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "BASED_ON",
+      "object": "Size",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Actions or states of being exhibited by occupants inside a vehicle cabin.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "In-cabin activities are inferred from observable cues like body posture and dimensions.",
+    "origin": "Observed and recorded within the context of vehicle operation and safety."
+  },
+  "instance_layer": [
+    "Driver talking on the phone",
+    "Passenger adjusting the radio",
+    "Driver falling asleep"
+  ],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "U.S. Patent 11485308 & U.S. Patent Application 20240034260",
+    "citations": []
+  }
+}

@@ -1,49 +1,56 @@
 {
-  "name": "synaptic strength",
+  "name": "Synaptic Strength",
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 5432
+    "item": 7890
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "DETERMINED_BY",
+      "object": "Synaptic AMPAR abundance",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Corticostriatal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "The effectiveness of communication between two neurons.",
+    "definition": "Measure of the effectiveness of a synapse.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Determined by the number and activity of receptors and the amount of neurotransmitter released.",
-    "origin": "Changes in synaptic strength underlie learning and memory."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Communication Efficiency"
-      ],
-      "capabilities": [
-        "Determining the efficacy of neuronal communication"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "Synapse",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": "Brain"
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "NMDA-receptor trafficking and targeting: implications for ..."
+      "Astrocyte GluN2C NMDA receptors control basal synaptic"
     ]
   }
 }

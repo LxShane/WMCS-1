@@ -1,0 +1,61 @@
+{
+  "name": "Bromodomains",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 1236
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Stabilize chromatin associations",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Acetylated histones",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "protein (22, 1000)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A protein domain that binds to acetylated histones.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Bromodomains bind to acetylated histones, stabilizing chromatin associations.",
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

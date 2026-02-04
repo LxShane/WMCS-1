@@ -1,0 +1,106 @@
+{
+  "name": "Space Vehicle",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 31,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Vehicle designed for travel in outer space.",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "High Reliability",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Long Life",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A vehicle designed or used for travel in outer space.",
+    "common_uses": [
+      "Transporting astronauts",
+      "Carrying satellites",
+      "Exploring other planets"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Operates using rocket propulsion and sophisticated navigation systems to travel through the vacuum of space.",
+    "origin": "Developed in the mid-20th century."
+  },
+  "instance_layer": [
+    "Space Shuttle",
+    "International Space Station"
+  ],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Streamlined",
+        "Metallic",
+        "Varying shapes and sizes"
+      ],
+      "shape": [
+        "Cylindrical",
+        "Conical",
+        "Irregular"
+      ],
+      "parts": [
+        "Rocket engines",
+        "Fuel tanks",
+        "Payload bay",
+        "Control systems"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Transportation",
+        "Exploration",
+        "Research"
+      ],
+      "capabilities": [
+        "Space Travel",
+        "Orbiting Earth",
+        "Landing on other planets"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "MIL-STD-1547B Electronic Parts, Materials, and Processes for Space ...",
+    "citations": [
+      "MIL-STD-1547B"
+    ]
+  }
+}

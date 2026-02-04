@@ -1,0 +1,60 @@
+{
+  "name": "HDD Form Factor",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 6789
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "The physical size or geometry of a data storage device.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Industry Standards",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The standardized physical dimensions of a hard disk drive.",
+    "common_uses": [
+      "Ensuring compatibility",
+      "Designing enclosures"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Ensures that HDDs can fit into standard bays in computers and servers.",
+    "origin": "Developed to provide interchangeability and ease of integration."
+  },
+  "instance_layer": {
+    "examples": [
+      "3.5-inch HDD",
+      "2.5-inch HDD"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "[PDF] Study for the review of Commission Regulation 2019/424 (Ecodesign of ...",
+    "citations": []
+  }
+}

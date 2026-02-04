@@ -173,6 +173,19 @@ class ContentIngestor:
             with open(save_path, 'w', encoding='utf-8') as f:
                 json.dump(block_data, f, indent=2)
             
+            # AUTO-ADD ID RELATIONS
+            try:
+                from system_a_cognitive.logic.relation_builder import get_builder
+                builder = get_builder()
+                relations_added = builder.auto_add_relations(block_data)
+                if relations_added > 0:
+                    # Re-save with new relations
+                    with open(save_path, 'w', encoding='utf-8') as f:
+                        json.dump(block_data, f, indent=2)
+                    print(f"  + Added {relations_added} ID-based relations")
+            except Exception as e:
+                print(f"  [!] RelationBuilder error: {e}")
+            
             created_concepts.append(name)
             print(f"  Saved Concept: {name} -> {filename}")
 

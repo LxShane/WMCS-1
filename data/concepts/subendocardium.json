@@ -1,0 +1,60 @@
+{
+  "name": "Subendocardium",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 32,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_BETWEEN",
+      "object": "Endocardium",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_BETWEEN",
+      "object": "Myocardium",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The layer between the endocardium and the myocardium.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {},
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK545143/"
+    ]
+  }
+}

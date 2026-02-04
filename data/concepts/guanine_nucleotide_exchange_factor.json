@@ -89,15 +89,130 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "GEF",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Regulation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Translocation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Structural Responses",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "RasGEFs",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "RhoGEFs",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "RabGEFs",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "ArfGEFs",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A protein that promotes the release and exchange of bound nucleotides on GTPases.",
-    "common_uses": []
+    "definition": "A Guanine Nucleotide Exchange Factor regulates small GTPases.",
+    "common_uses": [
+      "Therapeutic Targets",
+      "Study of regulatory networks"
+    ]
   },
   "deep_layer": {
-    "mechanism": "GEFs catalyze the exchange of GDP for GTP on GTPases, activating them.",
-    "origin": "Produced via gene expression."
+    "mechanism": "GEFs activate small GTPases by promoting the exchange of GDP for GTP.",
+    "origin": "Evolutionary origin in early eukaryotic cells."
   },
   "instance_layer": {
     "examples": []
@@ -108,32 +223,29 @@
         "Activator"
       ],
       "capabilities": [
-        "Catalyzing GDP-to-GTP exchange"
+        "GDP exchange for GTP"
       ]
     },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [
-        "DH domain",
-        "PH domain"
-      ],
-      "relations": []
-    },
     "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+      "location": "Cytoplasm, Nucleus (depending on specific GEF)",
+      "connected_to": [
+        "Receptor Tyrosine Kinases (RTKs)",
+        "Small GTPases (e.g., Ras, Rho, Arf)",
+        "G protein-coupled receptors (GPCRs)",
+        "Membrane receptors",
+        "Downstream effector proteins of GTPases",
+        "Other signaling proteins"
+      ],
+      "coordinates": []
     }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Ingestion Engine",
     "citations": [
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12475976/",
-      "https://www.sciencedirect.com/topics/immunology-and-microbiology/guanine-nucleotide-exchange-factor",
-      "https://onlinelibrary.wiley.com/doi/full/10.1002/mco2.70362"
+      "https://pubmed.ncbi.nlm.nih.gov/41020039/",
+      "https://www.molbiolcell.org/doi/10.1091/mbc.e18-12-0820",
+      "https://link.springer.com/chapter/10.1007/978-3-7091-1806-1_3"
     ]
-  }
+  },
+  "autocorrected": true
 }

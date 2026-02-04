@@ -1,0 +1,73 @@
+{
+  "name": "Sensory Nerve Fiber",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 3456
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Hairs in mammals",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Thermoregulation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A nerve fiber that transmits sensory information.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Transmits signals from sensory receptors to the central nervous system.",
+    "origin": "Develops from the neural crest during embryogenesis."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {},
+    "STRUCTURAL": {},
+    "SPATIAL": {
+      "location": "Throughout the body, peripheral nervous system",
+      "connected_to": [
+        "Sensory receptors",
+        "Spinal cord",
+        "Brainstem",
+        "Brain",
+        "Skin",
+        "Muscles",
+        "Internal organs"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://www.kenhub.com/en/library/physiology/peripheral-mechanosensory-receptors"
+    ]
+  },
+  "autocorrected": true
+}

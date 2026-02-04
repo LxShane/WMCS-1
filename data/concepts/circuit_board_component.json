@@ -1,0 +1,163 @@
+{
+  "name": "Circuit Board Component",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Resistor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Capacitor (30, 4567)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Integrated Circuit (30, 1238)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Sensor (20, 1003)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Bringing projects to life",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "circuit (30, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The discrete electronic parts placed on a circuit board for its overall behavior.",
+    "common_uses": [
+      "Modifying circuit characteristics",
+      "Sensing external environment",
+      "Executing logical instructions"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Individual parts work in concert based on current flow paths to achieve designed action.",
+    "origin": "Development of mass-produced components with standard characteristics and use patterns."
+  },
+  "instance_layer": {
+    "examples": [
+      "LED",
+      "Microcontroller",
+      "Potentiometer"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Control",
+        "Sensing",
+        "Actuation"
+      ],
+      "capabilities": [
+        "Regulating current",
+        "Storing charge",
+        "Detecting environment changes"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Varying shapes and sizes"
+      ],
+      "shape": [
+        "Cylindrical",
+        "Rectangular",
+        "Spherical"
+      ],
+      "composition": [
+        "Ceramic",
+        "Metal",
+        "Silicon"
+      ],
+      "parts": [
+        "Leads",
+        "Body",
+        "Encapsulation"
+      ],
+      "relations": [
+        "Soldered to pads",
+        "Connected via traces"
+      ]
+    },
+    "SPATIAL": {
+      "location": "On the circuit board",
+      "coordinates": [
+        "Based on PCB layout"
+      ],
+      "connected_to": [
+        "Other components",
+        "Traces"
+      ],
+      "contained_in": "Electronic device"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.pcbasic.com/blog/circuit-board-components.html"
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "name": "Autophagosome-lysosome fusion",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 60,
+    "item": 9123
+  },
+  "claims": [
+    {
+      "predicate": "CAUSES",
+      "object": "Formation of autolysosome",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Molecular motors",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "process (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The process by which an autophagosome and a lysosome merge to form an autolysosome.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Involves SNARE proteins and other molecules to mediate membrane fusion.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Cellular degradation",
+        "Nutrient recycling"
+      ],
+      "capabilities": [
+        "Merging autophagosomes and lysosomes",
+        "Delivering cargo for degradation"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "PROCESS_DATA": {
+      "initiator": "Autophagosome and lysosome",
+      "affected": "Formation of Autolysosome"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

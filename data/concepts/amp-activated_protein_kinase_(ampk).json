@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 30,
-    "item": 1006
+    "item": 1234
   },
   "claims": [
     {
@@ -33,38 +33,118 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "conserved energy sensor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "phosphorylating various substrates",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PLAYS_ROLE",
+      "object": "diverse biological processes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PLAYS_ROLE",
+      "object": "DNA repair (50, 5678)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "ampk (21, 1004)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "energy (50, 1005)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "protein (22, 1000)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "sensor (20, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A protein kinase that responds to nutrient limitation by switching off ATP-consuming pathways.",
+    "definition": "AMP-activated protein kinase (AMPK) is a conserved energy sensor.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
+    "mechanism": "AMPK phosphorylates various substrates to regulate diverse biological processes.",
     "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "SPATIAL": {
-      "location": "Cytoplasm, Nucleus, Mitochondria, Lysosome, Peroxisome",
-      "connected_to": [
-        "LKB1 complex",
-        "Axin",
-        "STRAD",
-        "MO25",
-        "AMP",
-        "ATP",
-        "Phospholipids",
-        "Various substrates depending on cellular location and context"
-      ],
-      "coordinates": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "https://portlandpress.com/essaysbiochem/article/68/3/309/234965/CaMKK2-bridging-the-gap-between-Ca2-signaling-and",
-    "citations": []
-  },
-  "autocorrected": true
+    "source": "Multiple Academic Sources",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4635044/",
+      "https://academic.oup.com/gpb/article/20/4/597/7230473",
+      "https://www.sciencedirect.com/science/article/pii/S1672022921000176"
+    ]
+  }
 }

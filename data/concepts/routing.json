@@ -1,0 +1,63 @@
+{
+  "name": "Routing",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 3210
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Allowable paths for packets.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "AFFECTS",
+      "object": "Path selection, deadlock handling, network congestion, load balancing.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The process of selecting the most efficient path for data packets within a network.",
+    "common_uses": [
+      "Data transmission",
+      "Network management"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Routing algorithms determine the best path based on factors such as distance, congestion, and cost.",
+    "origin": "Developed to optimize data transfer in networks."
+  },
+  "instance_layer": {
+    "examples": [
+      "Shortest path routing",
+      "Adaptive routing",
+      "Static routing"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Interconnection Networks (Introductory Slides)",
+    "citations": [
+      "https://web.stanford.edu/class/cs349g/cs349g-pinkston.pdf"
+    ]
+  }
+}

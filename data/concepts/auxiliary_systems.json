@@ -1,0 +1,90 @@
+{
+  "name": "Auxiliary Systems",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1357
+  },
+  "claims": [
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "managing heat, detecting faults, suppressing fires, and orchestrating control",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "substation, charger, or BESS",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "the hidden infrastructure that ensures safety, intelligence, and uptime",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "heat (20, 3456)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Systems managing heat, detecting faults, suppressing fires, and orchestrating control in substations, chargers, or BESS.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Various components and control systems working together to ensure safe and reliable operation.",
+    "origin": "Engineering design."
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Safety Manager",
+        "Control Orchestrator"
+      ],
+      "capabilities": [
+        "Heat Management",
+        "Fault Detection",
+        "Fire Suppression",
+        "Control"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "What Are Auxiliary Systems? Role in BESS & EV Safety",
+    "citations": [
+      "https://www.exicom.com/wiki/what-are-auxiliary-systems"
+    ]
+  }
+}

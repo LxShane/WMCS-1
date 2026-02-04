@@ -2,8 +2,8 @@
   "name": "Neurovascular Unit",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 1234
+    "group": 21,
+    "item": 1007
   },
   "claims": [
     {
@@ -355,22 +355,66 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "NVU",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Central Nervous System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Complex interface of nerves and blood vessels",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The neurovascular unit (NVU) comprises the components of the brain that collectively regulate cerebral blood flow in order to deliver the requisite nutrients to activated neurons.",
+    "definition": "An interface between the nervous and vascular systems in the CNS.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Interactions between components sense neurons' needs and trigger appropriate vasodilatory or vasoconstrictive responses.",
-    "origin": "Brain"
+    "mechanism": "Facilitates communication and exchange between the nervous and vascular systems.",
+    "origin": "Co-development of nervous and vascular tissues."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "See URL",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.mdpi.com/2218-273X/14/8/966"
+    ]
   }
 }

@@ -1,9 +1,9 @@
 {
   "name": "Lamina II",
-  "type": "BODY_PART",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 29,
-    "item": 1236
+    "group": 20,
+    "item": 7890
   },
   "claims": [
     {
@@ -47,38 +47,49 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "spinal cord layer",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "substantia gelatinosa of Rolando",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Lamina II is one of the ten layers of the Rexed laminae in the spinal cord, also known as the substantia gelatinosa.",
+    "definition": "Lamina II is the substantia gelatinosa of Rolando.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "The substantia gelatinosa is involved in pain modulation.",
-    "origin": "Part of Rexed's original classification."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "Spinal Cord",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": "Spinal Cord"
-    }
-  },
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": [
-      "A) Rexed laminae of the spinal cord."
-    ]
+    "citations": []
   }
 }

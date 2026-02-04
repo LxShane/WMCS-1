@@ -1,0 +1,120 @@
+{
+  "name": "Wave Energy Converter",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Power Take-Off System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Pawl and Ratchet Mechanism",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Converter",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Power Conversion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONNECTED_TO",
+      "object": "Power Grid",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A device designed to convert wave energy into usable power.",
+    "common_uses": [
+      "Power generation",
+      "Energy storage"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Wave energy is converted into electrical energy through a series of mechanical and electrical components.",
+    "origin": "Developed in response to the need for renewable energy sources."
+  },
+  "instance_layer": {
+    "examples": [
+      "Various designs are deployed in coastal regions worldwide."
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "parts": [
+        "Power Take-Off System",
+        "Pawl and Ratchet Mechanism"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Energy Conversion"
+      ],
+      "capabilities": [
+        "Wave energy absorption",
+        "Electricity generation"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.researchgate.net/figure/The-main-components-of-the-designed-wave-energy-converter-A-Power-take-off-system-and_fig1_339774823",
+      "https://kth.diva-portal.org/smash/get/diva2:1076681/FULLTEXT01.pdf"
+    ]
+  }
+}

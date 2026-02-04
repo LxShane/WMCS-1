@@ -2,8 +2,8 @@
   "name": "Epitope",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 1235
+    "group": 30,
+    "item": 1002
   },
   "claims": [
     {
@@ -33,24 +33,31 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "The part of an antigen that is recognized by the antibody",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A molecular fraction displayed by MHC molecules.",
+    "definition": "The specific site on an antigen to which an antibody binds.",
     "common_uses": []
-  },
-  "deep_layer": {
-    "mechanism": null,
-    "origin": null
-  },
-  "instance_layer": {
-    "examples": []
   },
   "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "11.11A: MHC Polymorphism and Antigen Binding - Biology LibreTexts"
+      "https://en.wikipedia.org/wiki/MAbs"
     ]
   }
 }

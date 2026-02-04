@@ -2,8 +2,8 @@
   "name": "Spinocerebellar Tract",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1001
+    "group": 20,
+    "item": 1237
   },
   "claims": [
     {
@@ -215,25 +215,64 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "sense proprioception from muscle spindles, Golgi tendon",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Sensory Pathway",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Muscle coordination",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Neural pathways that transmit sensory information related to proprioception from the spinal cord to the cerebellum.",
+    "definition": "A sensory pathway involved in muscle coordination.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Spinocerebellar tracts carry proprioceptive information to the cerebellum, enabling it to fine-tune motor commands and maintain balance.",
-    "origin": "Evolves from the need for efficient motor control."
+    "mechanism": "Neurons transmit sensory information related to muscle activity to the cerebellum.",
+    "origin": "Development of the nervous system."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "Spinocerebellar Tract - an overview | ScienceDirect Topics",
-      "The Ascending Tracts - DCML - Anterolateral - TeachMeAnatomy"
-    ]
+    "source": "Multiple Academic Sources",
+    "citations": []
   }
 }

@@ -1,0 +1,157 @@
+{
+  "name": "Gas Pressure Regulator",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Valve",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Controlling gas flow",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "flow (20, 2345)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "gas (20, 4568)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "liquid (20, 5679)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "pressure (20, 8765)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "valve",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "high-pressure side",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "low-pressure side",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A gas pressure regulator is a device that reduces the pressure of gas from a high-pressure source to a lower, more usable pressure.",
+    "common_uses": [
+      "diving",
+      "welding",
+      "medical applications"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Pressure is reduced through a valve that responds to downstream pressure.",
+    "origin": "Developed for various applications requiring controlled gas pressure."
+  },
+  "instance_layer": {
+    "examples": [
+      "Acetylene regulator",
+      "Oxygen regulator"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "material_properties": {
+        "rigidity": "High",
+        "state": "Solid",
+        "conductivity": "None"
+      }
+    },
+    "FUNCTION": {
+      "roles": [
+        "Pressure Regulator"
+      ],
+      "capabilities": [
+        "reducing gas pressure"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Mechanism of diving regulators",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Mechanism_of_diving_regulators"
+    ]
+  }
+}

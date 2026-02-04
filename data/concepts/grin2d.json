@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 20,
-    "item": 1001
+    "item": 8765
   },
   "claims": [
     {
@@ -47,26 +47,150 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "NMDAR2D receptor subunit gene",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "19q13.1-qter",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PROMOTES",
+      "object": "PDAC progression",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "activation of p38 MAPK signaling pathway",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "activation of transcription factor CREB",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PROMOTES",
+      "object": "tumorigenesis",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "ASSOCIATED_WITH",
+      "object": "aggressiveness of esophageal cancer",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_IN",
+      "object": "esophageal cancer",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "GRIN2D is a gene encoding the Glutamate Ionotropic Receptor NMDA Type Subunit 2D.",
+    "definition": "GRIN2D is a protein.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Encodes a subunit of the NMDA receptor.",
-    "origin": "Human genome"
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Brain",
+      "connected_to": [
+        "GRIN2A",
+        "GRIN2B",
+        "GRIN1",
+        "PSD-95",
+        "Synapse"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "GRIN2D - Wikipedia, GeneCards, ScienceDirect",
+    "source": "Ingestion Engine",
     "citations": [
-      "https://en.wikipedia.org/wiki/GRIN2D",
-      "https://www.genecards.org/cgi-bin/carddisp.pl?gene=GRIN2D",
-      "https://www.sciencedirect.com/science/article/pii/S1090379819304271"
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10410818/",
+      "https://discovery.researcher.life/article/the-promoting-effects-of-grin2d-expression-in-tumorigenesis-and-the-aggressiveness-of-esophageal-cancer/c28c763f1ce33dc3abfea1ff8e3186dc"
     ]
-  }
+  },
+  "autocorrected": true
 }

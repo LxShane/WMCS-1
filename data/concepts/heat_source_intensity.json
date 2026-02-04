@@ -1,0 +1,50 @@
+{
+  "name": "Heat Source Intensity",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1006
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Amount of heat generated per unit volume or area",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Quantifies the strength of a heat source.",
+    "common_uses": [
+      "Heat transfer analysis",
+      "System design"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Represents the rate of heat generation.",
+    "origin": "Thermodynamics"
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Heat metric"
+      ],
+      "capabilities": [
+        "Quantifying heat generation"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

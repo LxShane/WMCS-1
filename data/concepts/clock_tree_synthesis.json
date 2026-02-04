@@ -1,0 +1,74 @@
+{
+  "name": "Clock Tree Synthesis",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1014
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Prerequisite",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Constraints",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "network (50, 1236)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "process (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The process of designing and implementing a clock distribution network that delivers the clock signal to different parts of the chip with minimal skew.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Ensures proper synchronization of operations in synchronous digital circuits.",
+    "origin": "Critical for achieving high performance and reliability."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Understanding the Importance of Prerequisites in the VLSI ...",
+    "citations": [
+      "understanding-the-importance-of-prerequisites-in-the-vlsi-physical-design-stage/"
+    ]
+  }
+}

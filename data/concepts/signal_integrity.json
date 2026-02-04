@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 3456
+    "item": 1002
   },
   "claims": [
     {
@@ -33,25 +33,59 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Integrity of a signal",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Signal Quality",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "appropriate materials",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The quality of an electrical signal as it propagates through a circuit.",
+    "definition": "The quality of a signal.",
     "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": "Maintaining signal shape and timing.",
-    "origin": "Electrical engineering"
-  },
+  "deep_layer": {},
   "instance_layer": [],
-  "facets": {
-    "ABSTRACT_DATA": {
-      "domain": "Electrical Engineering",
-      "antonym": "Signal Corruption"
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "How to Design Ground (GND) in PCB Layout",
+    "source": "https://flexirf.com/blogs/rf-basic/what-are-the-most-common-used-materials-for-a-rf-connector",
     "citations": []
   }
 }

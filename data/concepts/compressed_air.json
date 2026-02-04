@@ -1,0 +1,47 @@
+{
+  "name": "Compressed Air",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 23,
+    "item": 1010
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Utility System",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "power (50, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Air that has been pressurized and used to power equipment or perform tasks.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Utilizes pressurized air to transmit power.",
+    "origin": "Developed to provide a safe alternative to electricity in hazardous environments."
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "https://www.fgdc.gov/standards/projects/utilities/utilities.pdf",
+    "citations": []
+  }
+}

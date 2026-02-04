@@ -2,8 +2,8 @@
   "name": "Hydrostatic Pressure",
   "type": "PHYSICAL",
   "id": {
-    "group": 20,
-    "item": 1242
+    "group": 30,
+    "item": 1002
   },
   "claims": [
     {
@@ -19,22 +19,81 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Pressure due to the weight of a column of fluid",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "Fluid density",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "fluid (30, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "pressure (20, 8765)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The pressure exerted by a fluid at equilibrium due to the force of gravity.",
+    "definition": "Pressure exerted by a fluid at rest due to the weight of the fluid above a given point.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "The weight of the fluid above exerts a force on the area below, resulting in pressure.",
+    "origin": "Fundamental property of fluids"
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Pressure at the bottom of a swimming pool",
+      "Pressure in a dam"
+    ]
   },
-  "facets": {},
+  "facets": {
+    "STRUCTURAL": {
+      "material_properties": {
+        "rigidity": "Low",
+        "state": "Liquid",
+        "conductivity": "None"
+      }
+    }
+  },
   "epistemic_metadata": {
-    "source": "Capillary Exchange | Anatomy and Physiology II",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Ambient_pressure"
+    ]
   }
 }

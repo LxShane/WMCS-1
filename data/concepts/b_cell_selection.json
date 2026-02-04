@@ -8,7 +8,7 @@
   "claims": [
     {
       "predicate": "PERFORMED_BY",
-      "object": "Germinal Center",
+      "object": "Germinal Center (21, 1234)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -46,6 +46,15 @@
         "confidence": 0.7,
         "status": "HYPOTHETICAL",
         "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "process (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
       }
     }
   ],

@@ -1,0 +1,51 @@
+{
+  "name": "CSK gene",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 30,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "PRODUCES",
+      "object": "Src Kinase (20, 1008)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "gene (50, 1237)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The gene that encodes Src Kinase.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Through transcription and translation, produces the Src Kinase enzyme.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Src_Kinase"
+    ]
+  }
+}

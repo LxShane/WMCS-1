@@ -1,0 +1,88 @@
+{
+  "name": "Time Synchronization",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1236
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "critical aspect of cyber-physical systems",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "coordination of system components",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "accurate timestamping of data",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "precise timing of system operations",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Time synchronization ensures the coordination of system components, accurate timestamping of data, and precise timing of system operations.",
+    "common_uses": [
+      "Cyber-physical systems coordination",
+      "Data timestamping",
+      "System operations timing"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Different protocols such as NTP, PTP are used to align system clocks.",
+    "origin": "Needed for accurate operation of real-time systems."
+  },
+  "instance_layer": {
+    "examples": [
+      "Coordinating sensors in an industrial automation system."
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

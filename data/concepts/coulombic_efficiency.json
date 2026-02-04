@@ -1,0 +1,46 @@
+{
+  "name": "Coulombic Efficiency",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "RELATED_TO",
+      "object": "battery (23, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "charge (50, 1004)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The ratio of the charge extracted from a battery to the charge supplied during charging.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Reflects the efficiency of the electrochemical reactions.",
+    "origin": "Battery performance."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "https://arxiv.org/html/2511.23005v1",
+    "citations": [
+      "Toward Unified Interphase Engineering: The Solid\u2013Electrolyte"
+    ]
+  }
+}

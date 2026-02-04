@@ -2,8 +2,8 @@
   "name": "Nutrient Foramen",
   "type": "BODY_PART",
   "id": {
-    "group": 34,
-    "item": 1234
+    "group": 22,
+    "item": 8765
   },
   "claims": [
     {
@@ -103,15 +103,99 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Tunnel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Cortex of a long bone",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Nutrient Artery",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Foramina for the entrance of nourishing blood-vessels",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Shafts of larger long bones",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Nutrient canal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "An opening in a bone for the passage of blood vessels.",
+    "definition": "A small tunnel through the cortex of a long bone containing a nutrient artery.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Allows nutrient artery and veins to access bone marrow.",
-    "origin": null
+    "mechanism": "Allows passage of nutrient artery into the bone.",
+    "origin": "Formed during bone development to allow blood vessel entry."
   },
   "instance_layer": {
     "examples": []
@@ -121,22 +205,16 @@
       "visual_features": [],
       "shape": [],
       "composition": [],
-      "parts": [],
-      "relations": []
+      "parts": []
     },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": "Bone"
-    }
+    "SPATIAL": {}
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Multiple Web Sources",
     "citations": [
       "https://en.wikipedia.org/wiki/Nutrient_foramina",
-      "https://en.wikipedia.org/wiki/Nutrient_canal",
-      "https://en.wikipedia.org/wiki/Nutrient_artery"
+      "https://radiopaedia.org/articles/nutrient-foramen",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3562873/"
     ]
   }
 }

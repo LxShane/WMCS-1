@@ -2,8 +2,8 @@
   "name": "USB Device",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 25,
-    "item": 1234
+    "group": 24,
+    "item": 1004
   },
   "claims": [
     {
@@ -134,50 +134,27 @@
     }
   ],
   "surface_layer": {
-    "definition": "A device that uses the USB protocol to communicate with a host.",
+    "definition": "Device connected to a USB Host.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Uses electrical signals to transmit and receive data.",
-    "origin": null
+    "mechanism": "Device receives and transmits data using the USB protocol."
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "External",
-      "connected_to": [
-        "USB Port",
-        "Computer Case",
-        "Motherboard",
-        "Peripheral Devices"
-      ],
-      "coordinates": []
-    },
+    "STRUCTURAL": {},
     "FUNCTION": {
       "roles": [
-        "Peripheral",
-        "Storage"
+        "Device"
       ],
-      "capabilities": [
-        "Data storage",
-        "Input device"
-      ]
-    }
+      "capabilities": []
+    },
+    "SPATIAL": {}
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "USB communications - Wikipedia"
+      "Basic USB Concepts and FAQs | Microchip Technology"
     ]
-  },
-  "autocorrected": true
+  }
 }

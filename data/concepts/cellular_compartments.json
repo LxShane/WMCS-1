@@ -8,7 +8,7 @@
   "claims": [
     {
       "predicate": "HAS_PART",
-      "object": "lysosomes",
+      "object": "lysosomes (21, 1004)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "endoplasmic reticulum",
+      "object": "endoplasmic reticulum (20, 1005)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -36,7 +36,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "mitochondria",
+      "object": "mitochondria (20, 1005)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -50,7 +50,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Golgi apparatus",
+      "object": "Golgi apparatus (20, 1238)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -64,7 +64,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "nucleus",
+      "object": "nucleus (25, 9012)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -89,6 +89,15 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cell (21, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
@@ -102,11 +111,23 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Intracellular",
+      "connected_to": [
+        "Cytoplasm",
+        "Cell Membrane",
+        "Other Cellular Compartments",
+        "Extracellular Matrix (indirectly via cell membrane)"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
       "https://pmc.ncbi.nlm.nih.gov/articles/PMC8237692/"
     ]
-  }
+  },
+  "autocorrected": true
 }

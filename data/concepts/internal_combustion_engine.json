@@ -1,9 +1,9 @@
 {
-  "name": "Internal combustion engine",
+  "name": "Internal Combustion Engine",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 1235
+    "group": 22,
+    "item": 1002
   },
   "claims": [
     {
@@ -154,24 +154,81 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Engine",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Cooling System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Lubricating System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Generating pollutants",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
     "definition": "An engine that generates power by burning fuel inside the engine.",
-    "common_uses": []
+    "common_uses": [
+      "Transportation",
+      "Power generation"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Fuel combustion creates expanding gases that drive a piston.",
+    "origin": "Developed in the late 19th century."
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
-    "source": "Radiator (engine cooling) - Wikipedia",
+    "source": "PDF",
     "citations": [
-      "https://en.wikipedia.org/wiki/Radiator_(engine_cooling)"
+      "https://pangea.stanford.edu/ERE/pdf/OnoriPDF/Journals/64.pdf?"
     ]
   }
 }

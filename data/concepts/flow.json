@@ -3,7 +3,7 @@
   "type": "PHYSICAL",
   "id": {
     "group": 20,
-    "item": 2345
+    "item": 1006
   },
   "claims": [
     {
@@ -33,34 +33,36 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Physical parameter",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Movement of a fluid.",
+    "definition": "The quantity of fluid that passes a particular point per unit time.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Related to velocity and volume.",
-    "origin": "Physics."
+    "mechanism": "Related to fluid dynamics.",
+    "origin": "Physics"
   },
-  "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "SPATIAL": {
-      "location": "Along a vessel or conduit; Within a defined space (e.g., a chamber, a duct)",
-      "connected_to": [
-        "Source (e.g., Heart, Gland)",
-        "Destination (e.g., Tissue, Organ)",
-        "Connecting Vessels/Ducts",
-        "Adjacent Structures influencing flow dynamics (e.g., Valves, Sphincters)"
-      ],
-      "coordinates": []
-    }
-  },
+  "instance_layer": [],
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Instrumentation and Controls Design: From Concept to ...",
-    "citations": []
-  },
-  "autocorrected": true
+    "source": "Set Automatically",
+    "citations": [
+      "https://link.springer.com/article/10.1007/s44258-024-00047-x"
+    ]
+  }
 }

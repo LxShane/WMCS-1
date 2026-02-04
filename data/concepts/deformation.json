@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 5002
+    "item": 1238
   },
   "claims": [
     {
@@ -19,24 +19,84 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Elevation of linear structures",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Satellite time series",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Change in shape",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Essential information for designing materials and structures",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "force (50, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Alteration in the shape or dimensions of an object due to stress.",
+    "definition": "Change in shape or size of an object due to applied force.",
     "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": "External forces exceed the material's yield strength.",
-    "origin": "Physics and material science."
-  },
-  "instance_layer": {
-    "examples": [
-      "Bending of a metal bar"
-    ]
-  },
-  "facets": {},
+  "deep_layer": {},
+  "instance_layer": {},
   "epistemic_metadata": {
-    "source": "Scraped Text",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "Predicting stress, strain and deformation fields in materials ...",
+      "Ch10 Deformation - United States Naval Academy"
+    ]
   }
 }

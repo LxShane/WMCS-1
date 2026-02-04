@@ -1,0 +1,104 @@
+{
+  "name": "Stellarator",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Device",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Magnet Coils",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Plasma",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Plasma Confinement",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Magnetohydrodynamic (MHD) Stability",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A stellarator is a device that uses magnetic fields to confine plasma.",
+    "common_uses": [
+      "Plasma confinement",
+      "Magnetohydrodynamic stability research"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "A stellarator uses a series of magnet coils to generate a magnetic field that confines plasma, achieving both plasma confinement and magnetohydrodynamic stability.",
+    "origin": "Developed as an alternative to tokamaks for nuclear fusion research."
+  },
+  "instance_layer": {
+    "examples": [
+      "Wendelstein 7-X"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Stellarator - Wikipedia, US20130093390A1 - Systems and method for positioning freedom, Optimization of the Compact Stellarator with Simple Coils",
+    "citations": [
+      "Stellarator - Wikipedia",
+      "https://patents.google.com/patent/US20130093390A1/en",
+      "https://arxiv.org/html/2510.26155v1"
+    ]
+  }
+}

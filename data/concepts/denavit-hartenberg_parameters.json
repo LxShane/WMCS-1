@@ -1,0 +1,191 @@
+{
+  "name": "Denavit-Hartenberg Parameters",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "four parameters associated with the DH convention",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "attaching reference frames to the links of a spatial kinematic chain",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "attaching reference frames to the links of a robot manipulator",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "DH parameters",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Jacques Denavit and Richard Hartenberg",
+      "temporal": {
+        "valid_from": "1955",
+        "valid_until": null,
+        "event": "Introduction"
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PRECEDES",
+      "object": "Kinematic analysis of robotic systems",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": "Demonstration"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Richard Paul",
+      "temporal": {
+        "valid_from": "1981",
+        "valid_until": null,
+        "event": "Demonstration"
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "convention",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "popular approach",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "manipulator (25, 1122)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "robot (25, 7890)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The Denavit-Hartenberg parameters are four parameters associated with the DH convention for attaching reference frames to the links of a spatial kinematic chain or robot manipulator.",
+    "common_uses": [
+      "Attaching reference frames to robot links",
+      "Kinematic analysis of robotic systems"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The Denavit-Hartenberg transform results from successive rotations and translations via the four DH parameters.",
+    "origin": "Introduced in 1955 by Jacques Denavit and Richard Hartenberg."
+  },
+  "instance_layer": {
+    "examples": [
+      "UR robots use DH parameters as described in their diagrams."
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Reference Frame Attachment"
+      ],
+      "capabilities": [
+        "Standardizing coordinate frames",
+        "Kinematic analysis"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Denavit\u2013Hartenberg_parameters",
+      "https://www.universal-robots.com/articles/ur/application-installation/dh-parameters-for-calculations-of-kinematics-and-dynamics",
+      "https://medesign.seas.upenn.edu/uploads/Courses/robotics05dh.pdf"
+    ]
+  }
+}

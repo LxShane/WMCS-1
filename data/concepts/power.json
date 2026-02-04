@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1003
+    "item": 1008
   },
   "claims": [
     {
@@ -47,23 +47,38 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Outer ring",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The rate at which energy is transferred, used, or transformed.",
-    "common_uses": [
-      "Electricity",
-      "Heating"
-    ]
+    "definition": "The rate at which electrical energy is transferred by an electric circuit.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Power is calculated by multiplying voltage and current.",
-    "origin": null
+    "mechanism": "Supplies energy to the circuit.",
+    "origin": "Fundamental to the operation of any electronic device."
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Multiple Web Sources",
-    "citations": []
+    "source": "Physical Design of CMOS Integrated Circuits",
+    "citations": [
+      "04-Physical_Design.pdf"
+    ]
   }
 }

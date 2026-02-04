@@ -1,0 +1,159 @@
+{
+  "name": "Beacon",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 29,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Indoor Localization",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "intentionally conspicuous device designed to attract attention to a specific location",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "attract attention",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "guidance",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "warning",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "signal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "attention (50, 5678)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A beacon is an intentionally conspicuous device designed to attract attention to a specific location.",
+    "common_uses": [
+      "navigation",
+      "warning"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Beacons emit a signal, often light or radio waves, that is easily detectable from a distance, allowing individuals to orient themselves or be warned of hazards.",
+    "origin": "Beacons have been used since ancient times, often involving fires built on high ground. Modern beacons include electronic devices like radio beacons and radar transponders."
+  },
+  "instance_layer": {
+    "examples": [
+      "lighthouse",
+      "radio beacon",
+      "radar transponder"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Navigation Aid",
+        "Warning System"
+      ],
+      "capabilities": [
+        "Attract attention",
+        "Provide guidance",
+        "Signal hazard"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Conspicuous",
+        "Visible from a distance"
+      ],
+      "shape": [
+        "Varies depending on type"
+      ],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Varies based on type.",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Beacon",
+      "https://grokipedia.com/page/Beacon"
+    ]
+  }
+}

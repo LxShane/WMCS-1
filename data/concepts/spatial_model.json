@@ -1,0 +1,57 @@
+{
+  "name": "Spatial Model",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "representing an environment",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A representation of a physical space or environment.",
+    "common_uses": [
+      "mapping",
+      "simulation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Spatial models capture geometric and topological relationships.",
+    "origin": "Derived from cartography and computer vision."
+  },
+  "instance_layer": {
+    "examples": [
+      "3D map of a building",
+      "Digital terrain model"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "http://asrl.utias.utoronto.ca/~tdb/slam/slamhandbook.pdf"
+    ]
+  },
+  "facets": {
+    "ABSTRACT_DATA": {
+      "domain": "Cartography",
+      "related_concepts": [
+        "Map",
+        "Environment",
+        "Space"
+      ]
+    }
+  }
+}

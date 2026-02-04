@@ -1,0 +1,95 @@
+{
+  "name": "Access Points",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 5678
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "basic components found in wireless network infrastructure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "allow wireless devices to connect to a wired network",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "making it easier to connect multiple devices without using wires and cables",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "network (50, 1236)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Devices that allow wireless connections to a wired network.",
+    "common_uses": [
+      "Connecting wireless devices",
+      "Extending network range"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Transmits and receives wireless signals to connect devices.",
+    "origin": "Evolved from the need for wireless network connectivity."
+  },
+  "instance_layer": {
+    "examples": [
+      "Wireless routers",
+      "Wireless repeaters"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Connecting"
+      ],
+      "capabilities": [
+        "allow wireless devices to connect to a wired network",
+        "connect multiple devices without using wires and cables"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Web Sources",
+    "citations": [
+      "https://trailhead.salesforce.com/content/learn/modules/infrastructure-support/get-to-know-infrastructure-support"
+    ]
+  }
+}

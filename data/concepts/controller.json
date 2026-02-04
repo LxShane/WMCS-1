@@ -47,6 +47,15 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "process (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
@@ -60,9 +69,20 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Variable; depends on the system being controlled. May be external (e.g., hand-held controller) or integrated within the controlled system.",
+      "connected_to": [
+        "Controlled device or system",
+        "Power source (if applicable)",
+        "Communication network (wired or wireless)"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
     "source": "TechBriefs",
     "citations": []
-  }
+  },
+  "autocorrected": true
 }

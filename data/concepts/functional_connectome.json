@@ -3,25 +3,40 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1236
+    "item": 1003
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Connectome",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "A mapping of functional connections within a brain.",
+    "definition": "Connectome showing functional connections",
     "common_uses": []
   },
-  "deep_layer": {},
-  "instance_layer": {},
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {},
-    "SPATIAL": {}
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
   },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "https://news.weill.cornell.edu/news/2025/06/mapping-the-connections-between-the-brain\u2019s-structure-and-function",
-    "citations": []
+    "source": "Mapping hybrid functional-structural connectivity traits in the",
+    "citations": [
+      "https://direct.mit.edu/netn/article/2/3/306/5432/Mapping-hybrid-functional-structural-connectivity"
+    ]
   }
 }

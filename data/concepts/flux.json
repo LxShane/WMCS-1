@@ -1,9 +1,9 @@
 {
   "name": "Flux",
-  "type": "ABSTRACT_CONCEPT",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 50,
-    "item": 2345
+    "group": 20,
+    "item": 1005
   },
   "claims": [
     {
@@ -89,24 +89,72 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "inhibiting oxidation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "promoting wetting",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The rate of transfer of matter or energy across a specified area.",
-    "common_uses": []
+    "definition": "A chemical cleaning agent used in soldering.",
+    "common_uses": [
+      "Soldering",
+      "Welding"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Matter and energy are transferred and transformed across interconnected systems.",
-    "origin": null
+    "mechanism": "Removes oxidation from metal surfaces to create a clean, conductive joint.",
+    "origin": "Used for centuries in metalworking."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Rosin flux",
+      "Acid flux"
+    ]
   },
-  "facets": {},
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Liquid",
+        "Paste",
+        "Solid"
+      ],
+      "shape": [
+        "Variable"
+      ],
+      "composition": [
+        "Rosin",
+        "Acids",
+        "Activators"
+      ]
+    }
+  },
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": [
-      "https://biologyinsights.com/what-are-fluxes-in-biology-and-environmental-science/"
-    ]
+    "citations": []
   }
 }

@@ -1,0 +1,67 @@
+{
+  "name": "Overvoltage Protection",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 22,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "REQUIRES",
+      "object": "External Overvoltage Protection",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Protecting VBAT supply",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PROTECTS_FROM",
+      "object": "Transient voltage",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A system designed to protect electronic components from transient voltage.",
+    "common_uses": [
+      "Protecting electronic circuits"
+    ]
+  },
+  "deep_layer": {},
+  "instance_layer": {},
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "USB332x Data Sheet - Microchip Technology",
+    "citations": [
+      "Introduction"
+    ]
+  }
+}

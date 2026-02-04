@@ -19,6 +19,15 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "transistor (30, 1237)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
@@ -45,10 +54,18 @@
       "relations": []
     },
     "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+      "location": "Within an electronic circuit; on a semiconductor die",
+      "connected_to": [
+        "Base",
+        "Collector",
+        "Emitter",
+        "Resistors",
+        "Capacitors",
+        "Inductors",
+        "Printed circuit board traces",
+        "Wires"
+      ],
+      "coordinates": []
     }
   },
   "epistemic_metadata": {
@@ -58,5 +75,6 @@
       "https://www.electronicshub.org/mosfet-as-a-switch/",
       "https://www.infineon.com/assets/row/public/documents/24/42/infineon-gate-drive-for-power-mosfets-in-switchtin-applications-applicationnotes-en.pdf?fileId=8ac78c8c80027ecd0180467c871b3622"
     ]
-  }
+  },
+  "autocorrected": true
 }

@@ -1,0 +1,68 @@
+{
+  "name": "Autoinducer",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "signaling molecule (21, 1009)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "cell (21, 1001)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cell (21, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A signaling molecule produced by a cell that participates in quorum sensing.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Autoinducers bind to receptors, leading to changes in gene expression.",
+    "origin": "Evolved as a mechanism for bacteria to sense their population density."
+  },
+  "instance_layer": {
+    "examples": [
+      "Acyl-homoserine lactones (AHLs)",
+      "Autoinducer peptide (AIP)"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Quorum_sensing"
+    ]
+  }
+}

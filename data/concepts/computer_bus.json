@@ -1,0 +1,86 @@
+{
+  "name": "Computer Bus",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A shared physical pathway",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Wires, traces on a circuit board, or busbars",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Allowing multiple devices to communicate",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "bus (20, 9018)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A bus is a shared physical pathway that allows multiple devices to communicate.",
+    "common_uses": [
+      "Data transfer",
+      "Communication between components"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Devices communicate by sending electrical signals along the bus.",
+    "origin": "Essential component of computer architecture from its inception."
+  },
+  "instance_layer": {
+    "examples": [
+      "PCI",
+      "USB",
+      "SATA"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Bus (computing) - Wikipedia",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Bus_(computing)"
+    ]
+  }
+}

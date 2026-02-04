@@ -1,0 +1,49 @@
+{
+  "name": "Aster Proteins",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "PM to ER cholesterol transport",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "proteins (20, 1236)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Proteins involved in cholesterol transport.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Involved in PM to ER cholesterol transport.",
+    "origin": "Genetically encoded."
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11910210/"
+    ]
+  }
+}

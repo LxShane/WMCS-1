@@ -1,0 +1,76 @@
+{
+  "name": "Dielectric Material",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 31,
+    "item": 1122
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Insulation between conductive layers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "AFFECTS",
+      "object": "Impedance",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "material (30, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An insulating material used in PCBs.",
+    "common_uses": [
+      "Electrical insulation",
+      "Defining PCB thickness"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Provides insulation between conductive layers and influences impedance.",
+    "origin": "Various types of materials are used."
+  },
+  "instance_layer": {
+    "examples": [
+      "FR-4",
+      "Rogers material"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Manual",
+    "citations": []
+  }
+}

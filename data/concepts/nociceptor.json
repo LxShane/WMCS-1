@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 21,
-    "item": 1003
+    "item": 9123
   },
   "claims": [
     {
@@ -61,48 +61,52 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "specialised receptors for signals of pain",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Sensory receptor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A sensory receptor that responds to potentially damaging stimuli.",
+    "definition": "A nociceptor is a type of sensory receptor.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Nociceptors detect harmful stimuli and initiate a signal that is transmitted to the central nervous system, leading to the sensation of pain.",
-    "origin": "Evolved to protect organisms from tissue damage by alerting them to harmful stimuli."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Sensory Receptor"
-      ],
-      "capabilities": [
-        "Detecting and transmitting pain signals"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "Throughout the body",
-      "coordinates": [],
-      "connected_to": [
-        "Nerve Fibers"
-      ],
-      "contained_in": null
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Lunatic Laboratories",
+    "source": "Set Automatically",
     "citations": [
-      "https://loonylabs.org/2020/03/01/spinotectal-tract/"
+      "https://organismalbio.biosci.gatech.edu/chemical-and-electrical-signals/sensory-systems-i/"
     ]
   }
 }

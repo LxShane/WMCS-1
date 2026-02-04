@@ -1,0 +1,93 @@
+{
+  "name": "CA1 region",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 30,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Region of Hippocampus",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Spatial learning",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Episodic learning",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "hippocampus (24, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The CA1 region is a subregion of the hippocampus involved in spatial and episodic learning.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Neural activity within the CA1 region contributes to spatial and episodic learning.",
+    "origin": "Develops as part of the hippocampus."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "SPATIAL": {
+      "location": "Located in the hippocampus, between the subiculum and CA2 region. Septal CA1 is dorsal and temporal CA1 is ventral.",
+      "connected_to": [
+        "Subiculum",
+        "CA2 region",
+        "Entorhinal cortex (via perforant path)",
+        "Septum",
+        "Dorsal subiculum",
+        "Ventral subiculum"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Web Sources",
+    "citations": [
+      "https://elifesciences.org/reviewed-preprints/95412v1"
+    ]
+  },
+  "autocorrected": true
+}

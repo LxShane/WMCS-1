@@ -1,0 +1,82 @@
+{
+  "name": "Electrohydraulic Damper",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Damper",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Electrical Regulator",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A damper that uses both hydraulics and electrical components to control damping behavior.",
+    "common_uses": [
+      "Active suspension systems",
+      "Precision motion control"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Hydraulic fluid is controlled by electrical signals to adjust damping force.",
+    "origin": "Developed for more sophisticated and adaptable damping solutions."
+  },
+  "instance_layer": [
+    "High-performance vehicles",
+    "Industrial robots"
+  ],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    },
+    "FUNCTION": {
+      "roles": [
+        "Damping Controller",
+        "Hydraulic System"
+      ],
+      "capabilities": [
+        "Adjusting damping force electronically",
+        "Providing precise motion control"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Block Storage",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "technology used to store data files on storage area networks (SANs) or cloud-based storage environments",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Block-Level Storage",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "computing situations where fast, efficient and reliable data transportation is required",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "data (50, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "storage (50, 1236)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Block storage is a technology used to store data files in blocks.",
+    "common_uses": [
+      "Data storage on SANs",
+      "Data storage on cloud-based environments",
+      "Fast data transportation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Data is divided into blocks and stored independently.",
+    "origin": "Evolved from earlier storage methods to improve efficiency and speed."
+  },
+  "instance_layer": {
+    "examples": [
+      "AWS EBS",
+      "Azure Block Storage",
+      "Google Persistent Disk"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Data Storage"
+      ],
+      "capabilities": [
+        "Fast data access",
+        "Efficient data management"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Web Sources",
+    "citations": [
+      "IBM Think",
+      "Quizlet",
+      "Dataprise"
+    ]
+  }
+}

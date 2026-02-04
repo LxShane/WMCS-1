@@ -2,21 +2,98 @@
   "name": "Relay",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 22,
-    "item": 1010
+    "group": 20,
+    "item": 1235
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Control another circuit",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Voltage or current",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Switching contacts",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "An electrically operated switch.",
-    "common_uses": []
+    "definition": "An electromechanical switch.",
+    "common_uses": [
+      "Switching electrical circuits"
+    ]
   },
-  "deep_layer": {},
-  "instance_layer": {},
-  "facets": {},
+  "deep_layer": {
+    "mechanism": "Electrical current activates an electromagnet, which mechanically operates a switch.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Switch"
+      ],
+      "capabilities": [
+        "Switching electrical circuits"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [
+        "Coil",
+        "Contacts"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
   "epistemic_metadata": {
-    "source": "Ingestion Engine",
+    "source": "Multiple Web Sources",
     "citations": [
-      "https://electricityforum.com/td/electrical-substation/electrical-substation-components"
+      "https://machinerysafety101.com/2024/01/08/force-guided-relays/",
+      "https://ca.idec.com/idec-ca/en/CAD/RD/safety/guide/safety08",
+      "https://www.phoenixcontact.com/en-us/industries/functional-safety/force-guided-relay"
     ]
   }
 }

@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 2007
+    "item": 9012
   },
   "claims": [
     {
@@ -47,22 +47,120 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Matching impedances to maximize power transfer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Critical factor",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Trace Design",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Ground Planes",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Material selection",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Stack-up",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Adjusting the impedance to minimize signal reflection and maximize power transfer.",
-    "common_uses": []
+    "definition": "Matching the impedance of components to minimize signal reflections and maximize power transfer.",
+    "common_uses": [
+      "RF PCB Design"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Adjusting the impedance so that the source impedance is equal to the load impedance.",
-    "origin": null
+    "mechanism": "Ensures that the characteristic impedance of a transmission line matches the load impedance to prevent signal reflections.",
+    "origin": "Derived from electrical engineering principles to optimize signal transmission efficiency."
   },
-  "instance_layer": [],
-  "facets": {},
-  "epistemic_metadata": {
-    "source": "PDF",
-    "citations": [
-      "High-power and long-pulse operation of ICRH system in EAST tokamak"
+  "instance_layer": {
+    "examples": [
+      "50 Ohm impedance matching in RF systems"
     ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Signal Optimization"
+      ],
+      "capabilities": [
+        "Minimizes signal reflections",
+        "Maximizes power transfer"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "RF Coaxial Connectors - RF Connectors, Coaxial PCB Connector PCB-Transmission Line Design Guide, RF PCB Design Guidelines for Digital Engineers: Layout and ...",
+    "citations": []
   }
 }

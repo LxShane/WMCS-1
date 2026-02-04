@@ -2,8 +2,8 @@
   "name": "Electrolyte",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 5432
+    "group": 30,
+    "item": 2346
   },
   "claims": [
     {
@@ -107,10 +107,24 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Electrochemical Interface",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A substance that conducts electricity by ionic conduction.",
+    "definition": "A substance that produces an electrically conducting solution when dissolved in a polar solvent, such as water.",
     "common_uses": []
   },
   "deep_layer": {
@@ -122,9 +136,9 @@
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Multiple Sources",
     "citations": [
-      "https://www.nature.com/articles/s41524-018-0064-0"
+      "https://lampz.tugraz.at/~hadley/semi/echem/echem.php"
     ]
   }
 }

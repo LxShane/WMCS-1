@@ -2,8 +2,8 @@
   "name": "Switch",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 1003
+    "group": 30,
+    "item": 1006
   },
   "claims": [
     {
@@ -47,49 +47,111 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Network device",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A mechanism bringing two conductors into contact with each other in a controlled manner",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Electrical Component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Connecting two conductors",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Controlling electrical circuits",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Selector Switch",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A network device that filters and forwards packets between LAN segments.",
+    "definition": "A networking device that connects devices on a computer network by using packet switching to receive, process and forward data to the destination device.",
     "common_uses": [
-      "Connecting devices on a network",
+      "Connecting devices within a network",
       "Forwarding data packets"
     ]
   },
-  "deep_layer": {},
-  "instance_layer": {},
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [
-        "Rectangular",
-        "Ports for cable connections"
-      ],
-      "shape": [
-        "Box-like"
-      ],
-      "composition": [
-        "Plastic",
-        "Metal",
-        "Electronic components"
-      ],
-      "parts": [
-        "Ports",
-        "Circuit board",
-        "Power supply"
-      ],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": "Typically in a network closet or server room",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
+  "deep_layer": {
+    "mechanism": "Uses MAC addresses to forward data packets to the correct destination.",
+    "origin": "Developed to improve network efficiency."
   },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "TechTarget",
     "citations": [
-      "Cisco Spanning Tree Protocol Guide"
+      "https://www.techtarget.com/searchnetworking/definition/What-is-network-mapping"
     ]
   }
 }

@@ -1,0 +1,91 @@
+{
+  "name": "Double Wishbone Suspension",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 22,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Independent Suspension",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Locate the wheel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Wishbone-shaped arms",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An independent suspension design for automobiles using two wishbone-shaped arms to locate the wheel.",
+    "common_uses": [
+      "Automobile suspension"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Wishbone arms control wheel movement independently.",
+    "origin": "Automobile engineering"
+  },
+  "instance_layer": {
+    "examples": [
+      "Various automobiles use double wishbone suspension"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "shape": [
+        "Wishbone-shaped"
+      ],
+      "parts": [
+        "Wishbone arms"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Suspension Component"
+      ],
+      "capabilities": [
+        "Wheel location"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Wikipedia"
+    ]
+  }
+}

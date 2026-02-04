@@ -1,9 +1,9 @@
 {
   "name": "Compression",
-  "type": "ABSTRACT_CONCEPT",
+  "type": "PHYSICAL",
   "id": {
-    "group": 50,
-    "item": 1238
+    "group": 20,
+    "item": 1002
   },
   "claims": [
     {
@@ -19,35 +19,62 @@
         "status": "HYPOTHETICAL",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Force (50, 1235)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Fracture Patterns",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "pressure (20, 8765)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The act of pressing or squeezing an object.",
-    "common_uses": [
-      "Engineering",
-      "Geology"
-    ]
+    "definition": "Application of inward pressure.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Applies a squeezing force to the receptor and ligand.",
-    "origin": "External mechanical forces."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
-    "examples": [
-      "Compressing a spring",
-      "Compacting soil"
-    ]
+    "examples": []
   },
   "facets": {
-    "ABSTRACT_DATA": {
-      "domain": "Mechanics",
-      "antonym": "Tension"
-    }
+    "STRUCTURAL": {},
+    "SPATIAL": {}
   },
   "epistemic_metadata": {
-    "source": "PMC",
-    "citations": [
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10219515/"
-    ]
+    "source": "https://boneandspine.com/forces-on-bone/",
+    "citations": []
   }
 }

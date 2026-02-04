@@ -1,14 +1,14 @@
 {
   "name": "Biosphere",
-  "type": "INANIMATE_OBJECT",
+  "type": "LIVING_SYSTEM",
   "id": {
     "group": 20,
-    "item": 9012
+    "item": 1001
   },
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "Earth's Sphere",
+      "object": "Earth's Sphere (20, 2345)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -19,28 +19,89 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "All living organisms and their environments",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Terrestrial ecosystems",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Aquatic ecosystems",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INTERACTS_WITH",
+      "object": "Atmosphere (21, 1122)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "organisms (20, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The biosphere is one of Earth's spheres, consisting of all living organisms.",
+    "definition": "The biosphere encompasses all living organisms and their environments.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Interacts with other spheres through exchange of matter.",
-    "origin": "Evolved on Earth."
+    "mechanism": "The biosphere constantly interacts with the atmosphere.",
+    "origin": "Earth"
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "STRUCTURAL": {},
-    "FUNCTION": {}
-  },
+  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://www.youtube.com/watch?v=3n3alvzdsUY",
-      "https://geo.libretexts.org/Courses/Sierra_College/Physical_Geology_-_Stevens/01%3A_Introduction_to_Physical_Geology/1.02%3A_Why_Study_Earth/1.2.02%3A_Earth_System_Science"
+      "https://biologyinsights.com/how-does-the-biosphere-interact-with-the-atmosphere/"
     ]
   }
 }

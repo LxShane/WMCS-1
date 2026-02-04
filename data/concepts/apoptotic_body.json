@@ -2,8 +2,8 @@
   "name": "Apoptotic Body",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 1004
+    "group": 21,
+    "item": 1001
   },
   "claims": [
     {
@@ -33,24 +33,84 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Extracellular Vesicle",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Apoptotic Cell",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Cell Membrane (21, 3456)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Membrane-bound structures released from a cell undergoing apoptosis.",
+    "definition": "Apoptotic bodies are extracellular vesicles released during apoptosis.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
+    "mechanism": "Formed by membrane blebbing and fragmentation of apoptotic cells.",
     "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Extracellular space, adjacent to cells undergoing apoptosis",
+      "connected_to": [
+        "Neighboring cells",
+        "Phagocytes"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "Molecular Mechanisms of Extracellular Vesicle Biogenesis ...",
+    "source": "Set Automatically",
     "citations": [
-      "https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adhm.202501349"
+      "PMC7072213",
+      "acsnano.5c00706"
     ]
-  }
+  },
+  "autocorrected": true
 }

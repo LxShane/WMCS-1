@@ -1,9 +1,9 @@
 {
   "name": "Photosynthesis",
-  "type": "ABSTRACT_CONCEPT",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 50,
-    "item": 1234
+    "group": 27,
+    "item": 2001
   },
   "claims": [
     {
@@ -397,40 +397,38 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "light-dependent reactions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Photosynthesis is a system of biological processes by which photopigment-bearing autotrophic organisms convert light energy into chemical energy to fuel their metabolism.",
+    "definition": "The process by which green plants and some other organisms use sunlight to synthesize nutrients from carbon dioxide and water.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Plants use sunlight, water, and carbon dioxide to create oxygen and energy in the form of sugar.",
-    "origin": null
+    "mechanism": "Conversion of light energy into chemical energy, stored in organic molecules.",
+    "origin": "Evolution of photosynthetic organisms."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Photosynthesis - Wikipedia, Photosynthesis - National Geographic Society, What is respiration and photosynthesis in plants? - BBC",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "Wikipedia"
+    ]
   }
 }

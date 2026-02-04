@@ -1,0 +1,84 @@
+{
+  "name": "Biofluid",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Fluid within a living organism",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Biological fluid",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "fluid (30, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A fluid originating from a biological source.",
+    "common_uses": [
+      "Diagnostic testing",
+      "Biomarker discovery"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Complex biochemical interactions within the fluid reflect physiological state.",
+    "origin": "Produced by various biological processes within the body."
+  },
+  "instance_layer": {
+    "examples": [
+      "Blood",
+      "Urine",
+      "Cerebrospinal fluid"
+    ]
+  },
+  "facets": {
+    "SPATIAL": {
+      "location": "Within body cavities, tissues, and vessels",
+      "connected_to": [
+        "Blood vessels",
+        "Lymphatic vessels",
+        "Cells",
+        "Tissues",
+        "Organs",
+        "Body cavities (e.g., peritoneal cavity, pleural cavity)"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Overview of Biofluids and Flow Sensing Techniques Applied in ..., Metabolomics and Biomarker Discovery in Traumatic Brain Injury",
+    "citations": []
+  },
+  "autocorrected": true
+}

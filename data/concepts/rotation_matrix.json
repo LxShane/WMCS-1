@@ -1,0 +1,87 @@
+{
+  "name": "Rotation Matrix",
+  "type": "MATHEMATICAL_OBJECT",
+  "id": {
+    "group": 42,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Transformation Matrix",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Perform a Rotation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Euclidean Space",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Rotate Points",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A transformation matrix used to perform a rotation in Euclidean space.",
+    "common_uses": [
+      "rotating points in space"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "It transforms coordinates of a point based on the rotation angle and axis.",
+    "origin": "Derived from linear algebra principles."
+  },
+  "instance_layer": {
+    "examples": [
+      "Rotation in the xy plane counterclockwise"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Rotation matrix - Wikipedia",
+    "citations": [
+      "Page 1"
+    ]
+  }
+}

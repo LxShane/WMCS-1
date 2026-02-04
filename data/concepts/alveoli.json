@@ -1,0 +1,93 @@
+{
+  "name": "Alveoli",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 4568
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Lungs (23, 3456)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Gas Exchange",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "gas (20, 4568)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "lungs (23, 3456)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Air sacs in the lungs where gas exchange occurs.",
+    "common_uses": [
+      "Gas exchange",
+      "Oxygen intake"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Alveoli facilitate the exchange of oxygen and carbon dioxide between the air and the bloodstream.",
+    "origin": "Develops as buds off the respiratory bronchioles."
+  },
+  "instance_layer": {
+    "examples": [
+      "Human alveoli",
+      "Dog alveoli"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Spherical",
+        "Thin-walled"
+      ],
+      "shape": [
+        "Sac-like"
+      ]
+    },
+    "SPATIAL": {
+      "contained_in": "Lung"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Blood and the respiratory system: 2.5 Compliance and airway ..."
+    ]
+  }
+}

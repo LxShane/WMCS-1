@@ -2,13 +2,13 @@
   "name": "CD147",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 30,
-    "item": 1006
+    "group": 20,
+    "item": 7890
   },
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "protein",
+      "object": "protein (22, 1000)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -47,24 +47,60 @@
         "status": "CONTESTED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Protein (22, 1000)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Non-essential regulator of the complex",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "CONTESTED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "protein (22, 1000)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "CD147 is a protein that may regulate gamma secretase activity.",
+    "definition": "A protein that may regulate the gamma secretase complex.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Its absence increases activity of Gamma Secretase",
-    "origin": null
+    "mechanism": "Unknown",
+    "origin": "Unknown"
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "Gamma secretase - Wikipedia"
+      "https://en.wikipedia.org/wiki/Gamma_secretase"
     ]
   }
 }

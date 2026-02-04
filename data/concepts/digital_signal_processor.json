@@ -1,0 +1,107 @@
+{
+  "name": "Digital Signal Processor",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "FIR/IIR filtering",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "computing the AFE time delay variables",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "processor (20, 4567)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "processor (20, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A digital signal processor (DSP) is a specialized microprocessor designed for digital signal processing.",
+    "common_uses": [
+      "audio processing",
+      "image processing",
+      "telecommunications"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "DSPs perform mathematical computations on digitized signals to analyze, filter, and transform them.",
+    "origin": "DSPs emerged as specialized processors to handle the computationally intensive tasks in signal processing applications."
+  },
+  "instance_layer": {
+    "examples": [
+      "ADSP-21060 SHARC DSP processor"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Signal Processor"
+      ],
+      "capabilities": [
+        "fast computation",
+        "real-time processing"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "integrated circuit"
+      ],
+      "shape": [
+        "rectangular"
+      ],
+      "parts": [
+        "ALU",
+        "Memory"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Choosing High-Speed Signal Processing Components for Ultrasound Systems | Analog Devices",
+    "citations": [
+      "Choosing High-Speed Signal Processing Components for Ultrasound Systems | Analog Devices"
+    ]
+  }
+}

@@ -1,9 +1,9 @@
 {
   "name": "USB Power Delivery",
-  "type": "ABSTRACT_CONCEPT",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 50,
-    "item": 1234
+    "group": 30,
+    "item": 1235
   },
   "claims": [
     {
@@ -47,27 +47,119 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "advanced, fast-charging standard",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "USB connection",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "SUPPORTS",
+      "object": "various power requirements",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "USB-PD Rev. V3.1",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A method of delivering power over USB.",
-    "common_uses": []
+    "definition": "USB PD (Power Delivery) is an advanced, fast-charging standard that supports various power requirements over a USB connection.",
+    "common_uses": [
+      "fast-charging mobile devices",
+      "powering devices requiring up to 240 watts"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Uses VBUS to transfer power.",
-    "origin": "Developed for USB devices."
+    "mechanism": "The USB Power Delivery (PD) Specification details the power requirements and protocols for delivering power over a USB connection, enabling devices to charge faster and support higher power levels.",
+    "origin": null
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Charging smartphones",
+      "Powering laptops through USB-C"
+    ]
   },
   "facets": {
     "FUNCTION": {
-      "roles": [],
-      "capabilities": []
+      "roles": [
+        "Power Delivery"
+      ],
+      "capabilities": [
+        "fast-charging",
+        "supporting various power requirements"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Not directly visible, it's a protocol"
+      ],
+      "shape": [
+        "Not a physical object"
+      ],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Implemented within the USB connection",
+      "coordinates": [],
+      "connected_to": [
+        "USB ports",
+        "Charging circuits"
+      ],
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
-    "source": "Universal Serial Bus Type-C Cable and Connector Specification - USB-IF",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "USB Power Delivery",
+      "https://www.usb.org/document-library/usb-power-delivery",
+      "The USB Power Delivery (PD) Specification \u2014 everything you ...",
+      "https://www.tomshardware.com/peripherals/usb/the-usb-power-delivery-pd-specification-everything-you-need-to-know-about-usb-pd"
+    ]
   }
 }

@@ -1,0 +1,64 @@
+{
+  "name": "Distribution network",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 1006
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Network (50, 1236)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "electricity (50, 1238)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "network (50, 1236)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A network that delivers electricity from substations to consumers.",
+    "common_uses": [
+      "Delivering electricity to homes and businesses"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Distributes electricity at lower voltages for local use.",
+    "origin": "Developed to connect substations to individual consumers."
+  },
+  "instance_layer": {
+    "examples": [
+      "The distribution network in a city"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "US10884049B2 - Distribution network coordination in the",
+    "citations": [
+      "https://patents.google.com/patent/US10884049B2/en"
+    ]
+  }
+}

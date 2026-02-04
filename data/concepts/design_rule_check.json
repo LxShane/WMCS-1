@@ -1,0 +1,116 @@
+{
+  "name": "Design Rule Check",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Automated process",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Ensuring error-free PCB design workflow",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Scanning design for constraint violations",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Critical validation step",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "pcb (30, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "process (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An automated process that scans a design for constraint violations to ensure an error-free PCB design workflow.",
+    "common_uses": [
+      "PCB design",
+      "Error detection"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Software analyzes the design against defined rules to identify violations.",
+    "origin": "Evolved from manual inspection of PCB designs."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Validator"
+      ],
+      "capabilities": [
+        "Constraint violation detection"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Manual",
+    "citations": [
+      "https://resources.altium.com/p/master-your-pcb-design-workflow-with-online-design-rule-checking",
+      "https://www.allpcb.com/allelectrohub/constraint-management-in-pcb-design-a-guide-for-beginners",
+      "https://www.ersaelectronics.com/blog/pcb-layout-design-guide?srsltid=AfmBOopbAIg8Rho4XoauG-l4zaD9hfVtqCvdOZZF0ytdFYCtkutPCxTQ"
+    ]
+  }
+}

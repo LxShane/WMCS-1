@@ -1,0 +1,70 @@
+{
+  "name": "Adult Respiratory Distress Syndrome",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 6543
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Disorder",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Altered leukocyte-endothelial interactions",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "fluid (30, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "lungs (23, 3456)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A severe lung condition characterized by inflammation and fluid buildup in the lungs.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Inflammation and fluid buildup in the lungs.",
+    "origin": null
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Leukocyte-Endothelial Interactions - ScienceDirect.com",
+    "citations": []
+  }
+}

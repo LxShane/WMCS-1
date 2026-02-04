@@ -1,0 +1,70 @@
+{
+  "name": "Bioremediation",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 2345
+  },
+  "claims": [
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Microalgae",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Removal of refractory pollutants",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "organisms (20, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The use of living organisms to degrade environmental pollutants.",
+    "common_uses": [
+      "Soil remediation",
+      "Water purification"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Microorganisms metabolize pollutants into less harmful substances.",
+    "origin": "Developed as an environmentally friendly approach to pollution control."
+  },
+  "instance_layer": [],
+  "facets": {
+    "PROCESS_DATA": {
+      "input": "Pollutants",
+      "output": "Less harmful substances",
+      "agent": "Microorganisms"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

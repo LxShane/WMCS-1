@@ -2,8 +2,8 @@
   "name": "Chromatin Fiber",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 21,
-    "item": 1010
+    "group": 20,
+    "item": 1122
   },
   "claims": [
     {
@@ -19,39 +19,101 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Structure (50, 4567)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Nucleosomes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "10-nm chromatin fiber",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "30-nm chromatin fiber",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "CONTESTED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "folded into higher-order structures",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "fiber (23, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A helical structure formed by nucleosomes.",
+    "definition": "A fiber formed by coiling of nucleosomes.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Nucleosomes are organized into a ~11-nm chromatin fiber.",
-    "origin": null
+    "mechanism": "Chromatin fibers further condense DNA within the cell nucleus.",
+    "origin": "Biological processes"
   },
-  "instance_layer": [],
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": []
-    },
-    "SPATIAL": {
-      "location": "Within the nucleus of eukaryotic cells",
-      "connected_to": [
-        "Nuclear envelope",
-        "Nuclear lamina",
-        "Histones",
-        "DNA",
-        "Nuclear matrix"
-      ],
-      "coordinates": []
-    }
+  "instance_layer": {
+    "examples": []
   },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6457944/",
+    "source": "Set Automatically",
     "citations": []
-  },
-  "autocorrected": true
+  }
 }

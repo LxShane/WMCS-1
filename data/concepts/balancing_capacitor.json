@@ -1,0 +1,80 @@
+{
+  "name": "Balancing Capacitor",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 3456
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Cell balancing",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "battery (23, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "capacitor (30, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "charge (50, 1004)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A capacitor used to balance the charge of cells in a battery pack.",
+    "common_uses": [
+      "cell balancing"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The capacitor stores and transfers energy between cells to balance their charge.",
+    "origin": "Engineered electronic components."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Balancer"
+      ],
+      "capabilities": [
+        "cell balancing"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Understanding BMS Connection Diagram: From MOSFET Control to Cell Balancing - AYAA TECHNOLOGY CO., LTD",
+    "citations": []
+  }
+}

@@ -1,8 +1,8 @@
 {
   "name": "Ship of Theseus",
-  "type": "INANIMATE_OBJECT",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 30,
+    "group": 50,
     "item": 1234
   },
   "claims": [
@@ -89,22 +89,130 @@
         "status": "SETTLED",
         "source_type": "UNKNOWN"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A philosophical thought experiment concerning identity and change.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Material Objects",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "philosophical paradox",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "explores the nature of identity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "explores persistence through gradual change",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "problem asks whether an object that has had all its parts replaced remains fundamentally the same object",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A ship whose wooden parts were gradually replaced.",
-    "common_uses": []
+    "definition": "A philosophical paradox that explores identity and persistence through change.",
+    "common_uses": [
+      "Philosophy",
+      "Identity studies"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Successive replacement of all components results in a new object.",
-    "origin": "Ancient Greek philosophical thought experiment"
+    "mechanism": "The paradox questions whether an object remains the same object if all its components are replaced over time.",
+    "origin": "Ancient Greek philosophy"
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Debates around band continuity when members change"
+    ]
   },
-  "facets": {},
+  "facets": {
+    "ABSTRACT_DATA": {
+      "domain": "Philosophy",
+      "related_concepts": [
+        "Identity",
+        "Persistence",
+        "Change"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Conceptual space, encompassing the original and transformed entity",
+      "connected_to": [],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
-  }
+    "source": "Manual Ingestion",
+    "citations": [
+      "https://grokipedia.com/page/Ship_of_Theseus",
+      "https://englishpluspodcast.com/the-ship-of-theseus-paradox-still-the-same-ship-after-all-these-changes-a-philosophical-puzzle/",
+      "https://edgeinducedcohesion.blog/2025/10/16/white-paper-the-ship-of-theseus-problem-in-popular-music-bands-identity-and-continuity/"
+    ]
+  },
+  "autocorrected": true
 }

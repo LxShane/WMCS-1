@@ -1,0 +1,83 @@
+{
+  "name": "EZ-USB\u2122 FX10 device controller",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "USB 10 Gbps device controller architecture",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "high-bandwidth data subsystem",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "1-MB SRAM",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A USB device controller that supports high-bandwidth data transfer.",
+    "common_uses": [
+      "Data transfer between LVDS/LVCMOS and USB ports"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Uses DMA data transfers for high-speed communication.",
+    "origin": "Developed by Infineon."
+  },
+  "instance_layer": {
+    "examples": [
+      "FX10 controller in a device"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Data Controller"
+      ],
+      "capabilities": [
+        "DMA data transfers"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.infineon.com/dgdl/Infineon-Reference_manual_EZ_USB_FX10_device_controller_architecture-UserManual-v01_00-EN.pdf?fileId=8ac78c8c956a0a470195aa3c2e2c79b8"
+    ]
+  }
+}

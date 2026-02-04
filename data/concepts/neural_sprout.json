@@ -1,0 +1,82 @@
+{
+  "name": "Neural sprout",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1111
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "growth cone",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "sense environments",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "respond to environments",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Neural sprouts, also known as growth cones, are structures that allow neurons to sense and respond to their environments.",
+    "common_uses": [
+      "Neural development",
+      "Axon guidance"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Neural sprouts extend axons and dendrites to form neural networks.",
+    "origin": "Formed during neural development."
+  },
+  "instance_layer": {
+    "examples": [
+      "Growth cone of a motor neuron"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Environmental sensing",
+        "Axon guidance"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Neuronal and Vascular Interactions - Pmc",
+    "citations": [
+      "PMC5729758"
+    ]
+  }
+}

@@ -1,9 +1,9 @@
 {
   "name": "CD8",
-  "type": "LIVING_SYSTEM",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 22,
-    "item": 1007
+    "group": 29,
+    "item": 7890
   },
   "claims": [
     {
@@ -36,7 +36,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "p56 lck",
+      "object": "p56 lck (21, 1003)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -89,22 +89,146 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Co-receptor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Protein (22, 1000)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Interact with MHC proteins",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Activation of T cells",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Enhancing recognition of the MHC-peptide complex by the T cell receptor (TCR)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cell (21, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "receptor (20, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "tcr (22, 1005)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "T cell co-receptor.",
-    "common_uses": []
+    "definition": "A transmembrane glycoprotein that serves as a co-receptor for the T cell receptor (TCR).",
+    "common_uses": [
+      "T cell activation",
+      "Target cell recognition"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Enhances T cell signaling.",
-    "origin": null
+    "mechanism": "CD8 binds to MHC class I molecules on target cells, facilitating T cell activation and target cell lysis.",
+    "origin": "Encoded by the CD8 gene."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Co-receptor"
+      ],
+      "capabilities": [
+        "MHC class I binding",
+        "Signal transduction"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Transmembrane protein"
+      ],
+      "shape": [
+        "Globular"
+      ],
+      "composition": [
+        "Amino acids",
+        "Glycans"
+      ]
+    }
+  },
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": []
+    "citations": [
+      "PMC5788015"
+    ]
   }
 }

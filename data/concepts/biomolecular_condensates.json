@@ -1,9 +1,9 @@
 {
   "name": "Biomolecular Condensates",
-  "type": "LIVING_SYSTEM",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 21,
-    "item": 1006
+    "group": 30,
+    "item": 4567
   },
   "claims": [
     {
@@ -19,28 +19,70 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "being highly dynamic",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "forming through liquid-liquid phase separation",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "liquid (20, 5679)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "phase (50, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Aggregates of biomolecules within a cell that concentrate specific components.",
+    "definition": "Dynamic structures that can form through liquid-liquid phase separation.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Functions by creating microenvironments that promote specific biochemical reactions.",
+    "mechanism": null,
     "origin": null
   },
-  "instance_layer": [],
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    }
+  "instance_layer": {
+    "examples": []
   },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Emerging regulatory mechanisms and functions of biomolecular ... - Nature",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.cell.com/molecular-cell/fulltext/S1097-2765(22)00805-X"
+    ]
   }
 }

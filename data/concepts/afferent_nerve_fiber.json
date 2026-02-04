@@ -8,7 +8,7 @@
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "Nerve Fiber",
+      "object": "Nerve Fiber (21, 4567)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -92,7 +92,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "Nerve Fiber",
+      "object": "Nerve Fiber (21, 4567)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -120,7 +120,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Dorsal Root Ganglion",
+      "object": "Dorsal Root Ganglion (21, 1003)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -190,7 +190,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "Axon",
+      "object": "Axon (24, 1005)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -204,7 +204,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "Nerve Fiber",
+      "object": "Nerve Fiber (21, 4567)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -218,7 +218,7 @@
     },
     {
       "predicate": "PERFORMED_BY",
-      "object": "Sensory Neuron",
+      "object": "Sensory Neuron (21, 6789)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -246,7 +246,7 @@
     },
     {
       "predicate": "LOCATED_AT",
-      "object": "Peripheral nervous system",
+      "object": "Peripheral nervous system (20, 1003)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -260,7 +260,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Sensory nervous system",
+      "object": "Sensory nervous system (21, 4567)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -288,7 +288,7 @@
     },
     {
       "predicate": "CONNECTED_TO",
-      "object": "Nervous system",
+      "object": "Nervous system (20, 1234)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -302,7 +302,7 @@
     },
     {
       "predicate": "CONNECTED_TO",
-      "object": "Sensory receptor",
+      "object": "Sensory receptor (21, 1001)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -326,6 +326,15 @@
         "confidence": 0.6,
         "status": "SETTLED",
         "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "nerve (31, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
       }
     }
   ],

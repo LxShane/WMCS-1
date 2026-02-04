@@ -1,0 +1,81 @@
+{
+  "name": "Excitation Spectrum",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Measuring which excitation wavelengths produce the strongest fluorescence at a fixed emission wavelength.",
+      "temporal": {
+        "valid_from": "2022",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PRECEDES",
+      "object": "Emission",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Approach to measuring fluorescence",
+      "temporal": {
+        "valid_from": "2022",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A graph that shows which excitation wavelengths result in the strongest fluorescence emission at a set emission wavelength.",
+    "common_uses": [
+      "Characterizing fluorescent substances."
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Scanning through different excitation wavelengths while keeping the emission wavelength constant.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Measurement Technique"
+      ],
+      "capabilities": [
+        "Identifying optimal excitation wavelengths"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Angstrom Fluorescence",
+    "citations": [
+      "https://angtech.com/understanding-absorption-emission-and-excitation-in-fluorescence/"
+    ]
+  }
+}

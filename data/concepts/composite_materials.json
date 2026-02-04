@@ -2,13 +2,13 @@
   "name": "Composite Materials",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 30,
-    "item": 1006
+    "group": 20,
+    "item": 1004
   },
   "claims": [
     {
       "predicate": "HAS_PART",
-      "object": "Matrix",
+      "object": "Matrix (29, 2001)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -33,6 +33,34 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Reinforcing Fibers",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Matrix Material",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
@@ -40,19 +68,17 @@
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Combined properties of constituent materials.",
-    "origin": "Material science and engineering."
+    "mechanism": "Designed for optimized performance properties",
+    "origin": "Manufactured materials"
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {},
-    "STRUCTURAL": {},
-    "SPATIAL": {}
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Springer",
-    "citations": []
+    "source": "Fiber-Matrix Interface - an overview | ScienceDirect Topics",
+    "citations": [
+      "https://www.sciencedirect.com/topics/earth-and-planetary-sciences/fiber-matrix-interface"
+    ]
   }
 }

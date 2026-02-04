@@ -1,0 +1,83 @@
+{
+  "name": "Brake Line",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 21,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Transmitting Hydraulic Pressure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cylinder (23, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "pressure (20, 8765)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A tube or hose used to transmit hydraulic pressure from the master cylinder to the brake calipers.",
+    "common_uses": [
+      "Braking"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The brake lines transfer the pressurized brake fluid from the master cylinder to the calipers.",
+    "origin": "Part of the hydraulic braking system design."
+  },
+  "instance_layer": {
+    "examples": [
+      "The metal or rubber tubes connecting the master cylinder to the wheel cylinders."
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic or Rubber"
+      ],
+      "shape": [
+        "Tube or Hose"
+      ],
+      "composition": [
+        "Metal or Rubber"
+      ]
+    },
+    "SPATIAL": {
+      "connected_to": [
+        "Master Cylinder",
+        "Brake Calipers"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.autonationmobileservice.com/i/blog/brake-fluid-reservoir/",
+      "https://www.aa1car.com/library/brake_master_cylinder.htm"
+    ]
+  }
+}

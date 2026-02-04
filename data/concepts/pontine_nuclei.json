@@ -1,9 +1,9 @@
 {
   "name": "Pontine Nuclei",
-  "type": "LIVING_SYSTEM",
+  "type": "BODY_PART",
   "id": {
-    "group": 23,
-    "item": 1007
+    "group": 25,
+    "item": 1006
   },
   "claims": [
     {
@@ -159,24 +159,64 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Neural Structure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Pons",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A group of nuclei in the pons.",
+    "definition": "A group of nuclei located in the pons.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Relay information between the cerebral cortex and the cerebellum.",
-    "origin": "Part of the brainstem."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "https://www.kenhub.com/en/library/anatomy/afferent-and-efferent-pathways-of-the-cerebellum"
-    ]
+    "source": "https://clinicalgate.com/the-cerebral-cortex-2/",
+    "citations": []
   }
 }

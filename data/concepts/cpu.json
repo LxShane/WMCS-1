@@ -2,13 +2,13 @@
   "name": "CPU",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 1002
+    "group": 30,
+    "item": 1235
   },
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "Processor",
+      "object": "Processor (20, 4567)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -22,7 +22,7 @@
     },
     {
       "predicate": "REQUIRES",
-      "object": "Power",
+      "object": "Power (50, 1003)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -36,7 +36,7 @@
     },
     {
       "predicate": "REQUIRES",
-      "object": "Cooling",
+      "object": "Cooling (50, 8008)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -92,7 +92,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Control Unit",
+      "object": "Control Unit (20, 7890)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -106,7 +106,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Arithmetic Logic Unit",
+      "object": "Arithmetic Logic Unit (20, 1001)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -120,7 +120,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "Registers",
+      "object": "Registers (38, 2021)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -134,7 +134,7 @@
     },
     {
       "predicate": "IS_A",
-      "object": "Processing Unit",
+      "object": "Processing Unit (20, 9015)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -229,46 +229,95 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Computer Component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Processing Data",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Memory (20, 7890)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Heat Sink (31, 2002)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Root Complex",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Central Processing Unit, the main processor of a computer.",
-    "common_uses": [
-      "Executing instructions",
-      "Performing calculations",
-      "Controlling other components"
-    ]
+    "definition": "Central Processing Unit.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Fetches, decodes, and executes instructions.",
-    "origin": "Computer architecture"
+    "mechanism": "Processes instructions.",
+    "origin": "Computer architecture."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": []
-    },
-    "SPATIAL": {
-      "location": "Located within the motherboard, often near the center.",
-      "connected_to": [
-        "Motherboard",
-        "CPU cooler (heatsink/fan or liquid cooler)",
-        "Power supply (via motherboard)",
-        "RAM (via memory controller)"
-      ],
-      "coordinates": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Memory Organisation in Computer Architecture - GeeksforGeeks",
+    "source": "Multiple Sources",
     "citations": [
-      "https://www.geeksforgeeks.org/computer-organization-architecture/memory-organisation-in-computer-architecture/"
+      "Root complex - Wikipedia",
+      "How is PCI segment(domain) related to multiple Host Bridges ... Code sample"
     ]
-  },
-  "autocorrected": true
+  }
 }

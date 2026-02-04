@@ -1,0 +1,74 @@
+{
+  "name": "Supply Ducts",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 3333
+  },
+  "claims": [
+    {
+      "predicate": "COMPARED_TO",
+      "object": "Return air ducts",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PROPERTY",
+      "object": "Smaller",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Ducts that supply air into rooms.",
+    "common_uses": [
+      "HVAC systems"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Deliver conditioned air to spaces.",
+    "origin": "Essential component of air distribution."
+  },
+  "instance_layer": {
+    "examples": [
+      "Round supply ducts",
+      "Rectangular supply ducts"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "parts": [
+        "Air outlets",
+        "Supply air diffusers"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Air supply"
+      ],
+      "capabilities": [
+        "Delivering air into spaces"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

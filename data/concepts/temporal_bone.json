@@ -1,9 +1,9 @@
 {
-  "name": "Temporal Bone",
-  "type": "LIVING_SYSTEM",
+  "name": "Temporal bone",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 35,
-    "item": 1004
+    "group": 21,
+    "item": 1002
   },
   "claims": [
     {
@@ -19,24 +19,76 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Bone",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Mastoid process",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Complex bone",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Bone of the skull",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Bone on the side of the skull",
+    "definition": "A complex bone of the skull that features the mastoid process.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Forms part of the lateral skull and houses the middle and inner ear.",
+    "origin": "Develops from multiple ossification centers."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
     "STRUCTURAL": {
       "visual_features": [],
       "shape": [],
@@ -45,16 +97,14 @@
       "relations": []
     },
     "SPATIAL": {
-      "location": "Side of skull",
+      "location": "Lateral skull",
       "coordinates": [],
       "connected_to": [],
       "contained_in": "Skull"
     }
   },
   "epistemic_metadata": {
-    "source": "Multiple Web Sources",
-    "citations": [
-      "Cranial cavity - Wikipedia"
-    ]
+    "source": "https://www.kenhub.com/en/library/anatomy/mastoid-process",
+    "citations": []
   }
 }

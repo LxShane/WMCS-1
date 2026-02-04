@@ -1,0 +1,87 @@
+{
+  "name": "Tympano-mallear connection",
+  "type": "BODY_PART",
+  "id": {
+    "group": 23,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Soft-tissue connection",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONNECTS",
+      "object": "Tympanic membrane and manubrium of malleus",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INFLUENCES",
+      "object": "Mechanics and transfer function of the middle ear",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The tympano-mallear connection is the soft-tissue connection between the tympanic membrane and the manubrium of the malleus.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Transmits sound vibrations between the tympanic membrane and the malleus.",
+    "origin": "Connects the tympanic membrane to the malleus."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Between the tympanic membrane and manubrium of malleus",
+      "coordinates": [],
+      "connected_to": [
+        "Tympanic membrane",
+        "Manubrium of malleus"
+      ],
+      "contained_in": "Middle ear"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "NCBI: On the connection between the tympanic membrane and the malleus"
+    ]
+  }
+}

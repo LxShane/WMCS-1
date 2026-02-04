@@ -1,0 +1,82 @@
+{
+  "name": "Analog Input Channel",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Input Channel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Analog Input",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A channel used for receiving analog input signals.",
+    "common_uses": [
+      "Receiving analog data",
+      "Interfacing with analog sensors"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Converts analog signals to digital values for processing.",
+    "origin": "Electronic engineering"
+  },
+  "instance_layer": {
+    "examples": [
+      "Analog input channel on Arduino Uno"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Input"
+      ],
+      "capabilities": [
+        "Receiving analog signals"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic",
+        "Small"
+      ],
+      "shape": [
+        "Pin",
+        "Connector"
+      ],
+      "composition": [
+        "Metal",
+        "Plastic"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Analog Input Channels on Arduino Uno - ProteShea, Eight-channel analog input module - Control Engineering, Highly Configurable 8 Channel \u00b125 V Universal Input Analog",
+    "citations": []
+  }
+}

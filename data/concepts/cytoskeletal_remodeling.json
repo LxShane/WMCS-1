@@ -1,0 +1,82 @@
+{
+  "name": "Cytoskeletal Remodeling",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Cellular Process",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "cadherins",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cytoskeleton (21, 2345)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The dynamic reorganization of the cytoskeleton within cells.",
+    "common_uses": [
+      "Cell migration",
+      "Cell division"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Involves actin polymerization and depolymerization.",
+    "origin": "Triggered by various signaling pathways."
+  },
+  "instance_layer": {
+    "examples": [
+      "Actin stress fiber formation",
+      "Lamellipodia formation"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Cellular structure maintenance",
+        "Cellular motility"
+      ],
+      "capabilities": [
+        "Shape change",
+        "Adaptation to external stimuli"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

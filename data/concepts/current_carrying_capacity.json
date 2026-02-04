@@ -1,0 +1,146 @@
+{
+  "name": "Current Carrying Capacity",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "DEPENDS_ON",
+      "object": "Width",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEPENDS_ON",
+      "object": "Thickness (41, 1004)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEPENDS_ON",
+      "object": "Heat Dissipation Capability",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "The maximum amount of current a trace can handle without overheating.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEPENDS_ON",
+      "object": "Trace Width",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEPENDS_ON",
+      "object": "Trace Thickness",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PREVENTS",
+      "object": "Overheating",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "current (20, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The maximum amount of electrical current a conductor can safely carry before its performance degrades or it fails.",
+    "common_uses": [
+      "PCB design",
+      "Electrical engineering"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Exceeding the current carrying capacity leads to excessive heat generation, potentially damaging the trace or surrounding components.",
+    "origin": "Based on material properties and geometry"
+  },
+  "instance_layer": {
+    "examples": [
+      "A trace with a current carrying capacity of 2 Amperes"
+    ]
+  },
+  "facets": {
+    "ABSTRACT_DATA": {
+      "domain": "Electrical Engineering"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://ksnpcb.com/trace-width-vs-current-essential-knowledge-for-optimizing-pcb-performance/",
+      "https://www.pcbx.com/article/Understanding-Current-Ratings-and-Limits-in-PCBs",
+      "https://www.pcbmaster.com/news/How-to-design-the-right-copper-and-choose-the-right-option.html"
+    ]
+  }
+}

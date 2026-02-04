@@ -1,9 +1,9 @@
 {
-  "name": "Air pollution",
-  "type": "ABSTRACT_CONCEPT",
+  "name": "Air Pollution",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 50,
-    "item": 7890
+    "group": 30,
+    "item": 1002
   },
   "claims": [
     {
@@ -19,42 +19,75 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Environmental factor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Risk to human health",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "contamination (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Contamination of air by pollutants.",
+    "definition": "Contamination of the air by harmful substances.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
+    "mechanism": "Harmful substances disrupt biological processes.",
     "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
     "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
+      "visual_features": [
+        "Smoggy",
+        "Hazy"
+      ],
+      "shape": [
+        "Diffuse"
+      ],
+      "composition": [
+        "Particulate matter",
+        "Gases"
+      ]
     }
   },
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://sportsmedicine-open.springeropen.com/articles/10.1186/s40798-022-00430-1"
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10218044/"
     ]
   }
 }

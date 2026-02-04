@@ -1,0 +1,93 @@
+{
+  "name": "Child",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A young human being below the age of puberty or full physical development.",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Human Being",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Body",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "development (20, 1237)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A young human being below the age of puberty or full physical development.",
+    "common_uses": [
+      "education",
+      "healthcare"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Children undergo a process of physical, cognitive, and emotional development.",
+    "origin": "Children are the offspring of human parents."
+  },
+  "instance_layer": {
+    "examples": [
+      "Infant",
+      "Toddler"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Small",
+        "Dependent"
+      ],
+      "shape": [
+        "Humanoid"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "The Times Higher Educational Supplement , 1981, UK",
+    "citations": []
+  }
+}

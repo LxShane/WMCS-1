@@ -1,0 +1,82 @@
+{
+  "name": "Air Distribution",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Ensuring conditioned air reaches intended spaces efficiently and comfortably.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Airflow",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "process (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The process of delivering air to specific areas.",
+    "common_uses": [
+      "HVAC systems"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Involves controlling airflow to ensure even temperature and ventilation.",
+    "origin": "Developed to improve indoor comfort."
+  },
+  "instance_layer": {
+    "examples": [
+      "Zoned air distribution",
+      "Central air distribution"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Climate control"
+      ],
+      "capabilities": [
+        "Balancing temperature",
+        "Maintaining air quality"
+      ]
+    },
+    "ABSTRACT_DATA": {
+      "domain": "HVAC",
+      "antonym": "Poor air distribution"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": []
+  }
+}

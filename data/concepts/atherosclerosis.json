@@ -2,16 +2,54 @@
   "name": "Atherosclerosis",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 1111
+    "group": 21,
+    "item": 3456
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Vascular disease",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Vascular endothelial dysfunction",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "disease (21, 2011)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "A disease of the arteries characterized by the deposition of plaques of fatty material on their inner walls.",
+    "definition": "A vascular disease that leads to vascular endothelial dysfunction.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Complex inflammatory process involving lipid accumulation and immune responses.",
+    "mechanism": "Develops as the first step of vascular endothelial dysfunction induced by complex molecular mechanisms.",
     "origin": null
   },
   "instance_layer": {
@@ -20,6 +58,8 @@
   "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": []
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9598825/"
+    ]
   }
 }

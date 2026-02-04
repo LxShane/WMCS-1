@@ -1,14 +1,14 @@
 {
-  "name": "DNA-Ligand Binding",
+  "name": "DNA-ligand binding",
   "type": "SOCIAL_CONSTRUCT",
   "id": {
     "group": 60,
-    "item": 1236
+    "item": 7890
   },
   "claims": [
     {
       "predicate": "HAS_PART",
-      "object": "Ligand",
+      "object": "Ligand (30, 9012)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -36,7 +36,7 @@
     },
     {
       "predicate": "HAS_PART",
-      "object": "ligand",
+      "object": "ligand (30, 9012)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -60,30 +60,92 @@
         "confidence": 0.9,
         "status": "SETTLED",
         "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INVOLVES",
+      "object": "Small molecule",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INVOLVES",
+      "object": "Ion (20, 1236)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INVOLVES",
+      "object": "Protein (22, 1000)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "binding (50, 1236)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "dna (21, 1007)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "ligand (30, 9012)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
       }
     }
   ],
   "surface_layer": {
-    "definition": "The interaction between a ligand and DNA.",
+    "definition": "The binding of a ligand to a DNA double helix.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "A ligand binds to the DNA double helix.",
+    "mechanism": "A small molecule, ion, or protein binds to the DNA double helix.",
     "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "PROCESS_DATA": {
-      "roles": [],
-      "capabilities": []
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Binding affinities",
-    "citations": [
-      "https://en.wikipedia.org/wiki/Binding_affinities"
-    ]
+    "source": "Binding affinity",
+    "citations": []
   }
 }

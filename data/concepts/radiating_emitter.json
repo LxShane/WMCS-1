@@ -1,0 +1,77 @@
+{
+  "name": "Radiating emitter",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Emitter",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Active component",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An active device that emits radiation for spatial positioning.",
+    "common_uses": [
+      "Active motion tracking"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Emits electromagnetic radiation that can be detected and used for position determination.",
+    "origin": "Electronic device designed to emit radiation."
+  },
+  "instance_layer": {
+    "examples": [
+      "LED beacons used in robotics"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Electronic",
+        "Small"
+      ],
+      "shape": [
+        "Cylindrical",
+        "Rectangular"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Beacon"
+      ],
+      "capabilities": [
+        "Emit radiation"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "US6061644A",
+    "citations": []
+  }
+}

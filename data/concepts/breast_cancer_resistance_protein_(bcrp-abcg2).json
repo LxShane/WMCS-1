@@ -1,0 +1,51 @@
+{
+  "name": "breast cancer resistance protein (BCRP/ABCG2)",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "ABC efflux transporter",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "abc (20, 3456)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "BCRP is an ABC efflux transporter.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "BCRP actively transports drugs out of cells, reducing their effectiveness.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Extracted from text",
+    "citations": [
+      "https://pubmed.ncbi.nlm.nih.gov/26499806/"
+    ]
+  }
+}

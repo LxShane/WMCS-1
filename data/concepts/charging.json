@@ -1,0 +1,78 @@
+{
+  "name": "Charging",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 7890
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "the process of restoring a battery\u2019s energy by reversing the discharge reactions",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "battery (23, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "energy (50, 1005)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "process (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The process of restoring energy to a battery.",
+    "common_uses": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Process"
+      ],
+      "capabilities": [
+        "Energy Restoration"
+      ]
+    }
+  },
+  "deep_layer": {
+    "mechanism": "Reverses chemical reactions to store energy.",
+    "origin": "Related to the development of batteries."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "epistemic_metadata": {
+    "source": "Electrical4U",
+    "citations": [
+      "Charging of Battery and Discharging of Battery | Electrical4U"
+    ]
+  }
+}

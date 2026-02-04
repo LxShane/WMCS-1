@@ -1,0 +1,76 @@
+{
+  "name": "Co-translational Translocation",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "System for protein delivery",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "INVOLVES",
+      "object": "Translocation across membranes",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "membrane (20, 9012)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "protein (22, 1000)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The simultaneous translation and translocation of a protein across a membrane.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Involves ribosomes, translocons, and signal sequences.",
+    "origin": "Evolution of mechanisms to target proteins to specific locations."
+  },
+  "instance_layer": [],
+  "facets": {
+    "ABSTRACT_DATA": {
+      "domain": "Cell Biology"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "https://bio.libretexts.org/Courses/University_of_California_Davis/BIS_2A:_Introductory_Biology_-_Molecules_to_Cell/BIS_2A:_Introductory_Biology_(Britt)/02:_Face-2-Face/2.08:_Protein_Localization",
+    "citations": [
+      "Section 2.8"
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Anti-emetic",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Agent that prevents emesis",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A drug that is effective against vomiting and nausea.",
+    "common_uses": [
+      "Treating motion sickness",
+      "Reducing nausea after chemotherapy"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Anti-emetics work by blocking the neurotransmitters that trigger vomiting, such as serotonin, dopamine, and histamine.",
+    "origin": "Developed to combat nausea and vomiting."
+  },
+  "instance_layer": {
+    "examples": [
+      "Ondansetron",
+      "Metoclopramide"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Antiemetic Agent"
+      ],
+      "capabilities": [
+        "Reduces nausea",
+        "Prevents vomiting"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Regulations.gov & Internet Archive & UCI Machine Learning Repository",
+    "citations": [
+      "EXHIBIT 102",
+      "Azzazi anaesthesia volume 2",
+      "vocab.pubmed"
+    ]
+  }
+}

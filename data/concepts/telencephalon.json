@@ -1,0 +1,71 @@
+{
+  "name": "Telencephalon",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1238
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Brain Region",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Forebrain",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The forebrain region of the brain.",
+    "common_uses": [
+      "Higher cognitive function",
+      "Sensory processing"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Contains cerebral cortex and basal ganglia.",
+    "origin": "Develops during embryogenesis."
+  },
+  "instance_layer": {
+    "examples": [
+      "Cerebral cortex",
+      "Basal ganglia"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Cognition",
+        "Motor control",
+        "Sensory processing"
+      ],
+      "capabilities": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://link.springer.com/content/pdf/10.1007/2506_2013_18.pdf"
+    ]
+  }
+}

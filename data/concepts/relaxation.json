@@ -1,0 +1,79 @@
+{
+  "name": "Relaxation",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 51,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Altering the Volume of the Thoracic Cavity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Altering the Volume of the Lungs",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Expiration",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The state of a muscle when it is not contracting.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Cessation of Actin and Myosin interaction",
+    "origin": "Biological process"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "PROCESS_DATA": {
+      "roles": [
+        "Actuator"
+      ],
+      "capabilities": [
+        "Force generation"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "Muscles of Respiration - Physiopedia"
+    ]
+  }
+}

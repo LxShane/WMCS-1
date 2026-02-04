@@ -2,26 +2,55 @@
   "name": "Cancer",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 9012
+    "group": 21,
+    "item": 1234
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Disease (21, 2011)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "disease (21, 2011)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "tissue (21, 1007)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": null,
+    "definition": "A disease in which abnormal cells divide uncontrollably and destroy body tissue.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Uncontrolled cell growth and division due to genetic mutations.",
+    "origin": "Genetic mutations and environmental factors."
   },
-  "instance_layer": {
-    "examples": []
-  },
+  "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "Indocyanine Green Angiography - Medical Clinical Policy"
-    ]
+    "source": "Cancer neuroscience in head and neck: interactions, modulation, and ...",
+    "citations": []
   }
 }

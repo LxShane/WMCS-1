@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 20,
-    "item": 1235
+    "item": 1234
   },
   "claims": [
     {
@@ -215,42 +215,186 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "a type of magnet in which the magnetic field is produced by an electric current",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "copper wire wound into a coil",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "creating a magnetic field concentrated along the center of the coil",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "continuous supply of current to maintain the magnetic field",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "component of other electrical devices",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "picking up and moving heavy iron objects",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "magnetic core made from a ferromagnetic or ferrimagnetic material",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "varying, reversed, magnetic flux",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A type of magnet in which the magnetic field is produced by an electric current.",
-    "common_uses": []
+    "definition": "An electromagnet is a type of magnet in which the magnetic field is produced by an electric current.",
+    "common_uses": [
+      "motors",
+      "generators",
+      "electromechanical solenoids",
+      "relays",
+      "loudspeakers",
+      "hard disks",
+      "MRI machines",
+      "scientific instruments",
+      "magnetic separation equipment",
+      "picking up and moving heavy iron objects"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Electric current creates a magnetic field.",
-    "origin": "Unknown"
+    "mechanism": "Electric current flowing through a coil of wire creates a magnetic field. A magnetic core concentrates the magnetic flux and makes a more powerful magnet.",
+    "origin": "Invented by William Sturgeon in 1824."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
     "FUNCTION": {
-      "roles": [],
-      "capabilities": []
+      "roles": [
+        "Magnet"
+      ],
+      "capabilities": [
+        "generating magnetic field",
+        "lifting heavy objects",
+        "controlling magnetic flux"
+      ]
     },
     "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
+      "visual_features": [
+        "Coiled",
+        "Metallic"
+      ],
+      "shape": [
+        "Coil",
+        "Horseshoe"
+      ],
+      "composition": [
+        "Copper",
+        "Iron",
+        "Ferromagnetic Material"
+      ],
+      "parts": [
+        "Wire coil",
+        "Magnetic core"
+      ],
       "relations": []
     },
     "SPATIAL": {
-      "location": null,
-      "coordinates": [],
+      "location": "N/A (Electromagnets are not biological structures with a fixed anatomical location)",
       "connected_to": [],
-      "contained_in": null
+      "coordinates": []
     }
   },
   "epistemic_metadata": {
-    "source": "Biconic cusp - Wikipedia",
+    "source": "Set Automatically",
     "citations": [
-      "https://en.wikipedia.org/wiki/Biconic_cusp"
+      "https://en.wikipedia.org/wiki/Electromagnet",
+      "https://grokipedia.com/page/Electromagnet",
+      "https://www.britannica.com/science/electromagnet"
     ]
-  }
+  },
+  "autocorrected": true
 }

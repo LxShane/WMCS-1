@@ -2,27 +2,54 @@
   "name": "Transmission Control Unit",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 25,
-    "item": 1005
+    "group": 20,
+    "item": 1003
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Component of Powertrain Control Module",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "An electronic control unit that controls the automatic transmission.",
-    "common_uses": []
+    "definition": "A component of the Powertrain Control Module responsible for transmission control.",
+    "common_uses": [
+      "Transmission management"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "The TCU controls transmission parameters such as gear shifting, torque converter lockup, and shift timing.",
+    "origin": "Part of the broader electronic control system in modern vehicles."
   },
-  "instance_layer": [],
+  "instance_layer": {},
   "facets": {
-    "STRUCTURAL": {},
-    "SPATIAL": {}
+    "SPATIAL": {
+      "location": "Engine compartment, often near the engine or inside the vehicle cabin",
+      "connected_to": [
+        "Engine Control Unit (ECU)",
+        "Sensors (e.g., speed sensors, throttle position sensor)",
+        "Transmission",
+        "Wiring harness",
+        "Diagnostic port (OBD-II)"
+      ],
+      "coordinates": []
+    }
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Powertrain control module - Wikipedia",
     "citations": [
-      "Scribd Document"
+      "Wikipedia"
     ]
-  }
+  },
+  "autocorrected": true
 }

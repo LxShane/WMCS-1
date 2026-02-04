@@ -1,0 +1,55 @@
+{
+  "name": "Hearing Aid",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Transducer",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A device used to improve hearing.",
+    "common_uses": [
+      "Assist hearing impaired individuals"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Amplifies sound waves and transmits them to the ear.",
+    "origin": "Developed to assist individuals with hearing loss."
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Amplifier",
+        "Sound Processor"
+      ],
+      "capabilities": [
+        "Sound amplification",
+        "Noise reduction"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "US9247359B2"
+    ]
+  }
+}

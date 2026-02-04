@@ -1,0 +1,42 @@
+{
+  "name": "Robot Controller",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Converting higher-level commands into motor commands",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A controller that takes higher-level commands and converts them into motor commands for a robot.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Takes inputs such as desired joint positions and velocities, and converts them into outputs such as motor commands.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://manipulation.csail.mit.edu/force.html"
+    ]
+  }
+}

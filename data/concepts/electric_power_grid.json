@@ -1,0 +1,64 @@
+{
+  "name": "Electric Power Grid",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Network",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A network for transmitting and distributing electrical power.",
+    "common_uses": [
+      "Powering homes",
+      "Powering industries"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Generates, transmits, and distributes electrical power from sources to loads.",
+    "origin": "Evolved from early electrical distribution systems."
+  },
+  "instance_layer": {
+    "examples": [
+      "The power grid in California"
+    ]
+  },
+  "facets": {
+    "SPATIAL": {
+      "location": "Nationwide, typically above or below ground",
+      "connected_to": [
+        "Power plants",
+        "Substations",
+        "Transformers",
+        "Distribution lines",
+        "Homes",
+        "Businesses",
+        "Industrial facilities"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Multiple sources",
+    "citations": [
+      "https://ldrd-annual.llnl.gov/archives/ldrd-annual-2015/energy/integrated",
+      "https://electricityforum.com/td/overhead-td",
+      "https://patents.google.com/patent/US10884049B2/en"
+    ]
+  },
+  "autocorrected": true
+}

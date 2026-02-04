@@ -1,0 +1,81 @@
+{
+  "name": "DAS",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 34,
+    "item": 3456
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Type of Cellular Tower",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": "Setting the type to DAS"
+      },
+      "epistemic": {
+        "confidence": 0.6,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Individual Cells",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": "Setting the type to DAS"
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "antenna (30, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "network (50, 1236)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "via (25, 1239)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Distributed Antenna System. A network of spatially separated antenna nodes connected to a common source via a transport medium.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Improves wireless service by providing enhanced signal strength and coverage.",
+    "origin": "Evolved to address issues with signal penetration in dense urban environments and large buildings."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Cellular Tower and Signal Map - CellMapper",
+    "citations": []
+  }
+}

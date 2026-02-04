@@ -1,0 +1,74 @@
+{
+  "name": "PCI-PCI bridge",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 9101
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "special PCI device",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "connects the primary bus to the secondary PCI bus",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A special PCI device that connects the primary bus to the secondary PCI bus.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "A PCI-PCI bridge extends the PCI bus, allowing more devices to be connected.",
+    "origin": "Designed as part of the PCI standard to overcome limitations in device connectivity."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "On motherboard",
+      "coordinates": [],
+      "connected_to": [
+        "Primary PCI bus",
+        "Secondary PCI bus"
+      ],
+      "contained_in": "Computer"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "PCI_3GIO_IB_WP_120.fm - NVIDIA",
+      "Chapter 6 PCI - Linux Documentation Project"
+    ]
+  }
+}

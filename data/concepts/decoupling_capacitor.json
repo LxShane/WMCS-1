@@ -1,14 +1,14 @@
 {
-  "name": "Decoupling capacitor",
+  "name": "Decoupling Capacitor",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 25,
-    "item": 1238
+    "group": 20,
+    "item": 1234
   },
   "claims": [
     {
       "predicate": "IS_A",
-      "object": "Capacitor",
+      "object": "Capacitor (30, 4567)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -33,24 +33,187 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Maintaining a constant power supply voltage on the IC",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Near ICs",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Charge reservoir",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Shunting transient current directly to the ground",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Bottom side of the board with respect to SMT component placement",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "USER"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Decoupling the I/O signal paths and power distribution and grounding",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONNECTED_TO",
+      "object": "Signal path in parallel",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CONNECTED_TO",
+      "object": "Resistor in parallel",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "capacitor (30, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "current (20, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "voltage (20, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A capacitor used to decouple a part of an electrical circuit from another.",
+    "definition": "A capacitor placed near ICs to supply sudden current demands and maintain a steady voltage.",
     "common_uses": [
-      "Power supply decoupling"
+      "Power supply decoupling",
+      "Noise reduction"
     ]
   },
   "deep_layer": {
-    "mechanism": "Provides a local source of energy to reduce voltage fluctuations.",
-    "origin": null
+    "mechanism": "The capacitor acts as a local energy reservoir, quickly supplying current to the IC when needed, reducing voltage fluctuations.",
+    "origin": "Developed to address voltage droop and noise issues in integrated circuits."
   },
-  "instance_layer": [],
-  "facets": {},
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Near ICs",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "PCB"
+    },
+    "FUNCTION": {
+      "roles": [
+        "Power Stabilizer"
+      ],
+      "capabilities": [
+        "Supplies current to ICs",
+        "Reduces voltage fluctuations"
+      ]
+    }
+  },
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": [
-      "https://hilelectronic.com/capacitor-esr-and-esl/"
-    ]
+    "citations": []
   }
 }

@@ -1,0 +1,105 @@
+{
+  "name": "Conductive Trace",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 2345
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Copper pathways etched onto the PCB that carry electrical signals.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Carrying electrical signals.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Copper (20, 9012)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "copper (20, 9012)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "pcb (30, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Copper pathways on a PCB for carrying electrical signals.",
+    "common_uses": [
+      "Signal transmission on PCBs"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Conductive traces provide low-resistance paths for electrical signals to travel along the PCB.",
+    "origin": "Designed as fundamental elements for signal routing on PCBs."
+  },
+  "instance_layer": {
+    "examples": [
+      "Signal traces",
+      "Power traces",
+      "Ground traces"
+    ]
+  },
+  "facets": {
+    "SPATIAL": {
+      "location": "Surface of a substrate (e.g., circuit board, flexible material)",
+      "connected_to": [
+        "Electronic components (e.g., resistors, capacitors, integrated circuits)",
+        "Connectors",
+        "Other conductive traces",
+        "Ground plane",
+        "Power plane"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "How does the circuit board transmit signals ? \u2013 PCB HERO",
+    "citations": []
+  },
+  "autocorrected": true
+}

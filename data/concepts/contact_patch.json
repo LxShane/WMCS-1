@@ -1,0 +1,72 @@
+{
+  "name": "Contact Patch",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 21,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Tire",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Area of Tire Contact",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The area where a tire makes contact with the road surface.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "The size and shape of the contact patch influence traction and handling.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Interface between tire and road",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Tire"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "PDF Documents",
+    "citations": [
+      "Mathematics Underlying The Design Of Pneumatic Tires",
+      "Evaluation of Tire/Surfacing/Base Contact Stresses and Texture Depth",
+      "FINITE ELEMENT MODELING OF TIRE-TERRAIN DYNAMIC"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Layout",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Describes actual layers and geometry on the silicon substrate",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Implement a function",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Describes actual layers and geometry on the silicon substrate to implement a function.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Determines the placement and interconnection of components on a silicon substrate.",
+    "origin": "Evolved from the need to physically realize electronic circuits."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Lecture_3-layout_floorplanning - University of Texas at Austin",
+    "citations": [
+      "lecture_3.pdf"
+    ]
+  }
+}

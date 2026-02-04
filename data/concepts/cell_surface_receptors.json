@@ -2,13 +2,13 @@
   "name": "Cell Surface Receptors",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 22,
-    "item": 1021
+    "group": 21,
+    "item": 7890
   },
   "claims": [
     {
       "predicate": "IS_PART_OF",
-      "object": "protein complex",
+      "object": "protein complex (30, 7890)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -19,28 +19,45 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "MEDIATES",
+      "object": "ECM-cell interactions",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "proteins (20, 1236)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Cell surface receptors are proteins on the cell surface that bind to signaling molecules.",
+    "definition": "Proteins found on the surface of cells.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Bind to ligands and trigger intracellular signaling pathways.",
+    "origin": "Encoded by genes within cells."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "FUNCTION": {},
-    "STRUCTURAL": {},
-    "SPATIAL": {}
-  },
+  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": [
-      "Protein Kinase Fyn - an overview | ScienceDirect Topics"
-    ]
+    "citations": []
   }
 }

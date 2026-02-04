@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 20,
-    "item": 1002
+    "item": 1235
   },
   "claims": [
     {
@@ -47,28 +47,165 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Wheat flour",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Water",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Gluten network",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Starch",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Sugar",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "viscoelastic material",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "trapping gases",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "holding its shape",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A mixture of flour and liquid, used for baking.",
+    "definition": "A mixture of flour and water with viscoelastic properties, often used for baking.",
     "common_uses": [
-      "bread",
-      "pastries"
+      "Making bread",
+      "Making pasta",
+      "Making pizza"
     ]
   },
   "deep_layer": {
-    "mechanism": "Various chemical and physical processes occur during dough formation and fermentation.",
-    "origin": "Made by mixing flour with water or other liquids."
+    "mechanism": "The gluten network formed during mixing gives dough its elasticity and ability to trap gases. Starch and sugar contribute to the texture and flavor.",
+    "origin": "Created by mixing flour and water."
   },
   "instance_layer": {
     "examples": [
-      "Bread dough",
-      "Pizza dough"
+      "Pizza dough",
+      "Bread dough"
     ]
   },
-  "facets": {},
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Smooth",
+        "Elastic"
+      ],
+      "shape": [
+        "Variable, depending on shaping"
+      ],
+      "composition": [
+        "Flour",
+        "Water",
+        "Gluten"
+      ],
+      "parts": [
+        "Gluten network",
+        "Starch",
+        "Sugar"
+      ]
+    }
+  },
   "epistemic_metadata": {
-    "source": "https://www.kingarthurbaking.com/blog/2021/08/18/a-beginners-guide-to-gluten, https://breadtopia.com/gluten-development-for-artisan-bread/",
-    "citations": []
+    "source": "Multiple Sources",
+    "citations": [
+      "https://www.sciencedirect.com/science/article/pii/S0023643825000258",
+      "https://biologyinsights.com/glutenin-and-gliadin-their-roles-in-dough-and-health/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9738829/"
+    ]
   }
 }

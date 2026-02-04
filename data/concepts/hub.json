@@ -2,8 +2,8 @@
   "name": "Hub",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 3456
+    "group": 25,
+    "item": 1004
   },
   "claims": [
     {
@@ -89,58 +89,77 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Brain Anatomical Network",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Region",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Network Function",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Electronic Device",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A device that allows multiple USB devices to be connected to a single USB port on a computer.",
+    "definition": "A device that splits a USB signal into multiple USB ports.",
     "common_uses": [
-      "Expanding the number of available USB ports",
-      "Connecting multiple USB devices to a computer"
+      "Expanding USB port availability"
     ]
   },
-  "deep_layer": {
-    "mechanism": "Receives data from the upstream connection and distributes it to all downstream ports.",
-    "origin": "Developed to extend the connectivity of USB devices."
-  },
-  "instance_layer": {
-    "examples": [
-      "A USB hub with 4 ports",
-      "A USB hub integrated into a monitor"
-    ]
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [
-        "Port Expansion",
-        "Data Distribution"
-      ],
-      "capabilities": [
-        "Connecting multiple USB devices",
-        "Distributing data between devices"
-      ]
-    },
-    "STRUCTURAL": {
-      "visual_features": [
-        "Rectangular",
-        "Plastic"
-      ],
-      "shape": [
-        "Box-like"
-      ],
-      "composition": [
-        "Plastic",
-        "Metal"
-      ],
-      "parts": [
-        "Ports",
-        "Circuit Board"
-      ]
-    }
-  },
+  "deep_layer": {},
+  "instance_layer": {},
+  "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "USB communications - Wikipedia",
     "citations": [
-      "https://www.marian.ac.in/public/images/uploads/EC206_CO_module+5.pdf"
+      "https://en.wikipedia.org/wiki/USB_communications"
     ]
   }
 }

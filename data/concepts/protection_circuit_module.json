@@ -1,0 +1,113 @@
+{
+  "name": "Protection Circuit Module",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 3579
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Integrated circuits",
+      "temporal": {
+        "valid_from": "2024",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Monitoring the state of rechargeable battery packs",
+      "temporal": {
+        "valid_from": "2024",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Managing the state of rechargeable battery packs",
+      "temporal": {
+        "valid_from": "2024",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Detecting upper current limits",
+      "temporal": {
+        "valid_from": "2024",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Interrupting the circuit to prevent overcurrent damage",
+      "temporal": {
+        "valid_from": "2024",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A module that protects rechargeable battery packs from damage.",
+    "common_uses": [
+      "battery protection"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "PCMs use integrated circuits to monitor and manage the state of rechargeable battery packs.",
+    "origin": "Engineered electronic components."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Protection"
+      ],
+      "capabilities": [
+        "battery protection",
+        "Monitoring the state of rechargeable battery packs",
+        "Managing the state of rechargeable battery packs",
+        "Detecting upper current limits",
+        "Interrupting the circuit to prevent overcurrent damage"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Comprehensive Guide to BMS and Protection Circuit Modules",
+    "citations": []
+  }
+}

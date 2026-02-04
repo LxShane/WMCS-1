@@ -2,8 +2,8 @@
   "name": "Pelvis",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 22,
-    "item": 1001
+    "group": 24,
+    "item": 1236
   },
   "claims": [
     {
@@ -159,22 +159,35 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CONNECTED_TO",
+      "object": "Lower extremities",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The pelvis is a bony structure in the lower torso.",
+    "definition": "The pelvis connects the spine to the lower limbs.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "It provides support for the upper body while transmitting weight to the lower limbs.",
+    "origin": "Develops during embryogenesis."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
   "epistemic_metadata": {
-    "source": "Pelvis - Wikipedia, Anatomy, Abdomen and Pelvis: Bones (Ilium, Ischium, and Pubis) - StatPearls - NCBI Bookshelf, The Pelvic Girdle and Pelvis | Anatomy and Physiology I",
+    "source": "Functional Anatomy of the Hip-Bones and Ligaments - Physiopedia",
     "citations": []
   }
 }

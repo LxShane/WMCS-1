@@ -1,9 +1,9 @@
 {
   "name": "Sulcus",
-  "type": "LIVING_SYSTEM",
+  "type": "BODY_PART",
   "id": {
     "group": 33,
-    "item": 1002
+    "item": 1005
   },
   "claims": [
     {
@@ -19,10 +19,52 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Fissure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Between two Gyri",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Anatomical Structure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A sulcus is a depression or furrow in the cerebral cortex.",
+    "definition": null,
     "common_uses": []
   },
   "deep_layer": {
@@ -41,14 +83,14 @@
       "relations": []
     },
     "SPATIAL": {
-      "location": "Cerebral Cortex",
+      "location": null,
       "coordinates": [],
       "connected_to": [],
-      "contained_in": "Brain"
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
-    "source": "Gyrus - Wikipedia",
+    "source": "Set Automatically",
     "citations": []
   }
 }

@@ -8,7 +8,7 @@
   "claims": [
     {
       "predicate": "PERFORMED_BY",
-      "object": "Integrins",
+      "object": "Integrins (20, 6789)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -33,6 +33,33 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cell (21, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "integrins (20, 6789)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "matrix (29, 2001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
@@ -46,9 +73,22 @@
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "SPATIAL": {
+      "location": "Plasma membrane, Extracellular matrix",
+      "connected_to": [
+        "Actin cytoskeleton",
+        "Intermediate filaments",
+        "Integrins",
+        "Cadherins",
+        "Extracellular matrix proteins (e.g., fibronectin, laminin, collagen)"
+      ],
+      "coordinates": []
+    }
+  },
   "epistemic_metadata": {
     "source": "Cell adhesion - Wikipedia",
     "citations": []
-  }
+  },
+  "autocorrected": true
 }

@@ -1,0 +1,62 @@
+{
+  "name": "Anti-aliasing filtering",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "signal conditioning",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "filtering (50, 1005)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Anti-aliasing filtering reduces distortion of sampled signals.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Removes high-frequency components to prevent aliasing.",
+    "origin": "Sampling theorem requirement."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Signal Cleaner"
+      ],
+      "capabilities": [
+        "Remove high frequency components"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Multiple Web Sources",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Signal_conditioning"
+    ]
+  }
+}

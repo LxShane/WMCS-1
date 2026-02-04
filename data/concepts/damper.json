@@ -2,8 +2,8 @@
   "name": "Damper",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 25,
-    "item": 1001
+    "group": 23,
+    "item": 1234
   },
   "claims": [
     {
@@ -120,7 +120,7 @@
     },
     {
       "predicate": "MADE_OF",
-      "object": "Aluminum",
+      "object": "Aluminum (30, 1235)",
       "temporal": {
         "valid_from": "2024",
         "valid_until": "PRESENT",
@@ -131,68 +131,169 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Device",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Shock absorber",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Control car body motion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Control suspension motion",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Damp motion over undulations in the road",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Damp motion over bumps in the road",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Control rebound damping characteristics",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "vehicle (30, 1006)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A damper is a valve or plate that stops or regulates the flow of air inside a duct, chimney, or other air-handling equipment.",
+    "definition": "A damper is a component of a vehicle's suspension system used to control motion.",
     "common_uses": [
-      "Controlling airflow in HVAC systems",
-      "Isolating unused rooms"
+      "Car suspension",
+      "Motorcycle suspension"
     ]
   },
   "deep_layer": {
-    "mechanism": "By adjusting the angle or position of the plate, the damper restricts or allows airflow.",
-    "origin": "Likely developed alongside early HVAC systems."
+    "mechanism": "Dampers dissipate energy, typically through hydraulic resistance, to reduce oscillations.",
+    "origin": "Evolved from simple leaf spring suspensions to more complex hydraulic systems."
   },
   "instance_layer": {
     "examples": [
-      "Rectangular HVAC dampers",
-      "Aluminum dampers"
+      "Hydraulic shock absorber in a car"
     ]
   },
   "facets": {
     "FUNCTION": {
       "roles": [
-        "Airflow Regulator"
+        "Motion Controller"
       ],
       "capabilities": [
-        "Stops airflow",
-        "Regulates airflow"
+        "Energy Dissipation",
+        "Vibration Reduction"
       ]
     },
     "STRUCTURAL": {
-      "visual_features": [
-        "Plate-like",
-        "Rectangular"
-      ],
-      "shape": [
-        "Flat",
-        "Variable, often rectangular or circular"
-      ],
-      "composition": [
-        "Metal",
-        "Aluminum"
-      ],
-      "parts": [
-        "Plate",
-        "Actuator",
-        "Frame"
-      ],
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
       "relations": []
-    },
-    "SPATIAL": {
-      "location": "Within ducts or air passages",
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": "Duct, chimney, VAV box, air handler"
     }
   },
   "epistemic_metadata": {
-    "source": "Damper (flow) - Wikipedia; ZoningSupply.com - Zone Control - Rectangular HVAC Dampers; Home | Tamco Dampers",
+    "source": "Multiple Web Sources",
     "citations": [
-      "Wikipedia",
-      "ZoningSupply.com",
-      "Tamco Dampers"
+      "Engineer Fix",
+      "grassrootsmotorsports.com",
+      "Tire Rack"
     ]
   }
 }

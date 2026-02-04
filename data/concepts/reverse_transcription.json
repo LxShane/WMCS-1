@@ -1,9 +1,9 @@
 {
   "name": "Reverse Transcription",
-  "type": "ABSTRACT_CONCEPT",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 50,
-    "item": 1002
+    "group": 21,
+    "item": 3456
   },
   "claims": [
     {
@@ -131,37 +131,68 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "tRNA",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "reverse transcriptase",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Primer Binding Site",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The process of synthesizing DNA from an RNA template.",
-    "common_uses": [
-      "cDNA synthesis"
-    ]
+    "definition": "Reverse transcription is the process of synthesizing DNA from RNA.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Reverse transcriptase binds to an RNA template and synthesizes a complementary DNA strand.",
-    "origin": "Occurs naturally in retroviruses and is used in molecular biology."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
     "PROCESS_DATA": {
-      "roles": [
-        "Template",
-        "Catalysis"
-      ],
-      "capabilities": [
-        "DNA Synthesis"
-      ]
+      "roles": []
     }
   },
   "epistemic_metadata": {
-    "source": "Extracted from multiple web sources.",
-    "citations": [
-      "https://www.cusagivd.com/reverse-transcription.html",
-      "https://foodwrite.co.uk/reverse-transcription/"
-    ]
+    "source": "Wikipedia",
+    "citations": []
   }
 }

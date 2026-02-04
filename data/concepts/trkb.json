@@ -1,0 +1,68 @@
+{
+  "name": "TrkB",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1235
+  },
+  "claims": [
+    {
+      "predicate": "REGULATES",
+      "object": "postsynaptic localization of PSD-95",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "three downstream pathways",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "TrkB regulates the postsynaptic localization of PSD-95.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "TrkB regulates PSD-95 localization through three downstream pathways.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "SPATIAL": {
+      "location": "Cell membrane, cytoplasm, nucleus (upon internalization)",
+      "connected_to": [
+        "Neurotrophins (BDNF, NT-4/5, NT-3)",
+        "Shc",
+        "FRS2",
+        "PI3K",
+        "PLC-gamma",
+        "MAPK cascade components"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Manual Ingestion",
+    "citations": []
+  },
+  "autocorrected": true
+}

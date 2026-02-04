@@ -1,14 +1,14 @@
 {
   "name": "Density",
-  "type": "PHYSICAL",
+  "type": "ABSTRACT_CONCEPT",
   "id": {
-    "group": 30,
-    "item": 1002
+    "group": 50,
+    "item": 1009
   },
   "claims": [
     {
       "predicate": "functional_roles",
-      "object": "MEASUREMENT",
+      "object": "MEASUREMENT (50, 7890)",
       "epistemic": {
         "confidence": 1.0,
         "status": "SETTLED",
@@ -158,29 +158,62 @@
         "status": "HYPOTHETICAL",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Aspherical variation within Earth",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Influence on gravity signal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Mass per unit volume.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Density is mass per unit volume.",
-    "common_uses": [
-      "Material science",
-      "Fluid dynamics",
-      "Astronomy"
-    ]
+    "definition": "The mass of a substance per unit volume.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Determined by the arrangement and mass of atoms/molecules.",
-    "origin": "Physics"
+    "mechanism": "Determined by atomic mass and spacing.",
+    "origin": "Based on the arrangement of atoms within a substance."
   },
-  "instance_layer": {
-    "examples": [
-      "Density of water",
-      "Density of air"
-    ]
-  },
+  "instance_layer": [],
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11605370/",
     "citations": []
   }
 }

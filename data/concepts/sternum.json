@@ -1,13 +1,42 @@
 {
   "name": "Sternum",
-  "type": "INANIMATE_OBJECT",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 30,
-    "item": 1004
+    "group": 21,
+    "item": 7890
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Bone",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "ATTACHED_TO",
+      "object": "First seven ribs",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": null,
+    "definition": "A bone to which the first seven ribs attach.",
     "common_uses": []
   },
   "deep_layer": {
@@ -19,7 +48,9 @@
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
+    "source": "LANDMARKS (docx) - CliffsNotes",
+    "citations": [
+      "https://www.cliffsnotes.com/study-notes/28559701"
+    ]
   }
 }

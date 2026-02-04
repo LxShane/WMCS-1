@@ -1,37 +1,48 @@
 {
   "name": "Land",
-  "type": "INANIMATE_OBJECT",
+  "type": "PHYSICAL",
   "id": {
-    "group": 22,
-    "item": 3344
+    "group": 21,
+    "item": 3456
   },
   "claims": [],
   "surface_layer": {
     "definition": "The part of the earth's surface that is not permanently covered by water.",
-    "common_uses": []
+    "common_uses": [
+      "Agriculture",
+      "Settlement",
+      "Recreation"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Supports plant life and animal life.",
-    "origin": "Geological processes"
+    "mechanism": "Land cover and land use practices affect surface runoff, infiltration, and evapotranspiration, which influence hydrological processes.",
+    "origin": "The solid outer layer of the Earth."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Agricultural fields",
+      "Forests",
+      "Urban areas"
+    ]
   },
   "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
     "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
+      "visual_features": [
+        "Variable color depending on vegetation",
+        "Textured surface"
+      ],
+      "shape": [
+        "Irregular",
+        "Variable depending on topography"
+      ],
       "composition": [],
       "parts": [],
       "relations": []
-    }
+    },
+    "SPATIAL": {}
   },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "https://link.springer.com/article/10.1007/s11356-021-16148-8",
     "citations": []
   }
 }

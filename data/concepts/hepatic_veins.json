@@ -1,0 +1,88 @@
+{
+  "name": "Hepatic Veins",
+  "type": "BODY_PART",
+  "id": {
+    "group": 22,
+    "item": 1005
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Blood Vessel",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Collecting blood from the liver",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DRAINS_INTO",
+      "object": "Inferior Vena Cava",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Blood vessels that collect blood from the liver and drain into the inferior vena cava.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Hepatic veins collect filtered blood from the liver lobules and transport it to the inferior vena cava for return to the heart.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Liver",
+      "coordinates": [],
+      "connected_to": [
+        "Liver Tissue",
+        "Inferior Vena Cava"
+      ],
+      "contained_in": "Liver"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Extracted from text",
+    "citations": [
+      "https://teachmephysiology.com/cardiovascular-system/special-circulations/hepatic-circulation/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7531010/"
+    ]
+  }
+}

@@ -2,8 +2,8 @@
   "name": "RAM",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 1235
+    "group": 21,
+    "item": 4567
   },
   "claims": [
     {
@@ -327,26 +327,56 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Computer Component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Temporary Data Storage",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Data memory used to store variables and data during operation.",
-    "common_uses": []
+    "definition": "Random Access Memory, volatile memory for temporary data storage.",
+    "common_uses": [
+      "Running applications",
+      "Storing active data"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Data can be accessed in any order, allowing for fast read and write operations.",
+    "origin": "Developed as an alternative to sequential access memory."
   },
-  "instance_layer": {},
-  "facets": {
-    "STRUCTURAL": {},
-    "FUNCTION": {},
-    "SPATIAL": {}
-  },
-  "epistemic_metadata": {
-    "source": "Components of Microcontroller - GeeksforGeeks",
-    "citations": [
-      "https://www.geeksforgeeks.org/digital-logic/components-of-microcontroller/"
+  "instance_layer": {
+    "examples": [
+      "DDR4 RAM",
+      "DDR5 RAM"
     ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Computer Systems - Introduction - Academia.edu",
+    "citations": []
   }
 }

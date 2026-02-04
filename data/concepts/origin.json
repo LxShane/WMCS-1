@@ -3,7 +3,7 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 21,
-    "item": 6543
+    "item": 1239
   },
   "claims": [
     {
@@ -19,27 +19,117 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "The place where a skeletal muscle attaches to a bone that remains immobile for an action.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Proximal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Fixed part of the skeleton",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "The place is a bone that remains immobile for an action",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Typically considered the proximal attachment, or the end of the muscle fixed nearest the center of the body.",
-    "common_uses": []
+    "definition": "A muscle attachment point to a bone that remains immobile during an action.",
+    "common_uses": [
+      "Muscle attachment",
+      "Stabilization"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Serves as a stable base for muscle action.",
-    "origin": "Biological development."
+    "mechanism": "Provides a stable attachment point for the muscle to pull from.",
+    "origin": "Develops during skeletal and muscular development."
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": [
+      "The origin of the biceps brachii is on the scapula."
+    ]
+  },
   "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Anchor"
+      ],
+      "capabilities": [
+        "Provide stable attachment"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [
+        "Variable"
+      ],
+      "shape": [
+        "Variable"
+      ],
+      "composition": [
+        "Bone",
+        "Connective tissue"
+      ],
+      "parts": [],
+      "relations": []
+    },
     "SPATIAL": {
-      "location": "Proximal",
-      "connected_to": [],
-      "coordinates": []
+      "location": "On bone",
+      "coordinates": [],
+      "connected_to": [
+        "Muscle",
+        "Bone"
+      ],
+      "contained_in": null
     }
   },
   "epistemic_metadata": {
-    "source": "Muscle Attachment: Anatomy & Definition | StudySmarter",
-    "citations": []
-  },
-  "autocorrected": true
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://www.visiblebody.com/learn/muscular/muscle-movements"
+    ]
+  }
 }

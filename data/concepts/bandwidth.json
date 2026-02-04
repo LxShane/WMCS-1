@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1009
+    "item": 4567
   },
   "claims": [
     {
@@ -33,31 +33,47 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Faster data transmission rate",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "data (50, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The rate at which data can be transferred between memory levels.",
-    "common_uses": [
-      "Performance analysis"
-    ]
+    "definition": "The range of frequencies or data transfer capacity of a communication channel.",
+    "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Amount of data moved per unit of time.",
-    "origin": "Computer architecture"
+    "mechanism": "Determines the amount of information that can be transmitted per unit of time.",
+    "origin": "Developed in the context of signal processing and communication theory."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "PROPERTY_DATA": {
-      "domain": "Data Transfer",
-      "antonym": "Narrowness"
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "7-1 Chapter 7- Memory System Design Chapter 7- Memory System ...",
+    "source": "What is Signal transmission? Signal transmission Overview_Industry ...",
     "citations": [
-      "https://people.computing.clemson.edu/~mark/330/chap7.pdf"
+      "https://www.cdebyte.com/news/723"
     ]
   }
 }

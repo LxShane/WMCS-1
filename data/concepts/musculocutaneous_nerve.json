@@ -2,8 +2,8 @@
   "name": "Musculocutaneous Nerve",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 36,
-    "item": 1002
+    "group": 22,
+    "item": 1003
   },
   "claims": [
     {
@@ -131,24 +131,78 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "mixed nerve",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "sensory axons",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "motor axons",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "lateral cord",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The musculocutaneous nerve innervates several muscles in the arm and provides sensation to the lateral forearm.",
+    "definition": "The musculocutaneous nerve is a mixed nerve that contains sensory and motor axons.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Nerve signals are transmitted through the musculocutaneous nerve to control muscles and provide sensation.",
-    "origin": "Arises from the brachial plexus."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": [
-      "Musculocutaneous nerve - Wikipedia"
-    ]
+    "source": "Overview, Gross Anatomy, Blood Supply of the Brachial Plexus",
+    "citations": []
   }
 }

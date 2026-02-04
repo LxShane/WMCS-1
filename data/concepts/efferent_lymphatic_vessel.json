@@ -1,9 +1,9 @@
 {
-  "name": "Efferent Lymphatic Vessel",
-  "type": "LIVING_SYSTEM",
+  "name": "Efferent lymphatic vessel",
+  "type": "BODY_PART",
   "id": {
-    "group": 21,
-    "item": 1003
+    "group": 23,
+    "item": 1237
   },
   "claims": [
     {
@@ -47,24 +47,31 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Lymphocyte",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A lymphatic vessel that carries lymph away from a lymph node.",
+    "definition": "Vessel through which lymphocytes exit the lymph node.",
     "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": "Efferent lymphatic vessels transport filtered lymph away from the lymph node to other parts of the body.",
-    "origin": null
-  },
-  "instance_layer": {
-    "examples": []
-  },
+  "deep_layer": {},
+  "instance_layer": {},
   "facets": {},
   "epistemic_metadata": {
-    "source": "Ingestion Engine",
-    "citations": [
-      "Lymphatic vessel - Wikipedia"
-    ]
+    "source": "Lymph Node Anatomy - Anatomy Note",
+    "citations": []
   }
 }

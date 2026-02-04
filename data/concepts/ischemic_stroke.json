@@ -1,0 +1,67 @@
+{
+  "name": "Ischemic Stroke",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 30,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Stroke",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Infarction",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Neurological Deficits",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A type of stroke caused by a blockage in a blood vessel, leading to reduced blood flow to the brain.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Reduced blood flow deprives brain tissue of oxygen and glucose, causing cell damage and death.",
+    "origin": "Caused by thrombus or embolus obstructing a cerebral artery."
+  },
+  "instance_layer": [],
+  "epistemic_metadata": {
+    "source": "The Posterior Cerebral Artery and its Main Cortical Branches Identified ...",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5023222/"
+    ]
+  }
+}

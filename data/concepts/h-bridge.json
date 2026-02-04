@@ -1,0 +1,54 @@
+{
+  "name": "H-bridge",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "MOSFET",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Driving motor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An electronic circuit that allows a voltage to be applied across a load in either direction.",
+    "common_uses": [
+      "Motor control"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Uses four switches to control the direction of current flow.",
+    "origin": "Developed for controlling DC motors."
+  },
+  "instance_layer": {},
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "US6891739B2 - H-bridge with power switches and control in a",
+    "citations": []
+  }
+}

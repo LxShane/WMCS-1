@@ -1,0 +1,82 @@
+{
+  "name": "Solder Ball",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 20,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "63/37 (lead-based) alloy",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "305 (lead-free) alloy",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A small sphere of solder used for making electrical connections.",
+    "common_uses": [
+      "BGA Rework"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Provides electrical and mechanical connection between components.",
+    "origin": "Manufacturing process."
+  },
+  "instance_layer": [],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Metallic",
+        "Shiny",
+        "Small"
+      ],
+      "shape": [
+        "Sphere"
+      ],
+      "composition": [
+        "Alloy"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Complete BGA Rework Process Step-by-Step - TechSparks",
+    "citations": []
+  }
+}

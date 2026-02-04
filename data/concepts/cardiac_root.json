@@ -1,0 +1,88 @@
+{
+  "name": "Cardiac Root",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 9012
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "where the great vessels join the heart",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "great vessels",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "heart (32, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Region where great vessels connect to the heart",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Entry/exit point for major blood vessels.",
+    "origin": "Anatomical structure."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Superior and posterior aspect of the heart, within the mediastinum",
+      "connected_to": [
+        "Ascending aorta",
+        "Pulmonary trunk",
+        "Superior vena cava",
+        "Inferior vena cava",
+        "Right atrium",
+        "Left atrium",
+        "Left Ventricle",
+        "Right Ventricle"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Pericardium - Wikipedia"
+    ]
+  },
+  "autocorrected": true
+}

@@ -1,9 +1,9 @@
 {
-  "name": "Adaptive Immune Response",
-  "type": "ABSTRACT_CONCEPT",
+  "name": "Adaptive immune response",
+  "type": "LIVING_SYSTEM",
   "id": {
-    "group": 50,
-    "item": 1237
+    "group": 21,
+    "item": 7890
   },
   "claims": [
     {
@@ -75,22 +75,45 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Lymph node (28, 1234)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "antigen (21, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "An immune response mediated by lymphocytes.",
+    "definition": "An immune response that is specific to a particular antigen.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Involves recognition of specific antigens and the generation of immunological memory.",
-    "origin": "Evolves over time in response to pathogens."
+    "mechanism": null,
+    "origin": null
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": [
-      "https://www.cell.com/trends/immunology/fulltext/S1471-4906(21)00162-9"
-    ]
+    "citations": []
   }
 }

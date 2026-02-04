@@ -1,0 +1,123 @@
+{
+  "name": "Apparent Diffusion Coefficient",
+  "type": "MATHEMATICAL_OBJECT",
+  "id": {
+    "group": 40,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "a technique used in magnetic resonance imaging (MRI) to measure and visualize the diffusion of water molecules within tissues",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "quantitative measure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DERIVED_FROM",
+      "object": "Diffusion-Weighted Imaging (DWI)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "differentiating adnexal masses",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "predicting benignity/malignancy of adnexal masses",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "HYPOTHETICAL",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "water (20, 1237)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Apparent Diffusion Coefficient ( ADC ) mapping is a technique used in magnetic resonance imaging (MRI) to measure and visualize the diffusion of water molecules within tissues.",
+    "common_uses": [
+      "measuring diffusion of water molecules",
+      "visualizing diffusion of water molecules"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Diffusion gradients are applied to a T2-weighted spin-echo sequence to assess the mobility of water molecules.",
+    "origin": "Derived from Diffusion-Weighted Imaging (DWI)."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Measurement",
+        "Visualization"
+      ],
+      "capabilities": [
+        "Quantifying diffusion",
+        "Providing contrast in MRI"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://mrimaster.com/apparent-diffusion-coefficient-adc-mri/",
+      "https://pubmed.ncbi.nlm.nih.gov/28901638/",
+      "https://mriquestions.com/apparent-diffusion.html"
+    ]
+  }
+}

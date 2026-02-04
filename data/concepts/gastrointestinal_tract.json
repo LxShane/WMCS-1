@@ -2,8 +2,8 @@
   "name": "Gastrointestinal Tract",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 20,
-    "item": 5678
+    "group": 30,
+    "item": 1237
   },
   "claims": [
     {
@@ -19,22 +19,151 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "complex organization of various types of epithelial cells, mucosal barrier, host mucosal immune system, and gut microbiota",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Part of Digestive System",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "UNKNOWN"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Enteric Nervous System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Arteries",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Veins",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Nerves",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Anatomical Barrier",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Mucous Membrane",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "Part of the digestive system.",
-    "common_uses": []
+    "definition": "The digestive tract from the mouth to the anus.",
+    "common_uses": [
+      "Digestion",
+      "Absorption"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Communicates with the brain bidirectionally.",
-    "origin": null
+    "mechanism": "Digestion, absorption, and excretion.",
+    "origin": "Biological development"
   },
-  "instance_layer": [],
-  "facets": {},
+  "instance_layer": {
+    "examples": [
+      "Human digestive system."
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Tube-like",
+        "Variable diameter"
+      ],
+      "shape": [
+        "Elongated"
+      ]
+    }
+  },
   "epistemic_metadata": {
-    "source": "Functional gastrointestinal disorders and gut-brain axis: What",
+    "source": "ScienceDirect Topics",
     "citations": [
-      "https://www.wjgnet.com/1007-9327/full/v25/i5/552.htm"
+      "Anatomical Barrier - an overview | ScienceDirect Topics"
     ]
   }
 }

@@ -1,9 +1,9 @@
 {
   "name": "Port",
-  "type": "ABSTRACT_CONCEPT",
+  "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 50,
-    "item": 1237
+    "group": 22,
+    "item": 1001
   },
   "claims": [
     {
@@ -61,25 +61,107 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Location",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Maritime Area",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Transport Infrastructure",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Node in Logistics Network",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A communication endpoint in a computer network.",
+    "definition": "A harbor or area of water where ships load and unload.",
     "common_uses": [
-      "Network communication",
-      "Data transmission"
+      "International Trade",
+      "Supply Chain Management",
+      "Transportation"
     ]
   },
   "deep_layer": {
-    "mechanism": "Allows different applications on a single computer to communicate with different services on the network.",
-    "origin": "Developed to allow multiplexing of network services."
+    "mechanism": "Ports facilitate the transfer of goods between maritime transport and land-based transport, enabling trade and economic activity.",
+    "origin": "Ports have existed since ancient times, evolving alongside maritime trade."
   },
-  "instance_layer": [],
-  "facets": {},
+  "instance_layer": [
+    "Port of Rotterdam",
+    "Port of Singapore"
+  ],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Docks",
+        "Cranes",
+        "Warehouses"
+      ],
+      "shape": [
+        "Varies depending on the location and infrastructure."
+      ],
+      "composition": [
+        "Concrete",
+        "Steel"
+      ]
+    },
+    "SPATIAL": {
+      "location": "Coastal areas",
+      "coordinates": [
+        "Geographic coordinates"
+      ]
+    }
+  },
   "epistemic_metadata": {
-    "source": "network programming - Understanding TCP/Ip layering through",
+    "source": "Ingestion Engine",
     "citations": [
-      "https://stackoverflow.com/questions/42456116/understanding-tcp-ip-layering-through-internet-flow"
+      "Maritime connectivity, transport infrastructure expansion and economic",
+      "Ports' criticality in international trade and global supply-chains"
     ]
   }
 }

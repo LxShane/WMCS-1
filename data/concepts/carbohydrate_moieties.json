@@ -1,0 +1,49 @@
+{
+  "name": "Carbohydrate Moieties",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 31,
+    "item": 1007
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "H Chains",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "proteins (20, 1236)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Carbohydrate groups attached to proteins.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Glycosylation of proteins plays roles in protein folding, stability, and function.",
+    "origin": "Attached post-translationally by glycosyltransferases."
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://www.sciencedirect.com/topics/neuroscience/immunoglobulin-e-antibody"
+    ]
+  }
+}

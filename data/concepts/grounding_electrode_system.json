@@ -1,0 +1,57 @@
+{
+  "name": "Grounding Electrode System",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 21,
+    "item": 9013
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Grounding electrode",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Electrical System Component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An electrical system that connects equipment to the earth for safety.",
+    "common_uses": [
+      "Electrical Safety",
+      "Lightning protection"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Provides a low-impedance path for fault current to the earth.",
+    "origin": "Part of electrical safety standards."
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Telecommunication Grounding & Bonding - BICSI",
+    "citations": [
+      "https://www.bicsi.org/docs/default-source/conference-presentations/2017-mea-uae/grounding-and-bonding.pdf?sfvrsn=3112558d_2"
+    ]
+  }
+}

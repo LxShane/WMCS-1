@@ -1,0 +1,125 @@
+{
+  "name": "Actin-Binding Protein",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 21,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Protein (22, 1000)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Regulation of actin cytoskeleton assembly",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Organize F-actin",
+      "temporal": {
+        "valid_from": "2024",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Integrate polymeric characteristics into diverse cellular processes",
+      "temporal": {
+        "valid_from": "2024",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Cells",
+      "temporal": {
+        "valid_from": "2024",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "actin (21, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "protein (22, 1000)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A protein that binds to actin.",
+    "common_uses": [
+      "regulating actin cytoskeleton assembly",
+      "organizing F-actin",
+      "integrating polymeric characteristics into cellular processes"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "ABPs bind to actin monomers or filaments to regulate polymerization, depolymerization, and cross-linking.",
+    "origin": "Evolved to control cell shape, movement, and division."
+  },
+  "instance_layer": {
+    "examples": [
+      "Profilin",
+      "Cofilin"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "Regulation of Actin Cytoskeleton Dynamics in Cells - PubMed Central",
+      "Turn-on protein switches for controlling actin binding in cells",
+      "Role of Actin-Binding Proteins in Skeletal Myogenesis - PMC - NIH"
+    ]
+  }
+}

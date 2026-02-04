@@ -2,8 +2,8 @@
   "name": "Logic Gate",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 21,
-    "item": 1314
+    "group": 20,
+    "item": 1357
   },
   "claims": [
     {
@@ -19,36 +19,64 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Transistor",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Performing logic operations",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Performing logical operations",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "An elementary building block of digital circuits.",
+    "definition": "An elementary building block of a digital circuit.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Performs basic logical operations on one or more binary inputs.",
-    "origin": "Computer science."
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
-    "source": "https://www.allelcoelec.com/blog/switches-types-and-uses-explained.html",
+    "source": "How does a computer use logic gates in terms of electricity? It's ... - Quora",
     "citations": []
   }
 }

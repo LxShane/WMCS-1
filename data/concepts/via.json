@@ -3,7 +3,7 @@
   "type": "INANIMATE_OBJECT",
   "id": {
     "group": 30,
-    "item": 1122
+    "item": 1005
   },
   "claims": [
     {
@@ -47,28 +47,45 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Between metal layers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "An electrical connection between layers in a printed circuit board (PCB).",
+    "definition": "A vertical electrical connection between different layers of a multi-layer circuit board or integrated circuit.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Allows electrical signals to pass from one layer to another.",
+    "origin": "Necessary for creating complex circuits with multiple layers of interconnects."
   },
   "instance_layer": {
     "examples": []
   },
   "facets": {
-    "FUNCTION": {},
-    "STRUCTURAL": {},
-    "SPATIAL": {}
+    "SPATIAL": {
+      "location": "Within a structure, passageway",
+      "connected_to": [],
+      "coordinates": []
+    }
   },
   "epistemic_metadata": {
-    "source": "IEEE Explore",
+    "source": "Lecture_3-layout_floorplanning - University of Texas at Austin",
     "citations": [
-      "https://ieeexplore.ieee.org/document/10909837/"
+      "lecture_3.pdf"
     ]
-  }
+  },
+  "autocorrected": true
 }

@@ -1,0 +1,122 @@
+{
+  "name": "Pneumatic Tire",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 21,
+    "item": 8765
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Load Bearing",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Distributing Stress",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Contact Patch",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "GENERATES",
+      "object": "Shear Stress Distribution",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A tire filled with compressed air, used on vehicle wheels.",
+    "common_uses": [
+      "Vehicle transportation",
+      "Load bearing"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The tire's structure and inflation allow it to deform under load, distributing stress.",
+    "origin": "Developed in the late 19th century as an improvement over solid tires."
+  },
+  "instance_layer": {
+    "examples": [
+      "Michelin tires",
+      "Goodyear tires"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Round",
+        "Black",
+        "Rubbery"
+      ],
+      "shape": [
+        "Toroidal"
+      ],
+      "composition": [
+        "Rubber",
+        "Steel",
+        "Fabric"
+      ],
+      "parts": [
+        "Tread",
+        "Sidewall",
+        "Bead"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Mounted on a wheel",
+      "coordinates": [],
+      "connected_to": [
+        "Wheel Hub"
+      ],
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "PDF Documents",
+    "citations": [
+      "Mathematics Underlying The Design Of Pneumatic Tires",
+      "Evaluation of Tire/Surfacing/Base Contact Stresses and Texture Depth",
+      "FINITE ELEMENT MODELING OF TIRE-TERRAIN DYNAMIC"
+    ]
+  }
+}

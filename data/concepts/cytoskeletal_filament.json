@@ -1,0 +1,72 @@
+{
+  "name": "Cytoskeletal Filament",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 32,
+    "item": 1008
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "movement of motor proteins",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cytoplasm (21, 1007)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "proteins (20, 1236)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "structure (50, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A filamentous structure within the cytoplasm that provides structural support and tracks for motor proteins.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Cytoskeletal filaments provide structural support and tracks for motor proteins.",
+    "origin": "Formed within cells from protein subunits."
+  },
+  "instance_layer": {
+    "examples": [
+      "microfilaments",
+      "intermediate filaments",
+      "microtubules"
+    ]
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "Motor proteins and muscles | Organismal Biology"
+    ]
+  }
+}

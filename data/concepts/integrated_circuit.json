@@ -2,24 +2,104 @@
   "name": "Integrated Circuit",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 30,
-    "item": 1238
+    "group": 32,
+    "item": 9012
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "Transistors",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Resistors",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Inductors",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Capacitors",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "metal interconnect layers",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": null,
-    "common_uses": []
+    "definition": "A set of electronic circuits on one small flat piece (or \"chip\") of semiconductor material, normally silicon.",
+    "common_uses": [
+      "Electronics",
+      "Computers",
+      "Mobile Devices"
+    ]
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Fabricated through a series of photolithographic and chemical processing steps.",
+    "origin": "Evolved from discrete transistor circuits for increased density and performance."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Microprocessors",
+      "Memory chips"
+    ]
   },
   "facets": {},
   "epistemic_metadata": {
-    "source": "Set Automatically",
-    "citations": []
+    "source": "What are the process steps in the fabrication of an integrated circuit?",
+    "citations": [
+      "7 Feb 2017"
+    ]
   }
 }

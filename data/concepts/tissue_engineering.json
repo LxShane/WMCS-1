@@ -3,11 +3,26 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 6789
+    "item": 7890
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "lab groups",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "The use of a combination of cells, engineering, materials methods, and suitable biochemical and physio-chemical factors to improve or replace biological functions.",
+    "definition": "The use of cells, biomaterials, and biochemical factors to improve or replace biological functions.",
     "common_uses": []
   },
   "deep_layer": {
@@ -20,9 +35,6 @@
   "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
-    "citations": [
-      "https://www.synthasome.com/",
-      "https://www.cbinsights.com/company/synthasome"
-    ]
+    "citations": []
   }
 }

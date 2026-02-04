@@ -1,9 +1,9 @@
 {
-  "name": "Structural Connectivity",
+  "name": "Structural connectivity",
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1235
+    "item": 1008
   },
   "claims": [
     {
@@ -33,26 +33,68 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Brain connectivity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Physical connections between brain regions.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The physical arrangement of landscape elements that potentially affect organism movement.",
+    "definition": "Physical connections between different parts of the brain.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Arrangement and proximity of habitat patches and corridors.",
-    "origin": "Landscape ecology"
+    "mechanism": null,
+    "origin": null
   },
   "instance_layer": {
-    "examples": [
-      "The presence of stepping stone habitats across a matrix."
-    ]
+    "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [],
+      "capabilities": []
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": null,
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": null
+    }
+  },
   "epistemic_metadata": {
-    "source": "Landscape connectivity - Wikipedia",
-    "citations": [
-      "Landscape connectivity - Wikipedia"
-    ]
+    "source": "Set Automatically",
+    "citations": []
   }
 }

@@ -1,0 +1,76 @@
+{
+  "name": "Auxiliary Power",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1234
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "electric power provided by an alternate source",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "backup for the primary power source",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "power (50, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Electric power provided by an alternate source as backup.",
+    "common_uses": [
+      "backup power",
+      "emergency power"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Provides power when the primary source fails.",
+    "origin": "Engineered power systems."
+  },
+  "instance_layer": [],
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Backup Power Source"
+      ],
+      "capabilities": [
+        "Providing emergency power",
+        "Maintaining system uptime"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Auxiliary power - Wikipedia",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Auxiliary_power"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "name": "Glomerular filtration rate",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 30,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "the volume of fluid filtered from the renal (kidney) glomerular capillaries into the Bowman's capsule per unit time",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEPENDENT_ON",
+      "object": "the difference between the higher afferent and efferent arteriolar tone",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "flow rate of filtered fluid through the renal glomerular capillaries into the Bowman's space per unit time",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Measure of kidney function",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The glomerular filtration rate (GFR) is the volume of fluid filtered from the renal glomerular capillaries into the Bowman's space per unit time.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "It is the rate at which blood is filtered to remove waste from the body via the kidneys.",
+    "origin": "Physiology"
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "https://en.wikipedia.org/wiki/Glomerular_filtration_rate",
+    "citations": []
+  }
+}

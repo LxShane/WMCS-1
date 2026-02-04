@@ -1,0 +1,115 @@
+{
+  "name": "Brake Pedal Assembly",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Assembly",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Understanding the functioning of the braking system",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Brake Pedal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Master Cylinder (30, 5678)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "driver (20, 1008)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "force (50, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A collection of parts that work together to transmit force from the driver's foot to the braking system.",
+    "common_uses": [
+      "Activating the brakes in a vehicle"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The brake pedal assembly uses mechanical linkages to amplify the force applied by the driver and transmit it to the master cylinder, which then pressurizes the hydraulic fluid in the braking system.",
+    "origin": "Evolved along with the development of modern automobiles."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "parts": [
+        "Brake pedal",
+        "Pivot point",
+        "Linkages",
+        "Master cylinder rod"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "See URLs",
+    "citations": [
+      "https://schematron.org/brake-pedal-assembly-diagram.html",
+      "https://phys420.phas.ubc.ca/p420_12/mark/PHYS+420/The_Hydraulic_Braking_System/Theory.html",
+      "http://soaraperformance.com/wp-content/uploads/2017/01/Stop-Tech-physics-of-braking-system.pdf"
+    ]
+  }
+}

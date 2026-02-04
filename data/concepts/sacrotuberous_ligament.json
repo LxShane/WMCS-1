@@ -1,9 +1,9 @@
 {
-  "name": "Sacrotuberous ligament",
-  "type": "LIVING_SYSTEM",
+  "name": "Sacrotuberous Ligament",
+  "type": "BODY_PART",
   "id": {
-    "group": 22,
-    "item": 1006
+    "group": 27,
+    "item": 1003
   },
   "claims": [
     {
@@ -75,22 +75,59 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Convert lesser sciatic notch into foramen",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A ligament that stabilizes the hip bone on the sacrum.",
+    "definition": "A ligament that converts the lesser sciatic notch into a foramen.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Connects the sacrum to the ischial tuberosity.",
+    "origin": "Formed by connective tissue."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [
+        "Ligament"
+      ],
+      "composition": [
+        "Connective tissue"
+      ],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Pelvic region",
+      "coordinates": [],
+      "connected_to": [
+        "Sacrum",
+        "Ischial tuberosity"
+      ],
+      "contained_in": "Pelvis"
+    }
+  },
   "epistemic_metadata": {
-    "source": "Pelvis - Wikipedia, The Pelvic Girdle and Pelvis | Anatomy and Physiology I, Anatomy, Abdomen and Pelvis: Bones (Ilium, Ischium, and Pubis) - StatPearls - NCBI Bookshelf",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "Lesser sciatic notch - e-Anatomy - IMAIOS"
+    ]
   }
 }

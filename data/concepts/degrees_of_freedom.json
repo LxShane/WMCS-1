@@ -1,0 +1,77 @@
+{
+  "name": "Degrees of Freedom",
+  "type": "MATHEMATICAL_OBJECT",
+  "id": {
+    "group": 40,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "RELATED_TO",
+      "object": "types of motions allowed and constrained by kinematic joints",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Translational Degrees of Freedom",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Rotational Orientation Joint",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "robot (25, 7890)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The number of independent parameters that define the position and orientation of a robot.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Quantifies the robot's movement capabilities.",
+    "origin": "Kinematics."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "3 ROBOT KINEMATICS - Ira A. Fulton College of Engineering",
+    "citations": []
+  }
+}

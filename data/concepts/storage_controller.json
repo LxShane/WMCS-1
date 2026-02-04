@@ -1,0 +1,57 @@
+{
+  "name": "Storage Controller",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "HAS_PART",
+      "object": "physical drives",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Manages the physical storage drives.",
+    "common_uses": [
+      "Managing storage"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Interfaces with storage drives and the server.",
+    "origin": "Developed to simplify storage management."
+  },
+  "instance_layer": {
+    "examples": [
+      "RAID controller",
+      "SAS controller"
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Storage Management"
+      ],
+      "capabilities": [
+        "Interfacing with drives",
+        "Managing data access"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Quizlet",
+    "citations": [
+      "Block Based/ RAID Storage Flashcards"
+    ]
+  }
+}

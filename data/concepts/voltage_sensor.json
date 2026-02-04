@@ -1,9 +1,9 @@
 {
-  "name": "Voltage Sensor",
+  "name": "Voltage sensor",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 30,
-    "item": 1006
+    "group": 20,
+    "item": 3456
   },
   "claims": [
     {
@@ -19,24 +19,105 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Being connected to a safety switching system",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Monitoring and detecting the current drawn from an overloaded motor",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Providing voltage usage data",
+      "temporal": {
+        "valid_from": "PRESENT",
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "sensing signals",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "Signal conditioning",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.7,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A device that measures voltage.",
+    "definition": "Voltage sensors measure voltage.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": "Converts a voltage signal into another measurable signal.",
-    "origin": null
+    "mechanism": "Uses physical effect proportional to voltage to generate a signal.",
+    "origin": "Basic measurement principle."
   },
   "instance_layer": {
     "examples": []
   },
-  "facets": {},
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Voltage Measurer"
+      ],
+      "capabilities": [
+        "Measure voltage"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {}
+  },
   "epistemic_metadata": {
-    "source": "Set Automatically",
+    "source": "Multiple Web Sources",
     "citations": [
-      "Voltage Sensor: What is it And How Does it Work? (Circuit Diagram Included) | Electrical4U"
+      "https://en.wikipedia.org/wiki/Signal_conditioning"
     ]
   }
 }

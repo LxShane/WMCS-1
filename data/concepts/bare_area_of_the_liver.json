@@ -1,0 +1,53 @@
+{
+  "name": "Bare Area of the Liver",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 31,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "BOUNDS",
+      "object": "Space superiorly",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "liver (23, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A part of the liver.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": null,
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "SPATIAL": {}
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "Retroperitoneal anatomy with the aid of pathologic fluid: An ..."
+    ]
+  }
+}

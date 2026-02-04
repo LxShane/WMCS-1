@@ -3,7 +3,7 @@
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 6789
+    "item": 4571
   },
   "claims": [
     {
@@ -33,42 +33,44 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Property of fluids",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The elastic tendency of a fluid surface which makes it acquire the least surface area possible.",
-    "common_uses": []
+    "definition": "The force that causes a liquid surface to contract.",
+    "common_uses": [
+      "Water droplets",
+      "Capillary action"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Caused by cohesive forces between liquid molecules at the surface.",
-    "origin": "Results from the imbalance of intermolecular forces at the surface."
+    "mechanism": "Arises from the cohesive forces between liquid molecules.",
+    "origin": "Caused by intermolecular forces."
   },
   "instance_layer": {
-    "examples": []
+    "examples": [
+      "Water surface tension",
+      "Mercury surface tension"
+    ]
   },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
-  },
+  "facets": {},
   "epistemic_metadata": {
     "source": "Set Automatically",
     "citations": [
-      "https://www.geeksforgeeks.org/physics/mechanical-properties-of-fluids/"
+      "Physiology, Lung Compliance - StatPearls - NCBI Bookshelf"
     ]
   }
 }

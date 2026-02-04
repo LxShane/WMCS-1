@@ -1,0 +1,72 @@
+{
+  "name": "Trace Thickness",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Physical Dimension",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Determining Current Carrying Capacity",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "The thickness of a PCB trace's copper layer, influencing its current carrying capacity.",
+    "common_uses": [
+      "Calculating impedance",
+      "Determining current limits"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "A thicker trace provides a larger cross-sectional area for current flow, reducing resistance and heat generation.",
+    "origin": "Defined during PCB manufacturing"
+  },
+  "instance_layer": {
+    "examples": [
+      "1oz copper thickness",
+      "2oz copper thickness"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Variable Thickness"
+      ],
+      "shape": [
+        "Planar"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Ingestion Engine",
+    "citations": [
+      "https://www.pcbx.com/article/Understanding-Current-Ratings-and-Limits-in-PCBs",
+      "https://www.pcbmaster.com/news/How-to-design-the-right-copper-and-choose-the-right-option.html"
+    ]
+  }
+}

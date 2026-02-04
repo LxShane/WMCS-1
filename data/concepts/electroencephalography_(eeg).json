@@ -1,0 +1,83 @@
+{
+  "name": "Electroencephalography (EEG)",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1003
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "record human brain activity",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "analyzing EEG traces",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A technique used to record human brain activity.",
+    "common_uses": [
+      "recording brain activity",
+      "analyzing brain activity"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Electrodes are placed on the scalp to detect electrical activity in the brain.",
+    "origin": "Developed by Hans Berger."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Diagnostic Tool"
+      ],
+      "capabilities": [
+        "Measuring brain electrical activity"
+      ]
+    },
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [
+        "Electrodes"
+      ],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "On the scalp",
+      "coordinates": [],
+      "connected_to": "Scalp",
+      "contained_in": null
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Set Automatically",
+    "citations": [
+      "https://en.wikipedia.org/wiki/Brain\u2013computer_interface"
+    ]
+  }
+}

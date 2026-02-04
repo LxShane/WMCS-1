@@ -1,0 +1,85 @@
+{
+  "name": "MNI Template",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 25,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Brain Atlas",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PROPERTY",
+      "object": "high spatial agreement",
+      "temporal": {
+        "valid_from": "2016",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PROPERTY",
+      "object": "lacks anatomical detail",
+      "temporal": {
+        "valid_from": "2016",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PROPERTY",
+      "object": "includes structures visible on MRI",
+      "temporal": {
+        "valid_from": "2016",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A standard brain atlas in MNI space.",
+    "common_uses": [
+      "neuroimaging",
+      "stereotactic surgery"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Used as a reference for spatial normalization of brain images.",
+    "origin": "Montreal Neurological Institute"
+  },
+  "instance_layer": [],
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Toward defining deep brain stimulation targets in MNI space",
+    "citations": [
+      "https://www.biorxiv.org/content/10.1101/062851v2.full-text"
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Aquatic Ecosystem",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 4567
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Ecosystem (21, 1004)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Water (20, 1237)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RECEIVES",
+      "object": "Resources and energy from terrestrial ecosystems",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "ecosystem (21, 1004)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "water (20, 1237)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "An ecosystem located in water.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Receives resources and energy from terrestrial ecosystems.",
+    "origin": null
+  },
+  "instance_layer": {
+    "examples": [
+      "Rivers",
+      "Lakes",
+      "Oceans"
+    ]
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Multiple URLs",
+    "citations": [
+      "https://www.nature.com/articles/s41467-023-37232-2",
+      "https://www.pnnl.gov/terrestrial-aquatics",
+      "https://maweb.org/how-are-terrestrial-and-aquatic-ecosystems-connected/"
+    ]
+  }
+}

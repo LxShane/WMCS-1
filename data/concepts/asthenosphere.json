@@ -2,8 +2,8 @@
   "name": "Asthenosphere",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 20,
-    "item": 2002
+    "group": 29,
+    "item": 1239
   },
   "claims": [
     {
@@ -19,23 +19,73 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Layer (24, 1003)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Mechanically weak asthenosphere",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Divided by mechanical properties",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "The highly viscous, mechanically weak and ductile region of the upper mantle of the Earth.",
+    "definition": "A highly viscous, mechanically weak and ductile region of the upper mantle of Earth.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Enables plate movement.",
+    "origin": "Partial melting of the upper mantle."
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {
-    "STRUCTURAL": {},
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
     "SPATIAL": {}
   },
   "epistemic_metadata": {
-    "source": "https://www.facebook.com/groups/1525654134404363/posts/2604086066561159/",
+    "source": "Chemistry LibreTexts",
     "citations": []
   }
 }

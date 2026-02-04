@@ -1,9 +1,9 @@
 {
-  "name": "gene",
+  "name": "Gene",
   "type": "ABSTRACT_CONCEPT",
   "id": {
     "group": 50,
-    "item": 1237
+    "item": 1235
   },
   "claims": [
     {
@@ -33,42 +33,69 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Gene Expression",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.95,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "LOCATED_AT",
+      "object": "Chromosome Territory",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "A unit of heredity that is transferred from a parent to offspring and is held to determine some characteristic of the offspring.",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
     "definition": "A unit of heredity.",
-    "common_uses": []
+    "common_uses": [
+      "Genetic research",
+      "Disease diagnosis"
+    ]
   },
   "deep_layer": {
-    "mechanism": "Genes encode proteins or functional RNA molecules that perform specific functions in the cell.",
-    "origin": "Evolution of genetic material."
+    "mechanism": "Encodes proteins or RNA molecules.",
+    "origin": "Basic unit of inheritance."
   },
   "instance_layer": {
-    "examples": []
-  },
-  "facets": {
-    "FUNCTION": {
-      "roles": [],
-      "capabilities": []
-    },
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
-    },
-    "SPATIAL": {
-      "location": null,
-      "coordinates": [],
-      "connected_to": [],
-      "contained_in": null
-    }
+    "examples": [
+      "BRCA1",
+      "TP53"
+    ]
   },
   "epistemic_metadata": {
-    "source": "Ingestion Engine",
-    "citations": [
-      "https://www.cell.com/molecular-cell/fulltext/S1097-2765(14)00129-4"
-    ]
+    "source": "Set Automatically",
+    "citations": []
   }
 }

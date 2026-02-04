@@ -2,13 +2,13 @@
   "name": "Cytoplasm",
   "type": "LIVING_SYSTEM",
   "id": {
-    "group": 31,
-    "item": 1011
+    "group": 20,
+    "item": 1003
   },
   "claims": [
     {
       "predicate": "HAS_PART",
-      "object": "Organelle",
+      "object": "Organelle (21, 5678)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -33,24 +33,58 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Cellular Component",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "cell (21, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "material (30, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "nucleus (25, 9012)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
     "definition": "The material or protoplasm within a living cell, excluding the nucleus.",
     "common_uses": []
   },
-  "deep_layer": {
-    "mechanism": null,
-    "origin": null
-  },
-  "instance_layer": {
-    "examples": []
-  },
+  "deep_layer": {},
+  "instance_layer": {},
   "facets": {},
   "epistemic_metadata": {
-    "source": "Dataset - COMPARTMENTS Text-mining Protein Localization",
-    "citations": [
-      "https://maayanlab.cloud/Harmonizome/dataset/COMPARTMENTS+Text-mining+Protein+Localization+Evidence+Scores+2025"
-    ]
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10155461/",
+    "citations": []
   }
 }

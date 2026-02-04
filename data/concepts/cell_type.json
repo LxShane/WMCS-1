@@ -3,20 +3,110 @@
   "type": "LIVING_SYSTEM",
   "id": {
     "group": 20,
-    "item": 3579
+    "item": 1236
   },
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Type of cell",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Sharing similar functions within the same organs",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Sharing similar functions between organs",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "function (50, 1002)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "structure (50, 4567)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
   "surface_layer": {
-    "definition": "A distinct category of cells with specific characteristics and functions.",
-    "common_uses": []
+    "definition": "A category of cells characterized by specific structure and function.",
+    "common_uses": [
+      "Classification of tissues",
+      "Disease modeling"
+    ]
   },
   "deep_layer": {
-    "origin": "Rooted in evolution and development"
+    "mechanism": "Arises from differentiation processes during development.",
+    "origin": "Cellular differentiation."
   },
-  "instance_layer": {},
-  "facets": {},
+  "instance_layer": {
+    "examples": [
+      "Neuron",
+      "Hepatocyte"
+    ]
+  },
   "epistemic_metadata": {
-    "source": "https://www.sciencedirect.com/science/article/pii/S0092867422007838",
+    "source": "Set Automatically",
     "citations": []
-  }
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Varies depending on cell type and tissue; can be localized within specific tissue compartments or dispersed throughout",
+      "connected_to": [
+        "Extracellular matrix",
+        "Other cells (via cell junctions like tight junctions, adherens junctions, gap junctions, desmosomes)",
+        "Basement membrane",
+        "Blood vessels (for endothelial cells)",
+        "Nerve fibers (for neurons and glial cells)"
+      ],
+      "coordinates": []
+    }
+  },
+  "autocorrected": true
 }

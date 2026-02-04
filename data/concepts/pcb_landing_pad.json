@@ -1,0 +1,72 @@
+{
+  "name": "PCB Landing Pad",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1002
+  },
+  "claims": [
+    {
+      "predicate": "LOCATED_AT",
+      "object": "PCB",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Non-solder mask defined pad",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A metallic area on a PCB for soldering components.",
+    "common_uses": [
+      "Component mounting",
+      "Electrical connection"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Provides a solderable surface for electrical components.",
+    "origin": "Created during PCB fabrication."
+  },
+  "instance_layer": [],
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [],
+      "shape": [],
+      "composition": [],
+      "parts": [],
+      "relations": []
+    },
+    "SPATIAL": {
+      "location": "Surface of PCB",
+      "connected_to": [
+        "Electronic components",
+        "Solder"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "LMG3425R050 600 V 50 m\u03a9 GaN FET With Integrated Driver",
+    "citations": []
+  },
+  "autocorrected": true
+}

@@ -8,7 +8,7 @@
   "claims": [
     {
       "predicate": "MEASURED_BY",
-      "object": "Antenna strap probe",
+      "object": "Antenna strap probe (30, 1003)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -64,7 +64,7 @@
     },
     {
       "predicate": "REQUIRES",
-      "object": "Phasing Harness",
+      "object": "Phasing Harness (23, 1003)",
       "temporal": {
         "valid_from": "ORIGIN",
         "valid_until": "PRESENT",
@@ -74,6 +74,33 @@
         "confidence": 0.8,
         "status": "SETTLED",
         "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "phase (50, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "process (50, 1234)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "radiation (20, 1004)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
       }
     }
   ],

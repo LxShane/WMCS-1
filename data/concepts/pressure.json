@@ -1,14 +1,14 @@
 {
   "name": "Pressure",
-  "type": "PHYSICAL_PROPERTY",
+  "type": "PHYSICAL",
   "id": {
-    "group": 50,
+    "group": 30,
     "item": 1004
   },
   "claims": [
     {
       "predicate": "RELATED_TO",
-      "object": "Triple Point",
+      "object": "Triple Point (50, 1234)",
       "temporal": {
         "valid_from": null,
         "valid_until": null,
@@ -89,22 +89,109 @@
         "status": "SETTLED",
         "source_type": "WEB"
       }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Force exerted per unit area.",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "General somatic sense",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAUSES",
+      "object": "Ice to melt below 0\u00b0C",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Force per unit area",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "DEFINED_AS",
+      "object": "Force exerted perpendicularly upon a surface per unit area",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "force (50, 1235)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
     }
   ],
   "surface_layer": {
-    "definition": null,
+    "definition": "The force exerted on a surface per unit area.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Molecules colliding with a surface exert force.",
+    "origin": "Fundamental physical property"
   },
-  "instance_layer": {
-    "examples": []
+  "instance_layer": [],
+  "facets": {
+    "STRUCTURAL": {
+      "material_properties": {
+        "rigidity": "N/A",
+        "state": "N/A",
+        "conductivity": "N/A"
+      }
+    }
   },
-  "facets": {},
   "epistemic_metadata": {
-    "source": "Britannica",
-    "citations": []
+    "source": "Set Automatically",
+    "citations": [
+      "https://biologyinsights.com/what-is-ambient-pressure-and-how-is-it-measured/"
+    ]
   }
 }

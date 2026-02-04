@@ -1,0 +1,62 @@
+{
+  "name": "Clock Sink",
+  "type": "INANIMATE_OBJECT",
+  "id": {
+    "group": 30,
+    "item": 1006
+  },
+  "claims": [
+    {
+      "predicate": "CONNECTED_TO",
+      "object": "Main clock source pin",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "circuit (30, 1003)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A point in a digital circuit that receives the clock signal.",
+    "common_uses": []
+  },
+  "deep_layer": {
+    "mechanism": "Receives and synchronizes operations based on the clock signal.",
+    "origin": "Essential for coordinating operations in synchronous digital circuits."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "SPATIAL": {
+      "location": "Inferior",
+      "connected_to": [
+        "Drain",
+        "Water pipes",
+        "Countertop"
+      ],
+      "coordinates": []
+    }
+  },
+  "epistemic_metadata": {
+    "source": "Physical Design of CMOS Integrated Circuits",
+    "citations": [
+      "04-Physical_Design.pdf"
+    ]
+  },
+  "autocorrected": true
+}

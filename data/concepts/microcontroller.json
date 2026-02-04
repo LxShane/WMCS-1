@@ -2,8 +2,8 @@
   "name": "Microcontroller",
   "type": "INANIMATE_OBJECT",
   "id": {
-    "group": 21,
-    "item": 1004
+    "group": 20,
+    "item": 1234
   },
   "claims": [
     {
@@ -411,31 +411,69 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "communicate with an SD card",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Executing safety protocols",
+      "temporal": {
+        "valid_from": "2025",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "WEB"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A small computer on a single integrated circuit containing a processor core, memory, and programmable input/output peripherals.",
+    "definition": "A small computer on a single integrated circuit.",
     "common_uses": [
-      "Embedded systems",
-      "Control devices"
+      "executing safety protocols",
+      "controlling electronic devices"
     ]
   },
   "deep_layer": {
-    "mechanism": "Executes instructions stored in memory to control peripherals and interact with the environment.",
-    "origin": "Man-made device."
+    "mechanism": "Microcontrollers use programmed logic to perform specific tasks.",
+    "origin": "Engineered electronic components."
   },
-  "instance_layer": [],
+  "instance_layer": {
+    "examples": []
+  },
   "facets": {
-    "STRUCTURAL": {
-      "visual_features": [],
-      "shape": [],
-      "composition": [],
-      "parts": [],
-      "relations": []
+    "FUNCTION": {
+      "roles": [
+        "Controller"
+      ],
+      "capabilities": [
+        "executing safety protocols"
+      ]
+    },
+    "STRUCTURAL": {},
+    "SPATIAL": {
+      "location": "N/A",
+      "connected_to": [],
+      "coordinates": []
     }
   },
   "epistemic_metadata": {
-    "source": "[PDF] COMPUTING IN THE PHYSICAL WORLD - CSE 132",
+    "source": "Understanding BMS Connection Diagram: From MOSFET Control to Cell Balancing - AYAA TECHNOLOGY CO., LTD",
     "citations": []
-  }
+  },
+  "autocorrected": true
 }

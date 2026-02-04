@@ -1,0 +1,93 @@
+{
+  "name": "Head Loss",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 1004
+  },
+  "claims": [
+    {
+      "predicate": "DEFINED_AS",
+      "object": "The loss of total head (energy) of the fluid as it moves through a pipe or duct",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "L (length of pipe)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "V (mean velocity in the pipe)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "REQUIRES",
+      "object": "D (diameter of the pipe)",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "Head loss represents the energy lost by a fluid due to friction as it flows through a pipe.",
+    "common_uses": [
+      "Calculating pressure drop in pipes",
+      "Designing efficient piping systems"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Friction between the fluid and the pipe wall, as well as turbulence within the fluid, dissipates energy, resulting in a reduction in the fluid's pressure head.",
+    "origin": "A fundamental concept in fluid mechanics, studied to optimize fluid flow and minimize energy waste."
+  },
+  "instance_layer": {
+    "examples": [
+      "The pressure drop observed in a long water pipeline due to friction."
+    ]
+  },
+  "facets": {
+    "ABSTRACT_DATA": {
+      "domain": "Fluid Mechanics"
+    }
+  },
+  "epistemic_metadata": {
+    "source": "An-Najah National University PDF",
+    "citations": [
+      "Fluid Mechanics Chapter 7"
+    ]
+  }
+}

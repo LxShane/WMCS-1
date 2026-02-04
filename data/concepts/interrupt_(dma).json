@@ -1,0 +1,68 @@
+{
+  "name": "Interrupt (DMA)",
+  "type": "ABSTRACT_CONCEPT",
+  "id": {
+    "group": 50,
+    "item": 3456
+  },
+  "claims": [
+    {
+      "predicate": "USED_FOR",
+      "object": "Informing the CPU once the DMA operation is completed",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Signal",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A signal used to notify the CPU that a DMA operation is finished.",
+    "common_uses": [
+      "Signaling completion of data transfer."
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "The DMA controller sends an interrupt signal to the CPU when the data transfer is complete.",
+    "origin": "Part of the DMA process."
+  },
+  "instance_layer": {
+    "examples": [
+      "A DMA controller sending an interrupt to the CPU after transferring data from a disk to memory."
+    ]
+  },
+  "facets": {
+    "FUNCTION": {
+      "roles": [
+        "Notification"
+      ],
+      "capabilities": [
+        "Informs the CPU about DMA completion"
+      ]
+    },
+    "ABSTRACT_DATA": {}
+  },
+  "epistemic_metadata": {
+    "source": "Direct Memory Access - GeeksforGeeks",
+    "citations": []
+  }
+}

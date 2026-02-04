@@ -1,0 +1,134 @@
+{
+  "name": "Alpha particles",
+  "type": "PHYSICAL",
+  "id": {
+    "group": 20,
+    "item": 1111
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Particle (20, 1235)",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "MADE_OF",
+      "object": "Helium nucleus",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "USED_FOR",
+      "object": "Heating power",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.8,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "object": "Fusion events",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "fusion (50, 1001)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "helium (20, 1007)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "nucleus (25, 9012)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A helium nucleus emitted during nuclear fusion.",
+    "common_uses": [
+      "Heating plasma in fusion reactors"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Generated during fusion reactions and deposit energy into the plasma.",
+    "origin": "Produced in fusion power plants"
+  },
+  "instance_layer": {
+    "examples": [
+      "Alpha particles heating deuterium-tritium plasma"
+    ]
+  },
+  "facets": {
+    "STRUCTURAL": {
+      "visual_features": [
+        "Subatomic particle"
+      ],
+      "shape": [
+        "Spherical"
+      ],
+      "composition": [
+        "2 protons",
+        "2 neutrons"
+      ]
+    },
+    "FUNCTION": {
+      "roles": [
+        "Heating agent"
+      ],
+      "capabilities": [
+        "Transfers energy to plasma"
+      ]
+    }
+  },
+  "epistemic_metadata": {
+    "source": "PDF Heating and current drive - magnetically confined plasmas",
+    "citations": []
+  }
+}

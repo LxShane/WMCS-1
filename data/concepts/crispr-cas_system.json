@@ -1,0 +1,56 @@
+{
+  "name": "CRISPR/Cas System",
+  "type": "LIVING_SYSTEM",
+  "id": {
+    "group": 20,
+    "item": 1001
+  },
+  "claims": [
+    {
+      "predicate": "IS_A",
+      "object": "Gene Editing System",
+      "temporal": {
+        "valid_from": "ORIGIN",
+        "valid_until": "PRESENT",
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "RELATED_TO",
+      "object": "gene (50, 1237)",
+      "epistemic": {
+        "confidence": 0.9,
+        "status": "AUTO_GENERATED",
+        "source_type": "RELATION_BUILDER"
+      }
+    }
+  ],
+  "surface_layer": {
+    "definition": "A gene editing system.",
+    "common_uses": [
+      "Gene editing",
+      "Gene silencing",
+      "Gene activation"
+    ]
+  },
+  "deep_layer": {
+    "mechanism": "Uses a guide RNA to target and cleave specific DNA sequences.",
+    "origin": "Derived from bacterial immune systems."
+  },
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {},
+  "epistemic_metadata": {
+    "source": "Current Updates of CRISPR/Cas System and Anti-CRISPR Proteins",
+    "citations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11471075/",
+      "https://www.tandfonline.com/doi/full/10.2147/IJN.S479068"
+    ]
+  }
+}

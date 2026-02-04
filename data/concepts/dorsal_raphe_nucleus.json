@@ -1,9 +1,9 @@
 {
-  "name": "Dorsal raphe nucleus",
-  "type": "LIVING_SYSTEM",
+  "name": "Dorsal Raphe Nucleus",
+  "type": "BODY_PART",
   "id": {
     "group": 33,
-    "item": 1005
+    "item": 4004
   },
   "claims": [
     {
@@ -537,20 +537,71 @@
         "status": "SETTLED",
         "source_type": "ACADEMIC"
       }
+    },
+    {
+      "predicate": "IS_A",
+      "object": "Brainstem Nucleus",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "HAS_PART",
+      "object": "Serotonergic neurons",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
+    },
+    {
+      "predicate": "CAPABLE_OF",
+      "object": "Projections to forebrain",
+      "temporal": {
+        "valid_from": null,
+        "valid_until": null,
+        "event": null
+      },
+      "epistemic": {
+        "confidence": 1.0,
+        "status": "SETTLED",
+        "source_type": "ACADEMIC"
+      }
     }
   ],
   "surface_layer": {
-    "definition": "A raphe nucleus located in the midbrain.",
+    "definition": "A major serotonin-containing nucleus of the brainstem.",
     "common_uses": []
   },
   "deep_layer": {
-    "mechanism": null,
-    "origin": null
+    "mechanism": "Releases serotonin to regulate mood and behavior.",
+    "origin": "Develops during brainstem development."
   },
-  "instance_layer": [],
-  "facets": {},
+  "instance_layer": {
+    "examples": []
+  },
+  "facets": {
+    "SPATIAL": {
+      "location": "Brainstem",
+      "coordinates": [],
+      "connected_to": [],
+      "contained_in": "Brainstem"
+    }
+  },
   "epistemic_metadata": {
-    "source": "Locus coeruleus - Wikipedia",
+    "source": "https://www.sciencedirect.com/topics/immunology-and-microbiology/median-raphe-nucleus",
     "citations": []
   }
 }
