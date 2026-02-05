@@ -16,6 +16,7 @@ from system_a_cognitive.logic.spatial import SpatialEngine
 from system_a_cognitive.logic.composition import CompositionEngine
 from system_a_cognitive.logic.grounding import GroundingEngine
 from system_a_cognitive.epistemic_gate import get_epistemic_gate
+from system_a_cognitive.meta.reflective_reasoner import get_reflective_reasoner
 
 
 class CognitiveLoop:
@@ -45,6 +46,7 @@ class CognitiveLoop:
         self.composition = CompositionEngine()
         self.grounding = GroundingEngine()
         self.epistemic = get_epistemic_gate()
+        self.reflective = get_reflective_reasoner(llm_client)  # Meta-cognitive layer
         
         # Logging
         self.trace = []
@@ -123,7 +125,8 @@ class CognitiveLoop:
         if trust_score < 0.5:
             answer, _ = self.epistemic.enforce(answer)
         
-        return {
+        # Build result
+        result = {
             "answer": answer,
             "confidence": confidence,
             "trust_score": trust_score,
@@ -132,6 +135,23 @@ class CognitiveLoop:
             "engines_used": list(engines_used),
             "iterations": iteration + 1
         }
+        
+        # REFLECTIVE REASONING: Add meta-cognitive layer
+        if confidence < 0.7 or trust_score < 0.5:
+            # Analyze WHY we're uncertain
+            context["confidence"] = confidence
+            context["engines_used"] = list(engines_used)
+            uncertainty_type, explanation = self.reflective.analyze_uncertainty(query, context)
+            strategy = self.reflective.choose_strategy(uncertainty_type, query, context)
+            
+            # Add reflection to result
+            result = self.reflective.reflect_on_answer(query, result, uncertainty_type, strategy)
+            
+            self._log("Reflective analysis", f"{uncertainty_type.value}: {explanation[:50]}")
+            engines_used.add("ReflectiveReasoner")
+            result["engines_used"] = list(engines_used)
+        
+        return result
     
     def _log(self, step: str, detail: any):
         """Add to trace log."""
