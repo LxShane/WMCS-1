@@ -8,6 +8,7 @@ import time
 import json
 from termcolor import colored
 from system_b_llm.interfaces.gemini_client import GeminiClient
+from system_a_cognitive.logic.identity import IdentityManager
 from config import Config
 from schema_v1_production import ConceptBlockV1  # Schema validation
 
@@ -56,6 +57,7 @@ class SeedGenerator:
     def __init__(self):
         self.client = GeminiClient(Config.LLM_API_KEY, Config.LLM_MODEL)
         self.output_dir = "data/concepts" # Direct to live folder after purge
+        self.identity = IdentityManager()  # Centralized ID management
         
     def generate_all(self):
         print(colored("=== GENERATING 100 SOLAR SYSTEM CONCEPTS (v1.0) ===", "magenta", attrs=['bold']))
@@ -72,10 +74,10 @@ class SeedGenerator:
         Create a rigorous v1.0 Concept Block for: '{name}'
         
         CRITICAL: You must Output JSON adhering EXACTLY to this structure. Do not flatten it.
+        NOTE: Do NOT include the "id" field - it will be assigned by the system.
         
         {{
           "CORE": {{
-            "id": {{ "group": 20, "item": <random_int> }},
             "name": "{name}",
             "type": "organism.animal... (or similar)",
             "definition": "..."
@@ -123,10 +125,28 @@ class SeedGenerator:
             
             # Simple check
             if "CORE" in res and "ARRANGEMENT" in res:
+                # ASSIGN ID VIA IDENTITY MANAGER (centralized)
+                concept_type = res.get("CORE", {}).get("type", "")
+                
+                # Determine group based on type
+                if "organism" in concept_type:
+                    group = 21  # Living systems
+                elif "artifact" in concept_type:
+                    group = 30  # Artifacts
+                elif "natural_object" in concept_type or "planet" in concept_type:
+                    group = 20  # Physical natural
+                elif "abstraction" in concept_type or "phenomenon" in concept_type:
+                    group = 50  # Abstract
+                else:
+                    group = 20  # Default physical
+                
+                # Mint the ID through centralized system
+                res["CORE"]["id"] = self.identity.mint_id(name, group)
+                
                 path = os.path.join(self.output_dir, fname)
                 with open(path, 'w', encoding='utf-8') as f:
                     json.dump(res, f, indent=2)
-                print(colored(" DONE", "green"))
+                print(colored(f" DONE (ID: {res['CORE']['id']})", "green"))
             else:
                 print(colored(f" FAIL (Structure mismatch). Keys: {list(res.keys())}", "red"))
                 

@@ -1,46 +1,61 @@
-import sys
-import os
+"""
+WMCS v1.0 Stress Test
+Tests all cognitive engines with diverse queries.
+"""
+from system_a_cognitive.cognitive_loop import CognitiveLoop
 from termcolor import colored
 
-# Ensure we can import system modules
-sys.path.append(os.getcwd())
-from main import WMCS_Kernel
-
-def run_stress_test():
-    print(colored("### INITIALIZING STRESS TEST ###", "magenta", attrs=['bold']))
-    wmcs = WMCS_Kernel()
-    wmcs.load_data()
+def stress_test():
+    loop = CognitiveLoop()
     
     tests = [
-        {
-            "name": "Category Error (Logic Check)",
-            "query": "Can the concept of Justice eat food?",
-            "expectation": "Should identifying Type Mismatch (Abstract vs Living)."
-        },
-        {
-            "name": "Compositional Property (Deep Recursion)",
-            "query": "Is a Red Cat capable of silent walking?",
-            "expectation": "Should traverse Cat -> Paw -> Adipose Pads -> Silent Walk. Should ignore 'Red'."
-        },
-        {
-            "name": "Unknown Entity (Safety Check)",
-            "query": "Is a Glorp dangerous to humans?",
-            "expectation": "Should cite Ambiguity/Unknown status and refuse to guess."
-        }
+        ("Spatial", "Can the Moon fit inside Earth?"),
+        ("Composition", "What is Jupiter made of?"),
+        ("Analogy", "How is Saturn like Jupiter?"),
+        ("Counterfactual", "What would happen if Mars disappeared?"),
+        ("Causal", "Why does Earth have an atmosphere?"),
+        ("Graph", "What is related to the Sun?"),
+        ("General", "Tell me about Venus"),
+        ("Spatial 2", "How big is the Sun compared to Earth?"),
+        ("Composition 2", "What are the layers of the Sun?"),
+        ("Graph 2", "What orbits Jupiter?"),
     ]
     
-    for i, test in enumerate(tests):
-        print("\n" + "="*60)
-        print(colored(f"TEST {i+1}: {test['name']}", "yellow", attrs=['bold']))
-        print(f"Query: {test['query']}")
-        print(f"Expectation: {test['expectation']}")
-        print("-" * 60)
-        
-        response = wmcs.process_query(test['query'])
-        
-        print(colored("\n>>> SYSTEM RESPONSE:", "green"))
-        print(response)
-        print("="*60 + "\n")
+    print(colored("=== WMCS v1.0 STRESS TEST ===", "magenta", attrs=["bold"]))
+    
+    passed = 0
+    failed = 0
+    
+    for category, query in tests:
+        print(colored(f"\n[{category}] {query}", "cyan"))
+        try:
+            result = loop.process(query)
+            engines = result["engines_used"]
+            confidence = result["confidence"] * 100
+            concepts = len(result["concepts_used"])
+            answer = result["answer"][:120].replace("\n", " ")
+            
+            print(f"  Engines: {engines}")
+            print(f"  Confidence: {confidence:.0f}%")
+            print(f"  Concepts Used: {concepts}")
+            print(f"  Answer: {answer}...")
+            
+            if concepts > 0:
+                print(colored("  ✓ PASS", "green"))
+                passed += 1
+            else:
+                print(colored("  ✗ FAIL (no concepts)", "red"))
+                failed += 1
+                
+        except Exception as e:
+            print(colored(f"  ✗ ERROR: {e}", "red"))
+            failed += 1
+    
+    print(colored("\n=== STRESS TEST COMPLETE ===", "magenta", attrs=["bold"]))
+    print(f"Passed: {passed}/{len(tests)}")
+    print(f"Failed: {failed}/{len(tests)}")
+    
+    return passed, failed
 
 if __name__ == "__main__":
-    run_stress_test()
+    stress_test()
