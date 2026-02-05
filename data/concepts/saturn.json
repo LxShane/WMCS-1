@@ -44,11 +44,17 @@
           "components": [
             {
               "name": "Hydrogen",
-              "ref": "H2"
+              "ref": {
+                "group": 20,
+                "item": 1005
+              }
             },
             {
               "name": "Helium",
-              "ref": "He"
+              "ref": {
+                "group": 20,
+                "item": 1007
+              }
             }
           ]
         },
@@ -58,11 +64,17 @@
           "components": [
             {
               "name": "Methane",
-              "ref": "CH4"
+              "ref": {
+                "group": 20,
+                "item": 10046
+              }
             },
             {
               "name": "Ammonia",
-              "ref": "NH3"
+              "ref": {
+                "group": 20,
+                "item": 10001
+              }
             },
             {
               "name": "Water Ice",
@@ -109,7 +121,10 @@
   },
   "CAUSATION": {
     "requires": [
-      "gravity",
+      {
+        "group": 20,
+        "item": 1001
+      },
       "nuclear fusion (in the Sun)",
       "initial angular momentum"
     ],
@@ -123,7 +138,10 @@
     "relational": [
       {
         "relation": "orbits",
-        "target": "Sun"
+        "target": {
+          "group": 20,
+          "item": 1004
+        }
       },
       {
         "relation": "has moons",

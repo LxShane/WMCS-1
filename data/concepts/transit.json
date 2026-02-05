@@ -50,7 +50,10 @@
             },
             {
               "name": "Vehicle",
-              "ref": "vehicle.transit"
+              "ref": {
+                "group": 30,
+                "item": 1006
+              }
             },
             {
               "name": "Route",
@@ -113,7 +116,10 @@
     "relational": [
       {
         "relation": "depends on",
-        "target": "infrastructure"
+        "target": {
+          "group": 23,
+          "item": 1003
+        }
       },
       {
         "relation": "impacts",
@@ -121,7 +127,10 @@
       },
       {
         "relation": "requires",
-        "target": "energy"
+        "target": {
+          "group": 50,
+          "item": 1005
+        }
       }
     ]
   },

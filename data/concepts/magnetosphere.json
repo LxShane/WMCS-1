@@ -42,11 +42,17 @@
           "components": [
             {
               "name": "Plasma",
-              "ref": "ionized gas"
+              "ref": {
+                "group": 20,
+                "item": 1002
+              }
             },
             {
               "name": "Magnetic Field Lines",
-              "ref": "magnetic field"
+              "ref": {
+                "group": 50,
+                "item": 1002
+              }
             }
           ]
         }
@@ -111,7 +117,10 @@
     "relational": [
       {
         "relation": "shields",
-        "target": "Planet",
+        "target": {
+          "group": 20,
+          "item": 1010
+        },
         "description": "Shields the planet from harmful solar wind particles."
       },
       {

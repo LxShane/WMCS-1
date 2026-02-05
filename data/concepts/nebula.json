@@ -42,11 +42,17 @@
           "components": [
             {
               "name": "Hydrogen",
-              "ref": "H"
+              "ref": {
+                "group": 50,
+                "item": 3456
+              }
             },
             {
               "name": "Helium",
-              "ref": "He"
+              "ref": {
+                "group": 20,
+                "item": 1007
+              }
             },
             {
               "name": "Dust",
@@ -60,11 +66,17 @@
           "components": [
             {
               "name": "Oxygen",
-              "ref": "O"
+              "ref": {
+                "group": 20,
+                "item": 1002
+              }
             },
             {
               "name": "Nitrogen",
-              "ref": "N"
+              "ref": {
+                "group": 20,
+                "item": 1007
+              }
             },
             {
               "name": "Other ionized gases",
@@ -111,8 +123,14 @@
   },
   "CAUSATION": {
     "requires": [
-      "gravity",
-      "interstellar medium",
+      {
+        "group": 20,
+        "item": 1001
+      },
+      {
+        "group": 34,
+        "item": 1006
+      },
       "energy source (e.g., star)"
     ],
     "produces": [

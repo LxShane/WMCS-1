@@ -44,11 +44,17 @@
           "components": [
             {
               "name": "Planets",
-              "ref": "planet"
+              "ref": {
+                "group": 20,
+                "item": 1010
+              }
             },
             {
               "name": "Stars",
-              "ref": "star"
+              "ref": {
+                "group": 30,
+                "item": 1002
+              }
             },
             {
               "name": "Observer's Position",
@@ -115,7 +121,10 @@
       },
       {
         "relation": "related_to",
-        "target": "Orbital Period"
+        "target": {
+          "group": 20,
+          "item": 3344
+        }
       }
     ]
   },

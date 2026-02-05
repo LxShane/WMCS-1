@@ -40,11 +40,17 @@
           "components": [
             {
               "name": "Stars",
-              "ref": "star"
+              "ref": {
+                "group": 30,
+                "item": 1002
+              }
             },
             {
               "name": "Interstellar Gas",
-              "ref": "gas"
+              "ref": {
+                "group": 20,
+                "item": 4568
+              }
             },
             {
               "name": "Dust",
@@ -52,11 +58,17 @@
             },
             {
               "name": "Dark Matter",
-              "ref": "dark_matter"
+              "ref": {
+                "group": 50,
+                "item": 1234
+              }
             },
             {
               "name": "Black Holes",
-              "ref": "black_hole"
+              "ref": {
+                "group": 30,
+                "item": 1002
+              }
             }
           ]
         }
@@ -99,7 +111,10 @@
   },
   "CAUSATION": {
     "requires": [
-      "gravity",
+      {
+        "group": 20,
+        "item": 1001
+      },
       "initial_density_fluctuations"
     ],
     "produces": [
@@ -115,7 +130,10 @@
       },
       {
         "relation": "orbital_relationship",
-        "target": "stars"
+        "target": {
+          "group": 20,
+          "item": 1005
+        }
       }
     ]
   },

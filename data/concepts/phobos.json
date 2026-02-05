@@ -45,7 +45,10 @@
             },
             {
               "name": "Ice",
-              "ref": "H2O"
+              "ref": {
+                "group": 20,
+                "item": 1235
+              }
             },
             {
               "name": "Carbonaceous Chondrites",
@@ -94,11 +97,17 @@
     "relational": [
       {
         "relation": "orbits",
-        "target": "Mars"
+        "target": {
+          "group": 20,
+          "item": 10043
+        }
       },
       {
         "relation": "gravitationally interacts with",
-        "target": "Deimos"
+        "target": {
+          "group": 20,
+          "item": 10012
+        }
       }
     ]
   },

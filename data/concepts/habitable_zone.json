@@ -47,7 +47,10 @@
           "components": [
             {
               "name": "Radiation",
-              "ref": "electromagnetic radiation"
+              "ref": {
+                "group": 30,
+                "item": 1234
+              }
             },
             {
               "name": "Planetary Atmospheres",
@@ -99,7 +102,10 @@
       "planetary atmospheric pressure"
     ],
     "produces": [
-      "liquid water",
+      {
+        "group": 20,
+        "item": 1236
+      },
       "potential for life",
       "stable climate"
     ]

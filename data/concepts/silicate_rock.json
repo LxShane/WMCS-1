@@ -124,7 +124,10 @@
       "geological processes (e.g., volcanism, sedimentation, metamorphism)"
     ],
     "produces": [
-      "soil",
+      {
+        "group": 20,
+        "item": 8765
+      },
       "sediment",
       "building materials",
       "mineral resources"
@@ -138,7 +141,10 @@
       },
       {
         "relation": "underlies",
-        "target": "soil"
+        "target": {
+          "group": 20,
+          "item": 8765
+        }
       },
       {
         "relation": "source of",

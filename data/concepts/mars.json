@@ -43,15 +43,24 @@
           "components": [
             {
               "name": "Iron",
-              "ref": "core"
+              "ref": {
+                "group": 20,
+                "item": 10008
+              }
             },
             {
               "name": "Silicon",
-              "ref": "mantle"
+              "ref": {
+                "group": 20,
+                "item": 10042
+              }
             },
             {
               "name": "Oxygen",
-              "ref": "crust"
+              "ref": {
+                "group": 20,
+                "item": 10010
+              }
             }
           ]
         },
@@ -61,15 +70,24 @@
           "components": [
             {
               "name": "Carbon Dioxide",
-              "ref": "atmosphere"
+              "ref": {
+                "group": 21,
+                "item": 1122
+              }
             },
             {
               "name": "Nitrogen",
-              "ref": "atmosphere"
+              "ref": {
+                "group": 21,
+                "item": 1122
+              }
             },
             {
               "name": "Argon",
-              "ref": "atmosphere"
+              "ref": {
+                "group": 21,
+                "item": 1122
+              }
             }
           ]
         }
@@ -112,7 +130,10 @@
   },
   "CAUSATION": {
     "requires": [
-      "gravitational collapse",
+      {
+        "group": 50,
+        "item": 1003
+      },
       "planetary accretion"
     ],
     "produces": [
@@ -124,7 +145,10 @@
     "relational": [
       {
         "relation": "orbits",
-        "target": "Sun"
+        "target": {
+          "group": 20,
+          "item": 1004
+        }
       },
       {
         "relation": "has moons",

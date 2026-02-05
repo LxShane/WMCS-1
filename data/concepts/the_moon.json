@@ -47,7 +47,10 @@
           "components": [
             {
               "name": "Oxygen",
-              "ref": "O"
+              "ref": {
+                "group": 20,
+                "item": 1002
+              }
             },
             {
               "name": "Silicon",
@@ -59,15 +62,24 @@
             },
             {
               "name": "Iron",
-              "ref": "Fe"
+              "ref": {
+                "group": 20,
+                "item": 10033
+              }
             },
             {
               "name": "Calcium",
-              "ref": "Ca"
+              "ref": {
+                "group": 30,
+                "item": 2346
+              }
             },
             {
               "name": "Aluminum",
-              "ref": "Al"
+              "ref": {
+                "group": 30,
+                "item": 1235
+              }
             },
             {
               "name": "Titanium",
@@ -127,15 +139,24 @@
     "relational": [
       {
         "relation": "orbits",
-        "target": "Earth"
+        "target": {
+          "group": 20,
+          "item": 10014
+        }
       },
       {
         "relation": "experiences tidal locking with",
-        "target": "Earth"
+        "target": {
+          "group": 20,
+          "item": 10014
+        }
       },
       {
         "relation": "is influenced by",
-        "target": "Sun"
+        "target": {
+          "group": 20,
+          "item": 1004
+        }
       }
     ]
   },

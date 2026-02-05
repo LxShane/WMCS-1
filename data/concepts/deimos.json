@@ -94,7 +94,10 @@
   "CAUSATION": {
     "requires": [
       "gravitational capture by Mars",
-      "accretion"
+      {
+        "group": 50,
+        "item": 1003
+      }
     ],
     "produces": [
       "tidal forces on Mars (minimal)",
@@ -105,11 +108,17 @@
     "relational": [
       {
         "relation": "orbits",
-        "target": "Mars"
+        "target": {
+          "group": 20,
+          "item": 10043
+        }
       },
       {
         "relation": "tidally locked",
-        "target": "Mars"
+        "target": {
+          "group": 20,
+          "item": 10043
+        }
       }
     ]
   },

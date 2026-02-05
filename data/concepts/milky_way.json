@@ -44,11 +44,17 @@
           "components": [
             {
               "name": "Stars",
-              "ref": "star"
+              "ref": {
+                "group": 30,
+                "item": 1002
+              }
             },
             {
               "name": "Gas (Hydrogen, Helium)",
-              "ref": "hydrogen"
+              "ref": {
+                "group": 20,
+                "item": 1005
+              }
             },
             {
               "name": "Dust",
@@ -56,15 +62,24 @@
             },
             {
               "name": "Dark Matter",
-              "ref": "dark matter"
+              "ref": {
+                "group": 50,
+                "item": 1234
+              }
             },
             {
               "name": "Plasma",
-              "ref": "plasma"
+              "ref": {
+                "group": 20,
+                "item": 1002
+              }
             },
             {
               "name": "Supermassive Black Hole",
-              "ref": "black hole"
+              "ref": {
+                "group": 30,
+                "item": 1002
+              }
             }
           ]
         }
@@ -143,7 +158,10 @@
       },
       {
         "relation": "contains",
-        "target": "Solar System"
+        "target": {
+          "group": 25,
+          "item": 1001
+        }
       },
       {
         "relation": "interacts with",

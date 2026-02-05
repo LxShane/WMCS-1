@@ -49,7 +49,10 @@
             },
             {
               "name": "Ice",
-              "ref": "water_ice"
+              "ref": {
+                "group": 20,
+                "item": 1235
+              }
             }
           ]
         },
@@ -124,7 +127,10 @@
     "relational": [
       {
         "relation": "orbits",
-        "target": "Sun"
+        "target": {
+          "group": 20,
+          "item": 1004
+        }
       },
       {
         "relation": "has_moon",

@@ -42,11 +42,17 @@
           "components": [
             {
               "name": "Hydrogen",
-              "ref": "H"
+              "ref": {
+                "group": 50,
+                "item": 3456
+              }
             },
             {
               "name": "Helium",
-              "ref": "He"
+              "ref": {
+                "group": 20,
+                "item": 1007
+              }
             }
           ]
         },
@@ -56,15 +62,24 @@
           "components": [
             {
               "name": "Oxygen",
-              "ref": "O"
+              "ref": {
+                "group": 20,
+                "item": 1002
+              }
             },
             {
               "name": "Carbon",
-              "ref": "C"
+              "ref": {
+                "group": 20,
+                "item": 5678
+              }
             },
             {
               "name": "Iron",
-              "ref": "Fe"
+              "ref": {
+                "group": 20,
+                "item": 10033
+              }
             },
             {
               "name": "Neon",
@@ -139,13 +154,25 @@
   "CAUSATION": {
     "requires": [
       "sufficient mass",
-      "gravitational collapse"
+      {
+        "group": 50,
+        "item": 1003
+      }
     ],
     "produces": [
-      "light",
-      "heat",
+      {
+        "group": 20,
+        "item": 9991
+      },
+      {
+        "group": 20,
+        "item": 3456
+      },
       "solar wind",
-      "electromagnetic radiation"
+      {
+        "group": 30,
+        "item": 1234
+      }
     ]
   },
   "CONNECTIONS": {
@@ -160,7 +187,10 @@
       },
       {
         "relation": "gravitationally bound to",
-        "target": "Solar System"
+        "target": {
+          "group": 25,
+          "item": 1001
+        }
       }
     ]
   },

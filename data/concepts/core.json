@@ -40,15 +40,24 @@
           "components": [
             {
               "name": "Cells",
-              "ref": "Cell"
+              "ref": {
+                "group": 21,
+                "item": 1001
+              }
             },
             {
               "name": "Extracellular Matrix",
-              "ref": "ECM"
+              "ref": {
+                "group": 20,
+                "item": 1234
+              }
             },
             {
               "name": "Blood Vessels",
-              "ref": "Vascular Tissue"
+              "ref": {
+                "group": 32,
+                "item": 7890
+              }
             }
           ]
         }
@@ -91,8 +100,14 @@
   },
   "CAUSATION": {
     "requires": [
-      "nutrients",
-      "oxygen",
+      {
+        "group": 21,
+        "item": 1006
+      },
+      {
+        "group": 20,
+        "item": 1002
+      },
       "regulatory signals"
     ],
     "produces": [
@@ -105,7 +120,10 @@
     "relational": [
       {
         "type": "input",
-        "target": "Core",
+        "target": {
+          "group": 20,
+          "item": 10008
+        },
         "process": "Regulation",
         "description": "Receives regulatory signals from other organs or systems."
       },

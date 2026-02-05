@@ -45,15 +45,24 @@
           "components": [
             {
               "name": "Hydrogen",
-              "ref": "H2"
+              "ref": {
+                "group": 20,
+                "item": 1005
+              }
             },
             {
               "name": "Helium",
-              "ref": "He"
+              "ref": {
+                "group": 20,
+                "item": 1007
+              }
             },
             {
               "name": "Ammonia",
-              "ref": "NH3"
+              "ref": {
+                "group": 20,
+                "item": 10001
+              }
             },
             {
               "name": "Ammonium Hydrosulfide",
@@ -118,7 +127,10 @@
     "relational": [
       {
         "relation_type": "location",
-        "target": "Jupiter",
+        "target": {
+          "group": 20,
+          "item": 10036
+        },
         "description": "Located in Jupiter's southern hemisphere"
       },
       {

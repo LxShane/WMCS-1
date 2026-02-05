@@ -43,23 +43,38 @@
           "components": [
             {
               "name": "Iron",
-              "ref": "core"
+              "ref": {
+                "group": 20,
+                "item": 10008
+              }
             },
             {
               "name": "Oxygen",
-              "ref": "mantle"
+              "ref": {
+                "group": 20,
+                "item": 10042
+              }
             },
             {
               "name": "Silicon",
-              "ref": "crust"
+              "ref": {
+                "group": 20,
+                "item": 10010
+              }
             },
             {
               "name": "Magnesium",
-              "ref": "mantle"
+              "ref": {
+                "group": 20,
+                "item": 10042
+              }
             },
             {
               "name": "Aluminum",
-              "ref": "crust"
+              "ref": {
+                "group": 20,
+                "item": 10010
+              }
             }
           ]
         }
@@ -113,12 +128,18 @@
     "requires": [
       "stellar formation",
       "gravitational accretion",
-      "differentiation"
+      {
+        "group": 20,
+        "item": 1239
+      }
     ],
     "produces": [
       "life",
       "plate tectonics",
-      "magnetic field",
+      {
+        "group": 50,
+        "item": 1002
+      },
       "climate"
     ]
   },
@@ -126,7 +147,10 @@
     "relational": [
       {
         "relation": "orbits",
-        "target": "Sun"
+        "target": {
+          "group": 20,
+          "item": 1004
+        }
       },
       {
         "relation": "has moon",

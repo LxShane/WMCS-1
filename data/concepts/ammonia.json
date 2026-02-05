@@ -41,11 +41,17 @@
           "components": [
             {
               "name": "Nitrogen",
-              "ref": "N"
+              "ref": {
+                "group": 20,
+                "item": 1007
+              }
             },
             {
               "name": "Hydrogen",
-              "ref": "H"
+              "ref": {
+                "group": 50,
+                "item": 3456
+              }
             }
           ]
         }
@@ -118,7 +124,10 @@
       },
       {
         "relation": "dissolves in",
-        "target": "Water"
+        "target": {
+          "group": 20,
+          "item": 1237
+        }
       },
       {
         "relation": "reacts with",

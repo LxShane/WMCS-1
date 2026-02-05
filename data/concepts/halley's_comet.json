@@ -56,7 +56,10 @@
             },
             {
               "name": "Carbon Dioxide",
-              "ref": "CO2"
+              "ref": {
+                "group": 20,
+                "item": 1008
+              }
             }
           ]
         },
@@ -66,11 +69,17 @@
           "components": [
             {
               "name": "Methane",
-              "ref": "CH4"
+              "ref": {
+                "group": 20,
+                "item": 10046
+              }
             },
             {
               "name": "Ammonia",
-              "ref": "NH3"
+              "ref": {
+                "group": 20,
+                "item": 10001
+              }
             },
             {
               "name": "Formaldehyde",
@@ -139,7 +148,10 @@
     "relational": [
       {
         "relation": "Orbital Relationship",
-        "target": "Sun"
+        "target": {
+          "group": 20,
+          "item": 1004
+        }
       },
       {
         "relation": "Meteor Shower Source",

@@ -44,11 +44,17 @@
           "components": [
             {
               "name": "Nitrogen",
-              "ref": "N2"
+              "ref": {
+                "group": 20,
+                "item": 1007
+              }
             },
             {
               "name": "Oxygen",
-              "ref": "O2"
+              "ref": {
+                "group": 20,
+                "item": 1002
+              }
             },
             {
               "name": "Atomic Oxygen",
@@ -56,7 +62,10 @@
             },
             {
               "name": "Electrons",
-              "ref": "e-"
+              "ref": {
+                "group": 20,
+                "item": 1005
+              }
             }
           ]
         }
@@ -101,7 +110,10 @@
     "requires": [
       "solar wind",
       "Earth's magnetic field",
-      "atmosphere"
+      {
+        "group": 21,
+        "item": 1122
+      }
     ],
     "produces": [
       "light emission",

@@ -52,15 +52,24 @@
           "components": [
             {
               "name": "Water",
-              "ref": "H2O"
+              "ref": {
+                "group": 20,
+                "item": 1237
+              }
             },
             {
               "name": "Proteins",
-              "ref": "Protein"
+              "ref": {
+                "group": 22,
+                "item": 1000
+              }
             },
             {
               "name": "Lipids",
-              "ref": "Lipid"
+              "ref": {
+                "group": 20,
+                "item": 1237
+              }
             },
             {
               "name": "Nucleic Acids",
@@ -108,11 +117,20 @@
   "CAUSATION": {
     "requires": [
       "specific environmental conditions (e.g., high temperature)",
-      "nutrients",
-      "water"
+      {
+        "group": 21,
+        "item": 1006
+      },
+      {
+        "group": 20,
+        "item": 1237
+      }
     ],
     "produces": [
-      "energy",
+      {
+        "group": 50,
+        "item": 1005
+      },
       "biomass",
       "waste products",
       "adapted enzymes"

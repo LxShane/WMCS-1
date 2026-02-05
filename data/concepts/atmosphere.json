@@ -43,11 +43,17 @@
           "components": [
             {
               "name": "Nitrogen",
-              "ref": "N2"
+              "ref": {
+                "group": 20,
+                "item": 1007
+              }
             },
             {
               "name": "Oxygen",
-              "ref": "O2"
+              "ref": {
+                "group": 20,
+                "item": 1002
+              }
             },
             {
               "name": "Argon",
@@ -61,15 +67,24 @@
           "components": [
             {
               "name": "Carbon Dioxide",
-              "ref": "CO2"
+              "ref": {
+                "group": 20,
+                "item": 1008
+              }
             },
             {
               "name": "Water Vapor",
-              "ref": "H2O"
+              "ref": {
+                "group": 20,
+                "item": 1237
+              }
             },
             {
               "name": "Methane",
-              "ref": "CH4"
+              "ref": {
+                "group": 20,
+                "item": 10046
+              }
             }
           ]
         }
@@ -112,11 +127,17 @@
   },
   "CAUSATION": {
     "requires": [
-      "Gravity",
+      {
+        "group": 20,
+        "item": 1001
+      },
       "Gaseous molecules"
     ],
     "produces": [
-      "Weather",
+      {
+        "group": 50,
+        "item": 2468
+      },
       "Climate",
       "Protection from radiation"
     ]
@@ -129,7 +150,10 @@
       },
       {
         "type": "influences",
-        "target": "Temperature"
+        "target": {
+          "group": 20,
+          "item": 5432
+        }
       }
     ]
   },

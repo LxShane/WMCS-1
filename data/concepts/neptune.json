@@ -44,23 +44,38 @@
           "components": [
             {
               "name": "Hydrogen",
-              "ref": "H2"
+              "ref": {
+                "group": 20,
+                "item": 1005
+              }
             },
             {
               "name": "Helium",
-              "ref": "He"
+              "ref": {
+                "group": 20,
+                "item": 1007
+              }
             },
             {
               "name": "Methane",
-              "ref": "CH4"
+              "ref": {
+                "group": 20,
+                "item": 10046
+              }
             },
             {
               "name": "Water",
-              "ref": "H2O"
+              "ref": {
+                "group": 20,
+                "item": 1237
+              }
             },
             {
               "name": "Ammonia",
-              "ref": "NH3"
+              "ref": {
+                "group": 20,
+                "item": 10001
+              }
             }
           ]
         }
@@ -112,7 +127,10 @@
   },
   "CAUSATION": {
     "requires": [
-      "gravitational collapse",
+      {
+        "group": 50,
+        "item": 1003
+      },
       "accretion of matter"
     ],
     "produces": [
@@ -125,7 +143,10 @@
     "relational": [
       {
         "relation": "orbital relationship",
-        "target": "Sun",
+        "target": {
+          "group": 20,
+          "item": 1004
+        },
         "description": "Neptune orbits the Sun."
       },
       {

@@ -46,7 +46,10 @@
           "components": [
             {
               "name": "Helium",
-              "ref": "He"
+              "ref": {
+                "group": 20,
+                "item": 1007
+              }
             }
           ]
         }
@@ -93,11 +96,17 @@
     "relational": [
       {
         "relation": "used in",
-        "target": "cryogenics"
+        "target": {
+          "group": 50,
+          "item": 1234
+        }
       },
       {
         "relation": "component of",
-        "target": "stars"
+        "target": {
+          "group": 20,
+          "item": 1005
+        }
       },
       {
         "relation": "alternative to",

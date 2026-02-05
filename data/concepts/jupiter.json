@@ -42,11 +42,17 @@
           "components": [
             {
               "name": "Hydrogen",
-              "ref": "H2"
+              "ref": {
+                "group": 20,
+                "item": 1005
+              }
             },
             {
               "name": "Helium",
-              "ref": "He"
+              "ref": {
+                "group": 20,
+                "item": 1007
+              }
             }
           ]
         },
@@ -56,15 +62,24 @@
           "components": [
             {
               "name": "Methane",
-              "ref": "CH4"
+              "ref": {
+                "group": 20,
+                "item": 10046
+              }
             },
             {
               "name": "Ammonia",
-              "ref": "NH3"
+              "ref": {
+                "group": 20,
+                "item": 10001
+              }
             },
             {
               "name": "Water",
-              "ref": "H2O"
+              "ref": {
+                "group": 20,
+                "item": 1237
+              }
             }
           ]
         }
@@ -111,7 +126,10 @@
       "solar nebula"
     ],
     "produces": [
-      "magnetosphere",
+      {
+        "group": 20,
+        "item": 10040
+      },
       "planetary rings",
       "orbital influence on asteroids"
     ]
@@ -120,7 +138,10 @@
     "relational": [
       {
         "relation": "orbits",
-        "target": "Sun"
+        "target": {
+          "group": 20,
+          "item": 1004
+        }
       },
       {
         "relation": "has moons",

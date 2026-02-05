@@ -68,11 +68,17 @@
             },
             {
               "name": "Calcium",
-              "ref": "calcium"
+              "ref": {
+                "group": 30,
+                "item": 2346
+              }
             },
             {
               "name": "Aluminum",
-              "ref": "aluminum"
+              "ref": {
+                "group": 30,
+                "item": 1235
+              }
             }
           ]
         }
@@ -116,23 +122,38 @@
   "CAUSATION": {
     "requires": [
       "planetary accretion",
-      "differentiation"
+      {
+        "group": 20,
+        "item": 1239
+      }
     ],
     "produces": [
       "tectonic plates",
-      "volcanism",
-      "weathering"
+      {
+        "group": 20,
+        "item": 10079
+      },
+      {
+        "group": 50,
+        "item": 4567
+      }
     ]
   },
   "CONNECTIONS": {
     "relational": [
       {
         "relation": "overlies",
-        "target": "mantle"
+        "target": {
+          "group": 20,
+          "item": 10042
+        }
       },
       {
         "relation": "interacts with",
-        "target": "atmosphere"
+        "target": {
+          "group": 21,
+          "item": 1122
+        }
       },
       {
         "relation": "forms",

@@ -42,11 +42,17 @@
           "components": [
             {
               "name": "Carbon",
-              "ref": "C"
+              "ref": {
+                "group": 20,
+                "item": 5678
+              }
             },
             {
               "name": "Hydrogen",
-              "ref": "H"
+              "ref": {
+                "group": 50,
+                "item": 3456
+              }
             }
           ]
         }
@@ -107,13 +113,28 @@
   },
   "CAUSATION": {
     "requires": [
-      "Carbon",
-      "Hydrogen"
+      {
+        "group": 20,
+        "item": 5678
+      },
+      {
+        "group": 20,
+        "item": 1005
+      }
     ],
     "produces": [
-      "Carbon dioxide",
-      "Water",
-      "Energy"
+      {
+        "group": 20,
+        "item": 1008
+      },
+      {
+        "group": 20,
+        "item": 1237
+      },
+      {
+        "group": 50,
+        "item": 1005
+      }
     ]
   },
   "CONNECTIONS": {
@@ -124,7 +145,10 @@
       },
       {
         "relation": "Contributes to",
-        "target": "Greenhouse effect"
+        "target": {
+          "group": 50,
+          "item": 1234
+        }
       }
     ]
   },

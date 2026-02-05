@@ -45,11 +45,17 @@
             },
             {
               "name": "Metal",
-              "ref": "iron, nickel"
+              "ref": {
+                "group": 20,
+                "item": 6789
+              }
             },
             {
               "name": "Ice",
-              "ref": "water, methane, ammonia"
+              "ref": {
+                "group": 20,
+                "item": 1235
+              }
             }
           ]
         }
@@ -92,8 +98,14 @@
   },
   "CAUSATION": {
     "requires": [
-      "protoplanetary disk",
-      "gravitational influence"
+      {
+        "group": 28,
+        "item": 1237
+      },
+      {
+        "group": 20,
+        "item": 4567
+      }
     ],
     "produces": [
       "meteor showers",
@@ -104,7 +116,10 @@
     "relational": [
       {
         "relation": "Gravitational Influence",
-        "target": "Jupiter",
+        "target": {
+          "group": 20,
+          "item": 10036
+        },
         "description": "Jupiter's gravity prevents the asteroid belt from coalescing into a planet."
       },
       {

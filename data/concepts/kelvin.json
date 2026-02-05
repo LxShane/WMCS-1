@@ -42,7 +42,10 @@
           "components": [
             {
               "name": "Energy",
-              "ref": "joule"
+              "ref": {
+                "group": 50,
+                "item": 1005
+              }
             }
           ]
         }
@@ -76,7 +79,10 @@
   },
   "CAUSATION": {
     "requires": [
-      "energy transfer",
+      {
+        "group": 50,
+        "item": 1007
+      },
       "statistical equilibrium"
     ],
     "produces": [
@@ -88,7 +94,10 @@
     "relational": [
       {
         "relation": "is_unit_of",
-        "target": "temperature"
+        "target": {
+          "group": 20,
+          "item": 5432
+        }
       },
       {
         "relation": "related_to",

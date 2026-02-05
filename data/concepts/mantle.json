@@ -67,11 +67,17 @@
           "components": [
             {
               "name": "Calcium",
-              "ref": "Ca"
+              "ref": {
+                "group": 30,
+                "item": 2346
+              }
             },
             {
               "name": "Aluminum",
-              "ref": "Al"
+              "ref": {
+                "group": 30,
+                "item": 1235
+              }
             },
             {
               "name": "Sodium",
@@ -151,7 +157,10 @@
     "produces": [
       "mantle convection",
       "plate tectonics",
-      "volcanism",
+      {
+        "group": 20,
+        "item": 10079
+      },
       "geochemical cycling"
     ]
   },

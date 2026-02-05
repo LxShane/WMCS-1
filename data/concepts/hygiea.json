@@ -46,19 +46,31 @@
           "components": [
             {
               "name": "Peptidoglycan",
-              "ref": "cell_wall"
+              "ref": {
+                "group": 21,
+                "item": 1001
+              }
             },
             {
               "name": "Teichoic Acid",
-              "ref": "cell_wall"
+              "ref": {
+                "group": 21,
+                "item": 1001
+              }
             },
             {
               "name": "Cytoplasmic Membrane",
-              "ref": "membrane"
+              "ref": {
+                "group": 20,
+                "item": 9012
+              }
             },
             {
               "name": "DNA",
-              "ref": "genetic_material"
+              "ref": {
+                "group": 20,
+                "item": 1002
+              }
             },
             {
               "name": "Ribosomes",
@@ -115,7 +127,10 @@
   "CAUSATION": {
     "requires": [
       "Nutrients (e.g., sugars, amino acids)",
-      "Water",
+      {
+        "group": 20,
+        "item": 1237
+      },
       "Suitable temperature",
       "Absence of inhibitory substances"
     ],
@@ -123,7 +138,10 @@
       "Cell division",
       "Spores (under stress)",
       "Antimicrobial compounds",
-      "Carbon dioxide"
+      {
+        "group": 20,
+        "item": 1008
+      }
     ]
   },
   "CONNECTIONS": {

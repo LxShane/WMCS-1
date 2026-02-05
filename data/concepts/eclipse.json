@@ -43,11 +43,17 @@
           "components": [
             {
               "name": "Sun",
-              "ref": "solar_star"
+              "ref": {
+                "group": 20,
+                "item": 1004
+              }
             },
             {
               "name": "Earth",
-              "ref": "terrestrial_planet"
+              "ref": {
+                "group": 20,
+                "item": 10014
+              }
             },
             {
               "name": "Moon",
@@ -95,7 +101,10 @@
   "CAUSATION": {
     "requires": [
       "alignment of celestial bodies",
-      "orbital mechanics"
+      {
+        "group": 50,
+        "item": 1234
+      }
     ],
     "produces": [
       "shadow",

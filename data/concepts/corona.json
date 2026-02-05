@@ -47,15 +47,24 @@
           "components": [
             {
               "name": "RNA",
-              "ref": "single-stranded RNA genome"
+              "ref": {
+                "group": 22,
+                "item": 1236
+              }
             },
             {
               "name": "Proteins",
-              "ref": "spike (S), envelope (E), membrane (M), nucleocapsid (N)"
+              "ref": {
+                "group": 20,
+                "item": 1236
+              }
             },
             {
               "name": "Lipids",
-              "ref": "phospholipid bilayer envelope"
+              "ref": {
+                "group": 20,
+                "item": 1237
+              }
             }
           ]
         }
@@ -105,7 +114,10 @@
     "produces": [
       "viral replication",
       "host cell damage",
-      "immune response"
+      {
+        "group": 50,
+        "item": 1238
+      }
     ]
   },
   "CONNECTIONS": {
@@ -117,7 +129,10 @@
       },
       {
         "relation": "infects",
-        "target": "epithelial cells",
+        "target": {
+          "group": 21,
+          "item": 4567
+        },
         "type": "tissue tropism"
       }
     ]

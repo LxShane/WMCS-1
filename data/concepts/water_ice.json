@@ -44,7 +44,10 @@
           "components": [
             {
               "name": "H2O",
-              "ref": "water"
+              "ref": {
+                "group": 20,
+                "item": 1237
+              }
             }
           ]
         },
@@ -54,7 +57,10 @@
           "components": [
             {
               "name": "Dissolved Gases (e.g., N2, O2, Ar)",
-              "ref": "gas"
+              "ref": {
+                "group": 20,
+                "item": 4568
+              }
             },
             {
               "name": "Dissolved Minerals",
@@ -124,12 +130,18 @@
     "relational": [
       {
         "relation": "Phase transition",
-        "target": "Liquid water",
+        "target": {
+          "group": 20,
+          "item": 1236
+        },
         "condition": "Temperature above melting point"
       },
       {
         "relation": "Sublimation",
-        "target": "Water vapor",
+        "target": {
+          "group": 20,
+          "item": 1237
+        },
         "condition": "Low pressure and temperature"
       },
       {

@@ -45,7 +45,10 @@
           "components": [
             {
               "name": "Hydrogen",
-              "ref": "H"
+              "ref": {
+                "group": 50,
+                "item": 3456
+              }
             }
           ]
         }
@@ -79,20 +82,35 @@
   },
   "CAUSATION": {
     "requires": [
-      "nuclear_fusion",
+      {
+        "group": 50,
+        "item": 9012
+      },
       "electrolysis"
     ],
     "produces": [
-      "water",
-      "energy",
-      "ammonia"
+      {
+        "group": 20,
+        "item": 1237
+      },
+      {
+        "group": 50,
+        "item": 1005
+      },
+      {
+        "group": 20,
+        "item": 10001
+      }
     ]
   },
   "CONNECTIONS": {
     "relational": [
       {
         "relation": "forms_bond_with",
-        "target": "Oxygen",
+        "target": {
+          "group": 20,
+          "item": 1002
+        },
         "description": "Forms water (H2O)"
       },
       {

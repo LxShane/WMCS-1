@@ -47,11 +47,17 @@
           "components": [
             {
               "name": "Water",
-              "ref": "H2O"
+              "ref": {
+                "group": 20,
+                "item": 1237
+              }
             },
             {
               "name": "Cellulose",
-              "ref": "C6H10O5"
+              "ref": {
+                "group": 25,
+                "item": 1004
+              }
             },
             {
               "name": "Lignin",
@@ -59,7 +65,10 @@
             },
             {
               "name": "Proteins",
-              "ref": "amino_acid_chains"
+              "ref": {
+                "group": 20,
+                "item": 1236
+              }
             },
             {
               "name": "Sugars",
@@ -115,8 +124,14 @@
   },
   "CAUSATION": {
     "requires": [
-      "sunlight",
-      "water",
+      {
+        "group": 20,
+        "item": 1236
+      },
+      {
+        "group": 20,
+        "item": 1237
+      },
       "nutrients (especially nitrogen from insects)",
       "suitable soil"
     ],

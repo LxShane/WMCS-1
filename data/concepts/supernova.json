@@ -106,8 +106,14 @@
   "CAUSATION": {
     "requires": [
       "massive star",
-      "nuclear fusion",
-      "gravitational collapse"
+      {
+        "group": 50,
+        "item": 9012
+      },
+      {
+        "group": 50,
+        "item": 1003
+      }
     ],
     "produces": [
       "heavy elements",
@@ -128,7 +134,10 @@
       },
       {
         "relation": "cause",
-        "target": "gravitational collapse"
+        "target": {
+          "group": 50,
+          "item": 1003
+        }
       }
     ]
   },

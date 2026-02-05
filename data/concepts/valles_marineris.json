@@ -106,7 +106,10 @@
   "CAUSATION": {
     "requires": [
       "Tectonic activity",
-      "Erosion",
+      {
+        "group": 50,
+        "item": 7890
+      },
       "Volcanic activity"
     ],
     "produces": [
@@ -119,7 +122,10 @@
     "relational": [
       {
         "relation": "Located on",
-        "target": "Mars"
+        "target": {
+          "group": 20,
+          "item": 10043
+        }
       },
       {
         "relation": "Adjacent to",

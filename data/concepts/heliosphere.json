@@ -41,11 +41,17 @@
           "components": [
             {
               "name": "Plasma",
-              "ref": "Solar Wind"
+              "ref": {
+                "group": 20,
+                "item": 1002
+              }
             },
             {
               "name": "Magnetic Field",
-              "ref": "Solar Magnetic Field"
+              "ref": {
+                "group": 50,
+                "item": 1002
+              }
             }
           ]
         },
@@ -123,11 +129,17 @@
     "relational": [
       {
         "relation": "Influenced by",
-        "target": "Interstellar Medium"
+        "target": {
+          "group": 34,
+          "item": 1006
+        }
       },
       {
         "relation": "Contains",
-        "target": "Solar System"
+        "target": {
+          "group": 25,
+          "item": 1001
+        }
       }
     ]
   },
