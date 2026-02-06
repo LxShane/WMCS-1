@@ -1,0 +1,85 @@
+{
+  "timestamp": "2026-02-06T01:50:09.711487",
+  "test_type": "transfer_learning_intelligence",
+  "total_tests": 7,
+  "passed": 3,
+  "retention_score": 0,
+  "retention_total": 2,
+  "inference_score": 2,
+  "inference_total": 4,
+  "intelligence_score": 33.57142857142858,
+  "grade": "F",
+  "finding": "\u26a0\ufe0f The system can INFER but doesn't consistently RETAIN learned knowledge.",
+  "results": [
+    {
+      "phase": "1. LEARNING",
+      "query": "What is the structure of DNA?",
+      "expected": "RESEARCH_TRIGGERED",
+      "actual": "RESEARCH_TRIGGERED",
+      "passed": true,
+      "confidence": 0.1,
+      "research_triggered": true,
+      "time_ms": 108438
+    },
+    {
+      "phase": "2. RETENTION",
+      "query": "What are the four bases in DNA?",
+      "expected": "NO_RESEARCH",
+      "actual": "RESEARCH_TRIGGERED",
+      "passed": false,
+      "confidence": 0.1,
+      "research_triggered": true,
+      "time_ms": 149720
+    },
+    {
+      "phase": "2. RETENTION",
+      "query": "What holds DNA strands together?",
+      "expected": "NO_RESEARCH",
+      "actual": "RESEARCH_TRIGGERED",
+      "passed": false,
+      "confidence": 0.1,
+      "research_triggered": true,
+      "time_ms": 120414
+    },
+    {
+      "phase": "3. INFERENCE",
+      "query": "If DNA uses A-T and G-C base pairing, what would happen if a strand has the sequence ATGC?",
+      "expected": "INFERENCE",
+      "actual": "ANSWERED (conf=0.10)",
+      "passed": false,
+      "confidence": 0.1,
+      "research_triggered": true,
+      "time_ms": 126981
+    },
+    {
+      "phase": "3. INFERENCE",
+      "query": "Why is DNA's double helix structure important for replication?",
+      "expected": "INFERENCE",
+      "actual": "ANSWERED (conf=0.99)",
+      "passed": true,
+      "confidence": 0.99,
+      "research_triggered": false,
+      "time_ms": 0
+    },
+    {
+      "phase": "4. INTEGRATION",
+      "query": "How is DNA related to proteins?",
+      "expected": "INTEGRATION",
+      "actual": "ANSWERED (conf=0.10)",
+      "passed": false,
+      "confidence": 0.1,
+      "research_triggered": true,
+      "time_ms": 109064
+    },
+    {
+      "phase": "5. NOVEL APPLICATION",
+      "query": "If a mutation changed one DNA base, what might happen to the resulting protein?",
+      "expected": "NOVEL_INFERENCE",
+      "actual": "ANSWERED (conf=0.99)",
+      "passed": true,
+      "confidence": 0.99,
+      "research_triggered": false,
+      "time_ms": 0
+    }
+  ]
+}
